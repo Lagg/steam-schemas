@@ -16778,6 +16778,58 @@
 			"drop_sound"		"ui/item_medal_pickup.wav"
 		}
 		
+		"457"
+		{
+			"name"	"The Postal Pummeler"
+			"item_class"	"tf_weapon_fireaxe"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_modify_socket"	"1"
+				"can_gift_wrap" 	"1"
+			}
+			"item_logname"	"mailbox"
+			"item_iconname"	"mailbox"
+			"show_in_armory"	"1"
+			"item_name"	"#TF_Mailbox"
+			"item_type_name"	"#TF_Weapon_Mailbox"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_mailbox/c_mailbox"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_mailbox/c_mailbox.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"attributes"
+			{
+				"crit vs burning players"
+				{
+					"attribute_class"	"or_crit_vs_playercond"
+					"value"	"1"
+				}
+				"dmg penalty vs nonburning"
+				{
+					"attribute_class"	"mult_dmg_vs_nonburning"
+					"value"	"0.5"
+				}
+				"no crit vs nonburning"
+				{
+					"attribute_class"	"set_nocrit_vs_nonburning"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
+			"drop_sound"		"ui/item_wood_pole_drop.wav"
+		}
 		"459"
 		{
 			"name"	"Cosa Nostra Cap"
@@ -17165,6 +17217,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"paintable"		"1"
 			}
 			"loadondemand" "1"
 			"show_in_armory"	"1"
@@ -17375,7 +17428,560 @@
 				}
 			}
 		}
-				
+
+		"478"
+		{
+			"name"	"Copper's Hard Top"
+			"loadondemand" "1"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"				"1"
+				"can_modify_socket"		"1"
+				"can_craft_count"		"1"
+				"can_gift_wrap" 		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_CopHelmet"
+			"item_description"	"#TF_CopHelmet_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/heavy/cop_helmet"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/heavy/cop_helmet.mdl"
+			"drop_type"	"drop"
+			"propername"	"0"
+			"used_by_classes"
+			{
+				"heavy"		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"479"
+		{
+			"name"	"Security Shades"
+			"loadondemand" "1"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"				"1"
+				"can_modify_socket"		"1"
+				"can_craft_count"		"1"
+				"can_gift_wrap" 		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_CopGlasses"
+			"item_description"	"#TF_CopGlasses_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/heavy/cop_glasses"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/heavy/cop_glasses.mdl"
+			"drop_type"	"drop"
+			"propername"	"0"
+			"used_by_classes"
+			{
+				"heavy"		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"480"
+		{
+			"name"	"Tam O'Shanter"
+			"loadondemand" "1"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"				"1"
+				"can_modify_socket"		"1"
+				"can_craft_count"		"1"
+				"can_gift_wrap" 		"1"
+				"paintable"				"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_TamOShanter"
+			"item_description"	"#TF_TamOShanter_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/demo/tamoshanter"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/demo/tamoshanter.mdl"
+			"drop_type"	"drop"
+			"propername"	"0"
+			"used_by_classes"
+			{
+				"demoman"		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"481"
+		{
+			"name"	"Stately Steel Toe"
+			"loadondemand" "1"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"				"1"
+				"can_modify_socket"		"1"
+				"can_craft_count"		"1"
+				"can_gift_wrap" 		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_StatelySteelToe"
+			"item_description"	"#TF_StatelySteelToe_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/pyro/boot_hat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/pyro/boot_hat.mdl"
+			"drop_type"	"drop"
+			"propername"	"0"
+			"used_by_classes"
+			{
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"482"
+		{
+			"name"	"Nessie's Nine Iron"
+			"item_class"	"tf_weapon_sword"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_modify_socket"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_logname"	"nessieclub"
+			"item_iconname"	"nessieclub"
+			"item_type_name"	"#TF_Weapon_GolfClub"
+			"item_name"	"#TF_NineIron"
+			"item_description"	"#TF_NineIron_Desc"
+			"item_slot"	"melee"
+			"anim_slot"	"item1"
+			"item_quality"	"unique"
+			"propername"	"0"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"image_inventory"	"backpack/weapons/c_models/c_golfclub/c_golfclub"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_golfclub/c_golfclub.mdl"
+			"attach_to_hands"	"1"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"visuals"
+			{
+				"sound_melee_miss"	"Weapon_Sword.Swing"
+				"sound_melee_hit"	"Weapon_Sword.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_Sword.HitWorld"
+				"sound_melee_burst"	"Weapon_Sword.SwingCrit"
+				"sound_special1"	"Sword.Hit"
+				"sound_special2"	"Sword.Idle"
+			}
+			"attributes"
+			{
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+				"max health additive penalty"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value" "-25"
+				}
+				"decapitate type"
+				{
+					"attribute_class"	"decapitate_type"
+					"value"	"1"
+				}
+			}
+			"allowed_attributes"
+			{
+				"all_items"	"1"
+				"dmg_reductions" "1"
+				"player_health" "1"
+				"attrib_healthregen" "1"
+				"player_movement" "1"
+				"attrib_dmgdone"	"1"
+				"attrib_critboosts"	"1"
+				"attrib_onhit_slow" "1"
+				"attrib_vs_burning" "1"
+				"attrib_firerate" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		"483"
+		{
+			"name"	"Rogue's Col Roule"
+			"craft_material_type"	"hat"
+			"loadondemand"	"1"
+			"capabilities"
+			{
+				"nameable"				"1"
+				"paintable"				"1"
+				"can_gift_wrap" 		"1"
+				"can_craft_count"		"1"
+			}
+			"item_class"	"tf_wearable"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Shirt"
+			"item_name"	"#TF_RoguesColRoule"
+			"item_description"	"#TF_RoguesColRoule_Desc"
+			"item_slot"	"misc"
+			"image_inventory"	"backpack/player/items/crafting/tneck_backpack_icon"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"model_player"	"models/player/items/spy/tneck.mdl"
+			"min_ilevel"	"15"
+			"max_ilevel"	"15"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
+		"484"
+		{
+			"name"	"Prairie Heel Biters"
+			"craft_material_type"	"hat"
+			"loadondemand"	"1"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"item_class"	"tf_wearable"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Spurs"
+			"item_name"	"#TF_HeelBiters"
+			"item_description"	"#TF_HeelBiters_Desc"
+			"item_slot"	"misc"
+			"image_inventory"	"backpack/player/items/crafting/spurs_backpack_icon"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"model_player"	"models/player/items/engineer/spurs.mdl"
+			"min_ilevel"	"15"
+			"max_ilevel"	"15"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
+		"485"
+		{
+			"name"	"Big Steel Jaw of Summer Fun"
+			"loadondemand" "1"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"				"1"
+				"can_modify_socket"		"1"
+				"can_craft_count"		"1"
+				"can_gift_wrap" 		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_SteelJaw"
+			"item_description"	"#TF_SteelJaw_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/heavy/big_jaw"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/heavy/big_jaw.mdl"
+			"drop_type"	"none"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"heavy"		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		
+		"486"
+		{
+			"name"	"Summer Shades"
+			"craft_material_type"	"hat"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand"		"1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Glasses"
+			"item_name"			"#TF_Summer_Shades"
+			"item_description"	"#TF_Summer_Shades_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/summer_shades"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/scout/summer_shades.mdl"
+				"sniper"	"models/player/items/sniper/summer_shades.mdl"
+				"soldier"	"models/player/items/soldier/summer_shades.mdl"
+				"demoman"	"models/player/items/demo/summer_shades.mdl"
+				"medic"		"models/player/items/medic/summer_shades.mdl"
+				"heavy"		"models/player/items/heavy/summer_shades.mdl"
+				"spy"		"models/player/items/spy/summer_shades.mdl"
+				"engineer"	"models/player/items/engineer/summer_shades.mdl"
+				"pyro"		"models/player/items/pyro/summer_shades.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"mouse_pressed_sound" 	"ui/item_paper_pickup.wav"
+			"drop_sound" 		"ui/item_paper_pickup.wav"
+		}
+		
+		
+		"490"
+		{
+			"name"	"Scout Flip-Flops"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"paintable"			"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"show_in_armory"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"item_type_name"	"#TF_Wearable_FlipFlops"
+			"item_name"	"#TF_Scout_FlipFlops"
+			"item_description"	"#TF_Scout_FlipFlops_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/scout/flipflops"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/scout/flipflops.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"shoes_socks"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"491"
+		{
+			"name"	"Lucky No. 42"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"paintable"			"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"show_in_armory"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"item_type_name"	"#TF_Wearable_Towels"
+			"item_name"	"#TF_Scout_Towels"
+			"item_description"	"#TF_Scout_Towels_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/scout/summer_pack"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/scout/summer_pack.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"492"
+		{
+			"name"	"Summer Hat"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+				"paintable"			"1"
+			}
+			"show_in_armory"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_SummerHat"
+			"item_description"	"#TF_SummerHat_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/all_class/summer_hat_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/scout/summer_hat_scout.mdl"
+				"sniper"	"models/player/items/sniper/summer_hat_sniper.mdl"
+				"soldier"	"models/player/items/soldier/summer_hat_soldier.mdl"
+				"demoman"	"models/player/items/demo/summer_hat_demo.mdl"
+				"medic"		"models/player/items/medic/summer_hat_medic.mdl"
+				"heavy"		"models/player/items/heavy/summer_hat_heavy.mdl"
+				"spy"		"models/player/items/spy/summer_hat_spy.mdl"
+				"engineer"	"models/player/items/engineer/summer_hat_engineer.mdl"
+				"pyro"		"models/player/items/pyro/summer_hat_pyro.mdl"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_SummerHat_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_SummerHat_Style1"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"493"
+		{
+			"name"	"Promotional Noise Maker - Fireworks"
+			"item_class"	"tf_wearable"
+			"tool"
+			{
+				"type"	"noise_maker"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+			}
+			"show_in_armory"	"1"
+			"armory_desc"		"action noisemaker"
+			"item_type_name"	"#TF_Party_Favor"
+			"item_name"	"#TF_NoiseMaker_Fireworks"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/crafting/noisemaker_fireworks"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"noise maker"
+				{
+					"attribute_class"	"enable_misc2_noisemaker"
+					"value"			"1"
+				}
+			}
+			"visuals"
+			{
+				"custom_sound0"	"Summer.Fireworks"
+			}
+			"mouse_pressed_sound" 	"Summer.Fireworks"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		
 		
 		"1899"
 		{
@@ -18804,6 +19410,41 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
+		"2033"
+		{
+			"name" "Summer Sun Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Lucky No. 42"	 		"1"
+				"Scout Flip-Flops" 		"1"
+				"Summer Hat"			"1"
+				"Promotional Noise Maker - Fireworks"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_Summer2011"
+			"item_description"	"#TF_Bundle_Summer2011_Desc"
+			"image_inventory"	"backpack/crafting/summer_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy"		"1"
+				"engineer"	"1"
+				"pyro"		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
 		
 
 		"5000"
@@ -20149,7 +20790,7 @@
 				"type"	"paint_can"
 				"usage_capabilities"
 				{
-					"paintable" "1"
+					"paintable_team_colors" "1"
 				}
 			}
 			"armory_desc"		"paintcan"
@@ -20600,7 +21241,7 @@
 				"type"	"paint_can"
 				"usage_capabilities"
 				{
-					"paintable" "1"
+					"paintable_team_colors" "1"
 				}
 			}
 			"armory_desc"		"paintcan"
@@ -20648,7 +21289,7 @@
 				"type"	"paint_can"
 				"usage_capabilities"
 				{
-					"paintable" "1"
+					"paintable_team_colors" "1"
 				}
 			}
 			"armory_desc"		"paintcan"
@@ -20696,7 +21337,7 @@
 				"type"	"paint_can"
 				"usage_capabilities"
 				{
-					"paintable" "1"
+					"paintable_team_colors" "1"
 				}
 			}
 			"armory_desc"		"paintcan"
@@ -20744,7 +21385,7 @@
 				"type"	"paint_can"
 				"usage_capabilities"
 				{
-					"paintable" "1"
+					"paintable_team_colors" "1"
 				}
 			}
 			"armory_desc"		"paintcan"
@@ -20792,7 +21433,7 @@
 				"type"	"paint_can"
 				"usage_capabilities"
 				{
-					"paintable" "1"
+					"paintable_team_colors" "1"
 				}
 			}
 			"armory_desc"		"paintcan"
@@ -20840,7 +21481,7 @@
 				"type"	"paint_can"
 				"usage_capabilities"
 				{
-					"paintable" "1"
+					"paintable_team_colors" "1"
 				}
 			}
 			"armory_desc"		"paintcan"
@@ -20918,6 +21559,43 @@
 			}
 			"mouse_pressed_sound"	"ui/item_crate_pickup.wav"
 			"drop_sound"		"ui/item_crate_drop.wav"
+		}
+		"5067"
+		{
+			"name"	"Summer Key"
+			"item_class"	"tool"
+			"craft_class"	"tool"
+			"craft_material_type"	"tool"
+			"tool"
+			{
+				"type"	"decoder_ring"
+				"usage_capabilities"
+				{
+					"decodable"	"1"
+				}
+				"restriction"	"summer"
+			}
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"	"always_tradable"
+					"value"				"1"
+				}
+			}
+			"armory_desc" "key"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_T"
+			"item_name"		"#TF_Tool_SummerKey"
+			"item_description"	"#TF_Tool_SummerKey_Desc"
+			"image_inventory"	"backpack/player/items/crafting/key_summer"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		
 		"5500"
@@ -29093,7 +29771,7 @@
 			"n_A"	"#TF_SodaPopper"
 			"desc_inputs"	"#RDI_ABC2"
 			"desc_outputs"	"#RDO_AB"
-			"di_A"	"#CI_Bar_C"
+			"di_A"	"#CI_Bar_B"
 			"di_B"	"#TF_Unique_Achievement_EnergyDrink"
 			"di_C"	"#TF_Unique_Achievement_Scattergun_Double"
 			"do_A"	"1"
@@ -29225,7 +29903,7 @@
 			"n_A"	"#TF_Atomizer"
 			"desc_inputs"	"#RDI_ABC2"
 			"desc_outputs"	"#RDO_AB"
-			"di_A"	"#CI_Bar_C"
+			"di_A"	"#CI_Bar_B"
 			"di_B"	"#TF_Unique_Achievement_EnergyDrink"
 			"di_C"	"#TF_Unique_Achievement_Bat"
 			"do_A"	"1"
@@ -30467,7 +31145,7 @@
 			"n_A"	"#TF_Unique_MediGun_QuickFix"
 			"desc_inputs"	"#RDI_ABC2"
 			"desc_outputs"	"#RDO_AB"
-			"di_A"	"#CI_Bar_C"
+			"di_A"	"#CI_Bar_B"
 			"di_B"	"#TF_MadMilk"
 			"di_C"	"#TF_Unique_Achievement_Medigun1"
 			"do_A"	"1"
