@@ -13993,8 +13993,9 @@
 			"drop_type"	"drop"
 			"used_by_classes"
 			{
-				"demoman"	"1"
+				"demoman" "1"
 				"spy"	"1"
+				"medic"	"1"
 			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
@@ -17436,6 +17437,7 @@
 			"loadondemand" "1"
 			"item_class"	"tf_wearable"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"				"1"
@@ -17468,6 +17470,7 @@
 			"loadondemand" "1"
 			"item_class"	"tf_wearable"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"				"1"
@@ -17500,6 +17503,7 @@
 			"loadondemand" "1"
 			"item_class"	"tf_wearable"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"				"1"
@@ -17533,6 +17537,7 @@
 			"loadondemand" "1"
 			"item_class"	"tf_wearable"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"				"1"
@@ -17564,10 +17569,12 @@
 			"name"	"Nessie's Nine Iron"
 			"item_class"	"tf_weapon_sword"
 			"craft_material_type"	"weapon"
+			"craft_class"	"weapon"
 			"capabilities"
 			{
 				"nameable"		"1"
 				"can_modify_socket"		"1"
+				"can_craft_count"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -17638,6 +17645,7 @@
 		{
 			"name"	"Rogue's Col Roule"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"loadondemand"	"1"
 			"capabilities"
 			{
@@ -17671,6 +17679,7 @@
 		{
 			"name"	"Prairie Heel Biters"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"loadondemand"	"1"
 			"capabilities"
 			{
@@ -17706,6 +17715,7 @@
 			"loadondemand" "1"
 			"item_class"	"tf_wearable"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"				"1"
@@ -19951,7 +19961,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "19"
+					"value" "23"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -20624,7 +20634,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "20"
+					"value" "24"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -20768,7 +20778,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "21"
+					"value" "25"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -21569,7 +21579,6 @@
 				{
 					"decodable"	"1"
 				}
-				"restriction"	"summer"
 			}
 			"attributes"
 			{
@@ -21582,9 +21591,9 @@
 			"armory_desc" "key"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_T"
-			"item_name"		"#TF_Tool_SummerKey"
-			"item_description"	"#TF_Tool_SummerKey_Desc"
-			"image_inventory"	"backpack/player/items/crafting/key_summer"
+			"item_name"		"#TF_Tool_DecoderRing"
+			"item_description"	"#TF_Tool_DecoderRing_Desc"
+			"image_inventory"	"backpack/player/items/crafting/key"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"

@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.3e53ed9a07b54043c37344bb30c92925b0fec011.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.b22901cbc6d49857d6349ff5961f93525404d359.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -9955,6 +9955,7 @@
 				},
 				"used_by_classes": [
 					"Demoman",
+					"Medic",
 					"Spy"
 				]
 				
@@ -12429,6 +12430,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cop_helmet.c671e72e1541a957f61adcb6355cff8215d7df1d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cop_helmet_large.7b960607cb57adc796cc1395a33c305e8f4fc8fb.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -12459,6 +12461,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cop_glasses.9a9a8608d71736898db8764422a5d1d00f60d489.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cop_glasses_large.666ee23be897c64e3230293a4fa13ebc51e9f804.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -12489,6 +12492,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tamoshanter.f9d7fcac89f71b31831fd5c51ca0e57f6c7ce623.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tamoshanter_large.e0abecbe472c2ccc885f41d30cbfd6a8fe13908e.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -12520,6 +12524,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/boot_hat.39b735f48e0196e8dd70ba1185d60059d222de0c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/boot_hat_large.a4c7ac19ceef00ae71607ace5f74d4b90adc3106.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -12549,11 +12554,13 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_golfclub.5a8ab596c03e955509dee72e6037789d0f4d3d54.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_golfclub_large.a5eaddd5437a844e29c6711077f447029b0cae56.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
 					"can_modify_socket": true,
 					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -12596,6 +12603,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tneck_backpack_icon.99d6d1172da01eef3135c83774272c70185f7709.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tneck_backpack_icon_large.8476b592a9d26635b11098a499d6813e69b34fbd.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -12626,6 +12634,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spurs_backpack_icon.c522b76e6933f89585bbde9d1459187901d5ddb2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spurs_backpack_icon_large.a695f974a56c6dbe1ad447841d60d766cabd01bc.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -12656,6 +12665,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/big_jaw.03c73617a7336e8458c030231210dde3da0f48f3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/big_jaw_large.71c285f0bcea3fecb13c91f5e322a2d5a0093527.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -14566,7 +14576,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 19.000000
+						"value": 23.000000
 					}
 				]
 				
@@ -15280,7 +15290,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 20.000000
+						"value": 24.000000
 					}
 				]
 				
@@ -15431,7 +15441,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 21.000000
+						"value": 25.000000
 					}
 				]
 				
@@ -16259,17 +16269,17 @@
 				"defindex": 5067,
 				"item_class": "tool",
 				"item_type_name": "Tool",
-				"item_name": "Refreshing Summer Cooler Key",
-				"item_description": "Used to open unusually refreshing locked summer coolers.\nAfter 7\/11\/2011 this will turn into a normal key.",
+				"item_name": "Mann Co. Supply Crate Key",
+				"item_description": "Used to open locked supply crates.",
 				"proper_name": false,
 				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/crafting\/key_summer",
+				"image_inventory": "backpack\/player\/items\/crafting\/key",
 				"min_ilevel": 5,
 				"max_ilevel": 5,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key_summer.1b5fb514423800fd661c78e0ca5aae44b9883f0a.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key_summer_large.f49710a191ae35c9f9b83df51c2a734cf143530d.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key.067945a6cae528464e4fa00126f0ef17ee2dc8b5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key_large.443e254bfd7c6f54de0842a14df3c2aa72e8b6f0.png",
 				"craft_class": "tool",
 				"craft_material_type": "tool",
 				"capabilities": {
@@ -16277,7 +16287,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "summer",
 					"usage_capabilities": {
 						"decodable": true
 					}
