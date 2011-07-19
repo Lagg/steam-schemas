@@ -16188,6 +16188,31 @@
 				}
 			}
 		}
+		"442"
+		{
+			"name"	"Mystery Item"
+			"item_class"	"tf_weapon_shotgun_soldier"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Shotgun"
+			"item_name"	"Mystery Item"
+			"item_slot"	"secondary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"30"
+			"max_ilevel"	"30"
+			"image_inventory"	"backpack/weapons/w_models/w_shotgun"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_shotgun/c_shotgun.mdl"
+			"model_world"	"models/weapons/w_models/w_shotgun.mdl"
+			"attach_to_hands" "1"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}
 		"444"
 		{
 			"name"			"The Mantreads"

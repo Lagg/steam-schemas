@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9e0ac0366195829a5424bb2ebc3904a130648da7.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.b213c4e1915efa4411546e44b36e9f6696d65f25.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -11492,6 +11492,29 @@
 					"usable": true,
 					"can_craft_mark": true
 				}
+			},
+			{
+				"name": "Mystery Item",
+				"defindex": 442,
+				"item_class": "tf_weapon_shotgun_soldier",
+				"item_type_name": "Shotgun",
+				"item_name": "Mystery Item",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_shotgun\/c_shotgun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_shotgun",
+				"min_ilevel": 30,
+				"max_ilevel": 30,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_shotgun.1d9c8ea9d8b2b14b331ae22427c5e624f6d5d60c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_shotgun_large.7dd9cf1db7d64bdb6121d6d09cd077b5c921699d.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
 			},
 			{
 				"name": "The Mantreads",
