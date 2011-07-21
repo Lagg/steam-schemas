@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.b213c4e1915efa4411546e44b36e9f6696d65f25.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1cbd023286960779de5a7a24d4ee31d029ad274a.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -11494,27 +11494,195 @@
 				}
 			},
 			{
-				"name": "Mystery Item",
-				"defindex": 442,
-				"item_class": "tf_weapon_shotgun_soldier",
-				"item_type_name": "Shotgun",
-				"item_name": "Mystery Item",
-				"proper_name": true,
-				"item_slot": "secondary",
-				"model_player": "models\/weapons\/c_models\/c_shotgun\/c_shotgun.mdl",
+				"name": "Lord Cockswain's Pith Helmet",
+				"defindex": 439,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Lord Cockswain's Pith Helmet",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/drg_pith_hat.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/weapons\/w_models\/w_shotgun",
-				"min_ilevel": 30,
-				"max_ilevel": 30,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_shotgun.1d9c8ea9d8b2b14b331ae22427c5e624f6d5d60c.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_shotgun_large.7dd9cf1db7d64bdb6121d6d09cd077b5c921699d.png",
+				"image_inventory": "backpack\/player\/items\/soldier\/drg_pith_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_pith_hat.42a83d657c7456e27532965d0edeb6eec492f8d0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_pith_hat_large.9d97d8d19e1aac6a3cf6356ca03b9aa00da40dba.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
 				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Soldier"
 				]
 				
+			},
+			{
+				"name": "Lord Cockswain's Novelty Mutton Chops and Pipe",
+				"defindex": 440,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_FacialHair",
+				"item_name": "Lord Cockswain's Novelty Mutton Chops and Pipe",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/soldier\/drg_hair_beard.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/drg_hair_beard_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_hair_beard_icon.d29d774f67c35ee356befc79b66027b3d7859b49.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_hair_beard_icon_large.6218cb5424a1690106d6b7ef05eeba3404bd6018.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "attach particle effect",
+						"class": "set_attached_particle",
+						"value": 28.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Cow Mangler 5000",
+				"defindex": 441,
+				"item_class": "tf_weapon_particle_cannon",
+				"item_type_name": "Focused Wave Projector",
+				"item_name": "Cow Mangler 5000",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_drg_cowmangler\/c_drg_cowmangler.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_drg_cowmangler\/c_drg_cowmangler",
+				"min_ilevel": 30,
+				"max_ilevel": 30,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_drg_cowmangler.a74918c7984a947e48da080038b8713ee6472bd5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_drg_cowmangler_large.390e4558350e2cf2225428d1a4c1b9429f4849f4.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"paintable_team_colors": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "energy weapon no ammo",
+						"class": "energy_weapon_no_ammo",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon charged shot",
+						"class": "energy_weapon_charged_shot",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon no hurt building",
+						"class": "energy_weapon_no_hurt_building",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Righteous Bison",
+				"defindex": 442,
+				"item_class": "tf_weapon_raygun",
+				"item_type_name": "Indivisible Particle Smasher",
+				"item_name": "Righteous Bison",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_drg_righteousbison\/c_drg_righteousbison.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_drg_righteousbison\/c_drg_righteousbison",
+				"min_ilevel": 30,
+				"max_ilevel": 30,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_drg_righteousbison.056fde174f868a1b211b5b415d346ebafdba2da8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_drg_righteousbison_large.12a355c8cbc49d64ac2d95e61f5df312087b5a25.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "energy weapon no ammo",
+						"class": "energy_weapon_no_ammo",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon penetration",
+						"class": "energy_weapon_penetration",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon no hurt building",
+						"class": "energy_weapon_no_hurt_building",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon no deflect",
+						"class": "energy_weapon_no_deflect",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Dr. Grordbort's Crest",
+				"defindex": 443,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Dr. Grordbort's Crest",
+				"item_description": "A symbol of service in the Venusian legions.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/drg_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/drg_badge",
+				"min_ilevel": 15,
+				"max_ilevel": 15,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge.988aa4d408bd0cedd8888f65876f81dea9305687.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_large.c440ba0d10bd32a70696679fe2d58243198ed6ba.png",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				}
 			},
 			{
 				"name": "The Mantreads",
@@ -14120,6 +14288,30 @@
 				"capabilities": {
 					"can_craft_mark": true
 				}
+			},
+			{
+				"name": "Dr. Grordbort's Victory Pack",
+				"defindex": 2034,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Dr. Grordbort's Victory Pack",
+				"item_description": "Grab the whole pack of Dr. Grordbort items, designed by WETA Workshop!",
+				"proper_name": false,
+				"item_slot": null,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
 			},
 			{
 				"name": "Craft Bar Level 1",
@@ -19503,6 +19695,66 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "energy weapon no ammo",
+				"defindex": 281,
+				"attribute_class": "energy_weapon_no_ammo",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "This weapon does not require ammo.",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "energy weapon charged shot",
+				"defindex": 282,
+				"attribute_class": "energy_weapon_charged_shot",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "This weapon can fire a charged shot that\nmini-crits players and disables buildings for 4 sec.",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "energy weapon penetration",
+				"defindex": 283,
+				"attribute_class": "energy_weapon_penetration",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "This weapon fires a projectile that\npenetrates enemy targets.",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "energy weapon no hurt building",
+				"defindex": 284,
+				"attribute_class": "energy_weapon_no_hurt_building",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "This weapon deals reduced damage to buildings.",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "energy weapon no deflect",
+				"defindex": 285,
+				"attribute_class": "energy_weapon_no_deflect",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "This weapon's projectiles cannot be deflected.",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
 			}
 		]
 		,
@@ -19634,6 +19886,13 @@
 				"id": 20,
 				"attach_to_rootbone": true,
 				"name": "Map Stamps"
+			},
+			{
+				"system": "drg_pipe_smoke",
+				"id": 28,
+				"attach_to_rootbone": false,
+				"attachment": "cig_drg_smoke",
+				"name": "Genteel Pipe Smoke"
 			}
 		]
 		
