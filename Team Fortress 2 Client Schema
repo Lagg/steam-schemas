@@ -16323,6 +16323,16 @@
 					"attribute_class"	"energy_weapon_no_hurt_building"
 					"value" "1"
 				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.9"
+				}
+				"no crit boost"
+				{
+					"attribute_class"	"no_crit_boost"
+					"value" "1"
+				}
 			}
 			"visuals"
 			{
@@ -19728,6 +19738,38 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
+		"2035"
+		{
+			"name" "Dr. Grordbort ComicCon Promo Code"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Righteous Bison"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_DrGComicCon"
+			"item_description"	"#TF_Bundle_DrGComicCon_Desc"
+			"image_inventory"	"backpack/player/items/crafting/grordborts_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}				
 				
 
 		"5000"
@@ -25759,6 +25801,19 @@
 			"description_format"	"value_is_additive"
 			"hidden"	"0"
 			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"288"
+		{
+			"name"	"no crit boost"
+			"attribute_class"	"no_crit_boost"
+			"min_value"	"1"
+			"max_value"	"3"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_NoCritBoost"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
 			"stored_as_integer"	"1"
 		}
 	}
