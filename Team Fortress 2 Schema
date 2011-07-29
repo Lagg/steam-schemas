@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.752e92f7515a81ceb182718bf7d794c64c7cefb9.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.39f7d9c04f7094dfc8784f2db4ff2996b1e75928.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -13387,6 +13387,43 @@
 				"capabilities": {
 					"can_craft_mark": true
 				}
+			},
+			{
+				"name": "Mask of the Shaman",
+				"defindex": 514,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Mask",
+				"item_name": "Mask of the Shaman",
+				"item_description": "An invincibility mask made by the Ancients. It hasn’t worked in a long, long time.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/dust_mask.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/dust_mask",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "",
+				"image_url_large": "",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "World Traveler",
