@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.39f7d9c04f7094dfc8784f2db4ff2996b1e75928.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.6a3ff36163ac5994a99b8638c0e58157e7f441a7.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -10543,7 +10543,7 @@
 						"name": "Arrow"
 					},
 					{
-						"name": "Spike & Arrow"
+						"name": "Spike And Arrow"
 					}
 				]
 				,
@@ -11616,7 +11616,7 @@
 						"value": 1.000000
 					},
 					{
-						"name": "reload time increased",
+						"name": "Reload time increased",
 						"class": "mult_reload_time",
 						"value": 1.050000
 					}
@@ -13395,7 +13395,7 @@
 				"item_type_name": "TF_Wearable_Mask",
 				"item_name": "Mask of the Shaman",
 				"item_description": "An invincibility mask made by the Ancients. It hasn’t worked in a long, long time.",
-				"proper_name": false,
+				"proper_name": true,
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/demo\/dust_mask.mdl",
 				"item_quality": 6,
@@ -13414,6 +13414,76 @@
 				},
 				"used_by_classes": [
 					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Pilotka",
+				"defindex": 515,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Pilotka",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/ro_pilotka.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/ro_pilotka",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ro_pilotka.0177ba3f1ad8a44933f28e9f04e8000c8e68a067.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ro_pilotka_large.5f312a53844395cc12ebae78203cbad197181cd3.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Stahlhelm",
+				"defindex": 516,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Stahlhelm",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/ro_helmet.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/ro_helmet",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ro_helmet.0455686b664845fad5e4cdd28250ecf6ca130f08.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ro_helmet_large.9e6d8c3757ea0652ad634c98f728e2a9155c7340.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
 				]
 				,
 				"attributes": [
