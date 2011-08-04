@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.7915d0c7d4e6e3d48025119f8a9c41c25bdb6783.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.68c5d0e310aea8114403459410ffa5acb4c948e9.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -6762,7 +6762,6 @@
 				"item_name": "Haunted Metal Scrap",
 				"item_description": "This is metal scrap taken from the Horseless Headless Horsemann. It whispers faintly...'heads'...",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 5,
 				"image_inventory": "backpack\/crafting\/haunted_metal",
@@ -9694,7 +9693,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "TF_Wearable_Hat",
 				"item_name": "Hottie's Hoodie",
-				"item_description": "If you've got it, flaunt it.\nIf you don't, hide it under this discrete hoodie.",
+				"item_description": "If you've got it, flaunt it.\nIf you don't, hide it under this discreet hoodie.",
 				"proper_name": false,
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/pyro\/hotties_hoodie.mdl",
@@ -10602,7 +10601,7 @@
 						"name": "Arrow"
 					},
 					{
-						"name": "Spike & Arrow"
+						"name": "Spike And Arrow"
 					}
 				]
 				,
@@ -11273,7 +11272,6 @@
 				"item_name": "Moustachium Bar",
 				"item_description": "Pure moustachium, harvested from all-natural sources deep within the Australian outback.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/moustachium",
@@ -11297,7 +11295,6 @@
 				"item_name": "'Fish'",
 				"item_description": "It's packed with protein.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/fish",
@@ -11320,7 +11317,6 @@
 				"item_type_name": "Pin Fragment",
 				"item_name": "Spacemetal Scrap",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/spacechem_token_01",
@@ -11548,6 +11544,212 @@
 				"capabilities": {
 					"nameable": true,
 					"usable": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Lord Cockswain's Pith Helmet",
+				"defindex": 439,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Lord Cockswain's Pith Helmet",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/drg_pith_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/drg_pith_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_pith_hat.42a83d657c7456e27532965d0edeb6eec492f8d0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_pith_hat_large.9d97d8d19e1aac6a3cf6356ca03b9aa00da40dba.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "Lord Cockswain's Novelty Mutton Chops and Pipe",
+				"defindex": 440,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_FacialHair",
+				"item_name": "Lord Cockswain's Novelty Mutton Chops and Pipe",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/soldier\/drg_hair_beard.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/drg_hair_beard_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_hair_beard_icon.d29d774f67c35ee356befc79b66027b3d7859b49.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_hair_beard_icon_large.6218cb5424a1690106d6b7ef05eeba3404bd6018.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "attach particle effect",
+						"class": "set_attached_particle",
+						"value": 28.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Cow Mangler 5000",
+				"defindex": 441,
+				"item_class": "tf_weapon_particle_cannon",
+				"item_type_name": "Focused Wave Projector",
+				"item_name": "Cow Mangler 5000",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_drg_cowmangler\/c_drg_cowmangler.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_drg_cowmangler\/c_drg_cowmangler",
+				"min_ilevel": 30,
+				"max_ilevel": 30,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_drg_cowmangler.a74918c7984a947e48da080038b8713ee6472bd5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_drg_cowmangler_large.390e4558350e2cf2225428d1a4c1b9429f4849f4.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"paintable_team_colors": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "energy weapon no ammo",
+						"class": "energy_weapon_no_ammo",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon charged shot",
+						"class": "energy_weapon_charged_shot",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon no hurt building",
+						"class": "energy_weapon_no_hurt_building",
+						"value": 1.000000
+					},
+					{
+						"name": "damage penalty",
+						"class": "mult_dmg",
+						"value": 0.900000
+					},
+					{
+						"name": "no crit boost",
+						"class": "no_crit_boost",
+						"value": 1.000000
+					},
+					{
+						"name": "Reload time increased",
+						"class": "mult_reload_time",
+						"value": 1.050000
+					}
+				]
+				
+			},
+			{
+				"name": "The Righteous Bison",
+				"defindex": 442,
+				"item_class": "tf_weapon_raygun",
+				"item_type_name": "Indivisible Particle Smasher",
+				"item_name": "Righteous Bison",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_drg_righteousbison\/c_drg_righteousbison.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_drg_righteousbison\/c_drg_righteousbison",
+				"min_ilevel": 30,
+				"max_ilevel": 30,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_drg_righteousbison.056fde174f868a1b211b5b415d346ebafdba2da8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_drg_righteousbison_large.12a355c8cbc49d64ac2d95e61f5df312087b5a25.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "energy weapon no ammo",
+						"class": "energy_weapon_no_ammo",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon penetration",
+						"class": "energy_weapon_penetration",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon no hurt building",
+						"class": "energy_weapon_no_hurt_building",
+						"value": 1.000000
+					},
+					{
+						"name": "energy weapon no deflect",
+						"class": "energy_weapon_no_deflect",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Dr. Grordbort's Crest",
+				"defindex": 443,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Dr. Grordbort's Crest",
+				"item_description": "A symbol of service in the Venusian legions.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/drg_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/drg_badge",
+				"min_ilevel": 15,
+				"max_ilevel": 15,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_badge.988aa4d408bd0cedd8888f65876f81dea9305687.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_badge_large.c440ba0d10bd32a70696679fe2d58243198ed6ba.png",
+				"capabilities": {
+					"nameable": true,
 					"can_craft_mark": true
 				}
 			},
@@ -12400,7 +12602,6 @@
 				"item_type_name": "Map Stamp",
 				"item_name": "Team Fortress 2 - Upgrade to Premium",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": null,
@@ -12889,6 +13090,658 @@
 				
 			},
 			{
+				"name": "TournamentMedal - GWJ Winners",
+				"defindex": 496,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_GWJ_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - GWJ Runnerups",
+				"defindex": 497,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_GWJ_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - GWJ Participants",
+				"defindex": 498,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_GWJ_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - ETF2LHL Winners",
+				"defindex": 499,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_ETF2LHL_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - ETF2LHL 2nd",
+				"defindex": 500,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_ETF2LHL_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - ETF2LHL 3rd",
+				"defindex": 501,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_ETF2LHL_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - ETF2LHL Participants",
+				"defindex": 502,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_ETF2LHL_4th",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_participant.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHL Participants",
+				"defindex": 503,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHL_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_participant.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv1 Winners",
+				"defindex": 504,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv1_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv1 2nd",
+				"defindex": 505,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv1_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv1 3rd",
+				"defindex": 506,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv1_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv2 Winners",
+				"defindex": 507,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv2_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv2 2nd",
+				"defindex": 508,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv2_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv2 3rd",
+				"defindex": 509,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv2_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv3 Winners",
+				"defindex": 510,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv3_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv3 2nd",
+				"defindex": 511,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv3_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "TournamentMedal - UGCHLDiv3 3rd",
+				"defindex": 512,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_TournamentMedal",
+				"item_name": "TF_TournamentMedal_UGCHLDiv3_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "The Original",
+				"defindex": 513,
+				"item_class": "tf_weapon_rocketlauncher",
+				"item_type_name": "Rocket Launcher",
+				"item_name": "Original",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_bet_rocketlauncher\/c_bet_rocketlauncher.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_bet_rocketlauncher\/c_bet_rocketlauncher",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bet_rocketlauncher.466851a0bc8f67e1224e889da03ed08515a7e052.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bet_rocketlauncher_large.633203a228455d935cae919ff09ebb478daa5a91.png",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_modify_socket": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "centerfire projectile",
+						"class": "centerfire_projectile",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Mask of the Shaman",
+				"defindex": 514,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Mask",
+				"item_name": "Mask of the Shaman",
+				"item_description": "An invincibility mask made by the Ancients. It hasn’t worked in a long, long time.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/dust_mask.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/dust_mask",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dust_mask.5d01655818f250d71ad503b9ace2fd3e239aa878.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dust_mask_large.38fed1056f477015af4ded4264b6b2ac0f36b91a.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Pilotka",
+				"defindex": 515,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Pilotka",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/ro_pilotka.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/ro_pilotka",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ro_pilotka.0177ba3f1ad8a44933f28e9f04e8000c8e68a067.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ro_pilotka_large.5f312a53844395cc12ebae78203cbad197181cd3.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Stahlhelm",
+				"defindex": 516,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Stahlhelm",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/ro_helmet.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/ro_helmet",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ro_helmet.0455686b664845fad5e4cdd28250ecf6ca130f08.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ro_helmet_large.9e6d8c3757ea0652ad634c98f728e2a9155c7340.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Tamrielic Relic",
+				"defindex": 517,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Tamrielic Relic",
+				"item_description": "Designed to inspire fear, the dragons this helm was based on were less than impressed.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/skyrim_helmet.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/skyrim_helmet",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skyrim_helmet.bc6515ea09e6838e338dcdf6d36fab57204abed8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skyrim_helmet_large.ac0e67a18980ee73ef32215cd205549bf12e725b.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Anger",
+				"defindex": 518,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Anger",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/c_bet_brinkhood.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/c_bet_brinkhood",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bet_brinkhood.6e89bdcb3f0a2eee33acdb02a3614aeac460041f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bet_brinkhood_large.4e511ae126c32d4b5ada6be5a6263c7b0e03d3bf.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Pip-Boy 1950",
+				"defindex": 519,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Armband",
+				"item_name": "Pip-Boy",
+				"item_description": "Using modern super-deluxe resolution graphics!",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/bet_pb.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/bet_pb",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bet_pb.cc0d5e545de6568d4116a35f327bbfc61ac0810e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bet_pb_large.4ea3bb45d98b8ec1b911de074ed2c2cbf75c28a2.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					},
+					{
+						"name": "has pipboy build interface",
+						"class": "set_custom_buildmenu",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Wingstick",
+				"defindex": 520,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Wingstick",
+				"item_name": "Wingstick",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/bet_wingstick.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/bet_wingstick",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bet_wingstick.d5bf7b739802dcd1e858ffbae26bf8b96b3716ea.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bet_wingstick_large.35465794cbb5defdb8adc1c14581f3f1f6f6027b.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -12931,7 +13784,6 @@
 				"item_name": "Map Stamp - Egypt",
 				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Egypt community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_egypt",
@@ -12955,7 +13807,6 @@
 				"item_name": "Map Stamp - Coldfront",
 				"item_description": "A Control Point Map\n\nMade by Eric 'Icarus' Wong, David 'Selentic' Simon, Aeon 'Void' Bollig, and Tim 'YM'Johnson\n\nPurchasing this item directly supports the creators of the Coldfront community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_coldfront",
@@ -12979,7 +13830,6 @@
 				"item_name": "Map Stamp - Fastlane",
 				"item_description": "A Control Point Map\n\nMade by Arttu 'SK' Mäki\n\nPurchasing this item directly supports the creators of the Fastlane community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_fastlane",
@@ -13003,7 +13853,6 @@
 				"item_name": "Map Stamp - Turbine",
 				"item_description": "A Capture the Flag Map\n\nMade by Flobster\n\nPurchasing this item directly supports the creators of the Turbine community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_turbine",
@@ -13027,7 +13876,6 @@
 				"item_name": "Map Stamp - Steel",
 				"item_description": "An Attack\/Defence Control Point Map\n\nMade by Jamie 'Fishbus' Manson, Dan 'Irish Taxi Driver' Merboth and FLOOR_MASTER\n\nPurchasing this item directly supports the creators of the Steel community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_steel",
@@ -13051,7 +13899,6 @@
 				"item_name": "Map Stamp - Junction",
 				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Junction community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_junction",
@@ -13075,7 +13922,6 @@
 				"item_name": "Map Stamp - Watchtower",
 				"item_description": "An Arena Map\n\nMade by Joshua 'JoshuaC' Shiflet\n\nPurchasing this item directly supports the creators of the Watchtower community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_watchtower",
@@ -13099,7 +13945,6 @@
 				"item_name": "Map Stamp - Hoodoo",
 				"item_description": "A Payload Map\n\nMade by Tim 'YM' Johnson, Jeroen 'Snipergen' Dessaux, Wade 'Nineaxis' Fabry and Drew 'Oxy' Fletcher\n\nPurchasing this item directly supports the creators of the Hoodoo community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_hoodoo",
@@ -13123,7 +13968,6 @@
 				"item_name": "Map Stamp - Offblast",
 				"item_description": "An Arena Map\n\nMade by Magnar 'insta' Jenssen\n\nPurchasing this item directly supports the creators of the Offblast community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_offblast",
@@ -13147,7 +13991,6 @@
 				"item_name": "Map Stamp - Yukon",
 				"item_description": "A Control Point Map\n\nMade by Patrick 'MangyCarface' Mulholland and Joachim 'Acegikmo' Holmér\n\nPurchasing this item directly supports the creators of the Yukon community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_yukon",
@@ -13171,7 +14014,6 @@
 				"item_name": "Map Stamp - Harvest",
 				"item_description": "A King of the Hill Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Harvest community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_harvest",
@@ -13195,7 +14037,6 @@
 				"item_name": "Map Stamp - Freight",
 				"item_description": "A Control Point Map\n\nMade by Jamie 'Fishbus' Manson and Mitch 'ol' Robb\n\nPurchasing this item directly supports the creators of the Freight community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_freight",
@@ -13219,7 +14060,6 @@
 				"item_name": "Map Stamp - Mountain Lab",
 				"item_description": "An Attack\/Defence Control Point Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creators of the Mountain Lab community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_mountainlab",
@@ -13243,7 +14083,6 @@
 				"item_name": "Map Stamp - Mann Manor",
 				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Tim 'YM' Johnson and Alex 'Rexy' Kreeger\n\nPurchasing this item directly supports the creators of the Mann Manor community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_manor",
@@ -13267,7 +14106,6 @@
 				"item_name": "Map Stamp - Nightfall",
 				"item_description": "A Payload Race map\n\nMade by Aaron 'Psy' Garcha and Paul Good\n\nPurchasing this item directly supports the creators of the Nightfall community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_nightfall",
@@ -13291,7 +14129,6 @@
 				"item_name": "Map Stamp - Frontier",
 				"item_description": "A Payload map\n\nMade by Patrick 'MangyCarface' Mulholland and Arhurt\n\nPurchasing this item directly supports the creators of the Frontier community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_frontier",
@@ -13315,7 +14152,6 @@
 				"item_name": "Map Stamp - Lakeside",
 				"item_description": "A King of the Hill map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creators of the Lakeside community map.  Show your support today!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_lakeside",
@@ -13339,7 +14175,6 @@
 				"item_name": "The Gas Jockey's Gear",
 				"item_description": "Includes all the Polycount Pyro Items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_pyro",
@@ -13363,7 +14198,6 @@
 				"item_name": "The Saharan Spy",
 				"item_description": "Includes all the Polycount Spy Items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_spy",
@@ -13387,7 +14221,6 @@
 				"item_name": "The Tank Buster",
 				"item_description": "Includes all the Polycount Soldier Items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_soldier",
@@ -13411,7 +14244,6 @@
 				"item_name": "The Croc-o-Style Kit",
 				"item_description": "Includes all the Polycount Sniper Items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_sniper",
@@ -13435,7 +14267,6 @@
 				"item_name": "The Special Delivery",
 				"item_description": "Includes all the Polycount Scout Items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_scout",
@@ -13459,7 +14290,6 @@
 				"item_name": "Polycount Pack",
 				"item_description": "Includes all the Polycount Contest winning entries:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_polycount",
@@ -13487,7 +14317,6 @@
 				"item_name": "Noise Maker Bundle",
 				"item_description": "Includes one of each Halloween Noise Maker. Each Noise Maker has 25 charges.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/noisemaker_bundle",
@@ -13515,7 +14344,6 @@
 				"item_name": "Map Stamps Collection",
 				"item_description": "Includes one a stamp for each community made map.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_collection",
@@ -13539,7 +14367,6 @@
 				"item_name": "The Medieval Medic",
 				"item_description": "Includes these medieval themed Medic items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_medieval_medic",
@@ -13563,7 +14390,6 @@
 				"item_name": "The Hibernating Bear",
 				"item_description": "Includes these Heavy items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_hibernating_bear",
@@ -13587,7 +14413,6 @@
 				"item_name": "The Expert's Ordnance",
 				"item_description": "Includes these Demoman items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_experts_ordnance",
@@ -13611,7 +14436,6 @@
 				"item_name": "Winter Update Pack",
 				"item_description": "Includes all of the Winter Update class set items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_winterupdate",
@@ -13637,7 +14461,6 @@
 				"item_name": "Box of Fancy Hats",
 				"item_description": "Contains a variety of incredibly fancy hats:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_fancyhats",
@@ -13667,7 +14490,6 @@
 				"item_name": "A Bargaining Manne's Bundle of Bargains",
 				"item_description": "Includes all items from the Polycount Pack and the Winter Update Pack:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/kit_polycount_winterupdate",
@@ -13698,7 +14520,6 @@
 				"item_name": "Pile of Nasty Weapons",
 				"item_description": "An assortment of particularly nasty weapons:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/kit_nastyweapons",
@@ -13725,7 +14546,6 @@
 				"item_name": "Map Stamps Collection",
 				"item_description": "Includes one a stamp for each community made map.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/stamp_collection",
@@ -13749,7 +14569,6 @@
 				"item_name": "The Emperor's Assortment",
 				"item_description": "Get all eight items.\nThis haiku is not lying.\nGet. All. Eight. Items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/shogun_complete_bundle",
@@ -13778,7 +14597,6 @@
 				"item_name": "Japan Charity Bundle",
 				"item_description": "Limited-edition hats and noisemakers! All proceeds (net of applicable taxes) go directly to the American Red Cross for disaster relief in Japan.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/japan_charity_bundle",
@@ -13798,7 +14616,6 @@
 				"item_name": "Scout Starter Pack",
 				"item_description": "Start causing trouble in style with these Scout items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/scout_starter_bundle",
@@ -13822,7 +14639,6 @@
 				"item_name": "Soldier Starter Pack",
 				"item_description": "Don't go to war without these essential Soldier items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/soldier_starter_bundle",
@@ -13846,7 +14662,6 @@
 				"item_name": "Pyro Starter Pack",
 				"item_description": "Burn the house down with these starter Pyro items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/pyro_starter_bundle",
@@ -13870,7 +14685,6 @@
 				"item_name": "Demoman Starter Pack",
 				"item_description": "Transform into an honorable Demoknight with this starter kit:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/demo_starter_bundle",
@@ -13894,7 +14708,6 @@
 				"item_name": "Heavy Starter Pack",
 				"item_description": "A big man needs a big gun and a big meal. Find both in this starter pack:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/heavy_starter_bundle",
@@ -13918,7 +14731,6 @@
 				"item_name": "Engineer Starter Pack",
 				"item_description": "Expand your options with these essential Engineer items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/engineer_starter_bundle",
@@ -13942,7 +14754,6 @@
 				"item_name": "Medic Starter Pack",
 				"item_description": "Provide your team with enhanced support with these key Medic items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/medic_starter_bundle",
@@ -13966,7 +14777,6 @@
 				"item_name": "Sniper Starter Pack",
 				"item_description": "Raise your professional standards with these critical Sniper items:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/sniper_starter_bundle",
@@ -13990,7 +14800,6 @@
 				"item_name": "Spy Starter Pack",
 				"item_description": "Quality field work depends on quality tools:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/spy_starter_bundle",
@@ -14014,7 +14823,6 @@
 				"item_name": "Mobster Monday Bundle",
 				"item_description": "Load up on these Mafia themed items for the Heavy and Spy:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/mobster_monday_bundle",
@@ -14039,7 +14847,6 @@
 				"item_name": "Timbuk-Tuesday Bundle",
 				"item_description": "Load up on these (mostly) Mid-Eastern themed items for the Sniper, Scout, and Demoman:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/timbuktuesday_bundle",
@@ -14065,7 +14872,6 @@
 				"item_name": "World War Wednesday Bundle",
 				"item_description": "Load up on these military themed items for the Soldier:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/war_wednesday_bundle",
@@ -14089,7 +14895,6 @@
 				"item_name": "Meet the Medic! Bundle",
 				"item_description": "Load up on these items celebrating the Meet the Medic video:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/meet_the_medic_bundle",
@@ -14114,7 +14919,6 @@
 				"item_name": "The Uber Update Bundle",
 				"item_description": "Get every new item in the Uber Update in one massive bundle:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/uber_bundle",
@@ -14144,7 +14948,6 @@
 				"item_name": "Summer Sun Bundle",
 				"item_description": "The perfect set of items to enjoy the sun's warmth:",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/summer_bundle",
@@ -14157,13 +14960,66 @@
 				}
 			},
 			{
+				"name": "Dr. Grordbort's Victory Pack",
+				"defindex": 2034,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Dr. Grordbort's Victory Pack",
+				"item_description": "Grab the whole pack of Dr. Grordbort items, designed by WETA Workshop!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "Dr. Grordbort ComicCon Promo Code",
+				"defindex": 2035,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DrGComicCon",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Craft Bar Level 1",
 				"defindex": 5000,
 				"item_class": "craft_item",
 				"item_type_name": "Craft Item",
 				"item_name": "Scrap Metal",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/pile_of_junk",
@@ -14185,7 +15041,6 @@
 				"item_type_name": "Craft Item",
 				"item_name": "Reclaimed Metal",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/pile_of_junk2",
@@ -14207,7 +15062,6 @@
 				"item_type_name": "Craft Item",
 				"item_name": "Refined Metal",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/pile_of_junk3",
@@ -14230,7 +15084,6 @@
 				"item_name": "Class Token - Scout",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_scout",
@@ -14253,7 +15106,6 @@
 				"item_name": "Class Token - Sniper",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_sniper",
@@ -14276,7 +15128,6 @@
 				"item_name": "Class Token - Soldier",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_soldier",
@@ -14299,7 +15150,6 @@
 				"item_name": "Class Token - Demoman",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_demo",
@@ -14322,7 +15172,6 @@
 				"item_name": "Class Token - Heavy",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_heavy",
@@ -14345,7 +15194,6 @@
 				"item_name": "Class Token - Medic",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_medic",
@@ -14368,7 +15216,6 @@
 				"item_name": "Class Token - Pyro",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_pyro",
@@ -14391,7 +15238,6 @@
 				"item_name": "Class Token - Spy",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_spy",
@@ -14414,7 +15260,6 @@
 				"item_name": "Class Token - Engineer",
 				"item_description": "Used to specify a class in blueprints",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/token_engineer",
@@ -14529,7 +15374,6 @@
 				"item_name": "Name Tag",
 				"item_description": "Changes the name of an item in your backpack",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/tag",
@@ -14569,7 +15413,6 @@
 				"item_name": "Mann Co. Supply Crate Key",
 				"item_description": "Used to open locked supply crates.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/key",
@@ -14609,7 +15452,6 @@
 				"item_name": "Mann Co. Supply Crate",
 				"item_description": "You need a Mann Co. Supply Crate Key to open this.\nYou can pick one up at the Mann Co. Store.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/crate",
@@ -14647,7 +15489,6 @@
 				"item_name": "Paint Can",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -14692,7 +15533,6 @@
 				"item_name": "Indubitably Green",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -14737,7 +15577,6 @@
 				"item_name": "Zepheniah's Greed",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -14782,7 +15621,6 @@
 				"item_name": "Noble Hatter's Violet",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -14827,7 +15665,6 @@
 				"item_name": "Color No. 216-190-216",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -14872,7 +15709,6 @@
 				"item_name": "A Deep Commitment to Purple",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -14917,7 +15753,6 @@
 				"item_name": "Mann Co. Orange",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -14962,7 +15797,6 @@
 				"item_name": "Muskelmannbraun",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15007,7 +15841,6 @@
 				"item_name": "Peculiarly Drab Tincture",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15052,7 +15885,6 @@
 				"item_name": "Radigan Conagher Brown",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15097,7 +15929,6 @@
 				"item_name": "Ye Olde Rustic Colour",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15142,7 +15973,6 @@
 				"item_name": "Australium Gold",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15187,7 +16017,6 @@
 				"item_name": "Aged Moustache Grey",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15232,7 +16061,6 @@
 				"item_name": "An Extraordinary Abundance of Tinge",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15277,7 +16105,6 @@
 				"item_name": "A Distinctive Lack of Hue",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15322,7 +16149,6 @@
 				"item_name": "Mann Co. Supply Crate",
 				"item_description": "You need a Mann Co. Supply Crate Key to open this.\nYou can pick one up at the Mann Co. Store.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/crate",
@@ -15361,7 +16187,6 @@
 				"item_name": "Gift Wrap",
 				"item_description": "Used to wrap other items for gifting.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/gift_custom_supplies",
@@ -15402,7 +16227,6 @@
 				"item_name": "A Carefully Wrapped Gift",
 				"item_description": "This item is a wrapped gift. You can give to someone if you wrapped it, or unwrap it if you received it!",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/gift_custom",
@@ -15433,7 +16257,6 @@
 				"item_name": "Description Tag",
 				"item_description": "Changes the description of an item in your backpack",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/desc_tag",
@@ -15473,7 +16296,6 @@
 				"item_name": "Mann Co. Supply Crate",
 				"item_description": "You need a Mann Co. Supply Crate Key to open this.\nYou can pick one up at the Mann Co. Store.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/crate",
@@ -15512,7 +16334,6 @@
 				"item_name": "Team Spirit",
 				"item_description": "Used to paint other items the color of your current team.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/teampaint",
@@ -15562,7 +16383,6 @@
 				"item_name": "Festive Winter Crate",
 				"item_description": "This crate is unusually festive.\nIts contents are unknown and\nnormal keys don't fit the lock.\n\nYou'd better hold onto it.\nThere'll probably be a way to open it later.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/festive_crate",
@@ -15601,7 +16421,6 @@
 				"item_name": "Mann Co. Supply Crate Key",
 				"item_description": "Used to open locked supply crates.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/key",
@@ -15641,7 +16460,6 @@
 				"item_name": "Backpack Expander",
 				"item_description": "Add 100 extra slots to your backpack!\n(1000 spaces maximum)",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/backpack_expander",
@@ -15681,7 +16499,6 @@
 				"item_name": "Pink as Hell",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15726,7 +16543,6 @@
 				"item_name": "A Color Similar to Slate",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15771,7 +16587,6 @@
 				"item_name": "Drably Olive",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15816,7 +16631,6 @@
 				"item_name": "The Bitter Taste of Defeat and Lime",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15861,7 +16675,6 @@
 				"item_name": "The Color of a Gentlemann's Business Pants",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15906,7 +16719,6 @@
 				"item_name": "Dark Salmon Injustice",
 				"item_description": "Used to paint other items.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
@@ -15951,7 +16763,6 @@
 				"item_name": "Stocking Stuffer Key",
 				"item_description": "Someone left this key in your best pair of fightin' socks.\nIt looks like it will open any festive or normal crate.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/key_winter",
@@ -15991,7 +16802,6 @@
 				"item_name": "Operator's Overalls",
 				"item_description": "",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/teampaint",
@@ -16041,7 +16851,6 @@
 				"item_name": "Waterlogged Lab Coat",
 				"item_description": "",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/teampaint",
@@ -16091,7 +16900,6 @@
 				"item_name": "Balaclavas Are Forever",
 				"item_description": "",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/teampaint",
@@ -16141,7 +16949,6 @@
 				"item_name": "An Air of Debonair",
 				"item_description": "",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/teampaint",
@@ -16191,7 +16998,6 @@
 				"item_name": "The Value of Teamwork",
 				"item_description": "",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/teampaint",
@@ -16241,7 +17047,6 @@
 				"item_name": "Cream Spirit",
 				"item_description": "",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/teampaint",
@@ -16291,7 +17096,6 @@
 				"item_name": "Refreshing Summer Cooler",
 				"item_description": "This cooler's contents are unknown and\nnormal keys don't fit the lock.\n\nYou'd better hold onto it.\nThere'll probably be a way to open it later.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/crate_summer",
@@ -16330,7 +17134,6 @@
 				"item_name": "Mann Co. Supply Crate Key",
 				"item_description": "Used to open locked supply crates.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/crafting\/key",
@@ -16370,7 +17173,6 @@
 				"item_name": "RIFT Well Spun Hat Claim Code",
 				"item_description": "This item will grant you a code to receive a hat in Rift. Use it from your backpack to claim the code.",
 				"proper_name": false,
-				"item_slot": null,
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/ticket",
@@ -16720,7 +17522,7 @@
 				"attribute_class": "mult_dmg",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
-				"description_string": "%s1% damage done",
+				"description_string": "%s1% damage penalty",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -16732,7 +17534,7 @@
 				"attribute_class": "mult_dmg",
 				"min_value": 1.050000,
 				"max_value": 1.100000,
-				"description_string": "+%s1% damage done",
+				"description_string": "+%s1% damage bonus",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -17158,7 +17960,7 @@
 				"attribute_class": "set_weapon_mode",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "This bat knocks out a mean stun ball",
+				"description_string": "Alt-Fire: Launches a ball that stuns opponents",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -17288,7 +18090,7 @@
 				"attribute_class": "set_scout_doublejump_disabled",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "Disables double jump on wearer",
+				"description_string": "Disables double jump",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -17312,7 +18114,7 @@
 				"attribute_class": "set_weapon_mode",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "Crits on an accurate headshot",
+				"description_string": "Crits on headshot",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -17550,7 +18352,7 @@
 				"attribute_class": "mult_wpn_burndmg",
 				"min_value": 1.050000,
 				"max_value": 1.100000,
-				"description_string": "+%s1% burn damage",
+				"description_string": "+%s1% burn damage bonus",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -17562,7 +18364,7 @@
 				"attribute_class": "mult_wpn_burndmg",
 				"min_value": 0.950000,
 				"max_value": 0.700000,
-				"description_string": "%s1% burn damage",
+				"description_string": "%s1% burn damage penalty",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -18550,7 +19352,7 @@
 				"attribute_class": "set_silent_killer",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "This weapon is a silent killer",
+				"description_string": "Silent Killer: No attack noise from backstabs",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -18788,7 +19590,7 @@
 				"attribute_class": "no_death_from_headshots",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "The wearer cannot be killed by headshots.",
+				"description_string": "The wearer cannot be killed by headshots",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -18824,7 +19626,7 @@
 				"attribute_class": "minicrits_become_crits",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "This weapon crits whenever it would normally mini-crit.",
+				"description_string": "Crits whenever it would normally mini-crit",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -18848,7 +19650,7 @@
 				"attribute_class": "no_self_blast_dmg",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "No self inflicted blast damage taken.",
+				"description_string": "No self inflicted blast damage taken",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -18932,7 +19734,7 @@
 				"attribute_class": "preserve_ubercharge",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
-				"description_string": "On death up to %s1% of your stored\nÜberCharge is retained.",
+				"description_string": "On death up to %s1% of your stored\nÜberCharge is retained",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19028,7 +19830,7 @@
 				"attribute_class": "halloween_item",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
-				"description_string": "This is a special Halloween %s1 item.",
+				"description_string": "This is a special Halloween %s1 item",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19252,7 +20054,7 @@
 				"attribute_class": "sanguisuge",
 				"min_value": 0.000000,
 				"max_value": 1000.000000,
-				"description_string": "On backstab: absorbs the health from your victim.",
+				"description_string": "On Backstab: Absorbs the health from your victim.",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19264,7 +20066,7 @@
 				"attribute_class": "mark_for_death",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
-				"description_string": "On hit: one target at a time is marked for death, causing all damage taken to be mini-crits.",
+				"description_string": "On Hit: One target at a time is marked for death, causing all damage taken to be mini-crits",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19286,7 +20088,7 @@
 				"attribute_class": "restore_health_on_kill",
 				"min_value": 0.000000,
 				"max_value": 1000.000000,
-				"description_string": "On kill: restores you to %s1% health.",
+				"description_string": "On Kill: Restores you to %s1% health",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19358,7 +20160,7 @@
 				"attribute_class": "honorbound",
 				"min_value": 0.000000,
 				"max_value": 1000.000000,
-				"description_string": "This weapon is Honorbound and once drawn cannot be sheathed until it kills.",
+				"description_string": "Honorbound: Once drawn cannot be sheathed until it kills.",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -19400,7 +20202,7 @@
 				"attribute_class": "medic_killed_revenge",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "When the medic healing you is killed you\ngain 2 revenge crits.",
+				"description_string": "When the medic healing you is killed you\ngain 2 revenge crits",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19496,7 +20298,7 @@
 				"attribute_class": "minigun_no_spin_sounds",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "This weapon has no barrel spin sound",
+				"description_string": "Silent Killer: No barrel spin sound",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19508,7 +20310,7 @@
 				"attribute_class": "mult_uberchargerate_for_healer",
 				"min_value": 1.050000,
 				"max_value": 1.100000,
-				"description_string": "+%s1% ÜberCharge rate for the medic healing you.\nThis effect does not work in the respawn room.",
+				"description_string": "+%s1% ÜberCharge rate for the medic healing you\nThis effect does not work in the respawn room",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19638,7 +20440,7 @@
 				"attribute_class": "air_dash_count",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "Grants triple jump. The third jump deals 10 damage when used.",
+				"description_string": "Grants Triple Jump: The third jump deals 10 damage when used",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19850,11 +20652,103 @@
 				"attribute_class": "see_enemy_health",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "Allows you to see enemy health.",
+				"description_string": "Allows you to see enemy health",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "energy weapon no ammo",
+				"defindex": 281,
+				"attribute_class": "energy_weapon_no_ammo",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Does not require ammo",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "energy weapon charged shot",
+				"defindex": 282,
+				"attribute_class": "energy_weapon_charged_shot",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Alt-Fire: A charged shot that mini-crits\nplayers and disables buildings for 4 sec",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "energy weapon penetration",
+				"defindex": 283,
+				"attribute_class": "energy_weapon_penetration",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Projectile penetrates enemy targets",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "energy weapon no hurt building",
+				"defindex": 284,
+				"attribute_class": "energy_weapon_no_hurt_building",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Deals only 20% damage to buildings",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "energy weapon no deflect",
+				"defindex": 285,
+				"attribute_class": "energy_weapon_no_deflect",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Projectile cannot be deflected",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "no crit boost",
+				"defindex": 288,
+				"attribute_class": "no_crit_boost",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Cannot be crit boosted",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "centerfire projectile",
+				"defindex": 289,
+				"attribute_class": "centerfire_projectile",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "has pipboy build interface",
+				"defindex": 295,
+				"attribute_class": "set_custom_buildmenu",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
 			}
 		]
 		,
@@ -19986,6 +20880,13 @@
 				"id": 20,
 				"attach_to_rootbone": true,
 				"name": "Map Stamps"
+			},
+			{
+				"system": "drg_pipe_smoke",
+				"id": 28,
+				"attach_to_rootbone": false,
+				"attachment": "cig_drg_smoke",
+				"name": "Genteel Pipe Smoke"
 			}
 		]
 		
