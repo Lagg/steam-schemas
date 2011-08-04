@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.6a3ff36163ac5994a99b8638c0e58157e7f441a7.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e61e3992f44a3cc50759291faa98b2d1c5852f33.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -13389,6 +13389,46 @@
 				}
 			},
 			{
+				"name": "The Original",
+				"defindex": 513,
+				"item_class": "tf_weapon_rocketlauncher",
+				"item_type_name": "Rocket Launcher",
+				"item_name": "Original",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_bet_rocketlauncher\/c_bet_rocketlauncher.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_bet_rocketlauncher\/c_bet_rocketlauncher",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bet_rocketlauncher.466851a0bc8f67e1224e889da03ed08515a7e052.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bet_rocketlauncher_large.633203a228455d935cae919ff09ebb478daa5a91.png",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_modify_socket": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "centerfire projectile",
+						"class": "centerfire_projectile",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Mask of the Shaman",
 				"defindex": 514,
 				"item_class": "tf_wearable",
@@ -13402,8 +13442,8 @@
 				"image_inventory": "backpack\/player\/items\/demo\/dust_mask",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dust_mask.3bb72ddb5a7ea2f6c3a27b42f53f9e4255d5315a.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dust_mask_large.5620d9254868b95c4c317fc5faa70a68b5dcaff4.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dust_mask.5d01655818f250d71ad503b9ace2fd3e239aa878.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dust_mask_large.38fed1056f477015af4ded4264b6b2ac0f36b91a.png",
 				"drop_type": "drop",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -13484,6 +13524,154 @@
 				},
 				"used_by_classes": [
 					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Tamrielic Relic",
+				"defindex": 517,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Tamrielic Relic",
+				"item_description": "Designed to inspire fear, the dragons this helm was based on were less than impressed.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/skyrim_helmet.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/skyrim_helmet",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/skyrim_helmet.bc6515ea09e6838e338dcdf6d36fab57204abed8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/skyrim_helmet_large.ac0e67a18980ee73ef32215cd205549bf12e725b.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Anger",
+				"defindex": 518,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Hat",
+				"item_name": "Anger",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/c_bet_brinkhood.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/c_bet_brinkhood",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bet_brinkhood.6e89bdcb3f0a2eee33acdb02a3614aeac460041f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bet_brinkhood_large.4e511ae126c32d4b5ada6be5a6263c7b0e03d3bf.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Pip-Boy 1950",
+				"defindex": 519,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Armband",
+				"item_name": "Pip-Boy",
+				"item_description": "Using modern super-deluxe resolution graphics!",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/bet_pb.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/bet_pb",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bet_pb.cc0d5e545de6568d4116a35f327bbfc61ac0810e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bet_pb_large.4ea3bb45d98b8ec1b911de074ed2c2cbf75c28a2.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					},
+					{
+						"name": "has pipboy build interface",
+						"class": "set_custom_buildmenu",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Wingstick",
+				"defindex": 520,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Wingstick",
+				"item_name": "Wingstick",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/bet_wingstick.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/bet_wingstick",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bet_wingstick.d5bf7b739802dcd1e858ffbae26bf8b96b3716ea.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bet_wingstick_large.35465794cbb5defdb8adc1c14581f3f1f6f6027b.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
 				]
 				,
 				"attributes": [
@@ -20165,6 +20353,26 @@
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "centerfire projectile",
+				"defindex": 289,
+				"attribute_class": "centerfire_projectile",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "has pipboy build interface",
+				"defindex": 295,
+				"attribute_class": "set_custom_buildmenu",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"effect_type": "positive",
+				"hidden": true,
 				"stored_as_integer": true
 			}
 		]
