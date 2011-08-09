@@ -18953,10 +18953,11 @@
 			"name"	"The Original"
 			"item_class"	"tf_weapon_rocketlauncher"
 			"craft_material_type"	"weapon"
+			"craft_class"	"weapon"
 			"capabilities"
 			{
 				"nameable"				"1"
-				"can_modify_socket"		"1"
+				"can_gift_wrap"			"1"
 				"can_craft_count"		"1"
 			}
 			"item_logname"	"quake_rl"
@@ -18984,11 +18985,6 @@
 				{
 					"attribute_class"	"centerfire_projectile"
 					"value"	"1"
-				}
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
 				}
 			}
 			"visuals"
@@ -19222,13 +19218,15 @@
 		
 		"517"
 		{
-			"name"	"Tamrielic Relic"
+			"name"	"Dragonborn Helmet"
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
@@ -19236,8 +19234,8 @@
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"item_type_name"	"#TF_Wearable_Hat"
-			"item_name"	"#TF_TamrielicRelic"
-			"item_description"	"#TF_TamrielicRelic_Desc"
+			"item_name"	"#TF_DragonbornHelmet"
+			"item_description"	"#TF_DragonbornHelmet_Desc"
 			"item_slot"	"head"
 			"item_quality"	"unique"
 			"image_inventory"	"backpack/player/items/all_class/skyrim_helmet"
@@ -19253,14 +19251,6 @@
 			{
 				"hide_player_bodygroup_name"	"hat"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_pickup.wav"
 		}
@@ -19270,9 +19260,11 @@
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 				"paintable"			"1"
 			}
@@ -19297,14 +19289,6 @@
 			{
 				"hide_player_bodygroup_name"	"hat"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_pickup.wav"
 		}
@@ -19314,9 +19298,11 @@
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
@@ -19338,11 +19324,6 @@
 			}
 			"attributes"
 			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
 				"has pipboy build interface"
 				{
 					"attribute_class"	"set_custom_buildmenu"
@@ -19358,9 +19339,11 @@
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
@@ -19379,14 +19362,6 @@
 			"used_by_classes"
 			{
 				"engineer" 		"1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_pickup.wav"
@@ -20916,7 +20891,108 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}				
-				
+		"2036"
+		{
+			"name" "Bethesda Employee Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Original"		"1"
+				"Dragonborn Helmet"	"1"
+				"The Anger"			"1"
+				"Pip-Boy"			"1"
+				"Wingstick"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"Bethesda Employee Bundle"
+			"image_inventory"	"backpack/player/items/crafting/grordborts_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"9"
+				}
+			}
+		}		
+		"2037"
+		{
+			"name" "Tripwire Employee Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Pilotka"			"1"
+				"Stahlhelm"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"Tripwire Employee Bundle"
+			"image_inventory"	"backpack/player/items/crafting/grordborts_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"9"
+				}
+			}
+		}		
+		"2038"
+		{
+			"name" "Bethesda Employee Bundle Genuine"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Original"		"1"
+				"Dragonborn Helmet"	"1"
+				"The Anger"			"1"
+				"Pip-Boy"			"1"
+				"Wingstick"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"Bethesda Employee Bundle"
+			"image_inventory"	"backpack/player/items/crafting/grordborts_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+		}		
+		"2039"
+		{
+			"name" "Tripwire Employee Bundle Genuine"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Pilotka"			"1"
+				"Stahlhelm"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"Tripwire Employee Bundle"
+			"image_inventory"	"backpack/player/items/crafting/grordborts_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+		}		
 
 		"5000"
 		{

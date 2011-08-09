@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.dc72de34480afdf54365400e912fc542165d43b3.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.a308f4047dbac4c839e33a3399ecfca36f01ea2f.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -13403,10 +13403,11 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bet_rocketlauncher.466851a0bc8f67e1224e889da03ed08515a7e052.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bet_rocketlauncher_large.633203a228455d935cae919ff09ebb478daa5a91.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
@@ -13418,11 +13419,6 @@
 					{
 						"name": "centerfire projectile",
 						"class": "centerfire_projectile",
-						"value": 1.000000
-					},
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
 						"value": 1.000000
 					}
 				]
@@ -13536,11 +13532,11 @@
 				
 			},
 			{
-				"name": "Tamrielic Relic",
+				"name": "Dragonborn Helmet",
 				"defindex": 517,
 				"item_class": "tf_wearable",
 				"item_type_name": "TF_Wearable_Hat",
-				"item_name": "Tamrielic Relic",
+				"item_name": "Dragonborn Helmet",
 				"item_description": "Designed to inspire fear, the dragons this helm was based on were less than impressed.",
 				"proper_name": true,
 				"item_slot": "head",
@@ -13552,22 +13548,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/skyrim_helmet.bc6515ea09e6838e338dcdf6d36fab57204abed8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/skyrim_helmet_large.ac0e67a18980ee73ef32215cd205549bf12e725b.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Heavy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -13587,23 +13577,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bet_brinkhood.6e89bdcb3f0a2eee33acdb02a3614aeac460041f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bet_brinkhood_large.4e511ae126c32d4b5ada6be5a6263c7b0e03d3bf.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Sniper"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -13624,9 +13608,11 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bet_pb.cc0d5e545de6568d4116a35f327bbfc61ac0810e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bet_pb_large.4ea3bb45d98b8ec1b911de074ed2c2cbf75c28a2.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
@@ -13635,11 +13621,6 @@
 				]
 				,
 				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					},
 					{
 						"name": "has pipboy build interface",
 						"class": "set_custom_buildmenu",
@@ -13664,22 +13645,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bet_wingstick.d5bf7b739802dcd1e858ffbae26bf8b96b3716ea.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bet_wingstick_large.35465794cbb5defdb8adc1c14581f3f1f6f6027b.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Engineer"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -14944,6 +14919,126 @@
 				},
 				"used_by_classes": [
 					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Bethesda Employee Bundle",
+				"defindex": 2036,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Bethesda Employee Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 9.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Tripwire Employee Bundle",
+				"defindex": 2037,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Tripwire Employee Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 9.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Bethesda Employee Bundle Genuine",
+				"defindex": 2038,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Bethesda Employee Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Tripwire Employee Bundle Genuine",
+				"defindex": 2039,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Tripwire Employee Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
 				]
 				,
 				"attributes": [
