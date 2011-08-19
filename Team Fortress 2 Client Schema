@@ -21703,7 +21703,102 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
-				
+		"2042"
+		{
+			"name" "DOTA2 Gamescom Winners Finals PROMO Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Sniper's Snipin' Glass"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_DOTA2GamescomWinnersFinals"
+			"item_description"	"#TF_Bundle_DOTA2GamescomWinnersFinals_Desc"
+			"image_inventory"	"backpack/player/items/crafting/soldier_starter_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}			
+		"2043"
+		{
+			"name" "DOTA2 Gamescom Losers Finals PROMO Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Storm Spirit's Jolly Hat"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_DOTA2GamescomLosersFinals"
+			"item_description"	"#TF_Bundle_DOTA2GamescomLosersFinals_Desc"
+			"image_inventory"	"backpack/player/items/crafting/soldier_starter_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2044"
+		{
+			"name" "DOTA2 Gamescom Championship PROMO Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Clockwerk's Helm"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_DOTA2GamescomChampionship"
+			"item_description"	"#TF_Bundle_DOTA2GamescomChampionship_Desc"
+			"image_inventory"	"backpack/player/items/crafting/soldier_starter_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}				
 
 		"5000"
 		{

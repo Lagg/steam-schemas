@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.3d35f78a939cf9bc3aed4ac03a7a6761f5627384.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.603569d6927983143c47d035d8ec1dd7d09b9f36.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -15539,7 +15539,7 @@
 				"image_inventory": "backpack\/crafting\/dex_bundle",
 				"min_ilevel": 50,
 				"max_ilevel": 50,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.efe50687f37814f00498e2606575ee8ccc24b6e9.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
 				"capabilities": {
 					"can_craft_mark": true
@@ -15558,13 +15558,106 @@
 				"image_inventory": "backpack\/player\/items\/crafting\/dex_bundle",
 				"min_ilevel": 50,
 				"max_ilevel": 50,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.efe50687f37814f00498e2606575ee8ccc24b6e9.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
 				"capabilities": {
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "DOTA2 Gamescom Winners Finals PROMO Bundle",
+				"defindex": 2042,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DOTA2GamescomWinnersFinals",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/soldier_starter_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_starter_bundle.8521ea8e087cac9e9bca9ad07cb8c9692311aaae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_starter_bundle_large.072cb4e3d7a7b10146745847befdfad847069ccc.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "DOTA2 Gamescom Losers Finals PROMO Bundle",
+				"defindex": 2043,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DOTA2GamescomLosersFinals",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/soldier_starter_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_starter_bundle.8521ea8e087cac9e9bca9ad07cb8c9692311aaae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_starter_bundle_large.072cb4e3d7a7b10146745847befdfad847069ccc.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "DOTA2 Gamescom Championship PROMO Bundle",
+				"defindex": 2044,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DOTA2GamescomChampionship",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/soldier_starter_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_starter_bundle.8521ea8e087cac9e9bca9ad07cb8c9692311aaae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_starter_bundle_large.072cb4e3d7a7b10146745847befdfad847069ccc.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
 				]
 				,
 				"attributes": [
