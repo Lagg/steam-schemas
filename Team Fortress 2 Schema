@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.a308f4047dbac4c839e33a3399ecfca36f01ea2f.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.3d35f78a939cf9bc3aed4ac03a7a6761f5627384.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -1675,6 +1675,11 @@
 						"name": "jarate description",
 						"class": "desc_jarate_description",
 						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 4.000000
 					}
 				]
 				
@@ -4733,6 +4738,19 @@
 				"used_by_classes": [
 					"Engineer"
 				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
+					}
+				]
 				
 			},
 			{
@@ -5106,6 +5124,19 @@
 				},
 				"used_by_classes": [
 					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 2.000000
+					}
 				]
 				
 			},
@@ -8527,6 +8558,16 @@
 						"name": "damage penalty",
 						"class": "mult_dmg",
 						"value": 0.750000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
 					}
 				]
 				
@@ -13035,18 +13076,18 @@
 				"name": "TournamentMedal - GWJ Winners",
 				"defindex": 496,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_GWJ_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - Gamers With Jobs Tournament",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/weiner_bomb_medal",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/weiner_bomb_medal.4a512655f3cdea27b07d2aacf8d8d0d31dac1014.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/weiner_bomb_medal_large.5aa145c03f489ac9eb01c4ee816b26bbc0668553.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13056,18 +13097,18 @@
 				"name": "TournamentMedal - GWJ Runnerups",
 				"defindex": 497,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_GWJ_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - Gamers With Jobs Tournament",
+				"item_description": "Given to the runner-ups!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/weiner_bomb_run",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/weiner_bomb_run.29504f16b9dfe186bb5a3394c058365457397d70.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/weiner_bomb_run_large.e605ec94124e35849bc89ae6bde7266effe17dad.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13077,18 +13118,18 @@
 				"name": "TournamentMedal - GWJ Participants",
 				"defindex": 498,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_GWJ_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Participant - Gamers With Jobs Tournament",
+				"item_description": "Given to the players who participated in the tournament.",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/weiner_bomb_part",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/weiner_bomb_part.929d60f7eac387bc77fc12054537bdb3518d456c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/weiner_bomb_part_large.5420b97e3e0e5702a8ddee8e668cc51175ae07bc.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13098,18 +13139,18 @@
 				"name": "TournamentMedal - ETF2LHL Winners",
 				"defindex": 499,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_ETF2LHL_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - ETF2L Highlander Tournament",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/etf2l_highlander_medal",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/etf2l_highlander_medal.5791dfe64cbe77d04212987be1e50cfa3fd422ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/etf2l_highlander_medal_large.b204850ef9878bef6c1c5ab08a13aa14c693af96.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13119,18 +13160,18 @@
 				"name": "TournamentMedal - ETF2LHL 2nd",
 				"defindex": 500,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_ETF2LHL_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - ETF2L Highlander Tournament",
+				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/etf2l_highlander_medal_1",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/etf2l_highlander_medal_1.a8c8aca80378a7087daba9c7ef4832eec88a4395.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/etf2l_highlander_medal_1_large.386357e1e961a6055f08baa15066020de2244749.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13140,18 +13181,18 @@
 				"name": "TournamentMedal - ETF2LHL 3rd",
 				"defindex": 501,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_ETF2LHL_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Third Place - ETF2L Highlander Tournament",
+				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/etf2l_highlander_medal_2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/etf2l_highlander_medal_2.8660c3461162ee42fb8317231bbe00f727f1c07a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/etf2l_highlander_medal_2_large.fd31b76f8ddd2d37421280f8f138c8d5b48b858f.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13161,18 +13202,18 @@
 				"name": "TournamentMedal - ETF2LHL Participants",
 				"defindex": 502,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_ETF2LHL_4th",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Participant - ETF2L Highlander Tournament",
+				"item_description": "Given to the players who participated in the tournament.",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_participant.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/etf2l_highlander_participant",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/etf2l_highlander_participant.8a5c32a7ab14b25e5a39faef1d2dbd391b11311b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/etf2l_highlander_participant_large.1a337ca495dfefe99c37cc7bf1a379a9a1494f9b.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13182,18 +13223,18 @@
 				"name": "TournamentMedal - UGCHL Participants",
 				"defindex": 503,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHL_Participant",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Participant - UGC Highlander Tournament",
+				"item_description": "Given to the players who participated in the tournament.",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_participant.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_participant",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_participant.3ed52fe79c432b90a797ed582572c4b20487e0ae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_participant_large.96e1a8ba3affac4de5537f16c416815784a7d828.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13203,18 +13244,18 @@
 				"name": "TournamentMedal - UGCHLDiv1 Winners",
 				"defindex": 504,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv1_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - UGC Highlander Tournament Div 1",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_platinum",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_platinum.7dfd306331ba5c1cad90c42620ee938f551ce8ae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_platinum_large.1a3cba2dc34ec19657c4a81b021d0372713e334e.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13224,18 +13265,18 @@
 				"name": "TournamentMedal - UGCHLDiv1 2nd",
 				"defindex": 505,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv1_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - UGC Highlander Tournament Div 1",
+				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_platinum_1",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_platinum_1.d5d4700c810b0bfb2741d20b7eab25e4d556d657.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_platinum_1_large.bf3675a0f9c2cb44934812c30895c695d1f7ed3f.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13245,18 +13286,18 @@
 				"name": "TournamentMedal - UGCHLDiv1 3rd",
 				"defindex": 506,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv1_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Third Place - UGC Highlander Tournament Div 1",
+				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_platinum_2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_platinum_2.2f578f5bbaad09b2a50dba7c2a6512692849945d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_platinum_2_large.b5ad6f183e5b8a4fea3100dffbf8270ab8699c90.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13266,18 +13307,18 @@
 				"name": "TournamentMedal - UGCHLDiv2 Winners",
 				"defindex": 507,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv2_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - UGC Highlander Tournament Div 2",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_silver",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_silver.ecc710084f3a7eeff364dfb3d8ec0ba484006924.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_silver_large.309c3e07ab351516478e2dd7ca3de1df8f0ff93f.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13287,18 +13328,18 @@
 				"name": "TournamentMedal - UGCHLDiv2 2nd",
 				"defindex": 508,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv2_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - UGC Highlander Tournament Div 2",
+				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_silver_1",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_silver_1.a3c5984a2edcc63b3bbcd10519b8dc8a94ee16cf.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_silver_1_large.e4ca5c9902d4f2ac10659cdaf6e1810257b24aab.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13308,18 +13349,18 @@
 				"name": "TournamentMedal - UGCHLDiv2 3rd",
 				"defindex": 509,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv2_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Third Place - UGC Highlander Tournament Div 2",
+				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_silver_2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_silver_2.5a71681ca75ad15fad491e732cbfb54d1f7c2866.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_silver_2_large.f990677f9172ac6c532f55e9335a4a6136cfa467.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13329,18 +13370,18 @@
 				"name": "TournamentMedal - UGCHLDiv3 Winners",
 				"defindex": 510,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv3_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - UGC Highlander Tournament Div 3",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_iron",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_iron.f92c37b72f5cf706fb8ea1be78bd883b51394fbe.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_iron_large.9b3501f64968b0eaca634d5efd68a0c56582536e.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13350,18 +13391,18 @@
 				"name": "TournamentMedal - UGCHLDiv3 2nd",
 				"defindex": 511,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv3_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - UGC Highlander Tournament Div 3",
+				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_iron_1",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_iron_1.8b2cbc8f331c1c0b007decf279e0782e066796c9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_iron_1_large.c316ee77eb9fd4b8387ab96828042c45594322f7.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13371,18 +13412,18 @@
 				"name": "TournamentMedal - UGCHLDiv3 3rd",
 				"defindex": 512,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv3_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Third Place - UGC Highlander Tournament Div 3",
+				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_iron_2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_iron_2.168e7206832ce861ccc3b01139884355cba50e14.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc_highlander_iron_2_large.ba42c80287b977a1116c31549757192069948730.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13655,6 +13696,441 @@
 				},
 				"used_by_classes": [
 					"Engineer"
+				]
+				
+			},
+			{
+				"name": "Belltower Spec Ops",
+				"defindex": 521,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Nanobalaclava",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/dex_belltower_heavy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/dex_belltower_heavy",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_belltower_heavy.31151e66fc778eb5b06cb56adb48375c44aaa607.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_belltower_heavy_large.33eceb5a10d768ac28773d58c426f37b6b9907cd.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Deus Specs",
+				"defindex": 522,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Deus Specs",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/dex_glasses_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/dex_glasses_heavy",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_glasses_heavy.bb9511f30d17a260b9ab978a0cf8c97ed9186949.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_glasses_heavy_large.8eb8efc527532b277f89ed04659824c5c25dd3aa.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "The Sarif Cap",
+				"defindex": 523,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Company Man",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/scout_dex.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/demo_dex",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_dex.8ffb0557ec86e15f99d688b5031b254394abbe22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_dex_large.c369799d509e148f0462cc62ab8e10d4b0a6ff92.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "The Purity Fist",
+				"defindex": 524,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Arms",
+				"item_name": "Purity Fist",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/dex_sarifarm.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/dex_sarifarm",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_sarifarm.33a0d404edf4fc99ef3f3a74115e0800453116c7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_sarifarm_large.b3828916b0993f40a13444bec235b6b040896311.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Diamondback",
+				"defindex": 525,
+				"item_class": "tf_weapon_revolver",
+				"item_type_name": "Revolver",
+				"item_name": "Diamondback",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_dex_revolver\/c_dex_revolver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dex_revolver\/c_dex_revolver",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_dex_revolver.b379d943d06568f90d93763b305141b77b75ebcb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_dex_revolver_large.a8f60376080e510e9caa3a49a09baec2365e36d8.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sapper kills collect crits",
+						"class": "sapper_kills_collect_crits",
+						"value": 1.000000
+					},
+					{
+						"name": "damage penalty",
+						"class": "mult_dmg",
+						"value": 0.850000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Machina",
+				"defindex": 526,
+				"item_class": "tf_weapon_sniperrifle",
+				"item_type_name": "Sniper Rifle",
+				"item_name": "Machina",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_dex_sniperrifle\/c_dex_sniperrifle.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dex_sniperrifle\/c_dex_sniperrifle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_dex_sniperrifle.c13e4f63e0663b31af9450b5167250e6c3e7e772.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_dex_sniperrifle_large.01158138ceafee046e535e92aa1b5c76d4d2a7c7.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sniper penetrate players when charged",
+						"class": "sniper_penetrate_players_when_charged",
+						"value": 1.000000
+					},
+					{
+						"name": "sniper only fire zoomed",
+						"class": "sniper_only_fire_zoomed",
+						"value": 1.000000
+					},
+					{
+						"name": "sniper full charge damage bonus",
+						"class": "sniper_full_charge_damage_bonus",
+						"value": 1.150000
+					},
+					{
+						"name": "sniper fires tracer DISPLAY ONLY",
+						"class": "sniper_fires_tracer_DISPLAY_ONLY",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Widowmaker",
+				"defindex": 527,
+				"item_class": "tf_weapon_shotgun_primary",
+				"item_type_name": "Shotgun",
+				"item_name": "Widowmaker",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_dex_shotgun\/c_dex_shotgun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dex_shotgun\/c_dex_shotgun",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_dex_shotgun.ed94dfbf035ed9df16cba060541bd7816e92156a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_dex_shotgun_large.0c5347dc2b1369f20244c95e1169b57a59d441e0.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mod ammo per shot",
+						"class": "mod_ammo_per_shot",
+						"value": 60.000000
+					},
+					{
+						"name": "mod use metal ammo type",
+						"class": "mod_use_metal_ammo_type",
+						"value": 1.000000
+					},
+					{
+						"name": "mod no reload DISPLAY ONLY",
+						"class": "mod_no_reload_display_only",
+						"value": 1.000000
+					},
+					{
+						"name": "mod max primary clip override",
+						"class": "mod_max_primary_clip_override",
+						"value": -1.000000
+					},
+					{
+						"name": "add onhit addammo",
+						"class": "add_onhit_addammo",
+						"value": 100.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Short Circuit",
+				"defindex": 528,
+				"item_class": "tf_weapon_mechanical_arm",
+				"item_type_name": "TF_Weapon_Mechanical_Arm",
+				"item_name": "Short Circuit",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_dex_arm\/c_dex_arm.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dex_arm\/c_dex_arm",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_dex_arm.03d97329aabd802e65a41dbba97027bbc2242dff.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_dex_arm_large.8bead2629f6bdb51750267e79dff5b8dad260138.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mod ammo per shot",
+						"class": "mod_ammo_per_shot",
+						"value": 35.000000
+					},
+					{
+						"name": "electrical airblast DISPLAY ONLY",
+						"class": "electrical_airblast_DISPLAY_ONLY",
+						"value": 1.000000
+					},
+					{
+						"name": "mod use metal ammo type",
+						"class": "mod_use_metal_ammo_type",
+						"value": 1.000000
+					},
+					{
+						"name": "mod no reload DISPLAY ONLY",
+						"class": "mod_no_reload_display_only",
+						"value": 1.000000
+					},
+					{
+						"name": "mod max primary clip override",
+						"class": "mod_max_primary_clip_override",
+						"value": -1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Clockwerk's Helm",
+				"defindex": 533,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Clockwerk's Helm",
+				"item_description": "DOTA 2 International Championship\nGamescom 2011",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/clockwerk_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/clockwerk_hat",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/clockwerk_hat.d7e965df3b7f414c59c8c0c3095828729e1d30db.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/clockwerk_hat_large.5cfa455e8d22d5c27a65ec8a8e1744ac71c7a99c.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Sniper's Snipin' Glass",
+				"defindex": 534,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Sniper's Snipin' Glass",
+				"item_description": "DOTA 2 International Championship\nGamescom 2011",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/dotasniper_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/dotasniper_hat",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dotasniper_hat.a10957450184a9099f48e88b21fbbd6e0691acba.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dotasniper_hat_large.b33a73edd338ed5c0720170c8bc41ddc4210f0a5.png",
+				"drop_type": "none",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Storm Spirit's Jolly Hat",
+				"defindex": 535,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Storm Spirit's Jolly Hat",
+				"item_description": "DOTA 2 International Championship\nGamescom 2011",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/stormspirit_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/stormspirit_hat",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stormspirit_hat.05110403d714e6c7856a425277fb4e70f3852bf2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stormspirit_hat_large.cb6115d7dcd847eea168fa5d0179e1d56f04c549.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -15051,6 +15527,56 @@
 				
 			},
 			{
+				"name": "Deus Ex Promo Bundle",
+				"defindex": 2040,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Manno-Technology Bundle",
+				"item_description": "When will it be the future? Right now! See for yourself with these eight items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.efe50687f37814f00498e2606575ee8ccc24b6e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Deus Ex Purity Fist PAX Promo",
+				"defindex": 2041,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DeusExPAX",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.efe50687f37814f00498e2606575ee8ccc24b6e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Craft Bar Level 1",
 				"defindex": 5000,
 				"item_class": "craft_item",
@@ -15513,7 +16039,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 23.000000
+						"value": 26.000000
 					}
 				]
 				
@@ -16211,7 +16737,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 24.000000
+						"value": 27.000000
 					}
 				]
 				
@@ -16358,7 +16884,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 25.000000
+						"value": 28.000000
 					}
 				]
 				
@@ -20336,11 +20862,11 @@
 				"attribute_class": "projectile_penetration",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
-				"description_string": "Attrib_Penetration",
+				"description_string": "Projectiles penetrate enemy players",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
-				"stored_as_integer": true
+				"stored_as_integer": false
 			},
 			{
 				"name": "mod crit while airborne",
@@ -20377,6 +20903,29 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "maxammo grenades1 increased",
+				"defindex": 279,
+				"attribute_class": "mult_maxammo_grenades1",
+				"min_value": 1.050000,
+				"max_value": 1.150000,
+				"description_string": "Attrib_MaxammoGrenades1_Increased",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "override projectile type",
+				"defindex": 280,
+				"attribute_class": "override_projectile_type",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
 			},
 			{
 				"name": "energy weapon no ammo",
@@ -20461,6 +21010,36 @@
 				"stored_as_integer": true
 			},
 			{
+				"name": "kill eater score type",
+				"defindex": 292,
+				"attribute_class": "kill_eater_score_type",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater score type 2",
+				"defindex": 293,
+				"attribute_class": "kill_eater_score_type_2",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater 2",
+				"defindex": 294,
+				"attribute_class": "kill_eater_2",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
 				"name": "has pipboy build interface",
 				"defindex": 295,
 				"attribute_class": "set_custom_buildmenu",
@@ -20469,6 +21048,160 @@
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": true
+			},
+			{
+				"name": "sapper kills collect crits",
+				"defindex": 296,
+				"attribute_class": "sapper_kills_collect_crits",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Gives one guaranteed critical hit for each\nbuilding destroyed with your sapper attached",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "sniper only fire zoomed",
+				"defindex": 297,
+				"attribute_class": "sniper_only_fire_zoomed",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Cannot fire unless zoomed",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "mod ammo per shot",
+				"defindex": 298,
+				"attribute_class": "mod_ammo_per_shot",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Per Shot: -%s1 ammo",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "add onhit addammo",
+				"defindex": 299,
+				"attribute_class": "add_onhit_addammo",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "On Hit: damage dealt is returned as ammo",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "electrical airblast DISPLAY ONLY",
+				"defindex": 300,
+				"attribute_class": "electrical_airblast_DISPLAY_ONLY",
+				"min_value": 0.010000,
+				"max_value": 0.050000,
+				"description_string": "On Fire: Generates an electrical field that destroys\nprojectiles and does slight damage to players",
+				"description_format": "value_is_additive_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "mod use metal ammo type",
+				"defindex": 301,
+				"attribute_class": "mod_use_metal_ammo_type",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Uses metal for ammo",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "mod max primary clip override",
+				"defindex": 303,
+				"attribute_class": "mod_max_primary_clip_override",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "sniper full charge damage bonus",
+				"defindex": 304,
+				"attribute_class": "sniper_full_charge_damage_bonus",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "On Full Charge: +%s1% damage per shot",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sniper fires tracer DISPLAY ONLY",
+				"defindex": 305,
+				"attribute_class": "sniper_fires_tracer_DISPLAY_ONLY",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Fires tracer rounds",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sniper no headshot without full charge",
+				"defindex": 306,
+				"attribute_class": "sniper_no_headshot_without_full_charge",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "No headshots when not fully charged",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "mod no reload DISPLAY ONLY",
+				"defindex": 307,
+				"attribute_class": "mod_no_reload_display_only",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "No reload necessary",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "sniper penetrate players when charged",
+				"defindex": 308,
+				"attribute_class": "sniper_penetrate_players_when_charged",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "On Full Charge: Projectiles penetrate players",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "draw sniper beam when scoped",
+				"defindex": 309,
+				"attribute_class": "draw_sniper_beam_when_scoped",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Attrib_DrawBeamWhenScoped",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
 			}
 		]
 		,
@@ -20607,6 +21340,54 @@
 				"attach_to_rootbone": false,
 				"attachment": "cig_drg_smoke",
 				"name": "Genteel Pipe Smoke"
+			},
+			{
+				"system": "unusual_storm",
+				"id": 29,
+				"attach_to_rootbone": true,
+				"name": "Stormy Storm"
+			},
+			{
+				"system": "unusual_blizzard",
+				"id": 30,
+				"attach_to_rootbone": true,
+				"name": "Blizzardy Storm"
+			},
+			{
+				"system": "unusual_orbit_nutsnbolts",
+				"id": 31,
+				"attach_to_rootbone": true,
+				"name": "Nuts n' Bolts"
+			},
+			{
+				"system": "unusual_orbit_planets",
+				"id": 32,
+				"attach_to_rootbone": true,
+				"name": "Orbiting Planets"
+			},
+			{
+				"system": "unusual_orbit_fire",
+				"id": 33,
+				"attach_to_rootbone": true,
+				"name": "Orbiting Fire"
+			},
+			{
+				"system": "unusual_bubbles",
+				"id": 34,
+				"attach_to_rootbone": true,
+				"name": "Bubbling"
+			},
+			{
+				"system": "unusual_smoking",
+				"id": 35,
+				"attach_to_rootbone": true,
+				"name": "Smoking"
+			},
+			{
+				"system": "unusual_steaming",
+				"id": 36,
+				"attach_to_rootbone": true,
+				"name": "Steaming"
 			}
 		]
 		
