@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.603569d6927983143c47d035d8ec1dd7d09b9f36.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.a41670c7d1ea1db66c014d054e896ac3111f73bd.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -14025,6 +14025,11 @@
 						"name": "crit mod disabled",
 						"class": "mult_crit_chance",
 						"value": 0.000000
+					},
+					{
+						"name": "disable weapon hiding for animations",
+						"class": "disable_weapon_hiding_for_animations",
+						"value": 1.000000
 					}
 				]
 				
@@ -14125,6 +14130,80 @@
 					"Heavy"
 				]
 				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Noise Maker - TF Birthday",
+				"defindex": 536,
+				"item_class": "tf_wearable",
+				"item_type_name": "Party Favor",
+				"item_name": "Noise Maker - TF Birthday",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/noisemaker_birthday",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/noisemaker_birthday.61e6f52491f82cbbf8101f3be5981c9d5fc83f3f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/noisemaker_birthday_large.5e0756d5a91467fb2e12f4e7046c6da8c00f45c6.png",
+				"holiday_restriction": "birthday",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "noise_maker"
+				},
+				"attributes": [
+					{
+						"name": "noise maker",
+						"class": "enable_misc2_noisemaker",
+						"value": 1.000000
+					},
+					{
+						"name": "unlimited quantity",
+						"class": "unlimited_quantity",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "TF Birthday Hat 2011",
+				"defindex": 537,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Party Hat",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/bdayhat_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/bdayhat_heavy",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bdayhat_heavy.038863e82750e65121a57261fc3b2d77b97a225f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bdayhat_heavy_large.86f38aeb3befaecc97fa638109bb05a36947f2e8.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
 				"attributes": [
 					{
 						"name": "cannot trade",
@@ -15658,6 +15737,69 @@
 				},
 				"used_by_classes": [
 					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Deus Ex Self-Made Bundle",
+				"defindex": 2045,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DeusExSelfMade",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 9.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Shogun Complete Genuine Bundle",
+				"defindex": 2046,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Emperor's Assortment",
+				"item_description": "Get all eight items.\nThis haiku is not lying.\nGet. All. Eight. Items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/shogun_complete_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/shogun_complete_bundle.cebef057a429aa3b9aabaa7d05b776dec3c09918.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/shogun_complete_bundle_large.80349027e9cc438969bcd4cafc85cb9c8ceccd12.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Soldier",
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Spy"
 				]
 				,
 				"attributes": [
@@ -21285,9 +21427,9 @@
 				"stored_as_integer": false
 			},
 			{
-				"name": "draw sniper beam when scoped",
+				"name": "draw sniper beam when scoped UNUSED",
 				"defindex": 309,
-				"attribute_class": "draw_sniper_beam_when_scoped",
+				"attribute_class": "draw_sniper_beam_when_scoped_UNUSED",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
 				"description_string": "Attrib_DrawBeamWhenScoped",
@@ -21295,6 +21437,28 @@
 				"effect_type": "negative",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "unlimited quantity",
+				"defindex": 311,
+				"attribute_class": "unlimited_quantity",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Unlimited use",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "disable weapon hiding for animations",
+				"defindex": 312,
+				"attribute_class": "disable_weapon_hiding_for_animations",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
 			}
 		]
 		,
@@ -21481,6 +21645,114 @@
 				"id": 36,
 				"attach_to_rootbone": true,
 				"name": "Steaming"
+			}
+		]
+		,
+		"kill_eater_ranks": [
+			{
+				"level": 0,
+				"required_score": 10,
+				"name": "Strange"
+			},
+			{
+				"level": 1,
+				"required_score": 25,
+				"name": "Unremarkable"
+			},
+			{
+				"level": 2,
+				"required_score": 45,
+				"name": "Scarcely Lethal"
+			},
+			{
+				"level": 3,
+				"required_score": 70,
+				"name": "Mildly Menacing"
+			},
+			{
+				"level": 4,
+				"required_score": 100,
+				"name": "Somewhat Threatening"
+			},
+			{
+				"level": 5,
+				"required_score": 135,
+				"name": "Uncharitable"
+			},
+			{
+				"level": 6,
+				"required_score": 175,
+				"name": "Notably Dangerous"
+			},
+			{
+				"level": 7,
+				"required_score": 225,
+				"name": "Sufficiently Lethal"
+			},
+			{
+				"level": 8,
+				"required_score": 275,
+				"name": "Truly Feared"
+			},
+			{
+				"level": 9,
+				"required_score": 350,
+				"name": "Spectacularly Lethal"
+			},
+			{
+				"level": 10,
+				"required_score": 500,
+				"name": "Gore-Spattered"
+			},
+			{
+				"level": 11,
+				"required_score": 750,
+				"name": "Wicked Nasty"
+			},
+			{
+				"level": 12,
+				"required_score": 999,
+				"name": "Positively Inhumane"
+			},
+			{
+				"level": 13,
+				"required_score": 1000,
+				"name": "Totally Ordinary"
+			},
+			{
+				"level": 14,
+				"required_score": 1500,
+				"name": "Face-Melting"
+			},
+			{
+				"level": 15,
+				"required_score": 2500,
+				"name": "Rage-Inducing"
+			},
+			{
+				"level": 16,
+				"required_score": 5000,
+				"name": "Server-Clearing"
+			},
+			{
+				"level": 17,
+				"required_score": 7500,
+				"name": "Epic"
+			},
+			{
+				"level": 18,
+				"required_score": 7616,
+				"name": "Legendary"
+			},
+			{
+				"level": 19,
+				"required_score": 8500,
+				"name": "Australian"
+			},
+			{
+				"level": 20,
+				"required_score": 10000,
+				"name": "Hale's Own"
 			}
 		]
 		

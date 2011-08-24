@@ -10087,7 +10087,8 @@
 			}
 			"visuals"
 			{
-				"custom_sound0"	"Halloween.BlackCat"
+				"custom_sound0"		"Halloween.BlackCat"
+				"particle_effect"	"halloween_notes"			
 			}
 			"mouse_pressed_sound" 	"Halloween.BlackCat"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
@@ -10144,7 +10145,8 @@
 			}
 			"visuals"
 			{
-				"custom_sound0"	"Halloween.Gremlin"
+				"custom_sound0"		"Halloween.Gremlin"
+				"particle_effect"	"halloween_notes"			
 			}
 			"mouse_pressed_sound" 	"Halloween.Gremlin"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
@@ -10201,7 +10203,8 @@
 			}
 			"visuals"
 			{
-				"custom_sound0"	"Halloween.Werewolf"
+				"custom_sound0"		"Halloween.Werewolf"
+				"particle_effect"	"halloween_notes"			
 			}
 			"mouse_pressed_sound" 	"Halloween.Werewolf"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
@@ -10258,7 +10261,8 @@
 			}
 			"visuals"
 			{
-				"custom_sound0"	"Halloween.Witch"
+				"custom_sound0"		"Halloween.Witch"
+				"particle_effect"	"halloween_notes"			
 			}
 			"mouse_pressed_sound" 	"Halloween.Witch"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
@@ -10315,7 +10319,8 @@
 			}
 			"visuals"
 			{
-				"custom_sound0"	"Halloween.Banshee"
+				"custom_sound0"		"Halloween.Banshee"
+				"particle_effect"	"halloween_notes"			
 			}
 			"mouse_pressed_sound" 	"Halloween.Banshee"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
@@ -10372,7 +10377,8 @@
 			}
 			"visuals"
 			{
-				"custom_sound0"	"Halloween.CrazyLaugh"
+				"custom_sound0"		"Halloween.CrazyLaugh"
+				"particle_effect"	"halloween_notes"			
 			}
 			"mouse_pressed_sound" 	"Halloween.CrazyLaugh"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
@@ -10485,7 +10491,8 @@
 			}
 			"visuals"
 			{
-				"custom_sound0"	"Halloween.Stabby"
+				"custom_sound0"		"Halloween.Stabby"
+				"particle_effect"	"halloween_notes"			
 			}
 			"mouse_pressed_sound" 	"Halloween.Stabby"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
@@ -19865,6 +19872,11 @@
 					"attribute_class"	"mult_crit_chance"
 					"value"	"0"
 				}
+				"disable weapon hiding for animations"
+				{
+					"attribute_class"	"disable_weapon_hiding_for_animations"
+					"value"	"1"
+				}
 			}
 			"hide_bodygroups_deployed_only"	"1"
 			"visuals"
@@ -20006,6 +20018,132 @@
 		}
 				
 					
+		"536"
+		{
+			"name"	"Noise Maker - TF Birthday"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"tool"
+			{
+				"type"	"noise_maker"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+			}
+			"show_in_armory"	"1"
+			"armory_desc"		"action noisemaker"
+			"item_type_name"	"#TF_Party_Favor"
+			"item_name"	"#TF_NoiseMaker_TFBirthday"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/crafting/noisemaker_birthday"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"holiday_restriction"	"birthday"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"noise maker"
+				{
+					"attribute_class"	"enable_misc2_noisemaker"
+					"value"			"1"
+				}
+				"unlimited quantity"
+				{
+					"attribute_class"	"unlimited_quantity"
+					"value" "1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"custom_sound0"		"Game.HappyBirthdayNoiseMaker"
+				"particle_effect"	"bday_confetti"			
+			}
+			"mouse_pressed_sound" 	"Game.HappyBirthdayNoiseMaker"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		"537"
+		{
+			"name"	"TF Birthday Hat 2011"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"paintable"			"1"
+			}
+			"show_in_armory"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Birthday2011_Hat"
+			"item_description"	"#TF_Birthday2011_Hat_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/all_class/bdayhat_heavy"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/bdayhat_scout.mdl"
+				"sniper"	"models/player/items/all_class/bdayhat_sniper.mdl"
+				"soldier"	"models/player/items/all_class/bdayhat_soldier.mdl"
+				"demoman"	"models/player/items/all_class/bdayhat_demo.mdl"
+				"medic"		"models/player/items/all_class/bdayhat_medic.mdl"
+				"heavy"		"models/player/items/all_class/bdayhat_heavy.mdl"
+				"spy"		"models/player/items/all_class/bdayhat_spy.mdl"
+				"engineer"	"models/player/items/all_class/bdayhat_engineer.mdl"
+				"pyro"		"models/player/items/all_class/bdayhat_pyro.mdl"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_pickup.wav"
+		}
 						
 		
 		"1899"
@@ -21798,7 +21936,100 @@
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
-		}				
+		}
+		"2045"
+		{
+			"name" "Deus Ex Self-Made Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Belltower Spec Ops"	"1"
+				"The Deus Specs"		"1"
+				"The Sarif Cap"			"1"
+				"The Purity Fist"		"1"
+				"The Diamondback"		"1"
+				"The Machina"			"1"
+				"The Widowmaker"		"1"
+				"The Short Circuit"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_DeusExSelfMade"
+			"item_description"	"#TF_Bundle_DeusExSelfMade_Desc"
+			"image_inventory"	"backpack/crafting/dex_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"9"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2046"
+		{
+			"name" "Shogun Complete Genuine Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Concheror"			"1"
+				"The Fan O'War"			"1"
+				"Conniver's Kunai"		"1"
+				"The Half-Zatoichi"		"1"
+				
+				"Heavy Topknot"			"1"
+				"Demo Kabuto"			"1"
+				"Spy Oni Mask"			"1"
+				"Medic Geisha Hair"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_ShogunPromoComplete"
+			"item_description"	"#TF_Bundle_ShogunPromoComplete_Desc"
+			"image_inventory"	"backpack/player/items/crafting/shogun_complete_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"scout"		"1"
+				"spy"		"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+			
 
 		"5000"
 		{
@@ -28096,8 +28327,8 @@
 		}
 		"309"
 		{
-			"name"	"draw sniper beam when scoped"
-			"attribute_class"	"draw_sniper_beam_when_scoped"
+			"name"	"draw sniper beam when scoped UNUSED"
+			"attribute_class"	"draw_sniper_beam_when_scoped_UNUSED"
 			"attribute_name"	"draw sniper beam when scoped"
 			"min_value"	"0"
 			"max_value"	"1"
@@ -28107,6 +28338,33 @@
 			"hidden"	"0"
 			"effect_type"	"negative"
 			"stored_as_integer"	"0"
+		}
+		"311"
+		{
+			"name"	"unlimited quantity"
+			"attribute_class"	"unlimited_quantity"
+			"attribute_name"	"unlimited quantity"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"penetration"
+			"description_string"	"#Attrib_Unlimited"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"312"
+		{
+			"name"	"disable weapon hiding for animations"
+			"attribute_class"	"disable_weapon_hiding_for_animations"
+			"attribute_name"	"disable weapon hiding for animations"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"penetration"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
 		}
 	}
 	"item_sets"
