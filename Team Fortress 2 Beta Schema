@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.68c5d0e310aea8114403459410ffa5acb4c948e9.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.b99f65a9a9474c93558ff4cb0f496485f9ddbb7b.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -1309,7 +1309,7 @@
 				"name": "Demoman's Fro",
 				"defindex": 47,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Demoman's Fro",
 				"item_description": "",
 				"proper_name": false,
@@ -1339,7 +1339,7 @@
 				"name": "Mining Light",
 				"defindex": 48,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Mining Light",
 				"item_description": "For Engineers with bright ideas.",
 				"proper_name": false,
@@ -1368,7 +1368,7 @@
 				"name": "Football Helmet",
 				"defindex": 49,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Football Helmet",
 				"item_description": "",
 				"proper_name": false,
@@ -1398,7 +1398,7 @@
 				"name": "Prussian Pickelhaube",
 				"defindex": 50,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Prussian Pickelhaube",
 				"item_description": "A relic from one war brought into another.\nYour enemy will get the point.",
 				"proper_name": false,
@@ -1428,7 +1428,7 @@
 				"name": "Pyro's Beanie",
 				"defindex": 51,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Pyro's Beanie",
 				"item_description": "",
 				"proper_name": false,
@@ -1458,7 +1458,7 @@
 				"name": "Batter's Helmet",
 				"defindex": 52,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Batter's Helmet",
 				"item_description": "You'll be batting a thousand (skulls in) when you don this red piece of plastic!",
 				"proper_name": false,
@@ -1488,7 +1488,7 @@
 				"name": "Trophy Belt",
 				"defindex": 53,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Trophy Belt",
 				"item_description": "Any old sap can pull teeth from a dead crocodile.\nIt takes a man to pull teeth from a live one.",
 				"proper_name": false,
@@ -1518,7 +1518,7 @@
 				"name": "Soldier's Stash",
 				"defindex": 54,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Soldier's Stash",
 				"item_description": "This hat does not in any way, shape, or form, promote smoking or gambling.",
 				"proper_name": false,
@@ -1548,7 +1548,7 @@
 				"name": "Fancy Fedora",
 				"defindex": 55,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Fancy Fedora",
 				"item_description": "This smooth, suave, silk-lined beauty can turn any amateur backstabber into a handsome rogue.",
 				"proper_name": false,
@@ -1675,6 +1675,11 @@
 						"name": "jarate description",
 						"class": "desc_jarate_description",
 						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 4.000000
 					}
 				]
 				
@@ -1813,7 +1818,7 @@
 				"name": "Texas Ten Gallon",
 				"defindex": 94,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Texas Ten Gallon",
 				"item_description": "Though it looks like a simple ten-gallon hat, this modern feat of engineering actually contains more moving parts than a level 2 Sentry Gun.",
 				"proper_name": false,
@@ -1843,7 +1848,7 @@
 				"name": "Engineer's Cap",
 				"defindex": 95,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Engineer's Cap",
 				"item_description": "",
 				"proper_name": false,
@@ -1873,7 +1878,7 @@
 				"name": "Officer's Ushanka",
 				"defindex": 96,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Officer's Ushanka",
 				"item_description": "This hat was made of bear hands.\nThat bear was killed with bare hands.",
 				"proper_name": false,
@@ -1903,7 +1908,7 @@
 				"name": "Tough Guy's Toque",
 				"defindex": 97,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Tough Guy's Toque",
 				"item_description": "Because when you're the toughest Mother Hubbard in the fort, nobody's criticizing your fashion sense.",
 				"proper_name": false,
@@ -1933,7 +1938,7 @@
 				"name": "Stainless Pot",
 				"defindex": 98,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Stainless Pot",
 				"item_description": "Protects cranium from bullets and shrapnel.\nAlso heats soup.",
 				"proper_name": false,
@@ -1962,7 +1967,7 @@
 				"name": "Tyrant's Helm",
 				"defindex": 99,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Tyrant's Helm",
 				"item_description": "I kicked your ass so hard it went back in time and got me this VIKING HAT.",
 				"proper_name": false,
@@ -1992,7 +1997,7 @@
 				"name": "Glengarry Bonnet",
 				"defindex": 100,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Glengarry Bonnet",
 				"item_description": "",
 				"proper_name": false,
@@ -2022,7 +2027,7 @@
 				"name": "Vintage Tyrolean",
 				"defindex": 101,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Vintage Tyrolean",
 				"item_description": "",
 				"proper_name": false,
@@ -2052,7 +2057,7 @@
 				"name": "Respectless Rubber Glove",
 				"defindex": 102,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Respectless Rubber Glove",
 				"item_description": "It doesn't matter how much people respect you when they're on fire.",
 				"proper_name": false,
@@ -2082,7 +2087,7 @@
 				"name": "Camera Beard",
 				"defindex": 103,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Facial Hair",
 				"item_name": "Camera Beard",
 				"item_description": "You wouldn't mind if I read this top secret document with my beard, would you?",
 				"proper_name": false,
@@ -2112,7 +2117,7 @@
 				"name": "Otolaryngologist's Mirror",
 				"defindex": 104,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Otolaryngologist's Mirror",
 				"item_description": "We can't pronounce it either.",
 				"proper_name": false,
@@ -2141,7 +2146,7 @@
 				"name": "Brigade Helm",
 				"defindex": 105,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Brigade Helm",
 				"item_description": "",
 				"proper_name": false,
@@ -2171,7 +2176,7 @@
 				"name": "Bonk Helm",
 				"defindex": 106,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Bonk Helm",
 				"item_description": "When drinking one radioactive beverage at a time is not enough.",
 				"proper_name": false,
@@ -2201,7 +2206,7 @@
 				"name": "Ye Olde Baker Boy",
 				"defindex": 107,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Ye Olde Baker Boy",
 				"item_description": "Extra! Extra! You're frickin' dead!",
 				"proper_name": false,
@@ -2231,7 +2236,7 @@
 				"name": "Backbiter's Billycock",
 				"defindex": 108,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Backbiter's Billycock",
 				"item_description": "For when you wish your head was a little taller,\nbut just as round on top.",
 				"proper_name": false,
@@ -2261,7 +2266,7 @@
 				"name": "Professional's Panama",
 				"defindex": 109,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Professional's Panama",
 				"item_description": "A polite, efficient hat to wear when killing everyone you meet.",
 				"proper_name": false,
@@ -2290,7 +2295,7 @@
 				"name": "Master's Yellow Belt",
 				"defindex": 110,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Master's Yellow Belt",
 				"item_description": "Only a master of Jarate earns the right to wear this once-white bandanna, stained yellow from the rigors of a harsh training regimen.",
 				"proper_name": false,
@@ -2320,7 +2325,7 @@
 				"name": "Baseball Bill's Sports Shine",
 				"defindex": 111,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Baseball Bill's Sports Shine",
 				"item_description": "Everyone knows that speed is a Scout's best friend. Why weigh yourself down with bulky hats when you can break the sound barrier without them?",
 				"proper_name": false,
@@ -2380,7 +2385,7 @@
 				"name": "Ghastly Gibus",
 				"defindex": 116,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Ghastlier Gibus",
 				"item_description": "Even more ghastly.",
 				"proper_name": false,
@@ -2426,7 +2431,7 @@
 				"name": "Ritzy Rick's Hair Fixative",
 				"defindex": 117,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Ritzy Rick's Hair Fixative",
 				"item_description": "His bullet was close.\nI lost my hat.\nMy bullet was closer.\nHe lost his head.",
 				"proper_name": false,
@@ -2455,7 +2460,7 @@
 				"name": "Texas Slim's Dome Shine",
 				"defindex": 118,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Texas Slim's Dome Shine",
 				"item_description": "Sometimes you just need a little less hat.",
 				"proper_name": false,
@@ -2484,7 +2489,7 @@
 				"name": "Scotsman's Stove Pipe",
 				"defindex": 120,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Scotsman's Stove Pipe",
 				"item_description": "",
 				"proper_name": false,
@@ -3014,7 +3019,7 @@
 				"name": "Propaganda Contest First Place",
 				"defindex": 134,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "J.Axer's Dapper Topper",
 				"item_description": "First Place Winner, Propaganda Contest",
 				"proper_name": false,
@@ -3043,7 +3048,7 @@
 				"name": "Towering Pillar of Hats",
 				"defindex": 135,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Towering Pillar of Hats",
 				"item_description": "A-ha-ha! You are as PRESUMPTUOUS as you are POOR and IRISH. Tarnish notte the majesty of my TOWER of HATS.",
 				"proper_name": false,
@@ -3068,7 +3073,7 @@
 				"name": "Propaganda Contest Second Place",
 				"defindex": 136,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Amber's Rad As All Hell Hat",
 				"item_description": "First Runner-Up, Propaganda Contest",
 				"proper_name": false,
@@ -3097,7 +3102,7 @@
 				"name": "Noble Amassment of Hats",
 				"defindex": 137,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Noble Amassment of Hats",
 				"item_description": "For the Gentleman who believes even his hat deserves a hat.",
 				"proper_name": false,
@@ -3122,7 +3127,7 @@
 				"name": "Propaganda Contest Third Place",
 				"defindex": 138,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Uncle Sam",
 				"item_description": "Second Runner-Up, Propaganda Contest",
 				"proper_name": false,
@@ -3151,7 +3156,7 @@
 				"name": "Modest Pile of Hat",
 				"defindex": 139,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Modest Pile of Hat",
 				"item_description": "Because a Gentleman is not one without one.",
 				"proper_name": false,
@@ -3294,7 +3299,7 @@
 				"name": "OSX Item",
 				"defindex": 143,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Earbuds",
 				"item_description": "OSX represent!",
 				"proper_name": false,
@@ -3317,7 +3322,7 @@
 				"name": "Medic Mask",
 				"defindex": 144,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Physician's Procedure Mask",
 				"item_description": "Scrub in... things are about to get messy.",
 				"proper_name": false,
@@ -3347,7 +3352,7 @@
 				"name": "Heavy Hair",
 				"defindex": 145,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hound Dog",
 				"item_description": "Your opponents will be all shook up when they see these sweet shades and coif.",
 				"proper_name": true,
@@ -3377,7 +3382,7 @@
 				"name": "Demoman Hallmark",
 				"defindex": 146,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hustler's Hallmark",
 				"item_description": "",
 				"proper_name": false,
@@ -3407,7 +3412,7 @@
 				"name": "Spy Noble Hair",
 				"defindex": 147,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Magistrate's Mullet",
 				"item_description": "They say justice is blind. What they don't tell you is that justice is also invisible, and also less interested in justice than murder.",
 				"proper_name": false,
@@ -3437,7 +3442,7 @@
 				"name": "Engineer Welding Mask",
 				"defindex": 148,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hotrod",
 				"item_description": "Mock the sun with streaks of flame as the UV rays bounce harmlessly away from your eyeballs.",
 				"proper_name": false,
@@ -3466,7 +3471,7 @@
 				"name": "Scout Beanie",
 				"defindex": 150,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Troublemaker's Tossle Cap",
 				"item_description": "Straight outta control point.",
 				"proper_name": false,
@@ -3511,7 +3516,7 @@
 				"name": "Pyro Brain Sucker",
 				"defindex": 151,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Triboniophorus Tyrannus",
 				"item_description": "At least he's still telling you to burn things.",
 				"proper_name": false,
@@ -3541,7 +3546,7 @@
 				"name": "Soldier Samurai Hat",
 				"defindex": 152,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Killer's Kabuto",
 				"item_description": "A Haiku for war.\nTo defeat one's enemies.\nHonor the crocket.",
 				"proper_name": false,
@@ -3702,7 +3707,7 @@
 				"name": "Sniper Pith Helmet",
 				"defindex": 158,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Shooter's Sola Topi",
 				"item_description": "Perfect for exploring the outback and the inside of people's heads.",
 				"proper_name": false,
@@ -3820,7 +3825,7 @@
 				"name": "TTG Max Hat",
 				"defindex": 162,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Max's Severed Head",
 				"item_description": "Expertly crafted headwear from cruelty-free farms\nin the Philippines. Hollowed-out skull casing wicks\nmoisture away when in the heat of battle.",
 				"proper_name": false,
@@ -4178,7 +4183,7 @@
 				"name": "Scout Whoopee Cap",
 				"defindex": 174,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Whoopee Cap",
 				"item_description": "You'd have to be a jughead not to realize this cap is the pinnacle of fashion for the discerning youth.",
 				"proper_name": false,
@@ -4208,7 +4213,7 @@
 				"name": "Pyro Monocle",
 				"defindex": 175,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Facial Hair",
 				"item_name": "Whiskered Gentleman",
 				"item_description": "The most distinguished tape-on fire-retardant facial hair available, for the discerning gentleman of conflagration.",
 				"proper_name": false,
@@ -4238,7 +4243,7 @@
 				"name": "Medic Goggles",
 				"defindex": 177,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Ze Goggles",
 				"item_description": "Nothing",
 				"proper_name": false,
@@ -4267,7 +4272,7 @@
 				"name": "Engineer Earmuffs",
 				"defindex": 178,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Safe'n'Sound",
 				"item_description": "It gets difficult trying to calculate the total external applied torque to a body's rotational motion through its moment of momentum vector while the distracting sounds of gunfire and death are all around you. Build a better, safer machine with the silence of the Safe'n'sound!",
 				"proper_name": false,
@@ -4297,7 +4302,7 @@
 				"name": "Demoman Tricorne",
 				"defindex": 179,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Tippler's Tricorne",
 				"item_description": "Three sharp corners mean one sharp hat.\nDon't poke your eye out.",
 				"proper_name": false,
@@ -4327,7 +4332,7 @@
 				"name": "Spy Beret",
 				"defindex": 180,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Frenchman's Beret",
 				"item_description": "Because real espionage is an artform.",
 				"proper_name": false,
@@ -4357,7 +4362,7 @@
 				"name": "Sniper Fishing Hat",
 				"defindex": 181,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Bloke's Bucket Hat",
 				"item_description": "Gone Snipin'.",
 				"proper_name": false,
@@ -4387,7 +4392,7 @@
 				"name": "Pyro Helm",
 				"defindex": 182,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Vintage Merryweather",
 				"item_description": "Pyro wears this in tribute to the many firefighters who have perished trying to quell his flames.",
 				"proper_name": false,
@@ -4417,7 +4422,7 @@
 				"name": "Soldier Drill Hat",
 				"defindex": 183,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Sergeant's Drill Hat",
 				"item_description": "This hat is a handy replacement for profanity-filled ranting when you don't feel like shouting yourself hoarse.",
 				"proper_name": false,
@@ -4447,7 +4452,7 @@
 				"name": "Medic Gatsby",
 				"defindex": 184,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Gentleman's Gatsby",
 				"item_description": "While lacking the cachet of other hats, the Gatsby nonetheless possesses its own sartorial elegance. Its understated and affable charm appeals to everyone, whether playing a round of golf with friends or performing non-elective surgery with a well-polished bonesaw.",
 				"proper_name": false,
@@ -4477,7 +4482,7 @@
 				"name": "Heavy Do-rag",
 				"defindex": 185,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Heavy Duty Rag",
 				"item_description": "It costs $400,000 to wear this bandanna for 12 seconds.",
 				"proper_name": true,
@@ -4557,7 +4562,7 @@
 				"name": "Parasite Hat",
 				"defindex": 189,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Alien Swarm Parasite",
 				"item_description": "This cute little guy was once the scourge of humanity in another time and place. Now he's content to ride on your head and keep the sun off.",
 				"proper_name": false,
@@ -4782,6 +4787,19 @@
 				},
 				"used_by_classes": [
 					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
+					}
 				]
 				
 			},
@@ -5157,6 +5175,19 @@
 				"used_by_classes": [
 					"Medic"
 				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 2.000000
+					}
+				]
 				
 			},
 			{
@@ -5189,7 +5220,7 @@
 				"name": "The Attendant",
 				"defindex": 213,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Attendant",
 				"item_description": "",
 				"proper_name": true,
@@ -5298,7 +5329,7 @@
 				"name": "Rimmed Raincatcher",
 				"defindex": 216,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Rimmed Raincatcher",
 				"item_description": "Because there's no alliteration\nlike alliteration with an 'ARR!'",
 				"proper_name": false,
@@ -5328,7 +5359,7 @@
 				"name": "The Milkman",
 				"defindex": 219,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Milkman",
 				"item_description": "",
 				"proper_name": true,
@@ -5449,7 +5480,7 @@
 				"name": "The Familiar Fez",
 				"defindex": 223,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Familiar Fez",
 				"item_description": "",
 				"proper_name": false,
@@ -5604,7 +5635,7 @@
 				"name": "The Grenadier's Softcap",
 				"defindex": 227,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Grenadier's Softcap",
 				"item_description": "",
 				"proper_name": false,
@@ -5673,7 +5704,7 @@
 				"name": "Ol' Snaggletooth",
 				"defindex": 229,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Ol' Snaggletooth",
 				"item_description": "",
 				"proper_name": false,
@@ -6001,7 +6032,7 @@
 				"name": "Worms Gear",
 				"defindex": 240,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Lumbricus Lid",
 				"item_description": "",
 				"proper_name": false,
@@ -6172,7 +6203,7 @@
 				"name": "Pugilist's Protector",
 				"defindex": 246,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Pugilist's Protector",
 				"item_description": "",
 				"proper_name": false,
@@ -6202,7 +6233,7 @@
 				"name": "Old Guadalajara",
 				"defindex": 247,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Old Guadalajara",
 				"item_description": "This hat adds spice to any occasion.",
 				"proper_name": false,
@@ -6232,7 +6263,7 @@
 				"name": "Napper's Respite",
 				"defindex": 248,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Napper's Respite",
 				"item_description": "After a long day of burning scouts.",
 				"proper_name": false,
@@ -6262,7 +6293,7 @@
 				"name": "Bombing Run",
 				"defindex": 249,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Bombing Run",
 				"item_description": "Death from above!",
 				"proper_name": false,
@@ -6292,7 +6323,7 @@
 				"name": "Chieftain's Challenge",
 				"defindex": 250,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Chieftain's Challenge",
 				"item_description": "",
 				"proper_name": false,
@@ -6321,7 +6352,7 @@
 				"name": "Stout Shako",
 				"defindex": 251,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Stout Shako",
 				"item_description": "The grand achievement of\nVictorian military fashion.",
 				"proper_name": false,
@@ -6351,7 +6382,7 @@
 				"name": "Dr's Dapper Topper",
 				"defindex": 252,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Dr's Dapper Topper",
 				"item_description": "",
 				"proper_name": false,
@@ -6381,7 +6412,7 @@
 				"name": "Handyman's Handle",
 				"defindex": 253,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Handyman's Handle",
 				"item_description": "Clears all sorts of blockage.",
 				"proper_name": false,
@@ -6411,7 +6442,7 @@
 				"name": "Hard Counter",
 				"defindex": 254,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hard Counter",
 				"item_description": "You can never be too careful\nwith Jarate around.",
 				"proper_name": false,
@@ -6441,7 +6472,7 @@
 				"name": "Sober Stuntman",
 				"defindex": 255,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Sober Stuntman",
 				"item_description": "A sticky-jumper's best friend.",
 				"proper_name": false,
@@ -6471,7 +6502,7 @@
 				"name": "Carouser's Capotain",
 				"defindex": 259,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Carouser's Capotain",
 				"item_description": "Suffer not a sentry to live.",
 				"proper_name": false,
@@ -6501,7 +6532,7 @@
 				"name": "Wiki Cap",
 				"defindex": 260,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Wiki Cap",
 				"item_description": "Given to valuable contributors to the official TF2 wiki\nhttp:\/\/wiki.teamfortress.com\/",
 				"proper_name": false,
@@ -6525,7 +6556,7 @@
 				"name": "Mann Co. Cap",
 				"defindex": 261,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Mann Co. Cap",
 				"item_description": "",
 				"proper_name": false,
@@ -6585,7 +6616,7 @@
 				"name": "Ellis Hat",
 				"defindex": 263,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Ellis' Cap",
 				"item_description": "",
 				"proper_name": false,
@@ -6784,7 +6815,7 @@
 				"name": "Halloween Mask - Scout",
 				"defindex": 268,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Scout Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -6808,7 +6839,7 @@
 				"name": "Halloween Mask - Sniper",
 				"defindex": 269,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Sniper Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -6832,7 +6863,7 @@
 				"name": "Halloween Mask - Soldier",
 				"defindex": 270,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Soldier Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -6856,7 +6887,7 @@
 				"name": "Halloween Mask - Demoman",
 				"defindex": 271,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Demoman Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -6880,7 +6911,7 @@
 				"name": "Halloween Mask - Medic",
 				"defindex": 272,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Medic Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -6904,7 +6935,7 @@
 				"name": "Halloween Mask - Heavy",
 				"defindex": 273,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Heavy Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -6928,7 +6959,7 @@
 				"name": "Halloween Mask - Spy",
 				"defindex": 274,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Spy Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -6952,7 +6983,7 @@
 				"name": "Halloween Mask - Engineer",
 				"defindex": 275,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Engineer Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -6976,7 +7007,7 @@
 				"name": "Halloween Mask - Pyro",
 				"defindex": 276,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Pyro Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -7000,7 +7031,7 @@
 				"name": "Halloween Mask - Saxton Hale",
 				"defindex": 277,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Saxton Hale Mask",
 				"item_description": "",
 				"proper_name": false,
@@ -7023,7 +7054,7 @@
 				"name": "Horseless Headless Horseman's Head",
 				"defindex": 278,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Horseless Headless Horsemann's Head",
 				"item_description": "He had one all along...",
 				"proper_name": false,
@@ -7047,7 +7078,7 @@
 				"name": "Ghastly Gibus 2010",
 				"defindex": 279,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Ghastly Gibus",
 				"item_description": "Elegant simplicity and old-world charm combined with the heady aromas of mould and grave dust.",
 				"proper_name": false,
@@ -7305,7 +7336,7 @@
 				"name": "Spine-Chilling Skull",
 				"defindex": 287,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Spine-Chilling Skull",
 				"item_description": "Express your undying hatred for the living.",
 				"proper_name": false,
@@ -7376,7 +7407,7 @@
 				"name": "Voodoo Juju",
 				"defindex": 289,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Voodoo Juju",
 				"item_description": "Only the finest leather hats come with tattoos and piercings.",
 				"proper_name": false,
@@ -7410,7 +7441,7 @@
 				"name": "Cadaver's Cranium",
 				"defindex": 290,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Cadaver's Cranium",
 				"item_description": "",
 				"proper_name": false,
@@ -7439,7 +7470,7 @@
 				"name": "Horrific Headsplitter",
 				"defindex": 291,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Horrific Headsplitter",
 				"item_description": "When wearing such a piece of headgear it is best to keep an open mind.",
 				"proper_name": false,
@@ -7465,7 +7496,7 @@
 				"name": "Poker Visor",
 				"defindex": 292,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Dealer's Visor",
 				"item_description": "Do not try to bluff Sasha.",
 				"proper_name": false,
@@ -7668,7 +7699,7 @@
 				"name": "Camera Helm",
 				"defindex": 302,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Frontline Field Recorder",
 				"item_description": "I'm the writer, the director, and the star.",
 				"proper_name": false,
@@ -7690,7 +7721,7 @@
 				"name": "Berliner's Bucket Helm",
 				"defindex": 303,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Berliner's Bucket Helm",
 				"item_description": "",
 				"proper_name": false,
@@ -7804,7 +7835,7 @@
 				"name": "Scotch Bonnet",
 				"defindex": 306,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Scotch Bonnet",
 				"item_description": "Don't let those ninnies take yer good eye!",
 				"proper_name": false,
@@ -7924,7 +7955,7 @@
 				"name": "Big Chief",
 				"defindex": 309,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Big Chief",
 				"item_description": "",
 				"proper_name": true,
@@ -8074,7 +8105,7 @@
 				"name": "Magnificent Mongolian",
 				"defindex": 313,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Magnificent Mongolian",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8102,7 +8133,7 @@
 				"name": "Larrikin Robin",
 				"defindex": 314,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Larrikin Robin",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8130,7 +8161,7 @@
 				"name": "Blighted Beak",
 				"defindex": 315,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Blighted Beak",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -8168,7 +8199,7 @@
 				"name": "Pyromancer's Mask",
 				"defindex": 316,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Pyromancer's Mask",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8249,7 +8280,7 @@
 				"name": "Prancer's Pride",
 				"defindex": 318,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Prancer's Pride",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8277,7 +8308,7 @@
 				"name": "Detective Noir",
 				"defindex": 319,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Détective Noir",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8306,7 +8337,7 @@
 				"name": "Madame Dixie",
 				"defindex": 321,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Madame Dixie",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8335,7 +8366,7 @@
 				"name": "Buckaroos Hat",
 				"defindex": 322,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Buckaroos Hat",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8364,7 +8395,7 @@
 				"name": "German Gonzila",
 				"defindex": 323,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "German Gonzila",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8393,7 +8424,7 @@
 				"name": "Flipped Trilby",
 				"defindex": 324,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Flipped Trilby",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8585,6 +8616,16 @@
 						"name": "damage penalty",
 						"class": "mult_dmg",
 						"value": 0.750000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
 					}
 				]
 				
@@ -8593,7 +8634,7 @@
 				"name": "Coupe D'isaster",
 				"defindex": 330,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Coupe D'isaster",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8667,7 +8708,7 @@
 				"name": "Treasure Hat 1",
 				"defindex": 332,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Bounty Hat",
 				"item_description": "Earned by completing 5 objectives in 'The Great Steam Treasure Hunt'",
 				"proper_name": false,
@@ -8698,7 +8739,7 @@
 				"name": "Treasure Hat 2",
 				"defindex": 333,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Treasure Hat",
 				"item_description": "Earned by completing 15 objectives in 'The Great Steam Treasure Hunt'",
 				"proper_name": false,
@@ -8738,7 +8779,7 @@
 				"name": "Treasure Hat 3",
 				"defindex": 334,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hat of Undeniable Wealth And Respect",
 				"item_description": "Earned by completing 28 objectives in 'The Great Steam Treasure Hunt.'  Beware the Cephalopod padlock.",
 				"proper_name": false,
@@ -8782,7 +8823,7 @@
 				"name": "KF Pyro Mask",
 				"defindex": 335,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Foster's Facade",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8808,7 +8849,7 @@
 				"name": "KF Pyro Tie",
 				"defindex": 336,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Stockbroker's Scarf",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -8833,7 +8874,7 @@
 				"name": "Le Party Phantom",
 				"defindex": 337,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Le Party Phantom",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -8861,7 +8902,7 @@
 				"name": "Industrial Festivizer",
 				"defindex": 338,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Industrial Festivizer",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8889,7 +8930,7 @@
 				"name": "Exquisite Rack",
 				"defindex": 339,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Exquisite Rack",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8918,7 +8959,7 @@
 				"name": "Defiant Spartan",
 				"defindex": 340,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Defiant Spartan",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8947,7 +8988,7 @@
 				"name": "A Rather Festive Tree",
 				"defindex": 341,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "A Rather Festive Tree",
 				"proper_name": false,
 				"item_slot": "head",
@@ -8971,7 +9012,7 @@
 				"name": "Prince Tavish's Crown",
 				"defindex": 342,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Prince Tavish's Crown",
 				"proper_name": false,
 				"item_slot": "head",
@@ -9000,7 +9041,7 @@
 				"name": "Friendly Item",
 				"defindex": 343,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Professor Speks",
 				"item_description": "Give your teacher the gift of insight, paper clip and rubber band included.",
 				"proper_name": false,
@@ -9031,7 +9072,7 @@
 				"name": "Crocleather Slouch",
 				"defindex": 344,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Crocleather Slouch",
 				"item_description": "Made from Australia's only natural resource.",
 				"proper_name": false,
@@ -9062,7 +9103,7 @@
 				"name": "MNC Hat",
 				"defindex": 345,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "The Athletic Supporter",
 				"item_description": "[Insert Favorite Regional Team Here]",
 				"proper_name": false,
@@ -9085,7 +9126,7 @@
 				"name": "MNC Mascot Hat",
 				"defindex": 346,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "The Superfan",
 				"item_description": "",
 				"proper_name": false,
@@ -9438,7 +9479,7 @@
 				"name": "Heavy Topknot",
 				"defindex": 358,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Dread Knot",
 				"item_description": "Crybabies cower\nAt the approach of fat man\nWith terrible hair",
 				"proper_name": true,
@@ -9467,7 +9508,7 @@
 				"name": "Demo Kabuto",
 				"defindex": 359,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Samur-Eye",
 				"item_description": "One-eyed Scottish drunk\nDons his helmet for battle\nBlacks out, misses war",
 				"proper_name": true,
@@ -9496,7 +9537,7 @@
 				"name": "Hero's Hachimaki",
 				"defindex": 360,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hero's Hachimaki",
 				"item_description": "",
 				"proper_name": false,
@@ -9527,7 +9568,7 @@
 				"name": "Spy Oni Mask",
 				"defindex": 361,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Noh Mercy",
 				"item_description": "Chain-smoking Frenchman\nSkulks in shadows, then attacks \nTerrifying mask",
 				"proper_name": true,
@@ -9593,7 +9634,7 @@
 				"name": "Medic Geisha Hair",
 				"defindex": 363,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Geisha Boy",
 				"item_description": "Frog leaps into pond\nLotus blossoms fall to earth\nMedic has girl's hair",
 				"proper_name": true,
@@ -9691,7 +9732,7 @@
 				"name": "Hottie's Hoodie",
 				"defindex": 377,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hottie's Hoodie",
 				"item_description": "If you've got it, flaunt it.\nIf you don't, hide it under this discreet hoodie.",
 				"proper_name": false,
@@ -9722,7 +9763,7 @@
 				"name": "The Team Captain",
 				"defindex": 378,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Team Captain",
 				"item_description": "Our lawyers say 'YES! YES!'",
 				"proper_name": true,
@@ -9754,7 +9795,7 @@
 				"name": "Western Wear",
 				"defindex": 379,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Western Wear",
 				"item_description": "The old West never saw this kind of class.",
 				"proper_name": false,
@@ -9784,7 +9825,7 @@
 				"name": "Large Luchadore",
 				"defindex": 380,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Large Luchadore",
 				"item_description": "Wrestling's real, and now you can prove it.",
 				"proper_name": false,
@@ -9815,7 +9856,7 @@
 				"name": "Medic's Mountain Cap",
 				"defindex": 381,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Medic's Mountain Cap",
 				"item_description": "The men in his unit called him 'The Bavarian Butcher'",
 				"proper_name": false,
@@ -9845,7 +9886,7 @@
 				"name": "Big Country",
 				"defindex": 382,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Big Country",
 				"item_description": "It'd be a damn shame to hide hair this handsome.",
 				"proper_name": false,
@@ -9875,7 +9916,7 @@
 				"name": "Grimm Hatte",
 				"defindex": 383,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Grimm Hatte",
 				"item_description": "Ye hae ne'er glympsed a hatte whych be\nas grimm as yonder hatte ye glympse upon.",
 				"proper_name": false,
@@ -9904,7 +9945,7 @@
 				"name": "Professor's Peculiarity",
 				"defindex": 384,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Professor's Peculiarity",
 				"item_description": "I think I can safely say that nobody understands quantum mechanics. Bullet mechanics? Well now that's a different thing entirely.",
 				"proper_name": false,
@@ -9932,7 +9973,7 @@
 				"name": "Teddy Roosebelt",
 				"defindex": 386,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Teddy Roosebelt",
 				"item_description": "A cute, plushy pocket buddy.\nAw, he even has his own hat!",
 				"proper_name": false,
@@ -9961,7 +10002,7 @@
 				"name": "Sight for Sore Eyes",
 				"defindex": 387,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Sight for Sore Eyes",
 				"item_description": "Humorously vellicating vitreous.",
 				"proper_name": false,
@@ -9990,7 +10031,7 @@
 				"name": "Private Eye",
 				"defindex": 388,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Private Eye",
 				"item_description": "A select style for the scrutinizing sleuth.",
 				"proper_name": false,
@@ -10021,7 +10062,7 @@
 				"name": "Googly Gazer",
 				"defindex": 389,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Googly Gazer",
 				"item_description": "Keep one eye on your enemy and\nthe other one on everything else.",
 				"proper_name": false,
@@ -10060,7 +10101,7 @@
 				"name": "Reggaelator",
 				"defindex": 390,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Reggaelator",
 				"item_description": "Every little thing is gonna be alright.",
 				"proper_name": false,
@@ -10090,7 +10131,7 @@
 				"name": "Honcho's Headgear",
 				"defindex": 391,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Honcho's Headgear",
 				"item_description": "This hat has mean written all over it.\n(Note from Legal: This hat has nothing written on it.)",
 				"proper_name": false,
@@ -10149,7 +10190,7 @@
 				"name": "Villain's Veil",
 				"defindex": 393,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Villain's Veil",
 				"item_description": "The good, the bad, and the dead.",
 				"proper_name": false,
@@ -10192,7 +10233,7 @@
 				"name": "Connoisseur's Cap",
 				"defindex": 394,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Connoisseur's Cap",
 				"item_description": "You’re today’s theme ingredient…",
 				"proper_name": false,
@@ -10222,7 +10263,7 @@
 				"name": "Furious Fukaamigasa",
 				"defindex": 395,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Furious Fukaamigasa",
 				"item_description": "You can't tell, but he's furious.",
 				"proper_name": false,
@@ -10253,7 +10294,7 @@
 				"name": "Charmer's Chapeau",
 				"defindex": 397,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Charmer's Chapeau",
 				"item_description": "It really is a chapeau. It's just in disguise.",
 				"proper_name": false,
@@ -10283,7 +10324,7 @@
 				"name": "Doctor's Sack",
 				"defindex": 398,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Doctor's Sack",
 				"item_description": "For when you've got that healin' fever.",
 				"proper_name": false,
@@ -10313,7 +10354,7 @@
 				"name": "Ol' Geezer",
 				"defindex": 399,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Ol' Geezer",
 				"item_description": "Get off mah land!",
 				"proper_name": false,
@@ -10344,7 +10385,7 @@
 				"name": "Desert Marauder",
 				"defindex": 400,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Desert Marauder",
 				"proper_name": false,
 				"item_slot": "head",
@@ -10451,7 +10492,7 @@
 				"name": "Sultan's Ceremonial",
 				"defindex": 403,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Sultan's Ceremonial",
 				"proper_name": false,
 				"item_slot": "head",
@@ -10637,7 +10678,7 @@
 				"name": "Humanitarian's Hachimaki",
 				"defindex": 408,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Humanitarian's Hachimaki",
 				"item_description": "Supporting Japanese disaster relief",
 				"proper_name": false,
@@ -10667,7 +10708,7 @@
 				"name": "Benefactor's Kanmuri",
 				"defindex": 409,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Benefactor's Kanmuri",
 				"item_description": "Supporting Japanese disaster relief",
 				"proper_name": false,
@@ -10697,7 +10738,7 @@
 				"name": "Mangnanimous Monarch",
 				"defindex": 410,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Magnanimous Monarch",
 				"item_description": "Supporting Japanese disaster relief",
 				"proper_name": false,
@@ -10983,7 +11024,7 @@
 				"name": "Jumper's Jeepcap",
 				"defindex": 417,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Jumper's Jeepcap",
 				"item_description": "",
 				"proper_name": false,
@@ -11013,7 +11054,7 @@
 				"name": "Potato Hat",
 				"defindex": 420,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Aperture Labs Hard Hat",
 				"item_description": "Produce-powered personal illumination and cranial safety apparatus.\n\nNOT FOR USE OUTSIDE OFFICIAL APERTURE FACILITIES.",
 				"proper_name": false,
@@ -11237,7 +11278,7 @@
 				"name": "Capone's Capper",
 				"defindex": 427,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Capo's Capper",
 				"item_description": "This dashing number will help you commit crimes of all kinds—except against fashion.",
 				"proper_name": true,
@@ -11407,7 +11448,7 @@
 				"name": "Bucket Hat",
 				"defindex": 434,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Brain Bucket",
 				"item_description": "Zombie tested, braaaains approved.",
 				"proper_name": false,
@@ -11437,7 +11478,7 @@
 				"name": "Traffic Cone",
 				"defindex": 435,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Dead Cone",
 				"item_description": "You’ll stop them dead wearing this stylish traffic cone.",
 				"proper_name": true,
@@ -11467,7 +11508,7 @@
 				"name": "Polish War Babushka",
 				"defindex": 436,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hetman's Headpiece",
 				"item_description": "Cossacks and war go together like gołąbki and wódka.",
 				"proper_name": true,
@@ -11498,7 +11539,7 @@
 				"name": "Janissary Hat",
 				"defindex": 437,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Janissary Ketche",
 				"item_description": "The first standing army to wear uniforms wanted to make damn sure everyone else knew it.",
 				"proper_name": true,
@@ -11551,7 +11592,7 @@
 				"name": "Lord Cockswain's Pith Helmet",
 				"defindex": 439,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Lord Cockswain's Pith Helmet",
 				"item_description": "",
 				"proper_name": false,
@@ -11581,7 +11622,7 @@
 				"name": "Lord Cockswain's Novelty Mutton Chops and Pipe",
 				"defindex": 440,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_FacialHair",
+				"item_type_name": "Facial Hair",
 				"item_name": "Lord Cockswain's Novelty Mutton Chops and Pipe",
 				"item_description": "",
 				"proper_name": false,
@@ -11798,7 +11839,7 @@
 				"name": "Armored Authority",
 				"defindex": 445,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Armored Authority",
 				"item_description": "",
 				"proper_name": false,
@@ -12054,7 +12095,7 @@
 				"name": "Bonk Boy",
 				"defindex": 451,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Bonk Boy",
 				"item_description": "",
 				"proper_name": false,
@@ -12125,7 +12166,7 @@
 				"name": "Hero's Tail",
 				"defindex": 453,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Hero's Tail",
 				"item_description": "Possibly the result of pigmentation loss due to horrible experiments. Possibly a mop of some kind.",
 				"proper_name": true,
@@ -12232,7 +12273,7 @@
 				"name": "Cosa Nostra Cap",
 				"defindex": 459,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Cosa Nostra Cap",
 				"item_description": "If looks could kill, this dapper fellow would make your head an accomplice to murder.",
 				"proper_name": false,
@@ -12399,7 +12440,7 @@
 				"name": "Conjurer's Cowl",
 				"defindex": 465,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Conjurer's Cowl",
 				"item_description": "I put on my wizard's hat.",
 				"proper_name": true,
@@ -12476,7 +12517,7 @@
 				"name": "Medic MtG Hat",
 				"defindex": 467,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Planeswalker Helm",
 				"item_description": "If anyone asks, tell them the tusks qualify you for veterinary work.",
 				"proper_name": true,
@@ -12506,7 +12547,7 @@
 				"name": "Scout MtG Hat",
 				"defindex": 468,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Planeswalker Goggles",
 				"item_description": "No more bugs in your eyes as you blaze across the map.",
 				"proper_name": true,
@@ -12536,7 +12577,7 @@
 				"name": "Lo-Fi Longwave",
 				"defindex": 470,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Lo-Fi Longwave",
 				"item_description": "Can't stop the signal.",
 				"proper_name": true,
@@ -12568,7 +12609,7 @@
 				"name": "Loyalty Reward",
 				"defindex": 471,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Proof of Purchase",
 				"item_description": "From another era.",
 				"proper_name": true,
@@ -12621,7 +12662,7 @@
 				"name": "Spiral Sallet",
 				"defindex": 473,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Spiral Sallet",
 				"item_description": "Little known fact: knights in chess travel over other pieces by rocket jumping.",
 				"proper_name": true,
@@ -12676,7 +12717,7 @@
 				"name": "Copper's Hard Top",
 				"defindex": 478,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Copper's Hard Top",
 				"item_description": "",
 				"proper_name": false,
@@ -12707,7 +12748,7 @@
 				"name": "Security Shades",
 				"defindex": 479,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Security Shades",
 				"item_description": "",
 				"proper_name": false,
@@ -12738,7 +12779,7 @@
 				"name": "Tam O'Shanter",
 				"defindex": 480,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Tam O' Shanter",
 				"item_description": "",
 				"proper_name": false,
@@ -12770,7 +12811,7 @@
 				"name": "Stately Steel Toe",
 				"defindex": 481,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Stately Steel Toe",
 				"item_description": "",
 				"proper_name": false,
@@ -12911,7 +12952,7 @@
 				"name": "Big Steel Jaw of Summer Fun",
 				"defindex": 485,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Big Steel Jaw of Summer Fun",
 				"item_description": "Wee! It's summer! We're having fun!\nAH GOD IT'S BOLTED TO HIS HEAD!",
 				"proper_name": true,
@@ -13026,7 +13067,7 @@
 				"name": "Summer Hat",
 				"defindex": 492,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Summer Hat",
 				"item_description": "E hele mākou i kahakai.",
 				"proper_name": false,
@@ -13093,18 +13134,18 @@
 				"name": "TournamentMedal - GWJ Winners",
 				"defindex": 496,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_GWJ_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - Gamers With Jobs Tournament",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/weiner_bomb_medal",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/weiner_bomb_medal.4a512655f3cdea27b07d2aacf8d8d0d31dac1014.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/weiner_bomb_medal_large.5aa145c03f489ac9eb01c4ee816b26bbc0668553.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13114,18 +13155,18 @@
 				"name": "TournamentMedal - GWJ Runnerups",
 				"defindex": 497,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_GWJ_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - Gamers With Jobs Tournament",
+				"item_description": "Given to the runner-ups!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/weiner_bomb_run",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/weiner_bomb_run.29504f16b9dfe186bb5a3394c058365457397d70.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/weiner_bomb_run_large.e605ec94124e35849bc89ae6bde7266effe17dad.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13135,18 +13176,18 @@
 				"name": "TournamentMedal - GWJ Participants",
 				"defindex": 498,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_GWJ_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Participant - Gamers With Jobs Tournament",
+				"item_description": "Given to the players who participated in the tournament.",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/weiner_bomb_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/weiner_bomb_part",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/weiner_bomb_part.929d60f7eac387bc77fc12054537bdb3518d456c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/weiner_bomb_part_large.5420b97e3e0e5702a8ddee8e668cc51175ae07bc.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13156,18 +13197,18 @@
 				"name": "TournamentMedal - ETF2LHL Winners",
 				"defindex": 499,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_ETF2LHL_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - ETF2L Highlander Tournament",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/etf2l_highlander_medal",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/etf2l_highlander_medal.5791dfe64cbe77d04212987be1e50cfa3fd422ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/etf2l_highlander_medal_large.b204850ef9878bef6c1c5ab08a13aa14c693af96.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13177,18 +13218,18 @@
 				"name": "TournamentMedal - ETF2LHL 2nd",
 				"defindex": 500,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_ETF2LHL_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - ETF2L Highlander Tournament",
+				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/etf2l_highlander_medal_1",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/etf2l_highlander_medal_1.a8c8aca80378a7087daba9c7ef4832eec88a4395.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/etf2l_highlander_medal_1_large.386357e1e961a6055f08baa15066020de2244749.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13198,18 +13239,18 @@
 				"name": "TournamentMedal - ETF2LHL 3rd",
 				"defindex": 501,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_ETF2LHL_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Third Place - ETF2L Highlander Tournament",
+				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_medal.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/etf2l_highlander_medal_2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/etf2l_highlander_medal_2.8660c3461162ee42fb8317231bbe00f727f1c07a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/etf2l_highlander_medal_2_large.fd31b76f8ddd2d37421280f8f138c8d5b48b858f.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13219,18 +13260,18 @@
 				"name": "TournamentMedal - ETF2LHL Participants",
 				"defindex": 502,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_ETF2LHL_4th",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Participant - ETF2L Highlander Tournament",
+				"item_description": "Given to the players who participated in the tournament.",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/etf2l_highlander_participant.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/etf2l_highlander_participant",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/etf2l_highlander_participant.8a5c32a7ab14b25e5a39faef1d2dbd391b11311b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/etf2l_highlander_participant_large.1a337ca495dfefe99c37cc7bf1a379a9a1494f9b.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13240,18 +13281,18 @@
 				"name": "TournamentMedal - UGCHL Participants",
 				"defindex": 503,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHL_Participant",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Participant - UGC Highlander Tournament",
+				"item_description": "Given to the players who participated in the tournament.",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_participant.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_participant",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_participant.3ed52fe79c432b90a797ed582572c4b20487e0ae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_participant_large.96e1a8ba3affac4de5537f16c416815784a7d828.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13261,18 +13302,18 @@
 				"name": "TournamentMedal - UGCHLDiv1 Winners",
 				"defindex": 504,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv1_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - UGC Highlander Tournament Div 1",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_platinum",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_platinum.7dfd306331ba5c1cad90c42620ee938f551ce8ae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_platinum_large.1a3cba2dc34ec19657c4a81b021d0372713e334e.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13282,18 +13323,18 @@
 				"name": "TournamentMedal - UGCHLDiv1 2nd",
 				"defindex": 505,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv1_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - UGC Highlander Tournament Div 1",
+				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_platinum_1",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_platinum_1.d5d4700c810b0bfb2741d20b7eab25e4d556d657.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_platinum_1_large.bf3675a0f9c2cb44934812c30895c695d1f7ed3f.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13303,18 +13344,18 @@
 				"name": "TournamentMedal - UGCHLDiv1 3rd",
 				"defindex": 506,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv1_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Third Place - UGC Highlander Tournament Div 1",
+				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_platinum.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_platinum_2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_platinum_2.2f578f5bbaad09b2a50dba7c2a6512692849945d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_platinum_2_large.b5ad6f183e5b8a4fea3100dffbf8270ab8699c90.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13324,18 +13365,18 @@
 				"name": "TournamentMedal - UGCHLDiv2 Winners",
 				"defindex": 507,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv2_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - UGC Highlander Tournament Div 2",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_silver",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_silver.ecc710084f3a7eeff364dfb3d8ec0ba484006924.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_silver_large.309c3e07ab351516478e2dd7ca3de1df8f0ff93f.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13345,18 +13386,18 @@
 				"name": "TournamentMedal - UGCHLDiv2 2nd",
 				"defindex": 508,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv2_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - UGC Highlander Tournament Div 2",
+				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_silver_1",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_silver_1.a3c5984a2edcc63b3bbcd10519b8dc8a94ee16cf.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_silver_1_large.e4ca5c9902d4f2ac10659cdaf6e1810257b24aab.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13366,18 +13407,18 @@
 				"name": "TournamentMedal - UGCHLDiv2 3rd",
 				"defindex": 509,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv2_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Third Place - UGC Highlander Tournament Div 2",
+				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_silver.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_silver_2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_silver_2.5a71681ca75ad15fad491e732cbfb54d1f7c2866.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_silver_2_large.f990677f9172ac6c532f55e9335a4a6136cfa467.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13387,18 +13428,18 @@
 				"name": "TournamentMedal - UGCHLDiv3 Winners",
 				"defindex": 510,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv3_1st",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "First Place - UGC Highlander Tournament Div 3",
+				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_iron",
 				"min_ilevel": 25,
 				"max_ilevel": 25,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_iron.f92c37b72f5cf706fb8ea1be78bd883b51394fbe.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_iron_large.9b3501f64968b0eaca634d5efd68a0c56582536e.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13408,18 +13449,18 @@
 				"name": "TournamentMedal - UGCHLDiv3 2nd",
 				"defindex": 511,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv3_2nd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Second Place - UGC Highlander Tournament Div 3",
+				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_iron_1",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_iron_1.8b2cbc8f331c1c0b007decf279e0782e066796c9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_iron_1_large.c316ee77eb9fd4b8387ab96828042c45594322f7.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13429,18 +13470,18 @@
 				"name": "TournamentMedal - UGCHLDiv3 3rd",
 				"defindex": 512,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_TournamentMedal",
-				"item_name": "TF_TournamentMedal_UGCHLDiv3_3rd",
-				"item_description": "",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Third Place - UGC Highlander Tournament Div 3",
+				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/all_class\/ugc_highlander_iron.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/soldier\/medal",
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc_highlander_iron_2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal.2191e008d6ab1f3fa40101b2c995e20b2f2cecfb.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medal_large.9b62a4e95bd6b360f2c2c6d299d16fbce79382ba.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_iron_2.168e7206832ce861ccc3b01139884355cba50e14.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc_highlander_iron_2_large.ba42c80287b977a1116c31549757192069948730.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
@@ -13461,10 +13502,11 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bet_rocketlauncher.466851a0bc8f67e1224e889da03ed08515a7e052.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bet_rocketlauncher_large.633203a228455d935cae919ff09ebb478daa5a91.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
@@ -13476,11 +13518,6 @@
 					{
 						"name": "centerfire projectile",
 						"class": "centerfire_projectile",
-						"value": 1.000000
-					},
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
 						"value": 1.000000
 					}
 				]
@@ -13527,7 +13564,7 @@
 				"name": "Pilotka",
 				"defindex": 515,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Pilotka",
 				"proper_name": true,
 				"item_slot": "head",
@@ -13562,7 +13599,7 @@
 				"name": "Stahlhelm",
 				"defindex": 516,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Stahlhelm",
 				"proper_name": true,
 				"item_slot": "head",
@@ -13594,11 +13631,11 @@
 				
 			},
 			{
-				"name": "Tamrielic Relic",
+				"name": "Dragonborn Helmet",
 				"defindex": 517,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
-				"item_name": "Tamrielic Relic",
+				"item_type_name": "Hat",
+				"item_name": "Dragonborn Helmet",
 				"item_description": "Designed to inspire fear, the dragons this helm was based on were less than impressed.",
 				"proper_name": true,
 				"item_slot": "head",
@@ -13610,22 +13647,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skyrim_helmet.bc6515ea09e6838e338dcdf6d36fab57204abed8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skyrim_helmet_large.ac0e67a18980ee73ef32215cd205549bf12e725b.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Heavy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -13633,7 +13664,7 @@
 				"name": "The Anger",
 				"defindex": 518,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "Anger",
 				"proper_name": true,
 				"item_slot": "head",
@@ -13645,28 +13676,22 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bet_brinkhood.6e89bdcb3f0a2eee33acdb02a3614aeac460041f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bet_brinkhood_large.4e511ae126c32d4b5ada6be5a6263c7b0e03d3bf.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Sniper"
 				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
 				
 			},
 			{
-				"name": "Pip-Boy 1950",
+				"name": "Pip-Boy",
 				"defindex": 519,
 				"item_class": "tf_wearable",
 				"item_type_name": "TF_Wearable_Armband",
@@ -13682,9 +13707,11 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bet_pb.cc0d5e545de6568d4116a35f327bbfc61ac0810e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bet_pb_large.4ea3bb45d98b8ec1b911de074ed2c2cbf75c28a2.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
@@ -13693,11 +13720,6 @@
 				]
 				,
 				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					},
 					{
 						"name": "has pipboy build interface",
 						"class": "set_custom_buildmenu",
@@ -13722,10 +13744,374 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bet_wingstick.d5bf7b739802dcd1e858ffbae26bf8b96b3716ea.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bet_wingstick_large.35465794cbb5defdb8adc1c14581f3f1f6f6027b.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "Belltower Spec Ops",
+				"defindex": 521,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Nanobalaclava",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/dex_belltower_spy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/dex_belltower_heavy",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_belltower_heavy.31151e66fc778eb5b06cb56adb48375c44aaa607.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_belltower_heavy_large.33eceb5a10d768ac28773d58c426f37b6b9907cd.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Deus Specs",
+				"defindex": 522,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Deus Specs",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/dex_glasses_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/dex_glasses_heavy",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_glasses_heavy.bb9511f30d17a260b9ab978a0cf8c97ed9186949.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_glasses_heavy_large.8eb8efc527532b277f89ed04659824c5c25dd3aa.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "The Sarif Cap",
+				"defindex": 523,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Company Man",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/scout_dex.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/demo_dex",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_dex.8ffb0557ec86e15f99d688b5031b254394abbe22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_dex_large.c369799d509e148f0462cc62ab8e10d4b0a6ff92.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "The Purity Fist",
+				"defindex": 524,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Arms",
+				"item_name": "Purity Fist",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/dex_sarifarm.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/dex_sarifarm",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_sarifarm.33a0d404edf4fc99ef3f3a74115e0800453116c7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_sarifarm_large.b3828916b0993f40a13444bec235b6b040896311.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Diamondback",
+				"defindex": 525,
+				"item_class": "tf_weapon_revolver",
+				"item_type_name": "Revolver",
+				"item_name": "Diamondback",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_dex_revolver\/c_dex_revolver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dex_revolver\/c_dex_revolver",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dex_revolver.b379d943d06568f90d93763b305141b77b75ebcb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dex_revolver_large.a8f60376080e510e9caa3a49a09baec2365e36d8.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sapper kills collect crits",
+						"class": "sapper_kills_collect_crits",
+						"value": 1.000000
+					},
+					{
+						"name": "damage penalty",
+						"class": "mult_dmg",
+						"value": 0.850000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Machina",
+				"defindex": 526,
+				"item_class": "tf_weapon_sniperrifle",
+				"item_type_name": "Sniper Rifle",
+				"item_name": "Machina",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_dex_sniperrifle\/c_dex_sniperrifle.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dex_sniperrifle\/c_dex_sniperrifle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dex_sniperrifle.c13e4f63e0663b31af9450b5167250e6c3e7e772.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dex_sniperrifle_large.01158138ceafee046e535e92aa1b5c76d4d2a7c7.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sniper penetrate players when charged",
+						"class": "sniper_penetrate_players_when_charged",
+						"value": 1.000000
+					},
+					{
+						"name": "sniper only fire zoomed",
+						"class": "sniper_only_fire_zoomed",
+						"value": 1.000000
+					},
+					{
+						"name": "sniper full charge damage bonus",
+						"class": "sniper_full_charge_damage_bonus",
+						"value": 1.150000
+					},
+					{
+						"name": "sniper fires tracer DISPLAY ONLY",
+						"class": "sniper_fires_tracer_DISPLAY_ONLY",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Widowmaker",
+				"defindex": 527,
+				"item_class": "tf_weapon_shotgun_primary",
+				"item_type_name": "Shotgun",
+				"item_name": "Widowmaker",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_dex_shotgun\/c_dex_shotgun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dex_shotgun\/c_dex_shotgun",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dex_shotgun.ed94dfbf035ed9df16cba060541bd7816e92156a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dex_shotgun_large.0c5347dc2b1369f20244c95e1169b57a59d441e0.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mod ammo per shot",
+						"class": "mod_ammo_per_shot",
+						"value": 60.000000
+					},
+					{
+						"name": "mod use metal ammo type",
+						"class": "mod_use_metal_ammo_type",
+						"value": 1.000000
+					},
+					{
+						"name": "mod no reload DISPLAY ONLY",
+						"class": "mod_no_reload_display_only",
+						"value": 1.000000
+					},
+					{
+						"name": "mod max primary clip override",
+						"class": "mod_max_primary_clip_override",
+						"value": -1.000000
+					},
+					{
+						"name": "add onhit addammo",
+						"class": "add_onhit_addammo",
+						"value": 100.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Short Circuit",
+				"defindex": 528,
+				"item_class": "tf_weapon_mechanical_arm",
+				"item_type_name": "TF_Weapon_Mechanical_Arm",
+				"item_name": "Short Circuit",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_dex_arm\/c_dex_arm.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dex_arm\/c_dex_arm",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dex_arm.03d97329aabd802e65a41dbba97027bbc2242dff.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dex_arm_large.8bead2629f6bdb51750267e79dff5b8dad260138.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mod ammo per shot",
+						"class": "mod_ammo_per_shot",
+						"value": 35.000000
+					},
+					{
+						"name": "electrical airblast DISPLAY ONLY",
+						"class": "electrical_airblast_DISPLAY_ONLY",
+						"value": 1.000000
+					},
+					{
+						"name": "mod use metal ammo type",
+						"class": "mod_use_metal_ammo_type",
+						"value": 1.000000
+					},
+					{
+						"name": "mod no reload DISPLAY ONLY",
+						"class": "mod_no_reload_display_only",
+						"value": 1.000000
+					},
+					{
+						"name": "mod max primary clip override",
+						"class": "mod_max_primary_clip_override",
+						"value": -1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "disable weapon hiding for animations",
+						"class": "disable_weapon_hiding_for_animations",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Clockwerk's Helm",
+				"defindex": 533,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Clockwerk's Helm",
+				"item_description": "DOTA 2 International Championship\nGamescom 2011",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/clockwerk_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/clockwerk_hat",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/clockwerk_hat.d7e965df3b7f414c59c8c0c3095828729e1d30db.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/clockwerk_hat_large.5cfa455e8d22d5c27a65ec8a8e1744ac71c7a99c.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -13742,10 +14128,154 @@
 				
 			},
 			{
+				"name": "Sniper's Snipin' Glass",
+				"defindex": 534,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Sniper's Snipin' Glass",
+				"item_description": "DOTA 2 International Championship\nGamescom 2011",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/dotasniper_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/dotasniper_hat",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dotasniper_hat.a10957450184a9099f48e88b21fbbd6e0691acba.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dotasniper_hat_large.b33a73edd338ed5c0720170c8bc41ddc4210f0a5.png",
+				"drop_type": "none",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Storm Spirit's Jolly Hat",
+				"defindex": 535,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Storm Spirit's Jolly Hat",
+				"item_description": "DOTA 2 International Championship\nGamescom 2011",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/stormspirit_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/stormspirit_hat",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stormspirit_hat.05110403d714e6c7856a425277fb4e70f3852bf2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stormspirit_hat_large.cb6115d7dcd847eea168fa5d0179e1d56f04c549.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Noise Maker - TF Birthday",
+				"defindex": 536,
+				"item_class": "tf_wearable",
+				"item_type_name": "Party Favor",
+				"item_name": "Noise Maker - TF Birthday",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/noisemaker_birthday",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/noisemaker_birthday.61e6f52491f82cbbf8101f3be5981c9d5fc83f3f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/noisemaker_birthday_large.5e0756d5a91467fb2e12f4e7046c6da8c00f45c6.png",
+				"holiday_restriction": "birthday",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "noise_maker"
+				},
+				"attributes": [
+					{
+						"name": "noise maker",
+						"class": "enable_misc2_noisemaker",
+						"value": 1.000000
+					},
+					{
+						"name": "unlimited quantity",
+						"class": "unlimited_quantity",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "TF Birthday Hat 2011",
+				"defindex": 537,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Party Hat",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/bdayhat_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/bdayhat_heavy",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bdayhat_heavy.038863e82750e65121a57261fc3b2d77b97a225f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bdayhat_heavy_large.86f38aeb3befaecc97fa638109bb05a36947f2e8.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Hat",
+				"item_type_name": "Hat",
 				"item_name": "World Traveler's Hat",
 				"item_description": "Given to generous souls who have donated to community map makers. The effect will only be visible while on a map that has been donated towards!",
 				"proper_name": false,
@@ -15014,6 +15544,332 @@
 				
 			},
 			{
+				"name": "Bethesda Employee Bundle",
+				"defindex": 2036,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Bethesda Employee Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 9.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Tripwire Employee Bundle",
+				"defindex": 2037,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Tripwire Employee Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 9.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Bethesda Employee Bundle Genuine",
+				"defindex": 2038,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Bethesda Employee Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Tripwire Employee Bundle Genuine",
+				"defindex": 2039,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Tripwire Employee Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/grordborts_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle.1a256e9b0dc52e66dfaefa44cecc624291a16b75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grordborts_bundle_large.4adee34a60dae8fd72b9fca3531ef03ff2de4f29.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Deus Ex Promo Bundle",
+				"defindex": 2040,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Manno-Technology Bundle",
+				"item_description": "When will it be the future? Right now! See for yourself with these eight items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Deus Ex Purity Fist PAX Promo",
+				"defindex": 2041,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DeusExPAX",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "DOTA2 Gamescom Winners Finals PROMO Bundle",
+				"defindex": 2042,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DOTA2GamescomWinnersFinals",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/soldier_starter_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_starter_bundle.8521ea8e087cac9e9bca9ad07cb8c9692311aaae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_starter_bundle_large.072cb4e3d7a7b10146745847befdfad847069ccc.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "DOTA2 Gamescom Losers Finals PROMO Bundle",
+				"defindex": 2043,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DOTA2GamescomLosersFinals",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/soldier_starter_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_starter_bundle.8521ea8e087cac9e9bca9ad07cb8c9692311aaae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_starter_bundle_large.072cb4e3d7a7b10146745847befdfad847069ccc.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "DOTA2 Gamescom Championship PROMO Bundle",
+				"defindex": 2044,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DOTA2GamescomChampionship",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/soldier_starter_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_starter_bundle.8521ea8e087cac9e9bca9ad07cb8c9692311aaae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_starter_bundle_large.072cb4e3d7a7b10146745847befdfad847069ccc.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Deus Ex Self-Made Bundle",
+				"defindex": 2045,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DeusExSelfMade",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 9.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Shogun Complete Genuine Bundle",
+				"defindex": 2046,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Emperor's Assortment",
+				"item_description": "Get all eight items.\nThis haiku is not lying.\nGet. All. Eight. Items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/shogun_complete_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/shogun_complete_bundle.cebef057a429aa3b9aabaa7d05b776dec3c09918.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/shogun_complete_bundle_large.80349027e9cc438969bcd4cafc85cb9c8ceccd12.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Soldier",
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Craft Bar Level 1",
 				"defindex": 5000,
 				"item_class": "craft_item",
@@ -15476,7 +16332,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 23.000000
+						"value": 26.000000
 					}
 				]
 				
@@ -16174,7 +17030,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 24.000000
+						"value": 27.000000
 					}
 				]
 				
@@ -16321,7 +17177,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 25.000000
+						"value": 28.000000
 					}
 				]
 				
@@ -20616,11 +21472,11 @@
 				"attribute_class": "projectile_penetration",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
-				"description_string": "Attrib_Penetration",
+				"description_string": "Projectiles penetrate enemy players",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
-				"stored_as_integer": true
+				"stored_as_integer": false
 			},
 			{
 				"name": "mod crit while airborne",
@@ -20657,6 +21513,29 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "maxammo grenades1 increased",
+				"defindex": 279,
+				"attribute_class": "mult_maxammo_grenades1",
+				"min_value": 1.050000,
+				"max_value": 1.150000,
+				"description_string": "Attrib_MaxammoGrenades1_Increased",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "override projectile type",
+				"defindex": 280,
+				"attribute_class": "override_projectile_type",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
 			},
 			{
 				"name": "energy weapon no ammo",
@@ -20741,11 +21620,217 @@
 				"stored_as_integer": true
 			},
 			{
+				"name": "kill eater score type",
+				"defindex": 292,
+				"attribute_class": "kill_eater_score_type",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater score type 2",
+				"defindex": 293,
+				"attribute_class": "kill_eater_score_type_2",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater 2",
+				"defindex": 294,
+				"attribute_class": "kill_eater_2",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
 				"name": "has pipboy build interface",
 				"defindex": 295,
 				"attribute_class": "set_custom_buildmenu",
 				"min_value": 1.000000,
 				"max_value": 3.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "sapper kills collect crits",
+				"defindex": 296,
+				"attribute_class": "sapper_kills_collect_crits",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Gives one guaranteed critical hit for each\nbuilding destroyed with your sapper attached",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "sniper only fire zoomed",
+				"defindex": 297,
+				"attribute_class": "sniper_only_fire_zoomed",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Cannot fire unless zoomed",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "mod ammo per shot",
+				"defindex": 298,
+				"attribute_class": "mod_ammo_per_shot",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Per Shot: -%s1 ammo",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "add onhit addammo",
+				"defindex": 299,
+				"attribute_class": "add_onhit_addammo",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "On Hit: damage dealt is returned as ammo",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "electrical airblast DISPLAY ONLY",
+				"defindex": 300,
+				"attribute_class": "electrical_airblast_DISPLAY_ONLY",
+				"min_value": 0.010000,
+				"max_value": 0.050000,
+				"description_string": "On Fire: Generates an electrical field that destroys\nprojectiles and does slight damage to players",
+				"description_format": "value_is_additive_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "mod use metal ammo type",
+				"defindex": 301,
+				"attribute_class": "mod_use_metal_ammo_type",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Uses metal for ammo",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "mod max primary clip override",
+				"defindex": 303,
+				"attribute_class": "mod_max_primary_clip_override",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "sniper full charge damage bonus",
+				"defindex": 304,
+				"attribute_class": "sniper_full_charge_damage_bonus",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "On Full Charge: +%s1% damage per shot",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sniper fires tracer DISPLAY ONLY",
+				"defindex": 305,
+				"attribute_class": "sniper_fires_tracer_DISPLAY_ONLY",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Fires tracer rounds",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sniper no headshot without full charge",
+				"defindex": 306,
+				"attribute_class": "sniper_no_headshot_without_full_charge",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "No headshots when not fully charged",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "mod no reload DISPLAY ONLY",
+				"defindex": 307,
+				"attribute_class": "mod_no_reload_display_only",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "No reload necessary",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "sniper penetrate players when charged",
+				"defindex": 308,
+				"attribute_class": "sniper_penetrate_players_when_charged",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "On Full Charge: Projectiles penetrate players",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "draw sniper beam when scoped UNUSED",
+				"defindex": 309,
+				"attribute_class": "draw_sniper_beam_when_scoped_UNUSED",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Attrib_DrawBeamWhenScoped",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "unlimited quantity",
+				"defindex": 311,
+				"attribute_class": "unlimited_quantity",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Unlimited use",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "disable weapon hiding for animations",
+				"defindex": 312,
+				"attribute_class": "disable_weapon_hiding_for_animations",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": true
@@ -20887,6 +21972,162 @@
 				"attach_to_rootbone": false,
 				"attachment": "cig_drg_smoke",
 				"name": "Genteel Pipe Smoke"
+			},
+			{
+				"system": "unusual_storm",
+				"id": 29,
+				"attach_to_rootbone": true,
+				"name": "Stormy Storm"
+			},
+			{
+				"system": "unusual_blizzard",
+				"id": 30,
+				"attach_to_rootbone": true,
+				"name": "Blizzardy Storm"
+			},
+			{
+				"system": "unusual_orbit_nutsnbolts",
+				"id": 31,
+				"attach_to_rootbone": true,
+				"name": "Nuts n' Bolts"
+			},
+			{
+				"system": "unusual_orbit_planets",
+				"id": 32,
+				"attach_to_rootbone": true,
+				"name": "Orbiting Planets"
+			},
+			{
+				"system": "unusual_orbit_fire",
+				"id": 33,
+				"attach_to_rootbone": true,
+				"name": "Orbiting Fire"
+			},
+			{
+				"system": "unusual_bubbles",
+				"id": 34,
+				"attach_to_rootbone": true,
+				"name": "Bubbling"
+			},
+			{
+				"system": "unusual_smoking",
+				"id": 35,
+				"attach_to_rootbone": true,
+				"name": "Smoking"
+			},
+			{
+				"system": "unusual_steaming",
+				"id": 36,
+				"attach_to_rootbone": true,
+				"name": "Steaming"
+			}
+		]
+		,
+		"kill_eater_ranks": [
+			{
+				"level": 0,
+				"required_score": 10,
+				"name": "Strange"
+			},
+			{
+				"level": 1,
+				"required_score": 25,
+				"name": "Unremarkable"
+			},
+			{
+				"level": 2,
+				"required_score": 45,
+				"name": "Scarcely Lethal"
+			},
+			{
+				"level": 3,
+				"required_score": 70,
+				"name": "Mildly Menacing"
+			},
+			{
+				"level": 4,
+				"required_score": 100,
+				"name": "Somewhat Threatening"
+			},
+			{
+				"level": 5,
+				"required_score": 135,
+				"name": "Uncharitable"
+			},
+			{
+				"level": 6,
+				"required_score": 175,
+				"name": "Notably Dangerous"
+			},
+			{
+				"level": 7,
+				"required_score": 225,
+				"name": "Sufficiently Lethal"
+			},
+			{
+				"level": 8,
+				"required_score": 275,
+				"name": "Truly Feared"
+			},
+			{
+				"level": 9,
+				"required_score": 350,
+				"name": "Spectacularly Lethal"
+			},
+			{
+				"level": 10,
+				"required_score": 500,
+				"name": "Gore-Spattered"
+			},
+			{
+				"level": 11,
+				"required_score": 750,
+				"name": "Wicked Nasty"
+			},
+			{
+				"level": 12,
+				"required_score": 999,
+				"name": "Positively Inhumane"
+			},
+			{
+				"level": 13,
+				"required_score": 1000,
+				"name": "Totally Ordinary"
+			},
+			{
+				"level": 14,
+				"required_score": 1500,
+				"name": "Face-Melting"
+			},
+			{
+				"level": 15,
+				"required_score": 2500,
+				"name": "Rage-Inducing"
+			},
+			{
+				"level": 16,
+				"required_score": 5000,
+				"name": "Server-Clearing"
+			},
+			{
+				"level": 17,
+				"required_score": 7500,
+				"name": "Epic"
+			},
+			{
+				"level": 18,
+				"required_score": 7616,
+				"name": "Legendary"
+			},
+			{
+				"level": 19,
+				"required_score": 8500,
+				"name": "Australian"
+			},
+			{
+				"level": 20,
+				"required_score": 10000,
+				"name": "Hale's Own"
 			}
 		]
 		
