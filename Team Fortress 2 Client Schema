@@ -18343,7 +18343,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"0"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18392,7 +18391,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18441,7 +18439,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"2"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18490,7 +18487,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"0"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18539,7 +18535,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18588,7 +18583,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"2"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18637,7 +18631,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
 			"drop_sound"		"ui/item_metal_tiny_drop.wav"
@@ -18685,7 +18678,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
 			"drop_sound"		"ui/item_metal_tiny_drop.wav"
@@ -18733,7 +18725,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"0"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18782,7 +18773,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18831,7 +18821,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"2"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18880,7 +18869,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"0"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18929,7 +18917,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -18978,7 +18965,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"2"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -19027,7 +19013,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"0"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -19076,7 +19061,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -19125,7 +19109,6 @@
 			}
 			"visuals"
 			{
-				"hide_player_bodygroup_name"	"medal"
 				"skin"	"2"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
@@ -19276,6 +19259,7 @@
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 				"paintable"			"1"
 			}
@@ -19300,14 +19284,6 @@
 			"visuals"
 			{
 				"hide_player_bodygroup_name"	"hat"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_pickup.wav"
