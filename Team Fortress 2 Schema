@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.5b8d8e98a3ad6d4b5fe0b3d9193d920882e0aa4c.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e39dbb404849f84f66a6fc23d18b95137e76dcbf.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -14356,8 +14356,8 @@
 				"image_inventory": "backpack\/player\/items\/scout\/rebel_cap",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rebel_cap.59bbff90acf0c4a5f3282c033bc4d03b1b3ffdcd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rebel_cap_large.b8bee1ee656c67f4a4087088b5d4ed5f5ee13caf.png",
 				"drop_type": "none",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -15968,6 +15968,33 @@
 					"Spy"
 				]
 				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Deus Ex Contest Bundle",
+				"defindex": 2048,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DeusExContest",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
 				"attributes": [
 					{
 						"name": "elevate quality",
