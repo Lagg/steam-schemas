@@ -1,0 +1,709 @@
+"items_game"
+{
+	"qualities"
+	{
+		"normal"
+		{
+			"value" "0"
+		}
+		"unique"
+		{
+			"value" "6"
+		}
+		"rarity1"
+		{
+			"value" "1"
+		}
+		"rarity2"
+		{
+			"value" "2"
+		}
+		"rarity3"
+		{
+			"value" "4"
+		}
+		"rarity4"
+		{
+			"value" "5"
+		}
+		"community"
+		{
+			"value" "7"
+		}
+		"developer"
+		{
+			"value" "8"
+		}
+		"selfmade"
+		{
+			"value" "9"
+		}
+		"customized"
+		{
+			"value" "10"
+		}
+		"vintage"
+		{
+			"value" "3"
+		}
+		"strange"
+		{
+			"value" "11"
+		}
+	}
+	"colors"
+	{
+		"desc_level"
+		{
+			"color_name"	"ItemAttribLevel"
+		}
+		"desc_attrib_neutral"
+		{
+			"color_name"	"ItemAttribNeutral"
+		}
+		"desc_attrib_positive"
+		{
+			"color_name"	"ItemAttribPositive"
+		}
+		"desc_attrib_negative"
+		{
+			"color_name"	"ItemAttribNegative"
+		}
+		"desc_itemset_name"
+		{
+			"color_name"	"ItemSetName"
+		}
+		"desc_itemset_equipped"
+		{
+			"color_name"	"ItemSetItemEquipped"
+		}
+		"desc_itemset_missing"
+		{
+			"color_name"	"ItemSetItemMissing"
+		}
+		"desc_bundle"
+		{
+			"color_name"	"ItemBundleItem"
+		}
+		"desc_limited_use"
+		{
+			"color_name"	"ItemLimitedUse"
+		}
+		"desc_flags"
+		{
+			"color_name"	"ItemFlags"
+		}
+	}
+	"equip_regions"
+	{
+	}
+	"equip_conflicts"
+	{
+	}
+	"items"
+	{
+		"default"
+		{
+			"name"	"default"
+			"hidden"	"1"
+			"item_class"	"dota_item_wearable"
+			"item_name"	"#TF_Default_ItemDef"
+			"item_slot"	"weapon"
+			"item_quality"	"normal"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+		}
+		"0"
+		{
+			"name" "Sven's Default Sword"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Sven_DefaultSword"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/sven/sven_sword"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/sven/sven_sword.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven" "1"
+			}
+		}
+		"1"
+		{
+			"name" "Sven's Fancy New Sword"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Sven_FancySword"
+			"item_slot" "weapon"
+			"item_quality" "unique"
+			"min_ilevel" "5"
+			"max_ilevel" "5"
+			"image_inventory" "econ/heroes/sven/sven_sword_alt"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/sven/sven_sword_alt.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven" "1"
+			}
+		}
+		"2"
+		{
+			"name" "Axe's Axe"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Axe_DefaultWeapon"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/axe/axe_weapon"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/axe/axe_weapon.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe" "1"
+			}
+		}
+		"3"
+		{
+			"name" "Axe's Top Hat"
+			"item_class" "dota_item_wearable"
+			"loadondemand" "1"
+			"craft_class" "hat"
+			"capabilities"
+			{
+				"nameable" "1"
+				"paintable" "1"
+				"can_gift_wrap" "1"
+			}
+			"show_in_armory" "1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name" "#DOTA_Wearable_Axe_TopHat"
+			"item_description" "#DOTA_Wearable_Axe_TopHat_Desc"
+			"item_slot" "head"
+			"item_quality" "unique"
+			"image_inventory" "econ/heroes/items/hat_test/hat_test"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/items/hat_test/hat_test.mdl"
+			"drop_type" "drop"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe" "1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name" "ponytail"
+			}
+			"mouse_pressed_sound" "ui/item_hat_pickup.wav"
+			"drop_sound" "ui/item_hat_pickup.wav"
+		}
+		"4"
+		{
+			"name" "Necrolyte's Sickle"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Sickle_DefaultWeapon"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/necrolyte/necrolyte_sickle"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/necrolyte/necrolyte_sickle.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_necrolyte" "1"
+			}
+		}
+		"5"
+		{
+			"name" "Sven's Sword"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Axe_DefaultWeapon"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/sven/sven_sword"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/sven/sven_sword.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven" "1"
+			}
+		}
+		"6"
+		{
+			"name" "Furion's Staff"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Furions_Staff"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/furion/furion_staff"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/furion/furion_staff.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion" "1"
+			}
+		}
+		"7"
+		{
+			"name" "Huskar's Spear"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Huskars_Spear"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/huskar/huskar_spear"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/huskar/huskar_spear.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar" "1"
+			}
+		}
+		"8"
+		{
+			"name" "Huskar's Sword"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Huskars_Sword"
+			"item_slot" "offhand_weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/huskar/huskar_sword"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/huskar/huskar_sword.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar" "1"
+			}
+		}
+		"9"
+		{
+			"name" "Enchantress' Spear"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Wearable_Enchantress_DefaultWeapon"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/enchantress/enchantress_spear"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/enchantress/enchantress_spear.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_enchantress" "1"
+			}
+		}
+		"10"
+		{
+			"name" "Antimage's Weapon"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Antimage_Antimage_Weapon"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/antimage/antimage_weapon"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/antimage/antimage_weapon.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_antimage" "1"
+			}
+		}
+		"11"
+		{
+			"name" "Batrider's Weapon"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Batrider_Batrider_Weapon"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/batrider/batrider_weapon"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/batrider/batrider_weapon.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_viper" "1"
+			}
+		}
+		"12"
+		{
+			"name" "Queen Of Pain's Queenofpain Dagger"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_Queen_Of_Pain_Queenofpain_Dagger"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/heroes/QueenOfPain/queenofpain_dagger"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/heroes/QueenOfPain/queenofpain_dagger.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_queenofpain" "1"
+			}
+		}
+		"13"
+		{
+			"name" "N Creep Troll Dark A's N Creep Troll Dark A Weapon"
+			"item_class" "dota_item_wearable"
+			"item_type_name" "#DOTA_Wearable_Weapon"
+			"item_name" "#DOTA_N_Creep_Troll_Dark_A_N_Creep_Troll_Dark_A_Weapon"
+			"item_slot" "weapon"
+			"item_quality" "normal"
+			"baseitem" "1"
+			"min_ilevel" "1"
+			"max_ilevel" "1"
+			"image_inventory" "econ/creeps/neutral_creeps/n_creep_troll_dark_a/n_creep_troll_dark_a_weapon"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "82"
+			"model_player" "models/creeps/neutral_creeps/n_creep_troll_dark_a/n_creep_troll_dark_a_weapon.mdl"
+			"mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+			"drop_sound" "ui/item_metal_weapon_drop.wav"
+			"used_by_heroes"
+			{
+			}
+		}
+	}
+	"attributes"
+	{
+		"1"
+		{
+			"name" "damage penalty"
+			"attribute_class" "mult_dmg"
+			"attribute_name" "Minor damage penalty"
+			"min_value" "0.95"
+			"max_value" "0.85"
+			"group" "only_on_unique"
+			"description_string" "#Attrib_DamageDone_Negative"
+			"description_format" "value_is_percentage"
+			"hidden" "0"
+			"effect_type" "negative"
+			"stored_as_integer" "0"
+		}
+		"2"
+		{
+			"name" "damage bonus"
+			"attribute_class" "mult_dmg"
+			"attribute_name" "Minor damage bonus"
+			"min_value" "1.05"
+			"max_value" "1.1"
+			"group" "only_on_unique"
+			"description_string" "#Attrib_DamageDone_Positive"
+			"description_format" "value_is_percentage"
+			"hidden" "0"
+			"effect_type" "positive"
+			"stored_as_integer" "0"
+		}
+		"192"
+		{
+			"name" "referenced item id low"
+			"attribute_class" "referenced_item_id_low"
+			"min_value" "0"
+			"max_value" "0"
+			"group" "only_on_unique"
+			"description_format" "value_is_additive"
+			"hidden" "1"
+			"effect_type" "negative"
+			"armory_desc" "on_wearer"
+			"stored_as_integer" "1"
+		}
+		"193"
+		{
+			"name" "referenced item id high"
+			"attribute_class" "referenced_item_id_high"
+			"min_value" "0"
+			"max_value" "0"
+			"group" "only_on_unique"
+			"description_format" "value_is_additive"
+			"hidden" "1"
+			"effect_type" "negative"
+			"armory_desc" "on_wearer"
+			"stored_as_integer" "1"
+		}
+		"194"
+		{
+			"name" "referenced item def"
+			"attribute_class" "referenced_item_def"
+			"min_value" "0"
+			"max_value" "0"
+			"group" "only_on_unique"
+			"description_format" "value_is_additive"
+			"hidden" "1"
+			"effect_type" "negative"
+			"armory_desc" "on_wearer"
+			"stored_as_integer" "1"
+		}
+		"195"
+		{
+			"name" "always tradable"
+			"attribute_class" "always_tradable"
+			"attribute_name" "always tradable"
+			"min_value" "0"
+			"max_value" "0"
+			"group" "only_on_unique"
+			"description_string" "#Attrib_DamageDone_Negative"
+			"description_format" "value_is_additive"
+			"hidden" "1"
+			"effect_type" "negative"
+			"stored_as_integer" "0"
+		}
+		"198"
+		{
+			"name" "collection bits"
+			"attribute_class" "collection_bits"
+			"attribute_name" "collection bits"
+			"min_value" "0"
+			"max_value" "1"
+			"group" "only_on_unique"
+			"description_string" "#Attrib_Halloween_Item"
+			"description_format" "value_is_additive"
+			"hidden" "1"
+			"effect_type" "positive"
+			"stored_as_integer" "1"
+		}
+		"211"
+		{
+			"name" "tradable after date"
+			"attribute_class" "tradable_after_date"
+			"attribute_name" "tradable_after_date"
+			"min_value" "0.95"
+			"max_value" "0.85"
+			"group" "only_on_unique"
+			"description_string" "#Attrib_TradableAfterDate"
+			"description_format" "value_is_date"
+			"hidden" "1"
+			"effect_type" "negative"
+			"stored_as_integer" "1"
+		}
+		"212"
+		{
+			"name" "force level display"
+			"attribute_class" "force_level_display"
+			"attribute_name" "Force Level Display"
+			"min_value" "0"
+			"max_value" "1"
+			"group" "only_on_unique"
+			"description_string" ""
+			"description_format" "value_is_additive"
+			"hidden" "1"
+			"effect_type" "positive"
+			"stored_as_integer" "0"
+		}
+		"213"
+		{
+			"name" "random level curve replacement"
+			"attribute_class" "random_level_curve_replacement"
+			"attribute_name" "Random Level Curve Replacement"
+			"min_value" "0"
+			"max_value" "1"
+			"group" "only_on_unique"
+			"description_string" ""
+			"description_format" "value_is_additive"
+			"hidden" "1"
+			"effect_type" "positive"
+			"stored_as_integer" "0"
+		}
+		"214"
+		{
+			"name" "kill eater"
+			"attribute_class" "kill_eater"
+			"attribute_name" "Kill Eater"
+			"min_value" "0"
+			"max_value" "1"
+			"group" "only_on_unique"
+			"description_string" ""
+			"description_format" "value_is_additive"
+			"hidden" "1"
+			"effect_type" "positive"
+			"stored_as_integer" "0"
+		}
+	}
+	"item_sets"
+	{
+	}
+	"recipes"
+	{
+	}
+	"achievement_rewards"
+	{
+	}
+	"attribute_controlled_attached_particles"
+	{
+		"1"
+		{
+			"system" "burningplayer_red"
+		}
+		"2"
+		{
+			"system" "burningplayer_flyingbits"
+		}
+		"3"
+		{
+			"system" "particle_nemesis_burst_blue"
+			"attachment" "muzzle1"
+		}
+		"4"
+		{
+			"system" "community_sparkle"
+		}
+		"5"
+		{
+			"system" "halopoint"
+			"attachment" "halopoint1"
+		}
+		"6"
+		{
+			"system" "superrare_confetti_green"
+		}
+		"7"
+		{
+			"system" "superrare_confetti_purple"
+		}
+		"8"
+		{
+			"system" "superrare_ghosts"
+			"attach_to_rootbone" "1"
+			"attachment" "muzzle"
+		}
+		"9"
+		{
+			"system" "superrare_greenenergy"
+			"attach_to_rootbone" "1"
+		}
+		"10"
+		{
+			"system" "superrare_purpleenergy"
+			"attach_to_rootbone" "1"
+		}
+		"11"
+		{
+			"system" "superrare_circling_tf"
+			"attach_to_rootbone" "1"
+			"attachment" "muzzle"
+		}
+		"12"
+		{
+			"system" "superrare_flies"
+			"attach_to_rootbone" "1"
+		}
+		"13"
+		{
+			"system" "superrare_burning1"
+			"attach_to_rootbone" "1"
+		}
+		"14"
+		{
+			"system" "superrare_burning2"
+			"attach_to_rootbone" "1"
+		}
+		"15"
+		{
+			"system" "superrare_plasma1"
+			"attach_to_rootbone" "1"
+			"attachment" "muzzle"
+		}
+		"16"
+		{
+			"system" "superrare_plasma2"
+			"attach_to_rootbone" "1"
+			"attachment" "muzzle"
+		}
+		"17"
+		{
+			"system" "superrare_beams1"
+			"attach_to_rootbone" "1"
+		}
+		"18"
+		{
+			"system" "superrare_circling_peacesign"
+			"attach_to_rootbone" "1"
+			"attachment" "muzzle"
+		}
+		"19"
+		{
+			"system" "superrare_circling_heart"
+			"attach_to_rootbone" "1"
+			"attachment" "muzzle"
+		}
+		"20"
+		{
+			"system" "stamp_spin"
+			"attach_to_rootbone" "1"
+		}
+	}
+	"upgradeable_base_items"
+	{
+		"Upgradeable Sven's Default Sword" "1"
+	}
+	"armory_data"
+	{
+	}
+}
