@@ -17687,18 +17687,36 @@
 			"image_inventory"	"backpack/player/items/soldier/soldier_spiral"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/soldier/soldier_spiral.mdl"
+			"model_player_per_class"
+			{
+				"scout"		"models/player/items/scout/scout_spiral.mdl"
+				"sniper"	"models/player/items/sniper/sniper_spiral.mdl"
+				"soldier"	"models/player/items/soldier/soldier_spiral.mdl"
+				"demoman"	"models/player/items/demo/demo_spiral.mdl"
+				"medic"		"models/player/items/medic/medic_spiral.mdl"
+				"heavy"		"models/player/items/heavy/heavy_spiral.mdl"
+				"spy"		"models/player/items/spy/spy_spiral.mdl"
+				"engineer"	"models/player/items/engineer/engineer_spiral.mdl"
+				"pyro"		"models/player/items/pyro/pyro_spiral.mdl"
+			}
 			"drop_type"	"drop"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"used_by_classes"
 			{
+				"scout"	"1"
+				"sniper"	"1"
 				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
 			}
 			"visuals"
 			{
 				"hide_player_bodygroup_name"	"hat"
-				"hide_player_bodygroup_name"	"headphones"
 			}
 			"mouse_pressed_sound"	"ui/item_helmet_pickup.wav"
 			"drop_sound"		"ui/item_helmet_drop.wav"
@@ -21327,6 +21345,14 @@
 			{
 				"scout"	"1"
 			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-9"
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -21352,6 +21378,14 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
+			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-8"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -21379,6 +21413,14 @@
 			{
 				"pyro"	"1"
 			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-7"
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -21404,6 +21446,14 @@
 			"used_by_classes"
 			{
 				"demoman"	"1"
+			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-6"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -21431,6 +21481,14 @@
 			{
 				"heavy"	"1"
 			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-5"
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -21456,6 +21514,14 @@
 			"used_by_classes"
 			{
 				"engineer"	"1"
+			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-4"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -21483,6 +21549,14 @@
 			{
 				"medic"	"1"
 			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-3"
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -21509,6 +21583,14 @@
 			{
 				"sniper"	"1"
 			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-2"
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -21534,6 +21616,14 @@
 			"used_by_classes"
 			{
 				"spy"	"1"
+			}
+			"attributes"
+			{
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-1"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -23444,6 +23534,11 @@
 				{
 					"attribute_class"	"always_tradable"
 					"value"				"1"
+				}
+				"store sort override"
+				{
+					"attribute_class"	"store_sort_override"
+					"value"				"-1"					
 				}
 			}
 			"armory_desc"		"gift_wrap"
@@ -28568,6 +28663,20 @@
 			"description_format"	"value_is_additive"
 			"hidden"	"1"
 			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"317"
+		{
+			"name"	"store sort override"
+			"attribute_class"	"store_sort_override"
+			"attribute_name"	"store sort override"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_AlternateRocketEffect"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
 			"stored_as_integer"	"1"
 		}
 	}
