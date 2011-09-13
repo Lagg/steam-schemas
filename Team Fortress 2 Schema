@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9d20a3c233b51c7cd502036bcf2fe19258b5b33e.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9d9594c4d47684b920878501fdb1fe16c37e6bf0.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -4223,8 +4223,8 @@
 				"image_inventory": "backpack\/player\/items\/pyro\/pyro_monocle",
 				"min_ilevel": 1,
 				"max_ilevel": 100,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_monocle.39ac40aa4dc4d6ff233fe74dd86a55927d92245f.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_monocle_large.31ebc3e0a7a7e1abb059fcbe957bbe2c65861d00.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_monocle.35cb45321b849a1e6a706cd9377cde5a48f997e0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_monocle_large.ef1141b4d3bb0c714d9e87e873c9df3f1a866b42.png",
 				"drop_type": "none",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
@@ -6471,8 +6471,8 @@
 				"image_inventory": "backpack\/player\/items\/demo\/inquisitor",
 				"min_ilevel": 1,
 				"max_ilevel": 100,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/inquisitor.0e8a845e1f9be44e5d17b050ca202bed256ee0f8.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/inquisitor_large.cb39562e72600c57e9dfa42f6accd3b4271ef8d1.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/inquisitor.e8f81153499c291ad24275159b164b86742243b2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/inquisitor_large.400aeb9bba0aaa74ae228bf577b73f19dad56e2a.png",
 				"drop_type": "drop",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
@@ -8086,6 +8086,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_mark": true
@@ -9813,6 +9814,18 @@
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
+				"styles": [
+					{
+						"name": "El Macho"
+					},
+					{
+						"name": "El Amor Ardiente"
+					},
+					{
+						"name": "El Picante Grande"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Heavy"
 				]
@@ -14397,6 +14410,36 @@
 				
 			},
 			{
+				"name": "Killer Exclusive",
+				"defindex": 538,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Killer Exclusive",
+				"item_description": "Break news, spirits and heads.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/pcg_hat_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/pcg_hat_engineer",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pcg_hat_engineer.13ee1cad574b26c2b7d561a799f8edfaca9ac18c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pcg_hat_engineer_large.d33494ea133da6f764fecc76878e1c8b62a86c3b.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "The El Jefe",
 				"defindex": 539,
 				"item_class": "tf_wearable",
@@ -16094,6 +16137,33 @@
 					"Spy"
 				]
 				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Killer Exclusive PCGamer Bundle",
+				"defindex": 2047,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_KillerExclusive",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
 				"attributes": [
 					{
 						"name": "elevate quality",
