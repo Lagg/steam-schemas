@@ -931,16 +931,6 @@
 					"value"	"1.25"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_heal"	"1"
-				"attrib_uber"	"1"
-			}
 			"visuals_red"
 			{
 				"attached_model"
@@ -1009,20 +999,6 @@
 					"value"	"-2"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"attrib_medic" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
@@ -1073,20 +1049,6 @@
 					"attribute_class"	"set_weapon_mode"
 					"value"	"1"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"attrib_medic" "1"
 			}
 			"visuals"
 			{
@@ -1143,19 +1105,6 @@
 					"value"	"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -1195,19 +1144,6 @@
 					"attribute_class"	"mult_maxammo_secondary"
 					"value"	"0.5"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_firerate" "1"
-				"wpn_ignites" "1"
-				"ammo_secondary" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -1264,18 +1200,6 @@
 					"attribute_class"	"mult_dmg"
 					"value"	"1.10"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"wpn_ignites" "1"
 			}
 			"visuals"
 			{
@@ -1342,20 +1266,6 @@
 					"value"	"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_vs_burning" "1"
-				"wpn_uses_aimmode" "1"
-				"only_on_minigun" "1"
-			}
 			"visuals"
 			{
 				"sound_reload"	"Weapon_Minifun.Reload"
@@ -1409,10 +1319,6 @@
 			{
 				"heavy"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-			}
 			"mouse_pressed_sound"	"ui/item_sandwich_drop.wav"
 			"drop_sound"		"ui/item_sandwich_pickup.wav"
 		}
@@ -1458,19 +1364,6 @@
 					"attribute_class"	"mult_postfiredelay"
 					"value"	"1.2"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"hide_bodygroups_deployed_only"	"1"
 			"visuals"
@@ -1526,19 +1419,6 @@
 					"attribute_class"	"add_maxhealth"
 					"value" "-15"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -1607,20 +1487,6 @@
 					"value"	"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-			}
 			"visuals"
 			{
 				"sound_single_shot"	"Weapon_Scatter_Gun_Double.Single"
@@ -1662,10 +1528,6 @@
 			"visuals"
 			{
 				"sound_deploy"	"Scout.DodgeCanOpen"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_soda_can_pickup.wav"
 			"drop_sound"		"ui/item_soda_can_drop.wav"
@@ -1991,16 +1853,6 @@
 			{
 				"show_player_bodygroup_name"	"arrows"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_onhit_slow" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
 		}
@@ -2040,14 +1892,6 @@
 					"attribute_class"	"set_blockbackstab_once"
 					"value" "1"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -2092,14 +1936,6 @@
 					"attribute_class"	"kill_eater_score_type"
 					"value" 	"4"									
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
@@ -2150,14 +1986,6 @@
 					"value"	"1.8"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"player_movement" "1"
-				"attrib_cloak" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_watch_pickup.wav"
 			"drop_sound"		"ui/item_watch_drop.wav"
 		}
@@ -2201,14 +2029,6 @@
 					"attribute_class"	"mult_cloak_meter_regen_rate"
 					"value"	"2.0"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"player_movement" "1"
-				"attrib_cloak" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_watch_pickup.wav"
 			"drop_sound"		"ui/item_watch_drop.wav"
@@ -2260,20 +2080,6 @@
 					"attribute_class"	"mult_postfiredelay"
 					"value"	"1.2"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
 			}
 			"visuals"
 			{
@@ -3411,22 +3217,6 @@
 					"value" "1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"wpn_explosive" "1"
-				"ammo_primary" "1"
-				"wpn_fires_projectiles" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -3467,19 +3257,6 @@
 					"value"	"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"visuals"
 			{
 				"sound_melee_miss"	"Weapon_PickAxe.Swing"
@@ -3519,14 +3296,6 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"attributes"
 			{
@@ -3624,22 +3393,6 @@
 					"value"	"0.8"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"wpn_explosive" "1"
-				"ammo_secondary" "1"
-				"only_on_pipebombs" "1"
-				"wpn_lobs_projectiles" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -3690,14 +3443,6 @@
 					"attribute_class"	"mult_dmgtaken_from_explosions"
 					"value"			"0.6"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -3759,19 +3504,6 @@
 					"value"	"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -3812,14 +3544,6 @@
 					"attribute_class"	"rocket_jump_dmg_reduction"
 					"value" "0.4"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -4184,15 +3908,6 @@
 			{
 				"engineer"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"ammo_metal" "1"
-			}
 			"visuals"
 			{
 				"sound_single_shot" "Weapon_Ambassador.Single"
@@ -4248,21 +3963,6 @@
 					"value" "0.5"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"ammo_metal" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -4313,21 +4013,6 @@
 					"attribute_class"	"mult_crit_chance"
 					"value"	"0"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"ammo_metal" "1"
-				"only_on_wrench" "1"
 			}
 			"visuals"
 			{
@@ -4831,19 +4516,6 @@
 					"value"	"1.1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
 		}
@@ -4918,21 +4590,6 @@
 					"replacement"		"ACT_ITEM3_VM_SWINGHARD"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"ammo_metal" "1"
-				"only_on_wrench" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -5001,14 +4658,6 @@
 			{
 				"heavy"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_sandwich_drop.wav"
 			"drop_sound"	"ui/item_sandwich_pickup.wav"
 			"attributes"
@@ -5051,20 +4700,6 @@
 				"scout"	"1"
 				"engineer"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"ammo_metal" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
@@ -5096,20 +4731,6 @@
 			"used_by_classes"
 			{
 				"spy"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -5213,14 +4834,6 @@
 					"attribute_class"	"set_weapon_mode"
 					"value"	"2"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_soda_can_pickup.wav"
 			"drop_sound"		"ui/item_soda_can_drop.wav"
@@ -5434,21 +5047,6 @@
 					"value"				"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"ammo_metal" "1"
-				"only_on_wrench" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
 			"drop_sound"		"ui/item_medal_pickup.wav"
 		}
@@ -5552,19 +5150,6 @@
 					"value"	"0.5"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -5612,19 +5197,6 @@
 					"value"	"0.85"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"visuals"
 			{
 				"sound_melee_miss"	"Weapon_Sword.Swing"
@@ -5666,20 +5238,6 @@
 			"used_by_classes"
 			{
 				"medic"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"attrib_medic" "1"
 			}
 			"attributes"
 			{
@@ -6155,19 +5713,6 @@
 			{
 				"scout"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -6197,19 +5742,6 @@
 			{
 				"demoman"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
 		}
@@ -6238,19 +5770,6 @@
 			"used_by_classes"
 			{
 				"pyro"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -6282,19 +5801,6 @@
 			{
 				"sniper"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -6323,19 +5829,6 @@
 			"used_by_classes"
 			{
 				"spy"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -6366,19 +5859,6 @@
 			{
 				"heavy"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 		}
 		"196"
 		{
@@ -6406,19 +5886,6 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_shovel_pickup.wav"
 			"drop_sound"		"ui/item_shovel_drop.wav"
@@ -6462,21 +5929,6 @@
 					"value" 	"0"									
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"ammo_metal" "1"
-				"only_on_wrench" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -6505,20 +5957,6 @@
 			"used_by_classes"
 			{
 				"medic"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"attrib_medic" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -6554,21 +5992,6 @@
 				"soldier" "secondary"
 				"heavy" "secondary"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"ammo_metal" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -6597,20 +6020,6 @@
 			"used_by_classes"
 			{
 				"scout"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -6641,18 +6050,6 @@
 			{
 				"sniper"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_onhit_slow" "1"
-				"wpn_uses_aimmode" "1"
-				"only_on_srifle" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -6681,20 +6078,6 @@
 			"used_by_classes"
 			{
 				"heavy"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_vs_burning" "1"
-				"wpn_uses_aimmode" "1"
-				"only_on_minigun" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -6725,20 +6108,6 @@
 			{
 				"sniper"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
@@ -6767,20 +6136,6 @@
 			"used_by_classes"
 			{
 				"medic"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"attrib_medic" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -6811,22 +6166,6 @@
 			{
 				"soldier"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"wpn_explosive" "1"
-				"ammo_primary" "1"
-				"wpn_fires_projectiles" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -6856,21 +6195,6 @@
 			"used_by_classes"
 			{
 				"demoman"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"wpn_explosive" "1"
-				"ammo_primary" "1"
-				"wpn_lobs_projectiles" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -6905,22 +6229,6 @@
 			{
 				"skin"	"0"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"wpn_explosive" "1"
-				"ammo_secondary" "1"
-				"only_on_pipebombs" "1"
-				"wpn_lobs_projectiles" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -6950,18 +6258,6 @@
 			"used_by_classes"
 			{
 				"pyro"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"wpn_ignites" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -6995,20 +6291,6 @@
 				"engineer"	"1"
 				"scout" "1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"ammo_metal" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
@@ -7038,20 +6320,6 @@
 			{
 				"spy"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
@@ -7080,16 +6348,6 @@
 			"used_by_classes"
 			{
 				"medic"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_heal"	"1"
-				"attrib_uber"	"1"
 			}
 			"attributes"
 			{
@@ -7133,14 +6391,6 @@
 			"used_by_classes"
 			{
 				"spy"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"player_movement" "1"
-				"attrib_cloak" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_watch_pickup.wav"
 			"drop_sound"		"ui/item_watch_drop.wav"
@@ -7465,19 +6715,6 @@
 			{
 				"scout"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"visuals"
 			{
 				"sound_melee_hit"	"Weapon_HolyMackerel.HitFlesh"
@@ -7524,14 +6761,6 @@
 					"system"	"energydrink_milk_splash"
 				}
 				"sound_deploy"	"Weapon_MadMilk.Draw"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
@@ -7721,14 +6950,6 @@
 			{
 				"soldier"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-			}
 			"item_set"	"polycount_soldier"
 			"mouse_pressed_sound"	"ui/item_pack_pickup.wav"
 			"drop_sound"		"ui/item_pack_drop.wav"
@@ -7842,22 +7063,6 @@
 					"attribute_class"	"mult_clipsize"
 					"value" "0.75"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"wpn_explosive" "1"
-				"ammo_primary" "1"
-				"wpn_fires_projectiles" "1"
 			}
 			"visuals"
 			{
@@ -8068,14 +7273,6 @@
 					"value" "25"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_leather_pickup.wav"
 			"drop_sound"		"ui/item_leather_pickup.wav"
 			"item_set"	"polycount_sniper"
@@ -8124,19 +7321,6 @@
 					"attribute_class"	"mult_dmgtaken_from_fire"
 					"value"			"1.2"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"item_set"	"polycount_sniper"
 		}
@@ -8275,7 +7459,7 @@
 				"no self blast dmg"
 				{
 					"attribute_class"	"no_self_blast_dmg"
-					"value" "1"
+					"value" "2"
 				}
 				"maxammo primary increased"
 				{
@@ -9272,19 +8456,6 @@
 					"value"				"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"visuals"
 			{
 				"sound_melee_hit"		"FryingPan.HitFlesh"
@@ -9314,25 +8485,27 @@
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
 			"propername" 	"1"
-			"image_inventory"	"backpack/weapons/w_models/w_stickybomb_launcher"
+			"image_inventory"	"backpack/weapons/c_models/c_sticky_jumper"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_stickybomb_launcher.mdl"
+			"model_player"	"models/weapons/c_models/c_sticky_jumper.mdl"
+			"attach_to_hands"	"1"
 			"used_by_classes"
 			{
 				"demoman"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
-			"visuals"
-			{
-				"skin"	"0"
-			}
 			"attributes"
 			{
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
+					"value"	"0"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
 					"value"	"0"
 				}
 				"no self blast dmg"
@@ -9345,20 +8518,10 @@
 					"attribute_class"	"mult_maxammo_secondary"
 					"value" "3.0"
 				}				
-				"dmg taken from blast increased"
+				"override projectile type"
 				{
-					"attribute_class"	"mult_dmgtaken_from_explosions"
-					"value" "2"
-				}
-				"dmg taken from bullets increased"
-				{
-					"attribute_class"	"mult_dmgtaken_from_bullets"
-					"value" "2"
-				}
-				"dmg taken from fire increased"
-				{
-					"attribute_class"	"mult_dmgtaken_from_fire"
-					"value"			"2"
+					"attribute_class"	"override_projectile_type"
+					"value"				"14"
 				}
 			}
 		}
@@ -9420,19 +8583,6 @@
 					"attribute_class"	"decapitate_type"
 					"value"	"1"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -10698,20 +9848,6 @@
 				"scout"	"1"
 				"engineer"	"1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_vs_burning" "1"
-				"attrib_clip"	"1"
-				"ammo_metal" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
@@ -11021,20 +10157,6 @@
 					"attribute_class"	"set_weapon_mode"
 					"value"	"3"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"attrib_medic" "1"
 			}
 			"visuals"
 			{
@@ -11457,6 +10579,7 @@
 			{
 				"nameable"		"1"
 				"can_gift_wrap" "1"
+				"paintable"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name" "#TF_Wearable_Hat"
@@ -12008,19 +11131,6 @@
 					"attribute_class"	"add_maxhealth"
 					"value" "-15"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -12728,6 +11838,7 @@
 			"mouse_pressed_sound" 	"ui/item_helmet_pickup.wav"
 			"drop_sound" 		"ui/item_helmet_drop.wav"
 		}
+		
 		"345"
 		{
 			"name"	"MNC Hat"
@@ -12856,6 +11967,7 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
+		
 		"348"
 		{
 			"name"	"Sharpened Volcano Fragment"
@@ -12901,19 +12013,6 @@
 					"attribute_class"	"mult_dmg"
 					"value"	"0.8"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 		}
 		"349"
@@ -12963,6 +12062,7 @@
 				}
 			}
 		}
+		
 		"351"
 		{
 			"name"	"The Detonator"
@@ -13014,19 +12114,6 @@
 					"value"	"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_firerate" "1"
-				"wpn_ignites" "1"
-				"ammo_secondary" "1"
-			}
 			"visuals"
 			{
 				"sound_single_shot"	"Weapon_Detonator.Fire"
@@ -13036,6 +12123,7 @@
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
+		
 		"354"
 		{
 			"name"	"The Concheror"
@@ -13066,14 +12154,6 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"visuals"
 			{
@@ -13172,19 +12252,6 @@
 					"attribute_class"	"mult_dmg"
 					"value"	"0.1"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -13308,19 +12375,6 @@
 					"value"	"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -13396,6 +12450,7 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
+		
 		"360"
 		{
 			"name"	"Hero's Hachimaki"
@@ -13432,6 +12487,7 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
+		
 		"361"
 		{
 			"name"	"Spy Oni Mask"
@@ -13464,6 +12520,7 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
+		
 		"362"
 		{
 			"name"	"Charity Noise Maker - Bell"
@@ -13522,6 +12579,7 @@
 			"mouse_pressed_sound" 	"Fundraiser.Bell"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
 		}
+		
 		"363"
 		{
 			"name"	"Medic Geisha Hair"
@@ -13554,6 +12612,7 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
+		
 		"364"
 		{
 			"name"	"Charity Noise Maker - Tingsha"
@@ -13812,9 +12871,47 @@
 			{
 				"heavy"	"1"
 			}
-			"visuals"
+			"visuals_red"
 			{
-				"hide_player_bodygroup_name"	"hat"
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_Luchadore_Style0"
+					}
+					"1"
+					{
+						"skin"	"2"
+						"name"	"#TF_Luchadore_Style1"
+					}
+					"2"
+					{
+						"skin"	"4"
+						"name"	"#TF_Luchadore_Style2"
+					}
+				}
+			}
+			"visuals_blu"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"1"
+						"name"	"#TF_Luchadore_Style0"
+					}
+					"1"
+					{
+						"skin"	"3"
+						"name"	"#TF_Luchadore_Style1"
+					}
+					"2"
+					{
+						"skin"	"5"
+						"name"	"#TF_Luchadore_Style2"
+					}
+				}
 			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
@@ -14526,19 +13623,6 @@
 					"value"	"0.75"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
@@ -14739,14 +13823,6 @@
 			{
 				"hide_player_bodygroup_name"	"shoes"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 			"item_set"	"desert_demo"
@@ -14835,14 +13911,6 @@
 						"name"	"#TF_SplendidScreen_Style4"
 					}
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -15091,16 +14159,6 @@
 					"value"	"1.25"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_heal"	"1"
-				"attrib_uber"	"1"
-			}
 			"visuals"
 			{
 				"hide_player_bodygroup_name"	"medic_backpack"
@@ -15182,20 +14240,6 @@
 			{
 				"skin" "1"
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_rapid" "1"
-				"attrib_clip"	"1"
-				"attrib_firerate" "1"
-				"attrib_medic" "1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 			"item_set"	"rapid_repair"
@@ -15239,20 +14283,6 @@
 					"attribute_class"	"see_enemy_health"
 					"value" "1"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"attrib_medic" "1"
 			}
 			"visuals"
 			{
@@ -15650,21 +14680,6 @@
 					"value"				"1"
 				}
 			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
-				"ammo_metal" "1"
-				"only_on_wrench" "1"
-			}
 			"visuals"
 			{
 				"sound_melee_hit_world"	"Saxxy.HitWorld"
@@ -16020,10 +15035,6 @@
 			"used_by_classes"
 			{
 				"heavy"	"1"
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
 			}
 			"attributes"
 			{
@@ -17101,7 +16112,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"	"1"
 				"can_gift_wrap" 	"1"
 			}
 			"item_logname"	"mailbox"
@@ -17771,7 +16781,6 @@
 			"capabilities"
 			{
 				"nameable"				"1"
-				"can_modify_socket"		"1"
 				"can_craft_count"		"1"
 				"can_gift_wrap" 		"1"
 			}
@@ -17804,7 +16813,6 @@
 			"capabilities"
 			{
 				"nameable"				"1"
-				"can_modify_socket"		"1"
 				"can_craft_count"		"1"
 				"can_gift_wrap" 		"1"
 			}
@@ -17837,7 +16845,6 @@
 			"capabilities"
 			{
 				"nameable"				"1"
-				"can_modify_socket"		"1"
 				"can_craft_count"		"1"
 				"can_gift_wrap" 		"1"
 				"paintable"				"1"
@@ -17871,7 +16878,6 @@
 			"capabilities"
 			{
 				"nameable"				"1"
-				"can_modify_socket"		"1"
 				"can_craft_count"		"1"
 				"can_gift_wrap" 		"1"
 			}
@@ -17903,7 +16909,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_craft_count"		"1"
 				"can_gift_wrap" 	"1"
 			}
@@ -17954,19 +16959,6 @@
 					"attribute_class"	"decapitate_type"
 					"value"	"1"
 				}
-			}
-			"allowed_attributes"
-			{
-				"all_items"	"1"
-				"dmg_reductions" "1"
-				"player_health" "1"
-				"attrib_healthregen" "1"
-				"player_movement" "1"
-				"attrib_dmgdone"	"1"
-				"attrib_critboosts"	"1"
-				"attrib_onhit_slow" "1"
-				"attrib_vs_burning" "1"
-				"attrib_firerate" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -18049,7 +17041,6 @@
 			"capabilities"
 			{
 				"nameable"				"1"
-				"can_modify_socket"		"1"
 				"can_craft_count"		"1"
 				"can_gift_wrap" 		"1"
 			}
@@ -19274,6 +18265,7 @@
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_material_type"	"hat"
+			"craft_class"			"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
@@ -20021,7 +19013,7 @@
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
-				
+		
 		
 		
 		"533"
@@ -20274,16 +19266,75 @@
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_pickup.wav"
 		}
-		
+		"538"
+		{
+			"name"	"Killer Exclusive"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name""#TF_Wearable_Hat"
+			"item_name"	"#TF_KillerExclusive"
+			"item_description"	"#TF_KillerExclusive_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/all_class/pcg_hat_engineer"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/pcg_hat_scout.mdl"
+				"sniper"	"models/player/items/all_class/pcg_hat_sniper.mdl"
+				"soldier"	"models/player/items/all_class/pcg_hat_soldier.mdl"
+				"demoman"	"models/player/items/all_class/pcg_hat_demo.mdl"
+				"medic"		"models/player/items/all_class/pcg_hat_medic.mdl"
+				"heavy"		"models/player/items/all_class/pcg_hat_heavy.mdl"
+				"spy"		"models/player/items/all_class/pcg_hat_spy.mdl"
+				"engineer"	"models/player/items/all_class/pcg_hat_engineer.mdl"
+				"pyro"		"models/player/items/all_class/pcg_hat_pyro.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
 		"539"
 		{
 			"name"	"The El Jefe"
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 				"paintable"			"1"
 			}
@@ -20310,17 +19361,10 @@
 				"hide_player_bodygroup_name"	"hat"
 				"hide_player_bodygroup_name"	"headphones"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
-		}		
+		}	
+
 		
 		"1899"
 		{
@@ -22265,6 +21309,46 @@
 				"demoman"	"1"
 				"medic"		"1"
 				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2047"
+		{
+			"name" "Killer Exclusive PCGamer Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Killer Exclusive"	"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_KillerExclusive"
+			"item_description"	"#TF_Bundle_KillerExclusive_Desc"
+			"image_inventory"	"backpack/crafting/dex_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
 			}
 			"attributes"
 			{
@@ -26663,7 +25747,7 @@
 		}
 		"151"
 		{
-			"name"	"socketed item definition id"
+			"name"	"DEPRECATED socketed item definition id DEPRECATED "
 			"attribute_class"	"socketed_item_definition_id"
 			"attribute_name"	"Item in socket"
 			"min_value"	"0"
@@ -28679,6 +27763,7 @@
 			"effect_type"	"neutral"
 			"stored_as_integer"	"1"
 		}
+		
 	}
 	"item_sets"
 	{

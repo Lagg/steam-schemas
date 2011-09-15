@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9d9594c4d47684b920878501fdb1fe16c37e6bf0.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.f3c93974380345ea0b4acf49ec5665606810371d.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -5907,7 +5907,7 @@
 					{
 						"name": "no self blast dmg",
 						"class": "no_self_blast_dmg",
-						"value": 1.000000
+						"value": 2.000000
 					},
 					{
 						"name": "maxammo primary increased",
@@ -6646,13 +6646,13 @@
 				"item_description": "A special no-damage stickybomb launcher for learning stickybomb jump tricks and patterns.",
 				"proper_name": true,
 				"item_slot": "primary",
-				"model_player": "models\/weapons\/w_models\/w_stickybomb_launcher.mdl",
+				"model_player": "models\/weapons\/c_models\/c_sticky_jumper.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/weapons\/w_models\/w_stickybomb_launcher",
+				"image_inventory": "backpack\/weapons\/c_models\/c_sticky_jumper",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_stickybomb_launcher.1d3fbc10d5464af8f36a790ff8a22c4f9f751d2f.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_stickybomb_launcher_large.41eb360c6b7432bf5791b2c70e4ad793f3ddd9a9.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sticky_jumper.dfd77e310837c8b41ded7c9fb9491a045a0c1798.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sticky_jumper_large.94f6bc074b063cb4cd8f9df7afb1a26b2a3be0a6.png",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -6671,6 +6671,11 @@
 						"value": 0.000000
 					},
 					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
 						"name": "no self blast dmg",
 						"class": "no_self_blast_dmg",
 						"value": 1.000000
@@ -6681,19 +6686,9 @@
 						"value": 3.000000
 					},
 					{
-						"name": "dmg taken from blast increased",
-						"class": "mult_dmgtaken_from_explosions",
-						"value": 2.000000
-					},
-					{
-						"name": "dmg taken from bullets increased",
-						"class": "mult_dmgtaken_from_bullets",
-						"value": 2.000000
-					},
-					{
-						"name": "dmg taken from fire increased",
-						"class": "mult_dmgtaken_from_fire",
-						"value": 2.000000
+						"name": "override projectile type",
+						"class": "override_projectile_type",
+						"value": 14.000000
 					}
 				]
 				
@@ -12251,7 +12246,6 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
@@ -12743,7 +12737,6 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12774,7 +12767,6 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12806,7 +12798,6 @@
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12837,7 +12828,6 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12867,7 +12857,6 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12978,7 +12967,6 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -13685,6 +13673,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dust_mask.5d01655818f250d71ad503b9ace2fd3e239aa878.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dust_mask_large.38fed1056f477015af4ded4264b6b2ac0f36b91a.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -14426,18 +14415,13 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pcg_hat_engineer.13ee1cad574b26c2b7d561a799f8edfaca9ac18c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pcg_hat_engineer_large.d33494ea133da6f764fecc76878e1c8b62a86c3b.png",
 				"drop_type": "drop",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The El Jefe",
@@ -14456,23 +14440,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rebel_cap.59bbff90acf0c4a5f3282c033bc4d03b1b3ffdcd.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rebel_cap_large.b8bee1ee656c67f4a4087088b5d4ed5f5ee13caf.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Scout"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -20166,7 +20144,7 @@
 				"stored_as_integer": false
 			},
 			{
-				"name": "socketed item definition id",
+				"name": "DEPRECATED socketed item definition id DEPRECATED ",
 				"defindex": 151,
 				"attribute_class": "socketed_item_definition_id",
 				"min_value": 0.000000,
