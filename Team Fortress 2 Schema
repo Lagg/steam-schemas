@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.f3c93974380345ea0b4acf49ec5665606810371d.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.60100ac604ccecda146ef40eef6b4031fc85b5e9.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -1640,6 +1640,11 @@
 						"name": "backstab shield",
 						"class": "set_blockbackstab_once",
 						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 5.000000
 					}
 				]
 				
@@ -2976,6 +2981,11 @@
 						"name": "decapitate type",
 						"class": "decapitate_type",
 						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 6.000000
 					}
 				]
 				
@@ -13703,22 +13713,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ro_pilotka.0177ba3f1ad8a44933f28e9f04e8000c8e68a067.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ro_pilotka_large.5f312a53844395cc12ebae78203cbad197181cd3.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Heavy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -13738,22 +13742,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ro_helmet.0455686b664845fad5e4cdd28250ecf6ca130f08.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ro_helmet_large.9e6d8c3757ea0652ad634c98f728e2a9155c7340.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Soldier"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -17491,7 +17489,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 28.000000
+						"value": 29.000000
 					}
 				]
 				
@@ -22420,6 +22418,14 @@
 			{
 				"type": 4,
 				"type_name": "Sodden Victims"
+			},
+			{
+				"type": 5,
+				"type_name": "Spies Shocked"
+			},
+			{
+				"type": 6,
+				"type_name": "Heads Taken"
 			}
 		]
 		

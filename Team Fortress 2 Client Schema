@@ -1892,6 +1892,11 @@
 					"attribute_class"	"set_blockbackstab_once"
 					"value" "1"
 				}
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"5"									
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
@@ -3502,6 +3507,11 @@
 				{
 					"attribute_class"	"decapitate_type"
 					"value"	"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"6"									
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
@@ -18305,9 +18315,11 @@
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
@@ -18331,14 +18343,6 @@
 			{
 				"hide_player_bodygroup_name"	"hat"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_pickup.wav"
 		}
@@ -18348,9 +18352,11 @@
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
@@ -18373,14 +18379,6 @@
 			"visuals"
 			{
 				"hide_player_bodygroup_name"	"hat"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_pickup.wav"
@@ -22739,7 +22737,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "28"
+					"value" "29"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -34495,6 +34493,14 @@
 		"4"
 		{
 			"type_name"	"KillEaterEventType_PeeVictims"
+		}
+		"5"
+		{
+			"type_name"	"KillEaterEventType_BackstabsAbsorbed"
+		}
+		"6"
+		{
+			"type_name"	"KillEaterEventType_HeadsTaken"
 		}
 	}
 }
