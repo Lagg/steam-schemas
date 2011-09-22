@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.b99f65a9a9474c93558ff4cb0f496485f9ddbb7b.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.1bc444770479528fbf09a59f142152eacc5f9656.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -14,7 +14,8 @@
 			"developer": 8,
 			"selfmade": 9,
 			"customized": 10,
-			"strange": 11
+			"strange": 11,
+			"completed": 12
 		},
 		"qualityNames": {
 			"normal": "Normal",
@@ -28,7 +29,8 @@
 			"developer": "Valve",
 			"selfmade": "Self-Made",
 			"customized": "Customized",
-			"strange": "Strange"
+			"strange": "Strange",
+			"completed": "Completed"
 		},
 		"items": [
 			{
@@ -259,7 +261,7 @@
 			{
 				"name": "TF_WEAPON_SHOTGUN_PRIMARY",
 				"defindex": 9,
-				"item_class": "tf_weapon_shotgun_primary",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -284,7 +286,7 @@
 			{
 				"name": "TF_WEAPON_SHOTGUN_SOLDIER",
 				"defindex": 10,
-				"item_class": "tf_weapon_shotgun_soldier",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -309,7 +311,7 @@
 			{
 				"name": "TF_WEAPON_SHOTGUN_HWG",
 				"defindex": 11,
-				"item_class": "tf_weapon_shotgun_hwg",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -334,7 +336,7 @@
 			{
 				"name": "TF_WEAPON_SHOTGUN_PYRO",
 				"defindex": 12,
-				"item_class": "tf_weapon_shotgun_pyro",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -513,7 +515,7 @@
 				"item_type_name": "Grenade Launcher",
 				"item_name": "Grenade Launcher",
 				"proper_name": false,
-				"item_slot": "secondary",
+				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_grenadelauncher\/c_grenadelauncher.mdl",
 				"item_quality": 0,
 				"image_inventory": "backpack\/weapons\/w_models\/w_grenadelauncher",
@@ -538,7 +540,7 @@
 				"item_type_name": "Stickybomb Launcher",
 				"item_name": "Stickybomb Launcher",
 				"proper_name": false,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/w_models\/w_stickybomb_launcher.mdl",
 				"item_quality": 0,
 				"image_inventory": "backpack\/weapons\/w_models\/w_stickybomb_launcher",
@@ -609,7 +611,7 @@
 			{
 				"name": "TF_WEAPON_PISTOL_SCOUT",
 				"defindex": 23,
-				"item_class": "tf_weapon_pistol_scout",
+				"item_class": "tf_weapon_pistol",
 				"item_type_name": "Pistol",
 				"item_name": "Pistol",
 				"proper_name": false,
@@ -1640,6 +1642,11 @@
 						"name": "backstab shield",
 						"class": "set_blockbackstab_once",
 						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 5.000000
 					}
 				]
 				
@@ -2839,7 +2846,7 @@
 				"item_type_name": "Stickybomb Launcher",
 				"item_name": "Scottish Resistance",
 				"proper_name": true,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_scottish_resistance.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/w_models\/w_stickybomb_defender",
@@ -2900,7 +2907,7 @@
 				"item_name": "Chargin' Targe",
 				"item_description": "Alt-Fire: Gain increased attack power by\ncharging toward your enemies.",
 				"proper_name": true,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_targe\/c_targe.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/c_models\/c_targe\/c_targe",
@@ -2976,6 +2983,11 @@
 						"name": "decapitate type",
 						"class": "decapitate_type",
 						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 6.000000
 					}
 				]
 				
@@ -4223,8 +4235,8 @@
 				"image_inventory": "backpack\/player\/items\/pyro\/pyro_monocle",
 				"min_ilevel": 1,
 				"max_ilevel": 100,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_monocle.39ac40aa4dc4d6ff233fe74dd86a55927d92245f.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_monocle_large.31ebc3e0a7a7e1abb059fcbe957bbe2c65861d00.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_monocle.35cb45321b849a1e6a706cd9377cde5a48f997e0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_monocle_large.ef1141b4d3bb0c714d9e87e873c9df3f1a866b42.png",
 				"drop_type": "none",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
@@ -4832,7 +4844,7 @@
 			{
 				"name": "Upgradeable TF_WEAPON_SHOTGUN_PRIMARY",
 				"defindex": 199,
-				"item_class": "tf_weapon_shotgun_primary",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -5027,7 +5039,7 @@
 				"item_type_name": "Grenade Launcher",
 				"item_name": "Grenade Launcher",
 				"proper_name": false,
-				"item_slot": "secondary",
+				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_grenadelauncher\/c_grenadelauncher.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/w_models\/w_grenadelauncher",
@@ -5053,7 +5065,7 @@
 				"item_type_name": "Stickybomb Launcher",
 				"item_name": "Stickybomb Launcher",
 				"proper_name": false,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/w_models\/w_stickybomb_launcher.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/w_models\/w_stickybomb_launcher",
@@ -5233,6 +5245,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/attendant.62440cb63ca8afd089f34644dd74f389f551bd68.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/attendant_large.942e0c19ba13519c8dc868827e04f0a6c7c4218d.png",
 				"drop_type": "none",
+				"item_set": "polycount_pyro",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -5260,6 +5273,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_powerjack.06136248c22c04888dabd90b5041eb173ed01156.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_powerjack_large.36326c2bdd3ec1606cedca39f4ebcd1abf298e51.png",
+				"item_set": "polycount_pyro",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5300,6 +5314,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_degreaser.0a7d5b9cab5bb41d560eb8243f17d3369fb8e4bd.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_degreaser_large.e75f9d9ad0eed48e721ef976a7e9c390f3be80be.png",
+				"item_set": "polycount_pyro",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5372,6 +5387,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/milkhat.a0e9e44ff3167898c5d26d83ecdcb0a1fdc91cbe.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/milkhat_large.93383ab7f4fb7af249e3c83dca781693ebcf76a8.png",
 				"drop_type": "drop",
+				"item_set": "polycount_scout",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -5400,6 +5416,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_shortstop.79e5a99efc8541a3a8e79894eb65c5b51c63f708.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_shortstop_large.806806bce2cdde6529cd339514f71a9efe01482e.png",
+				"item_set": "polycount_scout",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5436,6 +5453,7 @@
 				"max_ilevel": 42,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_holymackerel.6b4527967e1ba165b84207764411d1206edbf6d0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_holymackerel_large.7abd941d8e3154d64dd4bfb2add5c6dc7373e7df.png",
+				"item_set": "polycount_scout",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5464,6 +5482,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_madmilk.0f92cfc6eed1c31bd4128ac5609e67807b984044.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_madmilk_large.1cf871365c1661441f1e434e4754dd1c239a4f3f.png",
+				"item_set": "polycount_scout",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5493,6 +5512,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fez.ee87ed452e089760f1c9019526d22fcde9ec2450.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fez_large.dade64f9cbd0a7b67df37703b6637bb8f7e739c0.png",
 				"drop_type": "drop",
+				"item_set": "polycount_spy",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -5520,6 +5540,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_letranger.2df471c95380ba267699bfef213c0c96b9daa12a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_letranger_large.d32ee40a2b6848d498245dcba624bc8fe0d94c34.png",
+				"item_set": "polycount_spy",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5560,6 +5581,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_eternal_reward.87437a62786d360056de682c1fafed4c9a5c854d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_eternal_reward_large.93122f58258ae3d6fede10b4a056527fbbd44c2a.png",
+				"item_set": "polycount_spy",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5611,6 +5633,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_batt_buffpack.46f652816d828a7602e230f17881a74c5ce463dc.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_batt_buffpack_large.00c893c0e61e9b96cc5e715fe97239401a51b4e7.png",
+				"item_set": "polycount_soldier",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5648,6 +5671,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grenadier_softcap.774121f23179d3e8fbc93a40ead69f9a27ae1133.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grenadier_softcap_large.270429904d9d82bb998489740fca53e705b15d37.png",
 				"drop_type": "drop",
+				"item_set": "polycount_soldier",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -5675,6 +5699,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_blackbox.a79f984a703948956688be5abd17bd1c71583da8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_blackbox_large.c8f82b88e13238bbbba5e939f946cde4b57e617b.png",
+				"item_set": "polycount_soldier",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5717,6 +5742,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/snaggletooth.d1da7be2a93ecfe83ecf1966359568acdad52032.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/snaggletooth_large.965f9b3734424183bd429a61adb729068e6cd275.png",
 				"drop_type": "drop",
+				"item_set": "polycount_sniper",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -5744,6 +5770,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dartgun.9db7c5fe2e15c35996bde409bc3c3ff852e0c83c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dartgun_large.2679d666568389893abd849c450f7c5b4fb73acd.png",
+				"item_set": "polycount_sniper",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5794,6 +5821,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/croc_shield.032e9314be3aaf0034531da59890eb00a6f92a7b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/croc_shield_large.31b66e389dfd7895f0ba17c4d6f10bf971156c39.png",
+				"item_set": "polycount_sniper",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5829,6 +5857,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_croc_knife.ae304e977e7127b3ea5ddc862614b627604489a9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_croc_knife_large.eab581d1e6374a29d9836492fca3a376b4df0854.png",
+				"item_set": "polycount_sniper",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -5948,7 +5977,7 @@
 					{
 						"name": "no self blast dmg",
 						"class": "no_self_blast_dmg",
-						"value": 1.000000
+						"value": 2.000000
 					},
 					{
 						"name": "maxammo primary increased",
@@ -6512,8 +6541,8 @@
 				"image_inventory": "backpack\/player\/items\/demo\/inquisitor",
 				"min_ilevel": 1,
 				"max_ilevel": 100,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/inquisitor.0e8a845e1f9be44e5d17b050ca202bed256ee0f8.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/inquisitor_large.cb39562e72600c57e9dfa42f6accd3b4271ef8d1.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/inquisitor.e8f81153499c291ad24275159b164b86742243b2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/inquisitor_large.400aeb9bba0aaa74ae228bf577b73f19dad56e2a.png",
 				"drop_type": "drop",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
@@ -6686,14 +6715,14 @@
 				"item_name": "Sticky Jumper",
 				"item_description": "A special no-damage stickybomb launcher for learning stickybomb jump tricks and patterns.",
 				"proper_name": true,
-				"item_slot": "primary",
-				"model_player": "models\/weapons\/w_models\/w_stickybomb_launcher.mdl",
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_sticky_jumper.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/weapons\/w_models\/w_stickybomb_launcher",
+				"image_inventory": "backpack\/weapons\/c_models\/c_sticky_jumper",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_stickybomb_launcher.1d3fbc10d5464af8f36a790ff8a22c4f9f751d2f.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_stickybomb_launcher_large.41eb360c6b7432bf5791b2c70e4ad793f3ddd9a9.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sticky_jumper.dfd77e310837c8b41ded7c9fb9491a045a0c1798.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sticky_jumper_large.94f6bc074b063cb4cd8f9df7afb1a26b2a3be0a6.png",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -6712,6 +6741,11 @@
 						"value": 0.000000
 					},
 					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
 						"name": "no self blast dmg",
 						"class": "no_self_blast_dmg",
 						"value": 1.000000
@@ -6722,19 +6756,9 @@
 						"value": 3.000000
 					},
 					{
-						"name": "dmg taken from blast increased",
-						"class": "mult_dmgtaken_from_explosions",
-						"value": 2.000000
-					},
-					{
-						"name": "dmg taken from bullets increased",
-						"class": "mult_dmgtaken_from_bullets",
-						"value": 2.000000
-					},
-					{
-						"name": "dmg taken from fire increased",
-						"class": "mult_dmgtaken_from_fire",
-						"value": 2.000000
+						"name": "override projectile type",
+						"class": "override_projectile_type",
+						"value": 14.000000
 					}
 				]
 				
@@ -7761,6 +7785,7 @@
 				"max_ilevel": 15,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_amputator.3ece5985436f0e702b1ee0f657fb7e6a93219e9b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_amputator_large.9720c527803a1f1b359273bc91f0558a971f2ed6.png",
+				"item_set": "medieval_medic",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -7801,6 +7826,7 @@
 				"max_ilevel": 15,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_crusaders_crossbow.ac432a68ed3ce2dbc8bcced8eac27bc4d7e7a6b2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_crusaders_crossbow_large.dc77c9653157d7e7c9856cfff7ab771ac21931d8.png",
+				"item_set": "medieval_medic",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -7876,6 +7902,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_caber.d7b1dcd7b9dbc34c833b63a149e430fe807f3c7d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_caber_large.dc3dc89cadbe30aec4960f1988c36eaaec401ce0.png",
+				"item_set": "experts_ordnance",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -7903,7 +7930,7 @@
 				"item_type_name": "Grenade Launcher",
 				"item_name": "Loch-n-Load",
 				"proper_name": true,
-				"item_slot": "secondary",
+				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_lochnload\/c_lochnload.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/c_models\/c_lochnload\/c_lochnload",
@@ -7911,6 +7938,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_lochnload.1b3e5ce4d075684664e6825228eaff0604314331.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_lochnload_large.b8fdbb04eee0aed19229dd11b8e07ad47569dec0.png",
+				"item_set": "experts_ordnance",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -7995,6 +8023,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bear_claw.e16c1603d27b518b87799b2537d0127af944b2e9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bear_claw_large.e21414505b81f19bcecd42f3eed256174016b1c5.png",
+				"item_set": "hibernating_bear",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -8036,6 +8065,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_buffalo_steak.736ac3cbf87178a0986bb3f8dd0f27f463485c14.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_buffalo_steak_large.f74e38c19a8e86d119f411799a7a450dc98edb50.png",
+				"item_set": "hibernating_bear",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -8071,6 +8101,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_gatling_gun.b8925ce97f23026162f9d678ab23c99f2f21f8f1.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_gatling_gun_large.2c379af4d12d668c034ab76f4b9e4c12c3ae7680.png",
+				"item_set": "hibernating_bear",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -8120,6 +8151,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_mark": true
@@ -8826,7 +8858,7 @@
 				"item_type_name": "Hat",
 				"item_name": "Foster's Facade",
 				"proper_name": false,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/pyro\/pyro_tripwire_mask.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/pyro\/pyro_tripwire_mask",
@@ -9116,6 +9148,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mnc_hat.1bcafa9ea09eeec6ff5b9f89357d51253e48ffc4.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mnc_hat_large.2450ff0b6925a227c0013b101932853e7c58c533.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -9139,6 +9173,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mnc_mascot_hat.3cf0fd693c8d7f11fe6ab2c16fd387de37ee5a9f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mnc_mascot_hat_large.2051a31a7333217123aba10f315fb9157c526e28.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -9572,7 +9608,7 @@
 				"item_name": "Noh Mercy",
 				"item_description": "Chain-smoking Frenchman\nSkulks in shadows, then attacks \nTerrifying mask",
 				"proper_name": true,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/spy\/shogun_ninjamask.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/spy\/shogun_ninjamask",
@@ -9847,6 +9883,18 @@
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
+				"styles": [
+					{
+						"name": "El Macho"
+					},
+					{
+						"name": "El Amor Ardiente"
+					},
+					{
+						"name": "El Picante Grande"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Heavy"
 				]
@@ -10249,6 +10297,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -10397,6 +10446,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/desert_marauder.4a753ed01d7b56203182e0e9804e29b3785f666c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/desert_marauder_large.34b3aa5af64fb4d6e1938c7923fac79f966cf14d.png",
 				"drop_type": "none",
+				"item_set": "desert_sniper",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -10425,6 +10475,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_scimitar.00e6e1fbb57b60c4add3ac729f22c2eb34bf97c1.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_scimitar_large.a75ff9053cd0b0d8d91a386db3921fe1f0c5a349.png",
+				"item_set": "desert_sniper",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10467,6 +10518,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bazaar_sniper.cccd28a16c50e6dc07696859a8e9e297923f31c3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bazaar_sniper_large.751e0beb1a535c203ffa208b4ae21ec62048542d.png",
+				"item_set": "desert_sniper",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10504,6 +10556,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_sultan_hat.31ea9dfa3087a0ce0ef8996e429ba1a99e665d91.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_sultan_hat_large.54a79ffadb5a4861e25253b64963eeabf62ace31.png",
 				"drop_type": "drop",
+				"item_set": "desert_demo",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -10533,6 +10586,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_demo_sultan_sword.3d0f5782c72cb07453690a3831653116c1face56.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_demo_sultan_sword_large.f39ca931759ef2ef5a266e61a15b94c0ed0e092f.png",
+				"item_set": "desert_demo",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10571,7 +10625,7 @@
 				"item_type_name": "Boots",
 				"item_name": "Ali Baba's Wee Booties",
 				"proper_name": false,
-				"item_slot": "secondary",
+				"item_slot": "primary",
 				"model_player": "models\/player\/items\/demo\/demo_booties.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/demo\/demo_booties",
@@ -10580,6 +10634,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_booties.3e3c5e14226bc5acc14da454ea7274b265f8c70d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_booties_large.351cef7979c8e128d7c1d96669575da72aeb15b0.png",
 				"drop_type": "none",
+				"item_set": "desert_demo",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10614,7 +10669,7 @@
 				"item_name": "Splendid Screen",
 				"item_description": "",
 				"proper_name": true,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_persian_shield\/c_persian_shield.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/c_models\/c_persian_shield\/c_persian_shield",
@@ -10623,6 +10678,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_persian_shield.6879c1df7eb95e415f6a5d7deb5ba0f01d65fa98.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_persian_shield_large.13d38afad62fe5ca7efc0addb433e5329a11df29.png",
 				"drop_type": "none",
+				"item_set": "desert_demo",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10780,6 +10836,7 @@
 				"max_ilevel": 8,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_proto_medigun.ca7a9aecfe09b4bdcf5006ff2e59732e45b766e0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_proto_medigun_large.2be144267ea85e2c34640e7430e41ddff1f7951c.png",
+				"item_set": "rapid_repair",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10831,6 +10888,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_proto_syringegun.779cd2809c695cb93953cbdf0ff9ab910a6c5108.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_proto_syringegun_large.df0cae5ab0100638fda51c57016f49468635fae5.png",
+				"item_set": "rapid_repair",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10872,6 +10930,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_hippocrates_bust.349e0d8021c3c1945ff973427c56c4710df9683e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_hippocrates_bust_large.32612b6ef6a89f0d725ecb2158565757e115a916.png",
+				"item_set": "rapid_repair",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10907,6 +10966,7 @@
 				"max_ilevel": 25,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_liberty_launcher.aa2c5dece0f466afbb0342c54fa51836e2062aec.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_liberty_launcher_large.b1b6644464bb0a27c378b5aff7ed911b12a0149c.png",
+				"item_set": "airborne_armaments",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10936,7 +10996,7 @@
 			{
 				"name": "The Reserve Shooter",
 				"defindex": 415,
-				"item_class": "tf_weapon_shotgun_soldier",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Reserve Shooter",
 				"proper_name": true,
@@ -10948,6 +11008,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_reserve_shooter.317a2e62654330c4d83bf33bb1fda6fdd3dc73a0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_reserve_shooter_large.98717dd90375aaaf9757b682694effd9fd9e2a02.png",
+				"item_set": "airborne_armaments",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -10957,7 +11018,8 @@
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
-					"Soldier"
+					"Soldier",
+					"Pyro"
 				]
 				,
 				"attributes": [
@@ -10994,6 +11056,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_market_gardener.716e407839facc6a60faf9c37e5cb1b2a8522ec4.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_market_gardener_large.d79251ab7bcf03056da6c6a631c08b2f65e4cb3e.png",
+				"item_set": "airborne_armaments",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -11037,6 +11100,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_jeepcap.8d6854d71b13ff2af6b219725cc016d05d8c3c80.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_jeepcap_large.9087b3f8c84e45096fe3fd52b85b20d0db3882fa.png",
 				"drop_type": "drop",
+				"item_set": "airborne_armaments",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -11161,6 +11225,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_tomislav.b90c5429748c939efcc61171d91a9fe731c6b911.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_tomislav_large.e86a0288f80938b99b73397b6967fe036161efd2.png",
+				"item_set": "black_market",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -11188,6 +11253,11 @@
 						"name": "fire rate penalty",
 						"class": "mult_postfiredelay",
 						"value": 1.200000
+					},
+					{
+						"name": "max health additive penalty",
+						"class": "add_maxhealth",
+						"value": -50.000000
 					}
 				]
 				
@@ -11195,7 +11265,7 @@
 			{
 				"name": "The Family Business",
 				"defindex": 425,
-				"item_class": "tf_weapon_shotgun_heavy",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Family Business",
 				"proper_name": true,
@@ -11207,6 +11277,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_russian_riot.775cdcec2ab6ae23aa7d4915f1eee77626fdd5a6.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_russian_riot_large.416f5f5b59ae15925d0d38ba18d9944842c638d5.png",
+				"item_set": "black_market",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -11248,6 +11319,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_eviction_notice.ac117b4c084eb6341d97d6bb8819298662c0805d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_eviction_notice_large.c042e73ec0b55da2bb39a8c8fea052401959a106.png",
+				"item_set": "black_market",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -11291,6 +11363,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/capones_capper.e462eb63d54e1502c10c9f185fc231504b0e4206.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/capones_capper_large.3bbb599a40a2776cac233448a6577addb1869c57.png",
 				"drop_type": "none",
+				"item_set": "black_market",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -11605,6 +11678,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_pith_hat.42a83d657c7456e27532965d0edeb6eec492f8d0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_pith_hat_large.9d97d8d19e1aac6a3cf6356ca03b9aa00da40dba.png",
 				"drop_type": "drop",
+				"item_set": "drg_victory",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -11635,6 +11709,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_hair_beard_icon.d29d774f67c35ee356befc79b66027b3d7859b49.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/drg_hair_beard_icon_large.6218cb5424a1690106d6b7ef05eeba3404bd6018.png",
 				"drop_type": "none",
+				"item_set": "drg_victory",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -11671,6 +11746,7 @@
 				"max_ilevel": 30,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_drg_cowmangler.a74918c7984a947e48da080038b8713ee6472bd5.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_drg_cowmangler_large.390e4558350e2cf2225428d1a4c1b9429f4849f4.png",
+				"item_set": "drg_victory",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -11738,6 +11814,7 @@
 				"max_ilevel": 30,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_drg_righteousbison.056fde174f868a1b211b5b415d346ebafdba2da8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_drg_righteousbison_large.12a355c8cbc49d64ac2d95e61f5df312087b5a25.png",
+				"item_set": "drg_victory",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -11809,6 +11886,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/tankerboots.003a1b5678649907ffb7079ec0ff159531155e59.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/tankerboots_large.ffe0de03db14e1c5e98c0e3392afc338e1669742.png",
+				"item_set": "general_suit",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -11852,6 +11930,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/armored_authority.cfc050197c14cf9a6b836d8b4c9600155a3a9dad.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/armored_authority_large.fd64a38833a579d7b2c4287c935308659150fefc.png",
 				"drop_type": "drop",
+				"item_set": "general_suit",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -11882,6 +11961,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fdu.231f1c4ca508006181ce2c93f8d7781f8f7e2a33.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fdu_large.1cb3566f90f388213c493b0bbffb255621e8b535.png",
 				"drop_type": "none",
+				"item_set": "general_suit",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -11911,6 +11991,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_riding_crop.cc21df3f23cb5748c390466401aee7eeca503ea3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_riding_crop_large.e5307ba011492a326350cbf4c569dfa49823f1aa.png",
+				"item_set": "general_suit",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -11963,6 +12044,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_soda_popper.d796677f73d6fb92f6722396039b9c7f8459a9f8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_soda_popper_large.cd6ec5f5236c4244adb16c41e2e6e297ab7d2e8d.png",
+				"item_set": "bonk_fan",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -12019,6 +12101,7 @@
 				"max_ilevel": 15,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_winger_pistol.fce3527b5e1d059837ecda6302c9fdde5acfa0b0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_winger_pistol_large.bf1632094561e3462e3620c58da483f4e17fe131.png",
+				"item_set": "bonk_fan",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -12060,6 +12143,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bonk_bat.dd3c8ea0e80d8201cf2fced7027ceb96ece0643d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bonk_bat_large.c24b149115e4fa1ea06dd720c4d243b89ac40930.png",
+				"item_set": "bonk_fan",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -12108,6 +12192,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bonk_mask.f4eaafa5980d384aff7f1c6b121322aee1bfe7d2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bonk_mask_large.51c1079a2edb9a703c5bb49b4c53610526b0cff3.png",
 				"drop_type": "none",
+				"item_set": "bonk_fan",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -12242,7 +12327,6 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
@@ -12286,6 +12370,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_gang_cap.75175dbfcfbb35b925369cf63b04a0c873638de8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_gang_cap_large.874863e5e6abb25445dd3bfb18ba282c96ed68a3.png",
 				"drop_type": "drop",
+				"item_set": "gangland_spy",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -12315,6 +12400,7 @@
 				"max_ilevel": 5,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_snub_nose.af23cbd3dcd2d2f2a43703c4a7c43b9c53d359f3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_snub_nose_large.0db8590a3fd289caaed63267ae6dc7e6f2f62304.png",
+				"item_set": "gangland_spy",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -12356,6 +12442,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_switchblade.eb0b378d8b19efcbda3f6130f3f4bfda22e51deb.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_switchblade_large.d4f34819bc7bd7916a0d88cceebe00f25497e49b.png",
+				"item_set": "gangland_spy",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -12399,6 +12486,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_rose.a832a5797b5d26905f528f4ad4f4c493f1104426.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_rose_large.3509cfd9a579427958f0e3cfb43acc4d6cec87e3.png",
 				"drop_type": "none",
+				"item_set": "gangland_spy",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -12667,7 +12755,7 @@
 				"item_description": "Little known fact: knights in chess travel over other pieces by rocket jumping.",
 				"proper_name": true,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/soldier\/soldier_spiral.mdl",
+				"model_player": "models\/player\/items\/scout\/scout_spiral.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/soldier\/soldier_spiral",
 				"min_ilevel": 10,
@@ -12680,11 +12768,7 @@
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_mark": true
-				},
-				"used_by_classes": [
-					"Soldier"
-				]
-				
+				}
 			},
 			{
 				"name": "Meet the Medic Heroic Taunt",
@@ -12734,7 +12818,6 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12765,7 +12848,6 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12797,7 +12879,6 @@
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12828,7 +12909,6 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12858,7 +12938,6 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -12969,7 +13048,6 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
-					"can_modify_socket": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
@@ -13149,7 +13227,15 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - GWJ Runnerups",
@@ -13170,7 +13256,15 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - GWJ Participants",
@@ -13191,7 +13285,15 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - ETF2LHL Winners",
@@ -13212,7 +13314,15 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - ETF2LHL 2nd",
@@ -13233,7 +13343,15 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - ETF2LHL 3rd",
@@ -13254,7 +13372,15 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - ETF2LHL Participants",
@@ -13275,14 +13401,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHL Participants",
 				"defindex": 503,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "Participant - UGC Highlander Tournament",
+				"item_name": "UGC Highlander Participant",
 				"item_description": "Given to the players who participated in the tournament.",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13296,14 +13430,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv1 Winners",
 				"defindex": 504,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "First Place - UGC Highlander Tournament Div 1",
+				"item_name": "UGC Highlander Platinum 1st Place",
 				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13317,14 +13459,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv1 2nd",
 				"defindex": 505,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "Second Place - UGC Highlander Tournament Div 1",
+				"item_name": "UGC Highlander Platinum 2nd Place",
 				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13338,14 +13488,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv1 3rd",
 				"defindex": 506,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "Third Place - UGC Highlander Tournament Div 1",
+				"item_name": "UGC Highlander Platinum 3rd Place",
 				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13359,14 +13517,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv2 Winners",
 				"defindex": 507,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "First Place - UGC Highlander Tournament Div 2",
+				"item_name": "UGC Highlander Silver 1st Place",
 				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13380,14 +13546,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv2 2nd",
 				"defindex": 508,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "Second Place - UGC Highlander Tournament Div 2",
+				"item_name": "UGC Highlander Silver 2nd Place",
 				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13401,14 +13575,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv2 3rd",
 				"defindex": 509,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "Third Place - UGC Highlander Tournament Div 2",
+				"item_name": "UGC Highlander Silver 3rd Place",
 				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13422,14 +13604,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv3 Winners",
 				"defindex": 510,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "First Place - UGC Highlander Tournament Div 3",
+				"item_name": "UGC Highlander Iron 1st Place",
 				"item_description": "Given to the winners!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13443,14 +13633,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv3 2nd",
 				"defindex": 511,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "Second Place - UGC Highlander Tournament Div 3",
+				"item_name": "UGC Highlander Iron 2nd Place",
 				"item_description": "Given to the second place team!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13464,14 +13662,22 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "TournamentMedal - UGCHLDiv3 3rd",
 				"defindex": 512,
 				"item_class": "tf_wearable",
 				"item_type_name": "Tournament Medal",
-				"item_name": "Third Place - UGC Highlander Tournament Div 3",
+				"item_name": "UGC Highlander Iron 3rd Place",
 				"item_description": "Given to the third place team!",
 				"proper_name": false,
 				"item_slot": "misc",
@@ -13485,7 +13691,15 @@
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "The Original",
@@ -13540,23 +13754,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dust_mask.5d01655818f250d71ad503b9ace2fd3e239aa878.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dust_mask_large.38fed1056f477015af4ded4264b6b2ac0f36b91a.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Demoman"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -13576,22 +13784,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ro_pilotka.0177ba3f1ad8a44933f28e9f04e8000c8e68a067.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ro_pilotka_large.5f312a53844395cc12ebae78203cbad197181cd3.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Heavy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -13611,22 +13813,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ro_helmet.0455686b664845fad5e4cdd28250ecf6ca130f08.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ro_helmet_large.9e6d8c3757ea0652ad634c98f728e2a9155c7340.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Soldier"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -14000,7 +14196,7 @@
 					{
 						"name": "mod ammo per shot",
 						"class": "mod_ammo_per_shot",
-						"value": 60.000000
+						"value": 30.000000
 					},
 					{
 						"name": "mod use metal ammo type",
@@ -14268,6 +14464,62 @@
 						"class": "cannot_trade",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "Killer Exclusive",
+				"defindex": 538,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Killer Exclusive",
+				"item_description": "Break news, spirits and heads.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/pcg_hat_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/pcg_hat_engineer",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pcg_hat_engineer.13ee1cad574b26c2b7d561a799f8edfaca9ac18c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pcg_hat_engineer_large.d33494ea133da6f764fecc76878e1c8b62a86c3b.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "The El Jefe",
+				"defindex": 539,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "El Jefe",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/rebel_cap.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/rebel_cap",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/rebel_cap.59bbff90acf0c4a5f3282c033bc4d03b1b3ffdcd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/rebel_cap_large.b8bee1ee656c67f4a4087088b5d4ed5f5ee13caf.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
 				]
 				
 			},
@@ -15159,6 +15411,14 @@
 				"used_by_classes": [
 					"Scout"
 				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -9.000000
+					}
+				]
 				
 			},
 			{
@@ -15181,6 +15441,14 @@
 				},
 				"used_by_classes": [
 					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -8.000000
+					}
 				]
 				
 			},
@@ -15205,6 +15473,14 @@
 				"used_by_classes": [
 					"Pyro"
 				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -7.000000
+					}
+				]
 				
 			},
 			{
@@ -15227,6 +15503,14 @@
 				},
 				"used_by_classes": [
 					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -6.000000
+					}
 				]
 				
 			},
@@ -15251,6 +15535,14 @@
 				"used_by_classes": [
 					"Heavy"
 				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -5.000000
+					}
+				]
 				
 			},
 			{
@@ -15273,6 +15565,14 @@
 				},
 				"used_by_classes": [
 					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -4.000000
+					}
 				]
 				
 			},
@@ -15297,6 +15597,14 @@
 				"used_by_classes": [
 					"Medic"
 				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -3.000000
+					}
+				]
 				
 			},
 			{
@@ -15320,6 +15628,14 @@
 				"used_by_classes": [
 					"Sniper"
 				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -2.000000
+					}
+				]
 				
 			},
 			{
@@ -15342,6 +15658,14 @@
 				},
 				"used_by_classes": [
 					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -1.000000
+					}
 				]
 				
 			},
@@ -15860,6 +16184,60 @@
 					"Spy"
 				]
 				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Killer Exclusive PCGamer Bundle",
+				"defindex": 2047,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_KillerExclusive",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Deus Ex Contest Bundle",
+				"defindex": 2048,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_DeusExContest",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/dex_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle.5b3994cada9897341f01b271e481f8ad15fc541b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dex_bundle_large.5b174638d2bbcdb044c258960518e7ddb4898b3c.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
 				"attributes": [
 					{
 						"name": "elevate quality",
@@ -17071,6 +17449,11 @@
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "store sort override",
+						"class": "store_sort_override",
+						"value": -1.000000
 					}
 				]
 				
@@ -17177,7 +17560,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 28.000000
+						"value": 29.000000
 					}
 				]
 				
@@ -17205,7 +17588,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -17673,7 +18056,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -17722,7 +18105,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -17771,7 +18154,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -17820,7 +18203,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -17869,7 +18252,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -17918,7 +18301,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -18498,7 +18881,7 @@
 				"attribute_class": "mult_medigun_overheal_amount",
 				"min_value": 1.050000,
 				"max_value": 1.150000,
-				"description_string": "+%s1% more max overheal",
+				"description_string": "%s1% more overheal",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19208,7 +19591,7 @@
 				"attribute_class": "mult_wpn_burndmg",
 				"min_value": 1.050000,
 				"max_value": 1.100000,
-				"description_string": "+%s1% burn damage bonus",
+				"description_string": "+%s1% afterburn damage bonus",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19220,7 +19603,7 @@
 				"attribute_class": "mult_wpn_burndmg",
 				"min_value": 0.950000,
 				"max_value": 0.700000,
-				"description_string": "%s1% burn damage penalty",
+				"description_string": "%s1% afterburn damage penalty",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -19232,7 +19615,7 @@
 				"attribute_class": "mult_wpn_burntime",
 				"min_value": 1.050000,
 				"max_value": 1.150000,
-				"description_string": "+%s1% burn duration",
+				"description_string": "+%s1% afterburn duration",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19244,7 +19627,7 @@
 				"attribute_class": "mult_wpn_burntime",
 				"min_value": 0.950000,
 				"max_value": 0.700000,
-				"description_string": "%s1% burn duration",
+				"description_string": "%s1% afterburn duration",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -20147,7 +20530,7 @@
 				"stored_as_integer": false
 			},
 			{
-				"name": "socketed item definition id",
+				"name": "DEPRECATED socketed item definition id DEPRECATED ",
 				"defindex": 151,
 				"attribute_class": "socketed_item_definition_id",
 				"min_value": 0.000000,
@@ -20554,10 +20937,8 @@
 				"attribute_class": "event_date",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
-				"description_string": "Date Received: %s1",
-				"description_format": "value_is_date",
 				"effect_type": "neutral",
-				"hidden": false,
+				"hidden": true,
 				"stored_as_integer": true
 			},
 			{
@@ -20566,10 +20947,8 @@
 				"attribute_class": "gifter_account_id",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
-				"description_string": "\nGift from: %s1",
-				"description_format": "value_is_account_id",
 				"effect_type": "positive",
-				"hidden": false,
+				"hidden": true,
 				"stored_as_integer": true
 			},
 			{
@@ -21732,6 +22111,16 @@
 				"stored_as_integer": true
 			},
 			{
+				"name": "expiration date",
+				"defindex": 302,
+				"attribute_class": "expiration_date",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
 				"name": "mod max primary clip override",
 				"defindex": 303,
 				"attribute_class": "mod_max_primary_clip_override",
@@ -21834,6 +22223,278 @@
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": true
+			},
+			{
+				"name": "store sort override",
+				"defindex": 317,
+				"attribute_class": "store_sort_override",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			}
+		]
+		,
+		"item_sets": [
+			{
+				"item_set": "airborne_armaments",
+				"name": "The Airborne Armaments",
+				"items": [
+					"The Liberty Launcher",
+					"The Reserve Shooter",
+					"The Market Gardener",
+					"Jumper's Jeepcap"
+				]
+				
+			},
+			{
+				"item_set": "black_market",
+				"name": "Black Market Business",
+				"items": [
+					"Tomislav",
+					"The Family Business",
+					"The Eviction Notice",
+					"Capone's Capper"
+				]
+				
+			},
+			{
+				"item_set": "bonk_fan",
+				"name": "The #1 Fan",
+				"items": [
+					"The Soda Popper",
+					"The Winger",
+					"The Atomizer",
+					"Bonk Boy"
+				]
+				
+			},
+			{
+				"item_set": "desert_demo",
+				"name": "One Thousand and One Demoknights",
+				"items": [
+					"The Persian Persuader",
+					"The Splendid Screen",
+					"Ali Baba's Wee Booties",
+					"Sultan's Ceremonial"
+				]
+				
+			},
+			{
+				"item_set": "desert_sniper",
+				"name": "Lawrence of Australia",
+				"items": [
+					"The Bazaar Bargain",
+					"The Shahanshah",
+					"Desert Marauder"
+				]
+				
+			},
+			{
+				"item_set": "drg_victory",
+				"name": "Dr. Grordbort's Victory Pack",
+				"items": [
+					"The Cow Mangler 5000",
+					"The Righteous Bison",
+					"Lord Cockswain's Pith Helmet",
+					"Lord Cockswain's Novelty Mutton Chops and Pipe"
+				]
+				
+			},
+			{
+				"item_set": "experts_ordnance",
+				"name": "The Expert's Ordnance",
+				"store_bundle": "Expert's Ordnance Bundle",
+				"items": [
+					"The Ullapool Caber",
+					"The Loch-n-Load"
+				]
+				,
+				"attributes": [
+					{
+						"name": "dmg taken from fire reduced",
+						"class": "mult_dmgtaken_from_fire",
+						"value": 0.900000
+					}
+				]
+				
+			},
+			{
+				"item_set": "gangland_spy",
+				"name": "The Man of Honor",
+				"items": [
+					"The Enforcer",
+					"The Big Earner",
+					"Cosa Nostra Cap",
+					"The Made Man"
+				]
+				
+			},
+			{
+				"item_set": "general_suit",
+				"name": "The General's Formals",
+				"items": [
+					"The Mantreads",
+					"The Disciplinary Action",
+					"Armored Authority",
+					"Fancy Dress Uniform"
+				]
+				
+			},
+			{
+				"item_set": "hibernating_bear",
+				"name": "The Hibernating Bear",
+				"store_bundle": "Hibernating Bear Bundle",
+				"items": [
+					"The Brass Beast",
+					"The Buffalo Steak Sandvich",
+					"Warrior's Spirit"
+				]
+				,
+				"attributes": [
+					{
+						"name": "dmg taken from crit reduced",
+						"class": "mult_dmgtaken_from_crit",
+						"value": 0.950000
+					}
+				]
+				
+			},
+			{
+				"item_set": "medieval_medic",
+				"name": "The Medieval Medic",
+				"store_bundle": "Medieval Medic Bundle",
+				"items": [
+					"The Amputator",
+					"The Crusader's Crossbow"
+				]
+				,
+				"attributes": [
+					{
+						"name": "health regen",
+						"class": "add_health_regen",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"item_set": "polycount_pyro",
+				"name": "The Gas Jockey's Gear",
+				"store_bundle": "Polycount Pyro Bundle",
+				"items": [
+					"The Degreaser",
+					"The Powerjack",
+					"The Attendant"
+				]
+				,
+				"attributes": [
+					{
+						"name": "move speed bonus",
+						"class": "mult_player_movespeed",
+						"value": 1.100000
+					},
+					{
+						"name": "dmg taken from bullets increased",
+						"class": "mult_dmgtaken_from_bullets",
+						"value": 1.100000
+					}
+				]
+				
+			},
+			{
+				"item_set": "polycount_scout",
+				"name": "The Special Delivery",
+				"store_bundle": "Polycount Scout Bundle",
+				"items": [
+					"The Shortstop",
+					"Mad Milk",
+					"The Holy Mackerel",
+					"The Milkman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "max health additive bonus",
+						"class": "add_maxhealth",
+						"value": 25.000000
+					}
+				]
+				
+			},
+			{
+				"item_set": "polycount_sniper",
+				"name": "The Croc-o-Style Kit",
+				"store_bundle": "Polycount Sniper Bundle",
+				"items": [
+					"The Sydney Sleeper",
+					"Darwin's Danger Shield",
+					"The Bushwacka",
+					"Ol' Snaggletooth"
+				]
+				,
+				"attributes": [
+					{
+						"name": "no death from headshots",
+						"class": "no_death_from_headshots",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"item_set": "polycount_soldier",
+				"name": "The Tank Buster",
+				"store_bundle": "Polycount Soldier Bundle",
+				"items": [
+					"The Black Box",
+					"The Battalion's Backup",
+					"The Grenadier's Softcap"
+				]
+				,
+				"attributes": [
+					{
+						"name": "dmg from sentry reduced",
+						"class": "dmg_from_sentry_reduced",
+						"value": 0.800000
+					}
+				]
+				
+			},
+			{
+				"item_set": "polycount_spy",
+				"name": "The Saharan Spy",
+				"store_bundle": "Polycount Spy Bundle",
+				"items": [
+					"L'Etranger",
+					"Your Eternal Reward",
+					"The Familiar Fez"
+				]
+				,
+				"attributes": [
+					{
+						"name": "quiet unstealth",
+						"class": "set_quiet_unstealth",
+						"value": 1.000000
+					},
+					{
+						"name": "cloak blink time penalty",
+						"class": "cloak_blink_time_penalty",
+						"value": 0.500000
+					}
+				]
+				
+			},
+			{
+				"item_set": "rapid_repair",
+				"name": "Clinical Trial",
+				"items": [
+					"The Quick-Fix",
+					"The Overdose",
+					"The Solemn Vow"
+				]
+				
 			}
 		]
 		,
@@ -22128,6 +22789,37 @@
 				"level": 20,
 				"required_score": 10000,
 				"name": "Hale's Own"
+			}
+		]
+		,
+		"kill_eater_score_types": [
+			{
+				"type": 0,
+				"type_name": "Kills"
+			},
+			{
+				"type": 1,
+				"type_name": "Ubers"
+			},
+			{
+				"type": 2,
+				"type_name": "Kill Assists"
+			},
+			{
+				"type": 3,
+				"type_name": "Sentry Kills"
+			},
+			{
+				"type": 4,
+				"type_name": "Sodden Victims"
+			},
+			{
+				"type": 5,
+				"type_name": "Spies Shocked"
+			},
+			{
+				"type": 6,
+				"type_name": "Heads Taken"
 			}
 		]
 		
