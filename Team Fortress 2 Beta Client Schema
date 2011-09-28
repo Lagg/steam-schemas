@@ -1333,11 +1333,6 @@
 					"attribute_class"	"mult_crit_chance"
 					"value"	"0"
 				}
-				"damage bonus"
-				{
-					"attribute_class"	"mult_dmg"
-					"value"	"1.10"
-				}
 			}
 			"visuals"
 			{
@@ -1622,6 +1617,11 @@
 				"scattergun no reload single"
 				{
 					"attribute_class"	"set_scattergun_no_reload_single"
+					"value"	"1"
+				}
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
 					"value"	"1"
 				}
 			}
@@ -1963,6 +1963,11 @@
 				{
 					"attribute_class"	"mult_maxammo_primary"
 					"value"	"0.5"
+				}
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
 				}
 			}
 			"visuals"
@@ -3366,6 +3371,11 @@
 				{
 					"attribute_class"	"mini_crit_airborne"
 					"value" "1"
+				}
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
@@ -6876,6 +6886,11 @@
 					"attribute_class"	"mult_reload_time_hidden"
 					"value"	"1.5"
 				}
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
 			}
 			"visuals"
 			{
@@ -7309,6 +7324,11 @@
 				{
 					"attribute_class"	"mult_clipsize"
 					"value" "0.75"
+				}
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
 				}
 			}
 			"visuals"
@@ -18409,6 +18429,11 @@
 					"attribute_class"	"centerfire_projectile"
 					"value"	"1"
 				}
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
 			}
 			"visuals"
 			{
@@ -27861,6 +27886,7 @@
 			"min_value"	"0"
 			"max_value"	"32"
 			"group"	"only_on_unique"
+			"description_string"	"#Attrib_AirBlastPushScale"
 			"description_format"	"value_is_percentage"
 			"hidden"	"1"
 			"effect_type"	"positive"
@@ -28451,6 +28477,19 @@
 			"hidden"	"1"
 			"effect_type"	"neutral"
 			"stored_as_integer"	"1"
+		}
+		"328"
+		{
+			"name"	"disable fancy class select anim"
+			"attribute_class"	"disable_fancy_class_select_anim"
+			"attribute_name"	"disable fancy class select anim"
+			"min_value"	"1.05"
+			"max_value"	"1.15"
+			"group"	"weapons"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
 		}
 		
 	}

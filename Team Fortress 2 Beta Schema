@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.f788fb91d450c302fa7ee785d524dc0f8eb5ba64.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.7a1c426288f190eea28c07697e490955fa12a585.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -1054,11 +1054,6 @@
 						"name": "crit mod disabled hidden",
 						"class": "mult_crit_chance",
 						"value": 0.000000
-					},
-					{
-						"name": "damage bonus",
-						"class": "mult_dmg",
-						"value": 1.100000
 					}
 				]
 				
@@ -1275,6 +1270,11 @@
 					{
 						"name": "scattergun no reload single",
 						"class": "set_scattergun_no_reload_single",
+						"value": 1.000000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
 						"value": 1.000000
 					}
 				]
@@ -1607,6 +1607,11 @@
 						"name": "hidden primary max ammo bonus",
 						"class": "mult_maxammo_primary",
 						"value": 0.500000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
 					}
 				]
 				
@@ -2763,6 +2768,11 @@
 					{
 						"name": "mod mini-crit airborne",
 						"class": "mini_crit_airborne",
+						"value": 1.000000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
 						"value": 1.000000
 					}
 				]
@@ -5433,6 +5443,11 @@
 						"name": "reload time increased hidden",
 						"class": "mult_reload_time_hidden",
 						"value": 1.500000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
 					}
 				]
 				
@@ -5721,6 +5736,11 @@
 						"name": "clip size penalty",
 						"class": "mult_clipsize",
 						"value": 0.750000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
 					}
 				]
 				
@@ -13732,6 +13752,11 @@
 					{
 						"name": "centerfire projectile",
 						"class": "centerfire_projectile",
+						"value": 1.000000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
 						"value": 1.000000
 					}
 				]
@@ -22233,6 +22258,16 @@
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": true
+			},
+			{
+				"name": "disable fancy class select anim",
+				"defindex": 328,
+				"attribute_class": "disable_fancy_class_select_anim",
+				"min_value": 1.050000,
+				"max_value": 1.150000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": false
 			}
 		]
 		,
