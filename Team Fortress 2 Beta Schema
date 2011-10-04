@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.b509d864a8949f27805f0a780a1cb238258abfb3.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.e815a3f8228bf1e13af7affcccdc3fb984afc4de.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -21758,8 +21758,10 @@
 				"attribute_class": "airblast_pushback_scale",
 				"min_value": 0.000000,
 				"max_value": 32.000000,
+				"description_string": "Attrib_AirBlastPushScale",
+				"description_format": "value_is_percentage",
 				"effect_type": "positive",
-				"hidden": true,
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
