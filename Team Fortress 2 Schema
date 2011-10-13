@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.60100ac604ccecda146ef40eef6b4031fc85b5e9.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1d11c769442160db844a85a0f03543a1fee3cdc1.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -14,7 +14,8 @@
 			"developer": 8,
 			"selfmade": 9,
 			"customized": 10,
-			"strange": 11
+			"strange": 11,
+			"completed": 12
 		},
 		"qualityNames": {
 			"normal": "Normal",
@@ -28,7 +29,8 @@
 			"developer": "Valve",
 			"selfmade": "Self-Made",
 			"customized": "Customized",
-			"strange": "Strange"
+			"strange": "Strange",
+			"completed": "Completed"
 		},
 		"items": [
 			{
@@ -259,7 +261,7 @@
 			{
 				"name": "TF_WEAPON_SHOTGUN_PRIMARY",
 				"defindex": 9,
-				"item_class": "tf_weapon_shotgun_primary",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -284,7 +286,7 @@
 			{
 				"name": "TF_WEAPON_SHOTGUN_SOLDIER",
 				"defindex": 10,
-				"item_class": "tf_weapon_shotgun_soldier",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -309,7 +311,7 @@
 			{
 				"name": "TF_WEAPON_SHOTGUN_HWG",
 				"defindex": 11,
-				"item_class": "tf_weapon_shotgun_hwg",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -334,7 +336,7 @@
 			{
 				"name": "TF_WEAPON_SHOTGUN_PYRO",
 				"defindex": 12,
-				"item_class": "tf_weapon_shotgun_pyro",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -513,7 +515,7 @@
 				"item_type_name": "Grenade Launcher",
 				"item_name": "Grenade Launcher",
 				"proper_name": false,
-				"item_slot": "secondary",
+				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_grenadelauncher\/c_grenadelauncher.mdl",
 				"item_quality": 0,
 				"image_inventory": "backpack\/weapons\/w_models\/w_grenadelauncher",
@@ -538,7 +540,7 @@
 				"item_type_name": "Stickybomb Launcher",
 				"item_name": "Stickybomb Launcher",
 				"proper_name": false,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/w_models\/w_stickybomb_launcher.mdl",
 				"item_quality": 0,
 				"image_inventory": "backpack\/weapons\/w_models\/w_stickybomb_launcher",
@@ -609,7 +611,7 @@
 			{
 				"name": "TF_WEAPON_PISTOL_SCOUT",
 				"defindex": 23,
-				"item_class": "tf_weapon_pistol_scout",
+				"item_class": "tf_weapon_pistol",
 				"item_type_name": "Pistol",
 				"item_name": "Pistol",
 				"proper_name": false,
@@ -842,6 +844,16 @@
 						"name": "ubercharge rate bonus",
 						"class": "mult_medigun_uberchargerate",
 						"value": 1.250000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 2.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 1.000000
 					}
 				]
 				
@@ -1274,6 +1286,11 @@
 						"name": "scattergun no reload single",
 						"class": "set_scattergun_no_reload_single",
 						"value": 1.000000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
 					}
 				]
 				
@@ -1605,6 +1622,11 @@
 						"name": "hidden primary max ammo bonus",
 						"class": "mult_maxammo_primary",
 						"value": 0.500000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
 					}
 				]
 				
@@ -2395,7 +2417,7 @@
 				"item_description": "Even more ghastly.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/all_domination_2009.mdl",
+				"model_player": "models\/player\/items\/all_class\/all_domination_2009_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/all_domination_2009",
 				"min_ilevel": 10,
@@ -2762,6 +2784,11 @@
 						"name": "mod mini-crit airborne",
 						"class": "mini_crit_airborne",
 						"value": 1.000000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
 					}
 				]
 				
@@ -2844,7 +2871,7 @@
 				"item_type_name": "Stickybomb Launcher",
 				"item_name": "Scottish Resistance",
 				"proper_name": true,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_scottish_resistance.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/w_models\/w_stickybomb_defender",
@@ -2905,7 +2932,7 @@
 				"item_name": "Chargin' Targe",
 				"item_description": "Alt-Fire: Gain increased attack power by\ncharging toward your enemies.",
 				"proper_name": true,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_targe\/c_targe.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/c_models\/c_targe\/c_targe",
@@ -3300,6 +3327,16 @@
 					{
 						"name": "crit mod disabled",
 						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
 						"value": 0.000000
 					}
 				]
@@ -3994,6 +4031,37 @@
 				
 			},
 			{
+				"name": "High Five Taunt",
+				"defindex": 167,
+				"item_class": "tf_wearable",
+				"item_type_name": "Special Taunt",
+				"item_name": "Taunt: The High Five!",
+				"item_description": "Don't leave your friends hanging.\n\nThis is a press-and-hold taunt. Hold down the action slot key to remain in the taunt's pose.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/taunt_highfive",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/taunt_highfive.6fda27846536601985251129e828b838274fa301.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/taunt_highfive_large.6bde07a56be263bd6d23e6a0ab36b5ce85e39ebd.png",
+				"capabilities": {
+					"nameable": true,
+					"usable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "taunt is press and hold",
+						"class": "enable_misc2_holdtaunt",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Golden Wrench",
 				"defindex": 169,
 				"item_class": "tf_weapon_wrench",
@@ -4519,6 +4587,56 @@
 				
 			},
 			{
+				"name": "Beta Quick-Fix",
+				"defindex": 186,
+				"item_class": "tf_weapon_medigun",
+				"item_type_name": "Medi Gun",
+				"item_name": "Beta Quick-Fix",
+				"item_description": "Can't overheal.\nMove at the speed of any faster heal target.",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/w_models\/w_medigun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_medigun\/c_medigun",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_medigun.f7083ca62943a045a141554a320f289f508a4f2e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_medigun_large.4c13184a17a734aae3739f4981d0a8c71525ca6e.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "lunchbox adds minicrits",
+						"class": "set_weapon_mode",
+						"value": 2.000000
+					},
+					{
+						"name": "heal rate bonus",
+						"class": "mult_medigun_healrate",
+						"value": 1.400000
+					},
+					{
+						"name": "medigun charge is megaheal",
+						"class": "set_charge_type",
+						"value": 2.000000
+					},
+					{
+						"name": "ubercharge rate bonus",
+						"class": "mult_medigun_uberchargerate",
+						"value": 1.400000
+					}
+				]
+				
+			},
+			{
 				"name": "Parasite Hat",
 				"defindex": 189,
 				"item_class": "tf_wearable",
@@ -4527,7 +4645,7 @@
 				"item_description": "This cute little guy was once the scourge of humanity in another time and place. Now he's content to ride on your head and keep the sun off.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/parasite_hat.mdl",
+				"model_player": "models\/player\/items\/all_class\/parasite_hat_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/parasite_hat",
 				"min_ilevel": 20,
@@ -4792,7 +4910,7 @@
 			{
 				"name": "Upgradeable TF_WEAPON_SHOTGUN_PRIMARY",
 				"defindex": 199,
-				"item_class": "tf_weapon_shotgun_primary",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Shotgun",
 				"proper_name": false,
@@ -4987,7 +5105,7 @@
 				"item_type_name": "Grenade Launcher",
 				"item_name": "Grenade Launcher",
 				"proper_name": false,
-				"item_slot": "secondary",
+				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_grenadelauncher\/c_grenadelauncher.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/w_models\/w_grenadelauncher",
@@ -5013,7 +5131,7 @@
 				"item_type_name": "Stickybomb Launcher",
 				"item_name": "Stickybomb Launcher",
 				"proper_name": false,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/w_models\/w_stickybomb_launcher.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/w_models\/w_stickybomb_launcher",
@@ -5375,6 +5493,19 @@
 				"used_by_classes": [
 					"Scout"
 				]
+				,
+				"attributes": [
+					{
+						"name": "reload time increased hidden",
+						"class": "mult_reload_time_hidden",
+						"value": 1.500000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
 				
 			},
 			{
@@ -5404,6 +5535,14 @@
 				"used_by_classes": [
 					"Scout"
 				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 7.000000
+					}
+				]
 				
 			},
 			{
@@ -5432,6 +5571,14 @@
 				},
 				"used_by_classes": [
 					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 4.000000
+					}
 				]
 				
 			},
@@ -5661,6 +5808,11 @@
 						"name": "clip size penalty",
 						"class": "mult_clipsize",
 						"value": 0.750000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
 					}
 				]
 				
@@ -6506,7 +6658,7 @@
 				"item_description": "Given to valuable contributors to the official TF2 wiki\nhttp:\/\/wiki.teamfortress.com\/",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/wikicap.mdl",
+				"model_player": "models\/player\/items\/all_class\/wikicap_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/wikicap",
 				"min_ilevel": 20,
@@ -6655,7 +6807,7 @@
 				"item_name": "Sticky Jumper",
 				"item_description": "A special no-damage stickybomb launcher for learning stickybomb jump tricks and patterns.",
 				"proper_name": true,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_sticky_jumper.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/c_models\/c_sticky_jumper",
@@ -6784,7 +6936,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_scout.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_scout_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_scout",
 				"min_ilevel": 10,
@@ -6808,7 +6960,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_sniper.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_sniper_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_sniper",
 				"min_ilevel": 10,
@@ -6832,7 +6984,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_soldier.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_soldier_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_soldier",
 				"min_ilevel": 10,
@@ -6856,7 +7008,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_demo.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_demo_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_demo",
 				"min_ilevel": 10,
@@ -6880,7 +7032,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_medic.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_medic_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_medic",
 				"min_ilevel": 10,
@@ -6904,7 +7056,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_heavy.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_heavy_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_heavy",
 				"min_ilevel": 10,
@@ -6928,7 +7080,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_spy.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_spy_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_spy",
 				"min_ilevel": 10,
@@ -6952,7 +7104,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_engineer.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_engineer_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_engineer",
 				"min_ilevel": 10,
@@ -6976,7 +7128,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_pyro.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_pyro_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_pyro",
 				"min_ilevel": 10,
@@ -7000,7 +7152,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_saxton.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_saxton_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_saxton",
 				"min_ilevel": 10,
@@ -7023,7 +7175,7 @@
 				"item_description": "He had one all along...",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/pumkin_hat.mdl",
+				"model_player": "models\/player\/items\/all_class\/pumpkin_hat_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/pumkin_hat",
 				"min_ilevel": 31,
@@ -7047,7 +7199,7 @@
 				"item_description": "Elegant simplicity and old-world charm combined with the heady aromas of mould and grave dust.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/all_domination.mdl",
+				"model_player": "models\/player\/items\/all_class\/all_domination_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/all_domination",
 				"min_ilevel": 10,
@@ -7305,7 +7457,7 @@
 				"item_description": "Express your undying hatred for the living.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/skull.mdl",
+				"model_player": "models\/player\/items\/all_class\/skull_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/skull",
 				"min_ilevel": 31,
@@ -7376,7 +7528,7 @@
 				"item_description": "Only the finest leather hats come with tattoos and piercings.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/voodoojuju_hat.mdl",
+				"model_player": "models\/player\/items\/all_class\/voodoojuju_hat_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/voodoojuju_hat",
 				"min_ilevel": 31,
@@ -7439,7 +7591,7 @@
 				"item_description": "When wearing such a piece of headgear it is best to keep an open mind.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/headsplitter.mdl",
+				"model_player": "models\/player\/items\/all_class\/headsplitter_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/headsplitter",
 				"min_ilevel": 31,
@@ -7555,7 +7707,7 @@
 				"max_ilevel": 20,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ttg_badge.5ba68d265e183525a40312ef9a23847e2d234a48.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ttg_badge_large.4713f4d48ace9e4ecd24bd30dd373b98782d829b.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7644,7 +7796,7 @@
 				"max_ilevel": 20,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/p2_pin.a3c3f5532aec39b5ad9f55b1ff1c1774fa39cd13.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/p2_pin_large.b2b80523265e126daddc23bdc0d93483f03a2f27.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7668,7 +7820,7 @@
 				"item_description": "I'm the writer, the director, and the star.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/replay_hat.mdl",
+				"model_player": "models\/player\/items\/all_class\/replay_hat_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/replay_hat",
 				"min_ilevel": 20,
@@ -7870,7 +8022,7 @@
 				"item_type_name": "Grenade Launcher",
 				"item_name": "Loch-n-Load",
 				"proper_name": true,
-				"item_slot": "secondary",
+				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_lochnload\/c_lochnload.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/c_models\/c_lochnload\/c_lochnload",
@@ -8685,7 +8837,7 @@
 				"item_description": "Earned by completing 5 objectives in 'The Great Steam Treasure Hunt'",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/treasure_hat_01.mdl",
+				"model_player": "models\/player\/items\/all_class\/treasure_hat_01_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/treasure_hat_01",
 				"min_ilevel": 5,
@@ -8716,7 +8868,7 @@
 				"item_description": "Earned by completing 15 objectives in 'The Great Steam Treasure Hunt'",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/treasure_hat_02.mdl",
+				"model_player": "models\/player\/items\/all_class\/treasure_hat_02_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/treasure_hat_02",
 				"min_ilevel": 15,
@@ -8756,7 +8908,7 @@
 				"item_description": "Earned by completing 28 objectives in 'The Great Steam Treasure Hunt.'  Beware the Cephalopod padlock.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/treasure_hat_oct.mdl",
+				"model_player": "models\/player\/items\/scout\/treasure_hat_oct.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/treasure_hat_oct",
 				"min_ilevel": 28,
@@ -8772,7 +8924,7 @@
 				},
 				"styles": [
 					{
-						"name": "Hat of Undeniable Wealth And Respect"
+						"name": "H.O.U.W.A.R."
 					},
 					{
 						"name": "Treasure Hat"
@@ -8798,7 +8950,7 @@
 				"item_type_name": "Hat",
 				"item_name": "Foster's Facade",
 				"proper_name": false,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/pyro\/pyro_tripwire_mask.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/pyro\/pyro_tripwire_mask",
@@ -8964,7 +9116,7 @@
 				"item_name": "A Rather Festive Tree",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/oh_xmas_tree.mdl",
+				"model_player": "models\/player\/items\/all_class\/oh_xmas_tree_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/oh_xmas_tree",
 				"min_ilevel": 1,
@@ -9088,6 +9240,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mnc_hat.1bcafa9ea09eeec6ff5b9f89357d51253e48ffc4.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mnc_hat_large.2450ff0b6925a227c0013b101932853e7c58c533.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -9111,6 +9265,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mnc_mascot_hat.3cf0fd693c8d7f11fe6ab2c16fd387de37ee5a9f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mnc_mascot_hat_large.2051a31a7333217123aba10f315fb9157c526e28.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -9544,7 +9700,7 @@
 				"item_name": "Noh Mercy",
 				"item_description": "Chain-smoking Frenchman\nSkulks in shadows, then attacks \nTerrifying mask",
 				"proper_name": true,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/spy\/shogun_ninjamask.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/spy\/shogun_ninjamask",
@@ -9801,7 +9957,7 @@
 				"item_name": "Large Luchadore",
 				"item_description": "Wrestling's real, and now you can prove it.",
 				"proper_name": false,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/heavy\/wrestling_mask.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/heavy\/wrestling_mask",
@@ -10150,7 +10306,7 @@
 				"item_description": "Keep little healing man close.",
 				"proper_name": false,
 				"item_slot": "misc",
-				"model_player": "models\/player\/items\/heavy\/pocket_medic.mdl",
+				"model_player": "models\/player\/items\/soldier\/fwk_soldier_pocketmedic.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/heavy\/pocket_medic",
 				"min_ilevel": 15,
@@ -10166,6 +10322,7 @@
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
+					"Soldier",
 					"Heavy"
 				]
 				
@@ -10219,7 +10376,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "Hat",
 				"item_name": "Connoisseur's Cap",
-				"item_description": "You’re today’s theme ingredient…",
+				"item_description": "You're today's theme ingredient...",
 				"proper_name": false,
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/pyro\/pyro_chef_hat.mdl",
@@ -10233,6 +10390,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -10560,7 +10718,7 @@
 				"item_type_name": "Boots",
 				"item_name": "Ali Baba's Wee Booties",
 				"proper_name": false,
-				"item_slot": "secondary",
+				"item_slot": "primary",
 				"model_player": "models\/player\/items\/demo\/demo_booties.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/demo\/demo_booties",
@@ -10604,7 +10762,7 @@
 				"item_name": "Splendid Screen",
 				"item_description": "",
 				"proper_name": true,
-				"item_slot": "primary",
+				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_persian_shield\/c_persian_shield.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/c_models\/c_persian_shield\/c_persian_shield",
@@ -10931,7 +11089,7 @@
 			{
 				"name": "The Reserve Shooter",
 				"defindex": 415,
-				"item_class": "tf_weapon_shotgun_soldier",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Reserve Shooter",
 				"proper_name": true,
@@ -10953,7 +11111,8 @@
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
-					"Soldier"
+					"Soldier",
+					"Pyro"
 				]
 				,
 				"attributes": [
@@ -11096,7 +11255,7 @@
 				"max_ilevel": 13,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/p2_pin.a3c3f5532aec39b5ad9f55b1ff1c1774fa39cd13.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/p2_pin_large.b2b80523265e126daddc23bdc0d93483f03a2f27.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -11194,7 +11353,7 @@
 			{
 				"name": "The Family Business",
 				"defindex": 425,
-				"item_class": "tf_weapon_shotgun_heavy",
+				"item_class": "tf_weapon_shotgun",
 				"item_type_name": "Shotgun",
 				"item_name": "Family Business",
 				"proper_name": true,
@@ -11391,7 +11550,7 @@
 				"max_ilevel": 20,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spacechem_pin.2df61ae216cce86aef3d47a94784f801486f25cb.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spacechem_pin_large.6df636bc0e34bcf98e245f2620ff26fd07c40db6.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -11482,7 +11641,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "Hat",
 				"item_name": "Dead Cone",
-				"item_description": "You’ll stop them dead wearing this stylish traffic cone.",
+				"item_description": "You'll stop them dead wearing this stylish traffic cone.",
 				"proper_name": true,
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/pyro\/traffic_cone.mdl",
@@ -12112,7 +12271,7 @@
 				"item_name": "Bonk Boy",
 				"item_description": "",
 				"proper_name": false,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/scout\/bonk_mask.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/scout\/bonk_mask",
@@ -12404,7 +12563,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "TF_Wearable_Rose",
 				"item_name": "Made Man",
-				"item_description": "A gentleman always has a flower handy to drop on an opponent’s grave.",
+				"item_description": "A gentleman always has a flower handy to drop on an opponent's grave.",
 				"proper_name": true,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/spy\/spy_rose.mdl",
@@ -12698,6 +12857,39 @@
 					"can_gift_wrap": true,
 					"can_craft_mark": true
 				}
+			},
+			{
+				"name": "The Conscientious Objector",
+				"defindex": 474,
+				"item_class": "saxxy",
+				"item_type_name": "Sign",
+				"item_name": "Conscientious Objector",
+				"item_description": "We gave peace a chance. It didn't work.\n\nCustom decals can be applied to this item.",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_picket\/c_picket.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_picket\/c_picket",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_picket.7022ac5835466085f20e73ac030ecafe9ce4401c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_picket_large.2a0375f333526316df0d0b1999fd24128fe2125b.png",
+				"capabilities": {
+					"nameable": true,
+					"can_customize_texture": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Soldier",
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Pyro"
+				]
+				
 			},
 			{
 				"name": "Meet the Medic Heroic Taunt",
@@ -13662,6 +13854,11 @@
 						"name": "centerfire projectile",
 						"class": "centerfire_projectile",
 						"value": 1.000000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
 					}
 				]
 				
@@ -13672,7 +13869,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "TF_Wearable_Mask",
 				"item_name": "Mask of the Shaman",
-				"item_description": "An invincibility mask made by the Ancients. It hasn’t worked in a long, long time.",
+				"item_description": "An invincibility mask made by the Ancients. It hasn't worked in a long, long time.",
 				"proper_name": true,
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/demo\/dust_mask.mdl",
@@ -13849,6 +14046,16 @@
 						"name": "has pipboy build interface",
 						"class": "set_custom_buildmenu",
 						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
 					}
 				]
 				
@@ -14125,7 +14332,7 @@
 					{
 						"name": "mod ammo per shot",
 						"class": "mod_ammo_per_shot",
-						"value": 60.000000
+						"value": 30.000000
 					},
 					{
 						"name": "mod use metal ammo type",
@@ -14260,7 +14467,7 @@
 				"item_name": "Sniper's Snipin' Glass",
 				"item_description": "DOTA 2 International Championship\nGamescom 2011",
 				"proper_name": false,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/sniper\/dotasniper_hat.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/sniper\/dotasniper_hat",
@@ -14415,6 +14622,7 @@
 				"drop_type": "drop",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -14453,6 +14661,1209 @@
 				
 			},
 			{
+				"name": "Ball-Kicking Boots",
+				"defindex": 540,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shoes",
+				"item_name": "Ball-Kicking Boots",
+				"item_description": "Show balls who is the boss.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/fm2012_cleats.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fm2012_cleats",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fm2012_cleats.faa4c1b4890afbc486f09465274efd26c1d2c9b8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fm2012_cleats_large.50044ee13bd9cf29494a6bcbe5095244328c06e2.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "override footstep sound set",
+						"class": "override_footstep_sound_set",
+						"value": 1.000000
+					},
+					{
+						"name": "spawn with physics toy",
+						"class": "spawn_with_physics_toy",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Merc's Pride Scarf",
+				"defindex": 541,
+				"item_class": "tf_wearable",
+				"item_type_name": "Scarf",
+				"item_name": "Merc's Pride Scarf",
+				"item_description": "Wear your loyalty like a brightly-colored noose around your neck.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/scarf_soccer.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/scarf_soccer",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scarf_soccer.d6ae3b18c8cfd4450bbecf7a0ea7000a15ce5b6a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scarf_soccer_large.ae0d3fda16206f77f7157c3e57dedb5097bae94e.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Noise Maker - Vuvuzela",
+				"defindex": 542,
+				"item_class": "tf_wearable",
+				"item_type_name": "Party Favor",
+				"item_name": "Noise Maker - Vuvuzela",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/noisemaker_soccer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/noisemaker_soccer.beac091f3a66e6a3280098d9463d12cc86055fb4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/noisemaker_soccer_large.8ffd6f8a9c0d73e2142bbb864b72450a5896530c.png",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "noise_maker"
+				},
+				"attributes": [
+					{
+						"name": "noise maker",
+						"class": "enable_misc2_noisemaker",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Manniversary Paper Hat",
+				"defindex": 598,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Manniversary Paper Hat",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/paper_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/paper_hat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/paper_hat.9a376ef12de264c2200df3edf84a87343aa03517.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/paper_hat_large.d24efafbb3e7935b2bc1974ee25a62dd0b408fe9.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Manniversary Giveaway Package",
+				"defindex": 599,
+				"item_class": "tf_wearable",
+				"item_type_name": "Package",
+				"item_name": "Manniversary Package",
+				"item_description": "From your fine friends at Mann Co., celebrating our one-year anniversary.\n\nThis contains a free sample from our fall lineup and can be opened from your backpack.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/gift_fashion",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/gift_fashion.37487e85b245787048aacefe67105bbe44a20e0c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/gift_fashion_large.14100626b22fb6fce56ec7f532f8157a9d95100a.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "gift",
+					"usage": {
+						"loot_list": "package_manniversary_2011",
+						"num_items": "1",
+						"max_recipients": "1",
+						"target_rule": "only_self"
+					}
+				}
+			},
+			{
+				"name": "Your Worst Nightmare",
+				"defindex": 600,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Your Worst Nightmare",
+				"item_description": "This bandanna will teach you to eat things that would make a billy goat puke. Like another billy goat.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/fwk_sniper_bandanahair.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/fwk_sniper_bandanahair",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_sniper_bandanahair.f3b0ab9687e19a39ba1d96c1f757c994c0cd3000.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_sniper_bandanahair_large.51a834cccdc8bc1a24bc3a12c108b9f7884f68f8.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "The One-Man Army",
+				"defindex": 601,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "One-Man Army",
+				"item_description": "You send that many men against a bandanna like this, don't forget one thing: A good supply of body bags.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/fwk_heavy_bandanahair.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/fwk_heavy_bandanahair",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_heavy_bandanahair.fdb1c16c89b169a2245a31a29939e3ed916fd4b1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_heavy_bandanahair_large.5b3428b17a769f87c45669cde9dcf849e18ae60b.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Counterfeit Billycock",
+				"defindex": 602,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Counterfeit Billycock",
+				"item_description": "This hat is a spy.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/fwk_spy_disguisedhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/fwk_spy_disguisedhat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_spy_disguisedhat.f5f84e2594172d113f4aed97ac28389b8d57e4e4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_spy_disguisedhat_large.8bcc7ffc932c5ad23a49d70ebc32229917a2d3e3.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Outdoorsman",
+				"defindex": 603,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Outdoorsman",
+				"item_description": "Chop wood. Eat syrup. Live in Canada. This hat lets you do it all.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/fwk_heavy_lumber.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/fwk_heavy_lumber",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_heavy_lumber.b5610408dffce977d44d4c59219422389078e8b8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_heavy_lumber_large.c569ed62666b8be79628d487503f51640c96ea2f.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Tavish DeGroot Experience",
+				"defindex": 604,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Tavish DeGroot Experience",
+				"item_description": "Hey, Joe, where you going with that sticky launcher in your hand?",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/fwk_demo_sashhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/fwk_demo_sashhat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_demo_sashhat.2d911ad5842f49b61f56ee43d7a096c7965078d3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_demo_sashhat_large.d586c033662d4dd278889bb5af843a028e51183a.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Pencil Pusher",
+				"defindex": 605,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Pencil Pusher",
+				"item_description": "Measure twice, cut once, shoot first.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/heavy_thinker.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/heavy_thinker",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_thinker.f680ecec75ea47ab7223dd315b3a6711f488e82b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_thinker_large.c54f27e5b8bbe3b612f1ff5ee70fa727d6e600e9.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Builder's Blueprints",
+				"defindex": 606,
+				"item_class": "tf_wearable",
+				"item_type_name": "Blueprints",
+				"item_name": "Builder's Blueprints",
+				"item_description": "Never bring a gun to a blueprint fight.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/fwk_engineer_blueprints.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/fwk_engineer_blueprints",
+				"min_ilevel": 15,
+				"max_ilevel": 15,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_engineer_blueprints.ec005d293e8f073cbd03bf5295930b823e7111bb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_engineer_blueprints_large.b2edae6d0b4b611c8e21dc0c9651f5e61b9315ca.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Buccaneer's Bicorne",
+				"defindex": 607,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Buccaneer's Bicorne",
+				"item_description": "Hoist the mainsail! Buckle those swashes! Get into a swordfight! Pirate captains yell stuff like this all the time, and now you can too.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/mighty_pirate.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/mightypirate",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mightypirate.2ad51ddcb69e8f916eeb2a6c5021c76d96d6066b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mightypirate_large.615f4a8c4e2bbc77a0d4651bcbaf6de50f1a1486.png",
+				"drop_type": "drop",
+				"item_set": "swashbucklers_swag",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Bootlegger",
+				"defindex": 608,
+				"item_class": "tf_wearable",
+				"item_type_name": "Boots",
+				"item_name": "Bootlegger",
+				"item_description": "Amaze your friends! Impress women! Walk with a limp for life! It's grotesque!",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/player\/items\/demo\/pegleg.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/pegleg",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pegleg.3a4f6393da46b6b29647f8e2ccd2038639f62942.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pegleg_large.44ea899d14e3fccaf682d4e2404ccb1aebcc7ee6.png",
+				"drop_type": "none",
+				"item_set": "swashbucklers_swag",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mult charge turn control",
+						"class": "charge_turn_control",
+						"value": 2.000000
+					},
+					{
+						"name": "max health additive bonus",
+						"class": "add_maxhealth",
+						"value": 25.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Scottish Handshake",
+				"defindex": 609,
+				"item_class": "tf_weapon_bottle",
+				"item_type_name": "Bottle",
+				"item_name": "Scottish Handshake",
+				"item_description": "Your enemies will think you're making peace, right up until the terrifying moment that their hand is very seriously cut! Here's the trick: It's a broken bottle!",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_scotland_shard\/c_scotland_shard.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_scotland_shard\/rum",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rum.a9f55958f0482adc5b5725b4e17fa44ae10aff2a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rum_large.c8334d2e2361d9d917a46a05e9835d09fa9586ae.png",
+				"item_set": "swashbucklers_swag",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "A Whiff of the Old Brimstone",
+				"defindex": 610,
+				"item_class": "tf_wearable",
+				"item_type_name": "Decorative Bombs",
+				"item_name": "A Whiff of the Old Brimstone",
+				"item_description": "Your enemies will clap in delight at the cartoonish innocence of these old-timey bombs, making it that much sweeter when you blow their arms off.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/demo_bombs.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/bombs",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bombs.0c3b23acd73f7cfb3937d6027671f02d1e3bfd08.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bombs_large.58134426fd02520a2a2938b87648bbda6fed96b2.png",
+				"drop_type": "none",
+				"item_set": "swashbucklers_swag",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Salty Dog",
+				"defindex": 611,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Salty Dog",
+				"item_description": "Get all of a boat captain's respect without the crushing responsibility of actually captaining a boat or the enormous amount of ongoing maintenance a boat requires!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/fwk_soldier_seacaptain.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/fwk_soldier_seacaptain",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_soldier_seacaptain.119863cfd78fbe663bcda8735c0c2c8e9fdee545.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_soldier_seacaptain_large.622f7481841979807fa223f5381464d6ab0d8a04.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Little Buddy",
+				"defindex": 612,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Little Buddy",
+				"item_description": "People will think you're in the Navy. But the joke is on them, BECAUSE YOU'RE NOT! That is just one possible benefit of this tricky hat.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/fwk_pyro_sailor.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/fwk_pyro_sailor",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_pyro_sailor.c9757e493f845b66722ff6e058647af0f86bc6ed.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_pyro_sailor_large.6afc6a06cbf1cbec20139f4fe90389c44df8dc57.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Gym Rat",
+				"defindex": 613,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Gym Rat",
+				"item_description": "Let's get physical. Physical.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/fwk_heavy_gym.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/fwk_heavy_gym",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_heavy_gym.eac33b96c632ab68834eb60f3fd53baaeedf8148.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_heavy_gym_large.de776ecaeccdc8606ee2b0fdee6f8429a730a69e.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Hot Dogger",
+				"defindex": 614,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Hot Dogger",
+				"item_description": "There's been a terrible explosion at the hot dog factory! That's what you can tell people, and they'll believe you because you will look like an expert on hot dogs.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/fwk_scout_hotdog.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fwk_scout_hotdog",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_scout_hotdog.94c20763107ee71e41e9ae2e0fd11b7439012ac5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_scout_hotdog_large.196d9534779e795e513bb7a40b68f3efe7a527cf.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Birdcage",
+				"defindex": 615,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Birdcage",
+				"item_description": "Everyone will wonder what the secret meaning of this mysterious hat is. The secret is you're an idiot.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/fwk_pyro_birdcage.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/fwk_pyro_birdcage",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_pyro_birdcage.6d8a17f5c0269509f0e1f2bea18e1b7e39a2e8ab.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_pyro_birdcage_large.6e5221baa1800d3d7f3bc9a3d1d2a60b61a2d8ea.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Surgeon's Stahlhelm",
+				"defindex": 616,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Surgeon's Stahlhelm",
+				"item_description": "Technically, field medics are protected as noncombatants under the Geneva Convention. The next time you get shot be sure to tell your killer. It's a conversation starter!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/medic\/fwk_medic_stahlhelm.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/fwk_medic_stahlhelm",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_medic_stahlhelm.dd88efb55745d75170049a5815b1dacb1e7be280.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_medic_stahlhelm_large.0274e1b10e63e057a8e37bc95f52b4fbcb4e2844.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "The Backwards Ballcap",
+				"defindex": 617,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Backwards Ballcap",
+				"item_description": "Stick it to Major League Baseball by not wearing their hat the right way.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/fwk_scout_cap.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fwk_scout_cap",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_scout_cap.3d9da82029de3b9465aa5b06b398ec35ccc64de3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_scout_cap_large.d8ba3f70f0b59833138b3d19419315161c5e75c1.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"styles": [
+					{
+						"name": "TF_ScoutBackwardsCap_Style0"
+					},
+					{
+						"name": "TF_ScoutBackwardsCap_Style1",
+						"additional_hidden_bodygroups": {
+							"headphones": 1
+						}
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Crocodile Smile",
+				"defindex": 618,
+				"item_class": "tf_wearable",
+				"item_type_name": "Necklace",
+				"item_name": "Crocodile Smile",
+				"item_description": "How many crocodiles had to die to make this necklace? A lot. That's the point.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/fwk_sniper_necklace.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/fwk_sniper_necklace",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_sniper_necklace.c9978621523fb4c9c1de226551546bb7d39564a8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_sniper_necklace_large.10fdb27a811adae98272eaf9394ad9c29881cd95.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "Flair!",
+				"defindex": 619,
+				"item_class": "tf_wearable",
+				"item_type_name": "Flair!",
+				"item_name": "Flair!",
+				"item_description": "Show enthusiasm! For your favorite things!\n\nCustom decals can be applied to this item.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/flair_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/flair_buttons",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flair_buttons.733680e995c93946599ab85851a836348025737e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flair_buttons_large.373b2fb8a863432db4b6747e78ba2ad6b69ff1bf.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_customize_texture": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Couvre Corner",
+				"defindex": 620,
+				"item_class": "tf_wearable",
+				"item_type_name": "Pocket Square",
+				"item_name": "Couvre Corner",
+				"item_description": "Sometimes we put some jokes in these descriptions. But, no joke: This looks good. Really sharp.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/fwk_medic_pocketsquare.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/fwk_medic_pocketsquare",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_medic_pocketsquare.bd66b8cb10f5da9f12378f1a0b6a314beb825173.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_medic_pocketsquare_large.e406e7f1a59e04fa6cd3b72884907dc191a0e2ae.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "The Surgeon's Stethoscope",
+				"defindex": 621,
+				"item_class": "tf_wearable",
+				"item_type_name": "Stethoscope",
+				"item_name": "Surgeon's Stethoscope",
+				"item_description": "Look like you know what you're doing when you pronounce people dead.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/fwk_medic_stethoscope.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/fwk_medic_stethoscope",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_medic_stethoscope.82dcc86dc853b60b20c1daea1cecf810d712b940.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_medic_stethoscope_large.9fcb9ccb27879efaffa4675800e3d2417da55b0d.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "L'Inspecteur",
+				"defindex": 622,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "L'Inspecteur",
+				"item_description": "Nobody is not scared of a policeman from France. That is why this hat is so effective.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/fwk_spy_inspector.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/fwk_spy_inspector",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_spy_inspector.7f17452bcc180fbe8a8d63c98cc8aac7179f7469.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_spy_inspector_large.5b638ebbf549c45104021b3c8ba5a0b784c1988f.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Photo Badge",
+				"defindex": 623,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Photo Badge",
+				"item_description": "Discourage identity theft.\n\nCustom decals can be applied to this item.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/photo_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/photo_badge",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/photo_badge.73125e102ee3d086175dcf2ffb0742f7998fa643.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/photo_badge_large.d6832604749beb1a511c737b373150c74aa2fa84.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_customize_texture": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Clan Pride",
+				"defindex": 625,
+				"item_class": "tf_wearable",
+				"item_type_name": "Medallion",
+				"item_name": "Clan Pride",
+				"item_description": "Because it's cheaper and less painful than a tattoo.\n\nCustom decals can be applied to this item.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/stampable_medal.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stampable_medal",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stampable_medal.ac48f9c2d603d90189dc89139b9357acd83f2c55.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stampable_medal_large.b732a6f96520e8cf49937cc6e5da13c337239ef2.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_customize_texture": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "The Swagman's Swatter",
+				"defindex": 626,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Swagman's Swatter",
+				"item_description": "This is the best hat. We couldn't say it if it weren't true. This one's the best.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/fwk_sniper_corkhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/fwk_sniper_corkhat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_sniper_corkhat.0ec3e4d8996a95d631c0fafeda49c249db52610e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_sniper_corkhat_large.0478c666a9da6eac31c15a5d38087ff8319de20c.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "The Flamboyant Flamenco",
+				"defindex": 627,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Flamboyant Flamenco",
+				"item_description": "Help your enemies celebrate Day of the Dead by wearing this hat and then killing them.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/fwk_pyro_flamenco.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/fwk_pyro_flamenco",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_pyro_flamenco.55efe375ba5bb9a450655786544aac85007458f2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_pyro_flamenco_large.9bc9eef42c5809d84b438188290a31a50155e2ec.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Virtual Reality Headset",
+				"defindex": 628,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Virtual Reality Headset",
+				"item_description": "With these on, you can pretend you're winning.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/fwk_engineer_cranial.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/fwk_engineer_cranial",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_engineer_cranial.3e625771983a94137ae1191df7714b62cb8164ef.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_engineer_cranial_large.a45bdd2e2aad8dad0a1ebfafa561ebe67fc20bcb.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Spectre's Spectacles",
+				"defindex": 629,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Spectre's Spectacles",
+				"item_description": "So mysterious. So deadly. So nearsighted.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/fwk_spy_specs.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/fwk_spy_specs",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_spy_specs.41a6ccbe4d01bc6fb0ed0d51d7d39330b1c09ebd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_spy_specs_large.8b9c93000585e8948a2e95f5ad6c9757080348f6.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Stereoscopic Shades",
+				"defindex": 630,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Stereoscopic Shades",
+				"item_description": "If you close an eye, one of the teams will disappear. So don't do that.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/fwk_scout_3d.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fwk_scout_3d",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_scout_3d.70653ad485954bacc35d273d34f8ec3a0cd14357.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_scout_3d_large.cdb95178a17aa14a59fbfdb309c1fbc1cc21f67c.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Hat With No Name",
+				"defindex": 631,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Hat With No Name",
+				"item_description": "A nameless hat for a nameless man.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/fwk_soldier_cowboyhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/fwk_soldier_cowboyhat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_soldier_cowboyhat.18aad0323a42dd1bd612f427ed2f40bc0b0bf9cd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_soldier_cowboyhat_large.551c3243808a3a480a42c804f6f2684107c2d40a.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Cremator's Conscience",
+				"defindex": 632,
+				"item_class": "tf_wearable",
+				"item_type_name": "Conscience",
+				"item_name": "Cremator's Conscience",
+				"item_description": "'Burn him with fire!' 'No, burn him with fire, then hit him with an axe!'",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/fwk_pyro_conscience.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/fwk_pyro_conscience",
+				"min_ilevel": 15,
+				"max_ilevel": 15,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_pyro_conscience.8f640c899d2343677a25e76c4edbc794ea4e2efa.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_pyro_conscience_large.ca978255aef1e49fd312112f96aec5e4700f0d9f.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Hermes",
+				"defindex": 633,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Hermes",
+				"item_description": "Don't shoot the messenger. Actually, go ahead and try. Can't be done, pal! Too fast!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/fwk_scout_provision.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fwk_scout_provision",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_scout_provision.3c8c039fd64d47a6ef174cd6d18be1281395f67f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_scout_provision_large.ddcd25d94aa8deb38cf78c11e07257e498e82d07.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -14461,7 +15872,7 @@
 				"item_description": "Given to generous souls who have donated to community map makers. The effect will only be visible while on a map that has been donated towards!",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/world_traveller.mdl",
+				"model_player": "models\/player\/items\/all_class\/world_traveller_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/world_traveller",
 				"min_ilevel": 20,
@@ -14470,6 +15881,7 @@
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/world_traveller_large.40980d35c6ba1e96dc04f6cfdeb1260d9c8f4b51.png",
 				"drop_type": "drop",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_craft_mark": true
 				},
@@ -14493,7 +15905,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Egypt",
-				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Egypt community map.  Show your support today!",
+				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creator of the Egypt community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14539,7 +15951,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Fastlane",
-				"item_description": "A Control Point Map\n\nMade by Arttu 'SK' Mäki\n\nPurchasing this item directly supports the creators of the Fastlane community map.  Show your support today!",
+				"item_description": "A Control Point Map\n\nMade by Arttu 'SK' Mäki\n\nPurchasing this item directly supports the creator of the Fastlane community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14562,7 +15974,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Turbine",
-				"item_description": "A Capture the Flag Map\n\nMade by Flobster\n\nPurchasing this item directly supports the creators of the Turbine community map.  Show your support today!",
+				"item_description": "A Capture the Flag Map\n\nMade by Flobster\n\nPurchasing this item directly supports the creator of the Turbine community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14608,7 +16020,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Junction",
-				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Junction community map.  Show your support today!",
+				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creator of the Junction community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14631,7 +16043,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Watchtower",
-				"item_description": "An Arena Map\n\nMade by Joshua 'JoshuaC' Shiflet\n\nPurchasing this item directly supports the creators of the Watchtower community map.  Show your support today!",
+				"item_description": "An Arena Map\n\nMade by Joshua 'JoshuaC' Shiflet\n\nPurchasing this item directly supports the creator of the Watchtower community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14677,7 +16089,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Offblast",
-				"item_description": "An Arena Map\n\nMade by Magnar 'insta' Jenssen\n\nPurchasing this item directly supports the creators of the Offblast community map.  Show your support today!",
+				"item_description": "An Arena Map\n\nMade by Magnar 'insta' Jenssen\n\nPurchasing this item directly supports the creator of the Offblast community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14723,7 +16135,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Harvest",
-				"item_description": "A King of the Hill Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Harvest community map.  Show your support today!",
+				"item_description": "A King of the Hill Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creator of the Harvest community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14769,7 +16181,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Mountain Lab",
-				"item_description": "An Attack\/Defence Control Point Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creators of the Mountain Lab community map.  Show your support today!",
+				"item_description": "An Attack\/Defence Control Point Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Mountain Lab community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14815,7 +16227,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Nightfall",
-				"item_description": "A Payload Race map\n\nMade by Aaron 'Psy' Garcha and Paul Good\n\nPurchasing this item directly supports the creators of the Nightfall community map.  Show your support today!",
+				"item_description": "A Payload Race Map\n\nMade by Aaron 'Psy' Garcha and Paul Good\n\nPurchasing this item directly supports the creators of the Nightfall community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14838,7 +16250,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Frontier",
-				"item_description": "A Payload map\n\nMade by Patrick 'MangyCarface' Mulholland and Arhurt\n\nPurchasing this item directly supports the creators of the Frontier community map.  Show your support today!",
+				"item_description": "A Payload Map\n\nMade by Patrick 'MangyCarface' Mulholland and Arhurt\n\nPurchasing this item directly supports the creators of the Frontier community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14861,7 +16273,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Lakeside",
-				"item_description": "A King of the Hill map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creators of the Lakeside community map.  Show your support today!",
+				"item_description": "A King of the Hill Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Lakeside community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14870,6 +16282,29 @@
 				"max_ilevel": 50,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_lakeside.f9eb7f1848d9cb4da68a544acfd9ec9821c07e42.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_lakeside_large.d17fd7d865548fab83eda90277ded04dcb7e17af.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Map Token Gullywash",
+				"defindex": 1917,
+				"item_class": "map_token",
+				"item_type_name": "Map Stamp",
+				"item_name": "Map Stamp - Gullywash",
+				"item_description": "A Control Point Map\n\nMade by Jan 'Arnold' Laroy\n\nPurchasing this item directly supports the creator of the Gullywash community map.  Show your support today!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamp_gullywash",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_gullywash.86e8687005ae92c0c3b4eaba6e6a64b5c0f60544.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_gullywash_large.ef8f4107b7d99a1d62c9788cc06a16382bdcd86e.png",
 				"capabilities": {
 					"can_craft_mark": true
 				},
@@ -15936,11 +17371,11 @@
 				}
 			},
 			{
-				"name": "Deus Ex Purity Fist PAX Promo",
+				"name": "Deus Ex Purity Fist Promo",
 				"defindex": 2041,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "TF_Bundle_DeusExPAX",
+				"item_name": "TF_Bundle_DeusExFistPromo",
 				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
@@ -16175,6 +17610,48 @@
 					}
 				]
 				
+			},
+			{
+				"name": "Map Token Bundle 3",
+				"defindex": 2049,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Map Stamps Collection",
+				"item_description": "Includes one a stamp for each community made map.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamp_collection",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_collection.eee58fb79e7aab6089d3eeab0aa6903d5ee1dccc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_collection_large.98575cfa328cabd56e340535e044a6db43368415.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Football Manager 2012 Promo Bundle",
+				"defindex": 2050,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Footballer's Kit",
+				"item_description": "Pick a side and show your pride:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/soccer_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soccer_bundle.b431b4a9036fd3ca8738186ccfe05c21e4496fff.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soccer_bundle_large.51196c1bf63723c733bd69d74977aab4ee407319.png",
+				"capabilities": {
+					"can_craft_mark": true
+				}
 			},
 			{
 				"name": "Craft Bar Level 1",
@@ -16639,7 +18116,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 26.000000
+						"value": 31.000000
 					}
 				]
 				
@@ -16685,6 +18162,37 @@
 						"class": "always_tradable",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "Customize Texture Tool",
+				"defindex": 5026,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "Decal Tool",
+				"item_description": "Add a custom decal to eligible items.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/decal_tool",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/decal_tool.9e32f1e4ecccc84ff25c437de7e5c92986ebee37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/decal_tool_large.b9b38936cd28710e7ca4c03e4de947e34fdd6c9f.png",
+				"craft_class": "tool",
+				"craft_material_type": "tool",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "customize_texture_item",
+					"usage_capabilities": {
+						"can_customize_texture": true
+					}
+				},
+				"used_by_classes": [
+
 				]
 				
 			},
@@ -17517,7 +19025,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -17985,7 +19493,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -18034,7 +19542,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -18083,7 +19591,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -18132,7 +19640,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -18181,7 +19689,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -18334,6 +19842,43 @@
 				
 			},
 			{
+				"name": "Supply Crate Rare",
+				"defindex": 5068,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Salvaged Mann Co. Supply Crate",
+				"item_description": "You need a Mann Co. Supply Crate Key to open this.\nYou can pick one up at the Mann Co. Store.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/crate_salvage",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/crate_salvage.279ae14ae07a586aeb6dab1ec0dd67e557ee88ae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/crate_salvage_large.5b3630661a473a93cb0d458c2d0d4c417794f313.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": ""
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 30.000000
+					}
+				]
+				
+			},
+			{
 				"name": "RIFT Spider Hat Code",
 				"defindex": 5500,
 				"item_class": "tool",
@@ -18361,6 +19906,323 @@
 				},
 				"used_by_classes": [
 
+				]
+				
+			},
+			{
+				"name": "Beta Pocket Rocket Launcher",
+				"defindex": 9010,
+				"item_class": "tf_weapon_rocketlauncher",
+				"item_type_name": "Rocket Launcher",
+				"item_name": "TF_BetaPocketRocketLauncher",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_directhit\/c_directhit.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_directhit\/c_directhit",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_directhit.930799b71a23be7e9a5c528980c016e8d08d9ee3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_directhit_large.da0e7f073820f4702775f6cd94b13426b9226151.png",
+				"craft_class": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "selfdmg on hit for slowfire",
+						"class": "add_onhit_addhealth",
+						"value": -10.000000
+					},
+					{
+						"name": "mod medic killed minicrit boost",
+						"class": "medic_killed_minicrit_boost",
+						"value": 6.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Beta Pocket Shotgun",
+				"defindex": 9011,
+				"item_class": "tf_weapon_shotgun_soldier",
+				"item_type_name": "Shotgun",
+				"item_name": "TF_BetaPocketShotgun",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_shotgun\/c_shotgun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_shotgun",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_shotgun.1d9c8ea9d8b2b14b331ae22427c5e624f6d5d60c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_shotgun_large.7dd9cf1db7d64bdb6121d6d09cd077b5c921699d.png",
+				"craft_class": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mod medic healed damage bonus",
+						"class": "medic_healed_damage_bonus",
+						"value": 1.200000
+					},
+					{
+						"name": "mod medic healed deploy time penalty",
+						"class": "mod_medic_healed_deploy_time",
+						"value": 1.300000
+					}
+				]
+				
+			},
+			{
+				"name": "Beta Split Equalizer 1",
+				"defindex": 9012,
+				"item_class": "tf_weapon_shovel",
+				"item_type_name": "Pickaxe",
+				"item_name": "TF_BetaSplitEqualizer1",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_pickaxe\/c_pickaxe.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_pickaxe\/c_pickaxe",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_pickaxe.0f6c70affe3902e80dea212930c3bc3e70e09580.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_pickaxe_large.1dfbc4c2fa1f163676af1ca1be41161750a4c0c3.png",
+				"craft_class": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mod shovel speed boost",
+						"class": "set_weapon_mode",
+						"value": 2.000000
+					},
+					{
+						"name": "mod weapon blocks healing",
+						"class": "weapon_blocks_healing",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Beta Split Equalizer 2",
+				"defindex": 9013,
+				"item_class": "tf_weapon_shovel",
+				"item_type_name": "Pickaxe",
+				"item_name": "TF_BetaSplitEqualizer2",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_pickaxe\/c_pickaxe.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_pickaxe\/c_pickaxe",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_pickaxe.0f6c70affe3902e80dea212930c3bc3e70e09580.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_pickaxe_large.1dfbc4c2fa1f163676af1ca1be41161750a4c0c3.png",
+				"craft_class": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mod shovel damage boost",
+						"class": "set_weapon_mode",
+						"value": 1.000000
+					},
+					{
+						"name": "mod weapon blocks healing",
+						"class": "weapon_blocks_healing",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Beta Sniper Club 1",
+				"defindex": 9014,
+				"item_class": "tf_weapon_club",
+				"item_type_name": "Kukri",
+				"item_name": "TF_BetaSniperClub1",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_machete\/c_machete.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_machete",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_machete.9cb57348f07f43e1c0b08398aa527eeb7a5d3f60.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_machete_large.f232e364690bcfeac8c8fcb4e4fb8cf8b9fb5b4b.png",
+				"craft_class": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "dmg bonus while half dead",
+						"class": "mult_dmg_bonus_while_half_dead",
+						"value": 1.250000
+					},
+					{
+						"name": "dmg penalty while half alive",
+						"class": "mult_dmg_penalty_while_half_alive",
+						"value": 0.750000
+					}
+				]
+				
+			},
+			{
+				"name": "Beta Sniper Rifle 1",
+				"defindex": 9015,
+				"item_class": "tf_weapon_sniperrifle",
+				"item_type_name": "Sniper Rifle",
+				"item_name": "TF_BetaSniperRifle1",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_sniperrifle.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_sniperrifle",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_sniperrifle.21d9333f9e049df30271e65f773d63122b3dfc1d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_sniperrifle_large.53a6c4252eef5af3645465937f6700d38dc935c4.png",
+				"craft_class": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mult sniper charge after headshot",
+						"class": "mult_sniper_charge_after_headshot",
+						"value": 1.450000
+					},
+					{
+						"name": "mult sniper charge after bodyshot",
+						"class": "mult_sniper_charge_after_bodyshot",
+						"value": 1.250000
+					},
+					{
+						"name": "mult sniper charge after miss",
+						"class": "mult_sniper_charge_after_miss",
+						"value": 0.350000
+					}
+				]
+				
+			},
+			{
+				"name": "Beta Pocket Rocket Launcher 2",
+				"defindex": 9016,
+				"item_class": "tf_weapon_rocketlauncher",
+				"item_type_name": "Rocket Launcher",
+				"item_name": "TF_BetaPocketRocketLauncher2",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_directhit\/c_directhit.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_directhit\/c_directhit",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_directhit.930799b71a23be7e9a5c528980c016e8d08d9ee3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_directhit_large.da0e7f073820f4702775f6cd94b13426b9226151.png",
+				"craft_class": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "ubercharge rate bonus for healer",
+						"class": "mult_uberchargerate_for_healer",
+						"value": 1.150000
+					},
+					{
+						"name": "selfdmg on hit for slowfire",
+						"class": "add_onhit_addhealth",
+						"value": -10.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Beta Pocket Rocket Launcher 3",
+				"defindex": 9017,
+				"item_class": "tf_weapon_rocketlauncher",
+				"item_type_name": "Rocket Launcher",
+				"item_name": "TF_BetaPocketRocketLauncher3",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_directhit\/c_directhit.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_directhit\/c_directhit",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_directhit.930799b71a23be7e9a5c528980c016e8d08d9ee3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_directhit_large.da0e7f073820f4702775f6cd94b13426b9226151.png",
+				"craft_class": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "reload time decreased while healed",
+						"class": "mult_reload_time_while_healed",
+						"value": 0.500000
+					},
+					{
+						"name": "selfdmg on hit for slowfire",
+						"class": "add_onhit_addhealth",
+						"value": -10.000000
+					}
 				]
 				
 			}
@@ -18493,7 +20355,7 @@
 				"attribute_class": "mult_medigun_overheal_amount",
 				"min_value": 1.050000,
 				"max_value": 1.150000,
-				"description_string": "+%s1% more max overheal",
+				"description_string": "%s1% more overheal",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19203,7 +21065,7 @@
 				"attribute_class": "mult_wpn_burndmg",
 				"min_value": 1.050000,
 				"max_value": 1.100000,
-				"description_string": "+%s1% burn damage bonus",
+				"description_string": "+%s1% afterburn damage bonus",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19215,7 +21077,7 @@
 				"attribute_class": "mult_wpn_burndmg",
 				"min_value": 0.950000,
 				"max_value": 0.700000,
-				"description_string": "%s1% burn damage penalty",
+				"description_string": "%s1% afterburn damage penalty",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -19227,7 +21089,7 @@
 				"attribute_class": "mult_wpn_burntime",
 				"min_value": 1.050000,
 				"max_value": 1.150000,
-				"description_string": "+%s1% burn duration",
+				"description_string": "+%s1% afterburn duration",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -19239,7 +21101,7 @@
 				"attribute_class": "mult_wpn_burntime",
 				"min_value": 0.950000,
 				"max_value": 0.700000,
-				"description_string": "%s1% burn duration",
+				"description_string": "%s1% afterburn duration",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -20072,9 +21934,9 @@
 				"stored_as_integer": false
 			},
 			{
-				"name": "taunt is hifive",
+				"name": "taunt is highfive",
 				"defindex": 145,
-				"attribute_class": "enable_misc2_hifive",
+				"attribute_class": "enable_misc2_highfive",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
 				"effect_type": "neutral",
@@ -20549,10 +22411,8 @@
 				"attribute_class": "event_date",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
-				"description_string": "Date Received: %s1",
-				"description_format": "value_is_date",
 				"effect_type": "neutral",
-				"hidden": false,
+				"hidden": true,
 				"stored_as_integer": true
 			},
 			{
@@ -20561,10 +22421,8 @@
 				"attribute_class": "gifter_account_id",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
-				"description_string": "\nGift from: %s1",
-				"description_format": "value_is_account_id",
 				"effect_type": "positive",
-				"hidden": false,
+				"hidden": true,
 				"stored_as_integer": true
 			},
 			{
@@ -21349,8 +23207,10 @@
 				"attribute_class": "airblast_pushback_scale",
 				"min_value": 0.000000,
 				"max_value": 32.000000,
+				"description_string": "+%s1% increased airblast pushback",
+				"description_format": "value_is_percentage",
 				"effect_type": "positive",
-				"hidden": true,
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -21727,6 +23587,16 @@
 				"stored_as_integer": true
 			},
 			{
+				"name": "expiration date",
+				"defindex": 302,
+				"attribute_class": "expiration_date",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
 				"name": "mod max primary clip override",
 				"defindex": 303,
 				"attribute_class": "mod_max_primary_clip_override",
@@ -21839,6 +23709,46 @@
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": true
+			},
+			{
+				"name": "taunt is press and hold",
+				"defindex": 322,
+				"attribute_class": "enable_misc2_holdtaunt",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "disable fancy class select anim",
+				"defindex": 328,
+				"attribute_class": "disable_fancy_class_select_anim",
+				"min_value": 1.050000,
+				"max_value": 1.150000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "override footstep sound set",
+				"defindex": 330,
+				"attribute_class": "override_footstep_sound_set",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "spawn with physics toy",
+				"defindex": 331,
+				"attribute_class": "spawn_with_physics_toy",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
 			}
 		]
 		,
@@ -22099,6 +24009,17 @@
 					"The Quick-Fix",
 					"The Overdose",
 					"The Solemn Vow"
+				]
+				
+			},
+			{
+				"item_set": "swashbucklers_swag",
+				"name": "Swashbuckler's Swag",
+				"items": [
+					"The Scottish Handshake",
+					"The Buccaneer's Bicorne",
+					"A Whiff of the Old Brimstone",
+					"The Bootlegger"
 				]
 				
 			}
@@ -22426,6 +24347,10 @@
 			{
 				"type": 6,
 				"type_name": "Heads Taken"
+			},
+			{
+				"type": 7,
+				"type_name": "Humiliations"
 			}
 		]
 		
