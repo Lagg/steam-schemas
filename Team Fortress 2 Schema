@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.376cd9761abac530ba033ddc181d23c351ac3851.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.bb1153c895d95c0edf768f8a20a46f973f06484c.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -4583,56 +4583,6 @@
 				},
 				"used_by_classes": [
 					"Heavy"
-				]
-				
-			},
-			{
-				"name": "Beta Quick-Fix",
-				"defindex": 186,
-				"item_class": "tf_weapon_medigun",
-				"item_type_name": "Medi Gun",
-				"item_name": "Beta Quick-Fix",
-				"item_description": "Can't overheal.\nMove at the speed of any faster heal target.",
-				"proper_name": true,
-				"item_slot": "secondary",
-				"model_player": "models\/weapons\/w_models\/w_medigun.mdl",
-				"item_quality": 6,
-				"image_inventory": "backpack\/weapons\/c_models\/c_medigun\/c_medigun",
-				"min_ilevel": 5,
-				"max_ilevel": 5,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_medigun.f7083ca62943a045a141554a320f289f508a4f2e.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_medigun_large.4c13184a17a734aae3739f4981d0a8c71525ca6e.png",
-				"craft_class": "weapon",
-				"craft_material_type": "weapon",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true
-				},
-				"used_by_classes": [
-					"Medic"
-				]
-				,
-				"attributes": [
-					{
-						"name": "lunchbox adds minicrits",
-						"class": "set_weapon_mode",
-						"value": 2.000000
-					},
-					{
-						"name": "heal rate bonus",
-						"class": "mult_medigun_healrate",
-						"value": 1.400000
-					},
-					{
-						"name": "medigun charge is megaheal",
-						"class": "set_charge_type",
-						"value": 2.000000
-					},
-					{
-						"name": "ubercharge rate bonus",
-						"class": "mult_medigun_uberchargerate",
-						"value": 1.400000
-					}
 				]
 				
 			},
@@ -14791,7 +14741,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/paper_hat.9a376ef12de264c2200df3edf84a87343aa03517.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/paper_hat_large.d24efafbb3e7935b2bc1974ee25a62dd0b408fe9.png",
 				"drop_type": "none",
-				"craft_class": "hat",
+				"craft_class": "",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -15171,6 +15121,8 @@
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bombs_large.58134426fd02520a2a2938b87648bbda6fed96b2.png",
 				"drop_type": "none",
 				"item_set": "swashbucklers_swag",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,

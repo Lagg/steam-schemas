@@ -6208,59 +6208,6 @@
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
 		}
-		"186"
-		{
-			"name"	"Beta Quick-Fix"
-			"item_logname"	"quickfix"
-			"item_class"	"tf_weapon_medigun"
-			"item_type_name"	"#TF_Weapon_Medigun"
-			"item_name"		"Beta Quick-Fix"
-			"item_description"	"#TF_Unique_MediGun_QuickFix_Desc"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"item_slot"	"secondary"
-			"item_quality"	"unique"
-			"propername"	"1"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
-			"image_inventory"	"backpack/weapons/c_models/c_medigun/c_medigun"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_medigun.mdl"
-			"used_by_classes"
-			{
-				"medic"	"1"
-			}
-			"attributes"
-			{
-				"lunchbox adds minicrits"
-				{
-					"attribute_class"	"set_weapon_mode"
-					"value"	"2"
-				}
-				"heal rate bonus"
-				{
-					"attribute_class"	"mult_medigun_healrate"
-					"value" "1.4"
-				}
-				"medigun charge is megaheal"
-				{
-					"attribute_class"	"set_charge_type"
-					"value"	"2"
-				}
-				"ubercharge rate bonus"
-				{
-					"attribute_class"	"mult_medigun_uberchargerate"
-					"value"	"1.4"
-				}
-			}
-			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
-			"drop_sound"		"ui/item_heavy_gun_drop.wav"
-		}
 		"189"
 		{
 			"name"	"Parasite Hat"
@@ -21104,6 +21051,7 @@
 		{
 			"name"	"Manniversary Paper Hat"
 			"prefab"	"hat"
+			"craft_class"	""
 			"item_name"	"#TF_ManniversaryPaperHat"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
@@ -21525,6 +21473,8 @@
 		{
 			"name"	"A Whiff of the Old Brimstone"
 			"first_sale_date"	"2011/09/07"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
 			"capabilities"
@@ -32350,7 +32300,7 @@
 					{
 						"0"
 						{
-							"field"	"craft_class"
+							"field"	"craft_material_type"
 							"operator"	"string=="
 							"value"	"hat"
 							"required"	"1"
@@ -32363,7 +32313,7 @@
 					{
 						"0"
 						{
-							"field"	"craft_class"
+							"field"	"craft_material_type"
 							"operator"	"string=="
 							"value"	"hat"
 							"required"	"1"
