@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.e815a3f8228bf1e13af7affcccdc3fb984afc4de.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.8a7d3062a049d4dd571b223d3e084d3829325b19.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -15,7 +15,8 @@
 			"selfmade": 9,
 			"customized": 10,
 			"strange": 11,
-			"completed": 12
+			"completed": 12,
+			"haunted": 13
 		},
 		"qualityNames": {
 			"normal": "Normal",
@@ -30,7 +31,8 @@
 			"selfmade": "Self-Made",
 			"customized": "Customized",
 			"strange": "Strange",
-			"completed": "Completed"
+			"completed": "Completed",
+			"haunted": "Haunted"
 		},
 		"items": [
 			{
@@ -844,6 +846,16 @@
 						"name": "ubercharge rate bonus",
 						"class": "mult_medigun_uberchargerate",
 						"value": 1.250000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 2.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 1.000000
 					}
 				]
 				
@@ -2379,7 +2391,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_halloween.369a4f61881cdf31820753e25d17bfb2517b41f4.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_halloween_large.f32849341d8e84174befedb99df08a57ba6489f0.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true
@@ -2398,17 +2410,17 @@
 				"defindex": 116,
 				"item_class": "tf_wearable",
 				"item_type_name": "Hat",
-				"item_name": "Ghastlier Gibus",
-				"item_description": "Even more ghastly.",
+				"item_name": "Ghastlierest Gibus",
+				"item_description": "Way way more ghastly.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/all_domination_2009.mdl",
+				"model_player": "models\/player\/items\/all_class\/all_domination_b_scout.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/all_class\/all_domination_2009",
+				"image_inventory": "backpack\/player\/items\/all_class\/all_domination_b_demo",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination_2009.f2b28e8bf1fa5fc5529c3dcb8e1578198d71cc69.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination_2009_large.889bc4d496a1b3a7d011c5b22359e01fcab50f4b.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination_b_demo.fb14eae4eb62521ffef188ee8d7fa562a611de74.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination_b_demo_large.a53efb5a7aec368a2896c89d4107aed8bb016685.png",
 				"drop_type": "drop",
 				"capabilities": {
 					"paintable": true,
@@ -2422,6 +2434,9 @@
 					},
 					{
 						"name": "Ghastly"
+					},
+					{
+						"name": "Ghastlierest"
 					}
 				]
 				,
@@ -3313,6 +3328,16 @@
 						"name": "crit mod disabled",
 						"class": "mult_crit_chance",
 						"value": 0.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
 					}
 				]
 				
@@ -4006,6 +4031,37 @@
 				
 			},
 			{
+				"name": "High Five Taunt",
+				"defindex": 167,
+				"item_class": "tf_wearable",
+				"item_type_name": "Special Taunt",
+				"item_name": "Taunt: The High Five!",
+				"item_description": "Don't leave your friends hanging.\n\nThis is a press-and-hold taunt. Hold down the action slot key to remain in the taunt's pose.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/taunt_highfive",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/taunt_highfive.6fda27846536601985251129e828b838274fa301.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/taunt_highfive_large.6bde07a56be263bd6d23e6a0ab36b5ce85e39ebd.png",
+				"capabilities": {
+					"nameable": true,
+					"usable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "taunt is press and hold",
+						"class": "enable_misc2_holdtaunt",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Golden Wrench",
 				"defindex": 169,
 				"item_class": "tf_weapon_wrench",
@@ -4589,7 +4645,7 @@
 				"item_description": "This cute little guy was once the scourge of humanity in another time and place. Now he's content to ride on your head and keep the sun off.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/parasite_hat.mdl",
+				"model_player": "models\/player\/items\/all_class\/parasite_hat_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/parasite_hat",
 				"min_ilevel": 20,
@@ -5343,6 +5399,11 @@
 						"value": 0.350000
 					},
 					{
+						"name": "weapon burn dmg reduced",
+						"class": "mult_wpn_burndmg",
+						"value": 0.750000
+					},
+					{
 						"name": "damage penalty",
 						"class": "mult_dmg",
 						"value": 0.900000
@@ -5479,6 +5540,14 @@
 				"used_by_classes": [
 					"Scout"
 				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 7.000000
+					}
+				]
 				
 			},
 			{
@@ -5507,6 +5576,14 @@
 				},
 				"used_by_classes": [
 					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 4.000000
+					}
 				]
 				
 			},
@@ -6586,7 +6663,7 @@
 				"item_description": "Given to valuable contributors to the official TF2 wiki\nhttp:\/\/wiki.teamfortress.com\/",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/wikicap.mdl",
+				"model_player": "models\/player\/items\/all_class\/wikicap_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/wikicap",
 				"min_ilevel": 20,
@@ -6864,7 +6941,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_scout.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_scout_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_scout",
 				"min_ilevel": 10,
@@ -6872,7 +6949,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_scout.6288df8b3f01298bed8c042985bb71788568397a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_scout_large.35fb082ffe37b2e109139d24bd0ff2ace1aa835a.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -6888,7 +6965,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_sniper.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_sniper_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_sniper",
 				"min_ilevel": 10,
@@ -6896,7 +6973,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_sniper.0a82171bd73a54c1fa389ba0c4e71c0d843ca784.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_sniper_large.9e351501498671fdb1a0774d19cdb7cb795e44a5.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -6912,7 +6989,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_soldier.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_soldier_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_soldier",
 				"min_ilevel": 10,
@@ -6920,7 +6997,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_soldier.443aeb47ccab56e54d032e57ac7689e326b27bf0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_soldier_large.34536c74ed545967312022587b7050a4f4737644.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -6936,7 +7013,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_demo.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_demo_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_demo",
 				"min_ilevel": 10,
@@ -6944,7 +7021,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_demo.969d92b94c559ab30a054592fb1e2bc5f44d3b1c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_demo_large.ad66fb44193293d67fd482341cbeea147e5a567e.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -6960,7 +7037,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_medic.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_medic_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_medic",
 				"min_ilevel": 10,
@@ -6968,7 +7045,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_medic.08fca109d42aa7aff505aa2b23bb1d4b60cb1a52.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_medic_large.985e8655f9523c5f86328cca12d38f41c7956378.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -6984,7 +7061,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_heavy.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_heavy_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_heavy",
 				"min_ilevel": 10,
@@ -6992,7 +7069,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_heavy.0b033f099a510785f6e4413285e6d0941c098fcc.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_heavy_large.2c140dfbe6d4b830c182bd43ae208948128390dd.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7008,7 +7085,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_spy.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_spy_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_spy",
 				"min_ilevel": 10,
@@ -7016,7 +7093,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_spy.6de591f787e5da270489b78a1c7de9149aef057e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_spy_large.1eb5b4ef50fca381a086243b1d202397c00e454a.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7032,7 +7109,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_engineer.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_engineer_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_engineer",
 				"min_ilevel": 10,
@@ -7040,7 +7117,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_engineer.9b81f9b8d3c8375f9587bb3e4796d62df0bf51d0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_engineer_large.4fcebaad99e71f26a526ba25ebba1bee74e16afd.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7056,7 +7133,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_pyro.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_pyro_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_pyro",
 				"min_ilevel": 10,
@@ -7064,7 +7141,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_pyro.977dc436c0aadf8154bd840ea34aed102c075090.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/halloween_bag_pyro_large.9f9e688980e69d31662d72289951b18a7b9bc090.png",
 				"drop_type": "drop",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7080,7 +7157,7 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/halloween_bag_saxton.mdl",
+				"model_player": "models\/player\/items\/all_class\/halloween_bag_saxton_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/halloween_bag_saxton",
 				"min_ilevel": 10,
@@ -7103,7 +7180,7 @@
 				"item_description": "He had one all along...",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/pumkin_hat.mdl",
+				"model_player": "models\/player\/items\/all_class\/pumpkin_hat_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/pumkin_hat",
 				"min_ilevel": 31,
@@ -7111,7 +7188,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pumkin_hat.c4cc2f0e935711af71b2829bcfc7ee9a4a1cf948.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pumkin_hat_large.929107ff3e349db81a65513a6b594b329b62e039.png",
 				"drop_type": "none",
-				"holiday_restriction": "halloween",
+				"holiday_restriction": "halloween_or_fullmoon",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7123,23 +7200,32 @@
 				"defindex": 279,
 				"item_class": "tf_wearable",
 				"item_type_name": "Hat",
-				"item_name": "Ghastly Gibus",
-				"item_description": "Elegant simplicity and old-world charm combined with the heady aromas of mould and grave dust.",
+				"item_name": "Ghastlier Gibus",
+				"item_description": "Even more ghastly.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/all_domination.mdl",
+				"model_player": "models\/player\/items\/all_class\/all_domination_2009_scout.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/all_class\/all_domination",
+				"image_inventory": "backpack\/player\/items\/all_class\/all_domination_2009",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination.f6ad203289023cd4a1f25a5521eb036b2e1b0a1c.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination_large.c82af779193cb9e0b04d69b95044cc8fb07f688a.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination_2009.f2b28e8bf1fa5fc5529c3dcb8e1578198d71cc69.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination_2009_large.889bc4d496a1b3a7d011c5b22359e01fcab50f4b.png",
 				"drop_type": "drop",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
 					"can_craft_mark": true
 				},
+				"styles": [
+					{
+						"name": "Ghastlier"
+					},
+					{
+						"name": "Ghastly"
+					}
+				]
+				,
 				"attributes": [
 					{
 						"name": "cannot trade",
@@ -7385,7 +7471,7 @@
 				"item_description": "Express your undying hatred for the living.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/skull.mdl",
+				"model_player": "models\/player\/items\/all_class\/skull_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/skull",
 				"min_ilevel": 31,
@@ -7393,8 +7479,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull.77a16933985d9ab3946b230f8e24dcdcd5ca0dcb.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_large.3acf164cbd8cb53aa13d17acd6595a6ffc6ccf2c.png",
 				"drop_type": "drop",
-				"craft_class": "haunted_hat",
-				"craft_material_type": "haunted_hat",
+				"craft_class": "",
+				"craft_material_type": "",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -7456,7 +7542,7 @@
 				"item_description": "Only the finest leather hats come with tattoos and piercings.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/voodoojuju_hat.mdl",
+				"model_player": "models\/player\/items\/all_class\/voodoojuju_hat_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/voodoojuju_hat",
 				"min_ilevel": 31,
@@ -7464,8 +7550,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/voodoojuju_hat.c3f8c6ed8359a4cb983a2f1a2da21d9fe686ed62.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/voodoojuju_hat_large.d1b07abacbd2e29e19e4f78ebee58f1ae771ca66.png",
 				"drop_type": "drop",
-				"craft_class": "haunted_hat",
-				"craft_material_type": "haunted_hat",
+				"craft_class": "",
+				"craft_material_type": "",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -7519,7 +7605,7 @@
 				"item_description": "When wearing such a piece of headgear it is best to keep an open mind.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/headsplitter.mdl",
+				"model_player": "models\/player\/items\/all_class\/headsplitter_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/headsplitter",
 				"min_ilevel": 31,
@@ -7635,7 +7721,7 @@
 				"max_ilevel": 20,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ttg_badge.5ba68d265e183525a40312ef9a23847e2d234a48.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ttg_badge_large.4713f4d48ace9e4ecd24bd30dd373b98782d829b.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7724,7 +7810,7 @@
 				"max_ilevel": 20,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/p2_pin.a3c3f5532aec39b5ad9f55b1ff1c1774fa39cd13.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/p2_pin_large.b2b80523265e126daddc23bdc0d93483f03a2f27.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -7748,7 +7834,7 @@
 				"item_description": "I'm the writer, the director, and the star.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/replay_hat.mdl",
+				"model_player": "models\/player\/items\/all_class\/replay_hat_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/replay_hat",
 				"min_ilevel": 20,
@@ -8765,7 +8851,7 @@
 				"item_description": "Earned by completing 5 objectives in 'The Great Steam Treasure Hunt'",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/treasure_hat_01.mdl",
+				"model_player": "models\/player\/items\/all_class\/treasure_hat_01_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/treasure_hat_01",
 				"min_ilevel": 5,
@@ -8796,7 +8882,7 @@
 				"item_description": "Earned by completing 15 objectives in 'The Great Steam Treasure Hunt'",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/treasure_hat_02.mdl",
+				"model_player": "models\/player\/items\/all_class\/treasure_hat_02_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/treasure_hat_02",
 				"min_ilevel": 15,
@@ -8836,7 +8922,7 @@
 				"item_description": "Earned by completing 28 objectives in 'The Great Steam Treasure Hunt.'  Beware the Cephalopod padlock.",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/treasure_hat_oct.mdl",
+				"model_player": "models\/player\/items\/scout\/treasure_hat_oct.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/treasure_hat_oct",
 				"min_ilevel": 28,
@@ -8852,7 +8938,7 @@
 				},
 				"styles": [
 					{
-						"name": "Hat of Undeniable Wealth And Respect"
+						"name": "H.O.U.W.A.R."
 					},
 					{
 						"name": "Treasure Hat"
@@ -9044,7 +9130,7 @@
 				"item_name": "A Rather Festive Tree",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/oh_xmas_tree.mdl",
+				"model_player": "models\/player\/items\/all_class\/oh_xmas_tree_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/oh_xmas_tree",
 				"min_ilevel": 1,
@@ -9885,7 +9971,7 @@
 				"item_name": "Large Luchadore",
 				"item_description": "Wrestling's real, and now you can prove it.",
 				"proper_name": false,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/heavy\/wrestling_mask.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/heavy\/wrestling_mask",
@@ -10026,6 +10112,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/professor_hair_icon.617a3480ba02278d7cfbcb2823fd69748fdf197e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/professor_hair_icon_large.7a8b30e6285a6c0dcd4895681e9b37c91abf27a0.png",
 				"drop_type": "none",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -10234,7 +10321,7 @@
 				"item_description": "Keep little healing man close.",
 				"proper_name": false,
 				"item_slot": "misc",
-				"model_player": "models\/player\/items\/heavy\/pocket_medic.mdl",
+				"model_player": "models\/player\/items\/soldier\/fwk_soldier_pocketmedic.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/heavy\/pocket_medic",
 				"min_ilevel": 15,
@@ -10250,6 +10337,7 @@
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
+					"Soldier",
 					"Heavy"
 				]
 				
@@ -10303,7 +10391,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "Hat",
 				"item_name": "Connoisseur's Cap",
-				"item_description": "You’re today’s theme ingredient…",
+				"item_description": "You're today's theme ingredient...",
 				"proper_name": false,
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/pyro\/pyro_chef_hat.mdl",
@@ -11182,7 +11270,7 @@
 				"max_ilevel": 13,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/p2_pin.a3c3f5532aec39b5ad9f55b1ff1c1774fa39cd13.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/p2_pin_large.b2b80523265e126daddc23bdc0d93483f03a2f27.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -11482,7 +11570,7 @@
 				"max_ilevel": 20,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spacechem_pin.2df61ae216cce86aef3d47a94784f801486f25cb.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spacechem_pin_large.6df636bc0e34bcf98e245f2620ff26fd07c40db6.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
@@ -11573,7 +11661,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "Hat",
 				"item_name": "Dead Cone",
-				"item_description": "You’ll stop them dead wearing this stylish traffic cone.",
+				"item_description": "You'll stop them dead wearing this stylish traffic cone.",
 				"proper_name": true,
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/pyro\/traffic_cone.mdl",
@@ -11772,8 +11860,7 @@
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
-					"can_craft_mark": true,
-					"paintable_team_colors": true
+					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Soldier"
@@ -12203,7 +12290,7 @@
 				"item_name": "Bonk Boy",
 				"item_description": "",
 				"proper_name": false,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/scout\/bonk_mask.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/scout\/bonk_mask",
@@ -12495,7 +12582,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "TF_Wearable_Rose",
 				"item_name": "Made Man",
-				"item_description": "A gentleman always has a flower handy to drop on an opponent’s grave.",
+				"item_description": "A gentleman always has a flower handy to drop on an opponent's grave.",
 				"proper_name": true,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/spy\/spy_rose.mdl",
@@ -12789,6 +12876,39 @@
 					"can_gift_wrap": true,
 					"can_craft_mark": true
 				}
+			},
+			{
+				"name": "The Conscientious Objector",
+				"defindex": 474,
+				"item_class": "saxxy",
+				"item_type_name": "Sign",
+				"item_name": "Conscientious Objector",
+				"item_description": "We gave peace a chance. It didn't work.\n\nCustom decals can be applied to this item.",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_picket\/c_picket.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_picket\/c_picket",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_picket.7022ac5835466085f20e73ac030ecafe9ce4401c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_picket_large.2a0375f333526316df0d0b1999fd24128fe2125b.png",
+				"capabilities": {
+					"nameable": true,
+					"can_customize_texture": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Soldier",
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Pyro"
+				]
+				
 			},
 			{
 				"name": "Meet the Medic Heroic Taunt",
@@ -13766,9 +13886,9 @@
 				"name": "Mask of the Shaman",
 				"defindex": 514,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Mask",
+				"item_type_name": "Mask",
 				"item_name": "Mask of the Shaman",
-				"item_description": "An invincibility mask made by the Ancients. It hasn’t worked in a long, long time.",
+				"item_description": "An invincibility mask made by the Ancients. It hasn't worked in a long, long time.",
 				"proper_name": true,
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/demo\/dust_mask.mdl",
@@ -13945,6 +14065,16 @@
 						"name": "has pipboy build interface",
 						"class": "set_custom_buildmenu",
 						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
 					}
 				]
 				
@@ -14356,7 +14486,7 @@
 				"item_name": "Sniper's Snipin' Glass",
 				"item_description": "DOTA 2 International Championship\nGamescom 2011",
 				"proper_name": false,
-				"item_slot": "head",
+				"item_slot": "misc",
 				"model_player": "models\/player\/items\/sniper\/dotasniper_hat.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/sniper\/dotasniper_hat",
@@ -14511,6 +14641,7 @@
 				"drop_type": "drop",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -14549,6 +14680,2736 @@
 				
 			},
 			{
+				"name": "Ball-Kicking Boots",
+				"defindex": 540,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shoes",
+				"item_name": "Ball-Kicking Boots",
+				"item_description": "Show balls who is the boss.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/fm2012_cleats.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fm2012_cleats",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fm2012_cleats.faa4c1b4890afbc486f09465274efd26c1d2c9b8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fm2012_cleats_large.50044ee13bd9cf29494a6bcbe5095244328c06e2.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "override footstep sound set",
+						"class": "override_footstep_sound_set",
+						"value": 1.000000
+					},
+					{
+						"name": "spawn with physics toy",
+						"class": "spawn_with_physics_toy",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Merc's Pride Scarf",
+				"defindex": 541,
+				"item_class": "tf_wearable",
+				"item_type_name": "Scarf",
+				"item_name": "Merc's Pride Scarf",
+				"item_description": "Wear your loyalty like a brightly-colored noose around your neck.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/scarf_soccer.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/scarf_soccer",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/scarf_soccer.d6ae3b18c8cfd4450bbecf7a0ea7000a15ce5b6a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/scarf_soccer_large.ae0d3fda16206f77f7157c3e57dedb5097bae94e.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Noise Maker - Vuvuzela",
+				"defindex": 542,
+				"item_class": "tf_wearable",
+				"item_type_name": "Party Favor",
+				"item_name": "Noise Maker - Vuvuzela",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/noisemaker_soccer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/noisemaker_soccer.beac091f3a66e6a3280098d9463d12cc86055fb4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/noisemaker_soccer_large.8ffd6f8a9c0d73e2142bbb864b72450a5896530c.png",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "noise_maker"
+				},
+				"attributes": [
+					{
+						"name": "noise maker",
+						"class": "enable_misc2_noisemaker",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Hair of the Dog",
+				"defindex": 543,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Hair of the Dog",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/hwn_demo_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/hwn_demo_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_demo_hat.cac8eee73abd90afe71198744ecd927b1e60206e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_demo_hat_large.83947564fb29edb32ac633ec37ef5cef2f74847c.png",
+				"drop_type": "none",
+				"item_set": "demo_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Scottish Snarl",
+				"defindex": 544,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Scottish Snarl",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/hwn_demo_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/hwn_demo_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_demo_misc1.e2f4583accce08f9a0080dd42821c15b7dac0747.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_demo_misc1_large.df24e75948bed19230434becc08dc6c7b4297a07.png",
+				"drop_type": "none",
+				"item_set": "demo_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Pickled Paws",
+				"defindex": 545,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Pickled Paws",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/hwn_demo_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/hwn_demo_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_demo_misc2.ff34aabc0dd1ddf8bf624eacf493c0fdc2b41654.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_demo_misc2_large.105070cdc82b38349873cccb8043bc08b3a7c5aa.png",
+				"drop_type": "none",
+				"item_set": "demo_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Wrap Battler",
+				"defindex": 546,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Wrap Battler",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/hwn_scout_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/hwn_scout_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_scout_hat.5c556a198299889c4eed682bb9b97b0dde5808c2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_scout_hat_large.37b1ff0b8006352d1c694eb4cce23c4f946029a4.png",
+				"drop_type": "none",
+				"item_set": "scout_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "B-ankh!",
+				"defindex": 547,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "B-ankh!",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/hwn_scout_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/hwn_scout_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_scout_misc1.806f662612ee4c8b52e13bd003742ced57a0bdf2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_scout_misc1_large.d331d62b81f986399bbf0d70770a7a51164056ea.png",
+				"drop_type": "none",
+				"item_set": "scout_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Futankhamun",
+				"defindex": 548,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Futankhamun",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/hwn_scout_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/hwn_scout_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_scout_misc2.60bfb4afccd0aedc8c6321b5a071d70ad3065273.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_scout_misc2_large.2158828826c28ec864a40474a146cae9f2e61276.png",
+				"drop_type": "none",
+				"item_set": "scout_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Blazing Bull",
+				"defindex": 549,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Blazing Bull",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/hwn_pyro_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/hwn_pyro_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_pyro_hat.d2b5300a102ea67c036149c6d39a09f6648f2f28.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_pyro_hat_large.64b85a738df1aea0d13b705ee0efdbdb662c8391.png",
+				"drop_type": "none",
+				"item_set": "pyro_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Fallen Angel",
+				"defindex": 550,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Fallen Angel",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/hwn_pyro_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/hwn_pyro_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_pyro_misc1.b26db8e9a9fde9173cc9d8dfbdd73301e06836be.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_pyro_misc1_large.2d682b78fe3d499d95820650be8fb45f6f4b4e0e.png",
+				"drop_type": "none",
+				"item_set": "pyro_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Tail From the Crypt",
+				"defindex": 551,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Tail From the Crypt",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/hwn_pyro_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/hwn_pyro_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_pyro_misc2.287a57b1150a1f044f0ed5b54aa43836fb7371f3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_pyro_misc2_large.c450d5fc4b3edb77261c7d03836a319be41d9a8d.png",
+				"drop_type": "none",
+				"item_set": "pyro_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Einstein",
+				"defindex": 552,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Einstein",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/medic\/hwn_medic_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/hwn_medic_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_medic_hat.8e961ea2131582948aa3739424540819dcfae38d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_medic_hat_large.e1e07b15e2a28e4a4fe66dfcf562c220c3f68fb1.png",
+				"drop_type": "none",
+				"item_set": "medic_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Dr. Gogglestache",
+				"defindex": 553,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Dr. Gogglestache",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/hwn_medic_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/hwn_medic_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_medic_misc1.cfcc8be105efb8064a18a1cdbc649b8a6feec979.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_medic_misc1_large.6b4628ff7ff179d28af8790bc40ae7aa7064091f.png",
+				"drop_type": "none",
+				"item_set": "medic_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Emerald Jarate",
+				"defindex": 554,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Emerald Jarate",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/hwn_medic_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/hwn_medic_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_medic_misc2.61b93cce06141077cb44498852aac9eba6706fd2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_medic_misc2_large.413f23e9b05d4f85ae79417c925f6706ad11021c.png",
+				"drop_type": "none",
+				"item_set": "medic_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Idiot Box",
+				"defindex": 555,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Idiot Box",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/hwn_soldier_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/hwn_soldier_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_soldier_hat.f9853361feb654796b6d5ea5f1d9a663b41527bd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_soldier_hat_large.133a602f73bf6683750a8044c49bd124199a4c42.png",
+				"drop_type": "none",
+				"item_set": "soldier_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Steel Pipes",
+				"defindex": 556,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Steel Pipes",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/soldier\/hwn_soldier_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/hwn_soldier_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_soldier_misc1.2aee6b05e22eac00852e8c6a58defcabc3de2e0d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_soldier_misc1_large.ce7ec3540abe83708555032ebbaf70a3a6db0520.png",
+				"drop_type": "none",
+				"item_set": "soldier_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Shoestring Budget",
+				"defindex": 557,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Shoestring Budget",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/soldier\/hwn_soldier_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/hwn_soldier_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_soldier_misc2.ddd52e9b60b553869e496c86b96bc2a242b51f3b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_soldier_misc2_large.8913e588825ac7c22041cfe51dcfb8e95b573ead.png",
+				"drop_type": "none",
+				"item_set": "soldier_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Under Cover",
+				"defindex": 558,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Under Cover",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/hwn_spy_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/hwn_spy_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_spy_hat.a4eca782435bce85a6fe53259952f16e4ae9ea40.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_spy_hat_large.fcf50f8aa0489842e3fe3b3da8ba63e88aa744ca.png",
+				"drop_type": "none",
+				"item_set": "spy_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Griffin's Gog",
+				"defindex": 559,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Griffin's Gog",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/hwn_spy_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/hwn_spy_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_spy_misc1.a544d356c0cd721cfbc8d829e30ae7825694f289.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_spy_misc1_large.1ab7c85782510d7ad0fadaa1ad72fe9c28f88e52.png",
+				"drop_type": "none",
+				"item_set": "spy_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Intangible Ascot",
+				"defindex": 560,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Intangible Ascot",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/hwn_spy_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/hwn_spy_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_spy_misc2.3daaa6142c885a7c8af1ad4b220e65387ea6ee34.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_spy_misc2_large.b777b0ae7bce8f9c19929d497988220a1a339084.png",
+				"drop_type": "none",
+				"item_set": "spy_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Can Opener",
+				"defindex": 561,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Can Opener",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/hwn_heavy_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/hwn_heavy_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_heavy_hat.4747e5f0fede456c469f40ad03e036f57a2765b1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_heavy_hat_large.e2aaec7170e9b70ec72497553194d01aa2fb3bf5.png",
+				"drop_type": "none",
+				"item_set": "heavy_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Soviet Stitch-Up",
+				"defindex": 562,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Soviet Stitch-Up",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/hwn_heavy_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/hwn_heavy_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_heavy_misc1.64560d08bb8209d3e669d4512c8d08a95ad32511.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_heavy_misc1_large.b3e23658d5df45b62babf7ec099f361c74d72c88.png",
+				"drop_type": "none",
+				"item_set": "heavy_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Steel-Toed Stompers",
+				"defindex": 563,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Steel-Toed Stompers",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/hwn_heavy_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/hwn_heavy_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_heavy_misc2.7bfa8076581b7993f64d9e35a39c56b79b711d72.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_heavy_misc2_large.380299bff24f6ba3a2f270a39e2dcb7d2dfa0bf8.png",
+				"drop_type": "none",
+				"item_set": "heavy_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Holy Hunter",
+				"defindex": 564,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Holy Hunter",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/hwn_sniper_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/hwn_sniper_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_sniper_hat.c41c0e82c35e15ba276e3c1448dbb2c390812ca8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_sniper_hat_large.ffa1e49ac81e879ecabd4b696639ba10b286d73e.png",
+				"drop_type": "none",
+				"item_set": "sniper_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Silver Bullets",
+				"defindex": 565,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Silver Bullets",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/hwn_sniper_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/hwn_sniper_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_sniper_misc1.652d494d64330b167ba5f7e1fcc3c56b592b44eb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_sniper_misc1_large.e227ed0e6b8d5adc652143c3b1839eb463b14c19.png",
+				"drop_type": "none",
+				"item_set": "sniper_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Garlic Flank Stake",
+				"defindex": 566,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Garlic Flank Stake",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/hwn_sniper_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/hwn_sniper_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_sniper_misc2.9f4efe73471bf028fda71d3b1b89ab5711c3b948.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_sniper_misc2_large.038c67f7a13fc6dfa871171ffb94c1335a8dc3bc.png",
+				"drop_type": "none",
+				"item_set": "sniper_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Buzz Killer",
+				"defindex": 567,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Buzz Killer",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/hwn_engineer_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/hwn_engineer_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_engineer_hat.888c5e9b9c41fb7cb64e7604d7178ff5f8452dea.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_engineer_hat_large.521732843ceb39dd2db2fdf5d05406b94db25156.png",
+				"drop_type": "none",
+				"item_set": "engineer_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Frontier Flyboy",
+				"defindex": 568,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Frontier Flyboy",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/hwn_engineer_misc1.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/hwn_engineer_misc1",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_engineer_misc1.3992a008845f396d463d911816d9165e4832ffc7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_engineer_misc1_large.9ee1ec5b62434399f10af5b658c82e6c26cc3373.png",
+				"drop_type": "none",
+				"item_set": "engineer_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Legend of Bugfoot",
+				"defindex": 569,
+				"item_class": "tf_wearable",
+				"item_type_name": "Costume Piece",
+				"item_name": "Legend of Bugfoot",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/hwn_engineer_misc2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/hwn_engineer_misc2",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_engineer_misc2.e3fa92e3cdfef0cf69a6521f96bea4cca4df8120.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hwn_engineer_misc2_large.4cc27ca32b228132936ae35afa2a718d0e44106c.png",
+				"drop_type": "none",
+				"item_set": "engineer_halloween_2011",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Last Breath",
+				"defindex": 570,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Last Breath",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/pyro_halloween_gasmask.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/pyro_halloween_gasmask",
+				"min_ilevel": 13,
+				"max_ilevel": 13,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_halloween_gasmask.77d83fdd31abeed5423b232c3d6ddd6f3e9994fd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_halloween_gasmask_large.aea30173589f31e1b812a69ecd276c6aad15ae73.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "Apparition's Aspect",
+				"defindex": 571,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Apparition's Aspect",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/ghost_aspect.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/ghost_aspect",
+				"min_ilevel": 13,
+				"max_ilevel": 13,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ghost_aspect.74a63072ba6e3f115ff9dd278e877d8e1d7f6e75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ghost_aspect_large.a2ff4b52854b86d443f99ff232b993579956db84.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "Unarmed Combat",
+				"defindex": 572,
+				"item_class": "tf_weapon_bat_fish",
+				"item_type_name": "TF_Weapon_Severed_Arm",
+				"item_name": "Unarmed Combat",
+				"item_description": "So nice of the Spy to lend an arm...",
+				"proper_name": false,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_unarmed_combat\/c_unarmed_combat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_unarmed_combat\/c_unarmed_combat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_unarmed_combat.4ba6e7a41ae445c04f266bc86ceb4d0939e93d4e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_unarmed_combat_large.c347f662c803e3dbe6b34939f5965eff265db758.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "fish damage override",
+						"class": "fish_damage_override",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 7.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Wanga Prick",
+				"defindex": 574,
+				"item_class": "tf_weapon_knife",
+				"item_type_name": "Knife",
+				"item_name": "Wanga Prick",
+				"proper_name": false,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_voodoo_pin\/c_voodoo_pin.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_voodoo_pin\/c_voodoo_pin",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_voodoo_pin.f70d0be3e6cb4064acd9d967ca06744908bf2ab9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_voodoo_pin_large.0e1149652f8e9c47d65178b48f985d9084070f32.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disguise on backstab",
+						"class": "set_disguise_on_backstab",
+						"value": 1.000000
+					},
+					{
+						"name": "silent killer",
+						"class": "set_silent_killer",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot disguise",
+						"class": "set_cannot_disguise",
+						"value": 1.000000
+					},
+					{
+						"name": "lunchbox adds minicrits",
+						"class": "set_weapon_mode",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Infernal Impaler",
+				"defindex": 575,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Infernal Impaler",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/infernal_impaler.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/infernal_impaler",
+				"min_ilevel": 13,
+				"max_ilevel": 13,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/infernal_impaler.7992291004031d55dea83c28c7257597f0103c05.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/infernal_impaler_large.04cbea71a7dcb75fb345e85edb661f76d74a5140.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "Spine-Chilling Skull 2011",
+				"defindex": 576,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Spine-Chilling Skull 2011",
+				"item_description": "Re-express your undying hatred for the living annually with this skull-themed hate hat.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/skull_horns_b.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/skull_horns_b",
+				"min_ilevel": 31,
+				"max_ilevel": 31,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_horns_b.3c2f6e8acd44a917be2fa941dba0f4a7893a2400.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_horns_b_large.560d4f115749222625f0918bd1fd72efe593515f.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"styles": [
+					{
+						"name": "Spine-Tingling"
+					},
+					{
+						"name": "Spine-Cooling"
+					},
+					{
+						"name": "Spine-Twisting"
+					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Giveaway Package 2011 (Cauldron)",
+				"defindex": 577,
+				"item_class": "tf_wearable",
+				"item_type_name": "Package",
+				"item_name": "Halloween Goodie Cauldron",
+				"item_description": "You can pry open the lid of this cauldron to see what strangeness lies within... from your backpack... IF YOU DARE.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/gift_halloween",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_halloween.b71c94eca8c1c0a0c229e0fab42dc0273b8b966c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_halloween_large.b586c9c8674d19fd19108a0738e154fcfe56c5fa.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "gift",
+					"usage": {
+						"loot_list": "halloween_loot_cauldron_2011",
+						"num_items": "1",
+						"max_recipients": "1",
+						"target_rule": "only_self"
+					}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Spine-Chilling Skull 2011 Style 1",
+				"defindex": 578,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Spine-Tingling Skull",
+				"item_description": "Express your dislike for the living.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/skull_horns_b.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/skull_horns_b",
+				"min_ilevel": 31,
+				"max_ilevel": 31,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_horns_b.3c2f6e8acd44a917be2fa941dba0f4a7893a2400.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_horns_b_large.560d4f115749222625f0918bd1fd72efe593515f.png",
+				"drop_type": "drop",
+				"craft_class": "haunted_hat",
+				"craft_material_type": "haunted_hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Spine-Chilling Skull 2011 Style 2",
+				"defindex": 579,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Spine-Cooling Skull",
+				"item_description": "Express your disdain for the living.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/skull_horns_b2.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/skull_horns_b2",
+				"min_ilevel": 31,
+				"max_ilevel": 31,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_horns_b2.1b076a6a5ed214a7e447c654dcc37ee3829e25da.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_horns_b2_large.17a9113266feac2b97cbd6ab3e30c7b8c3db4f38.png",
+				"drop_type": "drop",
+				"craft_class": "haunted_hat",
+				"craft_material_type": "haunted_hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Spine-Chilling Skull 2011 Style 3",
+				"defindex": 580,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Spine-Twisting Skull",
+				"item_description": "Express your discontent with the living.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/skull_horns_b3.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/skull_horns_b3",
+				"min_ilevel": 31,
+				"max_ilevel": 31,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_horns_b3.9e6e4f8b3818dd62e2def6171d63a8abd3bf28a3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/skull_horns_b3_large.ef0f1ff408ecbc8f8a5960e5bb6378bb8c30a513.png",
+				"drop_type": "drop",
+				"craft_class": "haunted_hat",
+				"craft_material_type": "haunted_hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "MONOCULUS!",
+				"defindex": 581,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "MONOCULUS!",
+				"item_description": "Celebrate the Demo's most serious childhood injury with this gruesome mask based on his missing, haunted eye.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/haunted_eyeball_hat_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/haunted_eyeball_hat",
+				"min_ilevel": 31,
+				"max_ilevel": 31,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/haunted_eyeball_hat.5959079eb73484df5e47fe7a2a07c4646a1ac56b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/haunted_eyeball_hat_large.44a51f472cfc27e32886dead329c61bebf9aafce.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Seal Mask",
+				"defindex": 582,
+				"item_class": "tf_wearable",
+				"item_type_name": "Mask",
+				"item_name": "Seal Mask",
+				"item_description": "Turn routine melee attacks into environmental hate crimes with this adorable mask.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/seal_mask_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/seal_mask_demo",
+				"min_ilevel": 31,
+				"max_ilevel": 31,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/seal_mask_demo.c660b8fb236d4cf7f7cc42e1c9c69eb0cd25da37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/seal_mask_demo_large.1bc333df4fc072ba53790ebe0b436d56d51e8fea.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Bombinomicon",
+				"defindex": 583,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Bombinomicon",
+				"item_description": "'If ye gaze upon one tome-themed badge this year, MAKE IT NOT THIS ONE!' - Merasmus the Magician'",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/bombonomicon.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/bombonomicon",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bombonomicon.6dc3119f20faa08d10161fa876c57265ae46c282.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bombonomicon_large.45722bff96d23409cadb9abb7a8fbd9d42c4d0be.png",
+				"drop_type": "none",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "bombinomicon effect on death",
+						"class": "bombinomicon_effect_on_death",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ghastly Gibus 2011",
+				"defindex": 584,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Ghastly Gibus",
+				"item_description": "Elegant simplicity and old-world charm combined with the heady aromas of mould and grave dust.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/all_domination_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_domination",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination.f6ad203289023cd4a1f25a5521eb036b2e1b0a1c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_domination_large.c82af779193cb9e0b04d69b95044cc8fb07f688a.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					},
+					{
+						"name": "halloween item",
+						"class": "halloween_item",
+						"value": 2011.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Manniversary Paper Hat",
+				"defindex": 598,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Manniversary Paper Hat",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/paper_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/paper_hat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/paper_hat.9a376ef12de264c2200df3edf84a87343aa03517.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/paper_hat_large.d24efafbb3e7935b2bc1974ee25a62dd0b408fe9.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Manniversary Giveaway Package",
+				"defindex": 599,
+				"item_class": "tf_wearable",
+				"item_type_name": "Package",
+				"item_name": "Manniversary Package",
+				"item_description": "From your fine friends at Mann Co., celebrating our one-year anniversary.\n\nThis contains a free sample from our fall lineup and can be opened from your backpack.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/gift_fashion",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_fashion.37487e85b245787048aacefe67105bbe44a20e0c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_fashion_large.14100626b22fb6fce56ec7f532f8157a9d95100a.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "gift",
+					"usage": {
+						"loot_list": "package_manniversary_2011",
+						"num_items": "1",
+						"max_recipients": "1",
+						"target_rule": "only_self"
+					}
+				}
+			},
+			{
+				"name": "Your Worst Nightmare",
+				"defindex": 600,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Your Worst Nightmare",
+				"item_description": "This bandanna will teach you to eat things that would make a billy goat puke. Like another billy goat.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/fwk_sniper_bandanahair.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/fwk_sniper_bandanahair",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_sniper_bandanahair.f3b0ab9687e19a39ba1d96c1f757c994c0cd3000.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_sniper_bandanahair_large.51a834cccdc8bc1a24bc3a12c108b9f7884f68f8.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "The One-Man Army",
+				"defindex": 601,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "One-Man Army",
+				"item_description": "You send that many men against a bandanna like this, don't forget one thing: A good supply of body bags.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/fwk_heavy_bandanahair.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/fwk_heavy_bandanahair",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_heavy_bandanahair.fdb1c16c89b169a2245a31a29939e3ed916fd4b1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_heavy_bandanahair_large.5b3428b17a769f87c45669cde9dcf849e18ae60b.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Counterfeit Billycock",
+				"defindex": 602,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Counterfeit Billycock",
+				"item_description": "This hat is a spy.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/fwk_spy_disguisedhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/fwk_spy_disguisedhat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_spy_disguisedhat.f5f84e2594172d113f4aed97ac28389b8d57e4e4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_spy_disguisedhat_large.8bcc7ffc932c5ad23a49d70ebc32229917a2d3e3.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Outdoorsman",
+				"defindex": 603,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Outdoorsman",
+				"item_description": "Chop wood. Eat syrup. Live in Canada. This hat lets you do it all.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/fwk_heavy_lumber.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/fwk_heavy_lumber",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_heavy_lumber.b5610408dffce977d44d4c59219422389078e8b8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_heavy_lumber_large.c569ed62666b8be79628d487503f51640c96ea2f.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Tavish DeGroot Experience",
+				"defindex": 604,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Tavish DeGroot Experience",
+				"item_description": "Hey, Joe, where you going with that sticky launcher in your hand?",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/fwk_demo_sashhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/fwk_demo_sashhat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_demo_sashhat.2d911ad5842f49b61f56ee43d7a096c7965078d3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_demo_sashhat_large.d586c033662d4dd278889bb5af843a028e51183a.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Pencil Pusher",
+				"defindex": 605,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Pencil Pusher",
+				"item_description": "Measure twice, cut once, shoot first.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/heavy_thinker.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/heavy_thinker",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/heavy_thinker.f680ecec75ea47ab7223dd315b3a6711f488e82b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/heavy_thinker_large.c54f27e5b8bbe3b612f1ff5ee70fa727d6e600e9.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Builder's Blueprints",
+				"defindex": 606,
+				"item_class": "tf_wearable",
+				"item_type_name": "Blueprints",
+				"item_name": "Builder's Blueprints",
+				"item_description": "Never bring a gun to a blueprint fight.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/fwk_engineer_blueprints.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/fwk_engineer_blueprints",
+				"min_ilevel": 15,
+				"max_ilevel": 15,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_engineer_blueprints.ec005d293e8f073cbd03bf5295930b823e7111bb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_engineer_blueprints_large.b2edae6d0b4b611c8e21dc0c9651f5e61b9315ca.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Buccaneer's Bicorne",
+				"defindex": 607,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Buccaneer's Bicorne",
+				"item_description": "Hoist the mainsail! Buckle those swashes! Get into a swordfight! Pirate captains yell stuff like this all the time, and now you can too.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/mighty_pirate.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/mightypirate",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mightypirate.2ad51ddcb69e8f916eeb2a6c5021c76d96d6066b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mightypirate_large.615f4a8c4e2bbc77a0d4651bcbaf6de50f1a1486.png",
+				"drop_type": "drop",
+				"item_set": "swashbucklers_swag",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Bootlegger",
+				"defindex": 608,
+				"item_class": "tf_wearable",
+				"item_type_name": "Boots",
+				"item_name": "Bootlegger",
+				"item_description": "Amaze your friends! Impress women! Walk with a limp for life! It's grotesque!",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/player\/items\/demo\/pegleg.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/pegleg",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pegleg.3a4f6393da46b6b29647f8e2ccd2038639f62942.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pegleg_large.44ea899d14e3fccaf682d4e2404ccb1aebcc7ee6.png",
+				"drop_type": "none",
+				"item_set": "swashbucklers_swag",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mult charge turn control",
+						"class": "charge_turn_control",
+						"value": 2.000000
+					},
+					{
+						"name": "max health additive bonus",
+						"class": "add_maxhealth",
+						"value": 25.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Scottish Handshake",
+				"defindex": 609,
+				"item_class": "tf_weapon_bottle",
+				"item_type_name": "Bottle",
+				"item_name": "Scottish Handshake",
+				"item_description": "Your enemies will think you're making peace, right up until the terrifying moment that their hand is very seriously cut! Here's the trick: It's a broken bottle!",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_scotland_shard\/c_scotland_shard.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_scotland_shard\/rum",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/rum.a9f55958f0482adc5b5725b4e17fa44ae10aff2a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/rum_large.c8334d2e2361d9d917a46a05e9835d09fa9586ae.png",
+				"item_set": "swashbucklers_swag",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "A Whiff of the Old Brimstone",
+				"defindex": 610,
+				"item_class": "tf_wearable",
+				"item_type_name": "Decorative Bombs",
+				"item_name": "A Whiff of the Old Brimstone",
+				"item_description": "Your enemies will clap in delight at the cartoonish innocence of these old-timey bombs, making it that much sweeter when you blow their arms off.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/demo_bombs.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/bombs",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bombs.0c3b23acd73f7cfb3937d6027671f02d1e3bfd08.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bombs_large.58134426fd02520a2a2938b87648bbda6fed96b2.png",
+				"drop_type": "none",
+				"item_set": "swashbucklers_swag",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Salty Dog",
+				"defindex": 611,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Salty Dog",
+				"item_description": "Get all of a boat captain's respect without the crushing responsibility of actually captaining a boat or the enormous amount of ongoing maintenance a boat requires!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/fwk_soldier_seacaptain.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/fwk_soldier_seacaptain",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_soldier_seacaptain.119863cfd78fbe663bcda8735c0c2c8e9fdee545.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_soldier_seacaptain_large.622f7481841979807fa223f5381464d6ab0d8a04.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Little Buddy",
+				"defindex": 612,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Little Buddy",
+				"item_description": "People will think you're in the Navy. But the joke is on them, BECAUSE YOU'RE NOT! That is just one possible benefit of this tricky hat.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/fwk_pyro_sailor.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/fwk_pyro_sailor",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_pyro_sailor.c9757e493f845b66722ff6e058647af0f86bc6ed.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_pyro_sailor_large.6afc6a06cbf1cbec20139f4fe90389c44df8dc57.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Gym Rat",
+				"defindex": 613,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Gym Rat",
+				"item_description": "Let's get physical. Physical.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/fwk_heavy_gym.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/fwk_heavy_gym",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_heavy_gym.eac33b96c632ab68834eb60f3fd53baaeedf8148.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_heavy_gym_large.de776ecaeccdc8606ee2b0fdee6f8429a730a69e.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Hot Dogger",
+				"defindex": 614,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Hot Dogger",
+				"item_description": "There's been a terrible explosion at the hot dog factory! That's what you can tell people, and they'll believe you because you will look like an expert on hot dogs.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/fwk_scout_hotdog.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fwk_scout_hotdog",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_scout_hotdog.94c20763107ee71e41e9ae2e0fd11b7439012ac5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_scout_hotdog_large.196d9534779e795e513bb7a40b68f3efe7a527cf.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Birdcage",
+				"defindex": 615,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Birdcage",
+				"item_description": "Everyone will wonder what the secret meaning of this mysterious hat is. The secret is you're an idiot.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/fwk_pyro_birdcage.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/fwk_pyro_birdcage",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_pyro_birdcage.6d8a17f5c0269509f0e1f2bea18e1b7e39a2e8ab.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_pyro_birdcage_large.6e5221baa1800d3d7f3bc9a3d1d2a60b61a2d8ea.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Surgeon's Stahlhelm",
+				"defindex": 616,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Surgeon's Stahlhelm",
+				"item_description": "Technically, field medics are protected as noncombatants under the Geneva Convention. The next time you get shot be sure to tell your killer. It's a conversation starter!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/medic\/fwk_medic_stahlhelm.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/fwk_medic_stahlhelm",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_medic_stahlhelm.dd88efb55745d75170049a5815b1dacb1e7be280.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_medic_stahlhelm_large.0274e1b10e63e057a8e37bc95f52b4fbcb4e2844.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "The Backwards Ballcap",
+				"defindex": 617,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Backwards Ballcap",
+				"item_description": "Stick it to Major League Baseball by not wearing their hat the right way.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/fwk_scout_cap.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fwk_scout_cap",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_scout_cap.3d9da82029de3b9465aa5b06b398ec35ccc64de3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_scout_cap_large.d8ba3f70f0b59833138b3d19419315161c5e75c1.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"styles": [
+					{
+						"name": "TF_ScoutBackwardsCap_Style0"
+					},
+					{
+						"name": "TF_ScoutBackwardsCap_Style1",
+						"additional_hidden_bodygroups": {
+							"headphones": 1
+						}
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Crocodile Smile",
+				"defindex": 618,
+				"item_class": "tf_wearable",
+				"item_type_name": "Necklace",
+				"item_name": "Crocodile Smile",
+				"item_description": "How many crocodiles had to die to make this necklace? A lot. That's the point.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/fwk_sniper_necklace.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/fwk_sniper_necklace",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_sniper_necklace.c9978621523fb4c9c1de226551546bb7d39564a8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_sniper_necklace_large.10fdb27a811adae98272eaf9394ad9c29881cd95.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "Flair!",
+				"defindex": 619,
+				"item_class": "tf_wearable",
+				"item_type_name": "Flair!",
+				"item_name": "Flair!",
+				"item_description": "Show enthusiasm! For your favorite things!\n\nCustom decals can be applied to this item.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/flair_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/flair_buttons",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/flair_buttons.733680e995c93946599ab85851a836348025737e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/flair_buttons_large.373b2fb8a863432db4b6747e78ba2ad6b69ff1bf.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_customize_texture": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Couvre Corner",
+				"defindex": 620,
+				"item_class": "tf_wearable",
+				"item_type_name": "Pocket Square",
+				"item_name": "Couvre Corner",
+				"item_description": "Sometimes we put some jokes in these descriptions. But, no joke: This looks good. Really sharp.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/fwk_medic_pocketsquare.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/fwk_medic_pocketsquare",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_medic_pocketsquare.bd66b8cb10f5da9f12378f1a0b6a314beb825173.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_medic_pocketsquare_large.e406e7f1a59e04fa6cd3b72884907dc191a0e2ae.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "The Surgeon's Stethoscope",
+				"defindex": 621,
+				"item_class": "tf_wearable",
+				"item_type_name": "Stethoscope",
+				"item_name": "Surgeon's Stethoscope",
+				"item_description": "Look like you know what you're doing when you pronounce people dead.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/fwk_medic_stethoscope.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/fwk_medic_stethoscope",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_medic_stethoscope.82dcc86dc853b60b20c1daea1cecf810d712b940.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_medic_stethoscope_large.9fcb9ccb27879efaffa4675800e3d2417da55b0d.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "L'Inspecteur",
+				"defindex": 622,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "L'Inspecteur",
+				"item_description": "Nobody is not scared of a policeman from France. That is why this hat is so effective.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/fwk_spy_inspector.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/fwk_spy_inspector",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_spy_inspector.7f17452bcc180fbe8a8d63c98cc8aac7179f7469.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_spy_inspector_large.5b638ebbf549c45104021b3c8ba5a0b784c1988f.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Photo Badge",
+				"defindex": 623,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Photo Badge",
+				"item_description": "Discourage identity theft.\n\nCustom decals can be applied to this item.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/photo_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/photo_badge",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/photo_badge.73125e102ee3d086175dcf2ffb0742f7998fa643.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/photo_badge_large.d6832604749beb1a511c737b373150c74aa2fa84.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_customize_texture": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Clan Pride",
+				"defindex": 625,
+				"item_class": "tf_wearable",
+				"item_type_name": "Medallion",
+				"item_name": "Clan Pride",
+				"item_description": "Because it's cheaper and less painful than a tattoo.\n\nCustom decals can be applied to this item.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/stampable_medal.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stampable_medal",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stampable_medal.ac48f9c2d603d90189dc89139b9357acd83f2c55.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stampable_medal_large.b732a6f96520e8cf49937cc6e5da13c337239ef2.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_customize_texture": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "The Swagman's Swatter",
+				"defindex": 626,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Swagman's Swatter",
+				"item_description": "This is the best hat. We couldn't say it if it weren't true. This one's the best.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/fwk_sniper_corkhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/fwk_sniper_corkhat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_sniper_corkhat.0ec3e4d8996a95d631c0fafeda49c249db52610e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_sniper_corkhat_large.0478c666a9da6eac31c15a5d38087ff8319de20c.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "The Flamboyant Flamenco",
+				"defindex": 627,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Flamboyant Flamenco",
+				"item_description": "Help your enemies celebrate Day of the Dead by wearing this hat and then killing them.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/fwk_pyro_flamenco.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/fwk_pyro_flamenco",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_pyro_flamenco.55efe375ba5bb9a450655786544aac85007458f2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_pyro_flamenco_large.9bc9eef42c5809d84b438188290a31a50155e2ec.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Virtual Reality Headset",
+				"defindex": 628,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Virtual Reality Headset",
+				"item_description": "With these on, you can pretend you're winning.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/fwk_engineer_cranial.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/fwk_engineer_cranial",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_engineer_cranial.3e625771983a94137ae1191df7714b62cb8164ef.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_engineer_cranial_large.a45bdd2e2aad8dad0a1ebfafa561ebe67fc20bcb.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Spectre's Spectacles",
+				"defindex": 629,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Spectre's Spectacles",
+				"item_description": "So mysterious. So deadly. So nearsighted.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/fwk_spy_specs.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/fwk_spy_specs",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_spy_specs.41a6ccbe4d01bc6fb0ed0d51d7d39330b1c09ebd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_spy_specs_large.8b9c93000585e8948a2e95f5ad6c9757080348f6.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Stereoscopic Shades",
+				"defindex": 630,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Stereoscopic Shades",
+				"item_description": "If you close an eye, one of the teams will disappear. So don't do that.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/fwk_scout_3d.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fwk_scout_3d",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_scout_3d.70653ad485954bacc35d273d34f8ec3a0cd14357.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_scout_3d_large.cdb95178a17aa14a59fbfdb309c1fbc1cc21f67c.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Hat With No Name",
+				"defindex": 631,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Hat With No Name",
+				"item_description": "A nameless hat for a nameless man.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/fwk_soldier_cowboyhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/fwk_soldier_cowboyhat",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_soldier_cowboyhat.18aad0323a42dd1bd612f427ed2f40bc0b0bf9cd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_soldier_cowboyhat_large.551c3243808a3a480a42c804f6f2684107c2d40a.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Cremator's Conscience",
+				"defindex": 632,
+				"item_class": "tf_wearable",
+				"item_type_name": "Conscience",
+				"item_name": "Cremator's Conscience",
+				"item_description": "'Burn him with fire!' 'No, burn him with fire, then hit him with an axe!'",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/fwk_pyro_conscience.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/fwk_pyro_conscience",
+				"min_ilevel": 15,
+				"max_ilevel": 15,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_pyro_conscience.8f640c899d2343677a25e76c4edbc794ea4e2efa.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_pyro_conscience_large.ca978255aef1e49fd312112f96aec5e4700f0d9f.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Hermes",
+				"defindex": 633,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Hermes",
+				"item_description": "Don't shoot the messenger. Actually, go ahead and try. Can't be done, pal! Too fast!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/fwk_scout_provision.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/fwk_scout_provision",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_scout_provision.3c8c039fd64d47a6ef174cd6d18be1281395f67f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fwk_scout_provision_large.ddcd25d94aa8deb38cf78c11e07257e498e82d07.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -14557,7 +17418,7 @@
 				"item_description": "Given to generous souls who have donated to community map makers. The effect will only be visible while on a map that has been donated towards!",
 				"proper_name": false,
 				"item_slot": "head",
-				"model_player": "models\/player\/items\/all_class\/world_traveller.mdl",
+				"model_player": "models\/player\/items\/all_class\/world_traveller_scout.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/all_class\/world_traveller",
 				"min_ilevel": 20,
@@ -14566,6 +17427,7 @@
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/world_traveller_large.40980d35c6ba1e96dc04f6cfdeb1260d9c8f4b51.png",
 				"drop_type": "drop",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_craft_mark": true
 				},
@@ -14589,7 +17451,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Egypt",
-				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Egypt community map.  Show your support today!",
+				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creator of the Egypt community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14635,7 +17497,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Fastlane",
-				"item_description": "A Control Point Map\n\nMade by Arttu 'SK' Mäki\n\nPurchasing this item directly supports the creators of the Fastlane community map.  Show your support today!",
+				"item_description": "A Control Point Map\n\nMade by Arttu 'SK' Mäki\n\nPurchasing this item directly supports the creator of the Fastlane community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14658,7 +17520,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Turbine",
-				"item_description": "A Capture the Flag Map\n\nMade by Flobster\n\nPurchasing this item directly supports the creators of the Turbine community map.  Show your support today!",
+				"item_description": "A Capture the Flag Map\n\nMade by Flobster\n\nPurchasing this item directly supports the creator of the Turbine community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14704,7 +17566,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Junction",
-				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Junction community map.  Show your support today!",
+				"item_description": "An Attack\/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creator of the Junction community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14727,7 +17589,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Watchtower",
-				"item_description": "An Arena Map\n\nMade by Joshua 'JoshuaC' Shiflet\n\nPurchasing this item directly supports the creators of the Watchtower community map.  Show your support today!",
+				"item_description": "An Arena Map\n\nMade by Joshua 'JoshuaC' Shiflet\n\nPurchasing this item directly supports the creator of the Watchtower community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14773,7 +17635,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Offblast",
-				"item_description": "An Arena Map\n\nMade by Magnar 'insta' Jenssen\n\nPurchasing this item directly supports the creators of the Offblast community map.  Show your support today!",
+				"item_description": "An Arena Map\n\nMade by Magnar 'insta' Jenssen\n\nPurchasing this item directly supports the creator of the Offblast community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14819,7 +17681,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Harvest",
-				"item_description": "A King of the Hill Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Harvest community map.  Show your support today!",
+				"item_description": "A King of the Hill Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creator of the Harvest community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14865,7 +17727,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Mountain Lab",
-				"item_description": "An Attack\/Defence Control Point Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creators of the Mountain Lab community map.  Show your support today!",
+				"item_description": "An Attack\/Defence Control Point Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Mountain Lab community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14911,7 +17773,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Nightfall",
-				"item_description": "A Payload Race map\n\nMade by Aaron 'Psy' Garcha and Paul Good\n\nPurchasing this item directly supports the creators of the Nightfall community map.  Show your support today!",
+				"item_description": "A Payload Race Map\n\nMade by Aaron 'Psy' Garcha and Paul Good\n\nPurchasing this item directly supports the creators of the Nightfall community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14934,7 +17796,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Frontier",
-				"item_description": "A Payload map\n\nMade by Patrick 'MangyCarface' Mulholland and Arhurt\n\nPurchasing this item directly supports the creators of the Frontier community map.  Show your support today!",
+				"item_description": "A Payload Map\n\nMade by Patrick 'MangyCarface' Mulholland and Arhurt\n\nPurchasing this item directly supports the creators of the Frontier community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14957,7 +17819,7 @@
 				"item_class": "map_token",
 				"item_type_name": "Map Stamp",
 				"item_name": "Map Stamp - Lakeside",
-				"item_description": "A King of the Hill map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creators of the Lakeside community map.  Show your support today!",
+				"item_description": "A King of the Hill Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Lakeside community map.  Show your support today!",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -14966,6 +17828,29 @@
 				"max_ilevel": 50,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_lakeside.f9eb7f1848d9cb4da68a544acfd9ec9821c07e42.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_lakeside_large.d17fd7d865548fab83eda90277ded04dcb7e17af.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Map Token Gullywash",
+				"defindex": 1917,
+				"item_class": "map_token",
+				"item_type_name": "Map Stamp",
+				"item_name": "Map Stamp - Gullywash",
+				"item_description": "A Control Point Map\n\nMade by Jan 'Arnold' Laroy\n\nPurchasing this item directly supports the creator of the Gullywash community map.  Show your support today!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamp_gullywash",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_gullywash.86e8687005ae92c0c3b4eaba6e6a64b5c0f60544.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_gullywash_large.ef8f4107b7d99a1d62c9788cc06a16382bdcd86e.png",
 				"capabilities": {
 					"can_craft_mark": true
 				},
@@ -16032,11 +18917,11 @@
 				}
 			},
 			{
-				"name": "Deus Ex Purity Fist PAX Promo",
+				"name": "Deus Ex Purity Fist Promo",
 				"defindex": 2041,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "TF_Bundle_DeusExPAX",
+				"item_name": "TF_Bundle_DeusExFistPromo",
 				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
@@ -16271,6 +19156,274 @@
 					}
 				]
 				
+			},
+			{
+				"name": "Map Token Bundle 3",
+				"defindex": 2049,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Map Stamps Collection",
+				"item_description": "Includes one a stamp for each community made map.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamp_collection",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_collection.eee58fb79e7aab6089d3eeab0aa6903d5ee1dccc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_collection_large.98575cfa328cabd56e340535e044a6db43368415.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Football Manager 2012 Promo Bundle",
+				"defindex": 2050,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Footballer's Kit",
+				"item_description": "Pick a side and show your pride:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/soccer_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soccer_bundle.3b86cc25af0044665d7b30977effbae2b98fe3fa.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soccer_bundle_large.2a0217336851705b3a0479fcef9716f7637e96b1.png",
+				"capabilities": {
+					"can_craft_mark": true
+				}
+			},
+			{
+				"name": "Demo Halloween 2011 Bundle",
+				"defindex": 2051,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Highland Hound Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/demo_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_bundle_bag.a88c5f351e698db1dd396e88f7229f5b5ef01838.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_bundle_bag_large.af528e3b9d604679f2c91e7d2816a47461684d28.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "Scout Halloween 2011 Bundle",
+				"defindex": 2052,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Curse-a-Nature Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/scout_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/scout_bundle_bag.2b6ee159681765601b73743b94ce673dee76126e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/scout_bundle_bag_large.d4fc610bd3a4ff9c980d101035a81c3ba6109394.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "Pyro Halloween 2011 Bundle",
+				"defindex": 2053,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Infernal Imp Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/pyro_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_bundle_bag.c3a5d3be71832b6243043d1cc9ffdc50dcaad061.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_bundle_bag_large.5b995268ef935453978854e513dc5ca9af125649.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "Medic Halloween 2011 Bundle",
+				"defindex": 2054,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Mad Doktor Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/medic_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medic_bundle_bag.130a9c3eda926ed31554a24c59a816179ec694e3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medic_bundle_bag_large.59f3eb972914c32d3e4a4da78150b0a44d52e9ce.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "Soldier Halloween 2011 Bundle",
+				"defindex": 2055,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Tin Soldier Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/soldier_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_bundle_bag.223953b9255039f2d1a7ec0ef1a3bac3b0da65bc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/soldier_bundle_bag_large.a0a516ff7fec7c930a7a85bc21c5be5bbb2c2c5b.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "Spy Halloween 2011 Bundle",
+				"defindex": 2056,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Invisible Rogue Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/spy_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_bundle_bag.5edb6a15ab58027c3f6a64f73316c4f1762f54e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_bundle_bag_large.5a135031483cf3b81f6ff4f02ea8d509e0ad06b2.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Heavy Halloween 2011 Bundle",
+				"defindex": 2057,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The FrankenHeavy Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/heavy_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/heavy_bundle_bag.fdba1f2163f8edb446f1c7562ef9418e4507c4ba.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/heavy_bundle_bag_large.d8f5acb95abe0be065942d3b3289669af6d12c34.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "Sniper Halloween 2011 Bundle",
+				"defindex": 2058,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Camper Van Helsing Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/sniper_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sniper_bundle_bag.61d8e072307ea32956328420f14c7241943c0a26.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sniper_bundle_bag_large.bed7f6ed948c816d5fcb42f312dcb51ce30e6793.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "Engineer Halloween 2011 Bundle",
+				"defindex": 2059,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Brundle Bundle Bundle",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/engineer_bundle_bag",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/engineer_bundle_bag.e52b4d2b651decec9a5b4158d66cc0d931b3baf8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/engineer_bundle_bag_large.96da382e9632c827e783abc781cb87ca07dd1231.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "Halloween 2011 Bundle",
+				"defindex": 2060,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Halloween 2011 Costume Bundle of Bundles",
+				"item_description": "Celebrate Halloween using these items:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/bundle_of_bundles",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bundle_of_bundles.66fdfcd285bc8fd61c2ffd47296109fb77c60c6f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bundle_of_bundles_large.6acd60b68c700b9f45d0d413eb3a9a0c18373df4.png",
+				"capabilities": {
+					"can_craft_mark": true
+				}
 			},
 			{
 				"name": "Craft Bar Level 1",
@@ -16735,7 +19888,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 26.000000
+						"value": 31.000000
 					}
 				]
 				
@@ -16781,6 +19934,37 @@
 						"class": "always_tradable",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "Customize Texture Tool",
+				"defindex": 5026,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "Decal Tool",
+				"item_description": "Add a custom decal to eligible items.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/decal_tool",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/decal_tool.9e32f1e4ecccc84ff25c437de7e5c92986ebee37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/decal_tool_large.b9b38936cd28710e7ca4c03e4de947e34fdd6c9f.png",
+				"craft_class": "tool",
+				"craft_material_type": "tool",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "customize_texture_item",
+					"usage_capabilities": {
+						"can_customize_texture": true
+					}
+				},
+				"used_by_classes": [
+
 				]
 				
 			},
@@ -17433,7 +20617,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 27.000000
+						"value": 32.000000
 					}
 				]
 				
@@ -18326,7 +21510,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable_team_colors": true
+						"paintable": true
 					}
 				},
 				"used_by_classes": [
@@ -18425,6 +21609,43 @@
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Supply Crate Rare",
+				"defindex": 5068,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Salvaged Mann Co. Supply Crate",
+				"item_description": "You need a Mann Co. Supply Crate Key to open this.\nYou can pick one up at the Mann Co. Store.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/crate_salvage",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/crate_salvage.279ae14ae07a586aeb6dab1ec0dd67e557ee88ae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/crate_salvage_large.5b3630661a473a93cb0d458c2d0d4c417794f313.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": ""
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 30.000000
 					}
 				]
 				
@@ -20485,9 +23706,9 @@
 				"stored_as_integer": false
 			},
 			{
-				"name": "taunt is hifive",
+				"name": "taunt is highfive",
 				"defindex": 145,
-				"attribute_class": "enable_misc2_hifive",
+				"attribute_class": "enable_misc2_highfive",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
 				"effect_type": "neutral",
@@ -21758,7 +24979,7 @@
 				"attribute_class": "airblast_pushback_scale",
 				"min_value": 0.000000,
 				"max_value": 32.000000,
-				"description_string": "Attrib_AirBlastPushScale",
+				"description_string": "+%s1% increased airblast pushback",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -22262,6 +25483,16 @@
 				"stored_as_integer": true
 			},
 			{
+				"name": "taunt is press and hold",
+				"defindex": 322,
+				"attribute_class": "enable_misc2_holdtaunt",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
 				"name": "disable fancy class select anim",
 				"defindex": 328,
 				"attribute_class": "disable_fancy_class_select_anim",
@@ -22269,6 +25500,58 @@
 				"max_value": 1.150000,
 				"effect_type": "neutral",
 				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "override footstep sound set",
+				"defindex": 330,
+				"attribute_class": "override_footstep_sound_set",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "spawn with physics toy",
+				"defindex": 331,
+				"attribute_class": "spawn_with_physics_toy",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "fish damage override",
+				"defindex": 332,
+				"attribute_class": "fish_damage_override",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "special dsp",
+				"defindex": 333,
+				"attribute_class": "special_dsp",
+				"min_value": 1.000000,
+				"max_value": 150.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "bombinomicon effect on death",
+				"defindex": 334,
+				"attribute_class": "bombinomicon_effect_on_death",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "Explode spectacularly on death",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
 				"stored_as_integer": false
 			}
 		]
@@ -22308,6 +25591,16 @@
 				
 			},
 			{
+				"item_set": "demo_halloween_2011",
+				"name": "The Highland Hound",
+				"items": [
+					"Hair of the Dog",
+					"Scottish Snarl",
+					"Pickled Paws"
+				]
+				
+			},
+			{
 				"item_set": "desert_demo",
 				"name": "One Thousand and One Demoknights",
 				"items": [
@@ -22336,6 +25629,24 @@
 					"The Righteous Bison",
 					"Lord Cockswain's Pith Helmet",
 					"Lord Cockswain's Novelty Mutton Chops and Pipe"
+				]
+				
+			},
+			{
+				"item_set": "engineer_halloween_2011",
+				"name": "The Brundle Bundle",
+				"items": [
+					"Buzz Killer",
+					"Frontier Flyboy",
+					"Legend of Bugfoot"
+				]
+				,
+				"attributes": [
+					{
+						"name": "special dsp",
+						"class": "special_dsp",
+						"value": 134.000000
+					}
 				]
 				
 			},
@@ -22380,6 +25691,16 @@
 				
 			},
 			{
+				"item_set": "heavy_halloween_2011",
+				"name": "The FrankenHeavy",
+				"items": [
+					"Can Opener",
+					"Soviet Stitch-Up",
+					"Steel-Toed Stompers"
+				]
+				
+			},
+			{
 				"item_set": "hibernating_bear",
 				"name": "The Hibernating Bear",
 				"store_bundle": "Hibernating Bear Bundle",
@@ -22395,6 +25716,16 @@
 						"class": "mult_dmgtaken_from_crit",
 						"value": 0.950000
 					}
+				]
+				
+			},
+			{
+				"item_set": "medic_halloween_2011",
+				"name": "The Mad Doktor",
+				"items": [
+					"Einstein",
+					"Dr. Gogglestache",
+					"Emerald Jarate"
 				]
 				
 			},
@@ -22524,12 +25855,73 @@
 				
 			},
 			{
+				"item_set": "pyro_halloween_2011",
+				"name": "The Infernal Imp",
+				"items": [
+					"Blazing Bull",
+					"Fallen Angel",
+					"Tail From the Crypt"
+				]
+				
+			},
+			{
 				"item_set": "rapid_repair",
 				"name": "Clinical Trial",
 				"items": [
 					"The Quick-Fix",
 					"The Overdose",
 					"The Solemn Vow"
+				]
+				
+			},
+			{
+				"item_set": "scout_halloween_2011",
+				"name": "The Curse-a-Nature",
+				"items": [
+					"Wrap Battler",
+					"B-ankh!",
+					"Futankhamun"
+				]
+				
+			},
+			{
+				"item_set": "sniper_halloween_2011",
+				"name": "The Camper Van Helsing",
+				"items": [
+					"Holy Hunter",
+					"Silver Bullets",
+					"Garlic Flank Stake"
+				]
+				
+			},
+			{
+				"item_set": "soldier_halloween_2011",
+				"name": "The Tin Soldier",
+				"items": [
+					"Idiot Box",
+					"Steel Pipes",
+					"Shoestring Budget"
+				]
+				
+			},
+			{
+				"item_set": "spy_halloween_2011",
+				"name": "The Invisible Rogue",
+				"items": [
+					"Under Cover",
+					"Griffin's Gog",
+					"Intangible Ascot"
+				]
+				
+			},
+			{
+				"item_set": "swashbucklers_swag",
+				"name": "Swashbuckler's Swag",
+				"items": [
+					"The Scottish Handshake",
+					"The Buccaneer's Bicorne",
+					"A Whiff of the Old Brimstone",
+					"The Bootlegger"
 				]
 				
 			}
@@ -22718,6 +26110,30 @@
 				"id": 36,
 				"attach_to_rootbone": true,
 				"name": "Steaming"
+			},
+			{
+				"system": "unusual_orbit_jack_flaming",
+				"id": 37,
+				"attach_to_rootbone": true,
+				"name": "Flaming Lantern"
+			},
+			{
+				"system": "unusual_fullmoon_cloudy",
+				"id": 38,
+				"attach_to_rootbone": true,
+				"name": "Cloudy Moon"
+			},
+			{
+				"system": "unusual_bubbles_green",
+				"id": 39,
+				"attach_to_rootbone": true,
+				"name": "Cauldron Bubbles"
+			},
+			{
+				"system": "unusual_orbit_fire_dark",
+				"id": 40,
+				"attach_to_rootbone": true,
+				"name": "Eerie Orbiting Fire"
 			}
 		]
 		,
@@ -22857,6 +26273,10 @@
 			{
 				"type": 6,
 				"type_name": "Heads Taken"
+			},
+			{
+				"type": 7,
+				"type_name": "Humiliations"
 			}
 		]
 		
