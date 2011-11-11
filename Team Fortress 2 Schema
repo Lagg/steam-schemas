@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.a4f775e379b895c1e0d5fb4b53bb56d342caa20b.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.3768eb68644bf34504fc4b5fac347d76be57568b.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -16266,6 +16266,114 @@
 				
 			},
 			{
+				"name": "Cold War Luchador",
+				"defindex": 585,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Cold War Luchador",
+				"item_description": "The most terrifying Soviet\/Latino partnership since the Cuban Missile Crisis.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/sr3_heavy_mask.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/sr3_heavy_mask",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sr3_heavy_mask.8e1ebfd07d18b65f1c75d98b4a20ff6033799b1f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sr3_heavy_mask_large.956b785849e0612b7d2a3dcbed93a0a478220999.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Mark of the Saint",
+				"defindex": 586,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Mark of the Saint",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sr3_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sr3_badge",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sr3_badge.aa68f18685a828e82d70e9f0c58778ca42155253.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sr3_badge_large.bdf85ac011cd5cdf1508e7cda5c831b3e32fb8fb.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Apoco-Fists",
+				"defindex": 587,
+				"item_class": "tf_weapon_fists",
+				"item_type_name": "Fists",
+				"item_name": "Apoco-Fists",
+				"item_description": "Turn every one of your fingers into the Four Horsemen of the Apocalypse! That's over nineteen Horsemen of the Apocalypse per glove! The most Apocalypse we've ever dared attach to one hand!",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_sr3_punch\/c_sr3_punch.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sr3_punch\/c_sr3_punch",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sr3_punch.077e5337d574c95e4b359be6082fb128cd037c45.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sr3_punch_large.9f2e32088ad55697cc7a8749e8a5e93e148aaf77.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "crit kill will gib",
+						"class": "crit_kill_will_gib",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Manniversary Paper Hat",
 				"defindex": 598,
 				"item_class": "tf_wearable",
@@ -19369,6 +19477,33 @@
 				"capabilities": {
 					"can_craft_mark": true
 				}
+			},
+			{
+				"name": "Mysterious Promo",
+				"defindex": 2061,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_MysteriousPromo",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Craft Bar Level 1",
@@ -25067,14 +25202,14 @@
 				"stored_as_integer": false
 			},
 			{
-				"name": "draw sniper beam when scoped UNUSED",
+				"name": "crit kill will gib",
 				"defindex": 309,
-				"attribute_class": "draw_sniper_beam_when_scoped_UNUSED",
+				"attribute_class": "crit_kill_will_gib",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
-				"description_string": "Attrib_DrawBeamWhenScoped",
+				"description_string": "Killing an enemy with a critical hit will dismember your victim. Painfully.",
 				"description_format": "value_is_additive",
-				"effect_type": "negative",
+				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
 			},

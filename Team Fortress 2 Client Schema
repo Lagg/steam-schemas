@@ -22549,6 +22549,141 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}	
+		
+		"585"
+		{
+			"name"	"Cold War Luchador"
+			"prefab"	"hat"
+			"craft_class"		""					
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"				
+			}
+			"item_name"	"#TF_Luchador"
+			"item_description"	"#TF_Luchador_Desc"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"propername"	"1"
+			"item_slot"	"misc"
+			"equip_region"	"head_skin"
+			"image_inventory"	"backpack/player/items/heavy/sr3_heavy_mask"
+			"model_player"	"models/player/items/heavy/sr3_heavy_mask.mdl"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+		"586"
+		{
+			"name"	"Mark of the Saint"
+			"loadondemand"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"		""					
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_Saint_Pin"
+			"item_description"	"#TF_Saint_Pin_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"image_inventory"	"backpack/player/items/all_class/sr3_badge"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"propername"	"1"
+			"model_player"	"models/player/items/all_class/sr3_badge.mdl"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"drop_type"		"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
+		"587"
+		{
+			"name"	"Apoco-Fists"
+			"item_class"	"tf_weapon_fists"
+			"craft_class"		""					
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Fists"
+			"item_name"	"#TF_Apocofists"
+			"item_description"	"#TF_Apocofists_Desc"
+			"item_slot"	"melee"
+			"item_logname"	"apocofists"
+			"item_iconname"	"apocofists"
+			"image_inventory"	"backpack/weapons/c_models/c_sr3_punch/c_sr3_punch"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_sr3_punch/c_sr3_punch.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"attributes"
+			{
+				"crit kill will gib"
+				{
+					"attribute_class"	"crit_kill_will_gib"
+					"value"	"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"hide_bodygroups_deployed_only"	"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hands"			"1"
+				}
+			}
+			"mouse_pressed_sound" "ui/item_boxing_gloves_pickup.wav"
+			"drop_sound" "ui/item_boxing_gloves_drop.wav"
+		}
 	
 		
 		"598"
@@ -26304,6 +26439,46 @@
 				"spy" 		"1"
 				"engineer" 	"1"
 				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2061"
+		{
+			"name" "Mysterious Promo"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_MysteriousPromo"
+			"item_description"	"#TF_Bundle_MysteriousPromo_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -32749,18 +32924,17 @@
 		}
 		"309"
 		{
-			"name"	"draw sniper beam when scoped UNUSED"
-			"attribute_class"	"draw_sniper_beam_when_scoped_UNUSED"
-			"attribute_name"	"draw sniper beam when scoped"
+			"name"	"crit kill will gib"
+			"attribute_class"	"crit_kill_will_gib"
 			"min_value"	"0"
 			"max_value"	"1"
-			"group"	"penetration"
-			"description_string"	"#Attrib_DrawBeamWhenScoped"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CritKillWillGib"
 			"description_format"	"value_is_additive"
 			"hidden"	"0"
-			"effect_type"	"negative"
+			"effect_type"	"positive"
 			"stored_as_integer"	"0"
-		}
+		}		
 		"311"
 		{
 			"name"	"unlimited quantity"
