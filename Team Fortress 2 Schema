@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.3768eb68644bf34504fc4b5fac347d76be57568b.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9102549dffe6485285a256f0546d8243508802dc.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -5553,7 +5553,7 @@
 				"max_ilevel": 100,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fez.ee87ed452e089760f1c9019526d22fcde9ec2450.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fez_large.dade64f9cbd0a7b67df37703b6637bb8f7e739c0.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"item_set": "polycount_spy",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
@@ -16661,7 +16661,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mightypirate.2ad51ddcb69e8f916eeb2a6c5021c76d96d6066b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mightypirate_large.615f4a8c4e2bbc77a0d4651bcbaf6de50f1a1486.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"item_set": "swashbucklers_swag",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
@@ -22092,6 +22092,8 @@
 				"attribute_class": "mult_crit_chance",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "No random critical hits",
+				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": true,
 				"stored_as_integer": false
@@ -23328,6 +23330,8 @@
 				"attribute_class": "desc_community_description",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "Given to valuable Community Contributors",
+				"description_format": "value_is_percentage",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": false
@@ -23422,6 +23426,8 @@
 				"attribute_class": "add_maxhealth_nonbuffed",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "+%s1 max health on wearer",
+				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": false
@@ -23432,6 +23438,8 @@
 				"attribute_class": "desc_selfmade_description",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "I made this!",
+				"description_format": "value_is_percentage",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": false
@@ -23442,6 +23450,8 @@
 				"attribute_class": "set_item_tint_rgb",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "Item tint color code: %s1",
+				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": false
@@ -23464,6 +23474,8 @@
 				"attribute_class": "set_weapon_mode",
 				"min_value": 2.000000,
 				"max_value": 2.000000,
+				"description_string": "Sets weapon mode #%s1",
+				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": false
@@ -23566,6 +23578,8 @@
 				"attribute_class": "cannot_trade",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "Not Tradable",
+				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": false
@@ -23792,6 +23806,8 @@
 				"attribute_class": "purchased",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
+				"description_string": "Purchased: Not Tradable or Usable in Crafting",
+				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": false
@@ -23946,6 +23962,8 @@
 				"attribute_class": "event_date",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
+				"description_string": "Date Received: %s1",
+				"description_format": "value_is_date",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": true
@@ -23956,6 +23974,8 @@
 				"attribute_class": "gifter_account_id",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
+				"description_string": "\nGift from: %s1",
+				"description_format": "value_is_account_id",
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": true
@@ -24044,7 +24064,9 @@
 				"attribute_class": "referenced_item_def",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
-				"effect_type": "negative",
+				"description_string": "Contains: %s1",
+				"description_format": "value_is_item_def",
+				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": true
 			},
@@ -24054,6 +24076,8 @@
 				"attribute_class": "always_tradable",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "Always Tradable",
+				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": true,
 				"stored_as_integer": false
@@ -24064,6 +24088,8 @@
 				"attribute_class": "enable_misc2_noisemaker",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
+				"description_string": "Noise Maker",
+				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": false
@@ -24238,6 +24264,8 @@
 				"attribute_class": "tradable_after_date",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
+				"description_string": "\nTradable After: %s1",
+				"description_format": "value_is_date",
 				"effect_type": "negative",
 				"hidden": true,
 				"stored_as_integer": true
@@ -24426,6 +24454,8 @@
 				"attribute_class": "makers_mark_id",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "Crafted by %s1",
+				"description_format": "value_is_account_id",
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": true
@@ -24578,6 +24608,8 @@
 				"attribute_class": "mult_reload_time_hidden",
 				"min_value": 1.100000,
 				"max_value": 2.000000,
+				"description_string": "%s1% slower reload time",
+				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": true,
 				"stored_as_integer": false
@@ -24810,6 +24842,8 @@
 				"attribute_class": "set_item_tint_rgb_2",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "Item tint color code: %s1",
+				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": false
@@ -24820,6 +24854,8 @@
 				"attribute_class": "saxxy_award_category",
 				"min_value": 0.000000,
 				"max_value": 32.000000,
+				"description_string": "Winner: %s1 %s2\n",
+				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": true
@@ -25127,6 +25163,8 @@
 				"attribute_class": "expiration_date",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
+				"description_string": "This item will expire on %s1.",
+				"description_format": "value_is_date",
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": true
