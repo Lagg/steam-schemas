@@ -23938,6 +23938,109 @@
 		}		
 
 		
+		"634"
+		{
+			"name"	"Point and Shoot"
+			"prefab"	"hat"			
+			"craft_class"		""					
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"				
+			}
+			"item_name"	"#TF_TrnHat"
+			"item_description"	"#TF_TrnHat_Desc"
+			"image_inventory"	"backpack/player/items/all_class/trn_wiz_hat_demo"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"propername"	"1"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/trn_wiz_hat_scout.mdl"
+				"sniper"	"models/player/items/all_class/trn_wiz_hat_sniper.mdl"
+				"soldier"	"models/player/items/all_class/trn_wiz_hat_soldier.mdl"
+				"demoman"	"models/player/items/all_class/trn_wiz_hat_demo.mdl"
+				"medic"		"models/player/items/all_class/trn_wiz_hat_medic.mdl"
+				"heavy"		"models/player/items/all_class/trn_wiz_hat_heavy.mdl"
+				"spy"		"models/player/items/all_class/trn_wiz_hat_spy.mdl"
+				"engineer"	"models/player/items/all_class/trn_wiz_hat_engineer.mdl"
+				"pyro"		"models/player/items/all_class/trn_wiz_hat_pyro.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+		"635"
+		{
+			"name"	"War Head"
+			"first_sale_date"	"2011/11/14"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+			}
+			"loadondemand" "0"
+			"show_in_armory"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"propername"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_TrnHelmet"
+			"item_description"	"#TF_TrnHelmet_Desc"
+			"item_slot"	"head"
+			"equip_regions"
+			{
+				"hat"		"1"
+				"ears"		"1"
+			}	
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/heavy/trn_heavy_knight"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/heavy/trn_heavy_knight.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"		
+		}
+		
 
 		"1899"
 		{
