@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9102549dffe6485285a256f0546d8243508802dc.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.ce7df3e49ecf7b9519f366a960de9210cadc0c9e.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -17459,6 +17459,73 @@
 				},
 				"used_by_classes": [
 					"Scout"
+				]
+				
+			},
+			{
+				"name": "Point and Shoot",
+				"defindex": 634,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Point and Shoot",
+				"item_description": "The next time someone accuses you of not being a real wizard because you refuse to (read: can’t) do spells, poke them in the eye with this magically blinding pointy hat and run.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/trn_wiz_hat_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/trn_wiz_hat_demo",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trn_wiz_hat_demo.969d5700c526108989b9e93ef08eaeb17cacbab9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trn_wiz_hat_demo_large.b7971080eb5d7e2ae198e82211c406944314b323.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "War Head",
+				"defindex": 635,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "War Head",
+				"item_description": "Protect your thought-horde from dragons, sorcery, and other make-believe dangers with this spiky lead battle-mask.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/trn_heavy_knight.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/trn_heavy_knight",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trn_heavy_knight.dba53da7adf78d3d76c5a5933dd4157418ce9e48.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trn_heavy_knight_large.c8e7dde5bea12ce8d6a9b14036dbca2a87052f16.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
 				]
 				
 			},
