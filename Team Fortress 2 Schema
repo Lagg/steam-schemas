@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.ce7df3e49ecf7b9519f366a960de9210cadc0c9e.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.4f3a7fadd07d142294c3ea2bcf263729c7977637.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -17526,6 +17526,35 @@
 						"class": "cannot_trade",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "Bowtie",
+				"defindex": 639,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Shirt",
+				"item_name": "Dr. Whoa",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/bowtie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/bowtie",
+				"min_ilevel": 15,
+				"max_ilevel": 15,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bowtie.3dada19c616dba4b20abe31899772f84506955f2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bowtie_large.0bbe0141873a34f4ed33c1dc2130c2545a7a76a3.png",
+				"drop_type": "none",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Medic",
+					"Spy"
 				]
 				
 			},

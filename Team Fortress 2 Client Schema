@@ -24042,6 +24042,44 @@
 		}
 		
 
+		"639"
+		{
+			"name"	"Bowtie"
+			"first_sale_date"	"2011/11/16"
+			"loadondemand"	"0"
+			"capabilities"
+			{
+				"nameable"				"1"
+				"paintable"				"1"
+				"can_gift_wrap" 		"1"
+			}
+			"item_class"	"tf_wearable"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Shirt"
+			"item_name"	"#TF_Bowtie"
+			"item_description"	"#TF_Bowtie_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"neck"
+			"image_inventory"	"backpack/player/items/medic/bowtie"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"model_player_per_class"	
+			{
+				"medic"		"models/player/items/medic/bowtie.mdl"
+				"spy"		"models/player/items/spy/bowtie.mdl"
+			}
+			"min_ilevel"	"15"
+			"max_ilevel"	"15"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"medic"	"1"
+				"spy"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
 		"1899"
 		{
 			"name"	"World Traveler"
