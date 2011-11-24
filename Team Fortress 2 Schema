@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.4f3a7fadd07d142294c3ea2bcf263729c7977637.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1fef2051df5c23112c7527bd3ec5414e838e8662.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -16282,22 +16282,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sr3_heavy_mask.8e1ebfd07d18b65f1c75d98b4a20ff6033799b1f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sr3_heavy_mask_large.956b785849e0612b7d2a3dcbed93a0a478220999.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Heavy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -16318,20 +16312,14 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sr3_badge.aa68f18685a828e82d70e9f0c58778ca42155253.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sr3_badge_large.bdf85ac011cd5cdf1508e7cda5c831b3e32fb8fb.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "Apoco-Fists",
@@ -16349,10 +16337,12 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sr3_punch.077e5337d574c95e4b359be6082fb128cd037c45.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sr3_punch_large.9f2e32088ad55697cc7a8749e8a5e93e148aaf77.png",
-				"craft_class": "",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -16363,11 +16353,6 @@
 					{
 						"name": "crit kill will gib",
 						"class": "crit_kill_will_gib",
-						"value": 1.000000
-					},
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
 						"value": 1.000000
 					}
 				]
@@ -17530,6 +17515,80 @@
 				
 			},
 			{
+				"name": "The Dashin' Hashshashin",
+				"defindex": 637,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Dashin' Hashshashin",
+				"item_description": "When you need to go deep undercover, one disguise is not enough! Put a hood over that ski-mask, then wrap a towel around it. Boldly announce to the world that you are inconspicuous!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/acr_assassins_cowl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/acr_assassins_cowl",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/acr_assassins_cowl.4e72dde86c77b2a3c4c1a68c4615f6c19e457a2e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/acr_assassins_cowl_large.b7cd9a27c7aea94c2dc5b4b07ed9a6c0bb5e3bae.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Sharp Dresser",
+				"defindex": 638,
+				"item_class": "tf_weapon_knife",
+				"item_type_name": "Knife",
+				"item_name": "Sharp Dresser",
+				"item_description": "Every merc's crazy for a sharp-dressed man. With 15th century murder-knives extruding from his cufflinks.",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_acr_hookblade\/c_acr_hookblade.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_acr_hookblade\/c_acr_hookblade",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_acr_hookblade.bff93c1997f755c608bf74d9eadcdbb5261529d8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_acr_hookblade_large.ef2d983d63704879cde28f5b28c9f26578dcf6fe.png",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Bowtie",
 				"defindex": 639,
 				"item_class": "tf_wearable",
@@ -17555,6 +17614,35 @@
 				"used_by_classes": [
 					"Medic",
 					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Top Notch",
+				"defindex": 640,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Top Notch",
+				"item_description": "Welcome to a secret society so exclusive it makes the Illuminati look like a Costco. How exclusive? You are the only member. This is the only item of its kind in all of existence. So don't craft it, Miney.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/notch_head_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/notch_head_demo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/notch_head_demo.a738004d187e47830b2fc26a2dc11919d0a71961.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/notch_head_demo_large.d6f0457c9ac5c4be57d6b84effae95d00ad52403.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
 				]
 				
 			},

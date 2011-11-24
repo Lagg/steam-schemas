@@ -172,7 +172,7 @@
 		"hat"
 		{
 			"item_class"			"tf_wearable"
-			"loadondemand" "0"
+			"loadondemand"			"0"
 			"craft_class"			"hat"
 			"craft_material_type"	"hat"
 			"capabilities"
@@ -188,6 +188,34 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"drop_type"				"none"
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_pickup.wav"
+		}
+		"promo_hat"
+		{
+			"item_class"			"tf_wearable"
+			"loadondemand"			"0"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+			}
+			"show_in_armory"		"1"
+			"item_type_name"		"#TF_Wearable_Hat"
+			"item_slot"				"head"
+			"equip_region"			"hat"
+			"item_quality"			"unique"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_type"				"none"
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 			"ui/item_hat_pickup.wav"
 		}
@@ -22554,10 +22582,9 @@
 		{
 			"name"	"Cold War Luchador"
 			"prefab"	"hat"
-			"craft_class"		""					
 			"capabilities"
 			{
-				"can_gift_wrap" 	"0"				
+				"can_craft_count"	"1"
 			}
 			"item_name"	"#TF_Luchador"
 			"item_description"	"#TF_Luchador_Desc"
@@ -22572,25 +22599,19 @@
 			{
 				"heavy"	"1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
 		"586"
 		{
 			"name"	"Mark of the Saint"
 			"loadondemand"	"0"
 			"item_class"	"tf_wearable"
-			"craft_class"		""					
+			"craft_class"		"hat"
 			"craft_material_type"	"hat"
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" "1"
+				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
@@ -22619,14 +22640,6 @@
 				"engineer" "1"
 				"pyro" "1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
 			"drop_sound"		"ui/item_medal_pickup.wav"
 		}
@@ -22634,11 +22647,13 @@
 		{
 			"name"	"Apoco-Fists"
 			"item_class"	"tf_weapon_fists"
-			"craft_class"		""					
+			"craft_class"		"weapon"
 			"craft_material_type"	"weapon"
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Fists"
@@ -22666,11 +22681,6 @@
 				{
 					"attribute_class"	"crit_kill_will_gib"
 					"value"	"1"
-				}
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
 				}
 			}
 			"hide_bodygroups_deployed_only"	"1"
@@ -23936,11 +23946,11 @@
 				}
 			}
 		}		
-
 		
 		"634"
 		{
 			"name"	"Point and Shoot"
+			"first_sale_date"	"2011/11/14"
 			"prefab"	"hat"			
 			"craft_class"		""					
 			"capabilities"
@@ -24041,6 +24051,133 @@
 			"drop_sound"		"ui/item_bag_drop.wav"		
 		}
 		
+		
+		"637"
+		{
+			"name"	"The Dashin' Hashshashin"
+			"first_sale_date"	"2011/11/23"
+			"prefab"	"promo_hat"	
+			"item_name"	"#TF_DashinHashshashin"
+			"item_description"	"#TF_DashinHashshashin_Desc"
+			"image_inventory"	"backpack/player/items/spy/acr_assassins_cowl"
+			"propername"	"1"
+			"model_player"	"models/player/items/spy/acr_assassins_cowl.mdl"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"			
+			"equip_regions"
+			{
+				"hat"	"1"
+				"shirt"	"1"
+			}
+			"used_by_classes"
+			{
+				"spy" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
+			}
+		}
+		"638"
+		{		
+			"name"	"The Sharp Dresser"
+			"first_sale_date"	"2011/11/23"
+			"item_class"	"tf_weapon_knife"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Knife"
+			"item_name"	"#TF_SharpDresser"
+			"item_description"	"#TF_SharpDresser_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"item_logname"	"sharp_dresser"
+			"item_iconname"	"sharp_dresser"
+			"image_inventory"	"backpack/weapons/c_models/c_acr_hookblade/c_acr_hookblade"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"attach_to_hands" "1"
+			"model_player"	"models/weapons/c_models/c_acr_hookblade/c_acr_hookblade.mdl"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"anim_slot"	"ITEM1"
+			"visuals"
+			{
+				"sound_melee_hit"	"Weapon_Assassin_Knife.HitFlesh"
+
+				"animation"
+				{
+					"activity"		"ACT_VM_DRAW"
+					"replacement"		"ACT_ITEM1_VM_DRAW"
+				}	
+				"animation"
+				{
+					"activity"		"ACT_VM_IDLE"
+					"replacement"		"ACT_ITEM1_VM_IDLE"
+				}		
+				"animation"
+				{
+					"activity"		"ACT_VM_HITCENTER"
+					"replacement"		"ACT_ITEM1_VM_HITCENTER"
+				}
+				"animation"
+				{
+					"activity"		"ACT_VM_HITCENTER2"
+					"replacement"		"ACT_ITEM1_VM_HITCENTER2"
+				}				
+				"animation"
+				{
+					"activity"		"ACT_VM_SWINGHARD"
+					"replacement"		"ACT_ITEM1_VM_SWINGHARD"
+				}
+				"animation"
+				{
+					"activity"		"ACT_BACKSTAB_VM_UP"
+					"replacement"		"ACT_ITEM1_BACKSTAB_VM_UP"
+				}
+				"animation"
+				{
+					"activity"		"ACT_BACKSTAB_VM_DOWN"
+					"replacement"		"ACT_ITEM1_BACKSTAB_VM_DOWN"
+				}
+				"animation"
+				{
+					"activity"		"ACT_BACKSTAB_VM_IDLE"
+					"replacement"		"ACT_ITEM1_BACKSTAB_VM_IDLE"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MELEE_VM_STUN"
+					"replacement"		"ACT_MELEE_VM_ITEM1_STUN"
+				}
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}		
 
 		"639"
 		{
@@ -24059,7 +24196,11 @@
 			"item_name"	"#TF_Bowtie"
 			"item_description"	"#TF_Bowtie_Desc"
 			"item_slot"	"misc"
-			"equip_region"	"neck"
+			"equip_regions"
+			{	
+				"necklace"	"1"
+				"shirt"		"1"
+			}
 			"image_inventory"	"backpack/player/items/medic/bowtie"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
@@ -24080,6 +24221,71 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
+		
+		"640"
+		{
+			"name"	"The Top Notch"
+			"first_sale_date"	"2011/11/23"
+			"item_class"			"tf_wearable"
+			"loadondemand"			"1"
+			"show_in_armory"		"1"
+			"item_type_name"		"#TF_Wearable_Hat"
+			"item_name"				"#TF_TopNotch"
+			"item_description"		"#TF_TopNotch_Desc"
+			"item_slot"				"head"
+			"equip_region"			"hat"
+			"item_quality"			"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"propername"			"1"
+			"image_inventory"	"backpack/player/items/all_class/notch_head_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/notch_head_scout.mdl"
+				"sniper"	"models/player/items/all_class/notch_head_sniper.mdl"
+				"soldier"	"models/player/items/all_class/notch_head_soldier.mdl"
+				"demoman"	"models/player/items/all_class/notch_head_demo.mdl"
+				"medic"		"models/player/items/all_class/notch_head_medic.mdl"
+				"heavy"		"models/player/items/all_class/notch_head_heavy.mdl"
+				"spy"		"models/player/items/all_class/notch_head_spy.mdl"
+				"engineer"	"models/player/items/all_class/notch_head_engineer.mdl"
+				"pyro"		"models/player/items/all_class/notch_head_pyro.mdl"
+			}
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_pickup.wav"
+		}
+
 		"1899"
 		{
 			"name"	"World Traveler"
