@@ -18558,14 +18558,6 @@
 				"used_by_classes": [
 					"Scout"
 				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -9.000000
-					}
-				]
 				
 			},
 			{
@@ -18588,14 +18580,6 @@
 				},
 				"used_by_classes": [
 					"Soldier"
-				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -8.000000
-					}
 				]
 				
 			},
@@ -18620,14 +18604,6 @@
 				"used_by_classes": [
 					"Pyro"
 				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -7.000000
-					}
-				]
 				
 			},
 			{
@@ -18650,14 +18626,6 @@
 				},
 				"used_by_classes": [
 					"Demoman"
-				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -6.000000
-					}
 				]
 				
 			},
@@ -18682,14 +18650,6 @@
 				"used_by_classes": [
 					"Heavy"
 				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -5.000000
-					}
-				]
 				
 			},
 			{
@@ -18712,14 +18672,6 @@
 				},
 				"used_by_classes": [
 					"Engineer"
-				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -4.000000
-					}
 				]
 				
 			},
@@ -18744,14 +18696,6 @@
 				"used_by_classes": [
 					"Medic"
 				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -3.000000
-					}
-				]
 				
 			},
 			{
@@ -18775,14 +18719,6 @@
 				"used_by_classes": [
 					"Sniper"
 				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -2.000000
-					}
-				]
 				
 			},
 			{
@@ -18805,14 +18741,6 @@
 				},
 				"used_by_classes": [
 					"Spy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -1.000000
-					}
 				]
 				
 			},
@@ -20922,11 +20850,6 @@
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
-					},
-					{
-						"name": "store sort override",
-						"class": "store_sort_override",
-						"value": -1.000000
 					}
 				]
 				
@@ -25458,9 +25381,9 @@
 				"stored_as_integer": true
 			},
 			{
-				"name": "store sort override",
+				"name": "store sort override DEPRECATED",
 				"defindex": 317,
-				"attribute_class": "store_sort_override",
+				"attribute_class": "store_sort_override_DEPRECATED",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
 				"effect_type": "neutral",
