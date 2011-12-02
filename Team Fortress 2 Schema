@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.8a175bfd584f28bb764e9d78f9bfff9b1dd49b7c.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.c4cd90d3fb56372939a83da85a27225cea86fde7.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -10078,7 +10078,7 @@
 				"name": "Teddy Roosebelt",
 				"defindex": 386,
 				"item_class": "tf_wearable",
-				"item_type_name": "Hat",
+				"item_type_name": "Pocket Buddy",
 				"item_name": "Teddy Roosebelt",
 				"item_description": "A cute, plushy pocket buddy.\nAw, he even has his own hat!",
 				"proper_name": false,
@@ -10266,7 +10266,7 @@
 				"name": "Pocket Medic",
 				"defindex": 392,
 				"item_class": "tf_wearable",
-				"item_type_name": "Badge",
+				"item_type_name": "Pocket Buddy",
 				"item_name": "Pocket Medic",
 				"item_description": "Keep little healing man close.",
 				"proper_name": false,
@@ -17647,6 +17647,36 @@
 				
 			},
 			{
+				"name": "The Itsy Bitsy Spyer",
+				"defindex": 646,
+				"item_class": "tf_wearable",
+				"item_type_name": "Pocket Buddy",
+				"item_name": "Itsy Bitsy Spyer",
+				"item_description": "Say, Engie! Is that a miniature Spy in your pocket, or are you just happy to OH GOD STOP HITTING ME WITH THAT WRENCH!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/xms_engineer_voodoospy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/xms_engineer_voodoospy",
+				"min_ilevel": 15,
+				"max_ilevel": 15,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_engineer_voodoospy.5354130e3be547a0f3160c38d1af2ce8a6a661eb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_engineer_voodoospy_large.597f125b19f595207c455ab51ca6d8fc41adf3a1.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -20080,7 +20110,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 31.000000
+						"value": 34.000000
 					}
 				]
 				
@@ -20956,7 +20986,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 29.000000
+						"value": 33.000000
 					}
 				]
 				

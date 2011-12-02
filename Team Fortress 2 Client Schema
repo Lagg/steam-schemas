@@ -14324,7 +14324,7 @@
 			}
 			"loadondemand" "1"
 			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_Hat"
+			"item_type_name"	"#TF_Wearable_PocketBuddy"
 			"item_name"	"#TF_TeddyRoosebelt"
 			"item_description"	"#TF_TeddyRoosebelt_Desc"
 			"item_slot"	"misc"
@@ -14551,7 +14551,7 @@
 			}
 			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_Badge"
+			"item_type_name"	"#TF_Wearable_PocketBuddy"
 			"item_name"	"#TF_PocketMedic"
 			"item_description"	"#TF_PocketMedic_Desc"
 			"item_slot"	"misc"
@@ -24285,6 +24285,42 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 			"ui/item_hat_pickup.wav"
 		}
+		"646"
+		{
+			"name"	"The Itsy Bitsy Spyer"
+			"first_sale_date"	"2011/12/01"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_PocketBuddy"
+			"item_name"	"#TF_ItsyBitsySpyer"
+			"item_description"	"#TF_ItsyBitsySpyer_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"engineer_pocket"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/engineer/xms_engineer_voodoospy"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/engineer/xms_engineer_voodoospy.mdl"
+			"min_ilevel"	"15"
+			"max_ilevel"	"15"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
 
 		"1899"
 		{
@@ -25380,14 +25416,6 @@
 			{
 				"scout"	"1"
 			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-9"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -25414,14 +25442,6 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
-			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-8"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -25450,14 +25470,6 @@
 			{
 				"pyro"	"1"
 			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-7"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -25484,14 +25496,6 @@
 			"used_by_classes"
 			{
 				"demoman"	"1"
-			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-6"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -25520,14 +25524,6 @@
 			{
 				"heavy"	"1"
 			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-5"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -25554,14 +25550,6 @@
 			"used_by_classes"
 			{
 				"engineer"	"1"
-			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-4"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -25590,14 +25578,6 @@
 			{
 				"medic"	"1"
 			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-3"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -25625,14 +25605,6 @@
 			{
 				"sniper"	"1"
 			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-2"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
@@ -25659,14 +25631,6 @@
 			"used_by_classes"
 			{
 				"spy"	"1"
-			}
-			"attributes"
-			{
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-1"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -27358,7 +27322,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "31"
+					"value" "34"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -28106,11 +28070,6 @@
 					"attribute_class"	"always_tradable"
 					"value"				"1"
 				}
-				"store sort override"
-				{
-					"attribute_class"	"store_sort_override"
-					"value"				"-1"					
-				}
 			}
 			"armory_desc"		"gift_wrap"
 			"show_in_armory"	"1"
@@ -28227,7 +28186,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "29"
+					"value" "33"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -33311,9 +33270,9 @@
 		}
 		"317"
 		{
-			"name"	"store sort override"
-			"attribute_class"	"store_sort_override"
-			"attribute_name"	"store sort override"
+			"name"	"store sort override DEPRECATED"
+			"attribute_class"	"store_sort_override_DEPRECATED"
+			"attribute_name"	"store sort override DEPRECATED"
 			"min_value"	"0"
 			"max_value"	"1"
 			"group"	"only_on_unique"
@@ -33949,6 +33908,20 @@
 			"L'Etranger"		"1"
 			"The Equalizer"		"1"
 		}
+		"kill_eater_set_mixed_d"
+		{
+			"Your Eternal Reward"		"1"
+			"The Family Business"		"1"
+			"The Soda Popper"		"1"
+			"The Amputator"		"1"
+		}
+		"kill_eater_set_mixed_e"
+		{
+			"The Reserve Shooter"		"1"
+			"The Atomizer"		"1"
+			"The Southern Hospitality"		"1"
+			"The Scottish Resistance"		"1"
+		}
 		"supply_crate_loot_list_1"
 		{
 			"The Vita-Saw"		"1"
@@ -34217,6 +34190,18 @@
 			"Pyromancer's Mask"		"1"
 			"Prince Tavish's Crown"		"1"
 		}
+		"supply_crate_loot_list_33"
+		{
+			"kill_eater_set_mixed_d"		"1"
+			"German Gonzila"		"1"
+			"Magnificent Mongolian"		"1"
+		}
+		"supply_crate_loot_list_34"
+		{
+			"kill_eater_set_mixed_e"		"1"
+			"Hard Counter"		"1"
+			"Western Wear"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -34252,6 +34237,8 @@
 		"supply_crate_loot_list_30"	"30" 
 		"supply_crate_loot_list_31"	"31" 
 		"supply_crate_loot_list_32"	"32" 
+		"supply_crate_loot_list_33"	"33" 
+		"supply_crate_loot_list_34"	"34" 
 		
 		"kill_eater_set_demo_a"						"-1"
 		"kill_eater_set_soldier_a"					"-2"
@@ -34273,6 +34260,8 @@
 		"kill_eater_set_rare_mixed_a__secondary_stats"	"-15"
 		"kill_eater_set_rare_mixed_a"					"-16"
 		"kill_eater_set_mixed_c"						"-17"
+		"kill_eater_set_mixed_d"						"-18"
+		"kill_eater_set_mixed_e"						"-19"
 	}
 	"recipes"
 	{
