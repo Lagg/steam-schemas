@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.c4cd90d3fb56372939a83da85a27225cea86fde7.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.fa7525cd8c81de8e13db205a89f9e1bfec4a72e0.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -17464,20 +17464,14 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trn_wiz_hat_demo.969d5700c526108989b9e93ef08eaeb17cacbab9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trn_wiz_hat_demo_large.b7971080eb5d7e2ae198e82211c406944314b323.png",
 				"drop_type": "drop",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "War Head",
@@ -17496,21 +17490,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trn_heavy_knight.dba53da7adf78d3d76c5a5933dd4157418ce9e48.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trn_heavy_knight_large.c8e7dde5bea12ce8d6a9b14036dbca2a87052f16.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Heavy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -17531,21 +17520,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/acr_assassins_cowl.4e72dde86c77b2a3c4c1a68c4615f6c19e457a2e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/acr_assassins_cowl_large.b7cd9a27c7aea94c2dc5b4b07ed9a6c0bb5e3bae.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
 					"Spy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -17565,9 +17549,12 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_acr_hookblade.bff93c1997f755c608bf74d9eadcdbb5261529d8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_acr_hookblade_large.ef2d983d63704879cde28f5b28c9f26578dcf6fe.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -17578,11 +17565,6 @@
 					{
 						"name": "disable fancy class select anim",
 						"class": "disable_fancy_class_select_anim",
-						"value": 1.000000
-					},
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
 						"value": 1.000000
 					}
 				]
@@ -17605,10 +17587,13 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bowtie.3dada19c616dba4b20abe31899772f84506955f2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bowtie_large.0bbe0141873a34f4ed33c1dc2130c2545a7a76a3.png",
 				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -21864,6 +21849,66 @@
 						"class": "supply_crate_series",
 						"value": 30.000000
 					}
+				]
+				
+			},
+			{
+				"name": "Naughty Winter Crate 2011",
+				"defindex": 5070,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Naughty Winter Crate",
+				"item_description": "This crate is unusually festive.\nIts contents are unknown and\nnormal keys don't fit the lock.\n\nYou'd better hold onto it.\nThere'll probably be a way to open it later.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/bad_winter_crate",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bad_winter_crate.eed5d41ab92964a3e14e33e9ea6ba000e80690d7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bad_winter_crate_large.c4eb4653b9315229d94e822db2ac3f3fc3b2e8fa.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "winter2011"
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Nice Winter Crate 2011",
+				"defindex": 5071,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Nice Winter Crate",
+				"item_description": "This crate is unusually festive.\nIts contents are unknown and\nnormal keys don't fit the lock.\n\nYou'd better hold onto it.\nThere'll probably be a way to open it later.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/winter_crate",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/winter_crate.7b2748830fe40a5f41236c79efc6629161a9e1ad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/winter_crate_large.96efa05410a37be93b62eaa2b05e24790f7428f1.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "winter2011"
+				},
+				"used_by_classes": [
+
 				]
 				
 			},

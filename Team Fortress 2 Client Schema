@@ -23952,10 +23952,9 @@
 			"name"	"Point and Shoot"
 			"first_sale_date"	"2011/11/14"
 			"prefab"	"hat"			
-			"craft_class"		""					
 			"capabilities"
 			{
-				"can_gift_wrap" 	"0"				
+				"can_craft_count"	"1"
 			}
 			"item_name"	"#TF_TrnHat"
 			"item_description"	"#TF_TrnHat_Desc"
@@ -23996,14 +23995,6 @@
 					"headphones"	"1"
 				}
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
 		"635"
 		{
@@ -24011,9 +24002,12 @@
 			"first_sale_date"	"2011/11/14"
 			"item_class"	"tf_wearable"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"			"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
 			}
 			"loadondemand" "1"
 			"show_in_armory"	"1"
@@ -24039,14 +24033,6 @@
 			{
 				"heavy"	"1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"		
 		}
@@ -24056,7 +24042,11 @@
 		{
 			"name"	"The Dashin' Hashshashin"
 			"first_sale_date"	"2011/11/23"
-			"prefab"	"promo_hat"	
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}	
 			"item_name"	"#TF_DashinHashshashin"
 			"item_description"	"#TF_DashinHashshashin_Desc"
 			"image_inventory"	"backpack/player/items/spy/acr_assassins_cowl"
@@ -24086,10 +24076,13 @@
 			"name"	"The Sharp Dresser"
 			"first_sale_date"	"2011/11/23"
 			"item_class"	"tf_weapon_knife"
+			"craft_class"	"weapon"
 			"craft_material_type"	"weapon"
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Knife"
@@ -24169,11 +24162,6 @@
 					"attribute_class"	"disable_fancy_class_select_anim"
 					"value"	"1"
 				}
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -24183,12 +24171,15 @@
 		{
 			"name"	"Bowtie"
 			"first_sale_date"	"2011/11/16"
+			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"loadondemand"	"1"
 			"capabilities"
 			{
 				"nameable"				"1"
 				"paintable"				"1"
 				"can_gift_wrap" 		"1"
+				"can_craft_count"		"1"
 			}
 			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
@@ -29068,6 +29059,72 @@
 			"mouse_pressed_sound"	"ui/item_crate_pickup.wav"
 			"drop_sound"		"ui/item_crate_drop.wav"
 		}
+		"5070" 
+		{
+			"name"	"Naughty Winter Crate 2011"
+			"item_class"	"supply_crate"
+			"craft_class"	"supply_crate"
+			"craft_material_type"	"supply_crate"
+			"expiration_date"	"2012-01-01 23:00:00"
+			"tool"
+			{
+				"type"	""
+				"usage"
+				{
+				}
+				"restriction"	"winter2011"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"armory_desc" "winter_crate"
+			"show_in_armory" "1"
+			"item_type_name"	"#TF_LockedCrate"
+			"item_name"		"#TF_WinterCrate2011_Naughty"
+			"item_description"	"#TF_WinterCrate_Desc"
+			"image_inventory"	"backpack/player/items/crafting/bad_winter_crate"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"mouse_pressed_sound"	"ui/item_crate_pickup.wav"
+			"drop_sound"		"ui/item_crate_drop.wav"
+		}
+		"5071" 
+		{
+			"name"	"Nice Winter Crate 2011"
+			"item_class"	"supply_crate"
+			"craft_class"	"supply_crate"
+			"craft_material_type"	"supply_crate"
+			"expiration_date"	"2012-01-01 23:00:00"
+			"tool"
+			{
+				"type"	""
+				"usage"
+				{
+				}
+				"restriction"	"winter2011"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"armory_desc" "winter_crate"
+			"show_in_armory" "1"
+			"item_type_name"	"#TF_LockedCrate"
+			"item_name"		"#TF_WinterCrate2011_Nice"
+			"item_description"	"#TF_WinterCrate_Desc"
+			"image_inventory"	"backpack/player/items/crafting/winter_crate"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"mouse_pressed_sound"	"ui/item_crate_pickup.wav"
+			"drop_sound"		"ui/item_crate_drop.wav"
+		}		
 		
 		"5500"
 		{
