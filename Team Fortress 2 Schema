@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.7bf96cdd07c9da9a31d84570f423190e00e7dc55.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.95c78b1966856a1df37cb71410ceddbb8e854c26.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -18582,6 +18582,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18659,6 +18660,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18685,6 +18687,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18711,6 +18714,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18737,6 +18741,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18763,6 +18768,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18802,6 +18808,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18841,6 +18848,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18867,6 +18875,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -18969,6 +18978,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true
 				},
 				"used_by_classes": [
@@ -19026,6 +19036,7 @@
 				"craft_class": "",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -19638,6 +19649,39 @@
 				"capabilities": {
 					"can_craft_mark": true
 				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Something Special For Someone Special",
+				"defindex": 699,
+				"item_class": "craft_item",
+				"item_type_name": "Ring",
+				"item_name": "Something Special For Someone Special",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/something_special",
+				"min_ilevel": 100,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/something_special.3872d2689d6ef7165619734b9fb30c17d3d5f4a7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/something_special_large.03c9a109279a36f789ed0a41ca0a6761db2f608e.png",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+
+				]
+				,
 				"attributes": [
 					{
 						"name": "cannot trade",

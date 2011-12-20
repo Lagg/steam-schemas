@@ -25857,6 +25857,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_Minigun_Festive2011"
 			"image_inventory"	"backpack/player/items/heavy/xms_heavy_minigunlights"
 			"visuals"
@@ -25956,6 +25960,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"		"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_RocketLauncher_Festive2011"
 			"image_inventory"	"backpack/player/items/soldier/xms_rocketlauncher"
 			"visuals"
@@ -25982,6 +25990,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_Flamethrower_Festive2011"
 			"image_inventory"	"backpack/player/items/pyro/xms_flamethrower"
 			"visuals"
@@ -26008,6 +26020,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_Bat_Festive2011"
 			"image_inventory"	"backpack/player/items/scout/xms_bat"
 			"visuals"
@@ -26034,6 +26050,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_StickybombLauncher_Festive2011"
 			"image_inventory"	"backpack/player/items/demo/xms_stickybomb_launcher"
 			"visuals"
@@ -26060,6 +26080,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_Wrench_Festive2011"
 			"image_inventory"	"backpack/player/items/engineer/xms_wrench"
 			"visuals"
@@ -26086,6 +26110,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_Medigun_Festive2011"
 			"image_inventory"	"backpack/player/items/medic/xms_medigun"
 			"visuals"
@@ -26112,6 +26140,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_SniperRifle_Festive2011"
 			"image_inventory"	"backpack/player/items/sniper/xms_sniperrifle"
 			"visuals"
@@ -26138,6 +26170,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_Knife_Festive2011"
 			"image_inventory"	"backpack/player/items/spy/xms_knife"
 			"visuals"
@@ -26306,6 +26342,10 @@
 			"craft_class"	""
 			"baseitem"		"0"
 			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
 			"item_name"			"#TF_Weapon_Scattergun_Festive2011"
 			"image_inventory"	"backpack/player/items/scout/xms_scattergun"
 			"visuals"
@@ -26355,6 +26395,7 @@
 			"prefab"	"hat"
 			"capabilities"
 			{
+				"paintable"		"1"
 				"can_craft_count"	"1"
 			}
 			"craft_class"	""		
@@ -26748,6 +26789,38 @@
 			{
 				"skin"	"0"
 			}
+		}
+		
+		"699"
+		{
+			"name"	"Something Special For Someone Special"
+			"first_sale_date"	"2011/12/19"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"item_class"	"craft_item"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Ring"
+			"item_name"	"#TF_SomethingSpecial"
+			"item_description"	"#TF_SomethingSpecial_Desc"
+			"image_inventory"	"backpack/player/items/all_class/something_special"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"100"
+			"max_ilevel"	"100"
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
 		}
 
 
