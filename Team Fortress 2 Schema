@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.95c78b1966856a1df37cb71410ceddbb8e854c26.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.feab6e73075485af912e4dece44de0d3b2f76b6f.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -11970,8 +11970,8 @@
 				"image_inventory": "backpack\/player\/items\/all_class\/drg_badge",
 				"min_ilevel": 15,
 				"max_ilevel": 15,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge.57823ce4588d8fece1a1bc42a6d4c942b8249bfd.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_large.bdd785659299ea389fd0afaec258f5f82d7d3348.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge.988aa4d408bd0cedd8888f65876f81dea9305687.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_large.c440ba0d10bd32a70696679fe2d58243198ed6ba.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true
@@ -16590,8 +16590,8 @@
 				"image_inventory": "backpack\/player\/items\/all_class\/drg_badge_copper",
 				"min_ilevel": 15,
 				"max_ilevel": 15,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_copper.c5ab338e733740f3e62dde54ce2e26488d2857d0.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_copper_large.8db4c4a208717ca929db513b265653e8b7008333.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_copper.084625905ae25e3534674c72d02c45ab02992715.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_copper_large.afd26e96b7aa6cd3be0e9008081057c6339dfcc2.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true
@@ -16603,7 +16603,7 @@
 				"item_class": "tf_weapon_fireaxe",
 				"item_type_name": "Fire Axe",
 				"item_name": "Third Degree",
-				"item_description": "Being a device that flouts conventional scientific consensus that the molecules composing the human body must be arranged \"just so\", and not, for example, across a square-mile radius.",
+				"item_description": "Being a boon to tree-fellers, backwoodsmen and atom-splitters the world over, this miraculous matter-hewing device burns each individual molecule as it cleaves it.",
 				"proper_name": true,
 				"item_slot": "melee",
 				"model_player": "models\/weapons\/c_models\/c_drg_thirddegree\/c_drg_thirddegree.mdl",
@@ -16709,7 +16709,7 @@
 				"item_class": "tf_weapon_flaregun_revenge",
 				"item_type_name": "Indivisible Particle Smasher",
 				"item_name": "Manmelter",
-				"item_description": "Being a boon to tree-fellers, backwoodsmen and atom-splitters the world over, this miraculous matter-hewing device burns each individual molecule as it cleaves it.",
+				"item_description": "Being a device that flouts conventional scientific consensus that the molecules composing the human body must be arranged \"just so\", and not, for example, across a square-mile radius.",
 				"proper_name": true,
 				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_drg_manmelter\/c_drg_manmelter.mdl",
@@ -16747,6 +16747,11 @@
 						"name": "fire rate penalty HIDDEN",
 						"class": "mult_postfiredelay",
 						"value": 1.200000
+					},
+					{
+						"name": "Projectile speed increased",
+						"class": "mult_projectile_speed",
+						"value": 1.500000
 					},
 					{
 						"name": "extinguish earns revenge crits",
@@ -18000,8 +18005,8 @@
 				"image_inventory": "backpack\/player\/items\/all_class\/drg_badge_silver",
 				"min_ilevel": 15,
 				"max_ilevel": 15,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_silver.b750f30c74b68f0ecb9a8585620dc51a116cb0c4.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_silver_large.d721c46496313a991f0a6418b5f817a0f3024faa.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_silver.3e177b3a4a665203c14ddcb13259ec4f971bc070.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/drg_badge_silver_large.8b8ddce71e16a3fe7caa4cc1668d8c13c54183ce.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true
@@ -18152,6 +18157,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_soldier_ornaments.4594393c5c24100c6547c28a0baa204df2242827.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_soldier_ornaments_large.23f74ce97b3cfc4893581fc2cc021c0ed22da51b.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -18184,6 +18190,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_heavy_sandvichsafe.bb2bfa9dfa8df97ca00b6bd73a9cd655306a34a0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_heavy_sandvichsafe_large.cd60d79a217df3c38b24f37860d90643034e272d.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -18213,7 +18220,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_pyro_parka.de5a5f80e74f428204a4f4a7d094612173adbe50.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_pyro_parka_large.8162df568810a8371ff2029eb908af93b2500f15.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -18244,6 +18251,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_sniper_sweater_vest.f79217e593fa1ad2069dd9ddb660f58c3ee4b361.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_sniper_sweater_vest_large.2eb7a3f5695951bf54c73eb1a3bb917583fad0a5.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -18312,6 +18320,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_heavy_beard.6608c39ae0e3ac0e2312d7157acc8665b0392030.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_heavy_beard_large.37c99afb64ecafa36c9d28355660c512bfb205b7.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -18343,6 +18352,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_xms_giftwrap.dfc82e73461f5cb82787a854539a7ce2c8f7225f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_xms_giftwrap_large.10332104b6b14179a72222bfb4245bbaa59e6587.png",
 				"item_set": "winter2011_scout_elf",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
@@ -18384,6 +18394,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_xms_cold_shoulder.19ae17161a5b98e0105ffc6ffc4ee79edbe8ee1b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_xms_cold_shoulder_large.9bab08cfb7dd438be9e15cd27e72c32ac5dd965d.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
@@ -18441,7 +18452,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_snowcoat.9900ad5da6428c5cfbf82ed0009e4ad116420758.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_snowcoat_large.a4bfb6199bb9185b20a86ee511cf052e3de0e821.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -18471,7 +18482,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_pyro_bells.416ec9f93f966ed819cef879f344b30e584d826e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_pyro_bells_large.f997793a8a03e6afa9c177209a75ffb692ebfae0.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -18511,6 +18522,7 @@
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_scout_elf_hat_large.590ab7208a2d7adb2dc66c452f7fba78230440d5.png",
 				"drop_type": "none",
 				"item_set": "winter2011_scout_elf",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -18542,6 +18554,7 @@
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_scout_elf_sneakers_large.efc2ab5f2092f055686e41cd63b0abdac04aa774.png",
 				"drop_type": "none",
 				"item_set": "winter2011_scout_elf",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -18591,6 +18604,44 @@
 				
 			},
 			{
+				"name": "Spirit Of Giving",
+				"defindex": 655,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Spirit Of Giving",
+				"item_description": "The more gifts you give away, the bigger your heart will get! Get what gift-givers call \"the Smissmass spirit,\" and what cardiologists call hypertrophic cardiomyopathy.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/xms_allclass_giftbadge.mdl",
+				"item_quality": 11,
+				"image_inventory": "backpack\/player\/items\/all_class\/xms_allclass_giftbadge",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_allclass_giftbadge.40cc28f4484227f412e60c1df62df4b06be983bc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_allclass_giftbadge_large.65be82b4d128ee81adee14417171271610a431f1.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 8.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
 				"name": "The Holiday Punch",
 				"defindex": 656,
 				"item_class": "tf_weapon_fists",
@@ -18606,6 +18657,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_xms_gloves.3dee18c9ad25a3b3c97c66dbaa3babd67d1314a5.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_xms_gloves_large.5fded78b3bea3a3135d3fd685d7b821274a1878e.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
@@ -19003,7 +19055,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_engineer_stocking.9265191f29f108e5c6b66e6eb6f74e841f86cede.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_engineer_stocking_large.cd1a9da84e3ef84bec678a383229e2834214ee33.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -19033,7 +19085,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_furcap_demo.f4d784ffcac7539f24ccc71dab4bf13284cebe2a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_furcap_demo_large.4d4de32aa9ce1ff792969ba84711182d1ce0e8e0.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -21729,6 +21781,29 @@
 				"used_by_classes": [
 					"Pyro",
 					"Engineer"
+				]
+				
+			},
+			{
+				"name": "Santa’s Little Accomplice Bundle",
+				"defindex": 2065,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Santaâ€™s Little Accomplice Bundle",
+				"item_description": "As seen in the timeless holiday classic, A Smissmas Story:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/xmas_elf_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xmas_elf_bundle.d606f85105bda3827b99809999fe6cb14d4bbfe0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xmas_elf_bundle_large.b7a08a66c5213f8f62af8593263a5c53983a0c30.png",
+				"capabilities": {
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
 				]
 				
 			},
@@ -28767,96 +28842,101 @@
 					{
 						"level": 0,
 						"required_score": 1,
-						"name": ""
+						"name": "The"
 					},
 					{
 						"level": 1,
 						"required_score": 3,
-						"name": "Singular"
+						"name": "The Baseline Benefactor's"
 					},
 					{
 						"level": 2,
 						"required_score": 7,
-						"name": "Commodius"
+						"name": "The Competent Contributor's"
 					},
 					{
 						"level": 3,
 						"required_score": 12,
-						"name": "Kind-Hearted"
+						"name": "The Adequate Altruist's"
 					},
 					{
 						"level": 4,
 						"required_score": 20,
-						"name": "Friendly"
+						"name": "The Satisfactory Santa's"
 					},
 					{
 						"level": 5,
 						"required_score": 28,
-						"name": "Joyful"
+						"name": "The Sufficient Samaritan's"
 					},
 					{
 						"level": 6,
 						"required_score": 37,
-						"name": "Cheery"
+						"name": "The Distinguished Donator's"
 					},
 					{
 						"level": 7,
 						"required_score": 47,
-						"name": "Good-Natured"
+						"name": "The Dynamic Do-Gooder's"
 					},
 					{
 						"level": 8,
 						"required_score": 57,
-						"name": "Plentiful"
+						"name": "The Consumate Contributor's"
 					},
 					{
 						"level": 9,
 						"required_score": 68,
-						"name": "Generous"
+						"name": "The Baron of Bequeathment's"
 					},
 					{
 						"level": 10,
 						"required_score": 79,
-						"name": "Magnanimous"
+						"name": "The Lord of Largesse's"
 					},
 					{
 						"level": 11,
 						"required_score": 91,
-						"name": "Gregarious"
+						"name": "The Chieftain of Charity's"
 					},
 					{
 						"level": 12,
 						"required_score": 104,
-						"name": "Bountiful"
+						"name": "The Generalissimo of Generosity's"
 					},
 					{
 						"level": 13,
 						"required_score": 120,
-						"name": "Philanthrophic"
+						"name": "The Bigshot Benefactor's"
 					},
 					{
 						"level": 14,
 						"required_score": 138,
-						"name": "Revered"
+						"name": "The Caesar of Pleasers'"
 					},
 					{
 						"level": 15,
 						"required_score": 158,
-						"name": "Merry"
+						"name": "The First-Class Philanthropist's"
 					},
 					{
 						"level": 16,
 						"required_score": 179,
-						"name": "Totally Ungrinchlike"
+						"name": "The Humanitarian Hotshot's"
 					},
 					{
 						"level": 17,
 						"required_score": 210,
-						"name": "Jolly Old"
+						"name": "The Selfless Samaritan's"
 					},
 					{
 						"level": 18,
 						"required_score": 250,
+						"name": "The Uber-Altruist's"
+					},
+					{
+						"level": 19,
+						"required_score": 500,
 						"name": "Saxton's Own"
 					}
 				]
