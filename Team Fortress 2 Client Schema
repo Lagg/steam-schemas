@@ -16715,7 +16715,11 @@
 			"item_name"	"#TF_BucketHat"
 			"item_description"	"#TF_BucketHat_Desc"
 			"item_slot"	"head"
-			"equip_region"	"hat"
+			"equip_regions"
+			{
+				"hat"		"1"
+				"glasses"	"1"
+			}
 			"item_quality"	"unique"
 			"image_inventory"	"backpack/player/items/soldier/bucket"
 			"image_inventory_size_w"		"128"
@@ -23499,7 +23503,7 @@
 			"item_name"	"#TF_ManMelter"
 			"item_description"	"#TF_ManMelter_Desc"
 			"item_slot"	"secondary"
-			"anim_slot"	"SECONDARY2"
+			"anim_slot"	"ITEM1"
 			"image_inventory"	"backpack/weapons/c_models/c_drg_manmelter/c_drg_manmelter"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -23530,6 +23534,11 @@
 					"attribute_class"	"mult_postfiredelay"
 					"value"	"1.2"
 				}
+				"Projectile speed increased"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value"	"1.5"
+				}
 				"extinguish earns revenge crits"
 				{
 					"attribute_class"	"extinguish_revenge"
@@ -23555,58 +23564,38 @@
 			{
 				"animation"
 				{
-					"activity"		"ACT_MP_STAND_SECONDARY2"
-					"replacement"		"ACT_MP_STAND_ITEM1"
+					"activity"		"ACT_VM_IDLE"
+					"replacement"		"ACT_SECONDARY2_VM_IDLE"
 				}
 				"animation"
 				{
-					"activity"		"ACT_MP_CROUCH_SECONDARY2"
-					"replacement"		"ACT_MP_CROUCH_ITEM1"
+					"activity"		"ACT_VM_DRAW"
+					"replacement"		"ACT_SECONDARY2_VM_DRAW"
 				}
 				"animation"
 				{
-					"activity"		"ACT_MP_RUN_SECONDARY2"
-					"replacement"		"ACT_MP_RUN_ITEM1"
+					"activity"		"ACT_VM_PRIMARYATTACK"
+					"replacement"		"ACT_SECONDARY2_VM_PRIMARYATTACK"
 				}
 				"animation"
 				{
-					"activity"		"ACT_MP_WALK_SECONDARY2"
-					"replacement"		"ACT_MP_WALK_ITEM1"
+					"activity"		"ACT_MP_ATTACK_STAND_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_SECONDARY2"
 				}
 				"animation"
 				{
-					"activity"		"ACT_MP_AIRWALK_SECONDARY2"
-					"replacement"		"ACT_MP_AIRWALK_ITEM1"
+					"activity"		"ACT_MP_ATTACK_CROUCH_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_CROUCH_SECONDARY2"
 				}
 				"animation"
 				{
-					"activity"		"ACT_MP_CROUCHWALK_SECONDARY2"
-					"replacement"		"ACT_MP_CROUCHWALK_ITEM1"
+					"activity"		"ACT_MP_ATTACK_SWIM_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_SWIM_SECONDARY2"
 				}
 				"animation"
 				{
-					"activity"		"ACT_MP_JUMP_SECONDARY2"
-					"replacement"		"ACT_MP_JUMP_ITEM1"
-				}
-				"animation"
-				{
-					"activity"		"ACT_MP_JUMP_START_SECONDARY2"
-					"replacement"		"ACT_MP_JUMP_START_ITEM1"
-				}
-				"animation"
-				{
-					"activity"		"ACT_MP_JUMP_FLOAT_SECONDARY2"
-					"replacement"		"ACT_MP_JUMP_FLOAT_ITEM1"
-				}
-				"animation"
-				{
-					"activity"		"ACT_MP_JUMP_LAND_SECONDARY2"
-					"replacement"		"ACT_MP_JUMP_LAND_ITEM1"
-				}
-				"animation"
-				{
-					"activity"		"ACT_MP_SWIM_SECONDARY2"
-					"replacement"		"ACT_MP_SWIM_ITEM1"
+					"activity"		"ACT_MP_ATTACK_STANDACT_MP_ATTACK_AIRWALK_PRIMARYFIRE_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_AIRWALK_SECONDARY2"
 				}
 			}
 			"item_set"	"drg_moonman"
@@ -25306,7 +25295,8 @@
 		"641"
 		{
 			"name"	"The Ornament Armament"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
+			"craft_class"	"hat"
 			"craft_material_type"	"hat"
 			"loadondemand"	"1"
 			"capabilities"
@@ -25357,7 +25347,8 @@
 		"643"
 		{
 			"name"	"The Sandvich Safe"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
+			"craft_class"	"hat"
 			"craft_material_type"	"hat"
 			"loadondemand"	"1"
 			"capabilities"
@@ -25392,9 +25383,8 @@
 		"644"
 		{
 			"name"	"The Head Warmer"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"prefab"	"hat"
-			"craft_class"	""	 
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -25418,8 +25408,9 @@
 		"645"
 		{
 			"name"	"The Outback Intellectual"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"loadondemand"	"1"
 			"capabilities"
 			{
@@ -25498,8 +25489,9 @@
 		"647"
 		{
 			"name"	"The All-Father"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
 			"craft_material_type"	"hat"
 			"capabilities"
 			{
@@ -25539,8 +25531,9 @@
 		"648"
 		{
 			"name"	"The Wrap Assassin"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"item_class"	"tf_weapon_bat_giftwrap"
+			"craft_class"	"weapon"
 			"craft_material_type"	"weapon"
 			"capabilities"
 			{
@@ -25604,8 +25597,9 @@
 		"649"
 		{
 			"name"	"The Spy-cicle"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"item_class"	"tf_weapon_knife"
+			"craft_class"	"weapon"
 			"craft_material_type"	"weapon"
 			"capabilities"
 			{
@@ -25691,9 +25685,8 @@
 		"650"
 		{
 			"name"	"The Kringle Collection"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"prefab"	"hat"
-			"craft_class"	""	 
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -25714,9 +25707,8 @@
 		"651"
 		{
 			"name"	"The Jingle Belt"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"prefab"	"hat"
-			"craft_class"	""	 
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -25753,9 +25745,10 @@
 		"652"
 		{
 			"name"	"The Big Elfin Deal"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
+			"craft_class"	"hat"			
 			"craft_material_type"	"hat"
 			"capabilities"
 			{
@@ -25796,9 +25789,10 @@
 		"653"
 		{
 			"name"	"The Bootie Time"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
+			"craft_class"			"hat"
 			"craft_material_type"	"hat"
 			"capabilities"
 			{
@@ -25880,11 +25874,72 @@
 				}
 			}
 		}
+		"655"
+		{
+			"name"	"Spirit Of Giving"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_Gifting_Badge"
+			"item_description"	"#TF_Gifting_Badge_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/all_class/xms_allclass_giftbadge"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"strange"
+			"model_player"	"models/player/items/all_class/xms_allclass_giftbadge.mdl"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"armory_desc" "duel_medal"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value"				"8"								
+				}
+				"kill eater"
+				{
+					"attribute_class"	"kill_eater"
+					"value"				"0"
+					"force_gc_to_generate" "1"
+					"use_custom_logic"	"gifts_given_out"
+				}
+			}
+			"visuals"
+			{
+				"skin" "2"
+				"use_per_class_bodygroups" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
 		"656"
 		{
 			"name"	"The Holiday Punch"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"item_class"	"tf_weapon_fists"
+			"craft_class"		"weapon"
 			"craft_material_type"	"weapon"
 			"capabilities"
 			{
@@ -26368,13 +26423,12 @@
 		"670"
 		{
 			"name"	"The Stocking Stuffer"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
 			}
-			"craft_class"	""		
 			"item_name"	"#TF_Winter2011_EngineerStocking"
 			"item_description"	"#TF_Winter2011_EngineerStocking_Desc"
 			"item_type_name"	"#TF_Wearable_Stocking"
@@ -26391,14 +26445,13 @@
 		"671"
 		{
 			"name"	"The Brown Bomber"
-			"first_sale_date"	"2011/12/15"
+			"first_sale_date"	"2011/12/19"
 			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
 				"can_craft_count"	"1"
 			}
-			"craft_class"	""		
 			"item_name"	"#TF_Winter2011_WinterFurCap"
 			"item_description"	"#TF_Winter2011_WinterFurCap_Desc"
 			"image_inventory"	"backpack/player/items/all_class/xms_furcap_demo"
@@ -26431,7 +26484,8 @@
 			{
 				"player_bodygroups"
 				{
-					"hat"		"1"
+					"hat"			"1"
+					"headphones"	"1"
 				}
 			}
 		}
@@ -29391,6 +29445,33 @@
 			{
 				"pyro"	"1"
 				"engineer"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2065"
+		{
+			"name" "Santa's Little Accomplice Bundle"
+			"first_sale_date"	"2011/12/19"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Wrap Assassin"				"1"
+				"The Big Elfin Deal"			"1"
+				"The Bootie Time"				"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_Winter2011ScoutElf"
+			"item_description"	"#TF_Bundle_Winter2011ScoutElf_Desc"
+			"image_inventory"	"backpack/crafting/xmas_elf_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -43925,6 +44006,10 @@
 			"18"
 			{
 				"score"		"250"
+			}
+			"19"
+			{
+				"score"		"500"
 			}
 		}
 	}
