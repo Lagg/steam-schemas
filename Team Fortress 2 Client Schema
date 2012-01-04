@@ -15154,11 +15154,7 @@
 			"item_type_name" "#TF_Wearable_Hat"
 			"item_name"	"#TF_DesertMarauder"
 			"item_slot"	"head"
-			"equip_regions"
-			{
-				"hat"			"1"
-				"beard"			"1"
-			}
+			"equip_region"	"hat"
 			"item_quality"	"unique"
 			"image_inventory"	"backpack/player/items/sniper/desert_marauder"
 			"image_inventory_size_w"		"128"
@@ -31817,7 +31813,7 @@
 		}
 		"5072"
 		{
-			"name"	"Naughty Winter Key 2011"
+			"name"	"Naughty Winter Key 2011"   
 			"item_class"	"tool"
 			"craft_class"	"tool"
 			"tool"
@@ -31827,7 +31823,6 @@
 				{
 					"decodable"	"1"
 				}
-				"restriction"	"winter2011_naughty"
 			}
 			"attributes"
 			{
@@ -31840,9 +31835,9 @@
 			"armory_desc" "key"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_T"
-			"item_name"		"#TF_Tool_WinterKey2011_Naughty"
-			"item_description"	"#TF_Tool_WinterKey2011_Naughty_Desc"
-			"image_inventory"	"backpack/player/items/crafting/xmas_wicked_key"
+			"item_name"		"#TF_Tool_DecoderRing"
+			"item_description"	"#TF_Tool_DecoderRing_Desc"
+			"image_inventory"	"backpack/player/items/crafting/key"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
@@ -31853,7 +31848,7 @@
 		}
 		"5073"
 		{
-			"name"	"Nice Winter Key 2011"
+			"name"	"Nice Winter Key 2011"   
 			"item_class"	"tool"
 			"craft_class"	"tool"
 			"tool"
@@ -31863,7 +31858,6 @@
 				{
 					"decodable"	"1"
 				}
-				"restriction"	"winter2011_nice"
 			}
 			"attributes"
 			{
@@ -31876,9 +31870,9 @@
 			"armory_desc" "key"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_T"
-			"item_name"		"#TF_Tool_WinterKey2011_Nice"
-			"item_description"	"#TF_Tool_WinterKey2011_Nice_Desc"
-			"image_inventory"	"backpack/player/items/crafting/xmas_key"
+			"item_name"		"#TF_Tool_DecoderRing"
+			"item_description"	"#TF_Tool_DecoderRing_Desc"
+			"image_inventory"	"backpack/player/items/crafting/key"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
