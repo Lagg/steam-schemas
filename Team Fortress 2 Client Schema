@@ -153,6 +153,7 @@
 			"pyro_wings"		"1"
 			"sniper_bullets"	"1"
 			"medigun_accessories"	"1"
+			"soldier_coat"		"1"
 		}
 		"shared"
 		{
@@ -3807,9 +3808,9 @@
 			}
 			"attributes"
 			{
-				"attach particle effect"
+				"attach particle effect static"
 				{
-					"attribute_class"	"set_attached_particle"
+					"attribute_class"	"set_attached_particle_static"
 					"value"	"5"
 				}
 				"cannot trade"
@@ -3828,6 +3829,7 @@
 			"hidden"	"0"
 			"item_class"	"tf_wearable"
 			"loadondemand"	"1"
+			"craft_material_type"	"hat"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -4038,12 +4040,35 @@
 					"value"	"1"
 				}
 			}
-			"visuals"
+			"visuals_blu"
 			{
 				"animation"
 				{
 					"activity"		"ACT_MP_ATTACK_STAND_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_PRIMARYFIRE"
 					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_PRIMARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+			}
+			"visuals_red"
+			{
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1"
 				}
 				"animation"
 				{
@@ -7997,12 +8022,35 @@
 					"value"	"2"
 				}
 			}
-			"visuals"
+			"visuals_blu"
 			{
 				"animation"
 				{
 					"activity"		"ACT_MP_ATTACK_STAND_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_PRIMARYFIRE"
 					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_PRIMARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+			}
+			"visuals_red"
+			{
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1"
 				}
 				"animation"
 				{
@@ -16984,9 +17032,9 @@
 			}
 			"attributes"
 			{
-				"attach particle effect"
+				"attach particle effect static"
 				{
-					"attribute_class"	"set_attached_particle"
+					"attribute_class"	"set_attached_particle_static"
 					"value"	"28"
 				}
 			}
@@ -21178,9 +21226,11 @@
 		"538"
 		{
 			"name"	"Killer Exclusive"
+			"first_sale_date"	"2012/01/10"
 			"hidden"	"0"
 			"item_class"	"tf_wearable"
 			"craft_material_type"	"hat"
+			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -23653,9 +23703,9 @@
 			"model_player"	"models/player/items/pyro/drg_pyro_bubbleHelmet.mdl"
 			"attributes"
 			{
-				"attach particle effect"
+				"attach particle effect static"
 				{
-					"attribute_class"	"set_attached_particle"
+					"attribute_class"	"set_attached_particle_static"
 					"value"	"28"
 				}
 			}
@@ -25437,9 +25487,9 @@
 			}
 			"attributes"
 			{
-				"attach particle effect"
+				"attach particle effect static"
 				{
-					"attribute_class"	"set_attached_particle"
+					"attribute_class"	"set_attached_particle_static"
 					"value"	"28"
 				}
 			}
@@ -25691,7 +25741,7 @@
 			"item_type_name"	"#TF_Wearable_Coat"
 			"item_description"	"#TF_SoldierWinterCoat_Desc"
 			"item_slot"	"misc"
-			"equip_region"	"shirt"		
+			"equip_region"	"soldier_coat"
 			"propername"	"1"
 			"image_inventory"	"backpack/player/items/soldier/xms_snowcoat"
 			"model_player"	"models/player/items/soldier/xms_snowcoat.mdl"
@@ -26871,6 +26921,26 @@
 			}
 			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		"701"
+		{
+			"name"	"The Lucky Shot"
+			"first_sale_date"	"2012/01/10"
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_LuckyShot"
+			"item_description"	"#TF_LuckyShot_Desc"
+			"image_inventory"	"backpack/player/items/soldier/luckyshot"
+			"model_player"	"models/player/items/soldier/luckyShot.mdl"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
 		}
 
 
@@ -30697,7 +30767,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "32"
+					"value" "37"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -36549,6 +36619,20 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
+		"370"
+		{
+			"name"	"attach particle effect static"
+			"attribute_class"	"set_attached_particle_static"
+			"attribute_name"	"Attach Custom Particle Static"
+			"min_value"	"0"
+			"max_value"	"0"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_AttachedParticle"
+			"description_format"	"value_is_particle_index"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
 		
 		
 
@@ -37148,6 +37232,13 @@
 			"The Southern Hospitality"		"1"
 			"The Scottish Resistance"		"1"
 		}
+		"kill_eater_set_mixed_f"
+		{
+			"The Bazaar Bargain"		"1"
+			"The Big Earner"		"1"
+			"The Blutsauger"		"1"
+			"The Liberty Launcher"		"1"
+		}
 		"supply_crate_loot_list_1"
 		{
 			"The Vita-Saw"		"1"
@@ -37428,6 +37519,12 @@
 			"Hard Counter"		"1"
 			"Western Wear"		"1"
 		}
+		"supply_crate_loot_list_37"
+		{
+			"kill_eater_set_mixed_f"		"1"
+			"Cosa Nostra Cap"		"1"
+			"Private Eye"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -37467,6 +37564,7 @@
 		"supply_crate_loot_list_34"	"34" 
 		"winter_crate_loot_list_2011_naughty"	"35"	
 		"winter_crate_loot_list_2011_nice"		"36"	
+		"supply_crate_loot_list_37"	"37" 
 		
 		
 		"kill_eater_set_demo_a"						"-1"
@@ -37491,6 +37589,7 @@
 		"kill_eater_set_mixed_c"						"-17"
 		"kill_eater_set_mixed_d"						"-18"
 		"kill_eater_set_mixed_e"						"-19"
+		"kill_eater_set_mixed_f"						"-20"
 	}
 	"recipes"
 	{
@@ -43469,6 +43568,536 @@
 							"field"	"name"
 							"operator"	"string=="
 							"value"	"The Original"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"95"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_SpyCicle"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_EternalReward"
+			"do_A"	"1"
+			"do_B"	"#TF_SpyCicle"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Your Eternal Reward"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Spy-Cicle"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"96"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_MasculineMittens"
+			"desc_inputs"	"#RDI_ABC2"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_TheHolyMackerel"
+			"di_C"	"#TF_Unique_Gloves_of_Running_Urgently"
+			"do_A"	"1"
+			"do_B"	"#TF_MasculineMittens"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Holy Mackerel"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Gloves of Running Urgently"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Holiday Punch"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"97"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_BallBuster"
+			"desc_inputs"	"#RDI_ABC2"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Combat_Wrench"
+			"di_C"	"#TF_Unique_Achievement_Bat"
+			"do_A"	"1"
+			"do_B"	"#TF_BallBuster"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Southern Hospitality"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Wrap Assassin"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"98"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Phlogistinator"
+			"desc_inputs"	"#RDI_ABC2"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_SodaPopper"
+			"di_C"	"#TF_Unique_Achievement_Flamethrower"
+			"do_A"	"1"
+			"do_B"	"#TF_Phlogistinator"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Soda Popper"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Backburner"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Phlogistinator"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"99"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Manmelter"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Weapon_Flaregun_Detonator"
+			"do_A"	"1"
+			"do_B"	"#TF_Manmelter"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Detonator"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Manmelter"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"100"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_ThirdDegree"
+			"desc_inputs"	"#RDI_ABC2"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_FireAxe1"
+			"di_C"	"#TF_ThePowerjack"
+			"do_A"	"1"
+			"do_B"	"#TF_ThirdDegree"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Axtinguisher"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Powerjack"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Third Degree"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"101"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Pomson"
+			"desc_inputs"	"#RDI_ABC2"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_RighteousBison"
+			"di_C"	"#TF_DEX_Pistol"
+			"do_A"	"1"
+			"do_B"	"#TF_Pomson"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Righteous Bison"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Short Circuit"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Pomson 6000"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"102"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Wrenchmotron"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#TF_Jag"
+			"di_C"	"#CI_Bar_B"
+			"do_A"	"1"
+			"do_B"	"#TF_Wrenchmotron"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Jag"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Eureka Effect"
 							"required"	"1"
 						}
 					}

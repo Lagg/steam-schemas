@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.2d904f3bcbbcea3da02d3ea4bcab5a785163b300.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.79101ef970b9da2a167459eaa9e52afaec85004b.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -2753,8 +2753,8 @@
 				},
 				"attributes": [
 					{
-						"name": "attach particle effect",
-						"class": "set_attached_particle",
+						"name": "attach particle effect static",
+						"class": "set_attached_particle_static",
 						"value": 5.000000
 					},
 					{
@@ -2782,6 +2782,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_bill.c3d26e27431f1a15511abf01b5819bc51975b94d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_bill_large.ce7f6a8489a5333f357831409a328c571b9220cb.png",
 				"drop_type": "drop",
+				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -10620,7 +10621,7 @@
 				"item_class": "tf_weapon_sniperrifle_decap",
 				"item_type_name": "Sniper Rifle",
 				"item_name": "Bazaar Bargain",
-				"item_description": "Each scoped headshot decreases the weapon's charge time.\nA scoped body shot reduces the bonus.\nA scoped miss wipes the bonus.\n",
+				"item_description": "Each scoped headshot decreases the weapon's charge time.\nA scoped body shot or miss reduces the bonus.\n",
 				"proper_name": true,
 				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_bazaar_sniper\/c_bazaar_sniper.mdl",
@@ -11831,8 +11832,8 @@
 				,
 				"attributes": [
 					{
-						"name": "attach particle effect",
-						"class": "set_attached_particle",
+						"name": "attach particle effect static",
+						"class": "set_attached_particle_static",
 						"value": 28.000000
 					}
 				]
@@ -14639,6 +14640,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pcg_hat_engineer.13ee1cad574b26c2b7d561a799f8edfaca9ac18c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pcg_hat_engineer_large.d33494ea133da6f764fecc76878e1c8b62a86c3b.png",
 				"drop_type": "drop",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -16839,8 +16841,8 @@
 				,
 				"attributes": [
 					{
-						"name": "attach particle effect",
-						"class": "set_attached_particle",
+						"name": "attach particle effect static",
+						"class": "set_attached_particle_static",
 						"value": 28.000000
 					}
 				]
@@ -18266,8 +18268,8 @@
 				,
 				"attributes": [
 					{
-						"name": "attach particle effect",
-						"class": "set_attached_particle",
+						"name": "attach particle effect static",
+						"class": "set_attached_particle_static",
 						"value": 28.000000
 					}
 				]
@@ -19740,6 +19742,36 @@
 						"class": "cannot_trade",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "The Lucky Shot",
+				"defindex": 701,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Lucky Shot",
+				"item_description": "Let's see you do that again, Private.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/luckyShot.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/luckyshot",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/luckyshot.4edc33dce64e4f76c94113169baea5a8bf01335c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/luckyshot_large.3c3e2627ccd2acac8b6a2f584f0ef2b6ba4feadf.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Soldier"
 				]
 				
 			},
@@ -22999,7 +23031,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 32.000000
+						"value": 37.000000
 					}
 				]
 				
@@ -28103,6 +28135,18 @@
 				"description_string": "On Hit: Force enemies to laugh who are also wearing this item",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "attach particle effect static",
+				"defindex": 370,
+				"attribute_class": "set_attached_particle_static",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Effect: %s1",
+				"description_format": "value_is_particle_index",
+				"effect_type": "neutral",
 				"hidden": false,
 				"stored_as_integer": false
 			}
