@@ -26934,11 +26934,19 @@
 			"model_player"	"models/player/items/soldier/luckyShot.mdl"
 			"propername"	"1"
 			"drop_type"	"drop"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
 			"used_by_classes"
 			{
 				"soldier"	"1"
 			}
 		}
+		
 
 
 
