@@ -26947,6 +26947,120 @@
 			}
 		}
 		
+		
+		"702"
+		{
+			"name"	"The Warsworn Helmet"
+			"first_sale_date"	"2012/01/13"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_WarswornHelmet"
+			"item_description"	"#TF_WarswornHelmet_Desc"
+			"image_inventory"	"backpack/player/items/all_class/all_reckoning_eagonn_spy"
+			"model_player_per_class"
+			{
+				"scout"		"models/player/items/all_class/all_reckoning_eagonn_scout.mdl"
+				"sniper"	"models/player/items/all_class/all_reckoning_eagonn_sniper.mdl"
+				"soldier"	"models/player/items/all_class/all_reckoning_eagonn_soldier.mdl"
+				"demoman"	"models/player/items/all_class/all_reckoning_eagonn_demo.mdl"
+				"medic"		"models/player/items/all_class/all_reckoning_eagonn_medic.mdl"
+				"heavy"		"models/player/items/all_class/all_reckoning_eagonn_heavy.mdl"
+				"spy"		"models/player/items/all_class/all_reckoning_eagonn_spy.mdl"
+				"engineer"	"models/player/items/all_class/all_reckoning_eagonn_engineer.mdl"
+				"pyro"		"models/player/items/all_class/all_reckoning_eagonn_pyro.mdl"
+			}
+			"propername"	"1"
+			"drop_type"	"drop"
+			"equip_regions"
+			{
+				"hat"		"1"
+				"face"		"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+		}
+		"703"
+		{
+			"name"	"The Bolgan"
+			"first_sale_date"	"2012/01/13"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_BolganHelmet"
+			"item_description"	"#TF_BolganHelmet_Desc"
+			"image_inventory"	"backpack/player/items/all_class/all_reckoning_bolgan_demo"
+			"model_player"	"models/player/items/all_class/all_reckoning_bolgan_demo.mdl"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"equip_regions"
+			{
+				"hat"		"1"
+				"face"		"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
+			}
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+		}
+		"704"
+		{
+			"name"	"The Bolgan Family Crest"
+			"first_sale_date"	"2012/01/13"
+			"prefab"	"promo_hat"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_name"	"#TF_ReckoningBadge"
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_description"	"#TF_ReckoningBadge_Desc"
+			"image_inventory"	"backpack/player/items/all_class/all_reckoning_badge"
+			"model_player"	"models/player/items/all_class/all_reckoning_badge.mdl"
+			"propername"	"1"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+		}
+		
+		
 
 
 

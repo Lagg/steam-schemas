@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.edab0fe7eb59bc9082978399a87a33361ca123fe.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.55d94f761de890e65d2fc341329030a38574e878.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -19772,6 +19772,105 @@
 				},
 				"used_by_classes": [
 					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Warsworn Helmet",
+				"defindex": 702,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Warsworn Helmet",
+				"item_description": "Whether you're a mercenary in the granaries and gravel pits of the Badlands or an immense fantasy world, this helmet tells potential employers everything they need to know: You will do horrible, horrible things for money.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/all_reckoning_eagonn_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_reckoning_eagonn_spy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_reckoning_eagonn_spy.cb361972b3d48c4f3f9634c94a289c4cebe47a48.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_reckoning_eagonn_spy_large.3245ecc2f535fab5dac24650a9b50729c15ccba1.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Bolgan",
+				"defindex": 703,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Bolgan",
+				"item_description": "Protect the all-important empty socket part of your face while giving enemies an irresistible target: unimportant exposed parts like your mouth, nose and generally all the non-socket parts of your face.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/all_reckoning_bolgan_demo.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_reckoning_bolgan_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_reckoning_bolgan_demo.0060148eaa66df11caecb2f1356a88831fdfbb46.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_reckoning_bolgan_demo_large.6139e35e268a5882447c2226fb17254b02c126df.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Bolgan Family Crest",
+				"defindex": 704,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Bolgan Family Crest",
+				"item_description": "This stylish bronze badge lets people know that at some crucial point in your family genealogy, one of your family members became intimately involved with a monster cyclops.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_reckoning_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_reckoning_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_reckoning_badge.d5d5f44aa6f7aba7ec4767a7bfc114574f68a424.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_reckoning_badge_large.0a1d26bd5d30fb1b58a407f573b1a4e5ba0666b8.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
 				]
 				
 			},
