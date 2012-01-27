@@ -146,6 +146,7 @@
 			"medic_pocket"		"1"
 			"soldier_pocket"	"1"
 			"pyro_shoulder"		"1"
+			"demo_belt"		"1"
 		}
 		"shared"
 		{
@@ -1462,7 +1463,7 @@
 				{
 					"attribute_class"	"kill_eater_score_type_2"
 					"value" 			"1"								
-				}				
+				}
 			}
 			"visuals_red"
 			{
@@ -27061,6 +27062,34 @@
 		}
 		
 		
+		
+		"708"
+		{
+			"name"	"Alladin's Private Reserve"
+			"first_sale_date"	"2012/01/26"
+			"prefab"	"hat"
+			"item_slot"	"misc"
+			"equip_region"	"demo_belt"
+			"item_name"	"#TF_DemoLamp"
+			"item_type_name"	"#TF_Wearable_MysticalLamp"
+			"item_description"	"#TF_DemoLamp_Desc"
+			"image_inventory"	"backpack/player/items/demo/djinn_lamp"
+			"model_player"	"models/player/items/demo/djinn_lamp.mdl"
+			"propername"	"0"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"attributes"
+			{
+				"attach particle effect static"
+				{
+					"attribute_class"	"set_attached_particle_static"
+					"value"	"28"
+				}
+			}
+		}
 
 
 

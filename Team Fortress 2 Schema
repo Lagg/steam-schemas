@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.55d94f761de890e65d2fc341329030a38574e878.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9428f493cae1909bb322720ee104ca4a07397001.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -19875,6 +19875,43 @@
 				
 			},
 			{
+				"name": "Alladin's Private Reserve",
+				"defindex": 708,
+				"item_class": "tf_wearable",
+				"item_type_name": "Mystical Lamp",
+				"item_name": "Alladin's Private Reserve",
+				"item_description": "Originally owned by some punk kid in Syria, this Arabian wish-granter is a lamp full of liquid courage. Simply rub, think liquory thoughts, and pour. Warning: don't think about anything else while rubbing, or you might not get booze.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/djinn_lamp.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/djinn_lamp",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/djinn_lamp.76b9a582eba7dbc3a40d5983e75d9e959138cb92.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/djinn_lamp_large.bb27dfe67a3733d754abcdad7ba818d6bf72c1bd.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "attach particle effect static",
+						"class": "set_attached_particle_static",
+						"value": 28.000000
+					}
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -29196,39 +29233,48 @@
 		"kill_eater_score_types": [
 			{
 				"type": 0,
-				"type_name": "Kills"
+				"type_name": "Kills",
+				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 1,
-				"type_name": "Ubers"
+				"type_name": "Ubers",
+				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 2,
-				"type_name": "Kill Assists"
+				"type_name": "Kill Assists",
+				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 3,
-				"type_name": "Sentry Kills"
+				"type_name": "Sentry Kills",
+				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 4,
-				"type_name": "Sodden Victims"
+				"type_name": "Sodden Victims",
+				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 5,
-				"type_name": "Spies Shocked"
+				"type_name": "Spies Shocked",
+				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 6,
-				"type_name": "Heads Taken"
+				"type_name": "Heads Taken",
+				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 7,
-				"type_name": "Humiliations"
+				"type_name": "Humiliations",
+				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 8,
-				"type_name": "Gifts Given"
+				"type_name": "Gifts Given",
+				"level_data": "SpiritOfGivingRank"
 			}
 		]
 		
