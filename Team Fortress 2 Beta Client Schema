@@ -136,6 +136,9 @@
 		"head_skin"			"1"			
 		"pyro_tank"			"1"	
 		"heavy_hip"			"1"
+
+		"sniper_pocket"		"1"			
+		"engineer_pocket"	"1"			
 		
 		"shared"
 		{
@@ -150,7 +153,6 @@
 		}
 		"shared"
 		{
-			"engineer_pocket"	"1"		
 			"pyro_wings"		"1"
 			"sniper_bullets"	"1"
 			"medigun_accessories"	"1"
@@ -603,7 +605,7 @@
 			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
 			"drop_sound"		"ui/item_paper_pickup.wav"
 		}
-		"tournament_medal"
+		"award_medal"
 		{
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
@@ -611,7 +613,7 @@
 			{
 			}
 			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_type_name"	"#TF_Wearable_Medal"
 			"item_slot"	"misc"
 			"equip_region"	"medal"
 			"item_quality"	"unique"
@@ -2549,6 +2551,11 @@
 				{
 					"attribute_class"	"mult_cloak_meter_regen_rate"
 					"value"	"1.8"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value"				"9"								
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_watch_pickup.wav"
@@ -15893,6 +15900,16 @@
 					"attribute_class"	"mult_medigun_uberchargerate"
 					"value"	"1.25"
 				}
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value"				"1"								
+				}
+				"kill eater score type 2"
+				{
+					"attribute_class"	"kill_eater_score_type_2"
+					"value" 			"2"								
+				}
 			}
 			"visuals"
 			{
@@ -25569,18 +25586,27 @@
 			"item_name"	"#TF_ItsyBitsySpyer"
 			"item_description"	"#TF_ItsyBitsySpyer_Desc"
 			"item_slot"	"misc"
-			"equip_region"	"engineer_pocket"
+			"equip_regions"
+			{
+				"sniper_pocket"		"1"
+				"engineer_pocket"	"1"
+			}
 			"item_quality"	"unique"
 			"propername"	"1"
 			"image_inventory"	"backpack/player/items/engineer/xms_engineer_voodoospy"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/engineer/xms_engineer_voodoospy.mdl"
+			"model_player_per_class"	
+			{
+				"sniper"	"models/player/items/sniper/sniper_voodoospy.mdl"
+				"engineer"	"models/player/items/engineer/xms_engineer_voodoospy.mdl"
+			}
 			"min_ilevel"	"15"
 			"max_ilevel"	"15"
 			"drop_type"	"none"
 			"used_by_classes"
 			{
+				"sniper"	"1"
 				"engineer"	"1"
 			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
@@ -26700,7 +26726,8 @@
 		"680"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Platinum 1st Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_1st"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -26713,7 +26740,8 @@
 		"681"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Platinum 2nd Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_2nd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -26726,7 +26754,8 @@
 		"682"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Platinum 3rd Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_3rd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -26739,7 +26768,8 @@
 		"683"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Platinum Participant"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_Participant"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -26752,7 +26782,8 @@
 		"684"
 		{		
 			"name"				"UGC Tournament Autumn 2011 - Euro Platinum"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_EuroPlatinum"
 			"item_description"	"#TF_TournamentMedal_Autumn2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -26765,7 +26796,8 @@
 		"685"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Silver 1st Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_1st"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -26778,7 +26810,8 @@
 		"686"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Silver 2nd Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_2nd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -26791,7 +26824,8 @@
 		"687"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Silver 3rd Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_3rd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -26804,7 +26838,8 @@
 		"688"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Silver Participant"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_Participant"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -26817,7 +26852,8 @@
 		"689"
 		{		
 			"name"				"UGC Tournament Autumn 2011 - Euro Silver"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_EuroSilver"
 			"item_description"	"#TF_TournamentMedal_Autumn2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -26830,7 +26866,8 @@
 		"690"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Iron 1st Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_1st"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -26843,7 +26880,8 @@
 		"691"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Iron 2nd Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_2nd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -26856,7 +26894,8 @@
 		"692"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Iron 3rd Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_3rd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -26869,7 +26908,8 @@
 		"693"
 		{		
 			"name"				"UGC Tournament Autumn 2011 - Euro Iron"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_EuroIron"
 			"item_description"	"#TF_TournamentMedal_Autumn2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -26882,7 +26922,8 @@
 		"694"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Tin 1st Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_1st"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -26895,7 +26936,8 @@
 		"695"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Tin 2nd Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_2nd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -26908,7 +26950,8 @@
 		"696"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Tin 3rd Place"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_3rd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -26921,7 +26964,8 @@
 		"697"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Participant"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_Participant"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -26934,7 +26978,8 @@
 		"698"
 		{		
 			"name"				"UGC Tournament Autumn 2011 - Euro Participant"
-			"prefab"			"tournament_medal"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_EuroParticipant"
 			"item_description"	"#TF_TournamentMedal_Autumn2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -27117,7 +27162,7 @@
 		
 		"708"
 		{
-			"name"	"Alladin's Private Reserve"
+			"name"	"Aladdin's Private Reserve"
 			"first_sale_date"	"2012/01/26"
 			"prefab"	"hat"
 			"item_slot"	"misc"
@@ -27142,7 +27187,155 @@
 				}
 			}
 		}
-
+		"717"
+		{		
+			"name"				"The Map Maker's Medallion"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_MapperMedal"
+			"item_name"			"#TF_MapperMedal"
+			"item_description"	"#TF_MapperMedal_Desc"
+			"image_inventory"	"backpack/player/items/all_class/mapper_medal"
+			"model_player"	"models/player/items/all_class/mapper_medal.mdl"
+			"propername"	"1"
+		}
+		
+		"718"
+		{
+			"name"	"The Merc Medal"
+			"first_sale_date"	"2012/01/31"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_Jag_Badge"
+			"item_description"	"#TF_Jag_Badge_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"image_inventory"	"backpack/player/items/all_class/jag_badge"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"propername"	"1"
+			"model_player"	"models/player/items/all_class/jag_badge.mdl"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"drop_type"		"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
+		"719"
+		{
+			"name"	"The Battle Bob"
+			"first_sale_date"	"2012/01/31"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_Jag_Haircut"
+			"item_description"	"#TF_Jag_Haircut_Desc"			
+			"image_inventory"	"backpack/player/items/soldier/jag_bob_haircut"
+			"model_player"	"models/player/items/soldier/jag_bob_haircut.mdl"
+			"propername"	"1"
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"name"	"#TF_Jag_Haircut_Style_NoHelmet"
+						"additional_hidden_bodygroups"
+						{
+							"hat"			"1"
+						}
+					}
+					"1"
+					{
+						"name"	"#TF_Jag_Haircut_Style_WithHelmet"
+					}
+				}
+			}
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+		}
+		"720"
+		{
+			"name"	"The Bushman's Boonie"
+			"first_sale_date"	"2012/01/31"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_Jag_Shadow"
+			"item_description"	"#TF_Jag_Shadow_Desc"
+			"image_inventory"	"backpack/player/items/sniper/jag_shadow"
+			"model_player"	"models/player/items/sniper/jag_shadow.mdl"
+			"propername"	"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+		}
+		
+		"721"
+		{
+			"name"	"The Conquistador"
+			"first_sale_date"	"2012/02/01"
+			"prefab"	"hat"
+			"item_name"	"#TF_Conquistador"
+			"item_description"	"#TF_Conquistador_Desc"
+			"image_inventory"	"backpack/player/items/soldier/morion"
+			"model_player"	"models/player/items/soldier/morion.mdl"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+		}
 
 
 
@@ -31113,7 +31306,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "33"
+					"value" "38"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -37866,6 +38059,17 @@
 			"The Blutsauger"		"1"
 			"The Liberty Launcher"		"1"
 		}
+		"kill_eater_set_mixed_g__secondary_stats"
+		{
+			"The Quick-Fix"		"1"
+		}
+		"kill_eater_set_mixed_g"
+		{
+			"The Dead Ringer"		"1"
+			"Upgradeable TF_WEAPON_SMG"		"1"
+			"The Killing Gloves of Boxing"		"1"
+			"kill_eater_set_mixed_g__secondary_stats"		"1"
+		}
 		"supply_crate_loot_list_1"
 		{
 			"The Vita-Saw"		"1"
@@ -38152,6 +38356,12 @@
 			"Cosa Nostra Cap"		"1"
 			"Private Eye"		"1"
 		}
+		"supply_crate_loot_list_38"
+		{
+			"kill_eater_set_mixed_g"		"1"
+			"The Flamboyant Flamenco"		"1"
+			"Reggaelator"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -38192,6 +38402,7 @@
 		"winter_crate_loot_list_2011_naughty"	"35"	
 		"winter_crate_loot_list_2011_nice"		"36"	
 		"supply_crate_loot_list_37"	"37" 
+		"supply_crate_loot_list_38" "38" 
 		
 		
 		"kill_eater_set_demo_a"						"-1"
@@ -38217,6 +38428,8 @@
 		"kill_eater_set_mixed_d"						"-18"
 		"kill_eater_set_mixed_e"						"-19"
 		"kill_eater_set_mixed_f"						"-20"
+		"kill_eater_set_mixed_g__secondary_stats"		"-21"
+		"kill_eater_set_mixed_g"						"-22"
 	}
 	"recipes"
 	{
@@ -45301,6 +45514,10 @@
 		{
 			"type_name"			"KillEaterEventType_GiftsGiven"
 			"level_data"		"SpiritOfGivingRank"
+		}
+		"9"
+		{
+			"type_name"	"KillEaterEventType_FeignDeaths"
 		}
 	}
 }
