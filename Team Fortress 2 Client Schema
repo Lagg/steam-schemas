@@ -134,9 +134,8 @@
 		
 		"flair"				"1"
 		"head_skin"			"1"			
-		"pyro_tank"			"1"	
-		"heavy_hip"			"1"
-
+		
+		"earbuds_special"	"1"
 		"sniper_pocket"		"1"			
 		"engineer_pocket"	"1"			
 		
@@ -145,11 +144,10 @@
 			"scout_backpack"	"1"
 			"heavy_pocket"		"1"
 			"engineer_belt"		"1"		
-			"demoman_bombs"		"1"
 			"medic_pocket"		"1"
 			"soldier_pocket"	"1"
-			"pyro_shoulder"		"1"
-			"demo_belt"		"1"
+			"pyro_tank"			"1"
+			"demo_belt"			"1"
 		}
 		"shared"
 		{
@@ -157,6 +155,8 @@
 			"sniper_bullets"	"1"
 			"medigun_accessories"	"1"
 			"soldier_coat"		"1"
+			"heavy_hip"			"1"
+			"scout_shirt"		"1"
 		}
 		"shared"
 		{
@@ -4858,7 +4858,7 @@
 			"item_name"	"#TF_OSXItem"
 			"item_description"	"#TF_OSXItem_Desc"
 			"item_slot"	"misc"
-			"equip_region"	"ears"
+			"equip_region"	"earbuds_special"
 			"item_quality"	"unique"
 			"image_inventory"	"backpack/player/items/all_class/earbuds"
 			"image_inventory_size_w"		"128"
@@ -5215,8 +5215,8 @@
 			{
 				"pyro"	"1"
 			}
-			"mouse_pressed_sound" 	"ui/item_rubber_pickup.wav"
-			"drop_sound" 		"ui/item_rubber_pickup.wav"
+			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
+			"drop_sound"			"ui/item_gooey_pickup.wav"
 		}
 		"152"
 		{
@@ -12158,7 +12158,7 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/medic/medic_blighted_beak.mdl"
-			"drop_type"	"drop"
+			"drop_type"	"none"
 			"used_by_classes"
 			{
 				"medic"	"1"
@@ -13116,8 +13116,8 @@
 					"headphones"	"1"
 				}
 			}
-			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
-			"drop_sound" 		"ui/item_hat_drop.wav"
+			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
+			"drop_sound"		"ui/item_gooey_pickup.wav"
 		}
 		"335"
 		{
@@ -14636,7 +14636,11 @@
 			"item_name"	"#TF_ProfessorHair"
 			"item_description"	"#TF_ProfessorHair_Desc"
 			"item_slot"	"head"
-			"equip_region"	"hat"
+			"equip_regions"
+			{
+				"hat"			"1"
+				"glasses"		"1"
+			}
 			"item_quality"	"unique"
 			"image_inventory"	"backpack/player/items/crafting/professor_hair_icon"
 			"image_inventory_size_w"		"128"
@@ -15206,6 +15210,7 @@
 				"nameable"				"1"
 				"can_craft_count"		"1"
 				"can_gift_wrap" 		"1"
+				"paintable"				"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name" "#TF_Wearable_Hat"
@@ -16577,8 +16582,8 @@
 					"replacement"		"ACT_FISTS_VM_DRAW"
 				}				
 			}
-			"mouse_pressed_sound" "ui/item_boxing_gloves_pickup.wav"
-			"drop_sound" "ui/item_boxing_gloves_drop.wav"
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
 			"item_set"	"black_market"
 		}
 		"427"
@@ -17030,6 +17035,7 @@
 				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 				"can_craft_mark"	"1"
+				"paintable"			"1"
 			}
 			"loadondemand" "1"
 			"show_in_armory"	"1"
@@ -17719,10 +17725,22 @@
 			}
 			"visuals"
 			{
-				"player_bodygroups"
+				
+				"styles"
 				{
-					"hat"			"1"
-					"headphones"	"1"
+					"0"
+					{
+						"name"	"#TF_BonkBoy_Style_WithNoHat"
+						"additional_hidden_bodygroups"
+						{
+							"hat"			"1"
+							"headphones"	"1"
+						}
+					}
+					"1"
+					{
+						"name"	"#TF_BonkBoy_Style_WithHat"
+					}
 				}
 			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
@@ -17822,6 +17840,19 @@
 				{
 					"hat"			"1"
 					"headphones"	"1"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_HerosTail_Style0"
+					}
+					"1"
+					{
+						"skin"	"2"
+						"name"	"#TF_HerosTail_Style1"
+					}
 				}
 			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
@@ -18292,6 +18323,7 @@
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
+				"paintable"			"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name" "#TF_Wearable_Hat"
@@ -20224,6 +20256,7 @@
 				"nameable"			"1"
 				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
+				"paintable"			"1"
 			}
 			"show_in_armory"	"1"
 			"propername"	"1"
@@ -20491,6 +20524,7 @@
 				"nameable"			"1"
 				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
+				"paintable"			"1"
 			}
 			"show_in_armory"	"1"
 			"min_ilevel"	"10"
@@ -20973,8 +21007,8 @@
 				"wm_bodygroup_override"			"2"
 				"wm_bodygroup_state_override"			"2"
 			}
-			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
+			"mouse_pressed_sound"	"ui/item_robot_arm_pickup.wav"
+			"drop_sound"		"ui/item_robot_arm_drop.wav"
 		}
 		
 		
@@ -20986,7 +21020,6 @@
 			"loadondemand" "1"
 			"capabilities"
 			{
-				"paintable"		"1"
 				"nameable"		"1"
 			}
 			"show_in_armory"	"1"
@@ -21032,7 +21065,6 @@
 			"loadondemand" "1"
 			"capabilities"
 			{
-				"paintable"		"1"
 				"nameable"		"1"
 			}
 			"show_in_armory"	"1"
@@ -21078,7 +21110,6 @@
 			"loadondemand" "1"
 			"capabilities"
 			{
-				"paintable"		"1"
 				"nameable"		"1"
 			}
 			"show_in_armory"	"1"
@@ -21607,7 +21638,11 @@
 			"prefab"	"halloween_costume_piece_2011"
 			"item_name"	"#TF_Hwn_ScoutMisc1"
 			"item_description"	"#TF_Hwn_ScoutMisc1_Desc"
-			"equip_region"	"arms"
+			"equip_regions"
+			{
+				"arms"			"1"
+				"necklace"		"1"
+			}
 			"item_slot"	"misc"
 			"propername"	"0"
 			"image_inventory"	"backpack/player/items/scout/hwn_scout_misc1"
@@ -21656,7 +21691,11 @@
 			"item_name"	"#TF_Hwn_PyroHat"
 			"item_description"	"#TF_Hwn_PyroHat_Desc"
 			"item_slot"	"head"
-			"equip_region"	"hat"
+			"equip_regions"
+			{
+				"hat"			"1"
+				"lenses"		"1"
+			}
 			"propername"	"1"
 			"image_inventory"	"backpack/player/items/pyro/hwn_pyro_hat"
 			"model_player"	"models/player/items/pyro/hwn_pyro_hat.mdl"
@@ -21959,13 +21998,6 @@
 			{
 				"sniper"	"1"
 			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"bullets"			"1"
-				}
-			}
 			"item_set"	"sniper_halloween_2011"
 		}		
 		"566"
@@ -21992,7 +22024,7 @@
 			"item_name"	"#TF_Hwn_EngineerHat"
 			"item_description"	"#TF_Hwn_EngineerHat_Desc"
 			"item_slot"	"head"
-			"equip_region"	"hat"
+			"equip_region"	"whole_head"
 			"propername"	"1"
 			"image_inventory"	"backpack/player/items/engineer/hwn_engineer_hat"
 			"model_player"	"models/player/items/engineer/hwn_engineer_hat.mdl"
@@ -22185,8 +22217,6 @@
 			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
 			"drop_sound"		"ui/item_gooey_pickup.wav"
 		}
-		
-
 		"574"
 		{
 			"name"	"The Wanga Prick"
@@ -22961,6 +22991,7 @@
 			"capabilities"
 			{
 				"can_craft_count"	"1"
+				"paintable"			"1"
 			}
 			"item_name"	"#TF_Luchador"
 			"item_description"	"#TF_Luchador_Desc"
@@ -23313,8 +23344,12 @@
 			"item_type_name"	"#TF_Wearable_FacialHair"
 			"item_name"	"#TF_Brainiac"
 			"item_description"	"#TF_Brainiac_Desc"
-			"item_slot"	"misc"
-			"equip_region" "beard"
+			"item_slot"	"head"
+			"equip_regions"
+			{
+				"hat"			"1"
+				"beard"			"1"
+			}
 			"item_quality"	"unique"
 			"propername" "1"
 			"image_inventory"	"backpack/player/items/engineer/drg_brainiac_hair"
@@ -23325,6 +23360,13 @@
 			"used_by_classes"
 			{
 				"engineer"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
 			}
 			"item_set"	"drg_brainiac"
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
@@ -23347,7 +23389,7 @@
 			"show_in_armory"	"1"
 			"min_ilevel"	"20"
 			"max_ilevel"	"20"
-			"item_type_name"	"#TF_Wearable_Hat"
+			"item_type_name"	"#TF_Wearable_Glasses"
 			"item_name"	"#TF_Brainiac_Goggles"
 			"item_description"	"#TF_Brainiac_Goggles_Desc"
 			"item_slot"	"misc"
@@ -23362,13 +23404,6 @@
 			"used_by_classes"
 			{
 				"engineer"	"1"
-			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"hat"			"1"
-				}
 			}
 			"item_set"	"drg_brainiac"
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
@@ -23964,7 +23999,6 @@
 			"prefab"	"hat"
 			"capabilities"
 			{
-				"paintable"		"1"
 				"can_craft_count"	"1"
 			}
 			"item_name"	"#TF_EngineerHat1"
@@ -23974,7 +24008,7 @@
 			"propername"	"1"
 			"image_inventory"	"backpack/player/items/all_class/heavy_thinker"
 			"model_player"	"models/player/items/engineer/heavy_thinker.mdl"
-			"drop_type"		"drop"
+			"drop_type"		"none"
 			"used_by_classes"
 			{
 				"engineer"	"1"
@@ -24176,7 +24210,7 @@
 			"item_name"	"#TF_OldBrimstone"
 			"item_description"	"#TF_OldBrimstone_Desc"
 			"item_slot"	"misc"
-			"equip_region"	"demoman_bombs"
+			"equip_region"	"grenades"
 			"image_inventory"	"backpack/player/items/demo/bombs"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
@@ -24794,7 +24828,7 @@
 			"propername"	"1"
 			"image_inventory"	"backpack/player/items/engineer/fwk_engineer_cranial"
 			"model_player"	"models/player/items/engineer/fwk_engineer_cranial.mdl"
-			"drop_type"		"drop"
+			"drop_type"		"none"
 			"used_by_classes"
 			{
 				"engineer"	"1"
@@ -24806,6 +24840,8 @@
 					"hat"			"1"
 				}
 			}
+			"mouse_pressed_sound"	"ui/item_robot_arm_pickup.wav"
+			"drop_sound"		"ui/item_robot_arm_drop.wav"
 		}
 		"629"
 		{
@@ -24923,6 +24959,7 @@
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
+				"paintable"			"1"
 			}
 			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
@@ -24930,7 +24967,7 @@
 			"item_name"	"#TF_PyroConscience"
 			"item_description"	"#TF_PyroConscience_Desc"
 			"item_slot"	"misc"
-			"equip_region"	"pyro_shoulder"
+			"equip_region"	"grenades"
 			"image_inventory"	"backpack/player/items/pyro/fwk_pyro_conscience"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
@@ -24989,7 +25026,7 @@
 		"634"
 		{
 			"name"	"Point and Shoot"
-			"first_sale_date"	"2011/11/14"
+			"first_sale_date"	"2012/02/09"
 			"prefab"	"hat"			
 			"capabilities"
 			{
@@ -25038,7 +25075,7 @@
 		"635"
 		{
 			"name"	"War Head"
-			"first_sale_date"	"2011/11/14"
+			"first_sale_date"	"2012/02/09"
 			"item_class"	"tf_wearable"
 			"craft_material_type"	"hat"
 			"craft_class"	"hat"
@@ -25126,6 +25163,7 @@
 			"capabilities"
 			{
 				"can_craft_count"	"1"
+				"paintable"			"1"
 			}	
 			"item_name"	"#TF_DashinHashshashin"
 			"item_description"	"#TF_DashinHashshashin_Desc"
@@ -26077,8 +26115,8 @@
 				"sound_melee_hit_world"	"Weapon_mittens.HitWorld"
 				"sound_burst"			"Weapon_mittens.CritHit"
 			}
-			"mouse_pressed_sound" "ui/item_boxing_gloves_pickup.wav"
-			"drop_sound" "ui/item_boxing_gloves_drop.wav"
+			"mouse_pressed_sound" "ui/item_hat_pickup.wav"
+			"drop_sound"          "ui/item_boxing_gloves_drop.wav"
 		}
 		
 		
@@ -26969,6 +27007,7 @@
 			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
 		}
+		
 		"701"
 		{
 			"name"	"The Lucky Shot"
@@ -27107,7 +27146,33 @@
 		}
 		
 		
-		
+		"707"
+		{
+			"name"	"The Boston Boom-Bringer"
+			"first_sale_date"	"2012/01/13"
+			"prefab"	"hat"
+			"item_slot"	"misc"
+			"equip_region"	"scout_backpack"
+			"item_name"	"#TF_ScoutBoombox"
+			"item_type_name"	"#TF_Wearable_Boombox"
+			"item_description"	"#TF_ScoutBoombox_Desc"
+			"image_inventory"	"backpack/player/items/scout/boombox"
+			"model_player"	"models/player/items/scout/boombox.mdl"
+			"propername"	"1"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"attributes"
+			{
+				"taunt success sound"
+				{
+					"attribute_class"	"taunt_success_sound"
+					"value"				"1"
+				}
+			}
+		}
 		"708"
 		{
 			"name"	"Aladdin's Private Reserve"
@@ -27135,6 +27200,7 @@
 				}
 			}
 		}
+		
 		"717"
 		{		
 			"name"				"The Map Maker's Medallion"
@@ -36972,6 +37038,20 @@
 			"description_format"	"value_is_particle_index"
 			"hidden"	"0"
 			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		"371"
+		{
+			"name"	"taunt success sound"
+			"attribute_class"	"taunt_success_sound"
+			"attribute_name"	"taunt success sound"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_TauntSoundSuccess"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
 		

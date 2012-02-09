@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.f2a5a639279ef5d107b6e00c27d32b3cbc28c232.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.fa88ac5a8705d260309496094a5e9a793e7c8e84.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -8400,7 +8400,7 @@
 				"max_ilevel": 100,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/blighted_beak.c8e35e37cb01e114071917fdd6d0dcc4c8c5f7dc.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/blighted_beak_large.718bfa1ef494ed754faa7a2330d04be62149f0a7.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -10648,6 +10648,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -11916,6 +11917,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -12244,8 +12246,8 @@
 				"image_inventory": "backpack\/weapons\/c_models\/c_soda_popper\/c_soda_popper",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_soda_popper.d796677f73d6fb92f6722396039b9c7f8459a9f8.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_soda_popper_large.cd6ec5f5236c4244adb16c41e2e6e297ab7d2e8d.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_soda_popper.c2bdd7385a26175e9e7a8d0a8f5a4345f90afec2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_soda_popper_large.1cf6554722079e4fc0d3e01fc6845193a698e9ab.png",
 				"item_set": "bonk_fan",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
@@ -12403,6 +12405,19 @@
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
+				"styles": [
+					{
+						"name": "Aerodynamic Classic",
+						"additional_hidden_bodygroups": {
+							"hat": 1,
+							"headphones": 1
+						}
+					},
+					{
+						"name": "Tuned In"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Scout"
 				]
@@ -12475,6 +12490,15 @@
 					"can_craft_count": true,
 					"can_craft_mark": true
 				},
+				"styles": [
+					{
+						"name": "Pigmentation Lost"
+					},
+					{
+						"name": "Pigmentation Gained"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Scout"
 				]
@@ -12853,6 +12877,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -14028,6 +14053,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -14224,6 +14250,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -14557,7 +14584,6 @@
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/clockwerk_hat_large.5cfa455e8d22d5c27a65ec8a8e1744ac71c7a99c.png",
 				"drop_type": "drop",
 				"capabilities": {
-					"paintable": true,
 					"nameable": true,
 					"can_craft_mark": true
 				},
@@ -14592,7 +14618,6 @@
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dotasniper_hat_large.b33a73edd338ed5c0720170c8bc41ddc4210f0a5.png",
 				"drop_type": "none",
 				"capabilities": {
-					"paintable": true,
 					"nameable": true,
 					"can_craft_mark": true
 				},
@@ -14627,7 +14652,6 @@
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stormspirit_hat_large.cb6115d7dcd847eea168fa5d0179e1d56f04c549.png",
 				"drop_type": "drop",
 				"capabilities": {
-					"paintable": true,
 					"nameable": true,
 					"can_craft_mark": true
 				},
@@ -16437,6 +16461,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -16619,7 +16644,7 @@
 				"item_name": "Brainiac Hairpiece",
 				"item_description": "Being a maths-enhancing hairpiece that endeavors to heighten the senses of any soul, be he a gentle-man of leisure deserving of such a thing, or a loathsome tiller of the earth of whom a beating would not go unwarranted.",
 				"proper_name": true,
-				"item_slot": "misc",
+				"item_slot": "head",
 				"model_player": "models\/player\/items\/engineer\/drg_brainiac_hair.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/player\/items\/engineer\/drg_brainiac_hair",
@@ -16646,7 +16671,7 @@
 				"name": "The Brainiac Goggles",
 				"defindex": 591,
 				"item_class": "tf_wearable",
-				"item_type_name": "Hat",
+				"item_type_name": "Glasses",
 				"item_name": "Brainiac Goggles",
 				"item_description": "Being prescription shooting goggles that endeavor to relieve the eye from the reflection off one's gun barrel whilst also correcting Diplopia, Strabismus, 'Nervous Vision', Early-Onset Old-Eye, and several other varieties of structural defect.",
 				"proper_name": true,
@@ -17169,11 +17194,10 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_thinker.f680ecec75ea47ab7223dd315b3a6711f488e82b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_thinker_large.c54f27e5b8bbe3b612f1ff5ee70fa727d6e600e9.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
-					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -17863,7 +17887,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_engineer_cranial.3e625771983a94137ae1191df7714b62cb8164ef.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fwk_engineer_cranial_large.a45bdd2e2aad8dad0a1ebfafa561ebe67fc20bcb.png",
-				"drop_type": "drop",
+				"drop_type": "none",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -17991,6 +18015,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -18129,6 +18154,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -19964,6 +19990,43 @@
 					{
 						"name": "cannot trade",
 						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Boston Boom-Bringer",
+				"defindex": 707,
+				"item_class": "tf_wearable",
+				"item_type_name": "Futuristic Sound Device",
+				"item_name": "Boston Boom-Bringer",
+				"item_description": "Walkin' down the street to the hardcore beat while his Mann Co. boom vibrates the concrete.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/boombox.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/boombox",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/boombox.846e55d239dbf729b3f3ab5eb6fef3292ba3661e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/boombox_large.4b788438a492765c9dc1848e89176390941d475b.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "taunt success sound",
+						"class": "taunt_success_sound",
 						"value": 1.000000
 					}
 				]
@@ -28552,6 +28615,18 @@
 				"description_string": "Effect: %s1",
 				"description_format": "value_is_particle_index",
 				"effect_type": "neutral",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "taunt success sound",
+				"defindex": 371,
+				"attribute_class": "taunt_success_sound",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Attrib_TauntSoundSuccess",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
 			}
