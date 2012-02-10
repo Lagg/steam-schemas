@@ -17731,6 +17731,8 @@
 					"0"
 					{
 						"name"	"#TF_BonkBoy_Style_WithNoHat"
+						"skin_red"	"0"
+						"skin_blu"	"1"
 						"additional_hidden_bodygroups"
 						{
 							"hat"			"1"
@@ -17740,6 +17742,8 @@
 					"1"
 					{
 						"name"	"#TF_BonkBoy_Style_WithHat"
+						"skin_red"	"0"
+						"skin_blu"	"1"
 					}
 				}
 			}
@@ -23344,12 +23348,8 @@
 			"item_type_name"	"#TF_Wearable_FacialHair"
 			"item_name"	"#TF_Brainiac"
 			"item_description"	"#TF_Brainiac_Desc"
-			"item_slot"	"head"
-			"equip_regions"
-			{
-				"hat"			"1"
-				"beard"			"1"
-			}
+			"item_slot"	"misc"
+			"equip_region" "beard"
 			"item_quality"	"unique"
 			"propername" "1"
 			"image_inventory"	"backpack/player/items/engineer/drg_brainiac_hair"
@@ -23360,13 +23360,6 @@
 			"used_by_classes"
 			{
 				"engineer"	"1"
-			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"hat"			"1"
-				}
 			}
 			"item_set"	"drg_brainiac"
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
