@@ -25020,7 +25020,7 @@
 		{
 			"name"	"Point and Shoot"
 			"first_sale_date"	"2012/02/09"
-			"prefab"	"hat"			
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -26592,6 +26592,19 @@
 					"hat"			"1"
 					"headphones"	"1"
 				}
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_Winter2011_WinterFurCap_Style0"
+					}
+					"1"
+					{
+						"skin"	"2"
+						"name"	"#TF_Winter2011_WinterFurCap_Style1"
+					}
+				}
 			}
 		}
 		"673"
@@ -27030,7 +27043,7 @@
 		{
 			"name"	"The Warsworn Helmet"
 			"first_sale_date"	"2012/01/13"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -27082,7 +27095,7 @@
 		{
 			"name"	"The Bolgan"
 			"first_sale_date"	"2012/01/13"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -27114,7 +27127,7 @@
 		{
 			"name"	"The Bolgan Family Crest"
 			"first_sale_date"	"2012/01/13"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"item_slot"	"misc"
 			"equip_region"	"medal"
 			"item_name"	"#TF_ReckoningBadge"
@@ -27142,7 +27155,7 @@
 		"707"
 		{
 			"name"	"The Boston Boom-Bringer"
-			"first_sale_date"	"2012/01/13"
+			"first_sale_date"	"2012/02/09"
 			"prefab"	"hat"
 			"item_slot"	"misc"
 			"equip_region"	"scout_backpack"
@@ -27193,6 +27206,26 @@
 				}
 			}
 		}
+		"709"
+		{
+			"name"	"The Snapped Pupil"
+			"first_sale_date"	"2012/02/14"
+			"prefab"	"hat"
+			"item_slot"	"misc"
+			"equip_region"	"glasses"
+			"item_name"	"#TF_DemoSnappedPupil"
+			"item_type_name"	"#TF_Wearable_Photograph"
+			"item_description"	"#TF_DemoSnappedPupil_Desc"
+			"image_inventory"	"backpack/player/items/demo/eyePhoto"
+			"model_player"	"models/player/items/demo/eyePhoto.mdl"
+			"propername"	"1"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+		}
+		
 		
 		"717"
 		{		
@@ -27212,10 +27245,12 @@
 			"first_sale_date"	"2012/01/31"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
+			"craft_class"		"hat"
 			"craft_material_type"	"hat"
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap"	"1"
 				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
@@ -27245,14 +27280,6 @@
 				"engineer" "1"
 				"pyro" "1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
 			"drop_sound"		"ui/item_medal_pickup.wav"
 		}
@@ -27260,7 +27287,7 @@
 		{
 			"name"	"The Battle Bob"
 			"first_sale_date"	"2012/01/31"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -27297,7 +27324,7 @@
 		{
 			"name"	"The Bushman's Boonie"
 			"first_sale_date"	"2012/01/31"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -27323,7 +27350,7 @@
 		"721"
 		{
 			"name"	"The Conquistador"
-			"first_sale_date"	"2012/02/01"
+			"first_sale_date"	"2012/02/02"
 			"prefab"	"hat"
 			"item_name"	"#TF_Conquistador"
 			"item_description"	"#TF_Conquistador_Desc"
@@ -27341,6 +27368,48 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
+			}
+		}
+		"727"
+		{
+			"name"			"The Black Rose"
+			"prefab"		"weapon_knife"
+			"craft_class"	""
+			"baseitem"		"0"
+			"propername"	"1"
+			"item_quality"	"unique"
+			"item_name"			"#TF_BlackRose"
+			"item_description"	"#TF_BlackRose_Desc"
+			"item_logname"	"black_rose"
+			"item_iconname"	"black_rose"
+			"image_inventory"	"backpack/weapons/c_models/c_ava_roseknife/c_ava_roseknife_v"
+			"attach_to_hands" "1"
+			"model_player"		"models/weapons/c_models/c_ava_roseknife/c_ava_roseknife_v.mdl"
+			"model_world"	"models/weapons/c_models/c_ava_roseknife/c_ava_roseknife.mdl"			
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_BlackRose_Style_TeamColors"
+					}
+					"1"
+					{
+						"skin"	"2"
+						"name"	"#TF_BlackRose_Style_Black"
+					}
+				}
 			}
 		}
 
@@ -32350,7 +32419,123 @@
 			"max_ilevel"	"5"
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
 			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}	
+		}
+		"5074"
+		{
+			"name"	"Something Special For Someone Special (Tool)"
+			"first_sale_date"	"2012/02/15"
+			"capabilities"
+			{
+				"nameable"				"1"
+				"can_gift_wrap" 		"1"
+				"usable_gc"				"1"
+				"usable_out_of_game"	"1"
+			}
+			"tool"
+			{
+				"type"	"wedding_ring"
+			}
+			"item_class"	"tool"
+			"hack_disable_armory_type_desc"		"1"			
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Ring"
+			"item_name"	"#TF_WeddingRing"
+			"item_description"	"#TF_WeddingRing_Desc"
+			"armory_desc"	"weddingring"
+			"image_inventory"	"backpack/player/items/all_class/something_special"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"100"
+			"max_ilevel"	"100"
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		"5075"
+		{
+			"name"	"Something Special For Someone Special (Wearable)"
+			"capabilities"
+			{
+				"can_be_restored"	"0"			
+			}
+			"item_class"	"tf_wearable"
+			"item_type_name"	"#TF_Wearable_Ring"
+			"item_name"	"#TF_WeddingRing"
+			"armory_remap"		"Something Special For Someone Special (Tool)"
+			"image_inventory"	"backpack/player/items/all_class/all_class_ring"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_quality"	"unique"
+			"item_slot"	"misc"
+			"min_ilevel"	"100"
+			"max_ilevel"	"100"
+			"model_player_per_class"
+			{
+				"scout"		"models/player/items/all_class/ring_scout.mdl"
+				"sniper"	"models/player/items/all_class/ring_sniper.mdl"
+				"soldier"	"models/player/items/all_class/ring_soldier.mdl"
+				"demoman"	"models/player/items/all_class/ring_demo.mdl"
+				"medic"		"models/player/items/all_class/ring_medic.mdl"
+				"heavy"		"models/player/items/all_class/ring_heavy.mdl"
+				"spy"		"models/player/items/all_class/ring_spy.mdl"
+				"engineer"	"models/player/items/all_class/ring_engineer.mdl"
+				"pyro"		"models/player/items/all_class/ring_pyro.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
 		
 		"5500"
 		{
@@ -37046,6 +37231,34 @@
 			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
+		}
+		"372"
+		{
+			"name"	"accepted wedding ring account id 1"
+			"attribute_class"	"accepted_wedding_ring_account_id_1"
+			"attribute_name"	"accepted wedding ring account id 1"
+			"min_value"	"0.95"
+			"max_value"	"0.85"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_AcceptedWeddingRingAccount1"
+			"description_format"	"value_is_account_id"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"373"
+		{
+			"name"	"accepted wedding ring account id 2"
+			"attribute_class"	"accepted_wedding_ring_account_id_2"
+			"attribute_name"	"accepted wedding ring account id 2"
+			"min_value"	"0.95"
+			"max_value"	"0.85"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_AcceptedWeddingRingAccount2"
+			"description_format"	"value_is_account_id"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
 		}
 		
 		
@@ -44878,6 +45091,7 @@
 			"nametag"					"#TF_Armory_Item_NameTag"
 			"desctag"					"#TF_Armory_Item_DescTag"
 			"decaltooltag"				"#TF_Armory_Item_DecalToolTag"
+			"weddingring"				"#TF_Armory_Item_WeddingRing"
 			"paintcan"					"#TF_Armory_Item_PaintCan"
 			"action"					"#TF_Armory_Item_Action"
 			"tauntenabler"				"#TF_Armory_Item_Type_TauntEnabler"
