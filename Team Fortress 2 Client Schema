@@ -8666,18 +8666,22 @@
 				{
 					"hands"			"1"
 				}
+			}
+			"visuals_red"
+			{
+				"skin"	"2"
 				"sound_melee_miss"	"Weapon_BoxingGloves.Miss"
 				"sound_melee_hit"	"Weapon_BoxingGloves.HitFlesh"
 				"sound_melee_hit_world"	"Weapon_BoxingGloves.HitWorld"
 				"sound_burst"	"Weapon_BoxingGloves.MissCrit"
 			}
-			"visuals_red"
-			{
-				"skin"	"2"
-			}
 			"visuals_blu"
 			{
 				"skin"	"3"
+				"sound_melee_miss"	"Weapon_BoxingGloves.Miss"
+				"sound_melee_hit"	"Weapon_BoxingGloves.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_BoxingGloves.HitWorld"
+				"sound_burst"	"Weapon_BoxingGloves.MissCrit"
 			}
 			"mouse_pressed_sound" "ui/item_boxing_gloves_pickup.wav"
 			"drop_sound" "ui/item_boxing_gloves_drop.wav"
@@ -15936,18 +15940,17 @@
 					"value"	"0.9"
 				}
 			}
-			"visuals"
-			{
-				"sound_single_shot"	"Weapon_Overdose.Single"
-				"sound_burst"	"Weapon_Overdose.SingleCrit"
-			}
 			"visuals_red"
 			{
 				"skin" "0"
+				"sound_single_shot"    "Weapon_Overdose.Single"
+				"sound_burst"    "Weapon_Overdose.SingleCrit"
 			}
 			"visuals_blu"
 			{
 				"skin" "1"
+				"sound_single_shot"    "Weapon_Overdose.Single"
+				"sound_burst"    "Weapon_Overdose.SingleCrit"
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -26596,12 +26599,14 @@
 				{
 					"0"
 					{
-						"skin"	"0"
+						"skin_red"	"0"
+						"skin_blu"	"1"
 						"name"	"#TF_Winter2011_WinterFurCap_Style0"
 					}
 					"1"
 					{
-						"skin"	"2"
+						"skin_red"	"2"
+						"skin_blu"	"3"
 						"name"	"#TF_Winter2011_WinterFurCap_Style1"
 					}
 				}
@@ -27373,19 +27378,35 @@
 		"727"
 		{
 			"name"			"The Black Rose"
-			"prefab"		"weapon_knife"
-			"craft_class"	""
-			"baseitem"		"0"
+			"first_sale_date"	"2012/02/16"
+			"item_class"	"tf_weapon_knife"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Knife"
 			"propername"	"1"
 			"item_quality"	"unique"
 			"item_name"			"#TF_BlackRose"
 			"item_description"	"#TF_BlackRose_Desc"
+			"item_slot"	"melee"
 			"item_logname"	"black_rose"
 			"item_iconname"	"black_rose"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
 			"image_inventory"	"backpack/weapons/c_models/c_ava_roseknife/c_ava_roseknife_v"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
 			"attach_to_hands" "1"
+			"model_world"		"models/weapons/c_models/c_ava_roseknife/c_ava_roseknife.mdl"
 			"model_player"		"models/weapons/c_models/c_ava_roseknife/c_ava_roseknife_v.mdl"
-			"model_world"	"models/weapons/c_models/c_ava_roseknife/c_ava_roseknife.mdl"			
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
 			"attributes"
 			{
 				"cannot trade"
@@ -27410,8 +27431,51 @@
 						"name"	"#TF_BlackRose_Style_Black"
 					}
 				}
+				"animation"
+				{
+					"activity"		"ACT_VM_DRAW"
+					"replacement"	"ACT_ITEM2_VM_DRAW"
+				}
+				"animation"
+				{
+					"activity"		"ACT_VM_IDLE"
+					"replacement"	"ACT_ITEM2_VM_IDLE"
+				}
+				"animation"
+				{
+					"activity"		"ACT_VM_HITCENTER"
+					"replacement"	"ACT_ITEM2_VM_HITCENTER"
+				}
+				"animation"
+				{
+					"activity"		"ACT_VM_SWINGHARD"
+					"replacement"	"ACT_ITEM2_VM_SWINGHARD"
+				}
+				"animation"
+				{
+					"activity"		"ACT_BACKSTAB_VM_UP"
+					"replacement"	"ACT_ITEM2_BACKSTAB_VM_UP"
+				}
+				"animation"
+				{
+					"activity"		"ACT_BACKSTAB_VM_DOWN"
+					"replacement"	"ACT_ITEM2_BACKSTAB_VM_DOWN"
+				}
+				"animation"
+				{
+					"activity"		"ACT_BACKSTAB_VM_IDLE"
+					"replacement"	"ACT_ITEM2_BACKSTAB_VM_IDLE"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MELEE_VM_STUN"
+					"replacement"	"ACT_MELEE_VM_ITEM2_STUN"
+				}
 			}
+			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"			
 		}
+
 
 
 
@@ -44859,6 +44923,12 @@
 		{ 
 			"SourceAppID"	"99900"
 			"DefIndex"		"473"
+		}
+		
+		"achieve_play_04"
+		{ 
+			"SourceAppID"	"102700"
+			"DefIndex"		"727"
 		}
 	}
 	"attribute_controlled_attached_particles"
