@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.06657efb27bf62e5e66f546262098679b392621f.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.bf8cff21e6b349fe23f0ec83b967724a43317054.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -10671,6 +10671,21 @@
 					"can_craft_mark": true,
 					"can_be_restored": true
 				},
+				"styles": [
+					{
+						"name": "Original"
+					},
+					{
+						"name": "Burst"
+					},
+					{
+						"name": "Bones"
+					},
+					{
+						"name": "Designer"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Demoman"
 				]
@@ -18722,7 +18737,7 @@
 				"name": "Bowtie",
 				"defindex": 639,
 				"item_class": "tf_wearable",
-				"item_type_name": "TF_Wearable_Shirt",
+				"item_type_name": "Shirt",
 				"item_name": "Dr. Whoa",
 				"item_description": "",
 				"proper_name": false,
@@ -20823,6 +20838,46 @@
 				},
 				"used_by_classes": [
 					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Fast Learner",
+				"defindex": 722,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shirt",
+				"item_name": "Fast Learner",
+				"item_description": "Read a book – or at least look like you can – with this vintage educational ensemble. Be the B.M.O.C. (Big Mouth on Campus) of your own make-believe Ivy League!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/scout_prep_shirt.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/scout_prep_shirt",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_prep_shirt.accbdd22191a4d42a27982a1306cd480c8685ceb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_prep_shirt_large.2d0aa8b9ccd8248239c5b3b3a92b85b1c225cf1a.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true
+				},
+				"styles": [
+					{
+						"name": "Summer"
+					},
+					{
+						"name": "Winter"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
 				]
 				
 			},
@@ -23533,7 +23588,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 34.000000
+						"value": 39.000000
 					}
 				]
 				
@@ -23648,14 +23703,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 7511618.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 7511618.000000
 					}
 				]
 				
@@ -23693,14 +23748,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 4345659.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 4345659.000000
 					}
 				]
 				
@@ -23738,14 +23793,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 5322826.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 5322826.000000
 					}
 				]
 				
@@ -23783,14 +23838,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 14204632.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 14204632.000000
 					}
 				]
 				
@@ -23828,14 +23883,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 8208497.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 8208497.000000
 					}
 				]
 				
@@ -23873,14 +23928,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 13595446.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 13595446.000000
 					}
 				]
 				
@@ -23918,14 +23973,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 10843461.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 10843461.000000
 					}
 				]
 				
@@ -23963,14 +24018,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 12955537.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 12955537.000000
 					}
 				]
 				
@@ -24008,14 +24063,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 6901050.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 6901050.000000
 					}
 				]
 				
@@ -24053,14 +24108,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 8154199.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 8154199.000000
 					}
 				]
 				
@@ -24098,14 +24153,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 15185211.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 15185211.000000
 					}
 				]
 				
@@ -24143,14 +24198,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 8289918.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 8289918.000000
 					}
 				]
 				
@@ -24188,14 +24243,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 15132390.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 15132390.000000
 					}
 				]
 				
@@ -24233,14 +24288,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 1315860.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 1315860.000000
 					}
 				]
 				
@@ -24467,6 +24522,11 @@
 				,
 				"attributes": [
 					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
+					{
 						"name": "set item tint RGB",
 						"class": "set_item_tint_rgb",
 						"value": 12073019.000000
@@ -24475,11 +24535,6 @@
 						"name": "set item tint RGB 2",
 						"class": "set_item_tint_rgb_2",
 						"value": 5801378.000000
-					},
-					{
-						"name": "always tradable",
-						"class": "always_tradable",
-						"value": 1.000000
 					}
 				]
 				
@@ -24633,14 +24688,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 16738740.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16738740.000000
 					}
 				]
 				
@@ -24678,14 +24733,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 3100495.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 3100495.000000
 					}
 				]
 				
@@ -24723,14 +24778,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 8421376.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 8421376.000000
 					}
 				]
 				
@@ -24768,14 +24823,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 3329330.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 3329330.000000
 					}
 				]
 				
@@ -24813,14 +24868,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 15787660.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 15787660.000000
 					}
 				]
 				
@@ -24858,14 +24913,14 @@
 				,
 				"attributes": [
 					{
-						"name": "set item tint RGB",
-						"class": "set_item_tint_rgb",
-						"value": 15308410.000000
-					},
-					{
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 15308410.000000
 					}
 				]
 				
@@ -24943,6 +24998,11 @@
 				,
 				"attributes": [
 					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
+					{
 						"name": "set item tint RGB",
 						"class": "set_item_tint_rgb",
 						"value": 4732984.000000
@@ -24951,11 +25011,6 @@
 						"name": "set item tint RGB 2",
 						"class": "set_item_tint_rgb_2",
 						"value": 3686984.000000
-					},
-					{
-						"name": "always tradable",
-						"class": "always_tradable",
-						"value": 1.000000
 					}
 				]
 				
@@ -24993,6 +25048,11 @@
 				,
 				"attributes": [
 					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
+					{
 						"name": "set item tint RGB",
 						"class": "set_item_tint_rgb",
 						"value": 11049612.000000
@@ -25001,11 +25061,6 @@
 						"name": "set item tint RGB 2",
 						"class": "set_item_tint_rgb_2",
 						"value": 8626083.000000
-					},
-					{
-						"name": "always tradable",
-						"class": "always_tradable",
-						"value": 1.000000
 					}
 				]
 				
@@ -25043,6 +25098,11 @@
 				,
 				"attributes": [
 					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
+					{
 						"name": "set item tint RGB",
 						"class": "set_item_tint_rgb",
 						"value": 3874595.000000
@@ -25051,11 +25111,6 @@
 						"name": "set item tint RGB 2",
 						"class": "set_item_tint_rgb_2",
 						"value": 1581885.000000
-					},
-					{
-						"name": "always tradable",
-						"class": "always_tradable",
-						"value": 1.000000
 					}
 				]
 				
@@ -25093,6 +25148,11 @@
 				,
 				"attributes": [
 					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
+					{
 						"name": "set item tint RGB",
 						"class": "set_item_tint_rgb",
 						"value": 6637376.000000
@@ -25101,11 +25161,6 @@
 						"name": "set item tint RGB 2",
 						"class": "set_item_tint_rgb_2",
 						"value": 2636109.000000
-					},
-					{
-						"name": "always tradable",
-						"class": "always_tradable",
-						"value": 1.000000
 					}
 				]
 				
@@ -25143,6 +25198,11 @@
 				,
 				"attributes": [
 					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
+					{
 						"name": "set item tint RGB",
 						"class": "set_item_tint_rgb",
 						"value": 8400928.000000
@@ -25151,11 +25211,6 @@
 						"name": "set item tint RGB 2",
 						"class": "set_item_tint_rgb_2",
 						"value": 2452877.000000
-					},
-					{
-						"name": "always tradable",
-						"class": "always_tradable",
-						"value": 1.000000
 					}
 				]
 				
@@ -25184,7 +25239,7 @@
 				"tool": {
 					"type": "paint_can",
 					"usage_capabilities": {
-						"paintable": true
+						"paintable_team_colors": true
 					}
 				},
 				"used_by_classes": [
@@ -25192,6 +25247,11 @@
 				]
 				,
 				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
 					{
 						"name": "set item tint RGB",
 						"class": "set_item_tint_rgb",
@@ -25201,11 +25261,6 @@
 						"name": "set item tint RGB 2",
 						"class": "set_item_tint_rgb_2",
 						"value": 12091445.000000
-					},
-					{
-						"name": "always tradable",
-						"class": "always_tradable",
-						"value": 1.000000
 					}
 				]
 				
@@ -25541,6 +25596,96 @@
 						"name": "cannot trade",
 						"class": "cannot_trade",
 						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Paint Can 21",
+				"defindex": 5076,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "A Mann's Mint",
+				"item_description": "Used to paint other items.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/paintcan.9046edf23b64960a4084dad29d05d2c902feec78.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/paintcan_large.b8e71a4720fa96d963f45db61c013185ca637aa6.png",
+				"craft_class": "tool",
+				"craft_material_type": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true
+				},
+				"tool": {
+					"type": "paint_can",
+					"usage_capabilities": {
+						"paintable": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 12377523.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Paint Can 22",
+				"defindex": 5077,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "After Eight",
+				"item_description": "Used to paint other items.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/paintcan",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/paintcan.9046edf23b64960a4084dad29d05d2c902feec78.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/paintcan_large.b8e71a4720fa96d963f45db61c013185ca637aa6.png",
+				"craft_class": "tool",
+				"craft_material_type": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true
+				},
+				"tool": {
+					"type": "paint_can",
+					"usage_capabilities": {
+						"paintable": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					},
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 2960676.000000
 					}
 				]
 				

@@ -241,6 +241,75 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 			"ui/item_hat_pickup.wav"
 		}
+		"paint_can"
+		{
+			"item_class"	"tool"
+			"craft_class"	"tool"
+			"craft_material_type"	"tool"
+			"tool"
+			{
+				"type"	"paint_can"
+				"usage_capabilities"
+				{
+					"paintable" "1"
+				}
+			}
+			"armory_desc"		"paintcan"
+			"armory_remap"		"Paint Can"
+			"item_type_name"	"#TF_T"
+			"item_description"	"#TF_Tool_PaintCan_Desc"
+			"image_inventory"	"backpack/player/items/crafting/paintcan"
+			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"	"always_tradable"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
+			"drop_sound"		"ui/item_paint_can_pickup.wav"
+		}
+		"paint_can_team_color"
+		{
+			"item_class"	"tool"
+			"craft_class"	"tool"
+			"craft_material_type"	"tool"
+			"tool"
+			{
+				"type"	"paint_can"
+				"usage_capabilities"
+				{
+					"paintable_team_colors" "1"
+				}
+			}
+			"armory_desc"		"paintcan"
+			"armory_remap"		"Paint Can"
+			"item_type_name"	"#TF_T"
+			"item_description"	"#TF_Tool_PaintCan_TeamColor_Desc"
+			"image_inventory"	"backpack/player/items/crafting/teampaint"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"96"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"	"always_tradable"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
+			"drop_sound"		"ui/item_paint_can_pickup.wav"		
+		}
 		"halloween_costume_piece_2011"
 		{
 			"first_sale_date"	"2011/10/26"		
@@ -14852,6 +14921,32 @@
 			{
 				"demoman"	"1"
 			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_Reggaelator_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_Reggaelator_Style1"
+					}
+					"2"
+					{
+						"skin"	"2"
+						"name"	"#TF_Reggaelator_Style2"
+					}
+					"3"
+					{
+						"skin"	"3"
+						"name"	"#TF_Reggaelator_Style3"
+					}
+				}
+			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
@@ -27375,6 +27470,44 @@
 				"soldier"	"1"
 			}
 		}
+		"722"
+		{
+			"name"	"The Fast Learner"
+			"first_sale_date"	"2012/02/22"
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_slot"	"misc"
+			"equip_region"	"scout_shirt"
+			"item_name"	"#TF_ScoutPrepShirt"
+			"item_type_name"	"#TF_Wearable_Shirt"
+			"item_description"	"#TF_ScoutPrepShirt_Desc"
+			"image_inventory"	"backpack/player/items/scout/scout_prep_shirt"
+			"model_player"	"models/player/items/scout/scout_prep_shirt.mdl"
+			"propername"	"1"
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_ScoutPrepShirt_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_ScoutPrepShirt_Style1"
+					}
+				}
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+		}
 		"727"
 		{
 			"name"			"The Black Rose"
@@ -27427,7 +27560,8 @@
 					}
 					"1"
 					{
-						"skin"	"2"
+						"skin_red"	"2"
+						"skin_blu"	"2"
 						"name"	"#TF_BlackRose_Style_Black"
 					}
 				}
@@ -30582,7 +30716,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "34"
+					"value" "39"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -30666,30 +30800,9 @@
 		"5027"
 		{
 			"name"	"Paint Can 1"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_1"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -30697,42 +30810,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "7511618"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5028"
 		{
 			"name"	"Paint Can 2"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_2"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -30740,42 +30825,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "4345659"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5029"
 		{
 			"name"	"Paint Can 3"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_3"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -30783,42 +30840,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "5322826"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5030"
 		{
 			"name"	"Paint Can 4"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_4"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -30826,42 +30855,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "14204632"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5031"
 		{
 			"name"	"Paint Can 5"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_5"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -30869,42 +30870,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "8208497"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5032"
 		{
 			"name"	"Paint Can 6"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_6"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -30912,42 +30885,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "13595446"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5033"
 		{
 			"name"	"Paint Can 7"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_7"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -30955,42 +30900,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "10843461"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5034"
 		{
 			"name"	"Paint Can 8"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_8"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -30998,42 +30915,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "12955537"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5035"
 		{
 			"name"	"Paint Can 9"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_9"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31041,42 +30930,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "6901050"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5036"
 		{
 			"name"	"Paint Can 10"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_10"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31084,42 +30945,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "8154199"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5037"
 		{
 			"name"	"Paint Can 11"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_11"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31127,42 +30960,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "15185211"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5038"
 		{
 			"name"	"Paint Can 12"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_12"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31170,42 +30975,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "8289918"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5039"
 		{
 			"name"	"Paint Can 13"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_13"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31213,42 +30990,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "15132390"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5040"
 		{
 			"name"	"Paint Can 14"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2010/09/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_14"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31256,14 +31005,7 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "1315860"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5041"
 		{
@@ -31456,29 +31198,9 @@
 		"5046"
 		{
 			"name"	"Paint Can Team Color"
+			"prefab"	"paint_can_team_color"
 			"first_sale_date"	"2010/10/29"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable_team_colors" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_TeamColor"
-			"item_description"	"#TF_Tool_PaintCan_TeamColor_Desc"
-			"image_inventory"	"backpack/player/items/crafting/teampaint"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"96"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31491,14 +31213,7 @@
 					"attribute_class"	"set_item_tint_rgb_2"
 					"value" "5801378" 
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5048" 
 		{
@@ -31622,30 +31337,9 @@
 		"5051"
 		{
 			"name"	"Paint Can 15"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_15"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31653,42 +31347,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "16738740"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5052"
 		{
 			"name"	"Paint Can 16"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_16"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31696,42 +31362,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "3100495"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5053"
 		{
 			"name"	"Paint Can 17"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_17"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31739,42 +31377,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "8421376"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5054"
 		{
 			"name"	"Paint Can 18"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_18"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31782,42 +31392,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "3329330"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5055"
 		{
 			"name"	"Paint Can 19"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_19"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31825,42 +31407,14 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "15787660"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5056"
 		{
 			"name"	"Paint Can 20"
+			"prefab"	"paint_can"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_20"
-			"item_description"	"#TF_Tool_PaintCan_Desc"
-			"image_inventory"	"backpack/player/items/crafting/paintcan"
-			"image_inventory_overlay"	"backpack/player/items/crafting/paintcan_paintcolor"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31868,14 +31422,7 @@
 					"attribute_class"	"set_item_tint_rgb"
 					"value" "15308410"	
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}		
 		"5057"
 		{
@@ -31916,31 +31463,10 @@
 		"5060"
 		{
 			"name"	"Paint Can Team Color 2"
+			"prefab"	"paint_can_team_color"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable_team_colors" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_TeamColor2"
 			"item_description"	"#TF_Tool_PaintCan_TeamColor2_Desc"
-			"image_inventory"	"backpack/player/items/crafting/teampaint"
-			"image_inventory_overlay"	"backpack/player/items/crafting/teampaint_blu_mask"
-			"image_inventory_overlay2"	"backpack/player/items/crafting/teampaint_red_mask"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"96"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -31953,43 +31479,15 @@
 					"attribute_class"	"set_item_tint_rgb_2"
 					"value" "3686984" 
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5061"
 		{
 			"name"	"Paint Can Team Color 3"
+			"prefab"	"paint_can_team_color"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable_team_colors" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_TeamColor3"
 			"item_description"	"#TF_Tool_PaintCan_TeamColor3_Desc"
-			"image_inventory"	"backpack/player/items/crafting/teampaint"
-			"image_inventory_overlay"	"backpack/player/items/crafting/teampaint_blu_mask"
-			"image_inventory_overlay2"	"backpack/player/items/crafting/teampaint_red_mask"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"96"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -32002,43 +31500,15 @@
 					"attribute_class"	"set_item_tint_rgb_2"
 					"value" "8626083" 
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5062"
 		{
 			"name"	"Paint Can Team Color 4"
+			"prefab"	"paint_can_team_color"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable_team_colors" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_TeamColor4"
 			"item_description"	"#TF_Tool_PaintCan_TeamColor4_Desc"
-			"image_inventory"	"backpack/player/items/crafting/teampaint"
-			"image_inventory_overlay"	"backpack/player/items/crafting/teampaint_blu_mask"
-			"image_inventory_overlay2"	"backpack/player/items/crafting/teampaint_red_mask"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"96"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -32051,43 +31521,15 @@
 					"attribute_class"	"set_item_tint_rgb_2"
 					"value" "1581885" 
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5063"
 		{
 			"name"	"Paint Can Team Color 5"
+			"prefab"	"paint_can_team_color"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable_team_colors" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_TeamColor5"
 			"item_description"	"#TF_Tool_PaintCan_TeamColor5_Desc"
-			"image_inventory"	"backpack/player/items/crafting/teampaint"
-			"image_inventory_overlay"	"backpack/player/items/crafting/teampaint_blu_mask"
-			"image_inventory_overlay2"	"backpack/player/items/crafting/teampaint_red_mask"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"96"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -32100,43 +31542,15 @@
 					"attribute_class"	"set_item_tint_rgb_2"
 					"value" "2636109" 
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5064"
 		{
 			"name"	"Paint Can Team Color 6"
+			"prefab"	"paint_can_team_color"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable_team_colors" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_TeamColor6"
 			"item_description"	"#TF_Tool_PaintCan_TeamColor6_Desc"
-			"image_inventory"	"backpack/player/items/crafting/teampaint"
-			"image_inventory_overlay"	"backpack/player/items/crafting/teampaint_blu_mask"
-			"image_inventory_overlay2"	"backpack/player/items/crafting/teampaint_red_mask"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"96"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -32149,43 +31563,15 @@
 					"attribute_class"	"set_item_tint_rgb_2"
 					"value" "2452877" 
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5065"
 		{
 			"name"	"Paint Can Team Color 7"
+			"prefab"	"paint_can_team_color"
 			"first_sale_date"	"2011/05/25"
-			"item_class"	"tool"
-			"craft_class"	"tool"
-			"craft_material_type"	"tool"
-			"tool"
-			{
-				"type"	"paint_can"
-				"usage_capabilities"
-				{
-					"paintable" "1"
-				}
-			}
-			"armory_desc"		"paintcan"
-			"armory_remap"		"Paint Can"
-			"item_type_name"	"#TF_T"
 			"item_name"		"#TF_Tool_PaintCan_TeamColor7"
 			"item_description"	"#TF_Tool_PaintCan_TeamColor7_Desc"
-			"image_inventory"	"backpack/player/items/crafting/teampaint"
-			"image_inventory_overlay"	"backpack/player/items/crafting/teampaint_blu_mask"
-			"image_inventory_overlay2"	"backpack/player/items/crafting/teampaint_red_mask"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"96"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
 			"attributes"
 			{
 				"set item tint RGB"
@@ -32198,14 +31584,7 @@
 					"attribute_class"	"set_item_tint_rgb_2"
 					"value" "12091445" 
 				}
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
 			}
-			"mouse_pressed_sound"	"ui/item_paint_can_pickup.wav"
-			"drop_sound"		"ui/item_paint_can_pickup.wav"
 		}
 		"5066" 
 		{
@@ -32599,6 +31978,34 @@
 			}
 			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		"5076"
+		{
+			"name"	"Paint Can 21"
+			"prefab"	"paint_can"
+			"item_name"		"#TF_Tool_PaintCan_21"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"	"set_item_tint_rgb"
+					"value"	"12377523"	
+				}
+			}
+		}
+		"5077"
+		{
+			"name"	"Paint Can 22"
+			"prefab"	"paint_can"
+			"item_name"		"#TF_Tool_PaintCan_22"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"	"set_item_tint_rgb"
+					"value"	"2960676"	
+				}
+			}
 		}
 		
 		"5500"
@@ -37941,6 +37348,12 @@
 			"The Killing Gloves of Boxing"		"1"
 			"kill_eater_set_mixed_g__secondary_stats"		"1"
 		}
+		"kill_eater_set_mixed_h"
+		{
+			"The Loch-n-Load"		"1"
+			"The Overdose"		"1"
+			"Upgradeable TF_WEAPON_KNIFE"		"1"
+		}
 		"supply_crate_loot_list_1"
 		{
 			"The Vita-Saw"		"1"
@@ -38233,6 +37646,14 @@
 			"The Flamboyant Flamenco"		"1"
 			"Reggaelator"		"1"
 		}
+		"supply_crate_loot_list_39"
+		{
+			"kill_eater_set_mixed_h"		"1"
+			"Paint Can 21"		"1"
+			"Paint Can 22"		"1"
+			"The Salty Dog"		"1"
+			"Sniper Fishing Hat"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -38274,6 +37695,7 @@
 		"winter_crate_loot_list_2011_nice"		"36"	
 		"supply_crate_loot_list_37"	"37" 
 		"supply_crate_loot_list_38" "38" 
+		"supply_crate_loot_list_39" "39" 
 		
 		
 		"kill_eater_set_demo_a"						"-1"
@@ -38301,6 +37723,7 @@
 		"kill_eater_set_mixed_f"						"-20"
 		"kill_eater_set_mixed_g__secondary_stats"		"-21"
 		"kill_eater_set_mixed_g"						"-22"
+		"kill_eater_set_mixed_h"						"-23"
 	}
 	"recipes"
 	{
