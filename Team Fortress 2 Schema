@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.bf8cff21e6b349fe23f0ec83b967724a43317054.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.511d97ad63e888b83528fb799d4a08b5c81de71b.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -20923,6 +20923,40 @@
 						"class": "cannot_trade",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "The Teufort Tooth Kicker",
+				"defindex": 734,
+				"item_class": "tf_wearable",
+				"item_type_name": "Boots",
+				"item_name": "Teufort Tooth Kicker",
+				"item_description": "These steel-toed dogs were scientifically engineered (in a wind tunnel) by America's foremost authorities on mouth-kicking to perfectly fit the inside of an idiot's mouth.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/cowboyboots_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/cowboyboots_soldier",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cowboyboots_soldier.5211120f4ea54d243bdeb979ab85df5f342f473f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cowboyboots_soldier_large.0635c464305e118a6371e097f58ab6dbf0bf377a.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Soldier",
+					"Demoman"
 				]
 				
 			},
