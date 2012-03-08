@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.511d97ad63e888b83528fb799d4a08b5c81de71b.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e187fa467301c9f57519ff02148b5d66cf2e5a75.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -10590,6 +10590,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_private_eye.47cb13cdc7d2eb96ee73d828f4bf44e8d1211b16.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_private_eye_large.53afd98750cfc0cc64b32f5157be7592c0af5a75.png",
 				"drop_type": "drop",
+				"item_set": "hidden_detective_set",
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
@@ -19290,6 +19291,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_allclass_giftbadge.40cc28f4484227f412e60c1df62df4b06be983bc.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_allclass_giftbadge_large.65be82b4d128ee81adee14417171271610a431f1.png",
 				"capabilities": {
+					"nameable": true,
 					"can_craft_mark": true,
 					"can_be_restored": true
 				},
@@ -19361,6 +19363,56 @@
 						"name": "tickle enemies wielding same weapon",
 						"class": "tickle_enemies_wielding_same_weapon",
 						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Nine-Pipe Problem",
+				"defindex": 657,
+				"item_class": "tf_wearable",
+				"item_type_name": "Pipe",
+				"item_name": "Nine-Pipe Problem",
+				"item_description": "In the time it takes you to read this description, I’ve already ubered a heavy, captured your base, solved a crime, and smoked three pipes.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/medic_smokingpipe.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/medic_smokingpipe",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medic_smokingpipe.732a8d19f2ac57b574b8727dde8b41c4068fc68b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medic_smokingpipe_large.7e4819d7c22c07adcd16767cba3e7c8d6835bea6.png",
+				"drop_type": "none",
+				"item_set": "hidden_detective_set",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true
+				},
+				"styles": [
+					{
+						"name": "Afternoon"
+					},
+					{
+						"name": "Evening"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "attach particle effect static",
+						"class": "set_attached_particle_static",
+						"value": 28.000000
 					}
 				]
 				
@@ -29696,6 +29748,18 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": true
+			},
+			{
+				"name": "mystery solving time decrease",
+				"defindex": 391,
+				"attribute_class": "mystery_solving_time_decrease",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Reduces mystery solving time by up to %s1%",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			}
 		]
 		,
@@ -29881,6 +29945,23 @@
 						"name": "dmg taken from crit reduced",
 						"class": "mult_dmgtaken_from_crit",
 						"value": 0.950000
+					}
+				]
+				
+			},
+			{
+				"item_set": "hidden_detective_set",
+				"name": "Eliminating The Impossible",
+				"items": [
+					"Private Eye",
+					"The Nine-Pipe Problem"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mystery solving time decrease",
+						"class": "mystery_solving_time_decrease",
+						"value": 1.880000
 					}
 				]
 				

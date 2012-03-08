@@ -14840,6 +14840,7 @@
 				"spy"	"1"
 				"medic"	"1"
 			}
+			"item_set"	"hidden_detective_set"
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
@@ -26100,6 +26101,10 @@
 		{
 			"name"	"Spirit Of Giving"
 			"loadondemand"	"1"
+			"capabilities"
+			{
+				"nameable" "1"
+			}
 			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
@@ -26227,9 +26232,62 @@
 			}
 			"mouse_pressed_sound" "ui/item_hat_pickup.wav"
 			"drop_sound"          "ui/item_boxing_gloves_drop.wav"
-		}
-		
-		
+		}		
+		"657"
+		{
+			"name"	"The Nine-Pipe Problem"
+			"first_sale_date"	"2012/03/08"
+			"prefab"	"hat"
+			"item_slot"	"misc"
+			"equip_region"	"lenses"
+			"item_type_name"	"#TF_Wearable_Pipe"
+			"item_name"	"#TF_MedicSmokingPipe"
+			"item_description"	"#TF_MedicSmokingPipe_Desc"
+			"image_inventory"	"backpack/player/items/medic/medic_smokingpipe"
+			"model_player"	"models/player/items/medic/medic_smokingpipe.mdl"
+			"propername"	"1"
+			"drop_type"	"none"
+			"capabilities"
+			{
+				"can_craft_count" "1"
+				"paintable"	"1"
+			}
+			"used_by_classes"
+			{
+				"medic"	"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"	
+						{
+							"medic"		"models/player/items/medic/medic_smokingpipe.mdl"
+						}						
+						"name"	"#TF_MedicSmokingPipe_Style0"
+					}
+					"1"
+					{
+						"model_player_per_class"	
+						{
+							"medic"		"models/player/items/medic/medic_smokingpipe2.mdl"
+						}
+						"name"	"#TF_MedicSmokingPipe_Style1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"attach particle effect static"
+				{
+					"attribute_class"	"set_attached_particle_static"
+					"value"	"28"
+				}
+			}			
+			"item_set"	"hidden_detective_set"
+		}		
 		"658"
 		{
 			"name"			"Festive Rocket Launcher 2011"
@@ -27681,6 +27739,7 @@
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
 		}
+
 
 
 
@@ -36802,8 +36861,21 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"1"
 		}
-		
-		
+
+		"391"
+		{
+			"name"	"mystery solving time decrease"
+			"attribute_class"	"mystery_solving_time_decrease"
+			"attribute_name"	"mystery solving time decrease"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_MysterySolvingTimeDecrease"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 
 
 
@@ -37276,6 +37348,25 @@
 			}
 			"attributes"
 			{
+			}
+		}
+		
+		"hidden_detective_set"
+		{
+			"name"	"#TF_Set_HiddenDetective"
+			"items"
+			{
+				"Private Eye"			"1"
+				"The Nine-Pipe Problem"		"1"
+			}
+			"is_hidden_set"	"1"
+			"attributes"
+			{
+				"mystery solving time decrease"
+				{
+					"attribute_class"	"mystery_solving_time_decrease"
+					"value" "1.88"
+				}
 			}
 		}
 
