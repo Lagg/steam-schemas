@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e187fa467301c9f57519ff02148b5d66cf2e5a75.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e26f38ecdcac5ca32000b2458e206afed28a8fb3.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -17283,6 +17283,11 @@
 				,
 				"attributes": [
 					{
+						"name": "damage penalty",
+						"class": "mult_dmg",
+						"value": 0.900000
+					},
+					{
 						"name": "burn damage earns rage",
 						"class": "burn_damage_earns_rage",
 						"value": 1.000000
@@ -17296,11 +17301,6 @@
 						"name": "airblast disabled",
 						"class": "airblast_disabled",
 						"value": 1.000000
-					},
-					{
-						"name": "increase buff duration hidden",
-						"class": "mod_buff_duration",
-						"value": 1.200000
 					},
 					{
 						"name": "ragdolls become ash",
@@ -18828,6 +18828,53 @@
 					"Soldier",
 					"Demoman",
 					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Cozy Camper",
+				"defindex": 642,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Cozy Camper",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/player\/items\/sniper\/xms_sniper_commandobackpack.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/xms_sniper_commandobackpack",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_sniper_commandobackpack.b6424a3ced8f91e3d9f6e3c6cdec5d759c369cdc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_sniper_commandobackpack_large.e450d8e427568b39060ce896a1f5519abcc3e9f9.png",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "aiming knockback resistance",
+						"class": "mult_aiming_knockback_resistance",
+						"value": 0.800000
+					},
+					{
+						"name": "sniper aiming movespeed decreased",
+						"class": "mult_player_aiming_movespeed",
+						"value": 0.400000
+					},
+					{
+						"name": "aiming no flinch",
+						"class": "aiming_no_flinch",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -20952,7 +20999,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
-					"can_craft_count": true,
+					"can_gift_wrap": true,
 					"can_craft_mark": true,
 					"can_be_restored": true
 				},
@@ -29748,6 +29795,42 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": true
+			},
+			{
+				"name": "aiming no flinch",
+				"defindex": 376,
+				"attribute_class": "aiming_no_flinch",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "No flinching when aiming",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "aiming knockback resistance",
+				"defindex": 377,
+				"attribute_class": "mult_aiming_knockback_resistance",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Knockback reduced by %s1% when aiming",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sniper aiming movespeed decreased",
+				"defindex": 378,
+				"attribute_class": "mult_player_aiming_movespeed",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "%s1% slower move speed when aiming",
+				"description_format": "value_is_percentage",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
 			},
 			{
 				"name": "mystery solving time decrease",
