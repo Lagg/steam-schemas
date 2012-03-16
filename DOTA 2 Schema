@@ -1,75 +1,167 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.817f114310fca7c80462477b5568046244221cf0.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.54515ff99e32620d71b0b187ca37860af9b79bc3.txt",
 		"qualities": {
 			"normal": 0,
-			"rarity1": 1,
-			"rarity2": 2,
-			"vintage": 3,
-			"rarity3": 4,
-			"rarity4": 5,
-			"unique": 6,
-			"community": 7,
-			"developer": 8,
-			"selfmade": 9,
-			"customized": 10,
-			"strange": 11
+			"genuine": 1,
+			"vintage": 2,
+			"unusual": 3,
+			"unique": 4,
+			"community": 5,
+			"developer": 6,
+			"selfmade": 7,
+			"customized": 8,
+			"strange": 9,
+			"completed": 10,
+			"haunted": 11
 		},
 		"qualityNames": {
-			"normal": "Normal",
-			"rarity1": "rarity1",
-			"rarity2": "rarity2",
+			"normal": "normal",
+			"genuine": "genuine",
 			"vintage": "vintage",
-			"rarity3": "rarity3",
-			"rarity4": "rarity4",
+			"unusual": "unusual",
 			"unique": "unique",
 			"community": "community",
 			"developer": "developer",
 			"selfmade": "selfmade",
 			"customized": "customized",
-			"strange": "strange"
+			"strange": "strange",
+			"completed": "completed",
+			"haunted": "haunted"
 		},
+		"originNames": [
+			{
+				"origin": 0,
+				"name": "Timed Drop"
+			},
+			{
+				"origin": 1,
+				"name": "Achievement"
+			},
+			{
+				"origin": 2,
+				"name": "Purchased"
+			},
+			{
+				"origin": 3,
+				"name": "Traded"
+			},
+			{
+				"origin": 4,
+				"name": "Crafted"
+			},
+			{
+				"origin": 5,
+				"name": "Store Promotion"
+			},
+			{
+				"origin": 6,
+				"name": "Gifted"
+			},
+			{
+				"origin": 7,
+				"name": "Support Granted"
+			},
+			{
+				"origin": 8,
+				"name": "Found in Crate"
+			},
+			{
+				"origin": 9,
+				"name": "Earned"
+			},
+			{
+				"origin": 10,
+				"name": "Third-Party Promotion"
+			},
+			{
+				"origin": 11,
+				"name": "Wrapped Gift"
+			},
+			{
+				"origin": 12,
+				"name": "Halloween Drop"
+			},
+			{
+				"origin": 13,
+				"name": "Steam Purchase"
+			},
+			{
+				"origin": 14,
+				"name": "Foreign Item"
+			},
+			{
+				"origin": 15,
+				"name": "CD Key"
+			},
+			{
+				"origin": 16,
+				"name": "Collection Reward"
+			},
+			{
+				"origin": 17,
+				"name": "Preview Item"
+			},
+			{
+				"origin": 18,
+				"name": "Steam Workshop Contribution"
+			},
+			{
+				"origin": 19,
+				"name": "Unknown"
+			},
+			{
+				"origin": 20,
+				"name": "Recycling"
+			}
+		]
+		,
 		"items": [
 			{
-				"name": "Sven's Default Sword",
+				"name": "Riki's Default Daggers",
 				"defindex": 0,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Wearable_Sven_DefaultSword",
+				"item_type_name": "DOTA_WearableType_Daggers",
+				"item_name": "DOTA_Wearable_Riki_DefaultWeapon",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/heroes\/sven\/sven_sword",
+				"image_inventory": "econ\/heroes\/rikimaru\/rikimaru_weapon",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_sword.5e47a1509a90aa0652aa3dfdffdff7921c027744.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/rikimaru_weapon.9f271183a55b79f7a8c7caf12f82e184e12d2f6c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/rikimaru_weapon.9f271183a55b79f7a8c7caf12f82e184e12d2f6c.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Sven's Fancy New Sword",
+				"name": "Anti-Mage's Glaives",
 				"defindex": 1,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Wearable_Sven_FancySword",
+				"item_type_name": "DOTA_WearableType_Glaives",
+				"item_name": "DOTA_Item_AntiMages_Glaives",
+				"item_description": "",
 				"proper_name": false,
-				"item_quality": 6,
-				"image_inventory": "econ\/heroes\/sven\/sven_sword_alt",
-				"min_ilevel": 5,
-				"max_ilevel": 5,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_sword_alt.5a1909b341c5c29813e858994407b270e6baa4ca.png",
-				"image_url_large": "",
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/antimage\/antimage_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/antimage_weapon.f6f805f50ed85ac25bc8d31705ec19e5db94870b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/antimage_weapon.f6f805f50ed85ac25bc8d31705ec19e5db94870b.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Axe's Axe",
+				"name": "Axe's Default Axe",
 				"defindex": 2,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
+				"item_type_name": "DOTA_WearableType_Weapon",
 				"item_name": "DOTA_Wearable_Axe_DefaultWeapon",
 				"proper_name": false,
 				"item_quality": 0,
@@ -77,202 +169,1852 @@
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/axe_weapon.2fb22ed8a1caafbbb9556bf57c270d692e4cdaef.png",
-				"image_url_large": "",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/axe_weapon.2fb22ed8a1caafbbb9556bf57c270d692e4cdaef.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Axe's Top Hat",
+				"name": "Axe's Default Armor",
 				"defindex": 3,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "TF_Wearable_Hat",
-				"item_name": "DOTA_Wearable_Axe_TopHat",
-				"item_description": "",
-				"proper_name": false,
-				"item_quality": 6,
-				"image_inventory": "econ\/heroes\/items\/hat_test\/hat_test",
-				"min_ilevel": 1,
-				"max_ilevel": 100,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/hat_test.9978ab5df0265885e0bf9928477c606ad56aab99.png",
-				"image_url_large": "",
-				"drop_type": "drop",
-				"craft_class": "hat",
-				"capabilities": {
-					"paintable": true,
-					"nameable": true,
-					"can_gift_wrap": true,
-					"can_craft_mark": true
-				}
-			},
-			{
-				"name": "Necrolyte's Sickle",
-				"defindex": 4,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Wearable_Sickle_DefaultWeapon",
+				"item_type_name": "DOTA_WearableType_Armor",
+				"item_name": "DOTA_Wearable_Axe_DefaultArmor",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/heroes\/necrolyte\/necrolyte_sickle",
+				"image_inventory": "econ\/heroes\/axe\/axe_armor",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/necrolyte_sickle.a2437068f8d42abdef97da6a06aa8d81787b8a6b.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/axe_armor.c87606e8c459bc144ae612efb936a6636b064b57.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/axe_armor.c87606e8c459bc144ae612efb936a6636b064b57.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Sven's Sword",
+				"name": "Axe's Default Ponytail",
+				"defindex": 4,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Hair",
+				"item_name": "DOTA_Wearable_Axe_DefaultHair",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/axe\/axe_ponytail",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/axe_ponytail.5b502057675018f06952112b918d5191fc6ad73e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/axe_ponytail.5b502057675018f06952112b918d5191fc6ad73e.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Axe's Default Belt",
 				"defindex": 5,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Wearable_Axe_DefaultWeapon",
+				"item_type_name": "DOTA_WearableType_Belt",
+				"item_name": "DOTA_Wearable_Axe_DefaultBelt",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/axe\/axe_belt",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/axe_belt.b73d347c7ee113d7a7459110a810ff101af79dea.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/axe_belt.b73d347c7ee113d7a7459110a810ff101af79dea.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Juggernaut's Default Mask",
+				"defindex": 6,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Mask",
+				"item_name": "DOTA_Wearable_Jugg_DefaultMask",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/jugg_mask",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/jugg_mask.bf49eaaf7e6dc167c40cc6a16ef4ea29d7ad02c1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/jugg_mask.bf49eaaf7e6dc167c40cc6a16ef4ea29d7ad02c1.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Juggernaut's Default Sword",
+				"defindex": 7,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_Jugg_DefaultWeapon",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/jugg_sword",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/jugg_sword.ff68c4a075b4674bdb4000f727a7cb01f4d3ecd9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/jugg_sword.ff68c4a075b4674bdb4000f727a7cb01f4d3ecd9.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Juggernaut's Default Cape",
+				"defindex": 8,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Cape",
+				"item_name": "DOTA_Wearable_Jugg_DefaultCape",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/jugg_cape",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/jugg_cape.47bcdfbecb67ad0d139f4560c2c10eba551bf85f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/jugg_cape.47bcdfbecb67ad0d139f4560c2c10eba551bf85f.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Juggernaut's Default Bracers",
+				"defindex": 9,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Bracer",
+				"item_name": "DOTA_Wearable_Jugg_DefaultBracers",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/jugg_bracers",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/jugg_bracers.b336ca66afd2b7b9f1a81249d7d03b248a791a1f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/jugg_bracers.b336ca66afd2b7b9f1a81249d7d03b248a791a1f.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Kunkka's Boots",
+				"defindex": 10,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Boots",
+				"item_name": "DOTA_Item_Kunkkas_Boots",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/kunkka\/left_foot",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/left_foot.47881945cefe501202059cbc9db6c92c8412c4dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/left_foot.47881945cefe501202059cbc9db6c92c8412c4dd.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Kunkka's Gloves",
+				"defindex": 11,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Gloves",
+				"item_name": "DOTA_Item_Kunkkas_Gloves",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/kunkka\/left_hand",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/left_hand.7bd7f3a9489f3e1c6ccbe3bd43ddb0fc2e767d62.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/left_hand.7bd7f3a9489f3e1c6ccbe3bd43ddb0fc2e767d62.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Kunkka's Sword",
+				"defindex": 12,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Item_Kunkkas_Sword",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/kunkka\/sword",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sword.5e47a1509a90aa0652aa3dfdffdff7921c027744.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sword.5e47a1509a90aa0652aa3dfdffdff7921c027744.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Omniknight's Bracers",
+				"defindex": 13,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Bracer",
+				"item_name": "DOTA_Item_Omniknights_Bracers",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Kunkka's Head",
+				"defindex": 14,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Head",
+				"item_name": "DOTA_Item_Kunkkas_Head",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/kunkka\/spyglass",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/spyglass.23c13487de46812d8afc6830d11726978b9b5bd2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/spyglass.23c13487de46812d8afc6830d11726978b9b5bd2.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Faceless Void's Default Mace",
+				"defindex": 15,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Mace",
+				"item_name": "DOTA_FacelessVoid_Default_Weapon",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Sven's Default Head",
+				"defindex": 16,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Head",
+				"item_name": "DOTA_Wearable_Sven_DefaultHead",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/sven\/sven_helmet",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_helmet.dc7f380e4f649d7cbb36f1027cd7c9eb9e528b58.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_helmet.dc7f380e4f649d7cbb36f1027cd7c9eb9e528b58.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Sven's Default Sword",
+				"defindex": 17,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_Sven_DefaultSword",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/heroes\/sven\/sven_sword",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_sword.5e47a1509a90aa0652aa3dfdffdff7921c027744.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_sword.23172d448311f693f8a065a91c725106a7887444.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_sword.23172d448311f693f8a065a91c725106a7887444.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Furion's Staff",
-				"defindex": 6,
+				"name": "Sven's Default Belt",
+				"defindex": 18,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Wearable_Furions_Staff",
+				"item_type_name": "DOTA_WearableType_Belt",
+				"item_name": "DOTA_Wearable_Sven_DefaultBelt",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/sven\/sven_belt",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_belt.37cb566cb13330e1e447ee870c4494b6824b428c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_belt.37cb566cb13330e1e447ee870c4494b6824b428c.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Sven's Default Gauntlet",
+				"defindex": 19,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Gauntlet",
+				"item_name": "DOTA_Wearable_Sven_DefaultGauntlet",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/sven\/sven_gauntlet",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_gauntlet.525486168367cac0f97169626ef5391bfa40469a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_gauntlet.525486168367cac0f97169626ef5391bfa40469a.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Sven's Default Shoulder",
+				"defindex": 20,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Shoulder",
+				"item_name": "DOTA_Wearable_Sven_DefaultShoulder",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/sven\/sven_shoulder",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_shoulder.987a6395e9923b12ebfbfafd467c05b55599094d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/sven_shoulder.987a6395e9923b12ebfbfafd467c05b55599094d.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Windrunner's Default Head",
+				"defindex": 21,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Head",
+				"item_name": "DOTA_Wearable_Windrunner_DefaultHead",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Windrunner's Default Bow",
+				"defindex": 22,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Bow",
+				"item_name": "DOTA_Wearable_Windrunner_DefaultBow",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Windrunner's Default Shoulderpads",
+				"defindex": 23,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_ShoulderPads",
+				"item_name": "DOTA_Wearable_Windrunner_ShoulderPads",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Windrunner's Default Cape",
+				"defindex": 24,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Cape",
+				"item_name": "DOTA_Wearable_Windrunner_Cape",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Windrunner's Default Quiver",
+				"defindex": 25,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Quiver",
+				"item_name": "DOTA_Wearable_Windrunner_DefaultQuiver",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Queen of Pain's Weapon",
+				"defindex": 26,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Item_Queen_of_Pains_Weapon",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/queenofpain\/queenofpain_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Silencer's Default Weapon",
+				"defindex": 27,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_Silencer_DefaultWeapon",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/silencer\/silencer_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Silencer's Default Shield",
+				"defindex": 28,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Shield",
+				"item_name": "DOTA_Wearable_Silencer_DefaultShield",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/silencer\/silencer_shield",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Furion's Default Staff",
+				"defindex": 29,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_Furion_DefaultWeapon",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/heroes\/furion\/furion_staff",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_staff.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_staff.2aa96559242b426b6bad32bae5e2ebf3bf0265b6.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_staff.2aa96559242b426b6bad32bae5e2ebf3bf0265b6.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Huskar's Spear",
-				"defindex": 7,
+				"name": "Furion's Default Horns",
+				"defindex": 30,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Wearable_Huskars_Spear",
+				"item_type_name": "DOTA_WearableType_Horns",
+				"item_name": "DOTA_Wearable_Furion_DefaultHorns",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/heroes\/huskar\/huskar_spear",
+				"image_inventory": "econ\/heroes\/furion\/furion_horns",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/huskar_spear.e3b4087a49217345c32026b145a5550feeaedb1c.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_horns.89d177e1f35285f10f838ee8267c76cffa9f04fd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_horns.89d177e1f35285f10f838ee8267c76cffa9f04fd.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Huskar's Sword",
-				"defindex": 8,
+				"name": "Furion's Default Beard",
+				"defindex": 31,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Wearable_Huskars_Sword",
+				"item_type_name": "DOTA_WearableType_Beard",
+				"item_name": "DOTA_Wearable_Furion_DefaultBeard",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/heroes\/huskar\/huskar_sword",
+				"image_inventory": "econ\/heroes\/furion\/furion_beard",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/huskar_sword.b499ce003b553c1e596b8160c004a65701cc3a58.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_beard.91f6713f58ab65c63796a204e5b07c5d61a07ed8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_beard.91f6713f58ab65c63796a204e5b07c5d61a07ed8.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Enchantress' Spear",
-				"defindex": 9,
+				"name": "Furion's Default Cape",
+				"defindex": 32,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Wearable_Enchantress_DefaultWeapon",
+				"item_type_name": "DOTA_WearableType_Cape",
+				"item_name": "DOTA_Wearable_Furion_DefaultCape",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/heroes\/enchantress\/enchantress_spear",
+				"image_inventory": "econ\/heroes\/furion\/furion_cape",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/enchantress_spear.788097e13036003ed6051740efdb6d6fac40df8e.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_cape.38d94f4b7c406b375d077d3ba5eb394c60c09996.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_cape.38d94f4b7c406b375d077d3ba5eb394c60c09996.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Antimage's Weapon",
-				"defindex": 10,
+				"name": "Furion's Default Necklace",
+				"defindex": 33,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Antimage_Antimage_Weapon",
+				"item_type_name": "DOTA_WearableType_Necklace",
+				"item_name": "DOTA_Wearable_Furion_DefaultNecklace",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/heroes\/antimage\/antimage_weapon",
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/antimage_weapon.f6f805f50ed85ac25bc8d31705ec19e5db94870b.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Batrider's Weapon",
-				"defindex": 11,
+				"name": "Tidehunter's Default Bracer",
+				"defindex": 34,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Batrider_Batrider_Weapon",
+				"item_type_name": "DOTA_WearableType_Bracer",
+				"item_name": "DOTA_Wearable_Tidehunter_DefaultBracer",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/heroes\/batrider\/batrider_weapon",
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/batrider_weapon.bbfa4fd96a7c35a8f5f00b5156d9e7d1f907f210.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "Queen Of Pain's Queenofpain Dagger",
-				"defindex": 12,
+				"name": "Tidehunter's Default Belt",
+				"defindex": 35,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_Queen_Of_Pain_Queenofpain_Dagger",
+				"item_type_name": "DOTA_WearableType_Belt",
+				"item_name": "DOTA_Wearable_Tidehunter_DefaultBelt",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/heroes\/QueenOfPain\/queenofpain_dagger",
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/queenofpain_dagger.ea6bb373e4ffb21e244a65c8a66b49c6847a82dd.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
-				"name": "N Creep Troll Dark A's N Creep Troll Dark A Weapon",
-				"defindex": 13,
+				"name": "Tidehunter's Default Weapon",
+				"defindex": 36,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_Wearable_Weapon",
-				"item_name": "DOTA_N_Creep_Troll_Dark_A_N_Creep_Troll_Dark_A_Weapon",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_Tidehunter_DefaultWeapon",
 				"proper_name": false,
 				"item_quality": 0,
-				"image_inventory": "econ\/creeps\/neutral_creeps\/n_creep_troll_dark_a\/n_creep_troll_dark_a_weapon",
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/n_creep_troll_dark_a_weapon.35671fd743f4d4f4e222c400661bbcaea2ede7e5.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Tidehunter's Default OffHandWeapon",
+				"defindex": 37,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_Tidehunter_Default_OffHandWeapon",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "CrystalMaiden's Default Cape",
+				"defindex": 38,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_CrystalMaiden_Default_Cape",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "CrystalMaiden's Default Shoulder Pads",
+				"defindex": 39,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_CrystalMaiden_Default_Shoulder_Pads",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "CrystalMaiden's Default Weapon",
+				"defindex": 40,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_CrystalMaiden_Default_Weapon",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "CrystalMaiden's Default Arms",
+				"defindex": 41,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Wearable_CrystalMaiden_Default_Boots_and_Cuffs",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/furion\/furion_necklace",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_necklace.bc9fb2258e94f1781ccb1fc543935f5564b75650.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Omniknight's Shoulders",
+				"defindex": 42,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Shoulder",
+				"item_name": "DOTA_Item_Omniknights_Shoulders",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Omniknight's Cape",
+				"defindex": 43,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Cape",
+				"item_name": "DOTA_Item_Omniknights_Cape",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Omniknight's Weapon",
+				"defindex": 44,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Item_Omniknights_Weapon",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Omniknight's Head",
+				"defindex": 45,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Head",
+				"item_name": "DOTA_Item_Omniknights_Head",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Omniknight's Hair",
+				"defindex": 46,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Hair",
+				"item_name": "DOTA_Item_Omniknights_Hair",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Pudge's Rusty Meathook",
+				"defindex": 47,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Meathook",
+				"item_name": "DOTA_Item_Pudges_Rusty_Meathook",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Invoker's Cape",
+				"defindex": 48,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Cape",
+				"item_name": "DOTA_Item_Invokers_Cape",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Prophet's Bracers",
+				"defindex": 49,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_bracer",
+				"item_name": "DOTA_Item_Prophets_Bracers",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/furion\/furion_bracer",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_bracer.848b224583dd03b985d481f9f669ab3cf8531cd8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/furion_bracer.848b224583dd03b985d481f9f669ab3cf8531cd8.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Bounty Hunter's Weapon",
+				"defindex": 50,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Weapon",
+				"item_name": "DOTA_Item_Bounty_Hunters_Weapon",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Bounty Hunter's Offhand Weapon",
+				"defindex": 51,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Offhand_weapon",
+				"item_name": "DOTA_Item_Bounty_Hunters_Offhand_Weapon",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Bounty Hunter's Back",
+				"defindex": 52,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Back",
+				"item_name": "DOTA_Item_Bounty_Hunters_Back",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Armor",
+				"defindex": 53,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Armor",
+				"item_name": "DOTA_Item_Armor",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Bounty Hunter's Shoulder",
+				"defindex": 54,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Shoulder",
+				"item_name": "DOTA_Item_Bounty_Hunters_Shoulder",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Bounty Hunter's Bandana",
+				"defindex": 55,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Head",
+				"item_name": "DOTA_Item_Bounty_Hunters_Bandana",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Clinkz Skull",
+				"defindex": 56,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Head",
+				"item_name": "DOTA_Item_Clinkz_Skull",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Clinkz Bow",
+				"defindex": 57,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Bow",
+				"item_name": "DOTA_Item_Clinkz_Bow",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Clinkz Shoulder Pads",
+				"defindex": 58,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_ShoulderPads",
+				"item_name": "DOTA_Item_Clinkz_Shoulder_Pads",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Clinkz Quiver",
+				"defindex": 59,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Quiver",
+				"item_name": "DOTA_Item_Clinkz_Quiver",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Clinkz Horns",
+				"defindex": 60,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Head",
+				"item_name": "DOTA_Item_Clinkz_Horns",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Clinkz Gloves",
+				"defindex": 61,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Gloves",
+				"item_name": "DOTA_Item_Clinkz_Gloves",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/faceless_void\/faceless_void_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/faceless_void_weapon.0d02c2b6ce3c2280fab6fc7b8ed36394233ce333.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Juggernaut's Default Legs",
+				"defindex": 62,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Legs",
+				"item_name": "DOTA_Wearable_Jugg_DefaultLegs",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/juggernaut_pants",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Dragon Knight's Helmet",
+				"defindex": 63,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_head",
+				"item_name": "DOTA_Item_Dragon_Knights_Helmet",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/juggernaut_pants",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Dragon Knight's Shoulder Armor",
+				"defindex": 64,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_shoulder",
+				"item_name": "DOTA_Item_Dragon_Knights_Shoulder_Armor",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/juggernaut_pants",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Dragon Knight's Bracers",
+				"defindex": 65,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_bracer",
+				"item_name": "DOTA_Item_Dragon_Knights_Bracers",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/juggernaut_pants",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Dragon Knight's Weapon",
+				"defindex": 66,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_weapon",
+				"item_name": "DOTA_Item_Dragon_Knights_Weapon",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/juggernaut_pants",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Dragon Knight's Offhand",
+				"defindex": 67,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_offhand",
+				"item_name": "DOTA_Item_Dragon_Knights_Offhand",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/juggernaut_pants",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Dragon Knight's Skirt",
+				"defindex": 68,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_back",
+				"item_name": "DOTA_Item_Dragon_Knights_Skirt",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/juggernaut_pants",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Blood Seeker's Weapon",
+				"defindex": 69,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_weapon",
+				"item_name": "DOTA_Item_Blood_Seekers_Weapon",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/juggernaut\/juggernaut_pants",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/juggernaut_pants.57154247c662ba793cb34c418433363312b74117.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Blood Seeker's Headdress",
+				"defindex": 70,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_head",
+				"item_name": "DOTA_Item_Blood_Seekers_Headdress",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Blood Seeker's Offhand Weapon",
+				"defindex": 71,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_offhand",
+				"item_name": "DOTA_Item_Blood_Seekers_Offhand_Weapon",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Blood Seeker's Necklace",
+				"defindex": 72,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_shoulder",
+				"item_name": "DOTA_Item_Blood_Seekers_Necklace",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Blood Seeker's Cape",
+				"defindex": 73,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_back",
+				"item_name": "DOTA_Item_Blood_Seekers_Cape",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Blood Seeker's Bracers",
+				"defindex": 74,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_arms",
+				"item_name": "DOTA_Item_Blood_Seekers_Bracers",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Drow's Bracers",
+				"defindex": 75,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_arms",
+				"item_name": "DOTA_Item_Drows_Bracers",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Drow's Cape",
+				"defindex": 76,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_head",
+				"item_name": "DOTA_Item_Drows_Cape",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Drow's Bow",
+				"defindex": 77,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_weapon",
+				"item_name": "DOTA_Item_Drows_Bow",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Drow's Leg Armor",
+				"defindex": 78,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_legs",
+				"item_name": "DOTA_Item_Drows_Leg_Armor",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Drow's Quiver",
+				"defindex": 79,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_back",
+				"item_name": "DOTA_Item_Drows_Quiver",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Drow's Shoulder Armor",
+				"defindex": 80,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_shoulder",
+				"item_name": "DOTA_Item_Drows_Shoulder_Armor",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Kunkka's Spyglass",
+				"defindex": 81,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_belt",
+				"item_name": "DOTA_Item_Kunkkas_Spyglass",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/kunkka\/spyglass",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/spyglass.23c13487de46812d8afc6830d11726978b9b5bd2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/spyglass.23c13487de46812d8afc6830d11726978b9b5bd2.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Queen of Pain's Wings",
+				"defindex": 82,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_back",
+				"item_name": "DOTA_Item_Queen_of_Pains_Wings",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/queenofpain\/queenofpain_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
 				"image_url_large": "",
 				"capabilities": {
-					"can_craft_mark": true
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Queen of Pain's Armor",
+				"defindex": 83,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_shoulder",
+				"item_name": "DOTA_Item_Queen_of_Pains_Armor",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/queenofpain\/queenofpain_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Queen of Pain's Hair",
+				"defindex": 84,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_head",
+				"item_name": "DOTA_Item_Queen_of_Pains_Hair",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/queenofpain\/queenofpain_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Ursa's Helmet",
+				"defindex": 85,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_head",
+				"item_name": "DOTA_Item_Ursas_Helmet",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/queenofpain\/queenofpain_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Ursa's Fur",
+				"defindex": 86,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_back",
+				"item_name": "DOTA_Item_Ursas_Fur",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/queenofpain\/queenofpain_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Ursa's Bracers",
+				"defindex": 87,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_arms",
+				"item_name": "DOTA_Item_Ursas_Bracers",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/queenofpain\/queenofpain_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Ursa's Skirt",
+				"defindex": 88,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_belt",
+				"item_name": "DOTA_Item_Ursas_Skirt",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/heroes\/queenofpain\/queenofpain_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Faceless's Head",
+				"defindex": 90,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_New_Item",
+				"item_name": "DOTA_Item_Facelesss_Head",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Faceless's Shoulder",
+				"defindex": 91,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Unnamed_New_Item",
+				"item_name": "DOTA_Item_Facelesss_Shoulder",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Faceless's Bracer",
+				"defindex": 92,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Unnamed_New_Item",
+				"item_name": "DOTA_Item_Facelesss_Bracer",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Faceless's Belt",
+				"defindex": 93,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Unnamed_New_Item",
+				"item_name": "DOTA_Item_Facelesss_Belt",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Witch Doctor's Head",
+				"defindex": 94,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Unnamed_New_Item",
+				"item_name": "DOTA_Item_Witch_Doctors_Head",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Witch Doctor's Bag",
+				"defindex": 95,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Unnamed_New_Item",
+				"item_name": "DOTA_Item_Witch_Doctors_Bag",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Witch Doctor's Belt",
+				"defindex": 96,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Unnamed_New_Item",
+				"item_name": "DOTA_Item_Witch_Doctors_Belt",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Witch Doctor's Staff",
+				"defindex": 97,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Unnamed_New_Item",
+				"item_name": "DOTA_Item_Witch_Doctors_Staff",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			}
 		]
@@ -300,6 +2042,50 @@
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "attach particle effect",
+				"defindex": 134,
+				"attribute_class": "set_attached_particle",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Attrib_AttachedParticle",
+				"description_format": "value_is_particle_index",
+				"effect_type": "neutral",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "cannot trade",
+				"defindex": 153,
+				"attribute_class": "cannot_trade",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "set supply crate series",
+				"defindex": 187,
+				"attribute_class": "supply_crate_series",
+				"min_value": 0.950000,
+				"max_value": 0.850000,
+				"description_string": "Attrib_SupplyCrateSeries",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "elevate quality",
+				"defindex": 189,
+				"attribute_class": "set_elevated_quality",
+				"min_value": 0.950000,
+				"max_value": 0.850000,
+				"effect_type": "positive",
+				"hidden": true,
 				"stored_as_integer": false
 			},
 			{
@@ -391,137 +2177,159 @@
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": false
+			},
+			{
+				"name": "item find",
+				"defindex": 215,
+				"attribute_class": "item_find",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Attrib_ItemFind_Positive",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "kill eater score type",
+				"defindex": 292,
+				"attribute_class": "kill_eater_score_type",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater score type 2",
+				"defindex": 293,
+				"attribute_class": "kill_eater_score_type_2",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater 2",
+				"defindex": 294,
+				"attribute_class": "kill_eater_2",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "disallow recycling",
+				"defindex": 295,
+				"attribute_class": "disallow_recycling",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "ignore charge notification",
+				"defindex": 296,
+				"attribute_class": "ignore_charge_notification",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": false
 			}
+		]
+		,
+		"item_sets": [
+
 		]
 		,
 		"attribute_controlled_attached_particles": [
 			{
-				"system": "burningplayer_red",
+				"system": "antimage_blade",
 				"id": 1,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle1"
 			},
 			{
-				"system": "burningplayer_flyingbits",
+				"system": "jugg_weapon_glow",
 				"id": 2,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle2"
 			},
 			{
-				"system": "particle_nemesis_burst_blue",
+				"system": "axe_drag_sparks",
 				"id": 3,
 				"attach_to_rootbone": false,
-				"attachment": "muzzle1",
 				"name": "Attrib_Particle3"
 			},
 			{
-				"system": "community_sparkle",
+				"system": "axe_commando",
 				"id": 4,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle4"
 			},
 			{
-				"system": "halopoint",
+				"system": "furion_staff",
 				"id": 5,
 				"attach_to_rootbone": false,
-				"attachment": "halopoint1",
 				"name": "Attrib_Particle5"
 			},
 			{
-				"system": "superrare_confetti_green",
+				"system": "jugg_weapon_glow_variation_green",
 				"id": 6,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle6"
 			},
 			{
-				"system": "superrare_confetti_purple",
+				"system": "jugg_weapon_glow_variation_white",
 				"id": 7,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle7"
 			},
 			{
-				"system": "superrare_ghosts",
+				"system": "jugg_weapon_glow_variation_red",
 				"id": 8,
-				"attach_to_rootbone": true,
-				"attachment": "muzzle",
+				"attach_to_rootbone": false,
 				"name": "Attrib_Particle8"
 			},
 			{
-				"system": "superrare_greenenergy",
+				"system": "jugg_weapon_glow_variation_ivory",
 				"id": 9,
-				"attach_to_rootbone": true,
+				"attach_to_rootbone": false,
 				"name": "Attrib_Particle9"
 			},
 			{
-				"system": "superrare_purpleenergy",
+				"system": "jugg_weapon_glow_variation_fireborn_odachi",
 				"id": 10,
-				"attach_to_rootbone": true,
+				"attach_to_rootbone": false,
 				"name": "Attrib_Particle10"
 			},
 			{
-				"system": "superrare_circling_tf",
+				"system": "jugg_weapon_glow_variation_longfang",
 				"id": 11,
-				"attach_to_rootbone": true,
-				"attachment": "muzzle",
+				"attach_to_rootbone": false,
 				"name": "Attrib_Particle11"
 			},
 			{
-				"system": "superrare_flies",
+				"system": "jugg_weapon_glow_variation_jade",
 				"id": 12,
-				"attach_to_rootbone": true,
+				"attach_to_rootbone": false,
 				"name": "Attrib_Particle12"
 			},
 			{
-				"system": "superrare_burning1",
+				"system": "jugg_weapon_glow_variation_grand_claive",
 				"id": 13,
-				"attach_to_rootbone": true,
+				"attach_to_rootbone": false,
 				"name": "Attrib_Particle13"
 			},
 			{
-				"system": "superrare_burning2",
+				"system": "jugg_weapon_glow_variation_script",
 				"id": 14,
-				"attach_to_rootbone": true,
+				"attach_to_rootbone": false,
 				"name": "Attrib_Particle14"
-			},
-			{
-				"system": "superrare_plasma1",
-				"id": 15,
-				"attach_to_rootbone": true,
-				"attachment": "muzzle",
-				"name": "Attrib_Particle15"
-			},
-			{
-				"system": "superrare_plasma2",
-				"id": 16,
-				"attach_to_rootbone": true,
-				"attachment": "muzzle",
-				"name": "Attrib_Particle16"
-			},
-			{
-				"system": "superrare_beams1",
-				"id": 17,
-				"attach_to_rootbone": true,
-				"name": "Attrib_Particle17"
-			},
-			{
-				"system": "superrare_circling_peacesign",
-				"id": 18,
-				"attach_to_rootbone": true,
-				"attachment": "muzzle",
-				"name": "Attrib_Particle18"
-			},
-			{
-				"system": "superrare_circling_heart",
-				"id": 19,
-				"attach_to_rootbone": true,
-				"attachment": "muzzle",
-				"name": "Attrib_Particle19"
-			},
-			{
-				"system": "stamp_spin",
-				"id": 20,
-				"attach_to_rootbone": true,
-				"name": "Attrib_Particle20"
 			}
 		]
 		
