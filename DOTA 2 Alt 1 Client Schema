@@ -1,0 +1,6142 @@
+"items_game"
+{
+	"game_info"
+	{
+		"first_valid_class"		"1"
+		"last_valid_class"		"9"
+		"first_valid_item_slot"		"0"
+		"last_valid_item_slot"		"10"
+		"num_item_presets"		"4"
+	}
+	"rarities"
+	{
+		"common"
+		{
+			"value"		"1"
+			"loc_key"		"Rarity_Common"
+			"color"		"desc_common"
+			"next_rarity"		"uncommon"
+		}
+		"uncommon"
+		{
+			"value"		"2"
+			"loc_key"		"Rarity_Uncommon"
+			"color"		"desc_uncommon"
+			"next_rarity"		"rare"
+		}
+		"rare"
+		{
+			"value"		"3"
+			"loc_key"		"Rarity_Rare"
+			"color"		"desc_rare"
+			"next_rarity"		"mythical"
+		}
+		"mythical"
+		{
+			"value"		"4"
+			"loc_key"		"Rarity_Mythical"
+			"color"		"desc_mythical"
+		}
+		"legendary"
+		{
+			"value"		"5"
+			"loc_key"		"Rarity_Legendary"
+			"color"		"desc_legendary"
+		}
+		"ancient"
+		{
+			"value"		"6"
+			"loc_key"		"Rarity_Ancient"
+			"color"		"desc_ancient"
+		}
+		"immortal"
+		{
+			"value"		"7"
+			"loc_key"		"Rarity_Immortal"
+			"color"		"desc_immortal"
+		}
+	}
+	"qualities"
+	{
+		"normal"
+		{
+			"value"		"0"
+			"hexColor"		"#B2B2B2"
+		}
+		"genuine"
+		{
+			"value"		"1"
+			"hexColor"		"#4D7455"
+		}
+		"vintage"
+		{
+			"value"		"2"
+			"hexColor"		"#476291"
+		}
+		"unusual"
+		{
+			"value"		"3"
+			"hexColor"		"#8650AC"
+		}
+		"unique"
+		{
+			"value"		"4"
+			"hexColor"		"#D2D2D2"
+		}
+		"community"
+		{
+			"value"		"5"
+			"hexColor"		"#70B04A"
+		}
+		"developer"
+		{
+			"value"		"6"
+			"hexColor"		"#A50F79"
+		}
+		"selfmade"
+		{
+			"value"		"7"
+			"hexColor"		"#70B04A"
+		}
+		"customized"
+		{
+			"value"		"8"
+			"hexColor"		"#00FF00"
+		}
+		"strange"
+		{
+			"value"		"9"
+			"hexColor"		"#CF6A32"
+		}
+		"completed"
+		{
+			"value"		"10"
+			"hexColor"		"#8650AC"
+		}
+		"haunted"
+		{
+			"value"		"11"
+			"hexColor"		"#8650AC"
+		}
+	}
+	"colors"
+	{
+		"desc_level"
+		{
+			"color_name"		"ItemAttribLevel"
+			"hex_color"		"#756b5e"
+		}
+		"desc_attrib_neutral"
+		{
+			"color_name"		"ItemAttribNeutral"
+			"hex_color"		"#ebe2ca"
+		}
+		"desc_attrib_positive"
+		{
+			"color_name"		"ItemAttribPositive"
+			"hex_color"		"#99ccff"
+		}
+		"desc_attrib_negative"
+		{
+			"color_name"		"ItemAttribNegative"
+			"hex_color"		"#ff4040"
+		}
+		"desc_itemset_name"
+		{
+			"color_name"		"ItemSetName"
+			"hex_color"		"#e1e10f"
+		}
+		"desc_itemset_equipped"
+		{
+			"color_name"		"ItemSetItemEquipped"
+			"hex_color"		"#95af0c"
+		}
+		"desc_itemset_missing"
+		{
+			"color_name"		"ItemSetItemMissing"
+			"hex_color"		"#8b8989"
+		}
+		"desc_bundle"
+		{
+			"color_name"		"ItemBundleItem"
+			"hex_color"		"#95af0c"
+		}
+		"desc_limited_use"
+		{
+			"color_name"		"ItemLimitedUse"
+			"hex_color"		"#00a000"
+		}
+		"desc_flags"
+		{
+			"color_name"		"ItemFlags"
+			"hex_color"		"#756b5e"
+		}
+		"desc_common"
+		{
+			"color_name"		"ItemRarityCommon"
+			"hex_color"		"#b0c3d9"
+		}
+		"desc_uncommon"
+		{
+			"color_name"		"ItemRarityUncommon"
+			"hex_color"		"#5e98d9"
+		}
+		"desc_rare"
+		{
+			"color_name"		"ItemRarityRare"
+			"hex_color"		"#4b69ff"
+		}
+		"desc_mythical"
+		{
+			"color_name"		"ItemRarityMythical"
+			"hex_color"		"#8847ff"
+		}
+		"desc_legendary"
+		{
+			"color_name"		"ItemRarityLegendary"
+			"hex_color"		"#d32ce6"
+		}
+		"desc_ancient"
+		{
+			"color_name"		"ItemRarityAncient"
+			"hex_color"		"#eb4b4b"
+		}
+		"desc_immortal"
+		{
+			"color_name"		"ItemRarityImmortal"
+			"hex_color"		"#e4ae39"
+		}
+	}
+	"player_loadout"
+	{
+		"actions"
+		{
+			"0"		"action_item"
+		}
+		"item_effects"
+		{
+			"0"		"courier"
+			"1"		"custom_hex"
+		}
+		"voice"
+		{
+			"0"		"announcer"
+			"1"		"killing_spree"
+		}
+	}
+	"prefabs"
+	{
+		"dota_item"
+		{
+			"item_class"		"dota_item_wearable"
+			"item_type_name"		"#DOTA_WearableType_Weapon"
+			"item_name"		"#DOTA_Wearable_Sven_DefaultSword"
+			"item_slot"		"weapon"
+			"item_quality"		"unique"
+			"item_rarity"		"common"
+			"min_ilevel"		"1"
+			"max_ilevel"		"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+		}
+		"dota_default_item"
+		{
+			"item_class"		"dota_item_wearable"
+			"item_type_name"		"#DOTA_WearableType_Weapon"
+			"item_name"		"#DOTA_Wearable_Sven_DefaultSword"
+			"item_slot"		"weapon"
+			"item_quality"		"normal"
+			"item_rarity"		"common"
+			"baseitem"		"1"
+			"min_ilevel"		"1"
+			"max_ilevel"		"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+		}
+		"dota_misc_item"
+		{
+			"item_class"		"dota_item_wearable"
+			"item_type_name"		"#DOTA_WearableType_Weapon"
+			"item_name"		"#DOTA_Wearable_Sven_DefaultSword"
+			"item_slot"		"weapon"
+			"item_quality"		"unique"
+			"item_rarity"		"common"
+			"min_ilevel"		"1"
+			"max_ilevel"		"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+		}
+		"dota_tool"
+		{
+			"item_class"		"tool"
+			"item_type_name"		"#DOTA_WearableType_Tool"
+			"item_name"		"#DOTA_Wearable_Tool"
+			"item_quality"		"unique"
+			"item_rarity"		"common"
+			"min_ilevel"		"1"
+			"max_ilevel"		"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+		}
+		"dota_bundle"
+		{
+			"item_class"		"bundle"
+			"item_type_name"		"#DOTA_WearableType_Bundle"
+			"item_name"		"#DOTA_Wearable_Bundle"
+			"item_quality"		"unique"
+			"item_rarity"		"common"
+			"min_ilevel"		"1"
+			"max_ilevel"		"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+		}
+	}
+	"items"
+	{
+		"default"
+		{
+			"name"		"default"
+			"hidden"		"1"
+			"item_class"		"dota_item_wearable"
+			"item_name"		"#TF_Default_ItemDef"
+			"item_slot"		"weapon"
+			"item_quality"		"normal"
+			"min_ilevel"		"1"
+			"max_ilevel"		"1"
+		}
+		"0"
+		{
+			"name"		"Riki's Default Daggers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Daggers"
+			"item_name"		"#DOTA_Wearable_Riki_DefaultWeapon"
+			"image_inventory"		"econ/heroes/rikimaru/rikimaru_weapon"
+			"model_player"		"models/heroes/rikimaru/rikimaru_weapon.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_riki"		"1"
+			}
+		}
+		"1"
+		{
+			"name"		"Anti-Mage's Glaives"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Glaives"
+			"item_name"		"#DOTA_Item_AntiMages_Glaives"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"antimage_blade"
+				}
+			}
+			"image_inventory"		"econ/heroes/antimage/antimage_weapon"
+			"model_player"		"models/heroes/antimage/antimage_weapon.mdl"
+			"item_description"		"#DOTA_Item_Desc_AntiMages_Glaives"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_antimage"		"1"
+			}
+		}
+		"2"
+		{
+			"name"		"Axe's Default Axe"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_Axe_DefaultWeapon"
+			"image_inventory"		"econ/heroes/axe/axe_weapon"
+			"model_player"		"models/heroes/axe/axe_weapon.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"3"
+		{
+			"name"		"Axe's Default Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Armor"
+			"item_name"		"#DOTA_Wearable_Axe_DefaultArmor"
+			"item_slot"		"armor"
+			"image_inventory"		"econ/heroes/axe/axe_armor"
+			"model_player"		"models/heroes/axe/axe_armor.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"4"
+		{
+			"name"		"Axe's Default Ponytail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Hair"
+			"item_name"		"#DOTA_Wearable_Axe_DefaultHair"
+			"item_slot"		"head"
+			"image_inventory"		"econ/heroes/axe/axe_ponytail"
+			"model_player"		"models/heroes/axe/axe_ponytail.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"5"
+		{
+			"name"		"Axe's Default Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"item_name"		"#DOTA_Wearable_Axe_DefaultBelt"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/heroes/axe/axe_belt"
+			"model_player"		"models/heroes/axe/axe_belt.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"6"
+		{
+			"name"		"Juggernaut's Default Mask"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Mask"
+			"item_name"		"#DOTA_Wearable_Jugg_DefaultMask"
+			"item_slot"		"head"
+			"image_inventory"		"econ/heroes/juggernaut/jugg_mask"
+			"model_player"		"models/heroes/juggernaut/jugg_mask.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+		}
+		"7"
+		{
+			"name"		"Juggernaut's Default Sword"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_Jugg_DefaultWeapon"
+			"image_inventory"		"econ/heroes/juggernaut/jugg_sword"
+			"model_player"		"models/heroes/juggernaut/jugg_sword.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"jugg_weapon_glow"
+				}
+			}
+		}
+		"8"
+		{
+			"name"		"Juggernaut's Default Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Wearable_Jugg_DefaultCape"
+			"item_slot"		"back"
+			"image_inventory"		"econ/heroes/juggernaut/jugg_cape"
+			"model_player"		"models/heroes/juggernaut/jugg_cape.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+		}
+		"9"
+		{
+			"name"		"Juggernaut's Default Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Wearable_Jugg_DefaultBracers"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/heroes/juggernaut/jugg_bracers"
+			"model_player"		"models/heroes/juggernaut/jugg_bracers.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+		}
+		"10"
+		{
+			"name"		"Kunkka's Boots"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Boots"
+			"item_name"		"#DOTA_Item_Kunkkas_Boots"
+			"item_slot"		"legs"
+			"image_inventory"		"econ/heroes/kunkka/left_foot"
+			"model_player"		"models/heroes/kunkka/kunkka_feet.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"11"
+		{
+			"name"		"Kunkka's Gloves"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Gloves"
+			"item_name"		"#DOTA_Item_Kunkkas_Gloves"
+			"item_slot"		"gloves"
+			"image_inventory"		"econ/heroes/kunkka/left_hand"
+			"model_player"		"models/heroes/kunkka/kunkka_hands.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"12"
+		{
+			"name"		"Kunkka's Sword"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Kunkkas_Sword"
+			"image_inventory"		"econ/heroes/kunkka/sword"
+			"model_player"		"models/heroes/kunkka/sword.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"13"
+		{
+			"name"		"Omniknight's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Item_Omniknights_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/omniknight/bracer.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_omniknight"		"1"
+			}
+		}
+		"14"
+		{
+			"name"		"Kunkka's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Kunkkas_Head"
+			"item_slot"		"body_head"
+			"image_inventory"		"econ/heroes/kunkka/spyglass"
+			"model_player"		"models/heroes/kunkka/kunkka_head.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"15"
+		{
+			"name"		"Faceless Void's Default Mace"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Mace"
+			"item_name"		"#DOTA_FacelessVoid_Default_Weapon"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/faceless_void/faceless_void_weapon.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+		}
+		"16"
+		{
+			"name"		"Sven's Default Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Wearable_Sven_DefaultHead"
+			"item_slot"		"head"
+			"image_inventory"		"econ/heroes/sven/sven_helmet"
+			"model_player"		"models/heroes/sven/sven_mask.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+		}
+		"17"
+		{
+			"name"		"Sven's Default Sword"
+			"prefab"		"dota_default_item"
+			"image_inventory"		"econ/heroes/sven/sven_sword"
+			"model_player"		"models/heroes/sven/sven_sword.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+		}
+		"18"
+		{
+			"name"		"Sven's Default Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"item_name"		"#DOTA_Wearable_Sven_DefaultBelt"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/heroes/sven/sven_belt"
+			"model_player"		"models/heroes/sven/sven_belt.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+		}
+		"19"
+		{
+			"name"		"Sven's Default Gauntlet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Gauntlet"
+			"item_name"		"#DOTA_Wearable_Sven_DefaultGauntlet"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/heroes/sven/sven_gauntlet"
+			"model_player"		"models/heroes/sven/sven_gauntlet.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+		}
+		"20"
+		{
+			"name"		"Sven's Default Shoulder"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Wearable_Sven_DefaultShoulder"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/heroes/sven/sven_shoulder"
+			"model_player"		"models/heroes/sven/sven_shoulder.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+		}
+		"21"
+		{
+			"name"		"Windrunner's Default Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Wearable_Windrunner_DefaultHead"
+			"item_slot"		"body_head"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/windrunner/windrunner_head.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_windrunner"		"1"
+			}
+		}
+		"22"
+		{
+			"name"		"Windrunner's Default Bow"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Bow"
+			"item_name"		"#DOTA_Wearable_Windrunner_DefaultBow"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/windrunner/windrunner_bow.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_windrunner"		"1"
+			}
+		}
+		"23"
+		{
+			"name"		"Windrunner's Default Shoulderpads"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_ShoulderPads"
+			"item_name"		"#DOTA_Wearable_Windrunner_ShoulderPads"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/windrunner/windrunner_shoulderpads.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_windrunner"		"1"
+			}
+		}
+		"24"
+		{
+			"name"		"Windrunner's Default Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Wearable_Windrunner_Cape"
+			"item_slot"		"back"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/windrunner/windrunner_cape.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_windrunner"		"1"
+			}
+		}
+		"25"
+		{
+			"name"		"Windrunner's Default Quiver"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Quiver"
+			"item_name"		"#DOTA_Wearable_Windrunner_DefaultQuiver"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/windrunner/windrunner_quiver.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_windrunner"		"1"
+			}
+		}
+		"26"
+		{
+			"name"		"Queen of Pain's Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Queen_of_Pains_Weapon"
+			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
+			"model_player"		"models/heroes/queenofpain/queenofpain_weapon.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_queenofpain"		"1"
+			}
+		}
+		"27"
+		{
+			"name"		"Silencer's Default Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_Silencer_DefaultWeapon"
+			"image_inventory"		"econ/heroes/silencer/silencer_weapon"
+			"model_player"		"models/heroes/silencer/silencer_weapon.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_silencer"		"1"
+			}
+		}
+		"28"
+		{
+			"name"		"Silencer's Default Shield"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Shield"
+			"item_name"		"#DOTA_Wearable_Silencer_DefaultShield"
+			"item_slot"		"offhand_weapon"
+			"image_inventory"		"econ/heroes/silencer/silencer_shield"
+			"model_player"		"models/heroes/silencer/silencer_shield.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_silencer"		"1"
+			}
+		}
+		"29"
+		{
+			"name"		"Furion's Default Staff"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_Furion_DefaultWeapon"
+			"image_inventory"		"econ/heroes/furion/furion_staff"
+			"model_player"		"models/heroes/furion/furion_staff.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"furion_staff"
+				}
+			}
+		}
+		"30"
+		{
+			"name"		"Furion's Default Horns"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Horns"
+			"item_name"		"#DOTA_Wearable_Furion_DefaultHorns"
+			"item_slot"		"head"
+			"image_inventory"		"econ/heroes/furion/furion_horns"
+			"model_player"		"models/heroes/furion/furion_horns.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+		}
+		"31"
+		{
+			"name"		"Furion's Default Beard"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Beard"
+			"item_name"		"#DOTA_Wearable_Furion_DefaultBeard"
+			"item_slot"		"neck"
+			"image_inventory"		"econ/heroes/furion/furion_beard"
+			"model_player"		"models/heroes/furion/furion_beard.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+		}
+		"32"
+		{
+			"name"		"Furion's Default Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Wearable_Furion_DefaultCape"
+			"item_slot"		"back"
+			"image_inventory"		"econ/heroes/furion/furion_cape"
+			"model_player"		"models/heroes/furion/furion_cape.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+		}
+		"33"
+		{
+			"name"		"Furion's Default Necklace"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Necklace"
+			"item_name"		"#DOTA_Wearable_Furion_DefaultNecklace"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/furion/furion_necklace.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+		}
+		"34"
+		{
+			"name"		"Tidehunter's Default Bracer"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Wearable_Tidehunter_DefaultBracer"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/tidehunter/tidehunter_bracer.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+		}
+		"35"
+		{
+			"name"		"Tidehunter's Default Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"item_name"		"#DOTA_Wearable_Tidehunter_DefaultBelt"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/tidehunter/tidehunter_belt.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+		}
+		"36"
+		{
+			"name"		"Tidehunter's Default Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_Tidehunter_DefaultWeapon"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/tidehunter/tidehunter_anchor.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+		}
+		"37"
+		{
+			"name"		"Tidehunter's Default OffHandWeapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_Tidehunter_Default_OffHandWeapon"
+			"item_slot"		"offhand_weapon"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/tidehunter/tidehunter_fish.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+		}
+		"38"
+		{
+			"name"		"CrystalMaiden's Default Cape"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Cape"
+			"item_slot"		"back"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_cape.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+		}
+		"39"
+		{
+			"name"		"CrystalMaiden's Default Shoulder Pads"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Shoulder_Pads"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_shoulders.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+		}
+		"40"
+		{
+			"name"		"CrystalMaiden's Default Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Weapon"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_staff.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+		}
+		"41"
+		{
+			"name"		"CrystalMaiden's Default Arms"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Boots_and_Cuffs"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_bootscuffs.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+		}
+		"42"
+		{
+			"name"		"Omniknight's Shoulders"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Omniknights_Shoulders"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Omniknights_Shoulders"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/omniknight/shoulder.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_omniknight"		"1"
+			}
+		}
+		"43"
+		{
+			"name"		"Omniknight's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_Omniknights_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Omniknights_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/omniknight/cape.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_omniknight"		"1"
+			}
+		}
+		"44"
+		{
+			"name"		"Omniknight's Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Omniknights_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Omniknights_Hammer"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/omniknight/hammer.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_omniknight"		"1"
+			}
+		}
+		"45"
+		{
+			"name"		"Omniknight's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Omniknights_Head"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Omniknights_Head"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/omniknight/head.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_omniknight"		"1"
+			}
+		}
+		"46"
+		{
+			"name"		"Omniknight's Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Hair"
+			"item_name"		"#DOTA_Item_Omniknights_Hair"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Omniknights_Hair"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/omniknight/hair.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_omniknight"		"1"
+			}
+		}
+		"47"
+		{
+			"name"		"Pudge's Rusty Meathook"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Meathook"
+			"item_name"		"#DOTA_Item_Pudges_Rusty_Meathook"
+			"item_description"		"#DOTA_Item_Desc_Rusty_Meathook"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"model_player"		"models/heroes/pudge/pudge_hook.mdl"
+		}
+		"48"
+		{
+			"name"		"Invoker's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_Invokers_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Invokers_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_invoker"		"1"
+			}
+			"model_player"		"models/heroes/invoker/invoker_cape.mdl"
+		}
+		"49"
+		{
+			"name"		"Prophet's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_bracer"
+			"item_name"		"#DOTA_Item_Prophets_Bracers"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/heroes/furion/furion_bracer"
+			"model_player"		"models/heroes/furion/furion_bracer.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Prophets_Horns"
+		}
+		"50"
+		{
+			"name"		"Bounty Hunter's Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Bounty_Hunters_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bounty_hunter"		"1"
+			}
+			"model_player"		"models/heroes/bounty_hunter/bounty_hunter_rweapon.mdl"
+		}
+		"51"
+		{
+			"name"		"Bounty Hunter's Offhand Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Offhand_weapon"
+			"item_name"		"#DOTA_Item_Bounty_Hunters_Offhand_Weapon"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_RWeapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bounty_hunter"		"1"
+			}
+			"model_player"		"models/heroes/bounty_hunter/bounty_hunter_lweapon.mdl"
+		}
+		"52"
+		{
+			"name"		"Bounty Hunter's Back"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Back"
+			"item_name"		"#DOTA_Item_Bounty_Hunters_Back"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_LWeapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bounty_hunter"		"1"
+			}
+			"model_player"		"models/heroes/bounty_hunter/bounty_hunter_backpack.mdl"
+		}
+		"53"
+		{
+			"name"		"Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Armor"
+			"item_name"		"#DOTA_Item_Armor"
+			"item_slot"		"armor"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Backpack"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bounty_hunter"		"1"
+			}
+			"model_player"		"models/heroes/bounty_hunter/bounty_hunter_pads.mdl"
+		}
+		"54"
+		{
+			"name"		"Bounty Hunter's Shoulder"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Bounty_Hunters_Shoulder"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bounty_hunter"		"1"
+			}
+			"model_player"		"models/heroes/bounty_hunter/bounty_hunter_bweapon.mdl"
+		}
+		"55"
+		{
+			"name"		"Bounty Hunter's Bandana"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Bounty_Hunters_Bandana"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_BWeapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bounty_hunter"		"1"
+			}
+			"model_player"		"models/heroes/bounty_hunter/bounty_hunter_bandana.mdl"
+		}
+		"56"
+		{
+			"name"		"Clinkz Skull"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Clinkz_Skull"
+			"item_slot"		"body_head"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/clinkz/clinkz_head.mdl"
+			"item_description"		"#DOTA_Item_Desc_Clinkz_Skull"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_clinkz"		"1"
+			}
+		}
+		"57"
+		{
+			"name"		"Clinkz Bow"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Bow"
+			"item_name"		"#DOTA_Item_Clinkz_Bow"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/clinkz/clinkz_bow.mdl"
+			"item_description"		"#DOTA_Item_Desc_Clinkz_Bow"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_clinkz"		"1"
+			}
+		}
+		"58"
+		{
+			"name"		"Clinkz Shoulder Pads"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_ShoulderPads"
+			"item_name"		"#DOTA_Item_Clinkz_Shoulder_Pads"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/clinkz/clinkz_pads.mdl"
+			"item_description"		"#DOTA_Item_Desc_Clinkz_Shoulder_Pads"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_clinkz"		"1"
+			}
+		}
+		"59"
+		{
+			"name"		"Clinkz Quiver"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Quiver"
+			"item_name"		"#DOTA_Item_Clinkz_Quiver"
+			"item_slot"		"back"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/clinkz/clinkz_back.mdl"
+			"item_description"		"#DOTA_Item_Desc_Clinkz_Quiver"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_clinkz"		"1"
+			}
+		}
+		"60"
+		{
+			"name"		"Clinkz Horns"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Clinkz_Horns"
+			"item_slot"		"head"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/clinkz/clinkz_horns.mdl"
+			"item_description"		"#DOTA_Item_Desc_Clinkz_Horns"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_clinkz"		"1"
+			}
+		}
+		"61"
+		{
+			"name"		"Clinkz Gloves"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Gloves"
+			"item_name"		"#DOTA_Item_Clinkz_Gloves"
+			"item_slot"		"gloves"
+			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
+			"model_player"		"models/heroes/clinkz/clinkz_gloves.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Clinkz_Skull"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_clinkz"		"1"
+			}
+		}
+		"62"
+		{
+			"name"		"Juggernaut's Default Legs"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Legs"
+			"item_name"		"#DOTA_Wearable_Jugg_DefaultLegs"
+			"item_slot"		"legs"
+			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
+			"model_player"		"models/heroes/juggernaut/juggernaut_pants.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+		}
+		"63"
+		{
+			"name"		"Dragon Knight's Helmet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Dragon_Knights_Helmet"
+			"item_slot"		"head"
+			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
+			"model_player"		"models/heroes/dragon_knight/helmet.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Juggernauts_Legs"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dragon_knight"		"1"
+			}
+		}
+		"64"
+		{
+			"name"		"Dragon Knight's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Dragon_Knights_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
+			"model_player"		"models/heroes/dragon_knight/shoulders.mdl"
+			"item_description"		"#DOTA_Item_Desc_Dragon_Knights_Shoulder_Armor"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dragon_knight"		"1"
+			}
+		}
+		"65"
+		{
+			"name"		"Dragon Knight's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_bracer"
+			"item_name"		"#DOTA_Item_Dragon_Knights_Bracers"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
+			"model_player"		"models/heroes/dragon_knight/bracers.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dragon_Knights_Shoulder_Armor"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dragon_knight"		"1"
+			}
+		}
+		"66"
+		{
+			"name"		"Dragon Knight's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Dragon_Knights_Weapon"
+			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
+			"model_player"		"models/heroes/dragon_knight/weapon.mdl"
+			"item_description"		"#DOTA_Item_Desc_Dragon_Knights_Weapon"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dragon_knight"		"1"
+			}
+		}
+		"67"
+		{
+			"name"		"Dragon Knight's Offhand"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_offhand"
+			"item_name"		"#DOTA_Item_Dragon_Knights_Offhand"
+			"item_slot"		"offhand_weapon"
+			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
+			"model_player"		"models/heroes/dragon_knight/shield.mdl"
+			"item_description"		"#DOTA_Item_Desc_Dragon_Knights_Offhand"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dragon_knight"		"1"
+			}
+		}
+		"68"
+		{
+			"name"		"Dragon Knight's Skirt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Dragon_Knights_Skirt"
+			"item_slot"		"back"
+			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
+			"model_player"		"models/heroes/dragon_knight/skirt.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dragon_Knights_Offhand"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dragon_knight"		"1"
+			}
+		}
+		"69"
+		{
+			"name"		"Blood Seeker's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Blood_Seekers_Weapon"
+			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
+			"model_player"		"models/heroes/blood_seeker/weapon.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dragon_Knights_Skirt"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bloodseeker"		"1"
+			}
+		}
+		"70"
+		{
+			"name"		"Blood Seeker's Headdress"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Blood_Seekers_Headdress"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Blood_Seekers_Headdress"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bloodseeker"		"1"
+			}
+			"model_player"		"models/heroes/blood_seeker/helmet.mdl"
+		}
+		"71"
+		{
+			"name"		"Blood Seeker's Offhand Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_offhand"
+			"item_name"		"#DOTA_Item_Blood_Seekers_Offhand_Weapon"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Headdress"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bloodseeker"		"1"
+			}
+			"model_player"		"models/heroes/blood_seeker/weapon_offhand.mdl"
+		}
+		"72"
+		{
+			"name"		"Blood Seeker's Necklace"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Blood_Seekers_Necklace"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Offhand_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bloodseeker"		"1"
+			}
+			"model_player"		"models/heroes/blood_seeker/neck.mdl"
+		}
+		"73"
+		{
+			"name"		"Blood Seeker's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Blood_Seekers_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Necklace"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bloodseeker"		"1"
+			}
+			"model_player"		"models/heroes/blood_seeker/cape.mdl"
+		}
+		"74"
+		{
+			"name"		"Blood Seeker's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Blood_Seekers_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bloodseeker"		"1"
+			}
+			"model_player"		"models/heroes/blood_seeker/bracer.mdl"
+		}
+		"75"
+		{
+			"name"		"Drow's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Drows_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/drow/drow_bracers.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+		}
+		"76"
+		{
+			"name"		"Drow's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Drows_Cape"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/drow/drow_cape.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+		}
+		"77"
+		{
+			"name"		"Drow's Bow"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Drows_Bow"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/drow/drow_weapon.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+		}
+		"78"
+		{
+			"name"		"Drow's Leg Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_legs"
+			"item_name"		"#DOTA_Item_Drows_Leg_Armor"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Drows_Leg_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/drow/drow_legs.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+		}
+		"79"
+		{
+			"name"		"Drow's Quiver"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Drows_Quiver"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Leg_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/drow/drow_quiver.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+		}
+		"80"
+		{
+			"name"		"Drow's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Drows_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Quiver"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/drow/drow_shoulders.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+		}
+		"81"
+		{
+			"name"		"Kunkka's Spyglass"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_Kunkkas_Spyglass"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/heroes/kunkka/spyglass"
+			"model_player"		"models/heroes/kunkka/kunkka_spyglass.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Kunkkas_Head"
+		}
+		"82"
+		{
+			"name"		"Queen of Pain's Wings"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Queen_of_Pains_Wings"
+			"item_slot"		"back"
+			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
+			"model_player"		"models/heroes/QueenOfPain/wings.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_queenofpain"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Queen_of_Pains_Weapon"
+		}
+		"83"
+		{
+			"name"		"Queen of Pain's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Queen_of_Pains_Armor"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
+			"model_player"		"models/heroes/QueenOfPain/shoulders.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_queenofpain"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Queen_of_Pains_Wings"
+		}
+		"84"
+		{
+			"name"		"Queen of Pain's Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Queen_of_Pains_Hair"
+			"item_slot"		"head"
+			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
+			"model_player"		"models/heroes/QueenOfPain/hair.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_queenofpain"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Queen_of_Pains_Armor"
+		}
+		"85"
+		{
+			"name"		"Ursa's Helmet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Ursas_Helmet"
+			"item_slot"		"head"
+			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
+			"model_player"		"models/heroes/Ursa/helmet.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Queen_of_Pains_Hair"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_ursa"		"1"
+			}
+		}
+		"86"
+		{
+			"name"		"Ursa's Fur"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Ursas_Fur"
+			"item_slot"		"back"
+			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
+			"model_player"		"models/heroes/Ursa/fur.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Ursas_Helmet"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_ursa"		"1"
+			}
+		}
+		"87"
+		{
+			"name"		"Ursa's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Ursas_Bracers"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
+			"model_player"		"models/heroes/Ursa/bracers.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Ursas_Fur"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_ursa"		"1"
+			}
+		}
+		"88"
+		{
+			"name"		"Ursa's Skirt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_Ursas_Skirt"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
+			"model_player"		"models/heroes/Ursa/skirt.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Ursas_Bracers"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_ursa"		"1"
+			}
+		}
+		"89"
+		{
+			"name"		"Invoker's Shoulder"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Invokers_Shoulder"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_invoker"		"1"
+			}
+			"model_player"		"models/heroes/invoker/invoker_shoulder.mdl"
+		}
+		"90"
+		{
+			"name"		"Faceless's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_New_Item"
+			"item_name"		"#DOTA_Item_Facelesss_Head"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+			"model_player"		"models/heroes/faceless_void/faceless_void_head.mdl"
+		}
+		"91"
+		{
+			"name"		"Faceless's Shoulder"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Facelesss_Shoulder"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+			"model_player"		"models/heroes/faceless_void/faceless_void_shoulder.mdl"
+		}
+		"92"
+		{
+			"name"		"Faceless's Bracer"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Facelesss_Bracer"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+			"model_player"		"models/heroes/faceless_void/faceless_void_bracer.mdl"
+		}
+		"93"
+		{
+			"name"		"Faceless's Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Facelesss_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+			"model_player"		"models/heroes/faceless_void/faceless_void_belt.mdl"
+		}
+		"94"
+		{
+			"name"		"Witch Doctor's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Witch_Doctors_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/heroes/witchdoctor/witchdoctor_head.mdl"
+		}
+		"95"
+		{
+			"name"		"Witch Doctor's Bag"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Witch_Doctors_Bag"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/heroes/witchdoctor/witchdoctor_bag.mdl"
+		}
+		"96"
+		{
+			"name"		"Witch Doctor's Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Witch_Doctors_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/heroes/witchdoctor/witchdoctor_belt.mdl"
+		}
+		"97"
+		{
+			"name"		"Witch Doctor's Staff"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Witch_Doctors_Staff"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/heroes/witchdoctor/witchdoctor_staff.mdl"
+		}
+		"98"
+		{
+			"name"		"Invoker's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Invokers_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_invoker"		"1"
+			}
+			"model_player"		"models/heroes/invoker/invoker_head.mdl"
+		}
+		"99"
+		{
+			"name"		"Invoker's Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Invokers_Hair"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_invoker"		"1"
+			}
+			"model_player"		"models/heroes/invoker/invoker_hair.mdl"
+		}
+		"100"
+		{
+			"name"		"Invoker's Bracer"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Invokers_Bracer"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_invoker"		"1"
+			}
+			"model_player"		"models/heroes/invoker/invoker_bracer.mdl"
+		}
+		"4000"
+		{
+			"name"		"Riki's Diffusal Blades"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Wearable_Riki_DiffusalBlades"
+			"item_description"		"#DOTA_Wearable_Riki_DiffusalBlades_Desc"
+			"image_inventory"		"econ/items/rikimaru/riki_diffusal"
+			"model_player"		"models/items/rikimaru/riki_diffusal.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_riki"		"1"
+			}
+		}
+		"4001"
+		{
+			"name"		"Spiked Guard of Fury"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulderpad"
+			"item_name"		"#DOTA_Wearable_Beastmaster_SpikedGuard"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Wearable_Beastmaster_SpikedGuard_Desc"
+			"image_inventory"		"econ/items/beastmaster/beastmaster_shoulderpad"
+			"model_player"		"models/items/beastmaster/beastmaster_shoulderpad.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_beastmaster"		"1"
+			}
+		}
+		"4002"
+		{
+			"name"		"Bracers of the Black Void"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Wearable_Enigma_VoidBracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Wearable_Enigma_VoidBracers_Desc"
+			"image_inventory"		"econ/items/enigma/enigma_bracer"
+			"model_player"		"models/items/enigma/enigma_bracer.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_enigma"		"1"
+			}
+		}
+		"4003"
+		{
+			"name"		"Style of the Manta"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Axes"
+			"item_name"		"#DOTA_Item_Style_of_the_Manta"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_antimage"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_ATTACK"
+					"modifier"		"manta"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Style_of_the_Manta"
+			"image_inventory"		"econ/items/antimage/antimage_manta"
+			"model_player"		"models/items/antimage/antimage_manta.mdl"
+		}
+		"4004"
+		{
+			"name"		"The Blood Chaser"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_The_Blood_Chaser"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_RUN"
+					"modifier"		"blood_chaser"
+				}
+				"asset_modifier1"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_CAST_ABILITY_3"
+					"modifier"		"blood_chaser"
+				}
+				"asset_modifier2"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Axe.CounterHelix"
+					"modifier"		"Hero_Axe.CounterHelix_Blood_Chaser"
+				}
+				"asset_modifier3"
+				{
+					"type"		"particle"
+					"asset"		"axe_attack_blur_counterhelix"
+					"modifier"		"axe_attack_blur_counterhelix_bloodchaser"
+				}
+				"attached_particlesystem"
+				{
+					"system"		"axe_drag_sparks"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_The_Blood_Chaser"
+			"image_inventory"		"econ/items/axe/blood_chaser"
+			"model_player"		"models/items/axe/blood_chaser.mdl"
+		}
+		"4005"
+		{
+			"name"		"The Timestopper"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Wearable_FacelessVoid_Timestopper"
+			"item_description"		"#DOTA_Wearable_FacelessVoid_Timestopper_Desc"
+			"propername"		"1"
+			"image_inventory"		"econ/items/faceless_void/timestopper"
+			"model_player"		"models/items/faceless_void/faceless_void_mace.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+		}
+		"4006"
+		{
+			"name"		"Trolltooth Necklace"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Necklace"
+			"item_name"		"#DOTA_Wearable_Dazzle_TrolltoothNecklace"
+			"item_slot"		"neck"
+			"item_description"		"#DOTA_Wearable_Dazzle_TrolltoothNecklace_Desc"
+			"image_inventory"		"econ/items/dazzle/trolltooth_necklace"
+			"model_player"		"models/items/dazzle/dazzle_bonenecklace.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dazzle"		"1"
+			}
+		}
+		"4007"
+		{
+			"name"		"Dragonclaw Hook"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Meathook"
+			"item_name"		"#DOTA_Item_Dragonclaw_Hook"
+			"item_quality"		"normal"
+			"baseitem"		"1"
+			"item_description"		"#DOTA_Item_Desc_Dragonclaw_Hook"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"model_player"		"models/items/pudge/pudge_skeleton_hook_body.mdl"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"pudge_meathook"
+					"modifier"		"pudge_meathook_skeleton"
+				}
+			}
+		}
+		"4008"
+		{
+			"name"		"Demon Blood Helm"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hair"
+			"item_name"		"#DOTA_Item_Demon_Blood_Helm"
+			"item_slot"		"head"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+			"image_inventory"		"econ/items/axe/demon_blood_helm"
+			"model_player"		"models/items/axe/demon_blood_helm.mdl"
+			"item_description"		"#DOTA_Item_Desc_Demon_Blood_Helm"
+		}
+		"4009"
+		{
+			"name"		"Demon Blood Armor"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Armor"
+			"item_name"		"#DOTA_Wearable_Axe_Demon_Blood_Armor"
+			"item_slot"		"armor"
+			"image_inventory"		"econ/items/axe/demon_blood_armor"
+			"model_player"		"models/items/axe/demon_blood_armor.mdl"
+			"set_parent_skin"		"1"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"4010"
+		{
+			"name"		"Demon Blood Belt"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"item_name"		"#DOTA_Wearable_Axe_Demon_Blood_Belt"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/items/axe/demon_blood_belt"
+			"model_player"		"models/items/axe/demon_blood_belt.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"4011"
+		{
+			"name"		"Pegleg of the Cursed Pirate"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Pegleg"
+			"item_name"		"#DOTA_Wearable_Kunkka_Pegleg"
+			"item_slot"		"legs"
+			"image_inventory"		"econ/items/kunkka/pegleg"
+			"model_player"		"models/items/kunkka/kunkka_pegleg.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_RUN"
+					"modifier"		"pegleg"
+				}
+			}
+		}
+		"4012"
+		{
+			"name"		"Three-Fold Mien of the Boar God"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Mask"
+			"item_name"		"#DOTA_Item_ThreeFold_Mien_of_the_Boar_God"
+			"item_slot"		"head"
+			"image_inventory"		"econ/items/juggernaut/mask_boar"
+			"model_player"		"models/items/juggernaut/mask_boar.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_ThreeFold_Mien_of_the_Boar_God"
+			"item_set"		"juggernaut_boar_god"
+		}
+		"4013"
+		{
+			"name"		"Seven-Sealed the Fur Bracer"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Item_SevenSealed_the_Fur_Bracer"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/items/juggernaut/bracers_fur"
+			"model_player"		"models/items/juggernaut/bracers_fur.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_SevenSealed_the_Fur_Bracer"
+			"item_set"		"juggernaut_boar_god"
+		}
+		"4014"
+		{
+			"name"		"Twelve-Tusks the Cape of Boars"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_TwelveTusks_the_Cape_of_Boars"
+			"item_slot"		"back"
+			"image_inventory"		"econ/items/juggernaut/cape_tusks"
+			"model_player"		"models/items/juggernaut/cape_tusks.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_TwelveTusks_the_Cape_of_Boars"
+			"item_set"		"juggernaut_boar_god"
+		}
+		"4015"
+		{
+			"name"		"Four-Fangs the Swordbreaker"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
+			"item_name"		"#DOTA_Item_FourFangs_the_Swordbreaker"
+			"image_inventory"		"econ/items/juggernaut/wep_swordbreaker"
+			"model_player"		"models/items/juggernaut/wep_swordbreaker.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"jugg_weapon_glow"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_FourFangs_the_Swordbreaker"
+			"item_set"		"juggernaut_boar_god"
+		}
+		"4016"
+		{
+			"name"		"Pride of the Crew"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Wearable_Kunkka_Bandana"
+			"item_slot"		"body_head"
+			"image_inventory"		"econ/items/juggernaut/cape_tusks"
+			"model_player"		"models/items/kunkka/kunkka_bandana.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"4017"
+		{
+			"name"		"Royal Admiral's Bicorne"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hat"
+			"item_name"		"#DOTA_Wearable_Kunkka_Bicorne_Hat"
+			"item_slot"		"head"
+			"image_inventory"		"econ/items/juggernaut/cape_tusks"
+			"model_player"		"models/items/kunkka/kunkka_bicorne.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"4018"
+		{
+			"name"		"Tricorne of the Drowned"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hat"
+			"item_name"		"#DOTA_Wearable_Kunkka_Tricorne_Hat"
+			"item_slot"		"head"
+			"image_inventory"		"econ/items/juggernaut/cape_tusks"
+			"model_player"		"models/items/kunkka/kunkka_tricorne.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"4019"
+		{
+			"name"		"Wavecrester"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Back"
+			"item_name"		"#DOTA_Wearable_Kunkka_Wavecrester"
+			"item_slot"		"back"
+			"image_inventory"		"econ/items/juggernaut/cape_tusks"
+			"model_player"		"models/items/kunkka/kunkka_harpoon.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"4020"
+		{
+			"name"		"Pact of Gor-Thramak"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Ability_Modifier"
+			"item_name"		"#DOTA_Item_Pact_of_GorThramak"
+			"item_slot"		"ability_ultimate"
+			"item_description"		"#DOTA_Item_Desc_Pact_of_GorThramak"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_warlock"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_warlock_golem"
+					"modifier"		"models/items/warlock/warlock_fourleg_demon.mdl"
+				}
+			}
+		}
+		"4021"
+		{
+			"name"		"Berserker's Pauldron"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Armor"
+			"item_name"		"#DOTA_Wearable_Axe_Berserkers_Pauldron"
+			"item_slot"		"armor"
+			"image_inventory"		"econ/items/axe/berserkers_pauldron"
+			"model_player"		"models/items/axe/berserkers_pauldron.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"4022"
+		{
+			"name"		"Berserker's Helm"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hat"
+			"item_name"		"#DOTA_Wearable_Axe_Berserkers_Helm"
+			"item_slot"		"head"
+			"image_inventory"		"econ/items/axe/berserkers_helm"
+			"model_player"		"models/items/axe/berserkers_helm.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"4023"
+		{
+			"name"		"Berserker's Belt"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"item_name"		"#DOTA_Wearable_Axe_Berserkers_Belt"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/items/axe/berserkers_belt"
+			"model_player"		"models/items/axe/berserkers_belt.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"4024"
+		{
+			"name"		"Coat of the Elder Grove"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_Coat_of_the_Elder_Grove"
+			"item_slot"		"back"
+			"image_inventory"		"econ/items/furion/cape_leafy"
+			"model_player"		"models/items/furion/cape_leafy.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Coat_of_the_Elder_Grove"
+		}
+		"4025"
+		{
+			"name"		"Horns of the Forest Lord"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Horns"
+			"item_name"		"#DOTA_Item_Horns_of_the_Forest_Lord"
+			"item_slot"		"head"
+			"image_inventory"		"econ/items/furion/horns_curly_1"
+			"model_player"		"models/items/furion/horns_curly_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_scion_savage"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Ceremonial_Horns"
+		}
+		"4026"
+		{
+			"name"		"Beard of the Savage Heart"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Beard"
+			"item_name"		"#DOTA_Item_Beard_of_the_Savage_Heart"
+			"item_slot"		"neck"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Beard_of_the_Savage_Heart"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"item_set"		"furion_beast_bole"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"model_player"		"models/items/furion/beard_long.mdl"
+		}
+		"4027"
+		{
+			"name"		"Luxuriant Chin-Foliage"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Beard"
+			"item_name"		"#DOTA_Item_Luxuriant_ChinFoliage"
+			"item_slot"		"neck"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/beard_regal_1"
+			"model_player"		"models/items/furion/beard_regal_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_forest_lord"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Luxuriant_ChinFoliage"
+		}
+		"4028"
+		{
+			"name"		"Horns of Noblesse"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Horns"
+			"item_name"		"#DOTA_Item_Horns_of_Noblesse"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/horns_regal_1"
+			"model_player"		"models/items/furion/horns_regal_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_forest_lord"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Horns_of_Noblesse"
+		}
+		"4029"
+		{
+			"name"		"Cape of Verdant Dreaming"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_Cape_of_Verdant_Dreaming"
+			"item_slot"		"back"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/cape_regal_1"
+			"model_player"		"models/items/furion/cape_regal_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_forest_lord"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Cape_of_Verdant_Dreaming"
+		}
+		"4030"
+		{
+			"name"		"Runestaff of Verodicia"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_Runestaff_of_Verodicia"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/staff_regal_1"
+			"model_player"		"models/items/furion/staff_regal_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_forest_lord"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Prophets_Runestaff_of_Verodicia"
+		}
+		"4031"
+		{
+			"name"		"Runed Ailettes"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Runed_Ailettes"
+			"item_slot"		"shoulder"
+			"item_rarity"		"rare"
+			"image_inventory"		"econ/items/furion/shoulders_regal_1"
+			"model_player"		"models/items/furion/shoulders_regal_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_forest_lord"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Runed_Ailettes"
+		}
+		"4032"
+		{
+			"name"		"Leviathan's Tooth Necklace"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Necklace"
+			"item_name"		"#DOTA_Wearable_Kunkka_ToothNecklace"
+			"item_slot"		"neck"
+			"image_inventory"		"econ/items/kunkka/pegleg"
+			"model_player"		"models/items/kunkka/kunkka_tooth_necklace.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"4033"
+		{
+			"name"		"Admiral's Hook"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hand"
+			"item_name"		"#DOTA_Wearable_Kunkka_CaptainsHook"
+			"item_slot"		"taunt"
+			"image_inventory"		"econ/items/kunkka/pegleg"
+			"model_player"		"models/items/kunkka/kunkka_hook.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"4034"
+		{
+			"name"		"Tayrnhelm of the Swordmaster"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hat"
+			"item_name"		"#DOTA_Item_Tayrnhelm_of_the_Swordmaster"
+			"item_slot"		"head"
+			"image_inventory"		"econ/items/sven/sven_helmet2"
+			"model_player"		"models/items/sven/sven_mask.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"set_parent_skin"		"2"
+		}
+		"4035"
+		{
+			"name"		"Girth of the Swordmaster"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"item_name"		"#DOTA_Item_Girth_of_the_Swordmaster"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/items/sven/sven_belt2"
+			"model_player"		"models/items/sven/sven_belt.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"set_parent_skin"		"2"
+		}
+		"4036"
+		{
+			"name"		"Fluted Guard of the Swordmaster"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Fluted_Guard_of_the_Swordmaster"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/items/sven/sven_shoulder2"
+			"model_player"		"models/items/sven/sven_shoulderpad.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"set_parent_skin"		"2"
+		}
+		"4037"
+		{
+			"name"		"Grip of the Swordmaster"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Gauntlet"
+			"item_name"		"#DOTA_Item_Grip_of_the_Swordmaster"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/items/sven/sven_Gauntlet2"
+			"model_player"		"models/items/sven/sven_gauntlet.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"set_parent_skin"		"2"
+		}
+		"4038"
+		{
+			"name"		"Meranth Executioner's Blade"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_Meranth_Executioners_Blade"
+			"image_inventory"		"econ/items/sven/sven_sword2"
+			"model_player"		"models/items/sven/sven_sword.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"set_parent_skin"		"2"
+		}
+		"4039"
+		{
+			"name"		"Taunt: Sniper's Celebration"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Snipers_Celebration"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_AnimTaunt_SniperTaunt_Desc"
+			"image_inventory"		"econ/items/taunt/sniper_taunt"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+		}
+		"4040"
+		{
+			"name"		"Taunt: Spyglass of the Farseer"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"item_name"		"#DOTA_Item_Taunt_Spyglass_of_the_Farseer"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"image_inventory"		"econ/heroes/kunkka/spyglass"
+			"model_player"		"models/heroes/kunkka/kunkka_spyglass.mdl"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+		}
+		"4041"
+		{
+			"name"		"Taunt: Beautiful Snowangel"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Beautiful_Snowangel"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_AnimTaunt_CM_Snowangel_Desc"
+			"image_inventory"		"econ/items/taunt/cm_snowangel_taunt"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"snowangel"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+		}
+		"4042"
+		{
+			"name"		"Taunt: Playful Snowball"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Playful_Snowball"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_AnimTaunt_CM_Snowball_Desc"
+			"image_inventory"		"econ/items/taunt/cm_snowball_taunt"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"snowball"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+		}
+		"4043"
+		{
+			"name"		"Taunt: Come and Get It!"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Come_and_Get_It"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"come_get_it"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Taunt_Come_and_Get_It"
+			"image_inventory"		"econ/items/axe/axe_come_get_it_taunt"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+		}
+		"4044"
+		{
+			"name"		"Taunt: Spider Shuffle"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Spider_Shuffle"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_AnimTaunt_Broodmother_Spin_Desc"
+			"image_inventory"		"econ/items/broodmother/broodmother_spin_taunt"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"broodmother_spin"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_broodmother"		"1"
+			}
+		}
+		"4045"
+		{
+			"name"		"Taunt: Good Day Sir!"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Good_Day_Sir"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"good_day_sir"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Taunt_Good_Day_Sir"
+			"image_inventory"		"econ/items/axe/axe_good_day_sir_taunt"
+		}
+		"4046"
+		{
+			"name"		"Taunt: Double-Headed Roar"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_DoubleHeaded_Roar"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_AnimTaunt_Jakiro_Roar_Desc"
+			"image_inventory"		"econ/items/twin_headed_dragon/jakiro_roar_taunt"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"jakiro_roar"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_jakiro"		"1"
+			}
+		}
+		"4047"
+		{
+			"name"		"Taunt: Icemelter"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Icemelter"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_AnimTaunt_Jakiro_Icemelt_Desc"
+			"image_inventory"		"econ/items/twin_headed_dragon/jakiro_icemelt_taunt"
+			"visuals"
+			{
+				"animation"
+				{
+					"activity"		"ACT_DOTA_TAUNT"
+					"replacement"		"jakiro_icemelt"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_jakiro"		"1"
+			}
+		}
+		"4048"
+		{
+			"name"		"Taunt: Fish Treat"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Fish_Treat"
+			"item_slot"		"taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_AnimTaunt_Tidehunter_Toss_Fish_Desc"
+			"image_inventory"		"econ/items/tidehunter/tidehunter_toss_fish_taunt"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"tidehunter_toss_fish"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+		}
+		"4049"
+		{
+			"name"		"Tidehunter Orca Skin"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Skin"
+			"item_name"		"#DOTA_Item_Tidehunter_Orca_Skin"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Tidehunters_Fish_Toss"
+			"image_inventory"		"econ/items/tidehunter/tidehunter_toss_fish_taunt"
+			"set_parent_skin"		"1"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+		}
+		"4050"
+		{
+			"name"		"Taunt: Get Burned"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Taunt_Get_Burned"
+			"item_slot"		"taunt"
+			"item_description"		"#DOTA_Item_Desc_Lina_Taunt__Get_Burned"
+			"image_inventory"		"econ/items/lina/lina_get_burned_taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lina"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"get_burned"
+				}
+			}
+		}
+		"4051"
+		{
+			"name"		"Wuldastron, Twin-Blade of Giants"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_Wuldastron_TwinBlade_of_Giants"
+			"image_inventory"		"econ/items/sven/sven_sword_b"
+			"model_player"		"models/items/sven/sven_sword_b.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"set_parent_skin"		"2"
+		}
+		"4052"
+		{
+			"name"		"Ultimate: Belly Flop"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Alternate_Ultimate"
+			"item_name"		"#DOTA_Item_Ultimate_Belly_Flop"
+			"item_slot"		"ability_ultimate"
+			"item_description"		"#DOTA_Item_Desc_Belly_Flop"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_CAST_ABILITY_4"
+					"modifier"		"belly_flop"
+				}
+			}
+		}
+		"4053"
+		{
+			"name"		"Attack: Fish Slap"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Alternate_Attack"
+			"item_name"		"#DOTA_Item_Attack_Fish_Slap"
+			"item_slot"		"ability_attack"
+			"item_description"		"#DOTA_Item_Desc_Attack_Fish_Slap"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_ATTACK"
+					"modifier"		"fish_slap"
+					"frequency"		"0.330000"
+				}
+			}
+		}
+		"4054"
+		{
+			"name"		"Taunt: The Jig"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Taunt_The_Jig"
+			"item_slot"		"taunt"
+			"item_description"		"#DOTA_Item_Desc_Taunt__The_Jig"
+			"image_inventory"		"econ/items/witchdoctor/witchdoctor_jig_taunt"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"witchdoctor_jig"
+				}
+			}
+		}
+		"4055"
+		{
+			"name"		"Taunt: You!"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_You"
+			"item_slot"		"taunt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/taunt/sniper_taunt"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+		}
+		"4056"
+		{
+			"name"		"Taunt: Dive! Dive!"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Dive_Dive"
+			"item_slot"		"taunt"
+			"item_description"		"#DOTA_Item_Desc_Taunt_Dive_Dive"
+			"image_inventory"		"econ/items/taunt/sniper_taunt"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+		}
+		"4057"
+		{
+			"name"		"Taunt: Canonical Blast"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Canonical_Blast"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_Item_Desc_Taunt_Natures_Prophets_Bazooka"
+			"image_inventory"		"econ/items/furion/taunt_bazooka"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"bazooka"
+				}
+				"asset_modifier1"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+					"modifier"		"#DOTA_Chat_Taunt"
+				}
+			}
+		}
+		"4058"
+		{
+			"name"		"Taunt: Shredding the Lute Invisible"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Shredding_the_Lute_Invisible"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_Item_Desc_Taunt_Natures_Prophets_Guitar_Windmill"
+			"image_inventory"		"econ/items/furion/taunt_guitar"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"guitar"
+				}
+				"asset_modifier1"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+					"modifier"		"#DOTA_Chat_Taunt"
+				}
+			}
+		}
+		"4059"
+		{
+			"name"		"Taunt: For Death and Honor"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_For_Death_and_Honor"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Taunt_For_Death_and_Honor"
+			"image_inventory"		"econ/items/juggernaut/taunt_bow"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"loser"
+					"frequency"		"1"
+				}
+				"asset_modifier1"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+					"modifier"		"#DOTA_Chat_Taunt"
+				}
+			}
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+		}
+		"4060"
+		{
+			"name"		"Taunt: Face the Juggernaut"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Face_the_Juggernaut"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Taunt_Face_the_Juggernaut"
+			"image_inventory"		"econ/items/juggernaut/taunt_faceme"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"face_me"
+					"frequency"		"1"
+				}
+				"asset_modifier1"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+					"modifier"		"#DOTA_Chat_Taunt"
+				}
+			}
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+		}
+		"4061"
+		{
+			"name"		"Taunt: Tooting the Horn"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Tooting_the_Horn"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_Item_Desc_Taunt_Tooting_the_Horn"
+			"image_inventory"		"econ/items/furion/taunt_horn"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+				}
+				"asset_modifier1"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"horn"
+				}
+			}
+		}
+		"4062"
+		{
+			"name"		"Staff of the Tusk-Bereft"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_Staff_of_the_TuskBereft"
+			"image_inventory"		"econ/items/furion/staff_tusks_1"
+			"model_player"		"models/items/furion/staff_tusks_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_scion_savage"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Prophets_Staff_of_the_Violators"
+		}
+		"4063"
+		{
+			"name"		"Tusked Bracers"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_bracer"
+			"item_name"		"#DOTA_Item_Tusked_Bracers"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/items/furion/bracer_tusks_1"
+			"model_player"		"models/items/furion/bracer_tusks_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_scion_savage"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Tusked_Bracers"
+		}
+		"4064"
+		{
+			"name"		"Grand Crown of the Gigas"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Horns"
+			"item_name"		"#DOTA_Item_Grand_Crown_of_the_Gigas"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/horns_moose_1"
+			"model_player"		"models/items/furion/horns_moose_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_beast_bole"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Grand_Crown_of_the_Gigas"
+		}
+		"4065"
+		{
+			"name"		"Sinorian Sphere Staff"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_Sinorian_Sphere_Staff"
+			"image_inventory"		"econ/items/furion/staff_dwarven"
+			"model_player"		"models/items/furion/staff_dwarven.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_heartwood"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Sinorian_Sphere_Staff"
+		}
+		"4066"
+		{
+			"name"		"Taunt: Bo Staff Beckon"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Bo_Staff_Beckon"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Taunt_Natures_Prophets_Bo_Staff_Skills"
+			"image_inventory"		"econ/items/furion/taunt_staff"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"staff_swing"
+					"frequency"		"1"
+				}
+				"asset_modifier1"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+				}
+			}
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+		}
+		"4067"
+		{
+			"name"		"Taunt: Vaudville Victory Dance"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Vaudville_Victory_Dance"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/furion/taunt_dance"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"happy_dance"
+				}
+				"asset_modifier1"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+					"modifier"		"#DOTA_Chat_Taunt"
+				}
+			}
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+		}
+		"4068"
+		{
+			"name"		"Taunt: Murder Lute"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Murder_Lute"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"item_description"		"#DOTA_Item_Desc_Taunt_Natures_Prophets_Murder_Lute"
+			"image_inventory"		"econ/items/furion/taunt_lute"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"lute"
+				}
+				"asset_modifier1"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+					"modifier"		"#DOTA_Chat_Taunt"
+				}
+			}
+		}
+		"4069"
+		{
+			"name"		"Twin Bull Adornment"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Horns"
+			"item_name"		"#DOTA_Item_Twin_Bull_Adornment"
+			"item_slot"		"head"
+			"image_inventory"		"econ/items/furion/horns_bull_1"
+			"model_player"		"models/items/furion/horns_bull_1.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Twin_Bull_Adornment"
+		}
+		"4070"
+		{
+			"name"		"Pauldron of Al-Fusha"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Pauldron"
+			"item_name"		"#DOTA_Item_Pauldron_of_AlFusha"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/items/furion/shoulders_tusks_1"
+			"model_player"		"models/items/furion/shoulders_tusks_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_scion_savage"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Pauldron_of_AlFusha"
+		}
+		"4071"
+		{
+			"name"		"Castor's Spaulder"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Spaulder"
+			"item_name"		"#DOTA_Item_Castors_Spaulder"
+			"item_slot"		"shoulder"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/shoulders_beaver_1"
+			"model_player"		"models/items/furion/shoulders_beaver_1.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Castors_Spaulder"
+		}
+		"4072"
+		{
+			"name"		"Defender of the Ivory Isles"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
+			"item_name"		"#DOTA_Item_Defender_of_the_Ivory_Isles"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_The_Ivory_Isles_Defender"
+			"image_inventory"		"econ/items/juggernaut/lord_wep_ivorysword"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/lord_wep_ivorysword.mdl"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"jugg_weapon_glow_variation_ivory"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"juggernaut_blade_fury"
+					"modifier"		"juggernaut_blade_fury_ivory"
+				}
+			}
+			"item_set"		"juggernaut_ivory_ebony"
+		}
+		"4073"
+		{
+			"name"		"Visage of the Ivory Isles"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Mask"
+			"item_name"		"#DOTA_Item_Visage_of_the_Ivory_Isles"
+			"item_slot"		"head"
+			"item_rarity"		"rare"
+			"image_inventory"		"econ/items/juggernaut/lord_mask_ivory"
+			"model_player"		"models/items/juggernaut/lord_mask_ivory.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Visage_of_the_Ivory_Isles"
+			"item_set"		"juggernaut_ivory_ebony"
+		}
+		"4074"
+		{
+			"name"		"Curled Root-Staff"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_Curled_RootStaff"
+			"image_inventory"		"econ/items/furion/staff_leafy_1"
+			"model_player"		"models/items/furion/staff_leafy_1.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Curled_RootStaff"
+		}
+		"4075"
+		{
+			"name"		"Flared Wooden Crest"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Flared_Wooden_Crest"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/items/furion/shoulders_wooden_1"
+			"model_player"		"models/items/furion/shoulders_wooden_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_heartwood"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Flared_Wooden_Crest"
+		}
+		"4076"
+		{
+			"name"		"Fireborn Odachi"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
+			"item_name"		"#DOTA_Item_Fireborn_Odachi"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Fireborn_Odachi"
+			"image_inventory"		"econ/items/juggernaut/generic_sword_nodachi"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier1"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_ATTACK"
+					"modifier"		"odachi"
+				}
+				"asset_modifier2"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_CAST_ABILITY_1"
+					"modifier"		"odachi"
+				}
+				"asset_modifier3"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_OVERRIDE_ABILITY_1"
+					"modifier"		"odachi"
+				}
+				"asset_modifier4"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_ATTACK_EVENT"
+					"modifier"		"odachi"
+				}
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_IDLE_ALT"
+					"modifier"		"odachi"
+				}
+				"asset_modifier6"
+				{
+					"type"		"particle"
+					"asset"		"juggernaut_blade_fury"
+					"modifier"		"juggernaut_blade_fury_var01"
+				}
+				"asset_modifier7"
+				{
+					"type"		"particle"
+					"asset"		"jugg_crit_blur"
+					"modifier"		"jugg_crit_blur_variation01"
+				}
+				"asset_modifier5"
+				{
+					"type"		"particle"
+					"asset"		"juggernaut_omni_slash_trail"
+					"modifier"		"juggernaut_omni_slash_trail_variation01"
+				}
+				"attached_particlesystem0"
+				{
+					"system"		"jugg_weapon_glow_variation_fireborn_odachi"
+				}
+			}
+			"model_player"		"models/items/juggernaut/generic_sword_nodachi.mdl"
+		}
+		"4077"
+		{
+			"name"		"Taunt: Kata of Foot and Earth"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Kata_of_Foot_and_Earth"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Taunt_Kata_of_Foot_and_Earth"
+			"image_inventory"		"econ/items/juggernaut/taunt_kick"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+					"modifier"		"#DOTA_Chat_Taunt"
+				}
+				"asset_modifier1"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"odachi"
+					"frequency"		"1"
+				}
+			}
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+		}
+		"4078"
+		{
+			"name"		"Doubly Braided Beard"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Beard"
+			"item_name"		"#DOTA_Item_Doubly_Braided_Beard"
+			"item_slot"		"neck"
+			"image_inventory"		"econ/items/furion/beard_doublebraid_1"
+			"model_player"		"models/items/furion/beard_doublebraid_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_scion_savage"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Doubly_Braided_Beard"
+		}
+		"4079"
+		{
+			"name"		"Druidic Ritual Crest"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Druidic_Ritual_Crest"
+			"item_slot"		"shoulder"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/shoulders_bark_1"
+			"model_player"		"models/items/furion/shoulders_bark_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_beast_bole"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Druidic_Ritual_Crest"
+		}
+		"4080"
+		{
+			"name"		"Stoic Mask of the High Plains"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Mask"
+			"item_name"		"#DOTA_Item_Stoic_Mask_of_the_High_Plains"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Stoic_Mask_of_the_High_Plains"
+			"image_inventory"		"econ/items/juggernaut/highplains_mask_ram"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/highplains_mask_ram.mdl"
+			"item_set"		"juggernaut_high_plains"
+		}
+		"4081"
+		{
+			"name"		"Wolf Cape of the High Plains"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_Wolf_Cape_of_the_High_Plains"
+			"item_slot"		"back"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Wolf_Cape_of_the_High_Plains"
+			"image_inventory"		"econ/items/juggernaut/highplains_cape_wolf"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/highplains_cape_wolf.mdl"
+			"item_set"		"juggernaut_high_plains"
+		}
+		"4082"
+		{
+			"name"		"Aspect Wraps of the High Plains"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_bracer"
+			"item_name"		"#DOTA_Item_Aspect_Wraps_of_the_High_Plains"
+			"item_slot"		"arms"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Aspect_Wraps_of_the_High_Plains"
+			"image_inventory"		"econ/items/juggernaut/highplains_bracers_wolf"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/highplains_bracers_wolf.mdl"
+			"item_set"		"juggernaut_high_plains"
+		}
+		"4083"
+		{
+			"name"		"Long-Fang the Grey Blade"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
+			"item_name"		"#DOTA_Item_LongFang_the_Grey_Blade"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_LongFang_the_Grey_Blade"
+			"image_inventory"		"econ/items/juggernaut/highplains_sword_long"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/highplains_sword_long.mdl"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"jugg_weapon_glow_variation_longfang"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"juggernaut_blade_fury"
+					"modifier"		"juggernaut_blade_fury_longfang"
+				}
+			}
+			"item_set"		"juggernaut_high_plains"
+		}
+		"4084"
+		{
+			"name"		"Beard of Cycles"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Beard"
+			"item_name"		"#DOTA_Item_Beard_of_Cycles"
+			"item_slot"		"neck"
+			"image_inventory"		"econ/items/furion/beard_wraparound"
+			"model_player"		"models/items/furion/beard_wraparound.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_heartwood"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Beard_of_Cycles"
+		}
+		"4085"
+		{
+			"name"		"Diadem of the Goddess Enthroned"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Horns"
+			"item_name"		"#DOTA_Item_Diadem_of_the_Goddess_Enthroned"
+			"item_slot"		"head"
+			"image_inventory"		"econ/items/furion/horn_twocurl"
+			"model_player"		"models/items/furion/horn_twocurl.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_heartwood"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Diadem_of_the_Goddess_Enthroned"
+		}
+		"4086"
+		{
+			"name"		"Drape of Foliate Magery"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_Drape_of_Foliate_Magery"
+			"item_slot"		"back"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/cape_over_shoulder"
+			"model_player"		"models/items/furion/cape_over_shoulder.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Drape_of_Foliate_Magery"
+		}
+		"4087"
+		{
+			"name"		"Guard of the Deep Tribes"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Item_Guard_of_the_Deep_Tribes"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/items/furion/bracer_celtic"
+			"model_player"		"models/items/furion/bracer_celtic.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_heartwood"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Guard_of_the_Deep_Tribes"
+		}
+		"4088"
+		{
+			"name"		"Pine-Sage Sigil Stones"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Item_PineSage_Sigil_Stones"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/items/furion/bracer_stones_1"
+			"model_player"		"models/items/furion/bracer_stones_1.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_PineSage_Sigil_Stones"
+		}
+		"4089"
+		{
+			"name"		"Modestly Braided Beard"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Beard"
+			"item_name"		"#DOTA_Item_Modestly_Braided_Beard"
+			"item_slot"		"neck"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/furion/beard_singlebraid_1"
+			"model_player"		"models/items/furion/beard_singlebraid_1.mdl"
+			"set_parent_skin"		"0"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Modestly_Braided_Beard"
+		}
+		"4090"
+		{
+			"name"		"Taunt: Kata of Blade and Sky"
+			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable"		"1"
+			}
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Kata_of_Blade_and_Sky"
+			"item_slot"		"taunt"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Taunt_Kata_of_Blade_and_Sky"
+			"image_inventory"		"econ/items/juggernaut/taunt_mask_lord"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_TAUNT"
+					"modifier"		"#DOTA_Chat_Taunt"
+				}
+				"asset_modifier1"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_TAUNT"
+					"modifier"		"mask_lord"
+					"frequency"		"1"
+				}
+			}
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+		}
+		"4091"
+		{
+			"name"		"Cuffs of Oak and Yew"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Item_Cuffs_of_Oak_and_Yew"
+			"item_slot"		"arms"
+			"item_rarity"		"rare"
+			"image_inventory"		"econ/items/furion/bracer_regal_1"
+			"model_player"		"models/items/furion/bracer_regal_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_forest_lord"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Cuffs_of_Oak_and_Yew"
+		}
+		"4092"
+		{
+			"name"		"Kraken Shell"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Kraken_Shell"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+			"model_player"		"models/items/tidehunter/turtle_shell001.mdl"
+		}
+		"4093"
+		{
+			"name"		"Octopus Hat"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Octopus_Hat"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+			"model_player"		"models/items/tidehunter/octopus.mdl"
+		}
+		"4094"
+		{
+			"name"		"Grand Claive of the Unshamed"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
+			"item_name"		"#DOTA_Item_Grand_Claive_of_the_Unshamed"
+			"item_description"		"#DOTA_Item_Desc_Grand_Claive_of_the_Unshamed"
+			"image_inventory"		"econ/items/juggernaut/nomad_broadsword"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/nomad_broadsword.mdl"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"jugg_weapon_glow_variation_grand_claive"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"juggernaut_blade_fury"
+					"modifier"		"juggernaut_blade_fury_grand_claive"
+				}
+			}
+			"item_set"		"juggernaut_shame"
+		}
+		"4095"
+		{
+			"name"		"Itinerant's Covering"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Mask"
+			"item_name"		"#DOTA_Item_Itinerants_Covering"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Itinerants_Covering"
+			"image_inventory"		"econ/items/juggernaut/nomad_mask"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/nomad_mask.mdl"
+			"item_set"		"juggernaut_shame"
+		}
+		"4096"
+		{
+			"name"		"Itinerant's Studded Bracer"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracers"
+			"item_name"		"#DOTA_Item_Itinerants_Studded_Bracer"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Itinerants_Studded_Bracer"
+			"image_inventory"		"econ/items/juggernaut/nomad_bracers"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/nomad_bracers.mdl"
+			"item_set"		"juggernaut_shame"
+		}
+		"4097"
+		{
+			"name"		"Itinerant's Raiment"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Tunic"
+			"item_name"		"#DOTA_Item_Itinerants_Raiment"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Itinerants_Raiment"
+			"image_inventory"		"econ/items/juggernaut/nomad_chest"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/nomad_chest.mdl"
+			"item_set"		"juggernaut_shame"
+		}
+		"4098"
+		{
+			"name"		"Kimono of the Ebony Tower"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_Kimono_of_the_Ebony_Tower"
+			"item_slot"		"back"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Kimono_of_the_Ebony_Tower"
+			"image_inventory"		"econ/items/juggernaut/lord_cape_kimono"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/lord_cape_kimono.mdl"
+			"item_set"		"juggernaut_ivory_ebony"
+		}
+		"4099"
+		{
+			"name"		"Bracers of the Ebony Tower"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracers"
+			"item_name"		"#DOTA_Item_Bracers_of_the_Ebony_Tower"
+			"item_slot"		"arms"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Bracers_of_the_Ebony_Tower"
+			"image_inventory"		"econ/items/juggernaut/lord_bracers_ebony"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/lord_bracers_ebony.mdl"
+			"item_set"		"juggernaut_ivory_ebony"
+		}
+		"4100"
+		{
+			"name"		"Relic Blade of the Kuur-Ishiminari"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
+			"item_name"		"#DOTA_Item_Relic_Blade_of_the_KuurIshiminari"
+			"item_description"		"#DOTA_Item_Desc_Relic_Blade_of_the_KuurIshiminari"
+			"image_inventory"		"econ/items/juggernaut/generic_wep_jadesword"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/generic_wep_jadesword.mdl"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"jugg_weapon_glow_variation_jade"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"juggernaut_blade_fury"
+					"modifier"		"juggernaut_blade_fury_jade"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle"
+					"asset"		"jugg_attack_blur"
+					"modifier"		"jugg_attack_blur_jade"
+				}
+			}
+		}
+		"4101"
+		{
+			"name"		"Kantusa the Script Sword"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
+			"item_name"		"#DOTA_Item_Kantusa_the_Script_Sword"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Kantusa_the_Script_Sword"
+			"image_inventory"		"econ/items/juggernaut/generic_wep_broadsword"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/generic_wep_broadsword.mdl"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"jugg_weapon_glow_variation_script"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"juggernaut_blade_fury"
+					"modifier"		"juggernaut_blade_fury_script"
+				}
+			}
+		}
+		"4102"
+		{
+			"name"		"Omnishred the Defiant"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
+			"item_name"		"#DOTA_Item_Omnishred_the_Defiant"
+			"item_description"		"#DOTA_Item_Desc_Omnishred_the_Defiant"
+			"image_inventory"		"econ/items/juggernaut/generic_wep_solidsword"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/generic_wep_solidsword.mdl"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"juggernaut_blade_fury"
+					"modifier"		"juggernaut_blade_fury_shred"
+				}
+			}
+			"item_set"		"juggernaut_beasts_men"
+		}
+		"4103"
+		{
+			"name"		"Healing Ward of the Kuur-Ishiminari"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Ability_Modifier"
+			"item_name"		"#DOTA_Item_Healing_Ward_of_the_KuurIshiminari"
+			"item_slot"		"ability2"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Healing_Ward_of_the_KuurIshiminari"
+			"image_inventory"		"econ/items/juggernaut/ward_foo"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_juggernaut_healing_ward"
+					"modifier"		"models/items/juggernaut/ward_foo.mdl"
+				}
+			}
+		}
+		"4104"
+		{
+			"name"		"Call of the Dendrochron"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Ability_Modifier"
+			"item_name"		"#DOTA_Item_Call_of_the_Dendrochron"
+			"item_slot"		"ability3"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Call_of_the_Dendrochron"
+			"image_inventory"		"econ/items/furion/treant_stump"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_furion_treant"
+					"modifier"		"models/items/furion/treant_stump.mdl"
+				}
+			}
+		}
+		"4105"
+		{
+			"name"		"100-Proof Jug"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_100Proof_Jug"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_100Proof_Jug"
+			"image_inventory"		"econ/items/juggernaut/100proof_cape_bottle"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/100proof_cape_bottle.mdl"
+			"item_set"		"juggernaut_beasts_men"
+		}
+		"4106"
+		{
+			"name"		"Fine Bone Bracers"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracers"
+			"item_name"		"#DOTA_Item_Fine_Bone_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Fine_Bone_Bracers"
+			"image_inventory"		"econ/items/juggernaut/100proof_bracers_bone"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/100proof_bracers_bone.mdl"
+			"item_set"		"juggernaut_beasts_men"
+		}
+		"4107"
+		{
+			"name"		"Prey-Tracker's Aspect Mask"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Mask"
+			"item_name"		"#DOTA_Item_PreyTrackers_Aspect_Mask"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_100Proof_Mask"
+			"image_inventory"		"econ/items/juggernaut/100proof_mask_predator"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/100proof_mask_predator.mdl"
+			"item_set"		"juggernaut_beasts_men"
+		}
+		"4108"
+		{
+			"name"		"Staff of the Eagle"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_Staff_of_the_Eagle"
+			"item_rarity"		"rare"
+			"image_inventory"		"econ/items/furion/staff_eagle_1"
+			"model_player"		"models/items/furion/staff_eagle_1.mdl"
+			"set_parent_skin"		"0"
+			"item_set"		"furion_beast_bole"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_furion"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Staff_of_the_Eagle"
+		}
+		"4109"
+		{
+			"name"		"Blade of the Dark Ancients"
+			"prefab"		"dota_item"
+			"item_name"		"#DOTA_Item_Blade_of_the_Dark_Ancients"
+			"image_inventory"		"econ/items/sven/sven_sword_stone"
+			"model_player"		"models/items/sven/sword_stone.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Meranth_Executioners_Blade"
+		}
+		"10000"
+		{
+			"name"		"Free Trial Premium Upgrade"
+			"prefab"		"dota_misc_item"
+			"item_class"		"upgrade"
+			"item_type_name"		"#DOTA_Item"
+			"item_name"		"#DOTA_Trial_UpgradeItem"
+			"show_in_armory"		"0"
+		}
+		"10001"
+		{
+			"name"		"Baggin' This"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Taunt"
+			"item_name"		"#DOTA_Item_Baggin_This"
+			"item_slot"		"action_item"
+			"item_rarity"		"common"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+			}
+			"item_description"		"#DOTA_VoiceTaunt_InTheBag_Desc"
+			"player_loadout"		"actions"
+			"image_inventory"		"econ/items/taunt/in_the_bag"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_INTHEBAG"
+					"modifier"		"#DOTA_Chat_InTheBag"
+				}
+			}
+		}
+		"10002"
+		{
+			"name"		"Sheep Courier"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Custom_Courier_Sheep"
+			"item_slot"		"courier"
+			"item_description"		"#DOTA_Custom_Courier_Sheep_Desc"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/items/antimage/antimage_manta"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/props_gameplay/sheep01.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/props_gameplay/sheep01.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/props_gameplay/sheep01.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/props_gameplay/sheep01.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10003"
+		{
+			"name"		"Cockerel Conversion"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_HexModel"
+			"item_name"		"#DOTA_Custom_HexModel_Chicken"
+			"item_slot"		"custom_hex"
+			"item_description"		"#DOTA_Custom_HexModel_Chicken_Desc"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/items/sheepstick/chicken"
+			"model_world"		"models/props_gameplay/chicken.mdl"
+		}
+		"10004"
+		{
+			"name"		"Amphibian Alteration"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_HexModel"
+			"item_name"		"#DOTA_Custom_HexModel_Frog"
+			"item_slot"		"custom_hex"
+			"item_description"		"#DOTA_Custom_HexModel_Frog_Desc"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/items/sheepstick/frog"
+			"model_world"		"models/props_gameplay/frog.mdl"
+		}
+		"10005"
+		{
+			"name"		"Polymorphic Pasteurization"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_HexModel"
+			"item_name"		"#DOTA_Custom_HexModel_Cheese"
+			"item_slot"		"custom_hex"
+			"item_description"		"#DOTA_Custom_HexModel_Cheese_Desc"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/items/sheepstick/cheese"
+			"model_world"		"models/props_gameplay/cheese.mdl"
+		}
+		"10006"
+		{
+			"name"		"Wizardly Transmorphication"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Custom_Courier_ShittyWizard"
+			"item_slot"		"courier"
+			"item_description"		"#DOTA_Custom_Courier_ShittyWizard_Desc"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/items/couriers/wizard"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/creeps/lane_creeps/wizard/wizard.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/creeps/lane_creeps/wizard/wizard.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/creeps/lane_creeps/wizard/wizard.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/creeps/lane_creeps/wizard/wizard.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10007"
+		{
+			"name"		"Minipudge Courier"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Custom_Courier_MiniPudge"
+			"item_slot"		"courier"
+			"item_description"		"#DOTA_Custom_Courier_MiniPudge_Desc"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/items/couriers/minipudge"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/minipudge/minipudge.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/minipudge/minipudge.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/minipudge/minipudge.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/minipudge/minipudge.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10008"
+		{
+			"name"		"Announcer: Dr. Kleiner"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Dr_Kleiner"
+			"item_slot"		"announcer"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Dr_Kleiner"
+			"player_loadout"		"voice"
+			"image_inventory"		"econ/announcer/dr_kleiner"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_kleiner"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_kleiner.txt"
+				}
+			}
+		}
+		"10009"
+		{
+			"name"		"Enduring War Dog"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Enduring_War_Dog"
+			"item_slot"		"courier"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Juggernaut_Dog_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/juggernaut_dog/juggernaut_dog"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10010"
+		{
+			"name"		"Snowleopard Courier"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Custom_Courier"
+			"item_name"		"#DOTA_Item_Snowleopard_Courier"
+			"item_slot"		"courier"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Minipudge_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"visuals"
+			{
+				"asset_modifier4"
+				{
+					"type"		"courier"
+					"asset"		"Snowleopard"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/snowleopard/snowleopard_courier.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/snowleopard/snowleopard_courier.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/snowleopard/snowleopard_courier.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10011"
+		{
+			"name"		"Trusty Mountain Yak"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Trusty_Mountain_Yak"
+			"item_slot"		"courier"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Juggernaut_Yak_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/yak/yak"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier5"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10012"
+		{
+			"name"		"Fearless Badger"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Fearless_Badger"
+			"item_slot"		"courier"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Badger_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/badger/badger"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/badger/courier_badger.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/badger/courier_badger.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/badger/courier_badger_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/badger/courier_badger_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10013"
+		{
+			"name"		"Announcer: Juggernaut"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Juggernaut"
+			"item_slot"		"announcer"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Juggernaut"
+			"player_loadout"		"voice"
+			"image_inventory"		"econ/announcer/juggernaut"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_juggernaut"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_juggernaut.txt"
+				}
+			}
+		}
+		"10014"
+		{
+			"name"		"Mega-Kills: Juggernaut"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_MegaKills"
+			"item_name"		"#DOTA_Item_MegaKills_Juggernaut"
+			"item_slot"		"killing_spree"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Juggernaut"
+			"player_loadout"		"voice"
+			"image_inventory"		"econ/announcer/juggernaut"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_juggernaut_killing_spree"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_juggernaut_killing_spree.txt"
+				}
+			}
+		}
+		"10015"
+		{
+			"name"		"Announcer: Nature's Prophet"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Natures_Prophet"
+			"item_slot"		"announcer"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Natures_Prophet"
+			"player_loadout"		"voice"
+			"image_inventory"		"econ/announcer/natures_prophet"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_naturesprophet"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_naturesprophet.txt"
+				}
+			}
+		}
+		"10016"
+		{
+			"name"		"Mega-Kills: Nature's Prophet"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_MegaKills"
+			"item_name"		"#DOTA_Item_MegaKills_Natures_Prophet"
+			"item_slot"		"killing_spree"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Natures_Prophet"
+			"player_loadout"		"voice"
+			"image_inventory"		"econ/announcer/natures_prophet"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_naturesprophet_killing_spree"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_naturesprophet_killing_spree.txt"
+				}
+			}
+		}
+		"10017"
+		{
+			"name"		"Stumpy, Nature's Attendant"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Stumpy_Natures_Attendant"
+			"item_slot"		"courier"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Stumpy_the_Hearty"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/stump/stump"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/stump/stump.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier4"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/stump/stump.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier6"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/stump/stump_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier7"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/stump/stump_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10020"
+		{
+			"name"		"Treasure Cache 1"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Cache"
+			"item_name"		"#DOTA_Item_Treasure_Cache"
+			"item_rarity"		"uncommon"
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Cache"
+			"image_inventory"		"econ/tools/treasure_cache"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10021"
+		{
+			"name"		"Treasure Cache 2"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Cache"
+			"item_name"		"#DOTA_Item_Treasure_Cache"
+			"item_rarity"		"uncommon"
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Cache"
+			"image_inventory"		"econ/tools/treasure_cache"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"2"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10022"
+		{
+			"name"		"Treasure Cache 3"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Cache"
+			"item_name"		"#DOTA_Item_Treasure_Cache"
+			"item_rarity"		"uncommon"
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Cache"
+			"image_inventory"		"econ/tools/treasure_cache"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"3"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10023"
+		{
+			"name"		"Treasure Cache - Mythical"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_TreasureCache_Type"
+			"item_name"		"#DOTA_TreasureCache_Rare"
+			"item_rarity"		"mythical"
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"item_description"		"#DOTA_TreasureCache_Desc"
+			"image_inventory"		"econ/tools/treasure_cache"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"4"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10024"
+		{
+			"name"		"Weekly Gift Giver Reward"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Weekly_Gift_Giver_Reward_Courier"
+			"item_slot"		"courier"
+			"item_rarity"		"ancient"
+			"item_description"		"#DOTA_Item_Desc_Weekly_Gift_Giver_Reward_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/juggernaut_dog/juggernaut_dog"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10025"
+		{
+			"name"		"Daily Gift Giver Reward"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Daily_Gift_Giver_Reward_Courier"
+			"item_slot"		"courier"
+			"item_rarity"		"legendary"
+			"item_description"		"#DOTA_Item_Desc_Daily_Gift_Giver_Reward_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/juggernaut_dog/juggernaut_dog"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10026"
+		{
+			"name"		"Weekly Matches Played Reward"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Weekly_Matches_Played_Reward_Courier"
+			"item_slot"		"courier"
+			"item_rarity"		"ancient"
+			"item_description"		"#DOTA_Item_Desc_Weekly_Matches_Played_Reward_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/yak/yak"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier5"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10027"
+		{
+			"name"		"Daily Matches Played Reward"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Daily_Matches_Played_Reward_Courier"
+			"item_slot"		"courier"
+			"item_rarity"		"legendary"
+			"item_description"		"#DOTA_Item_Desc_Daily_Matches_Played_Reward_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/yak/yak"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier5"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10028"
+		{
+			"name"		"Weekly Crates Opened Reward"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Weekly_Crates_Opened_Reward_Courier"
+			"item_slot"		"courier"
+			"item_rarity"		"ancient"
+			"item_description"		"#DOTA_Item_Desc_Weekly_Crates_Opened_Reward_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/yak/yak"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier5"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"10029"
+		{
+			"name"		"Daily Crates Opened Reward"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Daily_Crates_Opened_Reward_Courier"
+			"item_slot"		"courier"
+			"item_rarity"		"legendary"
+			"item_description"		"#DOTA_Item_Desc_Daily_Crates_Opened_Reward_Courier"
+			"player_loadout"		"item_effects"
+			"image_inventory"		"econ/courier/yak/yak"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier5"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/yak/yak.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/yak/yak_wings.mdl"
+					"modifier"		"dire"
+				}
+			}
+		}
+		"15000"
+		{
+			"name"		"Name Tag"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Name_Tag"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"name"
+				"usage_capabilities"
+				{
+					"nameable"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Name_Tag"
+			"image_inventory"		"econ/tools/name_tag"
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15001"
+		{
+			"name"		"Desc Tag"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Desc_Tag"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"desc"
+				"usage_capabilities"
+				{
+					"nameable"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Desc_Tag"
+			"image_inventory"		"econ/tools/desc_tag"
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15002"
+		{
+			"name"		"Backpack Expander"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Backpack_Expander"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"backpack_expander"
+				"use_string"		"#ExpandUse"
+				"usage"
+				{
+					"backpack_slots"		"50"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Backpack_Expander"
+			"image_inventory"		"econ/tools/backpack_expander"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15003"
+		{
+			"name"		"Treasure Key"
+			"prefab"		"dota_tool"
+			"tool"
+			{
+				"type"		"decoder_ring"
+				"use_string"		"#UnlockUse"
+				"usage_capabilities"
+				{
+					"decodable"		"1"
+				}
+			}
+			"item_rarity"		"uncommon"
+			"item_name"		"#DOTA_Item_Treasure_Key"
+			"item_description"		"#DOTA_Item_Desc_Treasure_Key"
+			"item_type_name"		"#DOTA_WearableType_Tool"
+			"image_inventory"		"econ/tools/treasure_cache_key"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15004"
+		{
+			"name"		"Fortunate Soul"
+			"prefab"		"dota_tool"
+			"tool"
+			{
+				"type"		"fortunate_soul"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"drop_rate_bonus"		"1.500000"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_rarity"		"rare"
+			"item_name"		"#DOTA_Item_Fortunate_Soul"
+			"item_description"		"#DOTA_Item_Desc_Fortunate_Soul"
+			"item_type_name"		"#DOTA_WearableType_Consumable"
+			"image_inventory"		"econ/tools/fortunate_soul"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15005"
+		{
+			"name"		"Prosperous Soul"
+			"prefab"		"dota_tool"
+			"tool"
+			{
+				"type"		"fortunate_soul"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"drop_rate_bonus"		"2"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_rarity"		"mythical"
+			"item_name"		"#DOTA_Item_Prosperous_Soul"
+			"item_description"		"#DOTA_Item_Desc_Prosperous_Soul"
+			"item_type_name"		"#DOTA_WearableType_Consumable"
+			"image_inventory"		"econ/tools/prosperous_soul"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15006"
+		{
+			"name"		"Repentant Soul"
+			"prefab"		"dota_tool"
+			"tool"
+			{
+				"type"		"repentant_soul"
+				"use_string"		"#ConsumeItem"
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_rarity"		"legendary"
+			"item_name"		"#DOTA_Item_Repentant_Soul"
+			"item_description"		"#DOTA_Item_Desc_Repentant_Soul"
+			"item_type_name"		"#DOTA_WearableType_Consumable"
+			"image_inventory"		"econ/tools/repentant_soul"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15007"
+		{
+			"name"		"Gift - 1 Player"
+			"prefab"		"dota_tool"
+			"tool"
+			{
+				"type"		"gift"
+				"usage"
+				{
+					"loot_list"		"gift_standard_1_loot_list"
+					"num_items"		"1"
+					"max_recipients"		"1"
+				}
+				"use_string"		"#GiftUse"
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+			}
+			"item_rarity"		"uncommon"
+			"item_type_name"		"#DOTA_Item_Gift"
+			"item_name"		"#DOTA_Item_Gift_RandomPerson"
+			"item_description"		"#DOTA_Item_Desc_Gift_RandomPerson"
+			"item_slot"		"action_item"
+			"player_loadout"		"actions"
+			"image_inventory"		"econ/tools/gift_single"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+				"ignore charge notification"
+				{
+					"attribute_class"		"ignore_charge_notification"
+					"value"		"1"
+				}
+			}
+		}
+		"15008"
+		{
+			"name"		"Gift - 9 Players"
+			"prefab"		"dota_tool"
+			"tool"
+			{
+				"type"		"gift"
+				"usage"
+				{
+					"loot_list"		"gift_standard_9_loot_list"
+					"num_items"		"1"
+					"max_recipients"		"9"
+				}
+				"use_string"		"#GiftUse"
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+			}
+			"item_rarity"		"rare"
+			"item_type_name"		"#DOTA_WearableType_Gift"
+			"item_name"		"#DOTA_Item_Gift_EntireGame"
+			"item_description"		"#DOTA_Item_Desc_Gift_EntireGame"
+			"item_slot"		"action_item"
+			"player_loadout"		"actions"
+			"image_inventory"		"econ/tools/gift_multiple"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+				"ignore charge notification"
+				{
+					"attribute_class"		"ignore_charge_notification"
+					"value"		"1"
+				}
+			}
+		}
+		"20000"
+		{
+			"name"		"Of Ivory and Ebony Bundle"
+			"prefab"		"dota_bundle"
+			"bundle"
+			{
+				"Visage of the Ivory Isles"		"1"
+				"Kimono of the Ebony Tower"		"1"
+				"Bracers of the Ebony Tower"		"1"
+				"Defender of the Ivory Isles"		"1"
+			}
+			"item_name"		"#DOTA_Bundle_Juggernaut_Ivory_Ebony"
+			"item_description"		"#DOTA_Bundle_Desc_Juggernaut_Ivory_Ebony"
+			"image_inventory"		"econ/tools/backpack_expander"
+			"item_rarity"		"rare"
+			"used_by_classes"
+			{
+				"juggernaut"		"1"
+			}
+		}
+	}
+	"attributes"
+	{
+		"1"
+		{
+			"name"		"damage penalty"
+			"attribute_class"		"mult_dmg"
+			"attribute_name"		"Minor damage penalty"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_DamageDone_Negative"
+			"description_format"		"value_is_percentage"
+			"hidden"		"0"
+			"effect_type"		"negative"
+			"stored_as_integer"		"0"
+		}
+		"2"
+		{
+			"name"		"damage bonus"
+			"attribute_class"		"mult_dmg"
+			"attribute_name"		"Minor damage bonus"
+			"min_value"		"1.050000"
+			"max_value"		"1.100000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_DamageDone_Positive"
+			"description_format"		"value_is_percentage"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"134"
+		{
+			"name"		"attach particle effect"
+			"attribute_class"		"set_attached_particle"
+			"attribute_name"		"Attach Custom Particle"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_AttachedParticle"
+			"description_format"		"value_is_particle_index"
+			"hidden"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"0"
+		}
+		"153"
+		{
+			"name"		"cannot trade"
+			"attribute_class"		"cannot_trade"
+			"attribute_name"		"cannot trade"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_CannotTrade"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"0"
+		}
+		"187"
+		{
+			"name"		"set supply crate series"
+			"attribute_class"		"supply_crate_series"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_SupplyCrateSeries"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"189"
+		{
+			"name"		"elevate quality"
+			"attribute_class"		"set_elevated_quality"
+			"attribute_name"		"Elevate Quality"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ElevateQuality"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"192"
+		{
+			"name"		"referenced item id low"
+			"attribute_class"		"referenced_item_id_low"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"negative"
+			"armory_desc"		"on_wearer"
+			"stored_as_integer"		"1"
+		}
+		"193"
+		{
+			"name"		"referenced item id high"
+			"attribute_class"		"referenced_item_id_high"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"negative"
+			"armory_desc"		"on_wearer"
+			"stored_as_integer"		"1"
+		}
+		"194"
+		{
+			"name"		"referenced item def"
+			"attribute_class"		"referenced_item_def"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"negative"
+			"armory_desc"		"on_wearer"
+			"stored_as_integer"		"1"
+		}
+		"195"
+		{
+			"name"		"always tradable"
+			"attribute_class"		"always_tradable"
+			"attribute_name"		"always tradable"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_DamageDone_Negative"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"negative"
+			"stored_as_integer"		"0"
+		}
+		"198"
+		{
+			"name"		"collection bits"
+			"attribute_class"		"collection_bits"
+			"attribute_name"		"collection bits"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_Halloween_Item"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"211"
+		{
+			"name"		"tradable after date"
+			"attribute_class"		"tradable_after_date"
+			"attribute_name"		"tradable_after_date"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_TradableAfterDate"
+			"description_format"		"value_is_date"
+			"hidden"		"1"
+			"effect_type"		"negative"
+			"stored_as_integer"		"1"
+		}
+		"212"
+		{
+			"name"		"force level display"
+			"attribute_class"		"force_level_display"
+			"attribute_name"		"Force Level Display"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"213"
+		{
+			"name"		"random level curve replacement"
+			"attribute_class"		"random_level_curve_replacement"
+			"attribute_name"		"Random Level Curve Replacement"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"214"
+		{
+			"name"		"kill eater"
+			"attribute_class"		"kill_eater"
+			"attribute_name"		"Kill Eater"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"215"
+		{
+			"name"		"item find"
+			"attribute_class"		"item_find"
+			"attribute_name"		"item find"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ItemFind_Positive"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"292"
+		{
+			"name"		"kill eater score type"
+			"attribute_class"		"kill_eater_score_type"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"293"
+		{
+			"name"		"kill eater score type 2"
+			"attribute_class"		"kill_eater_score_type_2"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"294"
+		{
+			"name"		"kill eater 2"
+			"attribute_class"		"kill_eater_2"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"295"
+		{
+			"name"		"disallow recycling"
+			"attribute_class"		"disallow_recycling"
+			"attribute_name"		"disallow recycling"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_DamageDone_Negative"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"negative"
+			"stored_as_integer"		"0"
+		}
+		"296"
+		{
+			"name"		"ignore charge notification"
+			"attribute_class"		"ignore_charge_notification"
+			"attribute_name"		"ignore charge notification"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_DamageDone_Negative"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"negative"
+			"stored_as_integer"		"0"
+		}
+	}
+	"attribute_controlled_attached_particles"
+	{
+		"1"
+		{
+			"system"		"antimage_blade"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_attack1"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_attack2"
+				}
+			}
+		}
+		"2"
+		{
+			"system"		"jugg_weapon_glow"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"3"
+		{
+			"system"		"axe_drag_sparks"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"parent"
+		}
+		"4"
+		{
+			"system"		"axe_commando"
+			"attach_type"		"rootbone_follow"
+			"attach_entity"		"parent"
+		}
+		"5"
+		{
+			"system"		"furion_staff"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_attack1"
+				}
+			}
+		}
+		"6"
+		{
+			"system"		"jugg_weapon_glow_variation_green"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"7"
+		{
+			"system"		"jugg_weapon_glow_variation_white"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"8"
+		{
+			"system"		"jugg_weapon_glow_variation_red"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"9"
+		{
+			"system"		"jugg_weapon_glow_variation_ivory"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"10"
+		{
+			"system"		"jugg_weapon_glow_variation_fireborn_odachi"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"11"
+		{
+			"system"		"jugg_weapon_glow_variation_longfang"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"12"
+		{
+			"system"		"jugg_weapon_glow_variation_jade"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"13"
+		{
+			"system"		"jugg_weapon_glow_variation_grand_claive"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+		"14"
+		{
+			"system"		"jugg_weapon_glow_variation_script"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"blade_attachment"
+				}
+			}
+		}
+	}
+	"upgradeable_base_items"
+	{
+		"Upgradeable Sven's Default Sword"		"1"
+	}
+	"item_sets"
+	{
+		"juggernaut_boar_god"
+		{
+			"name"		"#DOTA_Set_Juggernaut_Boar_God"
+			"items"
+			{
+				"Three-Fold Mien of the Boar God"		"1"
+				"Seven-Sealed the Fur Bracer"		"1"
+				"Twelve-Tusks the Cape of Boars"		"1"
+				"Four-Fangs the Swordbreaker"		"1"
+			}
+		}
+		"juggernaut_ivory_ebony"
+		{
+			"name"		"#DOTA_Set_Juggernaut_Ivory_Ebony"
+			"items"
+			{
+				"Visage of the Ivory Isles"		"1"
+				"Kimono of the Ebony Tower"		"1"
+				"Bracers of the Ebony Tower"		"1"
+				"Defender of the Ivory Isles"		"1"
+			}
+			"store_bundle"		"Of Ivory and Ebony Bundle"
+		}
+		"juggernaut_shame"
+		{
+			"name"		"#DOTA_Set_Juggernaut_Shame"
+			"items"
+			{
+				"Itinerant's Covering"		"1"
+				"Itinerant's Studded Bracer"		"1"
+				"Itinerant's Raiment"		"1"
+				"Grand Claive of the Unshamed"		"1"
+			}
+		}
+		"juggernaut_beasts_men"
+		{
+			"name"		"#DOTA_Set_Juggernaut_Beasts_Men"
+			"items"
+			{
+				"100-Proof Jug"		"1"
+				"Fine Bone Bracers"		"1"
+				"Prey-Tracker's Aspect Mask"		"1"
+				"Omnishred the Defiant"		"1"
+			}
+		}
+		"juggernaut_high_plains"
+		{
+			"name"		"#DOTA_Set_Juggernaut_High_Plains"
+			"items"
+			{
+				"Stoic Mask of the High Plains"		"1"
+				"Wolf Cape of the High Plains"		"1"
+				"Aspect Wraps of the High Plains"		"1"
+				"Long-Fang the Grey Blade"		"1"
+			}
+		}
+		"furion_scion_savage"
+		{
+			"name"		"#DOTA_Set_Furion_Scion_Savage"
+			"items"
+			{
+				"Staff of the Tusk-Bereft"		"1"
+				"Horns of the Forest Lord"		"1"
+				"Doubly Braided Beard"		"1"
+				"Pauldron of Al-Fusha"		"1"
+				"Tusked Bracers"		"1"
+			}
+		}
+		"furion_heartwood"
+		{
+			"name"		"#DOTA_Set_Furion_Heartwood_Vanguard"
+			"items"
+			{
+				"Sinorian Sphere Staff"		"1"
+				"Diadem of the Goddess Enthroned"		"1"
+				"Beard of Cycles"		"1"
+				"Flared Wooden Crest"		"1"
+				"Guard of the Deep Tribes"		"1"
+			}
+		}
+		"furion_beast_bole"
+		{
+			"name"		"#DOTA_Set_Furion_Beast_Bole"
+			"items"
+			{
+				"Staff of the Eagle"		"1"
+				"Grand Crown of the Gigas"		"1"
+				"Druidic Ritual Crest"		"1"
+				"Beard of the Savage Heart"		"1"
+			}
+		}
+		"furion_forest_lord"
+		{
+			"name"		"#DOTA_Set_Furion_Forest_Lord"
+			"items"
+			{
+				"Runestaff of Verodicia"		"1"
+				"Horns of Noblesse"		"1"
+				"Luxuriant Chin-Foliage"		"1"
+				"Cape of Verdant Dreaming"		"1"
+				"Runed Ailettes"		"1"
+				"Cuffs of Oak and Yew"		"1"
+			}
+		}
+	}
+	"client_loot_lists"
+	{
+		"juggernaut_kill_eater_a"
+		{
+			"Three-Fold Mien of the Boar God"		"1"
+			"Seven-Sealed the Fur Bracer"		"1"
+			"Twelve-Tusks the Cape of Boars"		"1"
+			"Grand Crown of the Gigas"		"1"
+			"Druidic Ritual Crest"		"1"
+			"Wolf Cape of the High Plains"		"1"
+			"Aspect Wraps of the High Plains"		"1"
+		}
+		"furion_kill_eater_a"
+		{
+			"Staff of the Tusk-Bereft"		"1"
+			"Horns of the Forest Lord"		"1"
+			"Doubly Braided Beard"		"1"
+			"Prey-Tracker's Aspect Mask"		"1"
+			"Omnishred the Defiant"		"1"
+			"Wolf Cape of the High Plains"		"1"
+			"Aspect Wraps of the High Plains"		"1"
+		}
+		"treasure_cache_loot_list_1"
+		{
+			"juggernaut_kill_eater_a"		"400"
+		}
+		"supply_crate_loot_list_2"
+		{
+			"furion_kill_eater_a"		"400"
+		}
+	}
+	"revolving_loot_lists"
+	{
+		"treasure_cache_loot_list_1"		"1"
+		"treasure_cache_loot_list_2"		"2"
+	}
+	"item_levels"
+	{
+		"KillEaterRank"
+		{
+			"0"
+			{
+				"score"		"10"
+			}
+			"1"
+			{
+				"score"		"25"
+			}
+			"2"
+			{
+				"score"		"45"
+			}
+			"3"
+			{
+				"score"		"70"
+			}
+			"4"
+			{
+				"score"		"100"
+			}
+			"5"
+			{
+				"score"		"135"
+			}
+			"6"
+			{
+				"score"		"175"
+			}
+			"7"
+			{
+				"score"		"225"
+			}
+			"8"
+			{
+				"score"		"275"
+			}
+			"9"
+			{
+				"score"		"350"
+			}
+			"10"
+			{
+				"score"		"500"
+			}
+			"11"
+			{
+				"score"		"750"
+			}
+			"12"
+			{
+				"score"		"999"
+			}
+			"13"
+			{
+				"score"		"1000"
+			}
+			"14"
+			{
+				"score"		"1500"
+			}
+			"15"
+			{
+				"score"		"2500"
+			}
+			"16"
+			{
+				"score"		"5000"
+			}
+			"17"
+			{
+				"score"		"7500"
+			}
+			"18"
+			{
+				"score"		"7616"
+			}
+			"19"
+			{
+				"score"		"8500"
+			}
+			"20"
+			{
+				"score"		"10000"
+			}
+		}
+		"SpiritOfGivingRank"
+		{
+			"0"
+			{
+				"score"		"1"
+			}
+			"1"
+			{
+				"score"		"3"
+			}
+			"2"
+			{
+				"score"		"7"
+			}
+			"3"
+			{
+				"score"		"12"
+			}
+			"4"
+			{
+				"score"		"20"
+			}
+			"5"
+			{
+				"score"		"28"
+			}
+			"6"
+			{
+				"score"		"37"
+			}
+			"7"
+			{
+				"score"		"47"
+			}
+			"8"
+			{
+				"score"		"57"
+			}
+			"9"
+			{
+				"score"		"68"
+			}
+			"10"
+			{
+				"score"		"79"
+			}
+			"11"
+			{
+				"score"		"91"
+			}
+			"12"
+			{
+				"score"		"104"
+			}
+			"13"
+			{
+				"score"		"120"
+			}
+			"14"
+			{
+				"score"		"138"
+			}
+			"15"
+			{
+				"score"		"158"
+			}
+			"16"
+			{
+				"score"		"179"
+			}
+			"17"
+			{
+				"score"		"210"
+			}
+			"18"
+			{
+				"score"		"250"
+			}
+			"19"
+			{
+				"score"		"500"
+			}
+		}
+	}
+	"kill_eater_score_types"
+	{
+		"0"
+		{
+			"type_name"		"KillEaterEventType_Kills"
+		}
+		"2"
+		{
+			"type_name"		"KillEaterEventType_KillAssists"
+		}
+	}
+}
