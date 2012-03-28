@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.188f198dc6d49f09e0442601835c54512388acca.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.c350108a14cdab6dedc3112bc1aaa4d9a3ee323b.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -21421,6 +21421,105 @@
 				
 			},
 			{
+				"name": "Daily Duel Winner Reward Hat",
+				"defindex": 711,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Dueler",
+				"item_description": "Congratulations on winning more duels yesterday than any other TF2 player! Wear this with pride before it changes hands tomorrow!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/dueler_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/dueler_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dueler_demo.3b4e679819841779c710903ab51a82b8bc08570a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dueler_demo_large.bff07fa9fb3638e386842b7ff4615e43b4bab223.png",
+				"drop_type": "none",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Daily Gift Giver Reward Hat",
+				"defindex": 712,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Gifting Man From Gifting Land",
+				"item_description": "Congratulations on giving out more gifts yesterday than any other TF2 player! Wear this with pride before it changes hands tomorrow!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/generous_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/generous_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/generous_demo.baed158c7c15916bf4b7182a08840ff945a8585e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/generous_demo_large.01f623034c61ecc2285451fd12703991844afe4c.png",
+				"drop_type": "none",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Daily Map Stamp Reward Hat",
+				"defindex": 713,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Philateler",
+				"item_description": "Congratulations on doing more yesterday to support the TF2 map-making community through map stamps than anyone else! Wear this with pride before it changes hands tomorrow!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/stamper_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamper_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamper_demo.7d44a04c8da248d384272e6b91a0d2a9438d9020.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamper_demo_large.66b573032d14e721135a1b409b757456c09f2712.png",
+				"drop_type": "none",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "The Map Maker's Medallion",
 				"defindex": 717,
 				"item_class": "tf_wearable",
@@ -26476,7 +26575,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 30.000000
+						"value": 40.000000
 					}
 				]
 				
