@@ -684,6 +684,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_headshot"				"1"
 			}
 			"item_class"	"tf_weapon_sniperrifle"
 			"craft_class"	"weapon"
@@ -7560,6 +7561,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_headshot"				"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -16059,6 +16061,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_headshot"				"1"
 			}
 			"item_logname"	"bazaar_bargain"
 			"item_iconname"	"bazaar_bargain"
@@ -28309,6 +28312,69 @@
 			}
 		}
 		
+		"711"
+		{
+			"name"	"Daily Duel Winner Reward Hat"
+			"prefab"	"score_reward_hat"
+			"item_name"	"#TF_DailyDuelWinnerRewardHat"
+			"item_description"	"#TF_DailyDuelWinnerRewardHat_Desc"
+			"image_inventory"	"backpack/player/items/all_class/dueler_demo"
+			"propername"	"1"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/dueler_scout.mdl"
+				"sniper"	"models/player/items/all_class/dueler_sniper.mdl"
+				"soldier"	"models/player/items/all_class/dueler_soldier.mdl"
+				"demoman"	"models/player/items/all_class/dueler_demo.mdl"
+				"medic"		"models/player/items/all_class/dueler_medic.mdl"
+				"heavy"		"models/player/items/all_class/dueler_heavy.mdl"
+				"spy"		"models/player/items/all_class/dueler_spy.mdl"
+				"engineer"	"models/player/items/all_class/dueler_engineer.mdl"
+				"pyro"		"models/player/items/all_class/dueler_pyro.mdl"
+			}
+		}
+		"712"
+		{
+			"name"	"Daily Gift Giver Reward Hat"
+			"prefab"	"score_reward_hat"
+			"item_name"	"#TF_DailyGiftGiverRewardHat"
+			"item_description"	"#TF_DailyGiftGiverRewardHat_Desc"
+			"image_inventory"	"backpack/player/items/all_class/generous_demo"
+			"propername"	"1"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/generous_scout.mdl"
+				"sniper"	"models/player/items/all_class/generous_sniper.mdl"
+				"soldier"	"models/player/items/all_class/generous_soldier.mdl"
+				"demoman"	"models/player/items/all_class/generous_demo.mdl"
+				"medic"		"models/player/items/all_class/generous_medic.mdl"
+				"heavy"		"models/player/items/all_class/generous_heavy.mdl"
+				"spy"		"models/player/items/all_class/generous_spy.mdl"
+				"engineer"	"models/player/items/all_class/generous_engineer.mdl"
+				"pyro"		"models/player/items/all_class/generous_pyro.mdl"
+			}			
+		}
+		"713"
+		{
+			"name"	"Daily Map Stamp Reward Hat"
+			"prefab"	"score_reward_hat"
+			"item_name"	"#TF_DailyMapStampRewardHat"
+			"item_description"	"#TF_DailyMapStampRewardHat_Desc"
+			"image_inventory"	"backpack/player/items/all_class/stamper_demo"
+			"propername"	"1"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/stamper_scout.mdl"
+				"sniper"	"models/player/items/all_class/stamper_sniper.mdl"
+				"soldier"	"models/player/items/all_class/stamper_soldier.mdl"
+				"demoman"	"models/player/items/all_class/stamper_demo.mdl"
+				"medic"		"models/player/items/all_class/stamper_medic.mdl"
+				"heavy"		"models/player/items/all_class/stamper_heavy.mdl"
+				"spy"		"models/player/items/all_class/stamper_spy.mdl"
+				"engineer"	"models/player/items/all_class/stamper_engineer.mdl"
+				"pyro"		"models/player/items/all_class/stamper_pyro.mdl"
+			}			
+		}
 		
 		"717"
 		{		
@@ -32808,7 +32874,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "30"
+					"value" "40"
 					"force_gc_to_generate" "1"
 				}
 			}
