@@ -1776,6 +1776,138 @@
 			}
 			"model_player"		"models/heroes/invoker/invoker_bracer.mdl"
 		}
+		"101"
+		{
+			"name"		"Broodmother's Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Broodmothers_Hair"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_broodmother"		"1"
+			}
+			"model_player"		"models/heroes/broodmother/broodmother_hair.mdl"
+		}
+		"102"
+		{
+			"name"		"Broodmother's Legs"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Broodmothers_Legs"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_broodmother"		"1"
+			}
+			"model_player"		"models/heroes/broodmother/broodmother_legs.mdl"
+		}
+		"103"
+		{
+			"name"		"Broodmother's Abdomen"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Broodmothers_Abdomen"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_broodmother"		"1"
+			}
+			"model_player"		"models/heroes/broodmother/broodmother_abdomen.mdl"
+		}
+		"104"
+		{
+			"name"		"Meepo weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Meepo_weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_meepo"		"1"
+			}
+			"model_player"		"models/heroes/meepo/meepo_weapon.mdl"
+		}
+		"105"
+		{
+			"name"		"Ogremagi weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Ogremagi_weapon"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"model_player"		"models/heroes/ogre_magi/ogre_magi_weapon.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_ogre_magi"		"1"
+			}
+		}
+		"107"
+		{
+			"name"		"Lone Druid's Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Lone_Druids_Hair"
+			"item_description"		"#DOTA_Item_Desc_head"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lone_druid"		"1"
+			}
+			"model_player"		"models/heroes/lone_druid/head.mdl"
+		}
+		"108"
+		{
+			"name"		"Lone Druid's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Lone_Druids_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Lone_Druids_Shoulder_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lone_druid"		"1"
+			}
+			"model_player"		"models/heroes/lone_druid/shoulder.mdl"
+		}
+		"109"
+		{
+			"name"		"Lone Druid's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Arms"
+			"item_name"		"#DOTA_Item_Lone_Druids_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Lone_Druids_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lone_druid"		"1"
+			}
+			"model_player"		"models/heroes/lone_druid/arms.mdl"
+		}
+		"110"
+		{
+			"name"		"Lone Druid's Poncho"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_body"
+			"item_name"		"#DOTA_Item_Lone_Druids_Poncho"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Lone_Druids_Poncho"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lone_druid"		"1"
+			}
+			"model_player"		"models/heroes/lone_druid/body.mdl"
+		}
 		"4000"
 		{
 			"name"		"Riki's Diffusal Blades"
@@ -1850,6 +1982,10 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_axe"		"1"
+			}
+			"tags"
+			{
+				"is_weapon"		"1"
 			}
 			"visuals"
 			{
@@ -1930,6 +2066,10 @@
 				"npc_dota_hero_pudge"		"1"
 			}
 			"model_player"		"models/items/pudge/pudge_skeleton_hook_body.mdl"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"visuals"
 			{
 				"asset_modifier0"
@@ -2022,6 +2162,14 @@
 			}
 			"item_description"		"#DOTA_Item_Desc_ThreeFold_Mien_of_the_Boar_God"
 			"item_set"		"juggernaut_boar_god"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 		}
 		"4013"
 		{
@@ -2066,6 +2214,10 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_juggernaut"		"1"
+			}
+			"tags"
+			{
+				"is_weapon"		"1"
 			}
 			"visuals"
 			{
@@ -2128,6 +2280,10 @@
 			"item_slot"		"back"
 			"image_inventory"		"econ/items/juggernaut/cape_tusks"
 			"model_player"		"models/items/kunkka/kunkka_harpoon.mdl"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_kunkka"		"1"
@@ -2233,6 +2389,14 @@
 				"npc_dota_hero_furion"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Ceremonial_Horns"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"9"
+				}
+			}
 		}
 		"4026"
 		{
@@ -2315,11 +2479,23 @@
 			"model_player"		"models/items/furion/staff_regal_1.mdl"
 			"set_parent_skin"		"0"
 			"item_set"		"furion_forest_lord"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Prophets_Runestaff_of_Verodicia"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 		}
 		"4031"
 		{
@@ -2338,6 +2514,14 @@
 				"npc_dota_hero_furion"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Runed_Ailettes"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"15"
+				}
+			}
 		}
 		"4032"
 		{
@@ -2434,6 +2618,10 @@
 			"item_name"		"#DOTA_Item_Meranth_Executioners_Blade"
 			"image_inventory"		"econ/items/sven/sven_sword2"
 			"model_player"		"models/items/sven/sven_sword.mdl"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_sven"		"1"
@@ -2803,6 +2991,10 @@
 			"item_name"		"#DOTA_Item_Wuldastron_TwinBlade_of_Giants"
 			"image_inventory"		"econ/items/sven/sven_sword_b"
 			"model_player"		"models/items/sven/sven_sword_b.mdl"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_sven"		"1"
@@ -3139,11 +3331,23 @@
 			"model_player"		"models/items/furion/staff_tusks_1.mdl"
 			"set_parent_skin"		"0"
 			"item_set"		"furion_scion_savage"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Prophets_Staff_of_the_Violators"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 		}
 		"4063"
 		{
@@ -3179,6 +3383,14 @@
 				"npc_dota_hero_furion"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Grand_Crown_of_the_Gigas"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"2"
+				}
+			}
 		}
 		"4065"
 		{
@@ -3194,6 +3406,10 @@
 				"npc_dota_hero_furion"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Sinorian_Sphere_Staff"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 		}
 		"4066"
 		{
@@ -3375,6 +3591,10 @@
 			{
 				"npc_dota_hero_juggernaut"		"1"
 			}
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"model_player"		"models/items/juggernaut/lord_wep_ivorysword.mdl"
 			"visuals"
 			{
@@ -3407,6 +3627,14 @@
 			}
 			"item_description"		"#DOTA_Item_Desc_Visage_of_the_Ivory_Isles"
 			"item_set"		"juggernaut_ivory_ebony"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 		}
 		"4074"
 		{
@@ -3416,6 +3644,10 @@
 			"image_inventory"		"econ/items/furion/staff_leafy_1"
 			"model_player"		"models/items/furion/staff_leafy_1.mdl"
 			"set_parent_skin"		"0"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
@@ -3448,6 +3680,10 @@
 			"item_rarity"		"mythical"
 			"item_description"		"#DOTA_Item_Desc_Fireborn_Odachi"
 			"image_inventory"		"econ/items/juggernaut/generic_sword_nodachi"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_juggernaut"		"1"
@@ -3565,6 +3801,14 @@
 				"npc_dota_hero_furion"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Doubly_Braided_Beard"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"2"
+				}
+			}
 		}
 		"4079"
 		{
@@ -3583,6 +3827,14 @@
 				"npc_dota_hero_furion"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Druidic_Ritual_Crest"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 		}
 		"4080"
 		{
@@ -3617,6 +3869,14 @@
 			}
 			"model_player"		"models/items/juggernaut/highplains_cape_wolf.mdl"
 			"item_set"		"juggernaut_high_plains"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"2"
+				}
+			}
 		}
 		"4082"
 		{
@@ -3644,6 +3904,10 @@
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_LongFang_the_Grey_Blade"
 			"image_inventory"		"econ/items/juggernaut/highplains_sword_long"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_juggernaut"		"1"
@@ -3861,6 +4125,10 @@
 			"item_name"		"#DOTA_Item_Grand_Claive_of_the_Unshamed"
 			"item_description"		"#DOTA_Item_Desc_Grand_Claive_of_the_Unshamed"
 			"image_inventory"		"econ/items/juggernaut/nomad_broadsword"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_juggernaut"		"1"
@@ -3880,6 +4148,14 @@
 				}
 			}
 			"item_set"		"juggernaut_shame"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 		}
 		"4095"
 		{
@@ -3945,6 +4221,14 @@
 			}
 			"model_player"		"models/items/juggernaut/lord_cape_kimono.mdl"
 			"item_set"		"juggernaut_ivory_ebony"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"2"
+				}
+			}
 		}
 		"4099"
 		{
@@ -3971,6 +4255,10 @@
 			"item_name"		"#DOTA_Item_Relic_Blade_of_the_KuurIshiminari"
 			"item_description"		"#DOTA_Item_Desc_Relic_Blade_of_the_KuurIshiminari"
 			"image_inventory"		"econ/items/juggernaut/generic_wep_jadesword"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_juggernaut"		"1"
@@ -4005,6 +4293,10 @@
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Kantusa_the_Script_Sword"
 			"image_inventory"		"econ/items/juggernaut/generic_wep_broadsword"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_juggernaut"		"1"
@@ -4032,6 +4324,10 @@
 			"item_name"		"#DOTA_Item_Omnishred_the_Defiant"
 			"item_description"		"#DOTA_Item_Desc_Omnishred_the_Defiant"
 			"image_inventory"		"econ/items/juggernaut/generic_wep_solidsword"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_juggernaut"		"1"
@@ -4047,6 +4343,14 @@
 				}
 			}
 			"item_set"		"juggernaut_beasts_men"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"4"
+				}
+			}
 		}
 		"4103"
 		{
@@ -4144,6 +4448,14 @@
 			}
 			"model_player"		"models/items/juggernaut/100proof_mask_predator.mdl"
 			"item_set"		"juggernaut_beasts_men"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 		}
 		"4108"
 		{
@@ -4155,6 +4467,10 @@
 			"model_player"		"models/items/furion/staff_eagle_1.mdl"
 			"set_parent_skin"		"0"
 			"item_set"		"furion_beast_bole"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
@@ -4173,6 +4489,10 @@
 				"npc_dota_hero_sven"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Meranth_Executioners_Blade"
+			"tags"
+			{
+				"is_weapon"		"1"
+			}
 		}
 		"10000"
 		{
@@ -4664,11 +4984,11 @@
 		}
 		"10020"
 		{
-			"name"		"Treasure Cache 1"
+			"name"		"Lost Treasure of the Ivory Isles"
 			"prefab"		"dota_misc_item"
 			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_WearableType_Treasure_Cache"
-			"item_name"		"#DOTA_Item_Treasure_Cache"
+			"item_name"		"#DOTA_Item_Lost_Treasure_of_the_Ivory_Isles"
 			"item_rarity"		"uncommon"
 			"capabilities"
 			{
@@ -4693,11 +5013,11 @@
 		}
 		"10021"
 		{
-			"name"		"Treasure Cache 2"
+			"name"		"Treasure of the Deep Druids"
 			"prefab"		"dota_misc_item"
 			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_WearableType_Treasure_Cache"
-			"item_name"		"#DOTA_Item_Treasure_Cache"
+			"item_name"		"#DOTA_Item_Treasure_of_the_Deep_Druids"
 			"item_rarity"		"uncommon"
 			"capabilities"
 			{
@@ -4775,240 +5095,6 @@
 				{
 					"attribute_class"		"disallow_recycling"
 					"value"		"1"
-				}
-			}
-		}
-		"10024"
-		{
-			"name"		"Weekly Gift Giver Reward"
-			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_Custom_Courier"
-			"item_name"		"#DOTA_Item_Weekly_Gift_Giver_Reward_Courier"
-			"item_slot"		"courier"
-			"item_rarity"		"ancient"
-			"item_description"		"#DOTA_Item_Desc_Weekly_Gift_Giver_Reward_Courier"
-			"player_loadout"		"item_effects"
-			"image_inventory"		"econ/courier/juggernaut_dog/juggernaut_dog"
-			"visuals"
-			{
-				"asset_modifier2"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier0"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
-					"modifier"		"dire"
-				}
-				"asset_modifier1"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier3"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
-					"modifier"		"dire"
-				}
-			}
-		}
-		"10025"
-		{
-			"name"		"Daily Gift Giver Reward"
-			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_Custom_Courier"
-			"item_name"		"#DOTA_Item_Daily_Gift_Giver_Reward_Courier"
-			"item_slot"		"courier"
-			"item_rarity"		"legendary"
-			"item_description"		"#DOTA_Item_Desc_Daily_Gift_Giver_Reward_Courier"
-			"player_loadout"		"item_effects"
-			"image_inventory"		"econ/courier/juggernaut_dog/juggernaut_dog"
-			"visuals"
-			{
-				"asset_modifier2"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier0"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/juggernaut_dog/juggernaut_dog.mdl"
-					"modifier"		"dire"
-				}
-				"asset_modifier1"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier3"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/juggernaut_dog/juggernaut_dog_wings.mdl"
-					"modifier"		"dire"
-				}
-			}
-		}
-		"10026"
-		{
-			"name"		"Weekly Matches Played Reward"
-			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_Custom_Courier"
-			"item_name"		"#DOTA_Item_Weekly_Matches_Played_Reward_Courier"
-			"item_slot"		"courier"
-			"item_rarity"		"ancient"
-			"item_description"		"#DOTA_Item_Desc_Weekly_Matches_Played_Reward_Courier"
-			"player_loadout"		"item_effects"
-			"image_inventory"		"econ/courier/yak/yak"
-			"visuals"
-			{
-				"asset_modifier2"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/yak/yak.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier5"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/yak/yak.mdl"
-					"modifier"		"dire"
-				}
-				"asset_modifier1"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/yak/yak_wings.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier3"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/yak/yak_wings.mdl"
-					"modifier"		"dire"
-				}
-			}
-		}
-		"10027"
-		{
-			"name"		"Daily Matches Played Reward"
-			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_Custom_Courier"
-			"item_name"		"#DOTA_Item_Daily_Matches_Played_Reward_Courier"
-			"item_slot"		"courier"
-			"item_rarity"		"legendary"
-			"item_description"		"#DOTA_Item_Desc_Daily_Matches_Played_Reward_Courier"
-			"player_loadout"		"item_effects"
-			"image_inventory"		"econ/courier/yak/yak"
-			"visuals"
-			{
-				"asset_modifier2"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/yak/yak.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier5"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/yak/yak.mdl"
-					"modifier"		"dire"
-				}
-				"asset_modifier1"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/yak/yak_wings.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier3"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/yak/yak_wings.mdl"
-					"modifier"		"dire"
-				}
-			}
-		}
-		"10028"
-		{
-			"name"		"Weekly Crates Opened Reward"
-			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_Custom_Courier"
-			"item_name"		"#DOTA_Item_Weekly_Crates_Opened_Reward_Courier"
-			"item_slot"		"courier"
-			"item_rarity"		"ancient"
-			"item_description"		"#DOTA_Item_Desc_Weekly_Crates_Opened_Reward_Courier"
-			"player_loadout"		"item_effects"
-			"image_inventory"		"econ/courier/yak/yak"
-			"visuals"
-			{
-				"asset_modifier2"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/yak/yak.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier5"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/yak/yak.mdl"
-					"modifier"		"dire"
-				}
-				"asset_modifier1"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/yak/yak_wings.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier3"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/yak/yak_wings.mdl"
-					"modifier"		"dire"
-				}
-			}
-		}
-		"10029"
-		{
-			"name"		"Daily Crates Opened Reward"
-			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_Custom_Courier"
-			"item_name"		"#DOTA_Item_Daily_Crates_Opened_Reward_Courier"
-			"item_slot"		"courier"
-			"item_rarity"		"legendary"
-			"item_description"		"#DOTA_Item_Desc_Daily_Crates_Opened_Reward_Courier"
-			"player_loadout"		"item_effects"
-			"image_inventory"		"econ/courier/yak/yak"
-			"visuals"
-			{
-				"asset_modifier2"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/yak/yak.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier5"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/yak/yak.mdl"
-					"modifier"		"dire"
-				}
-				"asset_modifier1"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/yak/yak_wings.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier3"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/yak/yak_wings.mdl"
-					"modifier"		"dire"
 				}
 			}
 		}
@@ -5302,6 +5388,39 @@
 				}
 			}
 		}
+		"15009"
+		{
+			"name"		"Strange Essence: Carries Killed"
+			"prefab"		"dota_tool"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_tags"
+					{
+						"is_weapon"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"10"
+				}
+			}
+			"item_name"		"#DOTA_Item_Strange_Essence_Carries_Killed"
+			"item_description"		"#DOTA_Item_Desc_Strange_Essence_Carries_Killed"
+			"item_type_name"		"#DOTA_WearableType_Strange_Essence"
+			"image_inventory"		"econ/tools/strange_essence_carries_killed"
+			"item_rarity"		"uncommon"
+		}
 		"20000"
 		{
 			"name"		"Of Ivory and Ebony Bundle"
@@ -5363,6 +5482,20 @@
 			"group"		"only_on_unique"
 			"description_string"		"#Attrib_AttachedParticle"
 			"description_format"		"value_is_particle_index"
+			"hidden"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"0"
+		}
+		"142"
+		{
+			"name"		"set item tint RGB"
+			"attribute_class"		"set_item_tint_rgb"
+			"attribute_name"		"Sets the RGB on tinted items"
+			"min_value"		"0"
+			"max_value"		"16777215"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_SetItemTintRGB"
+			"description_format"		"value_is_color"
 			"hidden"		"0"
 			"effect_type"		"neutral"
 			"stored_as_integer"		"0"
@@ -5606,6 +5739,90 @@
 			"effect_type"		"negative"
 			"stored_as_integer"		"0"
 		}
+		"379"
+		{
+			"name"		"kill eater user 1"
+			"attribute_class"		"kill_eater_user_1"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"380"
+		{
+			"name"		"kill eater user score type 1"
+			"attribute_class"		"kill_eater_user_score_type_1"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"381"
+		{
+			"name"		"kill eater user 2"
+			"attribute_class"		"kill_eater_user_2"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"382"
+		{
+			"name"		"kill eater user score type 2"
+			"attribute_class"		"kill_eater_user_score_type_2"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"383"
+		{
+			"name"		"kill eater user 3"
+			"attribute_class"		"kill_eater_user_3"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"384"
+		{
+			"name"		"kill eater user score type 3"
+			"attribute_class"		"kill_eater_user_score_type_3"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"385"
+		{
+			"name"		"strange part new counter ID"
+			"attribute_class"		"strange_part_new_counter_id"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
 	}
 	"attribute_controlled_attached_particles"
 	{
@@ -5807,6 +6024,102 @@
 				}
 			}
 		}
+		"15"
+		{
+			"system"		"courier_trail_01"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"parent"
+		}
+		"16"
+		{
+			"system"		"courier_trail_02"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"parent"
+		}
+		"17"
+		{
+			"system"		"courier_eye_glow_01"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+			}
+		}
+		"18"
+		{
+			"system"		"courier_eye_glow_02"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+			}
+		}
+		"19"
+		{
+			"system"		"courier_eye_glow_03"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+			}
+		}
+		"20"
+		{
+			"system"		"courier_eye_glow_04"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+			}
+		}
 	}
 	"upgradeable_base_items"
 	{
@@ -5923,29 +6236,29 @@
 	{
 		"juggernaut_kill_eater_a"
 		{
+			"Grand Claive of the Unshamed"		"1"
+			"Omnishred the Defiant"		"1"
 			"Three-Fold Mien of the Boar God"		"1"
-			"Seven-Sealed the Fur Bracer"		"1"
-			"Twelve-Tusks the Cape of Boars"		"1"
-			"Grand Crown of the Gigas"		"1"
-			"Druidic Ritual Crest"		"1"
+			"Prey-Tracker's Aspect Mask"		"1"
+			"Kimono of the Ebony Tower"		"1"
 			"Wolf Cape of the High Plains"		"1"
-			"Aspect Wraps of the High Plains"		"1"
+			"Visage of the Ivory Isles"		"1"
 		}
 		"furion_kill_eater_a"
 		{
 			"Staff of the Tusk-Bereft"		"1"
 			"Horns of the Forest Lord"		"1"
 			"Doubly Braided Beard"		"1"
-			"Prey-Tracker's Aspect Mask"		"1"
-			"Omnishred the Defiant"		"1"
-			"Wolf Cape of the High Plains"		"1"
-			"Aspect Wraps of the High Plains"		"1"
+			"Grand Crown of the Gigas"		"1"
+			"Druidic Ritual Crest"		"1"
+			"Runestaff of Verodicia"		"1"
+			"Runed Ailettes"		"1"
 		}
 		"treasure_cache_loot_list_1"
 		{
 			"juggernaut_kill_eater_a"		"400"
 		}
-		"supply_crate_loot_list_2"
+		"treasure_cache_loot_list_2"
 		{
 			"furion_kill_eater_a"		"400"
 		}
@@ -5969,11 +6282,11 @@
 			}
 			"2"
 			{
-				"score"		"45"
+				"score"		"50"
 			}
 			"3"
 			{
-				"score"		"70"
+				"score"		"75"
 			}
 			"4"
 			{
@@ -5981,19 +6294,19 @@
 			}
 			"5"
 			{
-				"score"		"135"
+				"score"		"150"
 			}
 			"6"
 			{
-				"score"		"175"
+				"score"		"200"
 			}
 			"7"
 			{
-				"score"		"225"
+				"score"		"250"
 			}
 			"8"
 			{
-				"score"		"275"
+				"score"		"300"
 			}
 			"9"
 			{
@@ -6001,47 +6314,35 @@
 			}
 			"10"
 			{
-				"score"		"500"
+				"score"		"400"
 			}
 			"11"
 			{
-				"score"		"750"
+				"score"		"450"
 			}
 			"12"
 			{
-				"score"		"999"
+				"score"		"500"
 			}
 			"13"
 			{
-				"score"		"1000"
+				"score"		"600"
 			}
 			"14"
 			{
-				"score"		"1500"
+				"score"		"700"
 			}
 			"15"
 			{
-				"score"		"2500"
+				"score"		"800"
 			}
 			"16"
 			{
-				"score"		"5000"
+				"score"		"900"
 			}
 			"17"
 			{
-				"score"		"7500"
-			}
-			"18"
-			{
-				"score"		"7616"
-			}
-			"19"
-			{
-				"score"		"8500"
-			}
-			"20"
-			{
-				"score"		"10000"
+				"score"		"1000"
 			}
 		}
 		"SpiritOfGivingRank"
@@ -6127,6 +6428,274 @@
 				"score"		"500"
 			}
 		}
+		"WinsRank"
+		{
+			"0"
+			{
+				"score"		"1"
+			}
+			"1"
+			{
+				"score"		"5"
+			}
+			"2"
+			{
+				"score"		"10"
+			}
+			"3"
+			{
+				"score"		"25"
+			}
+			"4"
+			{
+				"score"		"50"
+			}
+			"5"
+			{
+				"score"		"75"
+			}
+			"6"
+			{
+				"score"		"100"
+			}
+			"7"
+			{
+				"score"		"125"
+			}
+			"8"
+			{
+				"score"		"150"
+			}
+			"9"
+			{
+				"score"		"175"
+			}
+			"10"
+			{
+				"score"		"200"
+			}
+			"11"
+			{
+				"score"		"250"
+			}
+			"12"
+			{
+				"score"		"300"
+			}
+			"13"
+			{
+				"score"		"350"
+			}
+			"14"
+			{
+				"score"		"400"
+			}
+			"15"
+			{
+				"score"		"450"
+			}
+			"16"
+			{
+				"score"		"500"
+			}
+		}
+		"FurionRank"
+		{
+			"0"
+			{
+				"score"		"1"
+			}
+			"1"
+			{
+				"score"		"100"
+			}
+			"2"
+			{
+				"score"		"200"
+			}
+			"3"
+			{
+				"score"		"300"
+			}
+			"4"
+			{
+				"score"		"400"
+			}
+			"5"
+			{
+				"score"		"500"
+			}
+			"6"
+			{
+				"score"		"750"
+			}
+			"7"
+			{
+				"score"		"1000"
+			}
+			"8"
+			{
+				"score"		"1250"
+			}
+			"9"
+			{
+				"score"		"1500"
+			}
+			"10"
+			{
+				"score"		"2000"
+			}
+			"11"
+			{
+				"score"		"3000"
+			}
+			"12"
+			{
+				"score"		"5000"
+			}
+			"13"
+			{
+				"score"		"10000"
+			}
+			"14"
+			{
+				"score"		"25000"
+			}
+		}
+		"JuggernautRank"
+		{
+			"0"
+			{
+				"score"		"1"
+			}
+			"1"
+			{
+				"score"		"100"
+			}
+			"2"
+			{
+				"score"		"200"
+			}
+			"3"
+			{
+				"score"		"300"
+			}
+			"4"
+			{
+				"score"		"400"
+			}
+			"5"
+			{
+				"score"		"500"
+			}
+			"6"
+			{
+				"score"		"750"
+			}
+			"7"
+			{
+				"score"		"1000"
+			}
+			"8"
+			{
+				"score"		"1250"
+			}
+			"9"
+			{
+				"score"		"1500"
+			}
+			"10"
+			{
+				"score"		"2000"
+			}
+			"11"
+			{
+				"score"		"3000"
+			}
+			"12"
+			{
+				"score"		"5000"
+			}
+			"13"
+			{
+				"score"		"10000"
+			}
+			"14"
+			{
+				"score"		"25000"
+			}
+		}
+		"TowersRank"
+		{
+			"0"
+			{
+				"score"		"1"
+			}
+			"1"
+			{
+				"score"		"5"
+			}
+			"2"
+			{
+				"score"		"10"
+			}
+			"3"
+			{
+				"score"		"25"
+			}
+			"4"
+			{
+				"score"		"50"
+			}
+			"5"
+			{
+				"score"		"75"
+			}
+			"6"
+			{
+				"score"		"100"
+			}
+			"7"
+			{
+				"score"		"125"
+			}
+			"8"
+			{
+				"score"		"150"
+			}
+			"9"
+			{
+				"score"		"175"
+			}
+			"10"
+			{
+				"score"		"200"
+			}
+			"11"
+			{
+				"score"		"250"
+			}
+			"12"
+			{
+				"score"		"300"
+			}
+			"13"
+			{
+				"score"		"350"
+			}
+			"14"
+			{
+				"score"		"400"
+			}
+			"15"
+			{
+				"score"		"450"
+			}
+			"16"
+			{
+				"score"		"500"
+			}
+		}
 	}
 	"kill_eater_score_types"
 	{
@@ -6134,9 +6703,70 @@
 		{
 			"type_name"		"KillEaterEventType_Kills"
 		}
-		"2"
+		"1"
 		{
 			"type_name"		"KillEaterEventType_KillAssists"
+		}
+		"2"
+		{
+			"type_name"		"KillEaterEventType_Wins"
+			"level_data"		"WinsRank"
+		}
+		"3"
+		{
+			"type_name"		"KillEaterEventType_Treants_Created"
+			"level_data"		"FurionRank"
+		}
+		"4"
+		{
+			"type_name"		"KillEaterEventType_Omnislash_Jumps"
+			"level_data"		"JuggernautRank"
+		}
+		"5"
+		{
+			"type_name"		"KillEaterEventType_Blade_Fury_Time"
+		}
+		"6"
+		{
+			"type_name"		"KillEaterEventType_Blade_Dance_Crits"
+		}
+		"7"
+		{
+			"type_name"		"KillEaterEventType_Wards_Placed"
+		}
+		"8"
+		{
+			"type_name"		"KillEaterEventType_Killing_Sprees"
+		}
+		"9"
+		{
+			"type_name"		"KillEaterEventType_Trees_Created"
+			"level_data"		"FurionRank"
+		}
+		"10"
+		{
+			"type_name"		"KillEaterEventType_Carries_Killed"
+		}
+		"11"
+		{
+			"type_name"		"KillEaterEventType_First_Blood"
+		}
+		"12"
+		{
+			"type_name"		"KillEaterEventType_Godlike"
+		}
+		"13"
+		{
+			"type_name"		"KillEaterEventType_Gold_Earned"
+		}
+		"14"
+		{
+			"type_name"		"KillEaterEventType_Gold_Spent"
+		}
+		"15"
+		{
+			"type_name"		"KillEaterEventType_Towers_Destroyed"
+			"level_data"		"TowersRank"
 		}
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/816\/scripts\/items\/items_game.bc1396e003f78ca3bdc7fc401e7b871433f51c3f.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/816\/scripts\/items\/items_game.227e04a3a2211c25cc8bda0725e4c7caffbc64e2.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -1561,7 +1561,7 @@
 				"name": "Blood Seeker's Bracers",
 				"defindex": 74,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "arms",
+				"item_type_name": "Arms",
 				"item_name": "Blood Seeker's Bracers",
 				"item_description": "",
 				"proper_name": false,
@@ -1581,7 +1581,7 @@
 				"name": "Drow's Bracers",
 				"defindex": 75,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "arms",
+				"item_type_name": "Arms",
 				"item_name": "Drow's Bracers",
 				"item_description": "",
 				"proper_name": false,
@@ -1821,7 +1821,7 @@
 				"name": "Ursa's Bracers",
 				"defindex": 87,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "arms",
+				"item_type_name": "Arms",
 				"item_name": "Ursa's Bracers",
 				"item_description": "",
 				"proper_name": false,
@@ -2084,6 +2084,186 @@
 				"item_type_name": "New Item",
 				"item_name": "Invoker's Bracer",
 				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Broodmother's Hair",
+				"defindex": 101,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "Broodmother's Hair",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Broodmother's Legs",
+				"defindex": 102,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "Broodmother's Legs",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Broodmother's Abdomen",
+				"defindex": 103,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "Broodmother's Abdomen",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Meepo weapon",
+				"defindex": 104,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Weapon",
+				"item_name": "Meepo weapon",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Ogremagi weapon",
+				"defindex": 105,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "Ogremagi weapon",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Lone Druid's Hair",
+				"defindex": 107,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Head",
+				"item_name": "Lone Druid's Hair",
+				"item_description": "default hair",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Lone Druid's Shoulder Armor",
+				"defindex": 108,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Shoulder",
+				"item_name": "Lone Druid's Shoulder Armor",
+				"item_description": "default shoulder armor",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Lone Druid's Bracers",
+				"defindex": 109,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Arms",
+				"item_name": "Lone Druid's Bracers",
+				"item_description": "default arm item",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Lone Druid's Poncho",
+				"defindex": 110,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "body",
+				"item_name": "Lone Druid's Poncho",
+				"item_description": "default body item",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/testitem_slot_empty",
@@ -2366,7 +2546,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Seven-Sealed the Fur Bracer",
@@ -2636,7 +2824,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 9.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Beard of the Savage Heart",
@@ -2746,7 +2942,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Runed Ailettes",
@@ -2768,7 +2972,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 15.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Leviathan's Tooth Necklace",
@@ -3487,7 +3699,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Tusked Bracers",
@@ -3531,7 +3751,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 2.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Sinorian Sphere Staff",
@@ -3736,7 +3964,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Curled Root-Staff",
@@ -3847,7 +4083,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 2.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Druidic Ritual Crest",
@@ -3869,7 +4113,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Stoic Mask of the High Plains",
@@ -3913,7 +4165,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 2.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Aspect Wraps of the High Plains",
@@ -4197,7 +4457,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Itinerant's Covering",
@@ -4285,7 +4553,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 2.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Bracers of the Ebony Tower",
@@ -4371,7 +4647,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 4.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Healing Ward of the Kuur-Ishiminari",
@@ -4479,7 +4763,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Staff of the Eagle",
@@ -4889,11 +5181,11 @@
 				}
 			},
 			{
-				"name": "Treasure Cache 1",
+				"name": "Lost Treasure of the Ivory Isles",
 				"defindex": 10020,
 				"item_class": "supply_crate",
 				"item_type_name": "Treasure",
-				"item_name": "Treasure Cache",
+				"item_name": "Lost Treasure of the Ivory Isles",
 				"item_description": "You need a Treasure Key to open this. You can pick one up at the DOTA 2 Pro Shop.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -4923,11 +5215,11 @@
 				
 			},
 			{
-				"name": "Treasure Cache 2",
+				"name": "Treasure of the Deep Druids",
 				"defindex": 10021,
 				"item_class": "supply_crate",
 				"item_type_name": "Treasure",
-				"item_name": "Treasure Cache",
+				"item_name": "Treasure of the Deep Druids",
 				"item_description": "You need a Treasure Key to open this. You can pick one up at the DOTA 2 Pro Shop.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -5023,126 +5315,6 @@
 					}
 				]
 				
-			},
-			{
-				"name": "Weekly Gift Giver Reward",
-				"defindex": 10024,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Courier",
-				"item_name": "Weekly Gift Giver Reward Courier",
-				"item_description": "A special courier that will aid you for one week, as a reward for your generosity.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/courier\/juggernaut_dog\/juggernaut_dog",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/juggernaut_dog.8e1c2b7378c8b6c2f7b63d99713466f1e2216d29.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/juggernaut_dog.8e1c2b7378c8b6c2f7b63d99713466f1e2216d29.png",
-				"capabilities": {
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true
-				}
-			},
-			{
-				"name": "Daily Gift Giver Reward",
-				"defindex": 10025,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Courier",
-				"item_name": "Daily Gift Giver Reward Courier",
-				"item_description": "A special courier that will aid you for one day, as a reward for your generosity.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/courier\/juggernaut_dog\/juggernaut_dog",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/juggernaut_dog.8e1c2b7378c8b6c2f7b63d99713466f1e2216d29.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/juggernaut_dog.8e1c2b7378c8b6c2f7b63d99713466f1e2216d29.png",
-				"capabilities": {
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true
-				}
-			},
-			{
-				"name": "Weekly Matches Played Reward",
-				"defindex": 10026,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Courier",
-				"item_name": "Weekly Matches Played Reward Courier",
-				"item_description": "A special courier that will aid you for one week, as a reward for your tenacity.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/courier\/yak\/yak",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/yak.a767bd9c9f7cfd58151e07e9488c346d5b69d769.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/yak.a767bd9c9f7cfd58151e07e9488c346d5b69d769.png",
-				"capabilities": {
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true
-				}
-			},
-			{
-				"name": "Daily Matches Played Reward",
-				"defindex": 10027,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Courier",
-				"item_name": "Daily Matches Played Reward Courier",
-				"item_description": "A special courier that will aid you for one day, as a reward for your tenacity.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/courier\/yak\/yak",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/yak.a767bd9c9f7cfd58151e07e9488c346d5b69d769.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/yak.a767bd9c9f7cfd58151e07e9488c346d5b69d769.png",
-				"capabilities": {
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true
-				}
-			},
-			{
-				"name": "Weekly Crates Opened Reward",
-				"defindex": 10028,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Courier",
-				"item_name": "Weekly Treasures Opened Reward Courier",
-				"item_description": "A special courier that will aid you for one week, as a reward for your curiosity.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/courier\/yak\/yak",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/yak.a767bd9c9f7cfd58151e07e9488c346d5b69d769.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/yak.a767bd9c9f7cfd58151e07e9488c346d5b69d769.png",
-				"capabilities": {
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true
-				}
-			},
-			{
-				"name": "Daily Crates Opened Reward",
-				"defindex": 10029,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Courier",
-				"item_name": "Daily Treasures Opened Reward Courier",
-				"item_description": "A special courier that will aid you for one day, as a reward for your curiosity.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/courier\/yak\/yak",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/yak.a767bd9c9f7cfd58151e07e9488c346d5b69d769.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/yak.a767bd9c9f7cfd58151e07e9488c346d5b69d769.png",
-				"capabilities": {
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true
-				}
 			},
 			{
 				"name": "Name Tag",
@@ -5296,7 +5468,7 @@
 				"item_class": "tool",
 				"item_type_name": "Consumable",
 				"item_name": "Fortunate Soul",
-				"item_description": "A crystal containing the soul of a treasure hunter. Use it to increase your drop rate for one week by 50%.",
+				"item_description": "A crystal containing the soul of a treasure hunter. Use it to increase your drop rate for one week by 50%. Additionally, everyone else in games you play receive a 5% extra drop rate (this bonus stacks).",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/fortunate_soul",
@@ -5330,7 +5502,7 @@
 				"item_class": "tool",
 				"item_type_name": "Consumable",
 				"item_name": "Prosperous Soul",
-				"item_description": "A crystal containing the soul of a wealthy noble. Use it to increase your drop rate for one week by 100%.",
+				"item_description": "A crystal containing the soul of a wealthy noble. Use it to increase your drop rate for one week by 100%. Additionally, everyone else in games you play receive a 10% extra drop rate (this bonus stacks).",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/prosperous_soul",
@@ -5469,6 +5641,40 @@
 				
 			},
 			{
+				"name": "Strange Essence: Carries Killed",
+				"defindex": 15009,
+				"item_class": "tool",
+				"item_type_name": "Strange Essence",
+				"item_name": "Strange Essence: Carries Killed",
+				"item_description": "Adding this Strange Essence to a strange weapon of your choice will allow it to also track the number of carries you kill with that weapon.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_essence_carries_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 10.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Of Ivory and Ebony Bundle",
 				"defindex": 20000,
 				"item_class": "bundle",
@@ -5521,8 +5727,20 @@
 				"attribute_class": "set_attached_particle",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
-				"description_string": "Attrib_AttachedParticle",
+				"description_string": "Effect: %s1",
 				"description_format": "value_is_particle_index",
+				"effect_type": "neutral",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "set item tint RGB",
+				"defindex": 142,
+				"attribute_class": "set_item_tint_rgb",
+				"min_value": 0.000000,
+				"max_value": 16777215.000000,
+				"description_string": "Color: %s1",
+				"description_format": "value_is_color",
 				"effect_type": "neutral",
 				"hidden": false,
 				"stored_as_integer": false
@@ -5710,6 +5928,76 @@
 				"effect_type": "negative",
 				"hidden": true,
 				"stored_as_integer": false
+			},
+			{
+				"name": "kill eater user 1",
+				"defindex": 379,
+				"attribute_class": "kill_eater_user_1",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater user score type 1",
+				"defindex": 380,
+				"attribute_class": "kill_eater_user_score_type_1",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater user 2",
+				"defindex": 381,
+				"attribute_class": "kill_eater_user_2",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater user score type 2",
+				"defindex": 382,
+				"attribute_class": "kill_eater_user_score_type_2",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater user 3",
+				"defindex": 383,
+				"attribute_class": "kill_eater_user_3",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater user score type 3",
+				"defindex": 384,
+				"attribute_class": "kill_eater_user_score_type_3",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "strange part new counter ID",
+				"defindex": 385,
+				"attribute_class": "strange_part_new_counter_id",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
 			}
 		]
 		,
@@ -5904,6 +6192,42 @@
 				"id": 14,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle14"
+			},
+			{
+				"system": "courier_trail_01",
+				"id": 15,
+				"attach_to_rootbone": false,
+				"name": "Ethereal Flame"
+			},
+			{
+				"system": "courier_trail_02",
+				"id": 16,
+				"attach_to_rootbone": false,
+				"name": "Resonant Energy"
+			},
+			{
+				"system": "courier_eye_glow_01",
+				"id": 17,
+				"attach_to_rootbone": false,
+				"name": "Luminous Gaze"
+			},
+			{
+				"system": "courier_eye_glow_02",
+				"id": 18,
+				"attach_to_rootbone": false,
+				"name": "Searing Essence"
+			},
+			{
+				"system": "courier_eye_glow_03",
+				"id": 19,
+				"attach_to_rootbone": false,
+				"name": "Burning Animus"
+			},
+			{
+				"system": "courier_eye_glow_04",
+				"id": 20,
+				"attach_to_rootbone": false,
+				"name": "Piercing Beams"
 			}
 		]
 		
