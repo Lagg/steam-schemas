@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.c350108a14cdab6dedc3112bc1aaa4d9a3ee323b.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.fefd91756b17bcb6788f9800904d47103047a661.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -113,6 +113,10 @@
 			},
 			{
 				"origin": 19,
+				"name": "Unknown"
+			},
+			{
+				"origin": 20,
 				"name": "Unknown"
 			}
 		]
@@ -19441,7 +19445,7 @@
 					{
 						"name": "sniper aiming movespeed decreased",
 						"class": "mult_player_aiming_movespeed",
-						"value": 0.400000
+						"value": 0.100000
 					},
 					{
 						"name": "aiming no flinch",
@@ -21803,7 +21807,8 @@
 					"Scout",
 					"Sniper",
 					"Soldier",
-					"Demoman"
+					"Demoman",
+					"Engineer"
 				]
 				
 			},
@@ -21957,10 +21962,12 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/shootmanyrobots_pyro.b5b8307105cd1e90faaac9ec66ff607d5bc7ed2f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/shootmanyrobots_pyro_large.d69f5296c8499c686f6aa98f3e60205553cf165f.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -21970,15 +21977,75 @@
 					"Medic",
 					"Pyro"
 				]
-				,
-				"attributes": [
+				
+			},
+			{
+				"name": "The Texas Half-Pants",
+				"defindex": 755,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Texas Half-Pants",
+				"item_description": "It's pants... Texas Style! These crotchless leather leggings are perfect if you already own pants. Note: To be used as auxiliary pants only. Please do not employ as primary source of pants.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/engineer_chaps.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/engineer_chaps",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_chaps.98720e78fc3bc211907d481815ceeab31edfea88.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_chaps_large.8116d2d71054a924715b606410842f30b62c9ba2.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
 					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
+						"name": "TF_EngineerChaps_Style0"
+					},
+					{
+						"name": "TF_EngineerChaps_Style1"
 					}
 				]
+				,
+				"used_by_classes": [
+					"Engineer"
+				]
 				
+			},
+			{
+				"name": "The Bolt Action Blitzer",
+				"defindex": 756,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Bolt Action Blitzer",
+				"item_description": "Take a knee, boys. Now, any helmet will protect your head when you're wearing it – but what about when you're NOT? The Bolt Action Blitzer solves that problem by securing it to your skull with three one-and-a-quarter-inch coarse-thread galvanized crown bolts. Make sure it's in your favorite color, 'cause you WILL be buried in it.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/crimecraft_helmet_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/crimecraft_helmet_demo",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/crimecraft_helmet_demo.9fb1a334248d8141a3a1c62df355244e18bed898.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/crimecraft_helmet_demo_large.6da2e7c949bc69222f039d385334ab65c18a2c45.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
 			},
 			{
 				"name": "World Traveler",
@@ -26900,7 +26967,7 @@
 				"name": "RIFT Spider Hat Code",
 				"defindex": 5500,
 				"item_class": "tool",
-				"item_type_name": "TF_ClaimCode",
+				"item_type_name": "Claim Code",
 				"item_name": "RIFT Well Spun Hat Claim Code",
 				"item_description": "This item will grant you a code to receive a hat in Rift. Use it from your backpack to claim the code.",
 				"proper_name": false,
