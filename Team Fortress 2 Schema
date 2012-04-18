@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.fefd91756b17bcb6788f9800904d47103047a661.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.6c14a299f6c84702804eab414e1e4862eb63bead.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -21766,14 +21766,6 @@
 				"used_by_classes": [
 					"Spy"
 				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
 				
 			},
 			{
@@ -24276,6 +24268,35 @@
 				},
 				"used_by_classes": [
 					"Scout"
+				]
+				
+			},
+			{
+				"name": "Mysterious Promo 2",
+				"defindex": 2066,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "TF_Bundle_MysteriousPromo2",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
 				]
 				
 			},
