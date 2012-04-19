@@ -138,6 +138,7 @@
 		"earbuds_special"	"1"
 		"sniper_pocket"		"1"			
 		"engineer_pocket"	"1"			
+		"engineer_pants"	"1"			
 		
 		"medigun_backpack"	"1"
 		
@@ -26483,7 +26484,7 @@
 				"sniper aiming movespeed decreased"
 				{
 					"attribute_class"	"mult_player_aiming_movespeed"
-					"value" "0.40"
+					"value" "0.10"
 				}
 				
 				"aiming no flinch"
@@ -28650,14 +28651,6 @@
 			{
 				"spy"	"1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"styles"
@@ -28753,6 +28746,7 @@
 				"sniper"	"models/player/items/all_class/cowboyboots_sniper.mdl"
 				"soldier"	"models/player/items/all_class/cowboyboots_soldier.mdl"
 				"demoman"	"models/player/items/all_class/cowboyboots_demo.mdl"
+				"engineer"	"models/player/items/all_class/cowboyboots_engineer.mdl"
 			}
 			"drop_type"	"none"
 			"used_by_classes"
@@ -28761,6 +28755,7 @@
 				"sniper"	"1"
 				"demoman"	"1"
 				"soldier"	"1"
+				"engineer"	"1"
 			}
 			"visuals"
 			{
@@ -28807,7 +28802,7 @@
 		"754"
 		{
 			"name"	"The Scrap Pack"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"item_slot"	"misc"
 			"equip_region"	"back"
 			"capabilities"
@@ -28839,7 +28834,108 @@
 				}
 			}
 		}
-
+		
+		"755"
+		{
+			"name"	"The Texas Half-Pants"
+			"first_sale_date"	"2012/04/17"
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_slot"	"misc"
+			"equip_region"	"engineer_pants"
+			"item_type_name"	"TF_Wearable_Apparel"
+			"item_name"	"#TF_EngineerChaps"
+			"item_description"	"#TF_EngineerChaps_Desc"
+			"image_inventory"	"backpack/player/items/engineer/engineer_chaps"
+			"model_player"	"models/player/items/engineer/engineer_chaps.mdl"
+			"propername"	"1"
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_EngineerChaps_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_EngineerChaps_Style1"
+					}
+				}
+			}
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+		}
+		
+		"756"
+		{
+			"name"	"The Bolt Action Blitzer"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"propername"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_CrimeCraftHelmet"
+			"item_description"	"#TF_CrimeCraftHelmet_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/all_class/crimecraft_helmet_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"scout"		"models/player/items/all_class/crimecraft_helmet_scout.mdl"
+				"sniper"	"models/player/items/all_class/crimecraft_helmet_sniper.mdl"
+				"soldier"	"models/player/items/all_class/crimecraft_helmet_soldier.mdl"
+				"demoman"	"models/player/items/all_class/crimecraft_helmet_demo.mdl"
+				"medic"		"models/player/items/all_class/crimecraft_helmet_medic.mdl"
+				"heavy"		"models/player/items/all_class/crimecraft_helmet_heavy.mdl"
+				"spy"		"models/player/items/all_class/crimecraft_helmet_spy.mdl"
+				"engineer"	"models/player/items/all_class/crimecraft_helmet_engineer.mdl"
+				"pyro"		"models/player/items/all_class/crimecraft_helmet_pyro.mdl"
+			}
+			"drop_type"	"none"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_helmet_pickup.wav"
+			"drop_sound"		"ui/item_helmet_drop.wav"
+		}
 
 
 
@@ -31435,6 +31531,46 @@
 			"used_by_classes"
 			{
 				"scout"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2066"
+		{
+			"name" "Mysterious Promo 2"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_MysteriousPromo2"
+			"item_description"	"#TF_Bundle_MysteriousPromo2_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -46495,6 +46631,13 @@
 			"SourceAppID"	"102700"
 			"DefIndex"		"727"
 		}
+		
+		"ACHIEVEMENT_140402"		
+		{
+			"SourceAppID"	"38830"
+			"DefIndex"		"756"
+		}		
+		
 	}
 	"attribute_controlled_attached_particles"
 	{
