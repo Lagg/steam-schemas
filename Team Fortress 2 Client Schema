@@ -403,6 +403,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_class"	"tf_weapon_minigun"
 			"craft_class"	"weapon"
@@ -435,6 +436,9 @@
 			{
 				"can_deal_gib_damage"	"1"
 				"can_deal_damage"		"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_class"	"tf_weapon_rocketlauncher"
 			"craft_class"	"weapon"
@@ -467,6 +471,8 @@
 			{
 				"can_deal_gib_damage"	"1"
 				"can_deal_damage"		"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_class"	"tf_weapon_pipebomblauncher"
 			"craft_class"	"weapon"
@@ -505,6 +511,9 @@
 			{
 				"can_deal_damage"			"1"
 				"can_reflect_projectiles"	"1"
+				"can_extinguish"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_class"	"tf_weapon_flamethrower"
 			"craft_class"	"weapon"
@@ -609,6 +618,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_class"	"tf_weapon_wrench"
 			"craft_class"	"weapon"
@@ -654,6 +664,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_class"	"tf_weapon_scattergun"
 			"craft_class"	"weapon"
@@ -717,6 +728,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}		
 			"item_class"	"tf_weapon_bat"
 			"craft_class"	"weapon"
@@ -1296,6 +1308,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_syringegun_medic"
@@ -1336,6 +1349,7 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_deal_posthumous_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_grenadelauncher"
@@ -1876,6 +1890,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"blutsauger"
 			"item_iconname"	"blutsauger"
@@ -1927,6 +1943,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"ubersaw"
 			"item_iconname"	"ubersaw"
@@ -1987,6 +2004,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"axtinguisher"
 			"item_iconname"	"axtinguisher"
@@ -2043,6 +2061,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Flaregun"
@@ -2089,6 +2109,9 @@
 			{
 				"can_deal_damage"			"1"
 				"can_reflect_projectiles"	"1"
+				"can_extinguish"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"backburner"
 			"item_iconname"	"backburner"
@@ -2163,6 +2186,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -2280,6 +2304,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
@@ -2339,11 +2364,11 @@
 			{
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
-				"can_collect"	"1"
 			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -2391,11 +2416,11 @@
 			{
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
-				"can_collect" "1"
 			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Scattergun"
@@ -2782,6 +2807,8 @@
 			{
 				"can_deal_damage"			"1"
 				"can_headshot"				"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_CompoundBow"
@@ -2884,6 +2911,10 @@
 			{
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
+			}
+			"tags"
+			{
+				"can_extinguish"			"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Jar"
@@ -3034,6 +3065,7 @@
 			{
 				"can_deal_damage"		"1"
 				"can_headshot"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -4328,6 +4360,9 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -4392,6 +4427,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Pickaxe"
@@ -4534,6 +4571,8 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_PipebombLauncher"
@@ -4605,6 +4644,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name" 	"#TF_Wearable_Shield"
@@ -4662,6 +4702,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Sword"
@@ -5179,6 +5221,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Shotgun"
@@ -5234,6 +5277,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Robot_Arm"
@@ -5720,6 +5764,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"sledgehammer"
 			"item_iconname"	"sledgehammer"
@@ -5776,6 +5821,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"paintrain"
 			"item_iconname"	"paintrain"
@@ -5828,6 +5875,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Wrench"
@@ -5987,6 +6035,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Pistol"
@@ -6026,6 +6075,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -6395,6 +6445,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Wrench"
@@ -6507,6 +6558,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"tribalkukri"
 			"item_iconname"	"tribalkukri"
@@ -6558,6 +6611,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"battleaxe"
 			"item_iconname"	"battleaxe"
@@ -6619,6 +6674,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"battleneedle"
 			"item_iconname"	"battleneedle"
@@ -7170,6 +7226,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7204,6 +7261,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7238,6 +7297,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7272,6 +7332,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7341,6 +7402,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7373,6 +7435,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7408,6 +7472,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7455,6 +7520,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7489,6 +7555,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7528,6 +7596,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7597,6 +7666,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7631,6 +7701,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7665,6 +7736,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7700,6 +7773,9 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7735,6 +7811,9 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7772,6 +7851,8 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7812,6 +7893,9 @@
 			{
 				"can_deal_damage"			"1"
 				"can_reflect_projectiles"	"1"
+				"can_extinguish"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7847,6 +7931,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -7884,6 +7969,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8028,6 +8114,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"powerjack"
 			"item_iconname"	"powerjack"
@@ -8081,6 +8168,9 @@
 			{
 				"can_deal_damage"			"1"
 				"can_reflect_projectiles"	"1"
+				"can_extinguish"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"degreaser"
 			"item_iconname"	"degreaser"
@@ -8224,6 +8314,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Peppergun"
@@ -8325,6 +8416,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Fish"
@@ -8379,6 +8471,10 @@
 			{
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
+			}
+			"tags"
+			{
+				"can_extinguish"			"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Jar_Milk"
@@ -8471,6 +8567,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -8602,7 +8699,6 @@
 			}
 			"tags"
 			{
-				"can_deal_damage"			"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Battle_Banner"
@@ -8739,6 +8835,9 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"blackbox"
 			"item_iconname"	"blackbox"
@@ -9021,6 +9120,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"bushwacka"
 			"item_iconname"	"bushwacka"
@@ -9154,6 +9254,8 @@
 			"mouse_pressed_sound"	"ui/item_cardboard_pickup.wav"
 			"drop_sound"		"ui/item_cardboard_drop.wav"
 		}
+		
+		
 		"237"
 		{
 			"name"	"Rocket Jumper"
@@ -9168,7 +9270,6 @@
 			}
 			"tags"
 			{
-				"can_deal_damage"			"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -9239,6 +9340,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
@@ -10262,6 +10364,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"fryingpan"
 			"item_iconname"	"fryingpan"
@@ -10376,6 +10479,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Axe"
@@ -11934,6 +12039,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"0"
 			"item_type_name"	"#TF_Weapon_Pistol"
@@ -12080,6 +12186,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -12266,6 +12373,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"		"amputator"
 			"item_iconname"		"amputator"
@@ -12322,6 +12430,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Crossbow"
 			"item_name"	"#TF_CrusadersCrossbow"
@@ -12411,6 +12521,7 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_StickBomb"
@@ -12460,6 +12571,9 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_logname"	"loch_n_load"
@@ -12561,6 +12675,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
@@ -12688,6 +12803,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -12930,6 +13046,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -13202,6 +13319,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -13253,6 +13372,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"back_scratcher"
 			"item_iconname"	"back_scratcher"
@@ -13309,6 +13429,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"claidheamohmor"
 			"item_iconname"	"claidheamohmor"
@@ -13376,6 +13498,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Wrench"
@@ -13477,6 +13600,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
@@ -14257,6 +14381,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RiftFireAxe"
@@ -14307,6 +14433,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RiftFireMace"
@@ -14361,6 +14488,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Flaregun"
@@ -14513,6 +14642,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"warfan"
 			"item_iconname"	"warfan"
@@ -14635,6 +14765,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_logname"	"demokatana"
@@ -16009,6 +16141,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"shahanshah"
 			"item_iconname"	"shahanshah"
@@ -16158,6 +16291,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Sword"
@@ -16363,6 +16497,8 @@
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
 			"item_set"	"desert_demo"
 		}
+		
+		
 		"408"
 		{
 			"name"	"Humanitarian's Hachimaki"
@@ -16678,6 +16814,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"proto_syringe"
 			"item_iconname"	"proto_syringe"
@@ -16748,6 +16886,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"anim_slot" "MELEE_ALLCLASS"
 			"item_logname"	"solemn_vow"
@@ -16803,6 +16942,9 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -16861,6 +17003,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_name"	"#TF_ReserveShooter"
@@ -16929,6 +17073,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Shovel"
@@ -17145,6 +17291,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Symbol"
@@ -17210,6 +17358,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -17277,6 +17426,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_logname" "family_business"
@@ -17330,6 +17480,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
@@ -17896,6 +18047,8 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
 			}
 			"item_logname"	"cow_mangler"
 			"item_iconname"	"cow_mangler"
@@ -17982,6 +18135,9 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_IndivisibleParticleSmasher"
@@ -18095,6 +18251,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name" 	"#TF_Wearable_Boots"
@@ -18238,6 +18395,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Riding_Crop"
@@ -18442,6 +18601,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Pistol"
 			"item_logname" "the_winger"
@@ -18495,6 +18655,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Bat"
 			"item_logname" "atomizer"
@@ -18618,6 +18779,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Sword"
@@ -18863,6 +19026,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -18921,6 +19085,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Knife"
@@ -19098,6 +19263,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"the_maul"
 			"item_iconname"	"the_maul"
@@ -19449,6 +19615,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Sign"
@@ -19682,6 +19850,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_logname"	"nessieclub"
@@ -20956,6 +21126,9 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"quake_rl"
 			"item_iconname"	"quake_rl"
@@ -21622,6 +21795,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -21759,6 +21933,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_logname" "widowmaker"
@@ -23082,6 +23257,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Severed_Arm"
@@ -23981,6 +24157,7 @@
 			{
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Fists"
@@ -24038,6 +24215,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_IndivisibleParticleSmasher"
 			"item_name"	"#TF_Pomson"
@@ -24205,6 +24384,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Wrench"
@@ -24384,6 +24564,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"thirddegree"
 			"item_iconname"	"thirddegree"
@@ -24438,6 +24619,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"phlogistinator"
 			"item_iconname"	"phlogistinator"
@@ -24524,6 +24707,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"item_logname"	"manmelter"
 			"item_iconname"	"manmelter"
@@ -25099,6 +25284,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bottle"
@@ -26648,6 +26835,8 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -27694,6 +27883,8 @@
 				}
 			}
 		}
+		
+		
 		"673"
 		{
 			"name"	"Noise Maker - Winter 2011"
@@ -28878,6 +29069,29 @@
 			}
 			"mouse_pressed_sound"	"ui/item_helmet_pickup.wav"
 			"drop_sound"		"ui/item_helmet_drop.wav"
+		}
+		"757"
+		{
+			"name"	"The Toss-Proof Towel"
+			"first_sale_date"	"2012/04/26"
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+				"can_craft_count"	"1"
+			}
+			"item_slot"	"misc"
+			"equip_region"	"shirt"
+			"item_type_name"	"TF_Wearable_Apparel"
+			"item_name"	"#TF_HeavyBoxingTowel"
+			"item_description"	"#TF_HeavyBoxingTowel_Desc"
+			"image_inventory"	"backpack/player/items/heavy/heavy_boxingtowel"
+			"model_player"	"models/player/items/heavy/heavy_boxingtowel.mdl"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
 		}
 
 
@@ -31318,7 +31532,7 @@
 		}
 		"2061"
 		{
-			"name" "Mysterious Promo"
+			"name" "Mysterious Promo" 
 			"item_class"	"bundle"
 			"bundle"
 			{
@@ -31480,7 +31694,7 @@
 		}
 		"2066"
 		{
-			"name" "Mysterious Promo 2"
+			"name" "Mysterious Promo 2" 
 			"item_class"	"bundle"
 			"bundle"
 			{
@@ -32025,7 +32239,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "39"
+					"value" "43"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -33520,6 +33734,58 @@
 			"item_description"	"#TF_StrangePart_GibKilled_Desc"
 		}
 
+		"6019"
+		{
+			"name"	"Strange Part: Posthumous Kills"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_posthumous_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"31"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_PlayerKillPosthumous"
+			"item_name"	"#TF_StrangePart_PosthumousKills"
+			"item_description"	"#TF_StrangePart_PosthumousKills_Desc"
+		}
+		"6020"
+		{
+			"name"	"Strange Part: Allies Extinguished"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_extinguish"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"32"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_burningallyextinguished"
+			"item_name"	"#TF_StrangePart_AlliesExtinguished"
+			"item_description"	"#TF_StrangePart_AlliesExtinguished_Desc"
+		}
 
 
 
@@ -39044,6 +39310,12 @@
 			"The Back Scratcher"		"1"
 			"Upgradeable TF_WEAPON_PISTOL"		"1"
 		}
+		"kill_eater_set_mixed_k"
+		{
+			"The Tribalman's Shiv"		"1"
+			"The Detonator"		"1"
+			"The Shortstop"		"1"
+		}
 		"supply_crate_loot_list_1"
 		{
 			"The Vita-Saw"		"1"
@@ -39366,6 +39638,14 @@
 			"The Outdoorsman"		"1"
 			"Ol' Geezer"		"1"
 		}
+		"supply_crate_loot_list_43"
+		{
+			"kill_eater_set_mixed_k"		"1"
+			"Strange Part: Allies Extinguished"		"1"
+			"Strange Part: Posthumous Kills"		"1"
+			"Berliner's Bucket Helm"		"1"
+			"Coupe D'isaster"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -39411,6 +39691,7 @@
 		"supply_crate_loot_list_40"	"40" 
 		"supply_crate_loot_list_41" "41" 
 		"supply_crate_loot_list_42" "42" 
+		"supply_crate_loot_list_43"	"43" 
 		
 		
 		
@@ -39444,6 +39725,7 @@
 		"kill_eater_set_rare_mixed_b"					"-25"
 		"kill_eater_set_mixed_i"						"-26"
 		"kill_eater_set_mixed_j"						"-27"
+		"kill_eater_set_mixed_k"						"-28"
 	}
 	"recipes"
 	{
@@ -46915,6 +47197,7 @@
 		{
 			"type_name"	"KillEaterEventType_GibKills"
 		}
+
 		"24"
 		{
 			"type_name"		"KillEaterEventType_BuildingsSapped"
@@ -46929,6 +47212,39 @@
 		{
 			"type_name"		"KillEaterEventType_MenTreaded"
 			"level_data"	"KillEater_ManTreadsRank"
+		}
+
+		"27"
+		{
+			"type_name"	"KillEaterEventType_KillsDuringFullMoon"
+		}
+		"28"
+		{
+			"type_name"	"KillEaterEventType_Kills"
+		}
+		"30"
+		{
+			"type_name"	"KillEaterEventType_Kills"
+		}
+		"31"
+		{
+			"type_name"	"KillEaterEventType_PosthumousKills"
+		}
+		"32"
+		{
+			"type_name"	"KillEaterEventType_AlliesExtinguished"
+		}
+		"33"
+		{
+			"type_name"	"KillEaterEventType_Kills"
+		}
+		"34"
+		{
+			"type_name"	"KillEaterEventType_Kills"
+		}
+		"35"
+		{
+			"type_name"	"KillEaterEventType_Kills"
 		}
 	}
 }

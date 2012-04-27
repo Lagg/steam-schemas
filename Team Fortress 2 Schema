@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.6c14a299f6c84702804eab414e1e4862eb63bead.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.82d1dea7d2a8ee567758e036963713635216dbbc.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -1433,7 +1433,6 @@
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
-					"can_collect": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -1476,7 +1475,6 @@
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
-					"can_collect": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -20021,7 +20019,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "Pipe",
 				"item_name": "Nine-Pipe Problem",
-				"item_description": "In the time it takes you to read this description, I’ve already ubered a heavy, captured your base, solved a crime, and smoked three pipes.",
+				"item_description": "In the time it takes you to read this description, I've already ubered a heavy, captured your base, solved a crime, and smoked three pipes.",
 				"proper_name": true,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/medic\/medic_smokingpipe.mdl",
@@ -22000,10 +21998,10 @@
 				},
 				"styles": [
 					{
-						"name": "TF_EngineerChaps_Style0"
+						"name": "Tan"
 					},
 					{
-						"name": "TF_EngineerChaps_Style1"
+						"name": "Midnight"
 					}
 				]
 				,
@@ -22038,6 +22036,39 @@
 					"can_be_restored": true,
 					"strange_parts": true
 				}
+			},
+			{
+				"name": "The Toss-Proof Towel",
+				"defindex": 757,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Toss-Proof Towel",
+				"item_description": "Make sure you never throw in the towel, even accidentally, by keeping it nice and close, where it can't run off and surrender like a coward when you're not looking.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/heavy_boxingtowel.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/heavy_boxingtowel",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_boxingtowel.3377e51fca2c3ae1630bc42f6bc03c68959a0d04.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_boxingtowel_large.7270e949cc7e6a362ba57d98ca64b0da34ead30c.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
 			},
 			{
 				"name": "World Traveler",
@@ -24833,7 +24864,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 39.000000
+						"value": 43.000000
 					}
 				]
 				
@@ -27275,6 +27306,84 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 23.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Posthumous Kills",
+				"defindex": 6019,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Posthumous Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill with that weapon while you're dead.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_PlayerKillPosthumous",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_playerkillposthumous.b868bb1c34552badadf0c314cc477c1c39230cb7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_playerkillposthumous_large.0bcbd7a560e09523549e7ee99853e2cc1df52bd5.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 31.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Allies Extinguished",
+				"defindex": 6020,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Allies Extinguished",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of burning allies you extinguish with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_burningallyextinguished",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_burningallyextinguished.c75bcbcf249853c0de883bc11f6f26720c470d5d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_burningallyextinguished_large.0275dce0cc4da40967f01632be75980dbea78e4c.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 32.000000
 					}
 				]
 				
@@ -32793,6 +32902,46 @@
 				"type": 26,
 				"type_name": "Opponents Flattened",
 				"level_data": "KillEater_ManTreadsRank"
+			},
+			{
+				"type": 27,
+				"type_name": "Kills Under A Full Moon",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 28,
+				"type_name": "Kills",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 30,
+				"type_name": "Kills",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 31,
+				"type_name": "Posthumous Kills",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 32,
+				"type_name": "Allies Extinguished",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 33,
+				"type_name": "Kills",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 34,
+				"type_name": "Kills",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 35,
+				"type_name": "Kills",
+				"level_data": "KillEaterRank"
 			}
 		]
 		
