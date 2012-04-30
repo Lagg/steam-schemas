@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.3cca301a50a757493250469260949fdf75eafdaa.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.afb61d10b01ad1689eacfb5aac59fd8642bb1327.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -2586,6 +2586,26 @@
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.09fb7afd099a31da8bb9882e75b5d25459f261ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "DOTA 2 Test Item Drop",
+				"defindex": 9999,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Test_Item",
+				"item_name": "DOTA_Item_DOTA_2_Test_Item_Drop",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 4,
 				"image_inventory": "econ\/testitem_slot_empty",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
