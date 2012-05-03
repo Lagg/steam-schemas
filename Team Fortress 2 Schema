@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.82d1dea7d2a8ee567758e036963713635216dbbc.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.68fc7ec9bee5c24fdc67545dc23b92e71736d3a9.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -1853,6 +1853,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bow.5fc4dcfec7ae596479fb864f3bbf43ece0506246.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bow_large.79a707f696ec21068cd87f39dd386df5407855fe.png",
+				"item_set": "hidden_applearrow_set",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -7287,7 +7288,7 @@
 			{
 				"name": "Frying Pan",
 				"defindex": 264,
-				"item_class": "tf_weapon_shovel",
+				"item_class": "saxxy",
 				"item_type_name": "Frying Pan",
 				"item_name": "Frying Pan",
 				"proper_name": true,
@@ -7307,8 +7308,13 @@
 					"strange_parts": true
 				},
 				"used_by_classes": [
+					"Scout",
+					"Sniper",
 					"Soldier",
-					"Demoman"
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Pyro"
 				]
 				,
 				"attributes": [
@@ -14304,6 +14310,33 @@
 					}
 				]
 				
+			},
+			{
+				"name": "Valve Store Shipment Box",
+				"defindex": 495,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shipment Box",
+				"item_name": "Valve Store Shipment Box",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/valvestore_shipmentbox",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "gift"
+				}
 			},
 			{
 				"name": "TournamentMedal - GWJ Winners",
@@ -22067,6 +22100,52 @@
 				},
 				"used_by_classes": [
 					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Fruit Shoot",
+				"defindex": 759,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Fruit Shoot",
+				"item_description": "This fun, all-ages activity brings history alive! All you need is a bow, an arrow, an apple, and an idiot.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/sniper_applearrow.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/sniper_applearrow",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sniper_applearrow.c80c37d78add3525bfa955177c382deb79919fe5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sniper_applearrow_large.acc6e98f81e1d479171830e9479cd6f9120c5370.png",
+				"drop_type": "drop",
+				"item_set": "hidden_applearrow_set",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Deadly"
+					},
+					{
+						"name": "Dangerous"
+					},
+					{
+						"name": "Tasty"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Sniper"
 				]
 				
 			},
@@ -31471,6 +31550,18 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "chance of hunger decrease",
+				"defindex": 401,
+				"attribute_class": "chance_of_hunger_decrease",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Reduces chance of hunger by up to %s1%",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			}
 		]
 		,
@@ -31656,6 +31747,23 @@
 						"name": "dmg taken from crit reduced",
 						"class": "mult_dmgtaken_from_crit",
 						"value": 0.950000
+					}
+				]
+				
+			},
+			{
+				"item_set": "hidden_applearrow_set",
+				"name": "Dual-Purpose Fruit",
+				"items": [
+					"The Huntsman",
+					"The Fruit Shoot"
+				]
+				,
+				"attributes": [
+					{
+						"name": "chance of hunger decrease",
+						"class": "chance_of_hunger_decrease",
+						"value": 1.130000
 					}
 				]
 				
