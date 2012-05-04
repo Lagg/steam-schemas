@@ -207,22 +207,12 @@
 			"hex_color"		"#e4ae39"
 		}
 	}
-	"player_loadout"
+	"player_loadout_slots"
 	{
-		"actions"
-		{
-			"0"		"action_item"
-		}
-		"item_effects"
-		{
-			"0"		"courier"
-			"1"		"custom_hex"
-		}
-		"voice"
-		{
-			"0"		"announcer"
-			"1"		"killing_spree"
-		}
+		"0"		"action_item"
+		"1"		"announcer"
+		"2"		"mega_kills"
+		"3"		"courier"
 	}
 	"prefabs"
 	{
@@ -260,6 +250,7 @@
 			"image_inventory_size_h"		"82"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+			"image_inventory"		"econ/default_item"
 		}
 		"dota_misc_item"
 		{
@@ -324,7 +315,6 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Daggers"
 			"item_name"		"#DOTA_Wearable_Riki_DefaultWeapon"
-			"image_inventory"		"econ/heroes/rikimaru/rikimaru_weapon"
 			"model_player"		"models/heroes/rikimaru/rikimaru_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -344,7 +334,6 @@
 					"system"		"antimage_blade"
 				}
 			}
-			"image_inventory"		"econ/heroes/antimage/antimage_weapon"
 			"model_player"		"models/heroes/antimage/antimage_weapon.mdl"
 			"item_description"		"#DOTA_Item_Desc_AntiMages_Glaives"
 			"used_by_heroes"
@@ -357,7 +346,6 @@
 			"name"		"Axe's Default Axe"
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Wearable_Axe_DefaultWeapon"
-			"image_inventory"		"econ/heroes/axe/axe_weapon"
 			"model_player"		"models/heroes/axe/axe_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -371,7 +359,6 @@
 			"item_type_name"		"#DOTA_WearableType_Armor"
 			"item_name"		"#DOTA_Wearable_Axe_DefaultArmor"
 			"item_slot"		"armor"
-			"image_inventory"		"econ/heroes/axe/axe_armor"
 			"model_player"		"models/heroes/axe/axe_armor.mdl"
 			"used_by_heroes"
 			{
@@ -385,7 +372,6 @@
 			"item_type_name"		"#DOTA_WearableType_Hair"
 			"item_name"		"#DOTA_Wearable_Axe_DefaultHair"
 			"item_slot"		"head"
-			"image_inventory"		"econ/heroes/axe/axe_ponytail"
 			"model_player"		"models/heroes/axe/axe_ponytail.mdl"
 			"used_by_heroes"
 			{
@@ -399,7 +385,6 @@
 			"item_type_name"		"#DOTA_WearableType_Belt"
 			"item_name"		"#DOTA_Wearable_Axe_DefaultBelt"
 			"item_slot"		"belt"
-			"image_inventory"		"econ/heroes/axe/axe_belt"
 			"model_player"		"models/heroes/axe/axe_belt.mdl"
 			"used_by_heroes"
 			{
@@ -413,7 +398,6 @@
 			"item_type_name"		"#DOTA_WearableType_Mask"
 			"item_name"		"#DOTA_Wearable_Jugg_DefaultMask"
 			"item_slot"		"head"
-			"image_inventory"		"econ/heroes/juggernaut/jugg_mask"
 			"model_player"		"models/heroes/juggernaut/jugg_mask.mdl"
 			"used_by_heroes"
 			{
@@ -425,7 +409,6 @@
 			"name"		"Juggernaut's Default Sword"
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Wearable_Jugg_DefaultWeapon"
-			"image_inventory"		"econ/heroes/juggernaut/jugg_sword"
 			"model_player"		"models/heroes/juggernaut/jugg_sword.mdl"
 			"used_by_heroes"
 			{
@@ -446,7 +429,6 @@
 			"item_type_name"		"#DOTA_WearableType_Cape"
 			"item_name"		"#DOTA_Wearable_Jugg_DefaultCape"
 			"item_slot"		"back"
-			"image_inventory"		"econ/heroes/juggernaut/jugg_cape"
 			"model_player"		"models/heroes/juggernaut/jugg_cape.mdl"
 			"used_by_heroes"
 			{
@@ -460,7 +442,6 @@
 			"item_type_name"		"#DOTA_WearableType_Bracer"
 			"item_name"		"#DOTA_Wearable_Jugg_DefaultBracers"
 			"item_slot"		"arms"
-			"image_inventory"		"econ/heroes/juggernaut/jugg_bracers"
 			"model_player"		"models/heroes/juggernaut/jugg_bracers.mdl"
 			"used_by_heroes"
 			{
@@ -474,7 +455,6 @@
 			"item_type_name"		"#DOTA_WearableType_Boots"
 			"item_name"		"#DOTA_Item_Kunkkas_Boots"
 			"item_slot"		"legs"
-			"image_inventory"		"econ/heroes/kunkka/kunkka_feet"
 			"model_player"		"models/heroes/kunkka/kunkka_feet.mdl"
 			"used_by_heroes"
 			{
@@ -488,7 +468,6 @@
 			"item_type_name"		"#DOTA_WearableType_Hands"
 			"item_name"		"#DOTA_Item_Kunkkas_Hands"
 			"item_slot"		"gloves"
-			"image_inventory"		"econ/heroes/kunkka/kunkka_hands"
 			"model_player"		"models/heroes/kunkka/kunkka_hands.mdl"
 			"used_by_heroes"
 			{
@@ -500,7 +479,6 @@
 			"name"		"Kunkka's Sword"
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Item_Kunkkas_Sword"
-			"image_inventory"		"econ/heroes/kunkka/sword"
 			"model_player"		"models/heroes/kunkka/sword.mdl"
 			"used_by_heroes"
 			{
@@ -515,7 +493,6 @@
 			"item_name"		"#DOTA_Item_Omniknights_Bracers"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Bracers"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/omniknight/bracer.mdl"
 			"used_by_heroes"
 			{
@@ -529,7 +506,6 @@
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Item_Kunkkas_Head"
 			"item_slot"		"body_head"
-			"image_inventory"		"econ/heroes/kunkka/kunkka_head"
 			"model_player"		"models/heroes/kunkka/kunkka_head.mdl"
 			"used_by_heroes"
 			{
@@ -542,7 +518,6 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Mace"
 			"item_name"		"#DOTA_FacelessVoid_Default_Weapon"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/faceless_void/faceless_void_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -556,7 +531,6 @@
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Wearable_Sven_DefaultHead"
 			"item_slot"		"head"
-			"image_inventory"		"econ/heroes/sven/sven_helmet"
 			"model_player"		"models/heroes/sven/sven_mask.mdl"
 			"used_by_heroes"
 			{
@@ -567,7 +541,6 @@
 		{
 			"name"		"Sven's Default Sword"
 			"prefab"		"dota_default_item"
-			"image_inventory"		"econ/heroes/sven/sven_sword"
 			"model_player"		"models/heroes/sven/sven_sword.mdl"
 			"used_by_heroes"
 			{
@@ -581,7 +554,6 @@
 			"item_type_name"		"#DOTA_WearableType_Belt"
 			"item_name"		"#DOTA_Wearable_Sven_DefaultBelt"
 			"item_slot"		"belt"
-			"image_inventory"		"econ/heroes/sven/sven_belt"
 			"model_player"		"models/heroes/sven/sven_belt.mdl"
 			"used_by_heroes"
 			{
@@ -595,7 +567,6 @@
 			"item_type_name"		"#DOTA_WearableType_Gauntlet"
 			"item_name"		"#DOTA_Wearable_Sven_DefaultGauntlet"
 			"item_slot"		"arms"
-			"image_inventory"		"econ/heroes/sven/sven_gauntlet"
 			"model_player"		"models/heroes/sven/sven_gauntlet.mdl"
 			"used_by_heroes"
 			{
@@ -609,7 +580,6 @@
 			"item_type_name"		"#DOTA_WearableType_Shoulder"
 			"item_name"		"#DOTA_Wearable_Sven_DefaultShoulder"
 			"item_slot"		"shoulder"
-			"image_inventory"		"econ/heroes/sven/sven_shoulder"
 			"model_player"		"models/heroes/sven/sven_shoulder.mdl"
 			"used_by_heroes"
 			{
@@ -623,7 +593,6 @@
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Wearable_Windrunner_DefaultHead"
 			"item_slot"		"body_head"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/windrunner/windrunner_head.mdl"
 			"used_by_heroes"
 			{
@@ -636,7 +605,6 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Bow"
 			"item_name"		"#DOTA_Wearable_Windrunner_DefaultBow"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/windrunner/windrunner_bow.mdl"
 			"used_by_heroes"
 			{
@@ -650,7 +618,6 @@
 			"item_type_name"		"#DOTA_WearableType_ShoulderPads"
 			"item_name"		"#DOTA_Wearable_Windrunner_ShoulderPads"
 			"item_slot"		"shoulder"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/windrunner/windrunner_shoulderpads.mdl"
 			"used_by_heroes"
 			{
@@ -664,7 +631,6 @@
 			"item_type_name"		"#DOTA_WearableType_Cape"
 			"item_name"		"#DOTA_Wearable_Windrunner_Cape"
 			"item_slot"		"back"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/windrunner/windrunner_cape.mdl"
 			"used_by_heroes"
 			{
@@ -678,7 +644,6 @@
 			"item_type_name"		"#DOTA_WearableType_Quiver"
 			"item_name"		"#DOTA_Wearable_Windrunner_DefaultQuiver"
 			"item_slot"		"belt"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/windrunner/windrunner_quiver.mdl"
 			"used_by_heroes"
 			{
@@ -690,7 +655,6 @@
 			"name"		"Queen of Pain's Weapon"
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Item_Queen_of_Pains_Weapon"
-			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
 			"model_player"		"models/heroes/queenofpain/queenofpain_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -702,7 +666,6 @@
 			"name"		"Silencer's Default Weapon"
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Wearable_Silencer_DefaultWeapon"
-			"image_inventory"		"econ/heroes/silencer/silencer_weapon"
 			"model_player"		"models/heroes/silencer/silencer_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -716,7 +679,6 @@
 			"item_type_name"		"#DOTA_WearableType_Shield"
 			"item_name"		"#DOTA_Wearable_Silencer_DefaultShield"
 			"item_slot"		"offhand_weapon"
-			"image_inventory"		"econ/heroes/silencer/silencer_shield"
 			"model_player"		"models/heroes/silencer/silencer_shield.mdl"
 			"used_by_heroes"
 			{
@@ -728,7 +690,6 @@
 			"name"		"Furion's Default Staff"
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Wearable_Furion_DefaultWeapon"
-			"image_inventory"		"econ/heroes/furion/furion_staff"
 			"model_player"		"models/heroes/furion/furion_staff.mdl"
 			"used_by_heroes"
 			{
@@ -749,7 +710,6 @@
 			"item_type_name"		"#DOTA_WearableType_Horns"
 			"item_name"		"#DOTA_Wearable_Furion_DefaultHorns"
 			"item_slot"		"head"
-			"image_inventory"		"econ/heroes/furion/furion_horns"
 			"model_player"		"models/heroes/furion/furion_horns.mdl"
 			"used_by_heroes"
 			{
@@ -763,7 +723,6 @@
 			"item_type_name"		"#DOTA_WearableType_Beard"
 			"item_name"		"#DOTA_Wearable_Furion_DefaultBeard"
 			"item_slot"		"neck"
-			"image_inventory"		"econ/heroes/furion/furion_beard"
 			"model_player"		"models/heroes/furion/furion_beard.mdl"
 			"used_by_heroes"
 			{
@@ -777,7 +736,6 @@
 			"item_type_name"		"#DOTA_WearableType_Cape"
 			"item_name"		"#DOTA_Wearable_Furion_DefaultCape"
 			"item_slot"		"back"
-			"image_inventory"		"econ/heroes/furion/furion_cape"
 			"model_player"		"models/heroes/furion/furion_cape.mdl"
 			"used_by_heroes"
 			{
@@ -791,7 +749,6 @@
 			"item_type_name"		"#DOTA_WearableType_Necklace"
 			"item_name"		"#DOTA_Wearable_Furion_DefaultNecklace"
 			"item_slot"		"shoulder"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
 			"model_player"		"models/heroes/furion/furion_necklace.mdl"
 			"used_by_heroes"
 			{
@@ -800,12 +757,11 @@
 		}
 		"34"
 		{
-			"name"		"Tidehunter's Default Bracer"
+			"name"		"Tidehunter's Bracer"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Bracer"
-			"item_name"		"#DOTA_Wearable_Tidehunter_DefaultBracer"
+			"item_name"		"#DOTA_Item_Tidehunters_Bracer"
 			"item_slot"		"arms"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
 			"model_player"		"models/heroes/tidehunter/tidehunter_bracer.mdl"
 			"used_by_heroes"
 			{
@@ -814,12 +770,11 @@
 		}
 		"35"
 		{
-			"name"		"Tidehunter's Default Belt"
+			"name"		"Tidehunter's Belt"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Belt"
-			"item_name"		"#DOTA_Wearable_Tidehunter_DefaultBelt"
+			"item_name"		"#DOTA_Item_Tidehunters_Belt"
 			"item_slot"		"belt"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
 			"model_player"		"models/heroes/tidehunter/tidehunter_belt.mdl"
 			"used_by_heroes"
 			{
@@ -828,10 +783,9 @@
 		}
 		"36"
 		{
-			"name"		"Tidehunter's Default Weapon"
+			"name"		"Tidehunter's Anchor"
 			"prefab"		"dota_default_item"
-			"item_name"		"#DOTA_Wearable_Tidehunter_DefaultWeapon"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
+			"item_name"		"#DOTA_Item_Tidehunters_Anchor"
 			"model_player"		"models/heroes/tidehunter/tidehunter_anchor.mdl"
 			"used_by_heroes"
 			{
@@ -840,11 +794,11 @@
 		}
 		"37"
 		{
-			"name"		"Tidehunter's Default OffHandWeapon"
+			"name"		"Tidehunter's Lunch"
 			"prefab"		"dota_default_item"
-			"item_name"		"#DOTA_Wearable_Tidehunter_Default_OffHandWeapon"
+			"item_type_name"		"#DOTA_WearableType_Fish_Treat"
+			"item_name"		"#DOTA_Item_Tidehunters_Lunch"
 			"item_slot"		"offhand_weapon"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
 			"model_player"		"models/heroes/tidehunter/tidehunter_fish.mdl"
 			"used_by_heroes"
 			{
@@ -857,7 +811,6 @@
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Cape"
 			"item_slot"		"back"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
 			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_cape.mdl"
 			"used_by_heroes"
 			{
@@ -870,7 +823,6 @@
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Shoulder_Pads"
 			"item_slot"		"shoulder"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
 			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_shoulders.mdl"
 			"used_by_heroes"
 			{
@@ -882,7 +834,6 @@
 			"name"		"CrystalMaiden's Default Weapon"
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Weapon"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
 			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_staff.mdl"
 			"used_by_heroes"
 			{
@@ -895,7 +846,6 @@
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Boots_and_Cuffs"
 			"item_slot"		"arms"
-			"image_inventory"		"econ/heroes/furion/furion_necklace"
 			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_bootscuffs.mdl"
 			"used_by_heroes"
 			{
@@ -910,7 +860,6 @@
 			"item_name"		"#DOTA_Item_Omniknights_Shoulders"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Omniknights_Shoulders"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/omniknight/shoulder.mdl"
 			"used_by_heroes"
 			{
@@ -925,7 +874,6 @@
 			"item_name"		"#DOTA_Item_Omniknights_Cape"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Omniknights_Cape"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/omniknight/cape.mdl"
 			"used_by_heroes"
 			{
@@ -938,7 +886,6 @@
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Item_Omniknights_Weapon"
 			"item_description"		"#DOTA_Item_Desc_Omniknights_Hammer"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/omniknight/hammer.mdl"
 			"used_by_heroes"
 			{
@@ -953,7 +900,6 @@
 			"item_name"		"#DOTA_Item_Omniknights_Head"
 			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Omniknights_Head"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/omniknight/head.mdl"
 			"used_by_heroes"
 			{
@@ -968,7 +914,6 @@
 			"item_name"		"#DOTA_Item_Omniknights_Hair"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Omniknights_Hair"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/omniknight/hair.mdl"
 			"used_by_heroes"
 			{
@@ -982,7 +927,6 @@
 			"item_type_name"		"#DOTA_WearableType_Meathook"
 			"item_name"		"#DOTA_Item_Pudges_Rusty_Meathook"
 			"item_description"		"#DOTA_Item_Desc_Rusty_Meathook"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_pudge"		"1"
@@ -997,7 +941,6 @@
 			"item_name"		"#DOTA_Item_Invokers_Cape"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Invokers_Cape"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -1011,7 +954,6 @@
 			"item_type_name"		"#DOTA_WearableType_bracer"
 			"item_name"		"#DOTA_Item_Prophets_Bracers"
 			"item_slot"		"arms"
-			"image_inventory"		"econ/heroes/furion/furion_bracer"
 			"model_player"		"models/heroes/furion/furion_bracer.mdl"
 			"used_by_heroes"
 			{
@@ -1025,7 +967,6 @@
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Item_Bounty_Hunters_Weapon"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -1040,7 +981,6 @@
 			"item_name"		"#DOTA_Item_Bounty_Hunters_Offhand_Weapon"
 			"item_slot"		"offhand_weapon"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_RWeapon"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -1055,7 +995,6 @@
 			"item_name"		"#DOTA_Item_Bounty_Hunters_Back"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_LWeapon"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -1070,7 +1009,6 @@
 			"item_name"		"#DOTA_Item_Armor"
 			"item_slot"		"armor"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Backpack"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -1085,7 +1023,6 @@
 			"item_name"		"#DOTA_Item_Bounty_Hunters_Shoulder"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Armor"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -1100,7 +1037,6 @@
 			"item_name"		"#DOTA_Item_Bounty_Hunters_Bandana"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_BWeapon"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -1114,7 +1050,6 @@
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Item_Clinkz_Skull"
 			"item_slot"		"body_head"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/clinkz/clinkz_head.mdl"
 			"item_description"		"#DOTA_Item_Desc_Clinkz_Skull"
 			"used_by_heroes"
@@ -1128,7 +1063,6 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Bow"
 			"item_name"		"#DOTA_Item_Clinkz_Bow"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/clinkz/clinkz_bow.mdl"
 			"item_description"		"#DOTA_Item_Desc_Clinkz_Bow"
 			"used_by_heroes"
@@ -1143,7 +1077,6 @@
 			"item_type_name"		"#DOTA_WearableType_ShoulderPads"
 			"item_name"		"#DOTA_Item_Clinkz_Shoulder_Pads"
 			"item_slot"		"shoulder"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/clinkz/clinkz_pads.mdl"
 			"item_description"		"#DOTA_Item_Desc_Clinkz_Shoulder_Pads"
 			"used_by_heroes"
@@ -1158,7 +1091,6 @@
 			"item_type_name"		"#DOTA_WearableType_Quiver"
 			"item_name"		"#DOTA_Item_Clinkz_Quiver"
 			"item_slot"		"back"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/clinkz/clinkz_back.mdl"
 			"item_description"		"#DOTA_Item_Desc_Clinkz_Quiver"
 			"used_by_heroes"
@@ -1173,7 +1105,6 @@
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Item_Clinkz_Horns"
 			"item_slot"		"head"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/clinkz/clinkz_horns.mdl"
 			"item_description"		"#DOTA_Item_Desc_Clinkz_Horns"
 			"used_by_heroes"
@@ -1188,7 +1119,6 @@
 			"item_type_name"		"#DOTA_WearableType_Gloves"
 			"item_name"		"#DOTA_Item_Clinkz_Gloves"
 			"item_slot"		"gloves"
-			"image_inventory"		"econ/heroes/faceless_void/faceless_void_weapon"
 			"model_player"		"models/heroes/clinkz/clinkz_gloves.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Clinkz_Skull"
 			"used_by_heroes"
@@ -1203,7 +1133,6 @@
 			"item_type_name"		"#DOTA_WearableType_Legs"
 			"item_name"		"#DOTA_Wearable_Jugg_DefaultLegs"
 			"item_slot"		"legs"
-			"image_inventory"		"econ/heroes/juggernaut/juggernaut_pants"
 			"model_player"		"models/heroes/juggernaut/juggernaut_pants.mdl"
 			"used_by_heroes"
 			{
@@ -1217,7 +1146,6 @@
 			"item_type_name"		"#DOTA_WearableType_head"
 			"item_name"		"#DOTA_Item_Dragon_Knights_Helmet"
 			"item_slot"		"head"
-			"image_inventory"		"econ/heroes/dragon_knight/helmet"
 			"model_player"		"models/heroes/dragon_knight/helmet.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Juggernauts_Legs"
 			"used_by_heroes"
@@ -1232,7 +1160,6 @@
 			"item_type_name"		"#DOTA_WearableType_shoulder"
 			"item_name"		"#DOTA_Item_Dragon_Knights_Shoulder_Armor"
 			"item_slot"		"shoulder"
-			"image_inventory"		"econ/heroes/dragon_knight/shoulders"
 			"model_player"		"models/heroes/dragon_knight/shoulders.mdl"
 			"item_description"		"#DOTA_Item_Desc_Dragon_Knights_Shoulder_Armor"
 			"used_by_heroes"
@@ -1247,7 +1174,6 @@
 			"item_type_name"		"#DOTA_WearableType_bracer"
 			"item_name"		"#DOTA_Item_Dragon_Knights_Bracers"
 			"item_slot"		"arms"
-			"image_inventory"		"econ/heroes/dragon_knight/bracers"
 			"model_player"		"models/heroes/dragon_knight/bracers.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dragon_Knights_Shoulder_Armor"
 			"used_by_heroes"
@@ -1261,7 +1187,6 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_weapon"
 			"item_name"		"#DOTA_Item_Dragon_Knights_Weapon"
-			"image_inventory"		"econ/heroes/dragon_knight/weapon"
 			"model_player"		"models/heroes/dragon_knight/weapon.mdl"
 			"item_description"		"#DOTA_Item_Desc_Dragon_Knights_Weapon"
 			"used_by_heroes"
@@ -1276,7 +1201,6 @@
 			"item_type_name"		"#DOTA_WearableType_offhand"
 			"item_name"		"#DOTA_Item_Dragon_Knights_Offhand"
 			"item_slot"		"offhand_weapon"
-			"image_inventory"		"econ/heroes/dragon_knight/shield"
 			"model_player"		"models/heroes/dragon_knight/shield.mdl"
 			"item_description"		"#DOTA_Item_Desc_Dragon_Knights_Offhand"
 			"used_by_heroes"
@@ -1291,7 +1215,6 @@
 			"item_type_name"		"#DOTA_WearableType_back"
 			"item_name"		"#DOTA_Item_Dragon_Knights_Skirt"
 			"item_slot"		"back"
-			"image_inventory"		"econ/heroes/dragon_knight/skirt"
 			"model_player"		"models/heroes/dragon_knight/skirt.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dragon_Knights_Offhand"
 			"used_by_heroes"
@@ -1305,7 +1228,6 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_weapon"
 			"item_name"		"#DOTA_Item_Blood_Seekers_Weapon"
-			"image_inventory"		"econ/heroes/blood_seeker/weapon"
 			"model_player"		"models/heroes/blood_seeker/weapon.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dragon_Knights_Skirt"
 			"used_by_heroes"
@@ -1321,7 +1243,6 @@
 			"item_name"		"#DOTA_Item_Blood_Seekers_Headdress"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Blood_Seekers_Headdress"
-			"image_inventory"		"econ/heroes/blood_seeker/helmet"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bloodseeker"		"1"
@@ -1336,7 +1257,6 @@
 			"item_name"		"#DOTA_Item_Blood_Seekers_Offhand_Weapon"
 			"item_slot"		"offhand_weapon"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Headdress"
-			"image_inventory"		"econ/heroes/blood_seeker/weapon_offhand"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bloodseeker"		"1"
@@ -1351,7 +1271,6 @@
 			"item_name"		"#DOTA_Item_Blood_Seekers_Necklace"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Offhand_Weapon"
-			"image_inventory"		"econ/heroes/blood_seeker/neck"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bloodseeker"		"1"
@@ -1366,7 +1285,6 @@
 			"item_name"		"#DOTA_Item_Blood_Seekers_Cape"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Necklace"
-			"image_inventory"		"econ/heroes/blood_seeker/cape"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bloodseeker"		"1"
@@ -1381,7 +1299,6 @@
 			"item_name"		"#DOTA_Item_Blood_Seekers_Bracers"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Cape"
-			"image_inventory"		"econ/heroes/blood_seeker/bracer"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bloodseeker"		"1"
@@ -1396,7 +1313,6 @@
 			"item_name"		"#DOTA_Item_Drows_Bracers"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Bracers"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/drow/drow_bracers.mdl"
 			"used_by_heroes"
 			{
@@ -1411,7 +1327,6 @@
 			"item_name"		"#DOTA_Item_Drows_Cape"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Bracers"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/drow/drow_cape.mdl"
 			"used_by_heroes"
 			{
@@ -1425,7 +1340,6 @@
 			"item_type_name"		"#DOTA_WearableType_weapon"
 			"item_name"		"#DOTA_Item_Drows_Bow"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Cape"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/drow/drow_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -1440,7 +1354,6 @@
 			"item_name"		"#DOTA_Item_Drows_Leg_Armor"
 			"item_slot"		"legs"
 			"item_description"		"#DOTA_Item_Desc_Drows_Leg_Armor"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/drow/drow_legs.mdl"
 			"used_by_heroes"
 			{
@@ -1455,7 +1368,6 @@
 			"item_name"		"#DOTA_Item_Drows_Quiver"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Leg_Armor"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/drow/drow_quiver.mdl"
 			"used_by_heroes"
 			{
@@ -1470,7 +1382,6 @@
 			"item_name"		"#DOTA_Item_Drows_Shoulder_Armor"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Quiver"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/drow/drow_shoulders.mdl"
 			"used_by_heroes"
 			{
@@ -1484,7 +1395,6 @@
 			"item_type_name"		"#DOTA_WearableType_belt"
 			"item_name"		"#DOTA_Item_Kunkkas_Spyglass"
 			"item_slot"		"belt"
-			"image_inventory"		"econ/heroes/kunkka/kunkka_spyglass"
 			"model_player"		"models/heroes/kunkka/kunkka_spyglass.mdl"
 			"used_by_heroes"
 			{
@@ -1499,7 +1409,6 @@
 			"item_type_name"		"#DOTA_WearableType_back"
 			"item_name"		"#DOTA_Item_Queen_of_Pains_Wings"
 			"item_slot"		"back"
-			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
 			"model_player"		"models/heroes/QueenOfPain/wings.mdl"
 			"used_by_heroes"
 			{
@@ -1514,7 +1423,6 @@
 			"item_type_name"		"#DOTA_WearableType_shoulder"
 			"item_name"		"#DOTA_Item_Queen_of_Pains_Armor"
 			"item_slot"		"shoulder"
-			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
 			"model_player"		"models/heroes/QueenOfPain/shoulders.mdl"
 			"used_by_heroes"
 			{
@@ -1529,7 +1437,6 @@
 			"item_type_name"		"#DOTA_WearableType_head"
 			"item_name"		"#DOTA_Item_Queen_of_Pains_Hair"
 			"item_slot"		"head"
-			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
 			"model_player"		"models/heroes/QueenOfPain/hair.mdl"
 			"used_by_heroes"
 			{
@@ -1544,7 +1451,6 @@
 			"item_type_name"		"#DOTA_WearableType_head"
 			"item_name"		"#DOTA_Item_Ursas_Helmet"
 			"item_slot"		"head"
-			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
 			"model_player"		"models/heroes/Ursa/helmet.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Queen_of_Pains_Hair"
 			"used_by_heroes"
@@ -1559,7 +1465,6 @@
 			"item_type_name"		"#DOTA_WearableType_back"
 			"item_name"		"#DOTA_Item_Ursas_Fur"
 			"item_slot"		"back"
-			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
 			"model_player"		"models/heroes/Ursa/fur.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Ursas_Helmet"
 			"used_by_heroes"
@@ -1574,7 +1479,6 @@
 			"item_type_name"		"#DOTA_WearableType_arms"
 			"item_name"		"#DOTA_Item_Ursas_Bracers"
 			"item_slot"		"arms"
-			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
 			"model_player"		"models/heroes/Ursa/bracers.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Ursas_Fur"
 			"used_by_heroes"
@@ -1589,7 +1493,6 @@
 			"item_type_name"		"#DOTA_WearableType_belt"
 			"item_name"		"#DOTA_Item_Ursas_Skirt"
 			"item_slot"		"belt"
-			"image_inventory"		"econ/heroes/queenofpain/queenofpain_weapon"
 			"model_player"		"models/heroes/Ursa/skirt.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Ursas_Bracers"
 			"used_by_heroes"
@@ -1605,7 +1508,6 @@
 			"item_name"		"#DOTA_Item_Invokers_Shoulder"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -1620,7 +1522,6 @@
 			"item_name"		"#DOTA_Item_Facelesss_Head"
 			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
@@ -1635,7 +1536,6 @@
 			"item_name"		"#DOTA_Item_Facelesss_Shoulder"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
@@ -1650,7 +1550,6 @@
 			"item_name"		"#DOTA_Item_Facelesss_Bracer"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
@@ -1665,7 +1564,6 @@
 			"item_name"		"#DOTA_Item_Facelesss_Belt"
 			"item_slot"		"belt"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
@@ -1680,7 +1578,6 @@
 			"item_name"		"#DOTA_Item_Witch_Doctors_Head"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_witch_doctor"		"1"
@@ -1695,7 +1592,6 @@
 			"item_name"		"#DOTA_Item_Witch_Doctors_Bag"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_witch_doctor"		"1"
@@ -1710,7 +1606,6 @@
 			"item_name"		"#DOTA_Item_Witch_Doctors_Belt"
 			"item_slot"		"belt"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_witch_doctor"		"1"
@@ -1724,7 +1619,6 @@
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Witch_Doctors_Staff"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_witch_doctor"		"1"
@@ -1739,7 +1633,6 @@
 			"item_name"		"#DOTA_Item_Invokers_Head"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -1754,7 +1647,6 @@
 			"item_name"		"#DOTA_Item_Invokers_Hair"
 			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -1769,7 +1661,6 @@
 			"item_name"		"#DOTA_Item_Invokers_Bracer"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -1784,7 +1675,6 @@
 			"item_name"		"#DOTA_Item_Broodmothers_Hair"
 			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_broodmother"		"1"
@@ -1799,7 +1689,6 @@
 			"item_name"		"#DOTA_Item_Broodmothers_Legs"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_broodmother"		"1"
@@ -1814,7 +1703,6 @@
 			"item_name"		"#DOTA_Item_Broodmothers_Abdomen"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_broodmother"		"1"
@@ -1823,12 +1711,11 @@
 		}
 		"104"
 		{
-			"name"		"Meepo weapon"
+			"name"		"Meepo's Weapon"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_weapon"
-			"item_name"		"#DOTA_Item_Meepo_weapon"
+			"item_name"		"#DOTA_Item_Meepos_Weapon"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_meepo"		"1"
@@ -1837,12 +1724,11 @@
 		}
 		"105"
 		{
-			"name"		"Ogremagi weapon"
+			"name"		"Ogremagi's Weapon"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Ogremagi_weapon"
+			"item_name"		"#DOTA_Item_Ogremagis_Weapon"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_weapon"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"model_player"		"models/heroes/ogre_magi/ogre_magi_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -1857,7 +1743,6 @@
 			"item_name"		"#DOTA_Item_Spirit_Breakers_Head"
 			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Spirit_Breakers_Head"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_spirit_breaker"		"1"
@@ -1871,7 +1756,6 @@
 			"item_type_name"		"#DOTA_WearableType_head"
 			"item_name"		"#DOTA_Item_Lone_Druids_Hair"
 			"item_description"		"#DOTA_Item_Desc_head"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_lone_druid"		"1"
@@ -1886,7 +1770,6 @@
 			"item_name"		"#DOTA_Item_Lone_Druids_Shoulder_Armor"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Lone_Druids_Shoulder_Armor"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_lone_druid"		"1"
@@ -1901,7 +1784,6 @@
 			"item_name"		"#DOTA_Item_Lone_Druids_Bracers"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Lone_Druids_Bracers"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_lone_druid"		"1"
@@ -1916,7 +1798,6 @@
 			"item_name"		"#DOTA_Item_Lone_Druids_Poncho"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Lone_Druids_Poncho"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_lone_druid"		"1"
@@ -1931,7 +1812,6 @@
 			"item_name"		"#DOTA_Item_Spirit_Breakers_Horns"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Spirit_Breakers_Head"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_spirit_breaker"		"1"
@@ -1946,7 +1826,6 @@
 			"item_name"		"#DOTA_Item_Spirit_Breakers_Shoulder_Armor"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Spirit_Breakers_Horns"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_spirit_breaker"		"1"
@@ -1959,7 +1838,6 @@
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Item_Spirit_Breakers_Mace"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Spirit_Breakers_Shoulder_Armor"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_spirit_breaker"		"1"
@@ -1974,7 +1852,6 @@
 			"item_name"		"#DOTA_Item_Spirit_Breakers_Tail"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Spirit_Breakers_Mace"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_spirit_breaker"		"1"
@@ -1989,7 +1866,6 @@
 			"item_name"		"#DOTA_Item_Spirit_Breakers_Bracers"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Spirit_Breakers_Tail"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_spirit_breaker"		"1"
@@ -2004,7 +1880,6 @@
 			"item_name"		"#DOTA_Item_Spirit_Breakers_Lower_Armor"
 			"item_slot"		"belt"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Spirit_Breakers_Bracers"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_spirit_breaker"		"1"
@@ -2019,7 +1894,6 @@
 			"item_name"		"#DOTA_Item_Alchemists_Goblin_Body"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
@@ -2033,7 +1907,6 @@
 			"item_type_name"		"#DOTA_WearableType_New_Item"
 			"item_name"		"#DOTA_Item_Alchemists_Weapon"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
@@ -2048,7 +1921,6 @@
 			"item_name"		"#DOTA_Item_Alchemists_Saddle"
 			"item_slot"		"armor"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
@@ -2063,7 +1935,6 @@
 			"item_name"		"#DOTA_Item_Alchemists_Gauntlet"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
@@ -2078,7 +1949,6 @@
 			"item_name"		"#DOTA_Item_Alchemists_Goblin_Hat"
 			"item_slot"		"neck"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
@@ -2093,7 +1963,6 @@
 			"item_name"		"#DOTA_Item_Alchemists_Left_Bottle"
 			"item_slot"		"offhand_weapon"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
@@ -2108,7 +1977,6 @@
 			"item_name"		"#DOTA_Item_Alchemists_Goblin_Head"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
@@ -2117,13 +1985,12 @@
 		}
 		"124"
 		{
-			"name"		"Alchemist's Head"
+			"name"		"Alchemist's Ogre Head"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Alchemists_Head"
+			"item_type_name"		"#DOTA_WearableType_New_Item"
+			"item_name"		"#DOTA_Item_Alchemists_Ogre_Head"
 			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
@@ -2138,12 +2005,115 @@
 			"item_name"		"#DOTA_Item_Alchemists_Shoulder_Bottle"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_alchemist"		"1"
 			}
 			"model_player"		"models/heroes/alchemist/alchemist_shoulderbottles.mdl"
+		}
+		"126"
+		{
+			"name"		"Phantom Lancer's Legs"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Phantom_Lancers_Legs"
+			"item_slot"		"legs"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Legs"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_lancer"		"1"
+			}
+			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_legs.mdl"
+		}
+		"127"
+		{
+			"name"		"Phantom Lancer's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Phantom_Lancers_Head"
+			"item_slot"		"head"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Head"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_lancer"		"1"
+			}
+			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_head.mdl"
+		}
+		"128"
+		{
+			"name"		"Phantom Lancer's Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Phantom_Lancers_Belt"
+			"item_slot"		"belt"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Belt"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_lancer"		"1"
+			}
+			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_belt.mdl"
+		}
+		"129"
+		{
+			"name"		"Phantom Lancer's Gauntlet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Phantom_Lancers_Gauntlet"
+			"item_slot"		"arms"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Gauntlet"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_lancer"		"1"
+			}
+			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_gauntlet.mdl"
+		}
+		"130"
+		{
+			"name"		"Phantom Lancer's Shoulderpad"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Phantom_Lancers_Shoulderpad"
+			"item_slot"		"shoulder"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Shoulderpad"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_lancer"		"1"
+			}
+			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_shoulderpad.mdl"
+		}
+		"131"
+		{
+			"name"		"Phantom Lancer's Necklace"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Phantom_Lancers_Necklace"
+			"item_slot"		"neck"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Necklace"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_lancer"		"1"
+			}
+			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_necklace.mdl"
+		}
+		"132"
+		{
+			"name"		"Phantom Lancer's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Phantom_Lancers_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Weapon"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_lancer"		"1"
+			}
+			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_weapon.mdl"
 		}
 		"9999"
 		{
