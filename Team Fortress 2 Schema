@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.867644b13c5f4d587a6189ac15db222ea803225c.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.b15236efd2954c19dcce66036eb22e58f0006b1f.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -21800,6 +21800,41 @@
 				
 			},
 			{
+				"name": "Store Purchase Promotion Package",
+				"defindex": 729,
+				"item_class": "tf_wearable",
+				"item_type_name": "Package",
+				"item_name": "Mann Co. Store Package",
+				"item_description": "This bag contains one free item from the Mann Co. store! You can open it from your backpack!",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/shopping_bag",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/shopping_bag.10340a6535442192a73ae9203e6cb735a578866b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/shopping_bag_large.6d24af978d17fc1ebd49bb3fa0da9e9d74ab1d91.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "gift"
+				},
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "The Teufort Tooth Kicker",
 				"defindex": 734,
 				"item_class": "tf_wearable",
@@ -22146,6 +22181,132 @@
 				,
 				"used_by_classes": [
 					"Sniper"
+				]
+				
+			},
+			{
+				"name": "The Front Runner",
+				"defindex": 760,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Front Runner",
+				"item_description": "This commemorative sweatband is a loving tribute to the heroes – and we don't use that word lightly – who live their lives like sweaty candles in the wind.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/scout_headband.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/scout_headband",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_headband.96e27a26260754a526ead32923135fe544fa40ad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_headband_large.08a093b32a755783fe5723695da35d5d229fdf47.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Stylin'"
+					},
+					{
+						"name": "Indifferent"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Triclops",
+				"defindex": 761,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Triclops",
+				"item_description": "Fool your enemies into thinking you can see better! Here's the trick: You won't be able to see at all!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/smnc_pyro.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/smnc_pyro",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smnc_pyro.08312f905d934143dc032bc9de19a0d91db48d76.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smnc_pyro_large.5b761edae248381fa4010101b13df9004d206a3a.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Roasting"
+					},
+					{
+						"name": "Blazing"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Flamingo Kid",
+				"defindex": 762,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Flamingo Kid",
+				"item_description": "Are you man enough to wear this brightly colored cowboy hat? Just in case you're not, we slapped a half-a-skull on it to ease you into the exciting new world of wearing this hat.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/smnc_sniper.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/smnc_sniper",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smnc_sniper.a44807c9e2cf8f68903e2909b43d50760051a838.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smnc_sniper_large.8396e93eeb5bf79a1d670e7794e8777d25bf61c8.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -27463,6 +27624,843 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 32.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place North American Platinum Season 6",
+				"defindex": 8000,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place North American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstplatinum.7856b34277d7c9eb9cafed6bd609d07a955a6f37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstplatinum_large.78495f6f5ab66e75636c3f0d794cdc7ec0ba1028.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place North American Platinum Season 6",
+				"defindex": 8001,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place North American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondplatinum.e76209dab505d46b17556efd6f2d0113915f8f71.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondplatinum_large.899e4cfd87eecbe6b8e1160aa705c49bb3eb7a40.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place North American Platinum Season 6",
+				"defindex": 8002,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place North American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdplatinum.910df907b7bbfface5116402f14196e3a44a6409.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdplatinum_large.11eedc8309e3ca7663aaf0a88ac6fcdc9dc16b80.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place European Platinum Season 6",
+				"defindex": 8003,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place European Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstplatinum.7856b34277d7c9eb9cafed6bd609d07a955a6f37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstplatinum_large.78495f6f5ab66e75636c3f0d794cdc7ec0ba1028.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place European Platinum Season 6",
+				"defindex": 8004,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place European Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondplatinum.e76209dab505d46b17556efd6f2d0113915f8f71.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondplatinum_large.899e4cfd87eecbe6b8e1160aa705c49bb3eb7a40.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place European Platinum Season 6",
+				"defindex": 8005,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place European Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdplatinum.910df907b7bbfface5116402f14196e3a44a6409.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdplatinum_large.11eedc8309e3ca7663aaf0a88ac6fcdc9dc16b80.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place South American Platinum Season 6",
+				"defindex": 8006,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place South American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstplatinum.7856b34277d7c9eb9cafed6bd609d07a955a6f37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstplatinum_large.78495f6f5ab66e75636c3f0d794cdc7ec0ba1028.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place South American Platinum Season 6",
+				"defindex": 8007,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place South American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondplatinum.e76209dab505d46b17556efd6f2d0113915f8f71.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondplatinum_large.899e4cfd87eecbe6b8e1160aa705c49bb3eb7a40.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place South American Platinum Season 6",
+				"defindex": 8008,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place South American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdplatinum.910df907b7bbfface5116402f14196e3a44a6409.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdplatinum_large.11eedc8309e3ca7663aaf0a88ac6fcdc9dc16b80.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place North American Silver Season 6",
+				"defindex": 8009,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place North American Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstsilver.b0eec49e5d1967ec59356d1c117c6a3e872b26ec.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstsilver_large.250550ba46f6dc3502021551cafe040fc52f0e44.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place North American Silver Season 6",
+				"defindex": 8010,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place North American Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsilver.bcf0418d44f323dcbc777a0c23a5602474f03d54.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsilver_large.05e98a8b53f482413339d6d7783721b94aec3226.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place North American Silver Season 6",
+				"defindex": 8011,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place North American Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsilver.5040bce451b8083b6a23d9d1ea29fbd0b9c5e3ad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsilver_large.1096b2b573c475f502b2d57bba26556986e5a319.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place European Silver Season 6",
+				"defindex": 8012,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place European Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstsilver.b0eec49e5d1967ec59356d1c117c6a3e872b26ec.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firstsilver_large.250550ba46f6dc3502021551cafe040fc52f0e44.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place European Silver Season 6",
+				"defindex": 8013,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place European Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsilver.bcf0418d44f323dcbc777a0c23a5602474f03d54.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsilver_large.05e98a8b53f482413339d6d7783721b94aec3226.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place European Silver Season 6",
+				"defindex": 8014,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place European Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsilver.5040bce451b8083b6a23d9d1ea29fbd0b9c5e3ad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsilver_large.1096b2b573c475f502b2d57bba26556986e5a319.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place North American Steel Season 6",
+				"defindex": 8015,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place North American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firststeel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firststeel.bc87fc6a4a68c95277d3cd5ec1a04062d9a04c3a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firststeel_large.f3f730614be44a4c9342a43c9cd1cd941c7dd4a7.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place North American Steel Season 6",
+				"defindex": 8016,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place North American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsteel.6e5c88ed7e203c46dfb1ffd67898b8dcd5a457e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsteel_large.0f215552319c6b509d34cd77e0e4827c236b013a.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place North American Steel Season 6",
+				"defindex": 8017,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place North American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsteel.0e8f08a78be46e2789eeb87d79e1b858264dc9c8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsteel_large.7aefab0f854201b0287dafd0ff63d0152e74d6e2.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place European Steel Season 6",
+				"defindex": 8018,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place European Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firststeel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firststeel.bc87fc6a4a68c95277d3cd5ec1a04062d9a04c3a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firststeel_large.f3f730614be44a4c9342a43c9cd1cd941c7dd4a7.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place European Steel Season 6",
+				"defindex": 8019,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place European Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsteel.6e5c88ed7e203c46dfb1ffd67898b8dcd5a457e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsteel_large.0f215552319c6b509d34cd77e0e4827c236b013a.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place European Steel Season 6",
+				"defindex": 8020,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place European Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsteel.0e8f08a78be46e2789eeb87d79e1b858264dc9c8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsteel_large.7aefab0f854201b0287dafd0ff63d0152e74d6e2.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place South American Steel Season 6",
+				"defindex": 8021,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place South American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firststeel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firststeel.bc87fc6a4a68c95277d3cd5ec1a04062d9a04c3a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6firststeel_large.f3f730614be44a4c9342a43c9cd1cd941c7dd4a7.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place South American Steel Season 6",
+				"defindex": 8022,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place South American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsteel.6e5c88ed7e203c46dfb1ffd67898b8dcd5a457e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6secondsteel_large.0f215552319c6b509d34cd77e0e4827c236b013a.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place South American Steel Season 6",
+				"defindex": 8023,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place South American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsteel.0e8f08a78be46e2789eeb87d79e1b858264dc9c8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6thirdsteel_large.7aefab0f854201b0287dafd0ff63d0152e74d6e2.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander Platinum Participant Season 6",
+				"defindex": 8024,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander Platinum Participant",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6participant",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6participantplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6participantplatinum.168a303670610363fe80547cf25314d8cf39d6f3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6participantplatinum_large.c56937403493afa67a3914c07178dead19a69cce.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander Silver Participant Season 6",
+				"defindex": 8025,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander Silver Participant",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6participant",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6participantsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6participantsilver.cae2e7108470e8ed6632e5b6959ff321c30c2dd8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6participantsilver_large.5645e22e620a3ce3168e7e7f62bcb085a2012727.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander Steel Participant Season 6",
+				"defindex": 8026,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander Steel Participant",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6participant",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6participantsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6participantsteel.ecaff1b7dc837438b7bac5ad0a318533f3e804f2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6participantsteel_large.1896c1258a9b392b589adb08528f911934419341.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
 					}
 				]
 				

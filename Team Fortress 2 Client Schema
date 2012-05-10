@@ -20330,837 +20330,6 @@
 			"drop_sound"		"ui/item_cardboard_drop.wav"
 		}
 		
-		"496"
-		{
-			"name"	"TournamentMedal - GWJ Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_GWJ_1st"
-			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
-			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_medal"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"0"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"497"
-		{
-			"name"	"TournamentMedal - GWJ Runnerups"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_GWJ_2nd"
-			"item_description"	"#TF_TournamentMedal_Runnerups_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_run"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"1"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"498"
-		{
-			"name"	"TournamentMedal - GWJ Participants"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_GWJ_3rd"
-			"item_description"	"#TF_TournamentMedal_Participants_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
-			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_part"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"2"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"499"
-		{
-			"name"	"TournamentMedal - ETF2LHL Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_ETF2LHL_1st"
-			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
-			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"0"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"500"
-		{
-			"name"	"TournamentMedal - ETF2LHL 2nd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_ETF2LHL_2nd"
-			"item_description"	"#TF_TournamentMedal_2nd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal_1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"1"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"501"
-		{
-			"name"	"TournamentMedal - ETF2LHL 3rd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_ETF2LHL_3rd"
-			"item_description"	"#TF_TournamentMedal_3rd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal_2"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"2"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"502"
-		{
-			"name"	"TournamentMedal - ETF2LHL Participants"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_ETF2LHL_4th"
-			"item_description"	"#TF_TournamentMedal_Participants_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
-			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/etf2l_highlander_participant.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"503"
-		{
-			"name"	"TournamentMedal - UGCHL Participants"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHL_Participant"
-			"item_description"	"#TF_TournamentMedal_Participants_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_participant"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_participant.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"504"
-		{
-			"name"	"TournamentMedal - UGCHLDiv1 Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_1st"
-			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"0"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"505"
-		{
-			"name"	"TournamentMedal - UGCHLDiv1 2nd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_2nd"
-			"item_description"	"#TF_TournamentMedal_2nd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum_1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"1"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"506"
-		{
-			"name"	"TournamentMedal - UGCHLDiv1 3rd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_3rd"
-			"item_description"	"#TF_TournamentMedal_3rd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum_2"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"2"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"507"
-		{
-			"name"	"TournamentMedal - UGCHLDiv2 Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_1st"
-			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"0"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"508"
-		{
-			"name"	"TournamentMedal - UGCHLDiv2 2nd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_2nd"
-			"item_description"	"#TF_TournamentMedal_2nd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver_1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"1"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"509"
-		{
-			"name"	"TournamentMedal - UGCHLDiv2 3rd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_3rd"
-			"item_description"	"#TF_TournamentMedal_3rd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver_2"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"2"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"510"
-		{
-			"name"	"TournamentMedal - UGCHLDiv3 Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_1st"
-			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"0"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"511"
-		{
-			"name"	"TournamentMedal - UGCHLDiv3 2nd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_2nd"
-			"item_description"	"#TF_TournamentMedal_2nd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron_1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"1"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
-		"512"
-		{
-			"name"	"TournamentMedal - UGCHLDiv3 3rd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_3rd"
-			"item_description"	"#TF_TournamentMedal_3rd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron_2"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"skin"	"2"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
-		}
 		
 		"513"
 		{
@@ -21305,7 +20474,7 @@
 				"sound_single_shot"		"Weapon_QuakeRPG.Single"
 				"sound_burst"			"Weapon_QuakeRPG.SingleCrit"
 				"sound_deploy"			"Weapon_QuakeRPG.Draw"
-				"sound_reload"			"Weapon_QuakeRPG.Reload"
+				"sound_reload"			"Weapon_QuakeRPG.Reload"	
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -28045,274 +27214,8 @@
 				}
 			}
 		}
-
-		"680"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Platinum 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_1st"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"2"
-			}
-		}
-		"681"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Platinum 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_2nd"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"2"
-			}
-		}
-		"682"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Platinum 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_3rd"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"2"
-			}
-		}
-		"683"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Platinum Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_Participant"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"2"
-			}
-		}
-		"684"
-		{		
-			"name"				"UGC Tournament Autumn 2011 - Euro Platinum"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHL_EuroPlatinum"
-			"item_description"	"#TF_TournamentMedal_Autumn2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"2"
-			}
-		}
-		"685"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Silver 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_1st"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"1"
-			}
-		}
-		"686"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Silver 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_2nd"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"1"
-			}
-		}
-		"687"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Silver 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_3rd"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"1"
-			}
-		}
-		"688"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Silver Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_Participant"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"1"
-			}
-		}		
-		"689"
-		{		
-			"name"				"UGC Tournament Autumn 2011 - Euro Silver"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHL_EuroSilver"
-			"item_description"	"#TF_TournamentMedal_Autumn2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"1"
-			}
-		}		
-		"690"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Iron 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_2nd"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}
-		"691"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Iron 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_1st"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}
-		"692"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Iron 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_3rd"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}
-		"693"
-		{		
-			"name"				"UGC Tournament Autumn 2011 - Euro Iron"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHL_EuroIron"
-			"item_description"	"#TF_TournamentMedal_Autumn2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}		
-		"694"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Tin 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_1st"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}
-		"695"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Tin 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_2nd"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}
-		"696"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Tin 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_3rd"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}
-		"697"
-		{		
-			"name"				"UGC Tournament Fall 2011 - Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHL_Participant"
-			"item_description"	"#TF_TournamentMedal_Fall2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}	
-		"698"
-		{		
-			"name"				"UGC Tournament Autumn 2011 - Euro Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
-			"item_name"			"#TF_TournamentMedal_UGCHL_EuroParticipant"
-			"item_description"	"#TF_TournamentMedal_Autumn2011"
-			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
-			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
-			"visuals"
-			{
-				"skin"	"0"
-			}
-		}
 		
+	
 		"699"
 		{
 			"name"	"Something Special For Someone Special"
@@ -28621,17 +27524,6 @@
 			}			
 		}
 		
-		"717"
-		{		
-			"name"				"The Map Maker's Medallion"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_MapperMedal"
-			"item_name"			"#TF_MapperMedal"
-			"item_description"	"#TF_MapperMedal_Desc"
-			"image_inventory"	"backpack/player/items/all_class/mapper_medal"
-			"model_player"	"models/player/items/all_class/mapper_medal.mdl"
-			"propername"	"1"
-		}
 		
 		"718"
 		{
@@ -28900,6 +27792,61 @@
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"			
 		}
 				
+		"729"
+		{
+			"name"	"Store Purchase Promotion Package"
+			"item_class"	"tf_wearable"
+			"tool"
+			{
+				"type"	"gift"
+				"usage"
+				{
+					"loot_list"		"store_promotion_loot_list"
+					"num_items"		"1"
+					"max_recipients"	"1"
+					"target_rule"	"only_self"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"				"1"
+				"usable_out_of_game"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Package_Type"
+			"item_name"	"#TF_StorePromotionPackage"
+			"item_description"	"#TF_StorePromotionPackage_Desc"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/crafting/shopping_bag"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"	"always_tradable"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_paper_pickup.wav"
+			"drop_sound" 		"ui/item_paper_pickup.wav"
+		}
+		
 		"734"
 		{
 			"name"	"The Teufort Tooth Kicker"
@@ -29210,7 +28157,1613 @@
 			}		
 			"item_set"	"hidden_applearrow_set"
 		}
+		"760"
+		{
+			"name"	"The Front Runner"
+			"first_sale_date"	"2012/05/10"
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"can_craft_count" "1"
+				"paintable"	"1"
+			}
+			"item_name"	"#TF_ScoutHeadband"
+			"item_description"	"#TF_ScoutHeadband_Desc"
+			"image_inventory"	"backpack/player/items/scout/scout_headband"
+			"model_player"	"models/player/items/scout/scout_headband.mdl"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}				
+				"styles"
+				{
+					"0"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_ScoutHeadband_Style0"
+						"model_player_per_class"	
+						{
+							"scout"		"models/player/items/scout/scout_headband.mdl"
+						}
+					}
+					"1"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_ScoutHeadband_Style1"
+						"model_player_per_class"	
+						{
+							"scout"		"models/player/items/scout/scout_headband_s01.mdl"
+						}	
+					}
+				}
+			}
+		}
+		"761"
+		{
+			"name"	"The Triclops"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"			"1"
+			}
+			"item_name"	"#TF_SuperMNC_Pyro"
+			"item_description"	"#TF_SuperMNC_Pyro_Desc"
+			"equip_region"	"whole_head"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/pyro/smnc_pyro"
+			"model_player"	"models/player/items/pyro/smnc_pyro.mdl"
+			"used_by_classes"
+			{
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_SuperMNC_Pyro_Style0"
+					}
+					"1"
+					{
+						"skin_red"	"2"
+						"skin_blu"	"3"
+						"name"	"#TF_SuperMNC_Pyro_Style1"
+					}
+				}
+			}
+		}
+		"762"
+		{
+			"name"	"The Flamingo Kid"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+			}
+			"item_name"	"#TF_SuperMNC_Sniper"
+			"item_description"	"#TF_SuperMNC_Sniper_Desc"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"image_inventory"	"backpack/player/items/sniper/smnc_sniper"
+			"model_player"	"models/player/items/sniper/smnc_sniper.mdl"
+			"used_by_classes"
+			{
+				"sniper" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
+			}
+		}				
 
+
+
+
+		"496"
+		{
+			"name"	"TournamentMedal - GWJ Winners"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_GWJ_1st"
+			"item_description"	"#TF_TournamentMedal_Winners_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"25"
+			"max_ilevel"	"25"
+			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_medal"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"497"
+		{
+			"name"	"TournamentMedal - GWJ Runnerups"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_GWJ_2nd"
+			"item_description"	"#TF_TournamentMedal_Runnerups_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_run"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"498"
+		{
+			"name"	"TournamentMedal - GWJ Participants"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_GWJ_3rd"
+			"item_description"	"#TF_TournamentMedal_Participants_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_part"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"2"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"499"
+		{
+			"name"	"TournamentMedal - ETF2LHL Winners"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_ETF2LHL_1st"
+			"item_description"	"#TF_TournamentMedal_Winners_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"25"
+			"max_ilevel"	"25"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"500"
+		{
+			"name"	"TournamentMedal - ETF2LHL 2nd"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_ETF2LHL_2nd"
+			"item_description"	"#TF_TournamentMedal_2nd_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal_1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"501"
+		{
+			"name"	"TournamentMedal - ETF2LHL 3rd"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_ETF2LHL_3rd"
+			"item_description"	"#TF_TournamentMedal_3rd_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal_2"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"2"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"502"
+		{
+			"name"	"TournamentMedal - ETF2LHL Participants"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_ETF2LHL_4th"
+			"item_description"	"#TF_TournamentMedal_Participants_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/etf2l_highlander_participant.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"503"
+		{
+			"name"	"TournamentMedal - UGCHL Participants"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHL_Participant"
+			"item_description"	"#TF_TournamentMedal_Participants_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_participant"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_participant.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"504"
+		{
+			"name"	"TournamentMedal - UGCHLDiv1 Winners"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_1st"
+			"item_description"	"#TF_TournamentMedal_Winners_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"25"
+			"max_ilevel"	"25"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"505"
+		{
+			"name"	"TournamentMedal - UGCHLDiv1 2nd"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_2nd"
+			"item_description"	"#TF_TournamentMedal_2nd_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum_1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"506"
+		{
+			"name"	"TournamentMedal - UGCHLDiv1 3rd"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_3rd"
+			"item_description"	"#TF_TournamentMedal_3rd_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum_2"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"2"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"507"
+		{
+			"name"	"TournamentMedal - UGCHLDiv2 Winners"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_1st"
+			"item_description"	"#TF_TournamentMedal_Winners_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"25"
+			"max_ilevel"	"25"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"508"
+		{
+			"name"	"TournamentMedal - UGCHLDiv2 2nd"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_2nd"
+			"item_description"	"#TF_TournamentMedal_2nd_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver_1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"509"
+		{
+			"name"	"TournamentMedal - UGCHLDiv2 3rd"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_3rd"
+			"item_description"	"#TF_TournamentMedal_3rd_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver_2"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"2"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"510"
+		{
+			"name"	"TournamentMedal - UGCHLDiv3 Winners"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_1st"
+			"item_description"	"#TF_TournamentMedal_Winners_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"25"
+			"max_ilevel"	"25"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"511"
+		{
+			"name"	"TournamentMedal - UGCHLDiv3 2nd"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_2nd"
+			"item_description"	"#TF_TournamentMedal_2nd_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron_1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"512"
+		{
+			"name"	"TournamentMedal - UGCHLDiv3 3rd"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_3rd"
+			"item_description"	"#TF_TournamentMedal_3rd_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron_2"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"skin"	"2"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}		
+		"680"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Platinum 1st Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_1st"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"681"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Platinum 2nd Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_2nd"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"682"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Platinum 3rd Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_3rd"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"683"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Platinum Participant"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_Participant"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"684"
+		{		
+			"name"				"UGC Tournament Autumn 2011 - Euro Platinum"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_EuroPlatinum"
+			"item_description"	"#TF_TournamentMedal_Autumn2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"685"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Silver 1st Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_1st"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"686"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Silver 2nd Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_2nd"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"687"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Silver 3rd Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_3rd"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"688"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Silver Participant"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_Participant"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}		
+		"689"
+		{		
+			"name"				"UGC Tournament Autumn 2011 - Euro Silver"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_EuroSilver"
+			"item_description"	"#TF_TournamentMedal_Autumn2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}		
+		"690"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Iron 2nd Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_2nd"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"691"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Iron 1st Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_1st"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"692"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Iron 3rd Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_3rd"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"693"
+		{		
+			"name"				"UGC Tournament Autumn 2011 - Euro Iron"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_EuroIron"
+			"item_description"	"#TF_TournamentMedal_Autumn2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}		
+		"694"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Tin 1st Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_1st"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"695"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Tin 2nd Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_2nd"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"696"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Tin 3rd Place"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_3rd"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"697"
+		{		
+			"name"				"UGC Tournament Fall 2011 - Participant"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Participant"
+			"item_description"	"#TF_TournamentMedal_Fall2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}	
+		"698"
+		{		
+			"name"				"UGC Tournament Autumn 2011 - Euro Participant"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_EuroParticipant"
+			"item_description"	"#TF_TournamentMedal_Autumn2011"
+			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
+			"model_player"	"models/player/items/all_class/ugc_trophy_medal.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"717"
+		{		
+			"name"				"The Map Maker's Medallion"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_MapperMedal"
+			"item_name"			"#TF_MapperMedal"
+			"item_description"	"#TF_MapperMedal_Desc"
+			"image_inventory"	"backpack/player/items/all_class/mapper_medal"
+			"model_player"	"models/player/items/all_class/mapper_medal.mdl"
+			"propername"	"1"
+		}
+		"8000"
+		{		
+			"name"				"UGC Highlander 1st Place North American Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_1st_NA_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6firstplatinum"
+			"model_player"	"models/player/items/all_class/ugc6first.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8001"
+		{		
+			"name"				"UGC Highlander 2nd Place North American Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_2nd_NA_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6secondplatinum"
+			"model_player"	"models/player/items/all_class/ugc6second.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8002"
+		{		
+			"name"				"UGC Highlander 3rd Place North American Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_3rd_NA_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6thirdplatinum"
+			"model_player"	"models/player/items/all_class/ugc6third.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8003"
+		{		
+			"name"				"UGC Highlander 1st Place European Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_1st_Europe_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6firstplatinum"
+			"model_player"	"models/player/items/all_class/ugc6first.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8004"
+		{		
+			"name"				"UGC Highlander 2nd Place European Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_2nd_Europe_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6secondplatinum"
+			"model_player"	"models/player/items/all_class/ugc6second.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8005"
+		{		
+			"name"				"UGC Highlander 3rd Place European Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_3rd_Europe_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6thirdplatinum"
+			"model_player"	"models/player/items/all_class/ugc6third.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8006"
+		{		
+			"name"				"UGC Highlander 1st Place South American Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_1st_SA_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6firstplatinum"
+			"model_player"	"models/player/items/all_class/ugc6first.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8007"
+		{		
+			"name"				"UGC Highlander 2nd Place South American Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_2nd_SA_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6secondplatinum"
+			"model_player"	"models/player/items/all_class/ugc6second.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8008"
+		{		
+			"name"				"UGC Highlander 3rd Place South American Platinum Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_3rd_SA_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6thirdplatinum"
+			"model_player"	"models/player/items/all_class/ugc6third.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8009"
+		{		
+			"name"				"UGC Highlander 1st Place North American Silver Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_1st_NA_Silver"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6firstsilver"
+			"model_player"	"models/player/items/all_class/ugc6first.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8010"
+		{		
+			"name"				"UGC Highlander 2nd Place North American Silver Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_2nd_NA_Silver"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6secondsilver"
+			"model_player"	"models/player/items/all_class/ugc6second.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8011"
+		{		
+			"name"				"UGC Highlander 3rd Place North American Silver Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_3rd_NA_Silver"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsilver"
+			"model_player"	"models/player/items/all_class/ugc6third.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8012"
+		{		
+			"name"				"UGC Highlander 1st Place European Silver Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_1st_Europe_Silver"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6firstsilver"
+			"model_player"	"models/player/items/all_class/ugc6first.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8013"
+		{		
+			"name"				"UGC Highlander 2nd Place European Silver Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_2nd_Europe_Silver"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6secondsilver"
+			"model_player"	"models/player/items/all_class/ugc6second.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8014"
+		{		
+			"name"				"UGC Highlander 3rd Place European Silver Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_3rd_Europe_Silver"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsilver"
+			"model_player"	"models/player/items/all_class/ugc6third.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8015"
+		{		
+			"name"				"UGC Highlander 1st Place North American Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_1st_NA_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6firststeel"
+			"model_player"	"models/player/items/all_class/ugc6first.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8016"
+		{		
+			"name"				"UGC Highlander 2nd Place North American Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_2nd_NA_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6secondsteel"
+			"model_player"	"models/player/items/all_class/ugc6second.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8017"
+		{		
+			"name"				"UGC Highlander 3rd Place North American Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_3rd_NA_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsteel"
+			"model_player"	"models/player/items/all_class/ugc6third.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8018"
+		{		
+			"name"				"UGC Highlander 1st Place European Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_1st_Europe_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6firststeel"
+			"model_player"	"models/player/items/all_class/ugc6first.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8019"
+		{		
+			"name"				"UGC Highlander 2nd Place European Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_2nd_Europe_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6secondsteel"
+			"model_player"	"models/player/items/all_class/ugc6second.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8020"
+		{		
+			"name"				"UGC Highlander 3rd Place European Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_3rd_Europe_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsteel"
+			"model_player"	"models/player/items/all_class/ugc6third.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8021"
+		{		
+			"name"				"UGC Highlander 1st Place South American Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_1st_SA_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6firststeel"
+			"model_player"	"models/player/items/all_class/ugc6first.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8022"
+		{		
+			"name"				"UGC Highlander 2nd Place South American Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_2nd_SA_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6secondsteel"
+			"model_player"	"models/player/items/all_class/ugc6second.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8023"
+		{		
+			"name"				"UGC Highlander 3rd Place South American Steel Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_3rd_SA_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsteel"
+			"model_player"	"models/player/items/all_class/ugc6third.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+ 		"8024"
+		{		
+			"name"				"UGC Highlander Platinum Participant Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_Highlander_Platinum"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6participantplatinum"
+			"model_player"	"models/player/items/all_class/ugc6participant"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8025"
+		{		
+			"name"				"UGC Highlander Silver Participant Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_Highlander_Silver"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6participantsilver"
+			"model_player"	"models/player/items/all_class/ugc6participant"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8026"
+		{		
+			"name"				"UGC Highlander Steel Participant Season 6"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_UGC_Highlander_Steel"
+			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
+			"image_inventory"	"backpack/player/items/all_class/ugc6participantsteel"
+			"model_player"	"models/player/items/all_class/ugc6participant"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
 
 
 
@@ -46587,6 +47140,17 @@
 			"DefIndex"		"756"
 		}		
 		
+		"TF2Crossover_Achievement_1"		
+		{
+			"SourceAppID"	"104700"
+			"DefIndex"		"762"
+		}
+		
+		"TF2Crossover_Achievement_4"		
+		{
+			"SourceAppID"	"104700"
+			"DefIndex"		"761"
+		}			
 	}
 	"attribute_controlled_attached_particles"
 	{
