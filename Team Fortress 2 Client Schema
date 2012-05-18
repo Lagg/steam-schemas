@@ -28274,7 +28274,98 @@
 				}
 			}
 		}				
-
+		"763"
+		{
+			"name"	"The Sneaky Spats of Sneaking"
+			"first_sale_date"	"2012/05/17"
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"paintable"	"1"
+				"can_craft_count" "1"
+			}			
+			"item_slot"	"misc"
+			"equip_region"	"feet"
+			"item_type_name"	"#TF_Wearable_Shoes"
+			"item_name"	"#TF_SpySpats"
+			"item_description"	"#TF_SpySpats_Desc"
+			"image_inventory"	"backpack/player/items/spy/spy_spats"
+			"model_player"		"models/player/items/spy/spy_spats.mdl"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+		}
+		"764"
+		{
+			"name"	"The Cross-Comm Crash Helmet"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_GRFS_1"
+			"item_description"	"#TF_GRFS_1_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/soldier/grfs_soldier"
+			"model_player"	"models/player/items/soldier/grfs_soldier.mdl"
+			"used_by_classes"
+			{
+				"soldier" "1"
+			}
+		}
+		"765"
+		{
+			"name"	"The Cross-Comm Express"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_GRFS_2"
+			"item_description"	"#TF_GRFS_2_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/scout/grfs_scout"
+			"model_player"	"models/player/items/scout/grfs_scout.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+		}								
+		"766"
+		{
+			"name"	"The Doublecross-Comm"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_GRFS_3"
+			"item_description"	"#TF_GRFS_3_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"beard"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/sniper/grfs_sniper"
+			"model_player_per_class"
+			{
+				"sniper"	"models/player/items/sniper/grfs_sniper.mdl"
+				"spy"		"models/player/items/spy/grfs_spy.mdl"
+			}
+			"used_by_classes"
+			{
+				"sniper"	"1"
+				"spy" "1"
+			}			
+		}				
 
 
 
@@ -33238,7 +33329,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "42"
+					"value" "44"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -33384,7 +33475,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "41"
+					"value" "45"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -34273,6 +34364,58 @@
 			"item_name"	"#TF_StrangePart_HeaviesKilled"
 			"item_description"	"#TF_StrangePart_HeaviesKilled_Desc"
 		}
+		"6001"
+		{
+			"name"	"Strange Part: Demomen Killed"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"13"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_demos_killed"
+			"item_name"	"#TF_StrangePart_DemomenKilled"
+			"item_description"	"#TF_StrangePart_DemomenKilled_Desc"
+		}
+		"6002"
+		{
+			"name"	"Strange Part: Soldiers Killed"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"12"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_soldiers_killed"
+			"item_name"	"#TF_StrangePart_SoldiersKilled"
+			"item_description"	"#TF_StrangePart_SoldiersKilled_Desc"
+		}
 		
 		
 		"6009"
@@ -34406,6 +34549,84 @@
 			"item_description"	"#TF_StrangePart_GibKilled_Desc"
 		}
 
+		"6015"
+		{
+			"name"	"Strange Part: Full Moon Kills"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"27"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_KillDuringFullMoon"
+			"item_name"	"#TF_StrangePart_FullMoonKills"
+			"item_description"	"#TF_StrangePart_FullMoonKills_Desc"
+		}
+		"6016"
+		{
+			"name"	"Strange Part: Domination Kills"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"28"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_KillStartDomination"
+			"item_name"	"#TF_StrangePart_DominationKills"
+			"item_description"	"#TF_StrangePart_DominationKills_Desc"
+		}
+		"6018"
+		{
+			"name"	"Strange Part: Revenge Kills"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"30"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_KillRevenge"
+			"item_name"	"#TF_StrangePart_RevengeKills"
+			"item_description"	"#TF_StrangePart_RevengeKills_Desc"
+		}
 		"6019"
 		{
 			"name"	"Strange Part: Posthumous Kills"
@@ -34457,6 +34678,58 @@
 			"image_inventory"	"backpack/crafting/strange_part_burningallyextinguished"
 			"item_name"	"#TF_StrangePart_AlliesExtinguished"
 			"item_description"	"#TF_StrangePart_AlliesExtinguished_Desc"
+		}
+		"6021"
+		{
+			"name"	"Strange Part: Critical Kills"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_critical_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"33"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_killcritical"
+			"item_name"	"#TF_StrangePart_CriticalKills"
+			"item_description"	"#TF_StrangePart_CriticalKills_Desc"
+		}
+		"6022"
+		{
+			"name"	"Strange Part: Kills While Explosive-Jumping"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_be_equipped_by_soldier_or_demo"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"34"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_KillWhileExplosiveJumping"
+			"item_name"	"#TF_StrangePart_KillsWhileExplosiveJumping"
+			"item_description"	"#TF_StrangePart_KillsWhileExplosiveJumping_Desc"
 		}
 
 
@@ -40020,6 +40293,18 @@
 			"The Detonator"		"1"
 			"The Shortstop"		"1"
 		}
+		"kill_eater_set_mixed_l"
+		{
+			"Upgradeable TF_WEAPON_ROCKETLAUNCHER"		"1"
+			"The Market Gardener"		"1"
+			"The Equalizer"		"1"
+		}
+		"kill_eater_set_mixed_m"
+		{
+			"Upgradeable TF_WEAPON_PIPEBOMBLAUNCHER"		"1"
+			"The Scotsman's Skullcutter"		"1"
+			"The Persian Persuader"		"1"
+		}
 		"supply_crate_loot_list_1"
 		{
 			"The Vita-Saw"		"1"
@@ -40350,6 +40635,24 @@
 			"Berliner's Bucket Helm"		"1"
 			"Coupe D'isaster"		"1"
 		}
+		"supply_crate_loot_list_44"
+		{
+			"kill_eater_set_mixed_l"		"1"
+			"Strange Part: Demomen Killed"		"1"
+			"Strange Part: Revenge Kills"		"1"
+			"Strange Part: Critical Kills"		"1"
+			"The Hat With No Name"		"1"
+			"Stout Shako"		"1"
+		}
+		"supply_crate_loot_list_45"
+		{
+			"kill_eater_set_mixed_m"		"1"
+			"Strange Part: Soldiers Killed"		"1"
+			"Strange Part: Domination Kills"		"1"
+			"Strange Part: Kills While Explosive-Jumping"		"1"
+			"The Tavish DeGroot Experience"		"1"
+			"Rimmed Raincatcher"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -40396,6 +40699,8 @@
 		"supply_crate_loot_list_41" "41" 
 		"supply_crate_loot_list_42" "42" 
 		"supply_crate_loot_list_43"	"43" 
+		"supply_crate_loot_list_44"	"44" 
+		"supply_crate_loot_list_45"	"45" 
 		
 		
 		
@@ -40430,6 +40735,8 @@
 		"kill_eater_set_mixed_i"						"-26"
 		"kill_eater_set_mixed_j"						"-27"
 		"kill_eater_set_mixed_k"						"-28"
+		"kill_eater_set_mixed_l"						"-29"
+		"kill_eater_set_mixed_m"						"-30"
 	}
 	"recipes"
 	{
@@ -47381,6 +47688,7 @@
 	}
 	"item_levels"
 	{
+
 		"KillEaterRank"
 		{
 			"0"
@@ -47812,9 +48120,12 @@
 				"score"		"3000"
 			}
 		}
+
+
 	}
 	"kill_eater_score_types"
 	{
+
 		"0"
 		{
 			"type_name"	"KillEaterEventType_Kills"
@@ -47856,42 +48167,20 @@
 		{
 			"type_name"	"KillEaterEventType_FeignDeaths"
 		}
-		"10"
-		{
-			"type_name"	"KillEaterEventType_Kills"
-		}
-		"11"
-		{
-			"type_name"	"KillEaterEventType_Kills"
-		}
+
 		"12"
 		{
-			"type_name"	"KillEaterEventType_Kills"
+			"type_name"	"KillEaterEventType_SoldiersKilled"
 		}
 		"13"
 		{
-			"type_name"	"KillEaterEventType_Kills"
+			"type_name"	"KillEaterEventType_DemomenKilled"
 		}
 		"14"
 		{
 			"type_name"	"KillEaterEventType_HeaviesKilled"
 		}
-		"15"
-		{
-			"type_name"	"KillEaterEventType_Kills"
-		}
-		"16"
-		{
-			"type_name"	"KillEaterEventType_Kills"
-		}
-		"17"
-		{
-			"type_name"	"KillEaterEventType_Kills"
-		}
-		"18"
-		{
-			"type_name"	"KillEaterEventType_Kills"
-		}
+		
 		"19"
 		{
 			"type_name"	"KillEaterEventType_BuildingsDestroyed"
@@ -47935,11 +48224,11 @@
 		}
 		"28"
 		{
-			"type_name"	"KillEaterEventType_Kills"
+			"type_name"	"KillEaterEventType_StartDominationKills"
 		}
 		"30"
 		{
-			"type_name"	"KillEaterEventType_Kills"
+			"type_name"	"KillEaterEventType_RevengeKills"
 		}
 		"31"
 		{
@@ -47951,15 +48240,14 @@
 		}
 		"33"
 		{
-			"type_name"	"KillEaterEventType_Kills"
+			"type_name"	"KillEaterEventType_CriticalKills"
 		}
 		"34"
 		{
-			"type_name"	"KillEaterEventType_Kills"
+			"type_name"	"KillEaterEventType_KillsWhileExplosiveJumping"
 		}
-		"35"
-		{
-			"type_name"	"KillEaterEventType_Kills"
-		}
+
+
+
 	}
 }

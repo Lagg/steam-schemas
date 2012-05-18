@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.393df619736457732cc26621fc3187615d973481.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.055661ad13420e9bcb16e8335832d8aeb88ed97e.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -22311,6 +22311,154 @@
 				
 			},
 			{
+				"name": "The Sneaky Spats of Sneaking",
+				"defindex": 763,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shoes",
+				"item_name": "Sneaky Spats of Sneaking",
+				"item_description": "Sure, you're in the market for shoes to help you lurk in the shadows. But once you slip on these natty calf leather spatterdashes, you'll want EVERYONE to check you out.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/spy_spats.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/spy_spats",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_spats.53629cf51e2ad167cc47c6a7a67b744ae8cd7aee.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_spats_large.db1cf988c44908927775aa116500b0b79de6d155.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Cross-Comm Crash Helmet",
+				"defindex": 764,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Cross-Comm Crash Helmet",
+				"item_description": "This purely cosmetic battlefield awareness accessory will fool everyone from the lowliest private to the mayor of the army into thinking you're probably in the army too.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/grfs_soldier.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/grfs_soldier",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_soldier.db74e1f826550763b5e9062e2838ea3c5422c2f2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_soldier_large.f6ae17dc9b7b25b69fbfc56949901a58b1d0f71c.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Cross-Comm Express",
+				"defindex": 765,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Cross-Comm Express",
+				"item_description": "This full spectrum battle monocle receives signals from a satellite at light speed, which means you may have to slow down a little so they can catch up to you.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/grfs_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/grfs_scout",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_scout.1fcf6329598d9960d685d2858e4827e13536493d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_scout_large.1028b65d7f8c72286e2025b6e68d619ebddd42b9.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Doublecross-Comm",
+				"defindex": 766,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Doublecross-Comm",
+				"item_description": "This battlefield awareness bandanna is stitched with nanofibers that can download battlefields from Wikipedia straight to your face, so you will never not be aware of them.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/grfs_sniper.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/grfs_sniper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_sniper.3f23c9030b93ec8188fbcda1f501b4a270462f1f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_sniper_large.cce4f907819c8b249d3fb7e17c1f7b4c2fc71da5.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper",
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -25867,7 +26015,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 42.000000
+						"value": 44.000000
 					}
 				]
 				
@@ -26021,7 +26169,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 41.000000
+						"value": 45.000000
 					}
 				]
 				
@@ -27356,6 +27504,84 @@
 				
 			},
 			{
+				"name": "Strange Part: Demomen Killed",
+				"defindex": 6001,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Demomen Killed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon will enable it to track the number of Demomen you kill with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_demos_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_demos_killed.908a65355d8cc1deba03c9198863486dd195ab35.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_demos_killed_large.2362881bdb64c57017cb7a4ff3c5c10226c69228.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 13.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Soldiers Killed",
+				"defindex": 6002,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Soldiers Killed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon will enable it to track the number of Soldiers you kill with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_soldiers_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_soldiers_killed.077cdbd0033c4cade88258f3383b086930e01b37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_soldiers_killed_large.1d50a477dc752c8da20c313441b778a8892d4258.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 12.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Strange Part: Buildings Destroyed",
 				"defindex": 6009,
 				"item_class": "tool",
@@ -27551,6 +27777,123 @@
 				
 			},
 			{
+				"name": "Strange Part: Full Moon Kills",
+				"defindex": 6015,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Full Moon Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill during full moons with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_KillDuringFullMoon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killduringfullmoon.e23132ae743904e609a38392c86c6ba698893666.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killduringfullmoon_large.467899248360003a0a79fdcbdbae9230d74aa7b6.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 27.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Domination Kills",
+				"defindex": 6016,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Domination Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you dominate by killing them with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_KillStartDomination",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killstartdomination.b0d3e992a4a7fb64462e26add69854eb884485d8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killstartdomination_large.dbc7569d49ed8d593b82fa86a9cca08bfb04acc3.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 28.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Revenge Kills",
+				"defindex": 6018,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Revenge Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies dominating you kill with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_KillRevenge",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killrevenge.ecb1445da68d0408df3b784c60dfaba2e11e2547.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killrevenge_large.e45a5ba0757dba13caaad60c56554d4bf83c04ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 30.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Strange Part: Posthumous Kills",
 				"defindex": 6019,
 				"item_class": "tool",
@@ -27624,6 +27967,84 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 32.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Critical Kills",
+				"defindex": 6021,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Critical Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill with critical hits from that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_killcritical",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killcritical.e04510e4511dfe43c6d3c127c91ef2864caf5ad9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killcritical_large.47abb16ea02d105fd244c6dc92f34d124c65b0e2.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Kills While Explosive-Jumping",
+				"defindex": 6022,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Kills While Explosive Jumping",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill with that weapon while airborne from a rocket\/stickyjump.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_KillWhileExplosiveJumping",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killwhileexplosivejumping.8c57b22bc5d895504c52a5558334da55290b5b45.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_killwhileexplosivejumping_large.fd9cbd5e2efdd374b9cb4595eab331966513d59b.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 34.000000
 					}
 				]
 				
@@ -33925,48 +34346,18 @@
 				"level_data": "KillEaterRank"
 			},
 			{
-				"type": 10,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 11,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
 				"type": 12,
-				"type_name": "Kills",
+				"type_name": "Soldiers Killed",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 13,
-				"type_name": "Kills",
+				"type_name": "Demomen Killed",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 14,
 				"type_name": "Heavies Killed",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 15,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 16,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 17,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 18,
-				"type_name": "Kills",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -34016,12 +34407,12 @@
 			},
 			{
 				"type": 28,
-				"type_name": "Kills",
+				"type_name": "Dominations",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 30,
-				"type_name": "Kills",
+				"type_name": "Revenges",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -34036,17 +34427,12 @@
 			},
 			{
 				"type": 33,
-				"type_name": "Kills",
+				"type_name": "Critical Kills",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 34,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 35,
-				"type_name": "Kills",
+				"type_name": "Kills While Explosive-Jumping",
 				"level_data": "KillEaterRank"
 			}
 		]
