@@ -9521,7 +9521,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Bow"
 			"item_name"		"#DOTA_Item_Cold_Case_Bow"
-			"item_rarity"		"uncommon"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Cold_Case_Bow"
 			"image_inventory"		"econ/items/drow/drow_coldcase_bow"
 			"used_by_heroes"
@@ -10020,38 +10020,6 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
-		}
-		"4178"
-		{
-			"name"		"Battle Armor Body"
-			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Battle_Armor_Body"
-			"item_slot"		"shoulder"
-			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
-			"developer"		"1"
-			"used_by_heroes"
-			{
-				"npc_dota_hero_broodmother"		"1"
-			}
-			"model_player"		"models/items/broodmother/battlearmor_abdomen.mdl"
-		}
-		"4179"
-		{
-			"name"		"Battle Armor Legs"
-			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Battle_Armor_Legs"
-			"item_slot"		"armor"
-			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
-			"developer"		"1"
-			"used_by_heroes"
-			{
-				"npc_dota_hero_broodmother"		"1"
-			}
-			"model_player"		"models/items/broodmother/battlearmor_legs.mdl"
 		}
 		"4180"
 		{
@@ -13780,34 +13748,6 @@
 				}
 			}
 		}
-		"15006"
-		{
-			"name"		"Repentant Soul"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Consumable"
-			"item_name"		"#DOTA_Item_Repentant_Soul"
-			"item_rarity"		"legendary"
-			"tool"
-			{
-				"type"		"repentant_soul"
-				"use_string"		"#ConsumeItem"
-			}
-			"capabilities"
-			{
-				"usable_gc"		"1"
-				"usable_out_of_game"		"1"
-			}
-			"item_description"		"#DOTA_Item_Desc_Repentant_Soul"
-			"image_inventory"		"econ/tools/repentant_soul"
-			"attributes"
-			{
-				"disallow recycling"
-				{
-					"attribute_class"		"disallow_recycling"
-					"value"		"1"
-				}
-			}
-		}
 		"15007"
 		{
 			"name"		"Gift - 1 Player"
@@ -14652,7 +14592,6 @@
 			"name"		"The Berserker's Blood Bundle"
 			"prefab"		"dota_bundle"
 			"item_name"		"#DOTA_Bundle_Axe_Berserker"
-			"item_rarity"		"common"
 			"bundle"
 			{
 				"Berserker's Pauldron"		"1"
@@ -15488,6 +15427,57 @@
 			}
 			"item_description"		"#DOTA_Bundle_Desc_DOTA2_Access"
 			"image_inventory"		"econ/sets/DOTA_Bundle_DOTA2_Access"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"440.238953 -544.133606 122.770149"
+				"PortraitLookAt"		"4.152832 128.529053 0.000000"
+				"PortraitFOV"		"21.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"112.730003 -41.130001 174.529999"
+				"PortraitLightLookAt"		"42.540001 149.300003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.390000 0.390000 0.390000"
+				"PortraitShadowColor"		"0.060000 0.090000 0.040000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"31.670000 -34.840000 -37.060001"
+				"PortraitAmbientColor"		"0.530000 0.500833 0.501311"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"juggernaut_portrait"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.156000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"20029"
+		{
+			"name"		"Spikes of Frost Bundle"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Bundle_Drow_Ranger_Spikes_Frost"
+			"item_rarity"		"rare"
+			"bundle"
+			{
+				"Ice Burst Bow"		"1"
+				"Ice Burst Bracers"		"1"
+				"Ice Burst Greaves"		"1"
+				"Frost Spikes"		"1"
+			}
+			"item_description"		"#DOTA_Bundle_Desc_Drow_Ranger_Spikes_Frost"
+			"image_inventory"		"econ/sets/DOTA_Bundle_Drow_Ranger_Spikes_Frost"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
 			"icon_portrait"
 			{
 				"PortraitPosition"		"440.238953 -544.133606 122.770149"
@@ -16778,6 +16768,17 @@
 				"Staff o' Wicked Badness"		"1"
 				"Mask o' Wicked Badness"		"1"
 				"Belt o' Wicked Badness"		"1"
+			}
+		}
+		"drow_ranger_frost_spikes"
+		{
+			"name"		"#DOTA_Set_Drow_Ranger_Frost_Spikes"
+			"items"
+			{
+				"Ice Burst Bow"		"1"
+				"Ice Burst Bracers"		"1"
+				"Ice Burst Greaves"		"1"
+				"Frost Spikes"		"1"
 			}
 		}
 	}
