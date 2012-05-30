@@ -2440,7 +2440,6 @@
 			"item_type_name"		"#DOTA_WearableType_Meathook"
 			"item_name"		"#DOTA_Item_Dragonclaw_Hook"
 			"item_quality"		"normal"
-			"baseitem"		"1"
 			"item_description"		"#DOTA_Item_Desc_Dragonclaw_Hook"
 			"image_inventory"		"econ/items/pudge/pudge_skeleton_hook_body"
 			"used_by_heroes"
@@ -7922,6 +7921,7 @@
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/items/tidehunter/tidehunter_skull_rare"
+			"item_rarity"		"rare"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_tidehunter"		"1"
@@ -9518,6 +9518,15 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"drow_bowstring"
+					"modifier"		"drow_bowstring_coldcase"
+				}
+			}
 		}
 		"4169"
 		{
@@ -9914,6 +9923,16 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"drow_bowstring"
+					"modifier"		"drow_bowstring_iceburst"
+				}
+			}
+			"particle_file"		"particles\econ\items\drow\drow_bow_iceburst.pcf"
 		}
 		"4177"
 		{
@@ -10643,6 +10662,16 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"drow_bowstring"
+					"modifier"		"drow_bowstring_pincher"
+				}
+			}
+			"particle_file"		"particles\econ\items\drow\drow_bow_pincher.pcf"
 		}
 		"4196"
 		{
