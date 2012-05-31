@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/816\/scripts\/items\/items_game.5fe41795c04aa877071554859d45207188e740cc.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/816\/scripts\/items\/items_game.be60e465668d7c379c96547e5025e7b4ac8e6168.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -2860,27 +2860,6 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Loincloth",
-				"defindex": 4002,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Witch Doctor's Loincloth",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_loincloth",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/witchdoctor_loincloth.03b631fbe2974e8eeb7ff711256f92728bc694d5.png",
-				"image_url_large": "",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true
-				}
-			},
-			{
 				"name": "Witch Doctor's Ribcage Backpack",
 				"defindex": 4003,
 				"item_class": "dota_item_wearable",
@@ -3702,30 +3681,6 @@
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/sniper_taunt.23c13487de46812d8afc6830d11726978b9b5bd2.png",
-				"image_url_large": "",
-				"capabilities": {
-					"nameable": true,
-					"usable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true
-				},
-				"tool": {
-					"type": "hero_taunt"
-				}
-			},
-			{
-				"name": "Taunt: Spyglass of the Farseer",
-				"defindex": 4040,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Belt",
-				"item_name": "Taunt: Spyglass of the Farseer",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/heroes\/kunkka\/spyglass",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "",
 				"image_url_large": "",
 				"capabilities": {
 					"nameable": true,
@@ -4990,7 +4945,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Squishy Hat",
 				"item_name": "Octopus Hat",
-				"item_description": "Is it trying to hitch a ride?  Is it trying to mate with his head?  Does it think it can influence the TidehunterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs thoughts?  Who knows!",
+				"item_description": "Is it trying to hitch a ride?  Is it trying to mate with his head?  Does it think it can influence the Tidehunter's thoughts?  Who knows!",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/tidehunter\/octopus",
@@ -5758,8 +5713,8 @@
 				"image_inventory": "econ\/items\/axe\/greek_weapon",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_weapon.c6ec85b9c3e8faeb6b856b42a8f4fea241b61898.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_weapon_large.efafa329afa7902962648f936400406e58816f77.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_weapon.f10b2a5ff32f322f0f063ac5bd1382312c39c010.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_weapon_large.227de261982e9767e8f376448305c9a3d0926b13.png",
 				"item_set": "axe_defiant",
 				"capabilities": {
 					"nameable": true,
@@ -5780,8 +5735,8 @@
 				"image_inventory": "econ\/items\/axe\/greek_belt",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_belt.333fa68bcab00e704a97681de2df8f2c816e2b77.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_belt_large.5780237ba9d38a1f09a9c612ce0ff98bbe4691a3.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_belt.604b957d7e477a31d85667094870cb5155278ec2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_belt_large.5a6ca28c8aa25109338f40940f05114298bbb89c.png",
 				"item_set": "axe_defiant",
 				"capabilities": {
 					"nameable": true,
@@ -5802,8 +5757,8 @@
 				"image_inventory": "econ\/items\/axe\/greek_shoulder",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_shoulder.035fd87c583bbcbba9373a727d3efd547b0b3684.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_shoulder_large.6048e1e40ca960d0b853dbc1ad6c61b3d905607c.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_shoulder.7b5fd658d9c14a08adc10b5c0c5b7c043753bcf2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_shoulder_large.43724e3db88861fc4a696ad98a42cad4d44c98ac.png",
 				"item_set": "axe_defiant",
 				"capabilities": {
 					"nameable": true,
@@ -5824,8 +5779,8 @@
 				"image_inventory": "econ\/items\/axe\/greek_helmet",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_helmet.6e0d0bbf33b59de8c686499dbf6f22c19e1847e1.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_helmet_large.02651cdbf645cd64db39bd4ce79d94d930ca5e70.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_helmet.1ec187c1bfbbcd7a47b4ce82b78ef8abe0428e25.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/greek_helmet_large.b408d2441b91b86504e59574f1be89d7c9df6df0.png",
 				"item_set": "axe_defiant",
 				"capabilities": {
 					"nameable": true,
@@ -5868,8 +5823,8 @@
 				"image_inventory": "econ\/items\/omniknight\/shoulder_crusader",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/shoulder_crusader.b3dd5fa25502abf0bd2d9e3a835587458803efab.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/shoulder_crusader_large.648f1286e1337654ed2b5097f87bec1710d662e5.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/shoulder_crusader.8b31583f21c7ecacb9087bd78a355af5ec85e2a6.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/shoulder_crusader_large.7454ba5b2019758b922c8f45842fe3215fa24ff1.png",
 				"item_set": "omniknight_crusader",
 				"capabilities": {
 					"nameable": true,
@@ -6170,8 +6125,8 @@
 				"image_inventory": "econ\/items\/dragon_knight\/weapon_dragonmaw",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/weapon_dragonmaw.1d722d3aa71f9e82b43efe0652bebe4090fe1491.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/weapon_dragonmaw_large.e9d934f8da99303d78aece4e4631dd750db92be3.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/weapon_dragonmaw.2ce62855040a3edc6eadde5be43b18708b4b3f53.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/weapon_dragonmaw_large.f939fd7641dde36cb63f9032f5024e691801afa8.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -6707,8 +6662,8 @@
 				"image_inventory": "econ\/items\/faceless_void\/faceless_void_crystal_head",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/faceless_void_crystal_head.a4f893dcc12744084418bf9ca49b7331985aa6b9.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/faceless_void_crystal_head_large.9a2b24ee466686760d629e2ec651532f7a6fab53.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/faceless_void_crystal_head.655a49dbc608cc510094f1e7c74f812a8f2e9320.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/faceless_void_crystal_head_large.84173f6780ccc37676ea8aa2d83efbc1aea4705f.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -8732,7 +8687,7 @@
 				"item_class": "tool",
 				"item_type_name": "Gift",
 				"item_name": "Legendary Largesse",
-				"item_description": "When used, this Action Item gives a <font color='#FFD700'>random item drop<\/font> to <font color='#FFD700'>everyone<\/font> on the server (except you). You can use this item by equipping it as an action item and then activating it during a match.",
+				"item_description": "When used, this Action Item gives a <font color='#FFD700'>random item drop<\/font> to up to <font color='#FFD700'>9 random players and spectators<\/font> on the server (except you). You can use this item by equipping it as an action item and then activating it during a match.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/gift_multiple",
@@ -8911,6 +8866,44 @@
 				
 			},
 			{
+				"name": "Gift - 25 Players",
+				"defindex": 15013,
+				"item_class": "tool",
+				"item_type_name": "Gift",
+				"item_name": "Breathtaking Benefaction",
+				"item_description": "When used, this Action Item gives a <font color='#FFD700'>random item drop<\/font> to up to <font color='#FFD700'>25 random players and spectators<\/font> on the server (except you). You can use this item by equipping it as an action item and then activating it during a match.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/gift_tons",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/gift_tons.4e8e388c0cef626bfe9b87c26570b0ef094dfc87.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/gift_tons_large.48bc2b65366ee8937e6dfc8fa531170a73f85e36.png",
+				"capabilities": {
+					"usable_gc": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "gift",
+					"use_string": "Gift"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					},
+					{
+						"name": "ignore charge notification",
+						"class": "ignore_charge_notification",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Of Ivory and Ebony Bundle",
 				"defindex": 20000,
 				"item_class": "bundle",
@@ -8962,8 +8955,8 @@
 				"image_inventory": "econ\/sets\/DOTA_Bundle_Axe_Demon_Blood",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_axe_demon_blood.eee5e7911886e0b82006ef80067e2777203a7074.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_axe_demon_blood_large.9b076b4cd2909b010d61589d4040fbfba1e9cf89.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_axe_demon_blood.b9a422d9812856e6a0333c15e8190d7851600723.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_axe_demon_blood_large.89d2425aa8383e6cf12f283061a611019ce49dec.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -9909,6 +9902,7 @@
 			{
 				"item_set": "axe_berserker",
 				"name": "The Berserker's Blood",
+				"store_bundle": "The Berserker's Blood Bundle",
 				"items": [
 					"Berserker's Pauldron",
 					"Berserker's Helm",
@@ -9919,6 +9913,7 @@
 			{
 				"item_set": "axe_defiant",
 				"name": "The Defiant Axe",
+				"store_bundle": "Defiant Axe Bundle",
 				"items": [
 					"Pillar of Strength",
 					"Stone Loins",
@@ -9930,6 +9925,7 @@
 			{
 				"item_set": "axe_demon_blood",
 				"name": "Forged in Demons' Blood",
+				"store_bundle": "Demon Blood Bundle",
 				"items": [
 					"Demon Blood Helm",
 					"Demon Blood Armor",
@@ -9941,6 +9937,7 @@
 			{
 				"item_set": "axe_executioner",
 				"name": "The Axecutioner",
+				"store_bundle": "The Axecutioner Bundle",
 				"items": [
 					"Executioner's Axe",
 					"Executioner's Cape",
@@ -9952,6 +9949,7 @@
 			{
 				"item_set": "axe_forgemaster",
 				"name": "The Forgemaster's Tools",
+				"store_bundle": "The Forgemaster's Tools Bundle",
 				"items": [
 					"Forgemaster's Apron",
 					"Forgemaster's Armlet",
@@ -9963,6 +9961,7 @@
 			{
 				"item_set": "blood_seeker_hlotl",
 				"name": "Ritual Garb of the Seeker",
+				"store_bundle": "Ritual Garb of the Seeker Bundle",
 				"items": [
 					"Habit of the Seeker",
 					"Hlotl-Feather Gloves",
@@ -9974,18 +9973,9 @@
 				
 			},
 			{
-				"item_set": "broodmother_blademother",
-				"name": "The Blademother",
-				"items": [
-					"Blademother's Goggles",
-					"Blademother's Abdomen",
-					"Blademother's Crawlers"
-				]
-				
-			},
-			{
 				"item_set": "dragon_knight_uldorak",
 				"name": "Uldorak's Hide",
+				"store_bundle": "Uldorak's Hide Bundle",
 				"items": [
 					"Wyrm Helm of Uldorak",
 					"Wyrm Bracer of Uldorak",
@@ -9999,6 +9989,7 @@
 			{
 				"item_set": "drow_ranger_frost_spikes",
 				"name": "DOTA_Set_Drow_Ranger_Frost_Spikes",
+				"store_bundle": "Spikes of Frost Bundle",
 				"items": [
 					"Ice Burst Bow",
 					"Ice Burst Bracers",
@@ -10010,6 +10001,7 @@
 			{
 				"item_set": "faceless_chronite",
 				"name": "Chronite Defense",
+				"store_bundle": "Chronite Defense Bundle",
 				"items": [
 					"Chronite Armor",
 					"Chronite Bracers",
@@ -10020,6 +10012,7 @@
 			{
 				"item_set": "furion_beast_bole",
 				"name": "Master of Beast and Bole",
+				"store_bundle": "Master of Beast and Bole Bundle",
 				"items": [
 					"Staff of the Eagle",
 					"Grand Crown of the Gigas",
@@ -10030,6 +10023,7 @@
 			{
 				"item_set": "furion_forest_lord",
 				"name": "The Regal Forest Lord",
+				"store_bundle": "Regal Forest Lord Bundle",
 				"items": [
 					"Runestaff of Verodicia",
 					"Horns of Noblesse",
@@ -10043,6 +10037,7 @@
 			{
 				"item_set": "furion_heartwood",
 				"name": "Heartwood Vanguard",
+				"store_bundle": "Heartwood Vanguard Bundle",
 				"items": [
 					"Sinorian Sphere Staff",
 					"Diadem of the Goddess Enthroned",
@@ -10055,6 +10050,7 @@
 			{
 				"item_set": "furion_peace_bringer",
 				"name": "Garments of the Peace-Bringer",
+				"store_bundle": "Garments of the Peace-Bringer Bundle",
 				"items": [
 					"Flower Staff of the Peace-Bringer",
 					"Lei of the Peace-Bringer",
@@ -10067,6 +10063,7 @@
 			{
 				"item_set": "furion_scion_savage",
 				"name": "Scion of the Savage",
+				"store_bundle": "Scion of the Savage Bundle",
 				"items": [
 					"Staff of the Tusk-Bereft",
 					"Horns of the Forest Lord",
@@ -10079,6 +10076,7 @@
 			{
 				"item_set": "invoker_exort",
 				"name": "The Fires of Exort",
+				"store_bundle": "The Fires of Exort Bundle",
 				"items": [
 					"Cape of the Burning Cabal",
 					"Bracer of the Burning Cabal",
@@ -10089,6 +10087,7 @@
 			{
 				"item_set": "juggernaut_beasts_men",
 				"name": "Aspects of Beast and Man",
+				"store_bundle": "Aspects of Beast and Man Bundle",
 				"items": [
 					"100-Proof Jug",
 					"Fine Bone Bracers",
@@ -10100,6 +10099,7 @@
 			{
 				"item_set": "juggernaut_boar_god",
 				"name": "The Boar God's Honor",
+				"store_bundle": "The Boar God's Honor Bundle",
 				"items": [
 					"Three-Fold Mien of the Boar God",
 					"Seven-Sealed the Fur Bracer",
@@ -10111,6 +10111,7 @@
 			{
 				"item_set": "juggernaut_high_plains",
 				"name": "Traveler on the High Plains",
+				"store_bundle": "Traveler on the High Plains Bundle",
 				"items": [
 					"Stoic Mask of the High Plains",
 					"Wolf Cape of the High Plains",
@@ -10134,6 +10135,7 @@
 			{
 				"item_set": "kunkka_admirable_admiral",
 				"name": "The Admirable Admiral",
+				"store_bundle": "The Admirable Admiral Bundle",
 				"items": [
 					"Gloves of the Admirable Admiral",
 					"Ceremonial Rapier",
@@ -10146,6 +10148,7 @@
 			{
 				"item_set": "omniknight_crusader",
 				"name": "The Radiance of the Crusade",
+				"store_bundle": "The Radiance of the Crusade Bundle",
 				"items": [
 					"Helm of the Radiant Crusader",
 					"Armor of the Radiant Crusader",
@@ -10158,6 +10161,7 @@
 			{
 				"item_set": "sven_flameguard",
 				"name": "Sect Armor of the Flameguard",
+				"store_bundle": "Flameguard Bundle",
 				"items": [
 					"Helm of the Flameguard",
 					"Dressed Pauldron of the Flameguard",
@@ -10170,6 +10174,7 @@
 			{
 				"item_set": "sven_freelancer",
 				"name": "The Freelancer's Finery",
+				"store_bundle": "The Freelancer's Finery Bundle",
 				"items": [
 					"Mask of the Freelancer",
 					"Shoulderguard of the Freelancer",
@@ -10181,6 +10186,7 @@
 			{
 				"item_set": "sven_mono_militis",
 				"name": "Sect Armor of the Mono Militis",
+				"store_bundle": "Mono Militis Bundle",
 				"items": [
 					"Dressed Pauldron of the Mono Militis",
 					"Cyclopean Helm of the Mono Militis",
@@ -10191,6 +10197,7 @@
 			{
 				"item_set": "sven_swordmaster",
 				"name": "Swordmaster of the Vigil",
+				"store_bundle": "Swordmaster of the Vigil Bundle",
 				"items": [
 					"Tayrnhelm of the Swordmaster",
 					"Girth of the Swordmaster",
@@ -10202,6 +10209,7 @@
 			{
 				"item_set": "tidehunter_pirate_slayer",
 				"name": "The Pirate's Booty",
+				"store_bundle": "The Pirate's Booty Bundle",
 				"items": [
 					"Pirate Slayer's Bracer",
 					"Pirate Slayer's Tricorn",
@@ -10213,6 +10221,7 @@
 			{
 				"item_set": "tidehunter_punisher",
 				"name": "The Paleogeneous Punisher",
+				"store_bundle": "The Paleogeneous Punisher Bundle",
 				"items": [
 					"Cerebral Support",
 					"Excavator's Treasure",
@@ -10224,6 +10233,7 @@
 			{
 				"item_set": "ursa_alpine_stalker",
 				"name": "Garb of the Alpine Stalker",
+				"store_bundle": "Garb of the Alpine Stalker Bundle",
 				"items": [
 					"Lucky Alpine Stalker's Hat",
 					"Alpine Stalker's Scarf",

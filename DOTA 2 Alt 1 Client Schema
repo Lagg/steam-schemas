@@ -2233,22 +2233,6 @@
 				"PortraitHideHero"		"0"
 			}
 		}
-		"4002"
-		{
-			"name"		"Witch Doctor's Loincloth"
-			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Witch_Doctors_Loincloth"
-			"item_slot"		"belt"
-			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/items/witchdoctor/witchdoctor_loincloth"
-			"developer"		"1"
-			"used_by_heroes"
-			{
-				"npc_dota_hero_witch_doctor"		"1"
-			}
-			"model_player"		"models/items/witchdoctor/voodoo_belt.mdl"
-		}
 		"4003"
 		{
 			"name"		"Witch Doctor's Ribcage Backpack"
@@ -4013,38 +3997,6 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_sniper"		"1"
-			}
-		}
-		"4040"
-		{
-			"name"		"Taunt: Spyglass of the Farseer"
-			"prefab"		"dota_item"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"usable"		"1"
-			}
-			"item_type_name"		"#DOTA_WearableType_Belt"
-			"item_name"		"#DOTA_Item_Taunt_Spyglass_of_the_Farseer"
-			"item_slot"		"taunt"
-			"developer"		"1"
-			"tool"
-			{
-				"type"		"hero_taunt"
-			}
-			"image_inventory"		"econ/heroes/kunkka/spyglass"
-			"model_player"		"models/heroes/kunkka/kunkka_spyglass.mdl"
-			"visuals"
-			{
-				"asset_modifier0"
-				{
-					"type"		"speech"
-					"asset"		"TLK_DOTA_TAUNT"
-				}
-			}
-			"used_by_heroes"
-			{
-				"npc_dota_hero_kunkka"		"1"
 			}
 		}
 		"4041"
@@ -8127,7 +8079,7 @@
 				"PortraitShadowScale"		"0.205000"
 				"PortraitGroundShadowScale"		"0.300000"
 				"PortraitAmbientOrigin"		"76.519997 -7.960000 -38.340000"
-				"PortraitAmbientColor"		"0.360000 0.130000 0.000000"
+				"PortraitAmbientColor"		"0.360000 0.360000 0.360000"
 				"PortraitAmbientScale"		"1.000000"
 				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
 				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
@@ -8173,7 +8125,7 @@
 				"PortraitShadowScale"		"0.205000"
 				"PortraitGroundShadowScale"		"0.300000"
 				"PortraitAmbientOrigin"		"76.519997 -7.960000 -38.340000"
-				"PortraitAmbientColor"		"0.360000 0.130000 0.000000"
+				"PortraitAmbientColor"		"0.360000 0.360000 0.360000"
 				"PortraitAmbientScale"		"1.000000"
 				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
 				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
@@ -8215,11 +8167,11 @@
 				"PortraitLightFOV"		"69.000000"
 				"PortraitLightDistance"		"377.000000"
 				"PortraitLightColor"		"0.900000 0.850000 0.800000"
-				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowColor"		"0.239216 0.239216 0.239216"
 				"PortraitShadowScale"		"1.000000"
 				"PortraitGroundShadowScale"		"0.300000"
 				"PortraitAmbientOrigin"		"79.070000 84.150002 25.320000"
-				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientColor"		"0.109804 0.109804 0.109804"
 				"PortraitAmbientScale"		"1.000000"
 				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
 				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
@@ -8265,7 +8217,7 @@
 				"PortraitShadowScale"		"0.205000"
 				"PortraitGroundShadowScale"		"0.300000"
 				"PortraitAmbientOrigin"		"76.519997 -7.960000 -38.340000"
-				"PortraitAmbientColor"		"0.360000 0.130000 0.000000"
+				"PortraitAmbientColor"		"0.360000 0.360000 0.360000"
 				"PortraitAmbientScale"		"1.000000"
 				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
 				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
@@ -10201,12 +10153,12 @@
 				"PortraitLightLookAt"		"48.540001 136.610001 0.000000"
 				"PortraitLightFOV"		"61.000000"
 				"PortraitLightDistance"		"159.000000"
-				"PortraitLightColor"		"0.305147 0.390588 0.378382"
-				"PortraitShadowColor"		"0.230000 0.140000 0.220000"
+				"PortraitLightColor"		"0.390588 0.390588 0.390588"
+				"PortraitShadowColor"		"0.230000 0.230000 0.230000"
 				"PortraitShadowScale"		"0.240000"
 				"PortraitGroundShadowScale"		"0.300000"
 				"PortraitAmbientOrigin"		"32.150002 -68.820000 47.150002"
-				"PortraitAmbientColor"		"0.080000 0.350000 0.540000"
+				"PortraitAmbientColor"		"0.540000 0.540000 0.540000"
 				"PortraitAmbientScale"		"0.530000"
 				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
 				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
@@ -12840,7 +12792,6 @@
 			"item_name"		"#DOTA_Item_Enduring_War_Dog"
 			"item_slot"		"courier"
 			"item_rarity"		"mythical"
-			"developer"		"1"
 			"item_description"		"#DOTA_Item_Desc_Juggernaut_Dog_Courier"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/juggernaut_dog/juggernaut_dog"
@@ -12949,7 +12900,6 @@
 			"item_name"		"#DOTA_Item_Trusty_Mountain_Yak"
 			"item_slot"		"courier"
 			"item_rarity"		"rare"
-			"developer"		"1"
 			"item_description"		"#DOTA_Item_Desc_Juggernaut_Yak_Courier"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/yak/yak"
@@ -13019,7 +12969,6 @@
 			"item_name"		"#DOTA_Item_Fearless_Badger"
 			"item_slot"		"courier"
 			"item_rarity"		"rare"
-			"developer"		"1"
 			"item_description"		"#DOTA_Item_Desc_Badger_Courier"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/badger/courier_badger"
@@ -13177,7 +13126,6 @@
 			"item_name"		"#DOTA_Item_Stumpy__Natures_Attendant"
 			"item_slot"		"courier"
 			"item_rarity"		"mythical"
-			"developer"		"1"
 			"item_description"		"#DOTA_Item_Desc_Stumpy_the_Hearty"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/stump/stump"
@@ -13433,7 +13381,6 @@
 			"item_name"		"#DOTA_Item_Mighty_Boar"
 			"item_slot"		"courier"
 			"item_rarity"		"mythical"
-			"developer"		"1"
 			"item_description"		"#DOTA_Item_Desc_Mighty_Boar"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/mighty_boar/mighty_boar"
@@ -13503,7 +13450,6 @@
 			"item_name"		"#DOTA_Item_Moroks_Mechanical_Mediary"
 			"item_slot"		"courier"
 			"item_rarity"		"mythical"
-			"developer"		"1"
 			"item_description"		"#DOTA_Item_Desc_Moroks_Mechanical_Mediary"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/courier_mech/courier_mech"
@@ -13971,6 +13917,46 @@
 				}
 			}
 		}
+		"15013"
+		{
+			"name"		"Gift - 25 Players"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Gift"
+			"item_name"		"#DOTA_Item_Gift_Tons"
+			"item_rarity"		"mythical"
+			"tool"
+			{
+				"type"		"gift"
+				"usage"
+				{
+					"loot_list"		"gift_standard_25_loot_list"
+					"num_items"		"1"
+					"max_recipients"		"25"
+				}
+				"use_string"		"#GiftUse"
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Gift_Tons"
+			"item_slot"		"action_item"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/tools/gift_tons"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+				"ignore charge notification"
+				{
+					"attribute_class"		"ignore_charge_notification"
+					"value"		"1"
+				}
+			}
+		}
 		"20000"
 		{
 			"name"		"Of Ivory and Ebony Bundle"
@@ -14094,11 +14080,11 @@
 			}
 			"icon_portrait"
 			{
-				"PortraitPosition"		"406.916626 264.835297 201.878113"
-				"PortraitLookAt"		"12.513428 208.383179 0.000000"
-				"PortraitFOV"		"39.000000"
+				"PortraitPosition"		"476.230103 -121.564034 182.084213"
+				"PortraitLookAt"		"11.337891 171.529541 0.000000"
+				"PortraitFOV"		"35.000000"
 				"PortraitFar"		"1000.000000"
-				"PortraitLightPosition"		"190.970963 -85.378334 200.373276"
+				"PortraitLightPosition"		"241.437607 -111.372849 183.494385"
 				"PortraitLightLookAt"		"42.540001 149.300003 0.000000"
 				"PortraitLightFOV"		"90.000000"
 				"PortraitLightDistance"		"133.000000"
@@ -14118,7 +14104,7 @@
 				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
 				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
 				"PortraitParticle"		"juggernaut_portrait"
-				"PortraitAnimationActivity"		"3"
+				"PortraitAnimationActivity"		"0"
 				"PortraitAnimationCycle"		"0.760000"
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
@@ -16454,6 +16440,7 @@
 				"Twelve-Tusks the Cape of Boars"		"1"
 				"Four-Fangs the Swordbreaker"		"1"
 			}
+			"store_bundle"		"The Boar God's Honor Bundle"
 		}
 		"juggernaut_ivory_ebony"
 		{
@@ -16477,6 +16464,7 @@
 				"Prey-Tracker's Aspect Mask"		"1"
 				"Omnishred the Defiant"		"1"
 			}
+			"store_bundle"		"Aspects of Beast and Man Bundle"
 		}
 		"juggernaut_high_plains"
 		{
@@ -16488,6 +16476,7 @@
 				"Aspect Wraps of the High Plains"		"1"
 				"Long-Fang the Grey Blade"		"1"
 			}
+			"store_bundle"		"Traveler on the High Plains Bundle"
 		}
 		"furion_scion_savage"
 		{
@@ -16500,6 +16489,7 @@
 				"Pauldron of Al-Fusha"		"1"
 				"Tusked Bracers"		"1"
 			}
+			"store_bundle"		"Scion of the Savage Bundle"
 		}
 		"furion_heartwood"
 		{
@@ -16512,6 +16502,7 @@
 				"Flared Wooden Crest"		"1"
 				"Guard of the Deep Tribes"		"1"
 			}
+			"store_bundle"		"Heartwood Vanguard Bundle"
 		}
 		"furion_beast_bole"
 		{
@@ -16522,6 +16513,7 @@
 				"Grand Crown of the Gigas"		"1"
 				"Druidic Ritual Crest"		"1"
 			}
+			"store_bundle"		"Master of Beast and Bole Bundle"
 		}
 		"furion_forest_lord"
 		{
@@ -16535,6 +16527,7 @@
 				"Runed Ailettes"		"1"
 				"Cuffs of Oak and Yew"		"1"
 			}
+			"store_bundle"		"Regal Forest Lord Bundle"
 		}
 		"furion_peace_bringer"
 		{
@@ -16547,6 +16540,7 @@
 				"Beard of the Peace-Bringer"		"1"
 				"Toga of the Peace-Bringer"		"1"
 			}
+			"store_bundle"		"Garments of the Peace-Bringer Bundle"
 		}
 		"axe_berserker"
 		{
@@ -16557,6 +16551,7 @@
 				"Berserker's Helm"		"1"
 				"Berserker's Belt"		"1"
 			}
+			"store_bundle"		"The Berserker's Blood Bundle"
 		}
 		"axe_defiant"
 		{
@@ -16568,6 +16563,7 @@
 				"Stone Guard"		"1"
 				"Stone Helmet"		"1"
 			}
+			"store_bundle"		"Defiant Axe Bundle"
 		}
 		"axe_forgemaster"
 		{
@@ -16579,6 +16575,7 @@
 				"Forgemaster's Mask"		"1"
 				"Forgemaster's Hammer"		"1"
 			}
+			"store_bundle"		"The Forgemaster's Tools Bundle"
 		}
 		"axe_executioner"
 		{
@@ -16590,6 +16587,7 @@
 				"Executioner's Trophies"		"1"
 				"Executioner's Hood"		"1"
 			}
+			"store_bundle"		"The Axecutioner Bundle"
 		}
 		"axe_demon_blood"
 		{
@@ -16601,6 +16599,7 @@
 				"Demon Blood Guard"		"1"
 				"The Blood Chaser"		"1"
 			}
+			"store_bundle"		"Demon Blood Bundle"
 		}
 		"sven_swordmaster"
 		{
@@ -16612,6 +16611,7 @@
 				"Fluted Guard of the Swordmaster"		"1"
 				"Grip of the Swordmaster"		"1"
 			}
+			"store_bundle"		"Swordmaster of the Vigil Bundle"
 		}
 		"sven_freelancer"
 		{
@@ -16623,6 +16623,7 @@
 				"Pantaloons of the Freelancer"		"1"
 				"Sword of the Freelancer"		"1"
 			}
+			"store_bundle"		"The Freelancer's Finery Bundle"
 		}
 		"sven_mono_militis"
 		{
@@ -16633,6 +16634,7 @@
 				"Cyclopean Helm of the Mono Militis"		"1"
 				"Sword of the Mono Militis"		"1"
 			}
+			"store_bundle"		"Mono Militis Bundle"
 		}
 		"sven_flameguard"
 		{
@@ -16645,6 +16647,7 @@
 				"Sword of the Flameguard"		"1"
 				"Cape of the Flameguard"		"1"
 			}
+			"store_bundle"		"Flameguard Bundle"
 		}
 		"faceless_chronite"
 		{
@@ -16655,6 +16658,7 @@
 				"Chronite Bracers"		"1"
 				"Chronite Scepter"		"1"
 			}
+			"store_bundle"		"Chronite Defense Bundle"
 		}
 		"ursa_alpine_stalker"
 		{
@@ -16666,6 +16670,7 @@
 				"Alpine Stalker's Pants"		"1"
 				"Alpine Stalker's Gloves"		"1"
 			}
+			"store_bundle"		"Garb of the Alpine Stalker Bundle"
 		}
 		"blood_seeker_hlotl"
 		{
@@ -16679,6 +16684,7 @@
 				"War Blade (Right)"		"1"
 				"War Blade (Left)"		"1"
 			}
+			"store_bundle"		"Ritual Garb of the Seeker Bundle"
 		}
 		"tidehunter_pirate_slayer"
 		{
@@ -16690,6 +16696,7 @@
 				"Pirate Slayer's Black Flag"		"1"
 				"Pirate Slayer's Cutlass"		"1"
 			}
+			"store_bundle"		"The Pirate's Booty Bundle"
 		}
 		"tidehunter_punisher"
 		{
@@ -16701,6 +16708,7 @@
 				"Femur Thrasher"		"1"
 				"Skeletal Catch"		"1"
 			}
+			"store_bundle"		"The Paleogeneous Punisher Bundle"
 		}
 		"kunkka_admirable_admiral"
 		{
@@ -16713,6 +16721,7 @@
 				"Seafarer's Shoes"		"1"
 				"Sword of the Admirable Admiral"		"1"
 			}
+			"store_bundle"		"The Admirable Admiral Bundle"
 		}
 		"dragon_knight_uldorak"
 		{
@@ -16726,6 +16735,7 @@
 				"Wyrm Shield of Uldorak"		"1"
 				"Dragonmaw"		"1"
 			}
+			"store_bundle"		"Uldorak's Hide Bundle"
 		}
 		"omniknight_crusader"
 		{
@@ -16738,6 +16748,7 @@
 				"Sigil of the Radiant Crusader"		"1"
 				"Hammer of the Radiant Crusader"		"1"
 			}
+			"store_bundle"		"The Radiance of the Crusade Bundle"
 		}
 		"invoker_exort"
 		{
@@ -16748,16 +16759,7 @@
 				"Bracer of the Burning Cabal"		"1"
 				"Crest of the Burning Cabal"		"1"
 			}
-		}
-		"broodmother_blademother"
-		{
-			"name"		"#DOTA_Set_Broodmother_Blademother"
-			"items"
-			{
-				"Blademother's Goggles"		"1"
-				"Blademother's Abdomen"		"1"
-				"Blademother's Crawlers"		"1"
-			}
+			"store_bundle"		"The Fires of Exort Bundle"
 		}
 		"witchdoctor_wicked_badness"
 		{
@@ -16780,6 +16782,7 @@
 				"Ice Burst Greaves"		"1"
 				"Frost Spikes"		"1"
 			}
+			"store_bundle"		"Spikes of Frost Bundle"
 		}
 	}
 	"client_loot_lists"
