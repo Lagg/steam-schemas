@@ -4117,13 +4117,6 @@
 			{
 				"soldier"	"1"
 			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"medal"			"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
 			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
@@ -28403,15 +28396,8 @@
 				"engineer" "1"
 				"pyro" "1"
 			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"medal"			"1"
-				}
-			}
-			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
-			"drop_sound"		"ui/item_medal_pickup.wav"
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"768"
 		{
