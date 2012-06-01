@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.055661ad13420e9bcb16e8335832d8aeb88ed97e.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.d639babcaea0b95a4d5cd8349c028a115390c496.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -6515,13 +6515,13 @@
 				"item_description": "A special no-damage rocket launcher for learning\nrocket jump tricks and patterns.",
 				"proper_name": true,
 				"item_slot": "primary",
-				"model_player": "models\/weapons\/w_models\/w_rocketlauncher.mdl",
+				"model_player": "models\/weapons\/c_models\/c_rocketjumper\/c_rocketjumper.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/weapons\/w_models\/w_rocketlauncher",
+				"image_inventory": "backpack\/weapons\/c_models\/c_rocketjumper\/c_rocketjumper",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_rocketlauncher.41eed5b3c42e52270d11bab5a740b293d0795484.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_rocketlauncher_large.3e656b2c22252a42e728b9b0faac2f5dbb546937.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_rocketjumper.87211448aa3d1f6165ccc444d07b0117ee0a7da7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_rocketjumper_large.89566eea7b7a2c06c1de533bd104b1c3380aa76c.png",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -6542,6 +6542,11 @@
 						"value": 0.000000
 					},
 					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
 						"name": "no self blast dmg",
 						"class": "no_self_blast_dmg",
 						"value": 2.000000
@@ -6552,19 +6557,9 @@
 						"value": 3.000000
 					},
 					{
-						"name": "dmg taken from blast increased",
-						"class": "mult_dmgtaken_from_explosions",
-						"value": 2.000000
-					},
-					{
-						"name": "dmg taken from bullets increased",
-						"class": "mult_dmgtaken_from_bullets",
-						"value": 2.000000
-					},
-					{
-						"name": "dmg taken from fire increased",
-						"class": "mult_dmgtaken_from_fire",
-						"value": 2.000000
+						"name": "cannot pick up intelligence",
+						"class": "cannot_pick_up_intelligence",
+						"value": 1.000000
 					}
 				]
 				
@@ -7380,6 +7375,11 @@
 						"name": "override projectile type",
 						"class": "override_projectile_type",
 						"value": 14.000000
+					},
+					{
+						"name": "cannot pick up intelligence",
+						"class": "cannot_pick_up_intelligence",
+						"value": 1.000000
 					}
 				]
 				
@@ -13431,13 +13431,18 @@
 				,
 				"attributes": [
 					{
-						"name": "mult cloak rate",
-						"class": "mult_cloak_rate",
-						"value": 0.500000
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
 					},
 					{
-						"name": "damage bonus",
-						"class": "mult_dmg",
+						"name": "fire rate penalty",
+						"class": "mult_postfiredelay",
+						"value": 1.200000
+					},
+					{
+						"name": "damage bonus while undisguised",
+						"class": "mult_dmg_undisguised",
 						"value": 1.200000
 					}
 				]
@@ -22455,6 +22460,153 @@
 						"class": "cannot_trade",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "The Atomic Accolade",
+				"defindex": 767,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Atomic Accolade",
+				"item_description": "Skip past all the boring busywork of science and get right to the exciting part: the fabulous prizes! This prestigious ribbon certifies your bravery in the field of excellence.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/qc_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/qc_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_badge.bddb508153aa3db5564e3a5fda29fa069efa88d4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_badge_large.47336ed6d9a20eddf5e71468fd4a570e6e74ef8d.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Professor's Pineapple",
+				"defindex": 768,
+				"item_class": "tf_wearable",
+				"item_type_name": "Science Project",
+				"item_name": "Professor's Pineapple",
+				"item_description": "We don't know what's in it, but we found it in some rusty drums buried in a shallow grave in a forest, so let's face it, you'll probably get super powers if you drink it.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/qc_flask_soldier.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/qc_flask_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_flask_demo.80ba8937e57dcfe6c8e5ad6a647c61f30d9b3159.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_flask_demo_large.ab135c2618efc3f13e5f631c2ad1e553985635ec.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier",
+					"Demoman",
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Quadwrangler",
+				"defindex": 769,
+				"item_class": "tf_wearable",
+				"item_type_name": "Science Project",
+				"item_name": "Quadwrangler",
+				"item_description": "This quantum-collared lab coat includes a handy rubber pipe that siphons blood from your heart, where it is not needed, to your shooting arm, where it is!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/qc_glove.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/qc_glove",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_glove.fc2a4c0597c5250499366046c27d41a295e3cc99.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_glove_large.7500421191a598f4996eff85d615c8a240a0e736.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Surgeon's Side Satchel",
+				"defindex": 770,
+				"item_class": "tf_wearable",
+				"item_type_name": "Satchel",
+				"item_name": "Surgeon's Side Satchel",
+				"item_description": "This compact medical equipment bag makes the perfect accessory for the doctor on the go. Treat patients out of doors, in the fresh unsterile air of the battlefield.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/medic_clipboard.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/medic_clipboard",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medic_clipboard.b0c1d219bfbbfb1c935bc3ce5b00b5ea5f2a882a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medic_clipboard_large.068cbcf3c705c0ab1cc4227b358856a73d36158e.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
 				]
 				
 			},
@@ -32971,12 +33123,36 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "cannot pick up intelligence",
+				"defindex": 400,
+				"attribute_class": "cannot_pick_up_intelligence",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "Wearer cannot carry the intelligence briefcase",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "chance of hunger decrease",
 				"defindex": 401,
 				"attribute_class": "chance_of_hunger_decrease",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
 				"description_string": "Reduces chance of hunger by up to %s1%",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "damage bonus while undisguised",
+				"defindex": 410,
+				"attribute_class": "mult_dmg_undisguised",
+				"min_value": 1.050000,
+				"max_value": 1.100000,
+				"description_string": "+%s1% damage bonus while undisguised",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,

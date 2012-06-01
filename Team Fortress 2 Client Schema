@@ -141,6 +141,7 @@
 		"engineer_pants"	"1"			
 		
 		"medigun_backpack"	"1"
+		"medic_hip"			"1"			
 		
 		"shared"
 		{
@@ -166,6 +167,7 @@
 			"engineer_left_arm"	"1"
 			"pyro_tail"			"1"
 			"sniper_legs"		"1"
+			"medic_gloves"		"1"
 		}
 		"shared"
 		{
@@ -5875,7 +5877,7 @@
 			}
 			"tags"
 			{
-				"can_deal_damage"			"1"
+				"can_deal_damage"				"1"
 				"can_deal_posthumous_damage"	"1"
 			}
 			"show_in_armory"	"1"
@@ -9269,9 +9271,6 @@
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
 			}
-			"tags"
-			{
-			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
 			"item_name"	"#TF_Weapon_RocketLauncher_Jump"
@@ -9282,10 +9281,11 @@
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
 			"propername" 	"1"
-			"image_inventory"	"backpack/weapons/w_models/w_rocketlauncher"
+			"image_inventory"	"backpack/weapons/c_models/c_rocketjumper/c_rocketjumper"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_rocketlauncher.mdl"
+			"model_player"	"models/weapons/c_models/c_rocketjumper/c_rocketjumper.mdl"
+			"attach_to_hands" "1"
 			"used_by_classes"
 			{
 				"soldier"	"1"
@@ -9299,6 +9299,11 @@
 					"attribute_class"	"mult_dmg"
 					"value"	"0"
 				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
 				"no self blast dmg"
 				{
 					"attribute_class"	"no_self_blast_dmg"
@@ -9309,20 +9314,10 @@
 					"attribute_class"	"mult_maxammo_primary"
 					"value" "3.0"
 				}
-				"dmg taken from blast increased"
+				"cannot pick up intelligence"
 				{
-					"attribute_class"	"mult_dmgtaken_from_explosions"
-					"value" "2"
-				}
-				"dmg taken from bullets increased"
-				{
-					"attribute_class"	"mult_dmgtaken_from_bullets"
-					"value" "2"
-				}
-				"dmg taken from fire increased"
-				{
-					"attribute_class"	"mult_dmgtaken_from_fire"
-					"value"			"2"
+					"attribute_class"	"cannot_pick_up_intelligence"
+					"value"				"1"
 				}
 			}
 		}
@@ -10469,6 +10464,11 @@
 				{
 					"attribute_class"	"override_projectile_type"
 					"value"				"14"
+				}
+				"cannot pick up intelligence"
+				{
+					"attribute_class"	"cannot_pick_up_intelligence"
+					"value"				"1"
 				}
 			}
 		}
@@ -19059,14 +19059,19 @@
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 			"attributes"
 			{
-				"mult cloak rate"
+				"crit mod disabled"
 				{
-					"attribute_class"	"mult_cloak_rate"
-					"value" "0.5"
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
 				}
-				"damage bonus"
+				"fire rate penalty"
 				{
-					"attribute_class"	"mult_dmg"
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"1.2"
+				}
+				"damage bonus while undisguised"
+				{
+					"attribute_class"	"mult_dmg_undisguised"
 					"value"	"1.2"
 				}
 			}
@@ -28366,6 +28371,130 @@
 				"spy" "1"
 			}			
 		}				
+		
+		"767"
+		{
+			"name"	"The Atomic Accolade"
+			"first_sale_date"	"2012/05/30"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+				"paintable"		"1"
+			}
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_QC_Badge"
+			"item_description"	"#TF_QC_Badge_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"image_inventory"	"backpack/player/items/all_class/qc_badge"
+			"propername"	"1"
+			"model_player"	"models/player/items/all_class/qc_badge.mdl"
+			"drop_type"		"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"medal"			"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
+		"768"
+		{
+			"name"	"The Professor's Pineapple"
+			"first_sale_date"	"2012/05/30"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_QC_Flasks"
+			"item_description"	"#TF_QC_Flasks_Desc"
+			"item_type_name"	"#TF_Wearable_ScienceProject"
+			"item_slot"	"misc"
+			"equip_region"	"grenades"		
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/all_class/qc_flask_demo"
+			"model_player_per_class"
+			{
+				"soldier"	"models/player/items/all_class/qc_flask_soldier.mdl"
+				"demoman"	"models/player/items/all_class/qc_flask_demo.mdl"
+				"pyro"		"models/player/items/all_class/qc_flask_pyro.mdl"
+			}
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+				"pyro"	"1"
+			}		
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"grenades"			"1"
+				}
+			}
+		}
+		"769"
+		{
+			"name"	"The Quadwrangler"
+			"first_sale_date"	"2012/05/30"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_QC_MedicGlove"
+			"item_description"	"#TF_QC_MedicGlove_Desc"
+			"item_type_name"	"#TF_Wearable_ScienceProject"
+			"item_slot"	"misc"
+			"equip_region"	"medic_gloves"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/medic/qc_glove"
+			"model_player"	"models/player/items/medic/qc_glove.mdl"
+			"used_by_classes"
+			{
+				"medic"	"1"
+			}
+		}
+		"770"
+		{
+			"name"	"The Surgeon's Side Satchel"
+			"first_sale_date"	"2012/05/31"
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"paintable"	"1"
+				"can_craft_count" "1"
+			}			
+			"item_slot"	"misc"
+			"equip_region"	"medic_hip"
+			"item_type_name"	"#TF_Wearable_Satchel"
+			"item_name"	"#TF_MedicClipboard"
+			"item_description"	"#TF_MedicClipboard_Desc"
+			"image_inventory"	"backpack/player/items/medic/medic_clipboard"
+			"model_player"		"models/player/items/medic/medic_clipboard.mdl"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"medic"	"1"
+			}
+		}
 
 
 
@@ -39591,6 +39720,20 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
+		"400"
+		{
+			"name"	"cannot pick up intelligence"
+			"attribute_class"	"cannot_pick_up_intelligence"
+			"attribute_name"	"player cannot pick up intelligence"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CannotPickUpIntelligence"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
 		"401"
 		{
 			"name"	"chance of hunger decrease"
@@ -39600,6 +39743,20 @@
 			"max_value"	"1"
 			"group"	"only_on_unique"
 			"description_string"	"#Attrib_ChanceOfHungerDecrease"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"410"
+		{
+			"name"	"damage bonus while undisguised"
+			"attribute_class"		"mult_dmg_undisguised"
+			"attribute_name"		"damage bonus while undisguised"
+			"min_value"	"1.05"
+			"max_value"	"1.1"
+			"group"	"weapons"
+			"description_string"	"#Attrib_DmgBonus_Undisguised"
 			"description_format"	"value_is_percentage"
 			"hidden"	"0"
 			"effect_type"	"positive"
