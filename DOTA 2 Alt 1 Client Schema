@@ -2196,6 +2196,8 @@
 			"item_slot"		"armor"
 			"item_description"		"#DOTA_Item_Desc_Pangolin_Shoulder_Armor"
 			"image_inventory"		"econ/items/bounty_hunter/pangolin_shoulder_armor"
+			"item_set"		"bounty_hunter_pangolin"
+			"item_rarity"		"uncommon"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -9531,6 +9533,7 @@
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Shuriken_of_the_Hidden_Hunter"
 			"image_inventory"		"econ/items/bounty_hunter/bounty_hunter_shuriken"
+			"item_set"		"bounty_hunter_pangolin"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -9587,6 +9590,7 @@
 			"item_name"		"#DOTA_Item_Harvester_of_the_Hidden_Hunter"
 			"item_description"		"#DOTA_Item_Desc_Harvester_of_the_Hidden_Hunter"
 			"image_inventory"		"econ/items/bounty_hunter/bounty_hunter_harvester"
+			"item_set"		"bounty_hunter_pangolin"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -9643,6 +9647,7 @@
 			"item_slot"		"offhand_weapon"
 			"item_description"		"#DOTA_Item_Desc_Cleaver_of_the_Hidden_Hunter"
 			"image_inventory"		"econ/items/bounty_hunter/bounty_hunter_scimitar"
+			"item_set"		"bounty_hunter_pangolin"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -12075,6 +12080,7 @@
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Pangolin_Carapace"
 			"image_inventory"		"econ/items/bounty_hunter/pangolin_armor"
+			"item_set"		"bounty_hunter_pangolin"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -12122,6 +12128,7 @@
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Pangolin_Scarf"
 			"image_inventory"		"econ/items/bounty_hunter/pangolin_scarf"
+			"item_set"		"bounty_hunter_pangolin"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -13630,10 +13637,10 @@
 		}
 		"15004"
 		{
-			"name"		"50 Battle Bonus (3 Days)"
+			"name"		"75 Battle Bonus (3 Days)"
 			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Battle_Bonus"
-			"item_name"		"#DOTA_Item_50_Battle_Bonus_3_Days"
+			"item_name"		"#DOTA_Item_75_Battle_Bonus_3_Days"
 			"item_rarity"		"rare"
 			"tool"
 			{
@@ -13641,7 +13648,7 @@
 				"use_string"		"#ConsumeItem"
 				"usage"
 				{
-					"drop_rate_bonus"		"1.500000"
+					"drop_rate_bonus"		"1.750000"
 					"duration_days"		"3"
 				}
 			}
@@ -13650,8 +13657,8 @@
 				"usable_gc"		"1"
 				"usable_out_of_game"		"1"
 			}
-			"item_description"		"#DOTA_Item_Desc_50_Battle_Bonus_3_Days"
-			"image_inventory"		"econ/tools/50_battle_bonus_3"
+			"item_description"		"#DOTA_Item_Desc_75_Battle_Bonus_3_Days"
+			"image_inventory"		"econ/tools/75_battle_bonus_3"
 			"attributes"
 			{
 				"disallow recycling"
@@ -13663,10 +13670,10 @@
 		}
 		"15005"
 		{
-			"name"		"50 Battle Bonus (6 Days)"
+			"name"		"75 Battle Bonus (6 Days)"
 			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Battle_Bonus"
-			"item_name"		"#DOTA_Item_50_Battle_Bonus_6_Days"
+			"item_name"		"#DOTA_Item_75_Battle_Bonus_6_Days"
 			"item_rarity"		"rare"
 			"tool"
 			{
@@ -13674,7 +13681,7 @@
 				"use_string"		"#ConsumeItem"
 				"usage"
 				{
-					"drop_rate_bonus"		"1.500000"
+					"drop_rate_bonus"		"1.750000"
 					"duration_days"		"6"
 				}
 			}
@@ -13683,8 +13690,8 @@
 				"usable_gc"		"1"
 				"usable_out_of_game"		"1"
 			}
-			"item_description"		"#DOTA_Item_Desc_50_Battle_Bonus_6_Days"
-			"image_inventory"		"econ/tools/50_battle_bonus_6"
+			"item_description"		"#DOTA_Item_Desc_75_Battle_Bonus_6_Days"
+			"image_inventory"		"econ/tools/75_battle_bonus_6"
 			"attributes"
 			{
 				"disallow recycling"
@@ -15496,6 +15503,59 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"20030"
+		{
+			"name"		"Trappings of the Pangolin Guild Bundle"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Bundle_Bounty_Hunter_Pangolin"
+			"item_rarity"		"rare"
+			"bundle"
+			{
+				"Shuriken of the Hidden Hunter"		"1"
+				"Harvester of the Hidden Hunter"		"1"
+				"Cleaver of the Hidden Hunter"		"1"
+				"Pangolin Carapace"		"1"
+				"Pangolin Scarf"		"1"
+				"Pangolin Shoulder Armor"		"1"
+			}
+			"item_description"		"#DOTA_Bundle_Desc_Bounty_Hunter_Pangolin"
+			"image_inventory"		"econ/sets/DOTA_Bundle_Bounty_Hunter_Pangolin"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_bounty_hunter"		"1"
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"215.326126 306.179901 124.216904"
+				"PortraitLookAt"		"7.849731 231.256714 0.000000"
+				"PortraitFOV"		"40.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"112.730003 -41.130001 174.529999"
+				"PortraitLightLookAt"		"42.540001 149.300003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.390000 0.390000 0.390000"
+				"PortraitShadowColor"		"0.060000 0.090000 0.040000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"31.670000 -34.840000 -37.060001"
+				"PortraitAmbientColor"		"0.530000 0.500833 0.501311"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"juggernaut_portrait"
+				"PortraitAnimationActivity"		"3"
+				"PortraitAnimationCycle"		"0.240000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 	}
 	"attributes"
 	{
@@ -16783,6 +16843,20 @@
 				"Frost Spikes"		"1"
 			}
 			"store_bundle"		"Spikes of Frost Bundle"
+		}
+		"bounty_hunter_pangolin"
+		{
+			"name"		"#DOTA_Set_Bounty_Hunter_Pangolin"
+			"items"
+			{
+				"Shuriken of the Hidden Hunter"		"1"
+				"Harvester of the Hidden Hunter"		"1"
+				"Cleaver of the Hidden Hunter"		"1"
+				"Pangolin Carapace"		"1"
+				"Pangolin Scarf"		"1"
+				"Pangolin Shoulder Armor"		"1"
+			}
+			"store_bundle"		"Trappings of the Pangolin Guild Bundle"
 		}
 	}
 	"client_loot_lists"

@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/816\/scripts\/items\/items_game.be60e465668d7c379c96547e5025e7b4ac8e6168.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/816\/scripts\/items\/items_game.a4fa2dafbd3c867030e2d592da8984d1022ff8f5.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -2852,6 +2852,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/pangolin_shoulder_armor.c633b0ac396d60c50401fc2969f559d6d4bc9ede.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/pangolin_shoulder_armor_large.27a95836bdf92715f867f68e629bff2599e89ea0.png",
+				"item_set": "bounty_hunter_pangolin",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -6384,6 +6385,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/bounty_hunter_shuriken.50167c79ab12595346bdf398a1574f6b31825ecf.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/bounty_hunter_shuriken_large.a5bf6eaa147e5c4bb36e067af80ae7daee7744b5.png",
+				"item_set": "bounty_hunter_pangolin",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -6405,6 +6407,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/bounty_hunter_harvester.4a6a857aa564c2099e1faf74a9398fa62de9ba12.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/bounty_hunter_harvester_large.8531fe8553833ca019a788693a5ce57351f6048d.png",
+				"item_set": "bounty_hunter_pangolin",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -6426,6 +6429,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/bounty_hunter_scimitar.c9a22448e1d887602c8923aecac45f2b7792d046.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/bounty_hunter_scimitar_large.5329f64e34ac9442e6e2c6e7e8cb7c29f02c01e6.png",
+				"item_set": "bounty_hunter_pangolin",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7628,6 +7632,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/pangolin_armor.953abdd808bec856cc0acaa17f7f75fa638d4a75.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/pangolin_armor_large.f6bb31f5db672f0fa1282ba16fbf3bbe7f297894.png",
+				"item_set": "bounty_hunter_pangolin",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7649,6 +7654,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/pangolin_scarf.5d8f9761496b71182df8e6d813db96aa95231452.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/pangolin_scarf_large.6075dc39007e516fae1042704ca10856ed892488.png",
+				"item_set": "bounty_hunter_pangolin",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -8395,7 +8401,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Custom Courier",
 				"item_name": "Mighty Boar",
-				"item_description": "",
+				"item_description": "This boar has a crazed look in his eye. Is it distrust? Madness? Or does he just want to eat your tangos.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/courier\/mighty_boar\/mighty_boar",
@@ -8576,19 +8582,19 @@
 				
 			},
 			{
-				"name": "50 Battle Bonus (3 Days)",
+				"name": "75 Battle Bonus (3 Days)",
 				"defindex": 15004,
 				"item_class": "tool",
 				"item_type_name": "Battle Bonus",
-				"item_name": "50% Battle Bonus (3 Days)",
-				"item_description": "Use this item to increase your rate of earning <font color='#FFD700'>Battle Points<\/font> for 3 days by <font color='#FFD700'>50%<\/font>. Additionally, everyone else in games you play receive <font color='#FFD700'>10%<\/font> extra <font color='#FFD700'>Battle Points<\/font> (this bonus stacks).",
+				"item_name": "75% Battle Bonus (3 Days)",
+				"item_description": "Use this item to increase your rate of earning <font color='#FFD700'>Battle Points<\/font> for 3 days by <font color='#FFD700'>75%<\/font>. Additionally, everyone else in games you play receive <font color='#FFD700'>15%<\/font> extra <font color='#FFD700'>Battle Points<\/font> (this bonus stacks).",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/tools\/50_battle_bonus_3",
+				"image_inventory": "econ\/tools\/75_battle_bonus_3",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/50_battle_bonus_3.f3ceed7ea011ce6b12104276b1900a8d56e90da1.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/50_battle_bonus_3_large.73da42e387ebd6bf7ea4fa417a8739b790b7b486.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/75_battle_bonus_3.f3ceed7ea011ce6b12104276b1900a8d56e90da1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/75_battle_bonus_3_large.73da42e387ebd6bf7ea4fa417a8739b790b7b486.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,
@@ -8610,19 +8616,19 @@
 				
 			},
 			{
-				"name": "50 Battle Bonus (6 Days)",
+				"name": "75 Battle Bonus (6 Days)",
 				"defindex": 15005,
 				"item_class": "tool",
 				"item_type_name": "Battle Bonus",
-				"item_name": "50% Battle Bonus (6 Days)",
-				"item_description": "Use this item to increase your rate of earning <font color='#FFD700'>Battle Points<\/font> for 6 days by <font color='#FFD700'>50%<\/font>. Additionally, everyone else in games you play receive <font color='#FFD700'>10%<\/font> extra <font color='#FFD700'>Battle Points<\/font> (this bonus stacks).",
+				"item_name": "75% Battle Bonus (6 Days)",
+				"item_description": "Use this item to increase your rate of earning <font color='#FFD700'>Battle Points<\/font> for 6 days by <font color='#FFD700'>75%<\/font>. Additionally, everyone else in games you play receive <font color='#FFD700'>15%<\/font> extra <font color='#FFD700'>Battle Points<\/font> (this bonus stacks).",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/tools\/50_battle_bonus_6",
+				"image_inventory": "econ\/tools\/75_battle_bonus_6",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/50_battle_bonus_6.874989ddbfc915b286b145b907a712558c946fa5.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/50_battle_bonus_6_large.33369bdb98fd1518dca33bf9a7d185019455ae3b.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/75_battle_bonus_6.874989ddbfc915b286b145b907a712558c946fa5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/75_battle_bonus_6_large.33369bdb98fd1518dca33bf9a7d185019455ae3b.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,
@@ -9255,8 +9261,8 @@
 				"image_inventory": "econ\/sets\/DOTA_Bundle_Sven_Mono_Militis",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_sven_mono_militis.60f29b59dd632bd847670eeeb697216a0ec5bced.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_sven_mono_militis_large.7f09e6e5c90b3fd363134a5fda79094148586714.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_sven_mono_militis.4e6243a23d110b52a55c1c9ed5989450d4d8b8ed.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_sven_mono_militis_large.d613f5846a389b851ffffa351698f40ebf33f700.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -9469,7 +9475,7 @@
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
 				"item_name": "Dota 2 Early Access Bundle",
-				"item_description": "This bundle includes a tradable <font color='#FFD700'>Dota 2 Early Access Pass<\/font>, a Mighty Boar courier, and a full set of items for Sven and Axe! Use the <font color='#FFD700'>Dota 2 Early Access Pass<\/font> from your Steam inventory to unlock the game.",
+				"item_description": "This bundle includes a tradable <font color='#FFD700'>Dota 2 Early Access Pass<\/font>, a Mighty Boar courier, and a full set of items for Sven and Axe! Use the Dota 2 Early Access Pass from your Steam inventory to unlock the game.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/sets\/DOTA_Bundle_DOTA2_Access",
@@ -9497,6 +9503,26 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_drow_ranger_spikes_frost.afd9cdedad88d22a025c21d75df9e06ed218e4c9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_drow_ranger_spikes_frost_large.cc8551347fd65c30dddd54cb287a863be74d5bc7.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Trappings of the Pangolin Guild Bundle",
+				"defindex": 20030,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "Trappings of the Pangolin Guild Bundle",
+				"item_description": "Includes all of the items in the 'Trappings of the Pangolin Guild' set for Bounty Hunter:",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/sets\/DOTA_Bundle_Bounty_Hunter_Pangolin",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_bounty_hunter_pangolin.5f18f15d7edee4f022d4fd64238c9d86c5e9cfde.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/dota_bundle_bounty_hunter_pangolin_large.98ea5a59a9b5b9f5b303755c52dd96921e32f0a8.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -9969,6 +9995,20 @@
 					"Hlotl-Feather Necklace",
 					"War Blade (Right)",
 					"War Blade (Left)"
+				]
+				
+			},
+			{
+				"item_set": "bounty_hunter_pangolin",
+				"name": "Trappings of the Pangolin Guild",
+				"store_bundle": "Trappings of the Pangolin Guild Bundle",
+				"items": [
+					"Shuriken of the Hidden Hunter",
+					"Harvester of the Hidden Hunter",
+					"Cleaver of the Hidden Hunter",
+					"Pangolin Carapace",
+					"Pangolin Scarf",
+					"Pangolin Shoulder Armor"
 				]
 				
 			},
