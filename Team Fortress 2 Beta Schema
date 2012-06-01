@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.6996c23dd21e5782ca38d9ee1c0517811c97e47e.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.6ab43e71b07e63ab20f0d4265084f3320496a169.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -117,7 +117,11 @@
 			},
 			{
 				"origin": 20,
-				"name": "Unknown"
+				"name": "MvM Badge completion reward"
+			},
+			{
+				"origin": 21,
+				"name": "MvM Squad surplus reward"
 			}
 		]
 		,
@@ -1428,7 +1432,6 @@
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
-					"can_collect": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -1471,7 +1474,6 @@
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
-					"can_collect": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -1850,6 +1852,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bow.5fc4dcfec7ae596479fb864f3bbf43ece0506246.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_bow_large.79a707f696ec21068cd87f39dd386df5407855fe.png",
+				"item_set": "hidden_applearrow_set",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -6568,13 +6571,13 @@
 				"item_description": "A special no-damage rocket launcher for learning\nrocket jump tricks and patterns.",
 				"proper_name": true,
 				"item_slot": "primary",
-				"model_player": "models\/weapons\/w_models\/w_rocketlauncher.mdl",
+				"model_player": "models\/weapons\/c_models\/c_rocketjumper\/c_rocketjumper.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/weapons\/w_models\/w_rocketlauncher",
+				"image_inventory": "backpack\/weapons\/c_models\/c_rocketjumper\/c_rocketjumper",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_rocketlauncher.41eed5b3c42e52270d11bab5a740b293d0795484.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_rocketlauncher_large.3e656b2c22252a42e728b9b0faac2f5dbb546937.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_rocketjumper.87211448aa3d1f6165ccc444d07b0117ee0a7da7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_rocketjumper_large.89566eea7b7a2c06c1de533bd104b1c3380aa76c.png",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -6595,6 +6598,11 @@
 						"value": 0.000000
 					},
 					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
 						"name": "no self blast dmg",
 						"class": "no_self_blast_dmg",
 						"value": 2.000000
@@ -6605,19 +6613,9 @@
 						"value": 3.000000
 					},
 					{
-						"name": "dmg taken from blast increased",
-						"class": "mult_dmgtaken_from_explosions",
-						"value": 2.000000
-					},
-					{
-						"name": "dmg taken from bullets increased",
-						"class": "mult_dmgtaken_from_bullets",
-						"value": 2.000000
-					},
-					{
-						"name": "dmg taken from fire increased",
-						"class": "mult_dmgtaken_from_fire",
-						"value": 2.000000
+						"name": "cannot pick up intelligence",
+						"class": "cannot_pick_up_intelligence",
+						"value": 1.000000
 					}
 				]
 				
@@ -7341,7 +7339,7 @@
 			{
 				"name": "Frying Pan",
 				"defindex": 264,
-				"item_class": "tf_weapon_shovel",
+				"item_class": "saxxy",
 				"item_type_name": "Frying Pan",
 				"item_name": "Frying Pan",
 				"proper_name": true,
@@ -7361,8 +7359,13 @@
 					"strange_parts": true
 				},
 				"used_by_classes": [
+					"Scout",
+					"Sniper",
 					"Soldier",
-					"Demoman"
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Pyro"
 				]
 				,
 				"attributes": [
@@ -7428,6 +7431,11 @@
 						"name": "override projectile type",
 						"class": "override_projectile_type",
 						"value": 14.000000
+					},
+					{
+						"name": "cannot pick up intelligence",
+						"class": "cannot_pick_up_intelligence",
+						"value": 1.000000
 					}
 				]
 				
@@ -13474,11 +13482,6 @@
 				,
 				"attributes": [
 					{
-						"name": "hide enemy health",
-						"class": "hide_enemy_health",
-						"value": 1.000000
-					},
-					{
 						"name": "crit mod disabled",
 						"class": "mult_crit_chance",
 						"value": 0.000000
@@ -13489,8 +13492,8 @@
 						"value": 1.200000
 					},
 					{
-						"name": "damage bonus",
-						"class": "mult_dmg",
+						"name": "damage bonus while undisguised",
+						"class": "mult_dmg_undisguised",
 						"value": 1.200000
 					}
 				]
@@ -14363,6 +14366,33 @@
 					}
 				]
 				
+			},
+			{
+				"name": "Valve Store Shipment Box",
+				"defindex": 495,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shipment Box",
+				"item_name": "Valve Store Shipment Box",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/valvestore_shipmentbox",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "gift"
+				}
 			},
 			{
 				"name": "TournamentMedal - GWJ Winners",
@@ -20078,7 +20108,7 @@
 				"item_class": "tf_wearable",
 				"item_type_name": "Pipe",
 				"item_name": "Nine-Pipe Problem",
-				"item_description": "In the time it takes you to read this description, I’ve already ubered a heavy, captured your base, solved a crime, and smoked three pipes.",
+				"item_description": "In the time it takes you to read this description, I've already ubered a heavy, captured your base, solved a crime, and smoked three pipes.",
 				"proper_name": true,
 				"item_slot": "misc",
 				"model_player": "models\/player\/items\/medic\/medic_smokingpipe.mdl",
@@ -21826,6 +21856,41 @@
 				
 			},
 			{
+				"name": "Store Purchase Promotion Package",
+				"defindex": 729,
+				"item_class": "tf_wearable",
+				"item_type_name": "Package",
+				"item_name": "Mann Co. Store Package",
+				"item_description": "This bag contains one free item from the Mann Co. store! You can open it from your backpack!",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/shopping_bag",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/shopping_bag.10340a6535442192a73ae9203e6cb735a578866b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/shopping_bag_large.6d24af978d17fc1ebd49bb3fa0da9e9d74ab1d91.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "gift"
+				},
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "The Teufort Tooth Kicker",
 				"defindex": 734,
 				"item_class": "tf_wearable",
@@ -22057,10 +22122,10 @@
 				},
 				"styles": [
 					{
-						"name": "TF_EngineerChaps_Style0"
+						"name": "Tan"
 					},
 					{
-						"name": "TF_EngineerChaps_Style1"
+						"name": "Midnight"
 					}
 				]
 				,
@@ -22095,6 +22160,506 @@
 					"can_be_restored": true,
 					"strange_parts": true
 				}
+			},
+			{
+				"name": "The Toss-Proof Towel",
+				"defindex": 757,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Toss-Proof Towel",
+				"item_description": "Make sure you never throw in the towel, even accidentally, by keeping it nice and close, where it can't run off and surrender like a coward when you're not looking.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/heavy_boxingtowel.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/heavy_boxingtowel",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/heavy_boxingtowel.3377e51fca2c3ae1630bc42f6bc03c68959a0d04.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/heavy_boxingtowel_large.7270e949cc7e6a362ba57d98ca64b0da34ead30c.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Fruit Shoot",
+				"defindex": 759,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Fruit Shoot",
+				"item_description": "This fun, all-ages activity brings history alive! All you need is a bow, an arrow, an apple, and an idiot.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/sniper_applearrow.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/sniper_applearrow",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sniper_applearrow.c80c37d78add3525bfa955177c382deb79919fe5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sniper_applearrow_large.acc6e98f81e1d479171830e9479cd6f9120c5370.png",
+				"drop_type": "drop",
+				"item_set": "hidden_applearrow_set",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Deadly"
+					},
+					{
+						"name": "Dangerous"
+					},
+					{
+						"name": "Tasty"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "The Front Runner",
+				"defindex": 760,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Front Runner",
+				"item_description": "This commemorative sweatband is a loving tribute to the heroes – and we don't use that word lightly – who live their lives like sweaty candles in the wind.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/scout_headband.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/scout_headband",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/scout_headband.96e27a26260754a526ead32923135fe544fa40ad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/scout_headband_large.08a093b32a755783fe5723695da35d5d229fdf47.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Stylin'"
+					},
+					{
+						"name": "Indifferent"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Triclops",
+				"defindex": 761,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Triclops",
+				"item_description": "Fool your enemies into thinking you can see better! Here's the trick: You won't be able to see at all!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/smnc_pyro.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/smnc_pyro",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/smnc_pyro.08312f905d934143dc032bc9de19a0d91db48d76.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/smnc_pyro_large.5b761edae248381fa4010101b13df9004d206a3a.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Roasting"
+					},
+					{
+						"name": "Blazing"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Flamingo Kid",
+				"defindex": 762,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Flamingo Kid",
+				"item_description": "Are you man enough to wear this brightly colored cowboy hat? Just in case you're not, we slapped a half-a-skull on it to ease you into the exciting new world of wearing this hat.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/smnc_sniper.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/smnc_sniper",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/smnc_sniper.a44807c9e2cf8f68903e2909b43d50760051a838.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/smnc_sniper_large.8396e93eeb5bf79a1d670e7794e8777d25bf61c8.png",
+				"drop_type": "drop",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Sneaky Spats of Sneaking",
+				"defindex": 763,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shoes",
+				"item_name": "Sneaky Spats of Sneaking",
+				"item_description": "Sure, you're in the market for shoes to help you lurk in the shadows. But once you slip on these natty calf leather spatterdashes, you'll want EVERYONE to check you out.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/spy_spats.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/spy_spats",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_spats.53629cf51e2ad167cc47c6a7a67b744ae8cd7aee.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_spats_large.db1cf988c44908927775aa116500b0b79de6d155.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Cross-Comm Crash Helmet",
+				"defindex": 764,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Cross-Comm Crash Helmet",
+				"item_description": "This purely cosmetic battlefield awareness accessory will fool everyone from the lowliest private to the mayor of the army into thinking you're probably in the army too.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/grfs_soldier.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/grfs_soldier",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_soldier.db74e1f826550763b5e9062e2838ea3c5422c2f2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_soldier_large.f6ae17dc9b7b25b69fbfc56949901a58b1d0f71c.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Cross-Comm Express",
+				"defindex": 765,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Cross-Comm Express",
+				"item_description": "This full spectrum battle monocle receives signals from a satellite at light speed, which means you may have to slow down a little so they can catch up to you.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/grfs_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/grfs_scout",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_scout.1fcf6329598d9960d685d2858e4827e13536493d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_scout_large.1028b65d7f8c72286e2025b6e68d619ebddd42b9.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Doublecross-Comm",
+				"defindex": 766,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Doublecross-Comm",
+				"item_description": "This battlefield awareness bandanna is stitched with nanofibers that can download battlefields from Wikipedia straight to your face, so you will never not be aware of them.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/grfs_sniper.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/grfs_sniper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_sniper.3f23c9030b93ec8188fbcda1f501b4a270462f1f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_sniper_large.cce4f907819c8b249d3fb7e17c1f7b4c2fc71da5.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper",
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Atomic Accolade",
+				"defindex": 767,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Atomic Accolade",
+				"item_description": "Skip past all the boring busywork of science and get right to the exciting part: the fabulous prizes! This prestigious ribbon certifies your bravery in the field of excellence.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/qc_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/qc_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_badge.bddb508153aa3db5564e3a5fda29fa069efa88d4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_badge_large.47336ed6d9a20eddf5e71468fd4a570e6e74ef8d.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Professor's Pineapple",
+				"defindex": 768,
+				"item_class": "tf_wearable",
+				"item_type_name": "Science Project",
+				"item_name": "Professor's Pineapple",
+				"item_description": "We don't know what's in it, but we found it in some rusty drums buried in a shallow grave in a forest, so let's face it, you'll probably get super powers if you drink it.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/qc_flask_soldier.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/qc_flask_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_flask_demo.80ba8937e57dcfe6c8e5ad6a647c61f30d9b3159.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_flask_demo_large.ab135c2618efc3f13e5f631c2ad1e553985635ec.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier",
+					"Demoman",
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Quadwrangler",
+				"defindex": 769,
+				"item_class": "tf_wearable",
+				"item_type_name": "Science Project",
+				"item_name": "Quadwrangler",
+				"item_description": "This quantum-collared lab coat includes a handy rubber pipe that siphons blood from your heart, where it is not needed, to your shooting arm, where it is!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/qc_glove.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/qc_glove",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_glove.fc2a4c0597c5250499366046c27d41a295e3cc99.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_glove_large.7500421191a598f4996eff85d615c8a240a0e736.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Surgeon's Side Satchel",
+				"defindex": 770,
+				"item_class": "tf_wearable",
+				"item_type_name": "Satchel",
+				"item_name": "Surgeon's Side Satchel",
+				"item_description": "This compact medical equipment bag makes the perfect accessory for the doctor on the go. Treat patients out of doors, in the fresh unsterile air of the battlefield.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/medic_clipboard.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/medic_clipboard",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medic_clipboard.b0c1d219bfbbfb1c935bc3ce5b00b5ea5f2a882a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medic_clipboard_large.068cbcf3c705c0ab1cc4227b358856a73d36158e.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
 			},
 			{
 				"name": "World Traveler",
@@ -24333,8 +24898,8 @@
 				"defindex": 2066,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "TF_Bundle_MysteriousPromo2",
-				"item_description": "",
+				"item_name": "Mysterious Promo 2",
+				"item_description": "Mysterious Promo 2",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -24890,7 +25455,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 39.000000
+						"value": 43.000000
 					}
 				]
 				
@@ -25653,7 +26218,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 42.000000
+						"value": 44.000000
 					}
 				]
 				
@@ -25807,7 +26372,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 41.000000
+						"value": 45.000000
 					}
 				]
 				
@@ -27142,6 +27707,84 @@
 				
 			},
 			{
+				"name": "Strange Part: Demomen Killed",
+				"defindex": 6001,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Demomen Killed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon will enable it to track the number of Demomen you kill with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_demos_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_demos_killed.908a65355d8cc1deba03c9198863486dd195ab35.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_demos_killed_large.2362881bdb64c57017cb7a4ff3c5c10226c69228.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 13.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Soldiers Killed",
+				"defindex": 6002,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Soldiers Killed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon will enable it to track the number of Soldiers you kill with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_soldiers_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_soldiers_killed.077cdbd0033c4cade88258f3383b086930e01b37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_soldiers_killed_large.1d50a477dc752c8da20c313441b778a8892d4258.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 12.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Strange Part: Buildings Destroyed",
 				"defindex": 6009,
 				"item_class": "tool",
@@ -27332,6 +27975,1116 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 23.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Full Moon Kills",
+				"defindex": 6015,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Full Moon Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill during full moons with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_KillDuringFullMoon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killduringfullmoon.e23132ae743904e609a38392c86c6ba698893666.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killduringfullmoon_large.467899248360003a0a79fdcbdbae9230d74aa7b6.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 27.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Domination Kills",
+				"defindex": 6016,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Domination Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you dominate by killing them with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_KillStartDomination",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killstartdomination.b0d3e992a4a7fb64462e26add69854eb884485d8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killstartdomination_large.dbc7569d49ed8d593b82fa86a9cca08bfb04acc3.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 28.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Revenge Kills",
+				"defindex": 6018,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Revenge Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies dominating you kill with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_KillRevenge",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killrevenge.ecb1445da68d0408df3b784c60dfaba2e11e2547.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killrevenge_large.e45a5ba0757dba13caaad60c56554d4bf83c04ac.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 30.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Posthumous Kills",
+				"defindex": 6019,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Posthumous Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill with that weapon while you're dead.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_PlayerKillPosthumous",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_playerkillposthumous.b868bb1c34552badadf0c314cc477c1c39230cb7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_playerkillposthumous_large.0bcbd7a560e09523549e7ee99853e2cc1df52bd5.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 31.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Allies Extinguished",
+				"defindex": 6020,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Allies Extinguished",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of burning allies you extinguish with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_burningallyextinguished",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_burningallyextinguished.c75bcbcf249853c0de883bc11f6f26720c470d5d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_burningallyextinguished_large.0275dce0cc4da40967f01632be75980dbea78e4c.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 32.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Critical Kills",
+				"defindex": 6021,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Critical Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill with critical hits from that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_killcritical",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killcritical.e04510e4511dfe43c6d3c127c91ef2864caf5ad9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killcritical_large.47abb16ea02d105fd244c6dc92f34d124c65b0e2.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Kills While Explosive-Jumping",
+				"defindex": 6022,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Kills While Explosive Jumping",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill with that weapon while airborne from a rocket\/stickyjump.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_KillWhileExplosiveJumping",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killwhileexplosivejumping.8c57b22bc5d895504c52a5558334da55290b5b45.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_killwhileexplosivejumping_large.fd9cbd5e2efdd374b9cb4595eab331966513d59b.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 34.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place North American Platinum Season 6",
+				"defindex": 8000,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place North American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstplatinum.7856b34277d7c9eb9cafed6bd609d07a955a6f37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstplatinum_large.78495f6f5ab66e75636c3f0d794cdc7ec0ba1028.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place North American Platinum Season 6",
+				"defindex": 8001,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place North American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondplatinum.e76209dab505d46b17556efd6f2d0113915f8f71.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondplatinum_large.899e4cfd87eecbe6b8e1160aa705c49bb3eb7a40.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place North American Platinum Season 6",
+				"defindex": 8002,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place North American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdplatinum.910df907b7bbfface5116402f14196e3a44a6409.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdplatinum_large.11eedc8309e3ca7663aaf0a88ac6fcdc9dc16b80.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place European Platinum Season 6",
+				"defindex": 8003,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place European Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstplatinum.7856b34277d7c9eb9cafed6bd609d07a955a6f37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstplatinum_large.78495f6f5ab66e75636c3f0d794cdc7ec0ba1028.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place European Platinum Season 6",
+				"defindex": 8004,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place European Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondplatinum.e76209dab505d46b17556efd6f2d0113915f8f71.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondplatinum_large.899e4cfd87eecbe6b8e1160aa705c49bb3eb7a40.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place European Platinum Season 6",
+				"defindex": 8005,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place European Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdplatinum.910df907b7bbfface5116402f14196e3a44a6409.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdplatinum_large.11eedc8309e3ca7663aaf0a88ac6fcdc9dc16b80.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place South American Platinum Season 6",
+				"defindex": 8006,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place South American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstplatinum.7856b34277d7c9eb9cafed6bd609d07a955a6f37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstplatinum_large.78495f6f5ab66e75636c3f0d794cdc7ec0ba1028.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place South American Platinum Season 6",
+				"defindex": 8007,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place South American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondplatinum.e76209dab505d46b17556efd6f2d0113915f8f71.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondplatinum_large.899e4cfd87eecbe6b8e1160aa705c49bb3eb7a40.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place South American Platinum Season 6",
+				"defindex": 8008,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place South American Platinum",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdplatinum.910df907b7bbfface5116402f14196e3a44a6409.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdplatinum_large.11eedc8309e3ca7663aaf0a88ac6fcdc9dc16b80.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place North American Silver Season 6",
+				"defindex": 8009,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place North American Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstsilver.b0eec49e5d1967ec59356d1c117c6a3e872b26ec.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstsilver_large.250550ba46f6dc3502021551cafe040fc52f0e44.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place North American Silver Season 6",
+				"defindex": 8010,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place North American Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsilver.bcf0418d44f323dcbc777a0c23a5602474f03d54.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsilver_large.05e98a8b53f482413339d6d7783721b94aec3226.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place North American Silver Season 6",
+				"defindex": 8011,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place North American Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsilver.5040bce451b8083b6a23d9d1ea29fbd0b9c5e3ad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsilver_large.1096b2b573c475f502b2d57bba26556986e5a319.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place European Silver Season 6",
+				"defindex": 8012,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place European Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firstsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstsilver.b0eec49e5d1967ec59356d1c117c6a3e872b26ec.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firstsilver_large.250550ba46f6dc3502021551cafe040fc52f0e44.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place European Silver Season 6",
+				"defindex": 8013,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place European Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsilver.bcf0418d44f323dcbc777a0c23a5602474f03d54.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsilver_large.05e98a8b53f482413339d6d7783721b94aec3226.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place European Silver Season 6",
+				"defindex": 8014,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place European Silver",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsilver.5040bce451b8083b6a23d9d1ea29fbd0b9c5e3ad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsilver_large.1096b2b573c475f502b2d57bba26556986e5a319.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place North American Steel Season 6",
+				"defindex": 8015,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place North American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firststeel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firststeel.bc87fc6a4a68c95277d3cd5ec1a04062d9a04c3a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firststeel_large.f3f730614be44a4c9342a43c9cd1cd941c7dd4a7.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place North American Steel Season 6",
+				"defindex": 8016,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place North American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsteel.6e5c88ed7e203c46dfb1ffd67898b8dcd5a457e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsteel_large.0f215552319c6b509d34cd77e0e4827c236b013a.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place North American Steel Season 6",
+				"defindex": 8017,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place North American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsteel.0e8f08a78be46e2789eeb87d79e1b858264dc9c8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsteel_large.7aefab0f854201b0287dafd0ff63d0152e74d6e2.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place European Steel Season 6",
+				"defindex": 8018,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place European Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firststeel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firststeel.bc87fc6a4a68c95277d3cd5ec1a04062d9a04c3a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firststeel_large.f3f730614be44a4c9342a43c9cd1cd941c7dd4a7.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place European Steel Season 6",
+				"defindex": 8019,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place European Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsteel.6e5c88ed7e203c46dfb1ffd67898b8dcd5a457e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsteel_large.0f215552319c6b509d34cd77e0e4827c236b013a.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place European Steel Season 6",
+				"defindex": 8020,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place European Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsteel.0e8f08a78be46e2789eeb87d79e1b858264dc9c8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsteel_large.7aefab0f854201b0287dafd0ff63d0152e74d6e2.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 1st Place South American Steel Season 6",
+				"defindex": 8021,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 1st Place South American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6first.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6firststeel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firststeel.bc87fc6a4a68c95277d3cd5ec1a04062d9a04c3a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6firststeel_large.f3f730614be44a4c9342a43c9cd1cd941c7dd4a7.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 2nd Place South American Steel Season 6",
+				"defindex": 8022,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 2nd Place South American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6second.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6secondsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsteel.6e5c88ed7e203c46dfb1ffd67898b8dcd5a457e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6secondsteel_large.0f215552319c6b509d34cd77e0e4827c236b013a.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander 3rd Place South American Steel Season 6",
+				"defindex": 8023,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander 3rd Place South American Steel",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6third.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6thirdsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsteel.0e8f08a78be46e2789eeb87d79e1b858264dc9c8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6thirdsteel_large.7aefab0f854201b0287dafd0ff63d0152e74d6e2.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander Platinum Participant Season 6",
+				"defindex": 8024,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander Platinum Participant",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6participant.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6participantplatinum",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6participantplatinum.168a303670610363fe80547cf25314d8cf39d6f3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6participantplatinum_large.c56937403493afa67a3914c07178dead19a69cce.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander Silver Participant Season 6",
+				"defindex": 8025,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander Silver Participant",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6participant.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6participantsilver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6participantsilver.cae2e7108470e8ed6632e5b6959ff321c30c2dd8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6participantsilver_large.5645e22e620a3ce3168e7e7f62bcb085a2012727.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "UGC Highlander Steel Participant Season 6",
+				"defindex": 8026,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "UGC Highlander Steel Participant",
+				"item_description": "UGC Highlander League Season 6",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/ugc6participant.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ugc6participantsteel",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6participantsteel.ecaff1b7dc837438b7bac5ad0a318533f3e804f2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ugc6participantsteel_large.1896c1258a9b392b589adb08528f911934419341.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
 					}
 				]
 				
@@ -31764,6 +33517,42 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "cannot pick up intelligence",
+				"defindex": 400,
+				"attribute_class": "cannot_pick_up_intelligence",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "Wearer cannot carry the intelligence briefcase",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "chance of hunger decrease",
+				"defindex": 401,
+				"attribute_class": "chance_of_hunger_decrease",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Reduces chance of hunger by up to %s1%",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "damage bonus while undisguised",
+				"defindex": 410,
+				"attribute_class": "mult_dmg_undisguised",
+				"min_value": 1.050000,
+				"max_value": 1.100000,
+				"description_string": "+%s1% damage bonus while undisguised",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			}
 		]
 		,
@@ -31949,6 +33738,23 @@
 						"name": "dmg taken from crit reduced",
 						"class": "mult_dmgtaken_from_crit",
 						"value": 0.950000
+					}
+				]
+				
+			},
+			{
+				"item_set": "hidden_applearrow_set",
+				"name": "Dual-Purpose Fruit",
+				"items": [
+					"The Huntsman",
+					"The Fruit Shoot"
+				]
+				,
+				"attributes": [
+					{
+						"name": "chance of hunger decrease",
+						"class": "chance_of_hunger_decrease",
+						"value": 1.130000
 					}
 				]
 				
@@ -33112,48 +34918,18 @@
 				"level_data": "KillEaterRank"
 			},
 			{
-				"type": 10,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 11,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
 				"type": 12,
-				"type_name": "Kills",
+				"type_name": "Soldiers Killed",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 13,
-				"type_name": "Kills",
+				"type_name": "Demomen Killed",
 				"level_data": "KillEaterRank"
 			},
 			{
 				"type": 14,
 				"type_name": "Heavies Killed",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 15,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 16,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 17,
-				"type_name": "Kills",
-				"level_data": "KillEaterRank"
-			},
-			{
-				"type": 18,
-				"type_name": "Kills",
 				"level_data": "KillEaterRank"
 			},
 			{
@@ -33195,6 +34971,41 @@
 				"type": 26,
 				"type_name": "Opponents Flattened",
 				"level_data": "KillEater_ManTreadsRank"
+			},
+			{
+				"type": 27,
+				"type_name": "Kills Under A Full Moon",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 28,
+				"type_name": "Dominations",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 30,
+				"type_name": "Revenges",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 31,
+				"type_name": "Posthumous Kills",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 32,
+				"type_name": "Allies Extinguished",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 33,
+				"type_name": "Critical Kills",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 34,
+				"type_name": "Kills While Explosive-Jumping",
+				"level_data": "KillEaterRank"
 			}
 		]
 		
