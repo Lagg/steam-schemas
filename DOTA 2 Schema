@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.cf9038f2fe9686bfeb1159026fe6f4c9a69ee38b.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.a4c8163e8a1705f4477cb6dc65ddf6454714662c.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -8764,8 +8764,8 @@
 				"defindex": 15010,
 				"item_class": "tool",
 				"item_type_name": "",
-				"item_name": "",
-				"item_description": "",
+				"item_name": "League View Test",
+				"item_description": "League View Test",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/prosperous_soul",
@@ -8798,8 +8798,8 @@
 				"defindex": 15011,
 				"item_class": "tool",
 				"item_type_name": "",
-				"item_name": "",
-				"item_description": "",
+				"item_name": "League View Test",
+				"item_description": "League View Test",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/prosperous_soul",
@@ -8904,6 +8904,40 @@
 					{
 						"name": "ignore charge notification",
 						"class": "ignore_charge_notification",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "League Test Item",
+				"defindex": 15014,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "League View Test",
+				"item_description": "League View Test",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/prosperous_soul",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
 						"value": 1.000000
 					}
 				]

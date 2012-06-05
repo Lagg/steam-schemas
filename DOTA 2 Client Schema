@@ -12079,6 +12079,39 @@
 				}
 			}
 		}
+		"15014"
+		{
+			"name"		"League Test Item"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_LeagueViewPass"
+			"item_rarity"		"mythical"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"5150"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_LeagueViewPass"
+			"image_inventory"		"econ/tools/prosperous_soul"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"20000"
 		{
 			"name"		"Of Ivory and Ebony Bundle"
