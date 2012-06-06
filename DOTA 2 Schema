@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.a4c8163e8a1705f4477cb6dc65ddf6454714662c.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.8e9ac0f7b8023b4df6a2b6a26cff3f8e74428363.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -8923,6 +8923,74 @@
 				"max_ilevel": 1,
 				"image_url": "",
 				"image_url_large": "",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Wild Cards West",
+				"defindex": 15015,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "Wild Cards West",
+				"item_description": "Wild Cards West Admin Pass",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/gift_multiple",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/gift_multiple.3f6f530ad19e47b165d5b5ab696468acff2b8e92.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/gift_multiple_large.019cb480bf69a1c732d0f5a8e661f97fd456c1ae.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Wild Cards East",
+				"defindex": 15016,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "Wild Cards East",
+				"item_description": "Wild Cards East Admin Pass",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/gift_multiple",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/gift_multiple.3f6f530ad19e47b165d5b5ab696468acff2b8e92.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/gift_multiple_large.019cb480bf69a1c732d0f5a8e661f97fd456c1ae.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,
