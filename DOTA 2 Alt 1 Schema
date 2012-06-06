@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/816\/scripts\/items\/items_game.a4fa2dafbd3c867030e2d592da8984d1022ff8f5.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/816\/scripts\/items\/items_game.fe959f4b687a4cf3dc423d01a6563d073e00566b.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -2818,6 +2818,106 @@
 				}
 			},
 			{
+				"name": "Phantom Assassin's Helmet",
+				"defindex": 137,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Helmet",
+				"item_name": "Phantom Assassin's Helmet",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Phantom Assassin's Shoulder Pads",
+				"defindex": 138,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Shoulder Pads",
+				"item_name": "Phantom Assassin's Shoulder Pads",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Phantom Assassin's Cape",
+				"defindex": 139,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Cape",
+				"item_name": "Phantom Assassin's Cape",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Phantom Assassin's Weapon",
+				"defindex": 140,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Weapon",
+				"item_name": "Phantom Assassin's Weapon",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Phantom Assassin's Daggers",
+				"defindex": 141,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Misc",
+				"item_name": "Phantom Assassin's Daggers",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
 				"name": "Wich Doctor's Horn Mask",
 				"defindex": 4000,
 				"item_class": "dota_item_wearable",
@@ -2853,6 +2953,27 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/pangolin_shoulder_armor.c633b0ac396d60c50401fc2969f559d6d4bc9ede.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/pangolin_shoulder_armor_large.27a95836bdf92715f867f68e629bff2599e89ea0.png",
 				"item_set": "bounty_hunter_pangolin",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Witch Doctor's Alligator Mask",
+				"defindex": 4002,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "Witch Doctor's Alligator Mask",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_alligator_mask",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -8764,8 +8885,8 @@
 				"defindex": 15010,
 				"item_class": "tool",
 				"item_type_name": "",
-				"item_name": "",
-				"item_description": "",
+				"item_name": "League View Test",
+				"item_description": "League View Test",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/prosperous_soul",
@@ -8798,8 +8919,8 @@
 				"defindex": 15011,
 				"item_class": "tool",
 				"item_type_name": "",
-				"item_name": "",
-				"item_description": "",
+				"item_name": "League View Test",
+				"item_description": "League View Test",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/prosperous_soul",
@@ -8904,6 +9025,108 @@
 					{
 						"name": "ignore charge notification",
 						"class": "ignore_charge_notification",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "League Test Item",
+				"defindex": 15014,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "League View Test",
+				"item_description": "League View Test",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/prosperous_soul",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Wild Cards West",
+				"defindex": 15015,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "Wild Cards West",
+				"item_description": "Wild Cards West Admin Pass",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/gift_multiple",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/gift_multiple.3f6f530ad19e47b165d5b5ab696468acff2b8e92.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/gift_multiple_large.019cb480bf69a1c732d0f5a8e661f97fd456c1ae.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Wild Cards East",
+				"defindex": 15016,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "Wild Cards East",
+				"item_description": "Wild Cards East Admin Pass",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/gift_multiple",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/816\/icons\/gift_multiple.3f6f530ad19e47b165d5b5ab696468acff2b8e92.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/816\/icons\/gift_multiple_large.019cb480bf69a1c732d0f5a8e661f97fd456c1ae.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
 						"value": 1.000000
 					}
 				]
@@ -9474,8 +9697,8 @@
 				"defindex": 20028,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Dota 2 Early Access Bundle",
-				"item_description": "This bundle includes a tradable <font color='#FFD700'>Dota 2 Early Access Pass<\/font>, a Mighty Boar courier, and a full set of items for Sven and Axe! Use the Dota 2 Early Access Pass from your Steam inventory to unlock the game.",
+				"item_name": "Dota 2 Invite",
+				"item_description": "Get immediate access to Dota 2 and start playing right away! Or get an extra key to trade to a friend.\r\n\t\tThis bundle includes a Mighty Boar courier, and a full set of items for Sven, Juggernaut, and Witch Doctor. Use the Dota 2 Invite from your Steam inventory to unlock the game.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/sets\/DOTA_Bundle_DOTA2_Access",
