@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.7d9777421eb5b90acb98ac75438d801928cb7456.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1c4c8ea8c8ab2e4b925bcf4a82e1e3253fb14642.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -16,7 +16,8 @@
 			"customized": 10,
 			"strange": 11,
 			"completed": 12,
-			"haunted": 13
+			"haunted": 13,
+			"tobor_a": 14
 		},
 		"qualityNames": {
 			"normal": "Normal",
@@ -22611,6 +22612,54 @@
 				},
 				"used_by_classes": [
 					"Medic"
+				]
+				
+			},
+			{
+				"name": "The Liquor Locker",
+				"defindex": 771,
+				"item_class": "tf_wearable",
+				"item_type_name": "Treasure",
+				"item_name": "Liquor Locker",
+				"item_description": "The Demo keeps his fortune close to his chest: Specifically, on the other side of it, strapped to his back. You won’t find money in it: Demo wisely invests in gold, which he then spends on rare cask-aged liquors, which he then usually drinks, which is why he keeps it locked and the key hidden.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/demo_chest_back.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/demo_chest_back",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_chest_back.ad58d2fff59483710e154d086c65a7ca69b6fd74.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_chest_back_large.90dfbded793bc97cd513ca1bd1068acf60fca29c.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Classic"
+					},
+					{
+						"name": "Front"
+					},
+					{
+						"name": "Right Hip"
+					},
+					{
+						"name": "Left Hip"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Demoman"
 				]
 				
 			},
