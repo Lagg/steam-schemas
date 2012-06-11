@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.8e9ac0f7b8023b4df6a2b6a26cff3f8e74428363.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.072a0a0641df19a58720f4edbe6c7ffd1bb88e83.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -2818,6 +2818,106 @@
 				}
 			},
 			{
+				"name": "Phantom Assassin's Helmet",
+				"defindex": 137,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Helmet",
+				"item_name": "DOTA_Item_Phantom_Assassins_Helmet",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Phantom Assassin's Shoulder Pads",
+				"defindex": 138,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Shoulder_Pads",
+				"item_name": "DOTA_Item_Phantom_Assassins_Shoulder_Pads",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Phantom Assassin's Cape",
+				"defindex": 139,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Cape",
+				"item_name": "DOTA_Item_Phantom_Assassins_Cape",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Phantom Assassin's Weapon",
+				"defindex": 140,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Weapon",
+				"item_name": "DOTA_Item_Phantom_Assassins_Weapon",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Phantom Assassin's Daggers",
+				"defindex": 141,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "DOTA_WearableType_Misc",
+				"item_name": "DOTA_Item_Phantom_Assassins_Daggers",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
 				"name": "Wich Doctor's Horn Mask",
 				"defindex": 4000,
 				"item_class": "dota_item_wearable",
@@ -2853,6 +2953,27 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pangolin_shoulder_armor.c633b0ac396d60c50401fc2969f559d6d4bc9ede.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pangolin_shoulder_armor_large.27a95836bdf92715f867f68e629bff2599e89ea0.png",
 				"item_set": "bounty_hunter_pangolin",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Witch Doctor's Alligator Mask",
+				"defindex": 4002,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "DOTA_Item_Witch_Doctors_Alligator_Mask",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_alligator_mask",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -9000,6 +9121,40 @@
 				},
 				"tool": {
 					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "International 2012 Ticket",
+				"defindex": 15017,
+				"item_class": "tool",
+				"item_type_name": "DOTA_WearableType_TournamentTicket",
+				"item_name": "DOTA_Item_International_2012_Ticket",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/international_invite",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/international_invite.55d7a2ceb3df9f91f26b562ab5332caeaa7775aa.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/international_invite_large.883222b3fa549f8aafd5b3fe06253bddeb010397.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "event_ticket",
 					"use_string": "Use"
 				},
 				"attributes": [

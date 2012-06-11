@@ -2171,6 +2171,79 @@
 				"npc_dota_hero_ogre_magi"		"1"
 			}
 		}
+		"137"
+		{
+			"name"		"Phantom Assassin's Helmet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Helmet"
+			"item_name"		"#DOTA_Item_Phantom_Assassins_Helmet"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Assassins_Helmet"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_assassin"		"1"
+			}
+			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_head.mdl"
+		}
+		"138"
+		{
+			"name"		"Phantom Assassin's Shoulder Pads"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder_Pads"
+			"item_name"		"#DOTA_Item_Phantom_Assassins_Shoulder_Pads"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Phantom_Assassins_Helmet"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_assassin"		"1"
+			}
+			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_shoulders.mdl"
+		}
+		"139"
+		{
+			"name"		"Phantom Assassin's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Cape"
+			"item_name"		"#DOTA_Item_Phantom_Assassins_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Phantom_Assassins_Shoulder_Pads"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_assassin"		"1"
+			}
+			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_cape.mdl"
+		}
+		"140"
+		{
+			"name"		"Phantom Assassin's Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Phantom_Assassins_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Phantom_Assassins_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_assassin"		"1"
+			}
+			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_weapon.mdl"
+		}
+		"141"
+		{
+			"name"		"Phantom Assassin's Daggers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Misc"
+			"item_name"		"#DOTA_Item_Phantom_Assassins_Daggers"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Phantom_Assassins_Daggers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_assassin"		"1"
+			}
+			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_daggers.mdl"
+		}
 		"4001"
 		{
 			"name"		"Pangolin Shoulder Armor"
@@ -2178,10 +2251,10 @@
 			"item_type_name"		"#DOTA_WearableType_Pauldrons"
 			"item_name"		"#DOTA_Item_Pangolin_Shoulder_Armor"
 			"item_slot"		"armor"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Pangolin_Shoulder_Armor"
 			"image_inventory"		"econ/items/bounty_hunter/pangolin_shoulder_armor"
 			"item_set"		"bounty_hunter_pangolin"
-			"item_rarity"		"uncommon"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bounty_hunter"		"1"
@@ -12169,6 +12242,38 @@
 			}
 			"item_description"		"#DOTA_Item_Desc_WildCardsEast"
 			"image_inventory"		"econ/tools/gift_multiple"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15017"
+		{
+			"name"		"International 2012 Ticket"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_TournamentTicket"
+			"item_name"		"#DOTA_Item_International_2012_Ticket"
+			"item_rarity"		"legendary"
+			"item_description"		"#DOTA_Item_Desc_International_2012_Ticket"
+			"image_inventory"		"econ/tools/international_invite"
+			"tool"
+			{
+				"type"		"event_ticket"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"event_id"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
 			"attributes"
 			{
 				"disallow recycling"
