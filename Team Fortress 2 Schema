@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1c4c8ea8c8ab2e4b925bcf4a82e1e3253fb14642.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.82a12e5ac03a87c049f799028f4d7d0696f6c9f9.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -24902,6 +24902,64 @@
 				"item_type_name": "Item Bundle",
 				"item_name": "Mysterious Promo 2",
 				"item_description": "Mysterious Promo 2",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Mysterious Promo 3",
+				"defindex": 2067,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Mysterious Promo 3",
+				"item_description": "Mysterious Promo 3",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Mysterious Promo 4",
+				"defindex": 2068,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Mysterious Promo 4",
+				"item_description": "Mysterious Promo 4",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
