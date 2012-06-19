@@ -147,7 +147,8 @@
 		"medigun_backpack"	"1"
 		"medic_hip"			"1"			
 
-		"crsk"			"1"
+		"crsk_left"			"1"
+		"crsk_right"			"1"
 
 		"shared"
 		{
@@ -848,6 +849,18 @@
 			"max_ilevel"	"1"
 			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		"WHAT_IS_THIS_WHAT_IS_HAPPENING"
+		{
+			"item_class"	"craft_item"
+			"show_in_armory"	"0"
+			"image_inventory"	"backpack/crafting/pile_of_junk"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_quality"	"unique"
+			"propername" "0"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
 		}
 
 
@@ -34595,6 +34608,84 @@
 			"item_quality"	"unique"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+
+		"5600"
+		{
+			"name"		"Goldfish"
+			"prefab"	"WHAT_IS_THIS_WHAT_IS_HAPPENING"
+			"item_name"	"#TF_Item_Goldfish"
+			"item_type_name"	"#TF_Item_Goldfish_Type"
+			"item_description"	"#TF_Item_Goldfish_Desc"
+			"image_inventory"	"backpack/crafting/goldfish"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"5601"
+		{
+			"name"		"Pocket Lint"
+			"prefab"	"WHAT_IS_THIS_WHAT_IS_HAPPENING"
+			"item_name"	"#TF_Item_PocketLint"
+			"item_type_name"	"#TF_Item_PocketLint_Type"
+			"item_description"	"#TF_Item_PocketLint_Desc"
+			"image_inventory"	"backpack/crafting/pocket_lint"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"5602"
+		{
+			"name"		"Cheese Wheel"
+			"prefab"	"WHAT_IS_THIS_WHAT_IS_HAPPENING"
+			"item_name"	"#TF_Item_CheeseWheel"
+			"item_type_name"	"#TF_Item_CheeseWheel_Type"
+			"item_description"	"#TF_Item_CheeseWheel_Desc"
+			"image_inventory"	"backpack/crafting/cheese_wheel"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"5603"
+		{
+			"name"		"Banana Peel"
+			"prefab"	"WHAT_IS_THIS_WHAT_IS_HAPPENING"
+			"item_name"	"#TF_Item_BananaPeel"
+			"item_type_name"	"#TF_Item_BananaPeel_Type"
+			"item_description"	"#TF_Item_BananaPeel_Desc"
+			"image_inventory"	"backpack/crafting/banana_peel"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"5604"
+		{
+			"name"		"Barn Door Plank"
+			"prefab"	"WHAT_IS_THIS_WHAT_IS_HAPPENING"
+			"item_name"	"#TF_Item_BarnDoorPlank"
+			"item_type_name"	"#TF_Item_BarnDoorPlank_Type"
+			"item_description"	"#TF_Item_BarnDoorPlank_Desc"
+			"image_inventory"	"backpack/crafting/barn_door"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"5605"
+		{
+			"name"		"Secret Diary"
+			"prefab"	"WHAT_IS_THIS_WHAT_IS_HAPPENING"
+			"item_name"	"#TF_Item_SecretDiary"
+			"item_type_name"	"#TF_Item_SecretDiary_Type"
+			"item_description"	"#TF_Item_SecretDiary_Desc"
+			"image_inventory"	"backpack/crafting/diary_book"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"5606"
+		{
+			"name"		"Damaged Capacitor"
+			"prefab"	"WHAT_IS_THIS_WHAT_IS_HAPPENING"
+			"item_name"	"#TF_Item_DamagedCapacitor"
+			"item_type_name"	"#TF_Item_DamagedCapacitor_Type"
+			"item_description"	"#TF_Item_DamagedCapacitor_Desc"
+			"image_inventory"	"backpack/crafting/capacitor"
 			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
 			"drop_sound"		"ui/item_paper_pickup.wav"
 		}
