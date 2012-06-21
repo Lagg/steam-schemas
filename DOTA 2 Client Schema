@@ -206,6 +206,11 @@
 			"color_name"		"ItemRarityImmortal"
 			"hex_color"		"#e4ae39"
 		}
+		"desc_strange"
+		{
+			"color_name"		"Strange"
+			"hex_color"		"#CF6A32"
+		}
 	}
 	"player_loadout_slots"
 	{
@@ -2244,6 +2249,52 @@
 			}
 			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_daggers.mdl"
 		}
+		"4000"
+		{
+			"name"		"Horn Mask"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Mask"
+			"item_name"		"#DOTA_Item_Horn_Mask"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/witchdoctor/horn_mask"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/horn_mask.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"288.997528 -8.270345 169.158020"
+				"PortraitLookAt"		"5.526123 175.358276 355.155029"
+				"PortraitFOV"		"31.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"125.052673 9.201999 178.462936"
+				"PortraitLightLookAt"		"33.667603 185.630493 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.188235 0.188235 0.188235"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 		"4001"
 		{
 			"name"		"Pangolin Shoulder Armor"
@@ -2288,6 +2339,98 @@
 				"PortraitParticle"		"portrait_bounty_hunter"
 				"PortraitAnimationActivity"		"0"
 				"PortraitAnimationCycle"		"0.340000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"4002"
+		{
+			"name"		"Ol' Snaggletooth"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Croc_Hat"
+			"item_name"		"#DOTA_Item_Ol_Snaggletooth"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Ol_Snaggletooth"
+			"image_inventory"		"econ/items/witchdoctor/alligator_mask"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/alligator_mask.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"148.188522 134.774582 219.871506"
+				"PortraitLookAt"		"24.735718 226.318359 355.155029"
+				"PortraitFOV"		"25.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"107.607811 57.208153 186.688934"
+				"PortraitLightLookAt"		"37.919312 206.460571 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.188235 0.188235 0.188235"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"4003"
+		{
+			"name"		"Grandfather's Ribs"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bad_Juju"
+			"item_name"		"#DOTA_Item_Grandfathers_Ribs"
+			"item_slot"		"shoulder"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Grandfathers_Ribs"
+			"image_inventory"		"econ/items/witchdoctor/ribcage_backpack"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/ribcage_backpack.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"-130.510941 158.924286 168.153259"
+				"PortraitLookAt"		"9.810791 309.402466 355.155029"
+				"PortraitFOV"		"33.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"-30.977907 66.357635 227.642624"
+				"PortraitLightLookAt"		"41.072388 297.718506 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.274510 0.274510 0.274510"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
@@ -2337,6 +2480,12 @@
 				"attached_particlesystem"
 				{
 					"system"		"axe_drag_sparks"
+				}
+				"asset_modifier4"
+				{
+					"type"		"activity"
+					"asset"		"ACT_DOTA_IDLE"
+					"modifier"		"blood_chaser"
 				}
 			}
 			"item_description"		"#DOTA_Item_Desc_The_Blood_Chaser"
@@ -2730,6 +2879,14 @@
 			{
 				"npc_dota_hero_juggernaut"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"item_description"		"#DOTA_Item_Desc_TwelveTusks_the_Cape_of_Boars"
 			"item_set"		"juggernaut_boar_god"
 			"icon_portrait"
@@ -2785,6 +2942,14 @@
 				"attached_particlesystem"
 				{
 					"system"		"jugg_weapon_glow"
+				}
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
 				}
 			}
 			"item_description"		"#DOTA_Item_Desc_FourFangs_the_Swordbreaker"
@@ -3311,6 +3476,14 @@
 			{
 				"npc_dota_hero_furion"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"item_description"		"#DOTA_Item_Desc_Luxuriant_ChinFoliage"
 			"icon_portrait"
 			{
@@ -3408,6 +3581,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Cape_of_Verdant_Dreaming"
 			"icon_portrait"
@@ -3890,6 +4071,52 @@
 				"PortraitHideHero"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Meranth_Executioners_Blade"
+		}
+		"4040"
+		{
+			"name"		"Rattlebite"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Snake_Charm"
+			"item_name"		"#DOTA_Item_Rattlebite"
+			"item_slot"		"shoulder"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Rattlebite"
+			"image_inventory"		"econ/items/witchdoctor/pet_snake"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/pet_snake.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"196.259857 84.017883 191.440659"
+				"PortraitLookAt"		"20.544434 206.608887 355.155029"
+				"PortraitFOV"		"41.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"109.092606 61.565468 187.048431"
+				"PortraitLightLookAt"		"37.919312 206.460571 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.309804 0.309804 0.309804"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
 		}
 		"4051"
 		{
@@ -4505,6 +4732,14 @@
 			{
 				"npc_dota_hero_furion"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"item_description"		"#DOTA_Item_Desc_Flared_Wooden_Crest"
 			"icon_portrait"
 			{
@@ -4771,6 +5006,14 @@
 			{
 				"npc_dota_hero_juggernaut"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/juggernaut/highplains_mask_ram.mdl"
 			"item_set"		"juggernaut_high_plains"
 			"icon_portrait"
@@ -4989,6 +5232,14 @@
 			{
 				"npc_dota_hero_furion"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"item_description"		"#DOTA_Item_Desc_Beard_of_Cycles"
 			"icon_portrait"
 			{
@@ -5036,6 +5287,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Diadem_of_the_Goddess_Enthroned"
 			"icon_portrait"
@@ -5275,6 +5534,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Cuffs_of_Oak_and_Yew"
 			"icon_portrait"
@@ -5635,6 +5902,14 @@
 			{
 				"npc_dota_hero_juggernaut"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/juggernaut/lord_bracers_ebony.mdl"
 			"item_set"		"juggernaut_ivory_ebony"
 			"icon_portrait"
@@ -5703,6 +5978,14 @@
 					"type"		"particle"
 					"asset"		"jugg_attack_blur"
 					"modifier"		"jugg_attack_blur_jade"
+				}
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
 				}
 			}
 			"particle_file"		"particles\econ\items\juggernaut\jugg_sword_jade.pcf"
@@ -5998,6 +6281,14 @@
 			{
 				"npc_dota_hero_juggernaut"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/juggernaut/100proof_cape_bottle.mdl"
 			"item_set"		"juggernaut_beasts_men"
 			"icon_portrait"
@@ -6152,6 +6443,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Staff_of_the_Eagle"
 			"icon_portrait"
@@ -9388,6 +9687,50 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"4193"
+		{
+			"name"		"Spiral Staff"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Staff"
+			"item_name"		"#DOTA_Item_Spiral_Staff"
+			"item_description"		"#DOTA_Item_Desc_Spiral_Staff"
+			"image_inventory"		"econ/items/witchdoctor/spiral_staff"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/spiral_staff.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"155.575516 13.076652 233.434586"
+				"PortraitLookAt"		"65.720215 113.323975 355.155029"
+				"PortraitFOV"		"80.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"24.900314 -187.061813 199.758224"
+				"PortraitLightLookAt"		"359.873657 58.441772 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.533333 0.533333 0.533333"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"2"
+				"PortraitAnimationCycle"		"0.720000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+		}
 		"4194"
 		{
 			"name"		"Pincher Bow"
@@ -10361,6 +10704,97 @@
 				"PortraitHideHero"		"1"
 			}
 		}
+		"4218"
+		{
+			"name"		"Vile Carnival Hat"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hat"
+			"item_name"		"#DOTA_Item_Vile_Carnival_Hat"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Vile_Carnival_Hat"
+			"image_inventory"		"econ/items/witchdoctor/voodoo_hat"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/voodoo_hat.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"285.420929 -105.870583 157.695908"
+				"PortraitLookAt"		"3.845215 150.990601 355.155029"
+				"PortraitFOV"		"23.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"68.421600 61.801296 192.644730"
+				"PortraitLightLookAt"		"43.862915 146.793823 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.176471 0.176471 0.176471"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.716000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"4219"
+		{
+			"name"		"Dreaded Dreads"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hair"
+			"item_name"		"#DOTA_Item_Dreaded_Dreads"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Dreaded_Dreads"
+			"image_inventory"		"econ/items/witchdoctor/voodoo_dreads"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/voodoo_dreads.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"290.180756 -108.257813 140.065994"
+				"PortraitLookAt"		"2.872925 152.649536 355.155029"
+				"PortraitFOV"		"18.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"68.421600 61.801296 192.644730"
+				"PortraitLightLookAt"		"43.862915 146.793823 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.450980 0.450980 0.450980"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.716000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 		"4220"
 		{
 			"name"		"Juju o' Wicked Badness"
@@ -10498,16 +10932,151 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"4223"
+		{
+			"name"		"Shrunken Head Staff"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Staff"
+			"item_name"		"#DOTA_Item_Shrunken_Head_Staff"
+			"item_description"		"#DOTA_Item_Desc_Shrunken_Head_Staff"
+			"image_inventory"		"econ/items/witchdoctor/shrunken_head_staff"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/shrunken_head_staff.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"250.976212 19.572937 88.453041"
+				"PortraitLookAt"		"354.611206 166.766968 355.155029"
+				"PortraitFOV"		"81.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"24.900314 -187.061813 199.758224"
+				"PortraitLightLookAt"		"359.873657 58.441772 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.533333 0.533333 0.533333"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"2"
+				"PortraitAnimationCycle"		"0.720000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+		}
+		"4224"
+		{
+			"name"		"Wooden Fetish Mask"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Staff"
+			"item_name"		"#DOTA_Item_Wooden_Fetish_Mask"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Wooden_Fetish_Mask"
+			"image_inventory"		"econ/items/witchdoctor/wooden_mask"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/wooden_mask.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"288.997528 -8.270345 169.158020"
+				"PortraitLookAt"		"6.020508 174.732056 355.155029"
+				"PortraitFOV"		"26.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"125.052673 9.201999 178.462936"
+				"PortraitLightLookAt"		"33.667603 185.630493 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.188235 0.188235 0.188235"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"4225"
+		{
+			"name"		"Tribal Totem Mask"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Mask"
+			"item_name"		"#DOTA_Item_Tribal_Totem_Mask"
+			"item_slot"		"head"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Tribal_Totem_Mask"
+			"image_inventory"		"econ/items/witchdoctor/tribal_mask"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/tribal_mask.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"288.997528 -8.270345 169.158020"
+				"PortraitLookAt"		"5.394287 174.418945 355.155029"
+				"PortraitFOV"		"33.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"125.052673 9.201999 178.462936"
+				"PortraitLightLookAt"		"33.667603 185.630493 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.188235 0.188235 0.188235"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 		"4226"
 		{
 			"name"		"Flower Staff of the Peace-Bringer"
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Staff"
 			"item_name"		"#DOTA_Item_Flower_Staff_of_the_PeaceBringer"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Flower_Staff_of_the_PeaceBringer"
 			"image_inventory"		"econ/items/furion/flowerstaff"
 			"item_set"		"furion_peace_bringer"
-			"item_rarity"		"rare"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
@@ -10560,10 +11129,10 @@
 			"item_type_name"		"#DOTA_WearableType_Garland"
 			"item_name"		"#DOTA_Item_Lei_of_the_PeaceBringer"
 			"item_slot"		"shoulder"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Lei_of_the_PeaceBringer"
 			"image_inventory"		"econ/items/furion/peace_flowers"
 			"item_set"		"furion_peace_bringer"
-			"item_rarity"		"rare"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
@@ -10608,10 +11177,10 @@
 			"item_type_name"		"#DOTA_WearableType_Horns"
 			"item_name"		"#DOTA_Item_Horns_of_the_PeaceBringer"
 			"item_slot"		"head"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Horns_of_the_PeaceBringer"
 			"image_inventory"		"econ/items/furion/peace_horns"
 			"item_set"		"furion_peace_bringer"
-			"item_rarity"		"rare"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
@@ -10656,10 +11225,10 @@
 			"item_type_name"		"#DOTA_WearableType_Beard"
 			"item_name"		"#DOTA_Item_Beard_of_the_PeaceBringer"
 			"item_slot"		"neck"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Beard_of_the_PeaceBringer"
 			"image_inventory"		"econ/items/furion/peace_beard"
 			"item_set"		"furion_peace_bringer"
-			"item_rarity"		"uncommon"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_furion"		"1"
@@ -11171,6 +11740,95 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"4240"
+		{
+			"name"		"Demon Skull Staff"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Staff"
+			"item_name"		"#DOTA_Item_Demon_Skull_Staff"
+			"item_description"		"#DOTA_Item_Desc_Demon_Skull_Staff"
+			"image_inventory"		"econ/items/witchdoctor/demon_skull_staff"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/demon_skull_staff.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"250.976212 19.572937 88.453041"
+				"PortraitLookAt"		"351.793213 163.460083 355.155029"
+				"PortraitFOV"		"90.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"24.900314 -187.061813 199.758224"
+				"PortraitLightLookAt"		"359.873657 58.441772 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.533333 0.533333 0.533333"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"2"
+				"PortraitAnimationCycle"		"0.720000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+		}
+		"4241"
+		{
+			"name"		"Staff of the Old Doctor"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Staff"
+			"item_name"		"#DOTA_Item_Staff_of_the_Old_Doctor"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Staff_of_the_Old_Doctor"
+			"image_inventory"		"econ/items/witchdoctor/skullhammer_staff"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_witch_doctor"		"1"
+			}
+			"model_player"		"models/items/witchdoctor/skullhammer_staff.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"243.035065 -17.135038 141.853012"
+				"PortraitLookAt"		"12.546387 144.310913 355.155029"
+				"PortraitFOV"		"90.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"24.900314 -187.061813 199.758224"
+				"PortraitLightLookAt"		"359.873657 58.441772 0.000000"
+				"PortraitLightFOV"		"72.000000"
+				"PortraitLightDistance"		"103.000000"
+				"PortraitLightColor"		"0.533333 0.533333 0.533333"
+				"PortraitShadowColor"		"0.010000 0.010000 0.010000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-41.209999 -10.580000 -50.139999"
+				"PortraitAmbientColor"		"0.120000 0.130000 0.170000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.450000 0.550000 0.750000"
+				"PortraitBackgroundColor2"		"0.050000 0.050000 0.100000"
+				"PortraitBackgroundColor3"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundColor4"		"0.050000 0.150000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"2"
+				"PortraitAnimationCycle"		"0.720000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+		}
 		"10000"
 		{
 			"name"		"Free Trial Premium Upgrade"
@@ -11179,6 +11837,56 @@
 			"item_type_name"		"#DOTA_Item"
 			"item_name"		"#DOTA_Trial_UpgradeItem"
 			"show_in_armory"		"0"
+		}
+		"10001"
+		{
+			"name"		"Taunt: It's in the Bag"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_All_Hero_Taunt"
+			"item_name"		"#DOTA_Item_Taunt_Its_in_the_Bag"
+			"item_slot"		"action_item"
+			"tool"
+			{
+				"type"		"hero_taunt"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Its_in_the_Bag"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/items/taunt/in_the_bag"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"speech"
+					"asset"		"TLK_DOTA_INTHEBAG"
+					"modifier"		"#DOTA_Chat_InTheBag"
+				}
+			}
+		}
+		"10008"
+		{
+			"name"		"Announcer: Dr. Kleiner"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Dr_Kleiner"
+			"item_slot"		"announcer"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Dr_Kleiner"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/announcer_kleiner"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_kleiner"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_kleiner.txt"
+				}
+			}
 		}
 		"10009"
 		{
@@ -11387,6 +12095,90 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"10013"
+		{
+			"name"		"Announcer: Juggernaut"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Juggernaut"
+			"item_slot"		"announcer"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Juggernaut"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/announcer_juggernaut"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_juggernaut"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_juggernaut.txt"
+				}
+			}
+		}
+		"10014"
+		{
+			"name"		"Mega-Kills: Juggernaut"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_MegaKills"
+			"item_name"		"#DOTA_Item_MegaKills_Juggernaut"
+			"item_slot"		"mega_kills"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Juggernaut"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/megakill_juggernaut"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_juggernaut_killing_spree"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_juggernaut_killing_spree.txt"
+				}
+			}
+		}
+		"10015"
+		{
+			"name"		"Announcer: Nature's Prophet"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Natures_Prophet"
+			"item_slot"		"announcer"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Natures_Prophet"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/announcer_furion"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_naturesprophet"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_naturesprophet.txt"
+				}
+			}
+		}
+		"10016"
+		{
+			"name"		"Mega-Kills: Nature's Prophet"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_MegaKills"
+			"item_name"		"#DOTA_Item_MegaKills_Natures_Prophet"
+			"item_slot"		"mega_kills"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Natures_Prophet"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/megakill_furion"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_naturesprophet_killing_spree"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_naturesprophet_killing_spree.txt"
+				}
+			}
+		}
 		"10017"
 		{
 			"name"		"Stumpy - Nature's Attendant"
@@ -11463,7 +12255,6 @@
 			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
 			"item_name"		"#DOTA_Item_Lost_Treasure_of_the_Ivory_Isles"
-			"item_rarity"		"uncommon"
 			"capabilities"
 			{
 				"decodable"		"1"
@@ -11475,7 +12266,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"		"supply_crate_series"
-					"value"		"1"
+					"value"		"3"
 					"force_gc_to_generate"		"1"
 				}
 				"disallow recycling"
@@ -11492,7 +12283,6 @@
 			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Deep_Druids"
-			"item_rarity"		"uncommon"
 			"capabilities"
 			{
 				"decodable"		"1"
@@ -11504,7 +12294,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"		"supply_crate_series"
-					"value"		"2"
+					"value"		"4"
 					"force_gc_to_generate"		"1"
 				}
 				"disallow recycling"
@@ -11516,24 +12306,23 @@
 		}
 		"10022"
 		{
-			"name"		"Treasure Chest 3"
+			"name"		"Treasure of the Red Mist"
 			"prefab"		"dota_misc_item"
 			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
-			"item_name"		"#DOTA_Item_Treasure_Chest"
-			"item_rarity"		"uncommon"
+			"item_name"		"#DOTA_Item_Treasure_of_the_Red_Mist"
 			"capabilities"
 			{
 				"decodable"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Treasure_Chest"
-			"image_inventory"		"econ/tools/treasure_cache"
+			"image_inventory"		"econ/tools/treasure_chest_axe"
 			"attributes"
 			{
 				"set supply crate series"
 				{
 					"attribute_class"		"supply_crate_series"
-					"value"		"3"
+					"value"		"5"
 					"force_gc_to_generate"		"1"
 				}
 				"disallow recycling"
@@ -11710,6 +12499,144 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"10027"
+		{
+			"name"		"Speed Demon"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Speed_Demon"
+			"item_slot"		"courier"
+			"item_rarity"		"legendary"
+			"item_description"		"#DOTA_Item_Desc_Speed_Demon"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/courier/imp/imp"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/imp/imp.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier4"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/imp/imp.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier6"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/imp/imp_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier7"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/imp/imp_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"138.433212 78.381752 124.650894"
+				"PortraitLookAt"		"13.139648 211.305542 0.000000"
+				"PortraitFOV"		"40.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"85.035500 113.017227 179.857025"
+				"PortraitLightLookAt"		"18.001099 237.777100 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"247.000000"
+				"PortraitLightColor"		"0.379804 0.379804 0.379804"
+				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
+				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"10028"
+		{
+			"name"		"Skip the Delivery Frog"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_Custom_Courier"
+			"item_name"		"#DOTA_Item_Skip_the_Delivery_Frog"
+			"item_slot"		"courier"
+			"item_rarity"		"legendary"
+			"item_description"		"#DOTA_Item_Desc_Skip_the_Delivery_Frog"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/courier/frog/frog"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/frog/frog.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier4"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/frog/frog.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier6"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/frog/frog_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier7"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/frog/frog_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"119.171539 122.106949 156.392593"
+				"PortraitLookAt"		"39.649658 223.692627 0.000000"
+				"PortraitFOV"		"43.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"85.035500 113.017227 179.857025"
+				"PortraitLightLookAt"		"18.001099 237.777100 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"247.000000"
+				"PortraitLightColor"		"0.379804 0.379804 0.379804"
+				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
+				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 		"15000"
 		{
 			"name"		"Name Tag"
@@ -11782,7 +12709,7 @@
 				"use_string"		"#ExpandUse"
 				"usage"
 				{
-					"backpack_slots"		"50"
+					"backpack_slots"		"64"
 				}
 			}
 			"capabilities"
@@ -11975,11 +12902,11 @@
 		}
 		"15009"
 		{
-			"name"		"Strange Essence: Carries Killed"
+			"name"		"Strange Modifier: Godlikes"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Essence"
-			"item_name"		"#DOTA_Item_Strange_Essence_Carries_Killed"
-			"item_rarity"		"uncommon"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Godlikes"
+			"item_rarity"		"rare"
 			"tool"
 			{
 				"type"		"strange_part"
@@ -11987,24 +12914,17 @@
 				{
 					"strange_parts"		"1"
 				}
-				"usage"
-				{
-					"required_tags"
-					{
-						"is_weapon"		"1"
-					}
-				}
 			}
 			"attributes"
 			{
 				"strange part new counter ID"
 				{
 					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"10"
+					"value"		"12"
 				}
 			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Essence_Carries_Killed"
-			"image_inventory"		"econ/tools/strange_essence_carries_killed"
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Godlikes"
+			"image_inventory"		"econ/tools/strange_types_godlike"
 		}
 		"15010"
 		{
@@ -12286,6 +13206,206 @@
 					"value"		"1"
 				}
 			}
+		}
+		"15018"
+		{
+			"name"		"The Defense #2"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_TheDefense"
+			"item_rarity"		"mythical"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"4"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_TheDefense"
+			"image_inventory"		"econ/leagues/subscriptions_thedefense"
+			"image_banner"		"econ/leagues/the_defense"
+			"tournament_url"		"http://www.the-defense.com/en/start"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15019"
+		{
+			"name"		"Strange Modifier: First Blood"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_First_Blood"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"11"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_First_Blood"
+			"image_inventory"		"econ/tools/strange_types_first_blood"
+		}
+		"15020"
+		{
+			"name"		"Strange Modifier: Wards Placed"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Wards_Placed"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"7"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Wards_Placed"
+			"image_inventory"		"econ/tools/strange_types_ward"
+		}
+		"15021"
+		{
+			"name"		"Strange Modifier: Gold Earned"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Gold_Earned"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"13"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Gold_Earned"
+			"image_inventory"		"econ/tools/strange_types_gold"
+		}
+		"15022"
+		{
+			"name"		"The Defense #2 Admin"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_TheDefense_Admin"
+			"item_rarity"		"mythical"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"4"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_TheDefense"
+			"image_inventory"		"econ/leagues/subscriptions_thedefense"
+			"image_banner"		"econ/leagues/the_defense"
+			"tournament_url"		"http://www.the-defense.com/en/start"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15023"
+		{
+			"name"		"Strange Modifier: Gold Spent"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Gold_Spent"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"14"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Gold_Spent"
+			"image_inventory"		"econ/tools/strange_types_gold_spent"
+		}
+		"15024"
+		{
+			"name"		"Strange Modifier: Towers Destroyed"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Towers_Destroyed"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"15"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Gold_Earned"
+			"image_inventory"		"econ/tools/strange_types_tower_destroyed"
 		}
 		"20000"
 		{
@@ -13879,6 +14999,43 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"20031"
+		{
+			"name"		"Collection of Couriers Pack"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Bundle_Collection_of_Couriers_Pack"
+			"item_rarity"		"mythical"
+			"bundle"
+			{
+				"Enduring War Dog"		"1"
+				"Trusty Mountain Yak"		"1"
+				"Fearless Badger"		"1"
+				"Stumpy - Nature's Attendant"		"1"
+				"Mighty Boar"		"1"
+				"Morok's Mechanical Mediary"		"1"
+				"Speed Demon"		"1"
+				"Skip the Delivery Frog"		"1"
+			}
+			"item_description"		"#DOTA_Bundle_Desc_Collection_of_Couriers_Pack"
+			"image_inventory"		"econ/bundles/courier_bundle01"
+		}
+		"20032"
+		{
+			"name"		"Assembly of Announcers Pack"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Bundle_Assemblage_of_Announcers_Pack"
+			"item_rarity"		"mythical"
+			"bundle"
+			{
+				"Announcer: Dr. Kleiner"		"1"
+				"Announcer: Juggernaut"		"1"
+				"Mega-Kills: Juggernaut"		"1"
+				"Announcer: Nature's Prophet"		"1"
+				"Mega-Kills: Nature's Prophet"		"1"
+			}
+			"item_description"		"#DOTA_Bundle_Desc_Assemblage_of_Announcers_Pack"
+			"image_inventory"		"econ/bundles/speech_bundle01"
+		}
 	}
 	"attributes"
 	{
@@ -15184,6 +16341,25 @@
 	}
 	"client_loot_lists"
 	{
+		"crate_bonus_a"
+		{
+			"75 Battle Bonus (3 Days)"		"1"
+		}
+		"strange_modifiers_a"
+		{
+			"Strange Modifier: Godlikes"		"1"
+			"Strange Modifier: Towers Destroyed"		"1"
+		}
+		"strange_modifiers_b"
+		{
+			"Strange Modifier: Gold Earned"		"1"
+			"Strange Modifier: Gold Spent"		"1"
+		}
+		"strange_modifiers_c"
+		{
+			"Strange Modifier: First Blood"		"1"
+			"Strange Modifier: Wards Placed"		"1"
+		}
 		"juggernaut_kill_eater_a"
 		{
 			"Grand Claive of the Unshamed"		"1"
@@ -15193,6 +16369,14 @@
 			"Kimono of the Ebony Tower"		"1"
 			"Wolf Cape of the High Plains"		"1"
 			"Visage of the Ivory Isles"		"1"
+		}
+		"juggernaut_kill_eater_b"
+		{
+			"Four-Fangs the Swordbreaker"		"1"
+			"100-Proof Jug"		"1"
+			"Relic Blade of the Kuur-Ishiminari"		"1"
+			"Prey-Tracker's Aspect Mask"		"1"
+			"Stoic Mask of the High Plains"		"1"
 		}
 		"furion_kill_eater_a"
 		{
@@ -15204,19 +16388,71 @@
 			"Runestaff of Verodicia"		"1"
 			"Runed Ailettes"		"1"
 		}
+		"furion_kill_eater_b"
+		{
+			"Diadem of the Goddess Enthroned"		"1"
+			"Beard of Cycles"		"1"
+			"Flared Wooden Crest"		"1"
+			"Luxuriant Chin-Foliage"		"1"
+			"Cape of Verdant Dreaming"		"1"
+		}
+		"axe_kill_eater_a"
+		{
+			"Berserker's Pauldron"		"1"
+			"Berserker's Helm"		"1"
+			"Berserker's Belt"		"1"
+			"Demon Blood Armor"		"1"
+			"Demon Blood Guard"		"1"
+		}
 		"treasure_chest_loot_list_1"
 		{
-			"juggernaut_kill_eater_a"		"400"
+			"juggernaut_kill_eater_a"		"1"
 		}
 		"treasure_chest_loot_list_2"
 		{
-			"furion_kill_eater_a"		"400"
+			"furion_kill_eater_a"		"1"
+		}
+		"treasure_chest_loot_list_3"
+		{
+			"juggernaut_kill_eater_b"		"1"
+			"strange_modifiers_a"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_a"
+			}
+		}
+		"treasure_chest_loot_list_4"
+		{
+			"furion_kill_eater_b"		"1"
+			"strange_modifiers_b"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_a"
+			}
+		}
+		"treasure_chest_loot_list_5"
+		{
+			"axe_kill_eater_a"		"1"
+			"strange_modifiers_c"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_a"
+			}
 		}
 	}
 	"revolving_loot_lists"
 	{
 		"treasure_chest_loot_list_1"		"1"
 		"treasure_chest_loot_list_2"		"2"
+		"treasure_chest_loot_list_3"		"3"
+		"treasure_chest_loot_list_4"		"4"
+		"treasure_chest_loot_list_5"		"5"
 	}
 	"item_levels"
 	{

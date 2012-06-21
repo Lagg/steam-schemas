@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.9e462002e96bcd2931b94d96385bc8f62eaa5d47.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.5842d1239d756f1ebe32548acfa4197c94b6f441.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -2821,9 +2821,9 @@
 				"name": "Phantom Assassin's Helmet",
 				"defindex": 137,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_WearableType_Helmet",
-				"item_name": "DOTA_Item_Phantom_Assassins_Helmet",
-				"item_description": "",
+				"item_type_name": "Helmet",
+				"item_name": "Phantom Assassin's Helmet",
+				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/testitem_slot_empty",
@@ -2841,9 +2841,9 @@
 				"name": "Phantom Assassin's Shoulder Pads",
 				"defindex": 138,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_WearableType_Shoulder_Pads",
-				"item_name": "DOTA_Item_Phantom_Assassins_Shoulder_Pads",
-				"item_description": "",
+				"item_type_name": "Shoulder Pads",
+				"item_name": "Phantom Assassin's Shoulder Pads",
+				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/testitem_slot_empty",
@@ -2862,8 +2862,8 @@
 				"defindex": 139,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Cape",
-				"item_name": "DOTA_Item_Phantom_Assassins_Cape",
-				"item_description": "",
+				"item_name": "Phantom Assassin's Cape",
+				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/testitem_slot_empty",
@@ -2882,8 +2882,8 @@
 				"defindex": 140,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Weapon",
-				"item_name": "DOTA_Item_Phantom_Assassins_Weapon",
-				"item_description": "",
+				"item_name": "Phantom Assassin's Weapon",
+				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/testitem_slot_empty",
@@ -2901,9 +2901,9 @@
 				"name": "Phantom Assassin's Daggers",
 				"defindex": 141,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "DOTA_WearableType_Misc",
-				"item_name": "DOTA_Item_Phantom_Assassins_Daggers",
-				"item_description": "",
+				"item_type_name": "Misc",
+				"item_name": "Phantom Assassin's Daggers",
+				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/testitem_slot_empty",
@@ -2918,19 +2918,19 @@
 				}
 			},
 			{
-				"name": "Wich Doctor's Horn Mask",
+				"name": "Horn Mask",
 				"defindex": 4000,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Wich Doctor's Horn Mask",
+				"item_type_name": "Mask",
+				"item_name": "Horn Mask",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_horn_mask",
+				"image_inventory": "econ\/items\/witchdoctor\/horn_mask",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/horn_mask.da40d5dd5a6fc921386ce40def33b61346fb606f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/horn_mask_large.6d0ef328c5c56bac2da33d83a7bb126643abe202.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -2961,19 +2961,19 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Alligator Mask",
+				"name": "Ol' Snaggletooth",
 				"defindex": 4002,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "DOTA_Item_Witch_Doctors_Alligator_Mask",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Croc Hat",
+				"item_name": "Ol' Snaggletooth",
+				"item_description": "Witch Doctor found this stylish croc jaw discarded in the bush.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_alligator_mask",
+				"image_inventory": "econ\/items\/witchdoctor\/alligator_mask",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/alligator_mask.329f585277f46977f639abb3c08d24f00bc55452.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/alligator_mask_large.c726545d126e236929cd6fc8780b65836602e79c.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -2982,19 +2982,19 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Ribcage Backpack",
+				"name": "Grandfather's Ribs",
 				"defindex": 4003,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Witch Doctor's Ribcage Backpack",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Bad Juju",
+				"item_name": "Grandfather's Ribs",
+				"item_description": "Witch Doctor carries the ribs of his old grandfather, a shaman who held powerful magicks and spoke with influential spirits. Grandfather offers the Witch Doctor access to power in exchange for the opportunity to see blood spilled once more.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_ribcage_backpack",
+				"image_inventory": "econ\/items\/witchdoctor\/ribcage_backpack",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/ribcage_backpack.47018d15609f90838f5d551a15689ed1304baf43.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/ribcage_backpack_large.0b3e474d5c828cd461eb2cb6469c6cf5b8d59cff.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -3246,7 +3246,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Four-Fangs the Swordbreaker",
@@ -3268,7 +3276,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Pride of the Crew",
@@ -3533,7 +3549,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Horns of Noblesse",
@@ -3577,7 +3601,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Runestaff of Verodicia",
@@ -3813,6 +3845,27 @@
 				},
 				"tool": {
 					"type": "hero_taunt"
+				}
+			},
+			{
+				"name": "Rattlebite",
+				"defindex": 4040,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Snake Charm",
+				"item_name": "Rattlebite",
+				"item_description": "Spirits are afraid of snakes, too.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/witchdoctor\/pet_snake",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pet_snake.a8cd464a89fb7536af20835333f207b48f945e7a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pet_snake_large.97ca91169a6e093c2b3f2a25bd4fbb0d113e52be.png",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
 				}
 			},
 			{
@@ -4412,7 +4465,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Weapon",
 				"item_name": "Sinorian Sphere Staff",
-				"item_description": "A Sinarion gemstone caps this staff, providing a magical focus for nature's incantations.",
+				"item_description": "A Sinorian gemstone caps this staff, providing a magical focus for nature's incantations.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/furion\/staff_dwarven",
@@ -4552,7 +4605,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Spaulder",
 				"item_name": "Castor's Spaulder",
-				"item_description": "The riverlands hero Castor Twin-Tusks challenged Verodicia's chosen prophet to an arcane dual. He lost.",
+				"item_description": "The riverlands hero Castor Twin-Tusks challenged Verodicia's chosen prophet to an arcane duel. He lost.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/furion\/shoulders_beaver_1",
@@ -4660,7 +4713,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Fireborn Odachi",
@@ -4788,7 +4849,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Wolf Cape of the High Plains",
@@ -4884,7 +4953,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Diadem of the Goddess Enthroned",
@@ -4906,7 +4983,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Drape of Foliate Magery",
@@ -5038,7 +5123,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Kraken Shell",
@@ -5155,6 +5248,27 @@
 				}
 			},
 			{
+				"name": "Queen of Pain's Slicer",
+				"defindex": 4097,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "Queen of Pain's Slicer",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/queenofpain\/queen_slicer",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
 				"name": "Kimono of the Ebony Tower",
 				"defindex": 4098,
 				"item_class": "dota_item_wearable",
@@ -5204,7 +5318,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Relic Blade of the Kuur-Ishiminari",
@@ -5225,7 +5347,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Kantusa the Script Sword",
@@ -5340,7 +5470,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Fine Bone Bracers",
@@ -5414,7 +5552,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Blade of the Dark Ancients",
@@ -5711,6 +5857,27 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/legs_admirableadmiral.2a1eb17f0cfc58116216476972eb04d07e36d55e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/legs_admirableadmiral_large.624bed60e02edbe32c784a43fef7ac58af61b25d.png",
 				"item_set": "kunkka_admirable_admiral",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Quenn of Pain's Ripper Dagger",
+				"defindex": 4123,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "Quenn of Pain's Ripper Dagger",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/items\/QueenOfPain\/queen_ripper_dagger",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -6304,7 +6471,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Stuffed Toy",
 				"item_name": "Squiddles",
-				"item_description": "A rather oversized, stuffed squid plushie. He's cute and slimey and his name is Squiddles.",
+				"item_description": "A rather oversized, stuffed squid plushie. He's cute and slimy and his name is Squiddles.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/tidehunter\/tidehunter_squid",
@@ -6968,16 +7135,16 @@
 				"name": "Spiral Staff",
 				"defindex": 4193,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
+				"item_type_name": "Staff",
 				"item_name": "Spiral Staff",
-				"item_description": "This new item has no description.",
+				"item_description": "A crystalline focus hung at the center of the staff gives the Witch Doctor unnatural sight.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/witchdoctor\/spiral_staff",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/spiral_staff.3f328d7f02e898f91a1a36ae5b99812886bde6c3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/spiral_staff_large.fef4d197fdc0a88edfb67a0b399fa7e8c9419d4b.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7481,19 +7648,19 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Vile Hat",
+				"name": "Vile Carnival Hat",
 				"defindex": 4218,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Witch Doctor's Vile Hat",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Hat",
+				"item_name": "Vile Carnival Hat",
+				"item_description": "When life is cheap, souls are currency.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_vile_hat",
+				"image_inventory": "econ\/items\/witchdoctor\/voodoo_hat",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/voodoo_hat.1b4e3e8ae822296486555039aa5617263e6c3f84.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/voodoo_hat_large.9f62582dc1aefd1820502ce89e8ee3d7ab988383.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7502,19 +7669,19 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Dreaded Dreads",
+				"name": "Dreaded Dreads",
 				"defindex": 4219,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Witch Doctor's Dreaded Dreads",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Hair",
+				"item_name": "Dreaded Dreads",
+				"item_description": "Take it easy.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_dreaded_dreads",
+				"image_inventory": "econ\/items\/witchdoctor\/voodoo_dreads",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/voodoo_dreads.1a561feb2b4b0b8fafdc8fc5e81a4ffa4365146f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/voodoo_dreads_large.cf3c8c6f5e0bc9acc7323df3e0df91fd389f223d.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7589,19 +7756,19 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Shrunken Head Staff",
+				"name": "Shrunken Head Staff",
 				"defindex": 4223,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Witch Doctor's Shrunken Head Staff",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Staff",
+				"item_name": "Shrunken Head Staff",
+				"item_description": "The head of Witch Doctor's mother hangs from this staff. Such a loving son.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_shrunken_head_staff",
+				"image_inventory": "econ\/items\/witchdoctor\/shrunken_head_staff",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/shrunken_head_staff.4d3edf0256d5ed11d8ea91da30148a8cd373ee9a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/shrunken_head_staff_large.1e3fe027bfba18f1136ba5581a010b4bfec50ad7.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7610,19 +7777,19 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Wooden Mask",
+				"name": "Wooden Fetish Mask",
 				"defindex": 4224,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Witch Doctor's Wooden Mask",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Staff",
+				"item_name": "Wooden Fetish Mask",
+				"item_description": "It's supposed to be smiling.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_wooden_mask",
+				"image_inventory": "econ\/items\/witchdoctor\/wooden_mask",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/wooden_mask.fd10a444ccb8bf896b845acc772c81eea23c3c66.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/wooden_mask_large.43dc73ae89dbe0b896b6ca51e70e98b80e353748.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7631,19 +7798,19 @@
 				}
 			},
 			{
-				"name": "Wich Doctor's Tribal Mask",
+				"name": "Tribal Totem Mask",
 				"defindex": 4225,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Wich Doctor's Tribal Mask",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Mask",
+				"item_name": "Tribal Totem Mask",
+				"item_description": "Not all of the Witch Doctor's enslaved spirits are ancestors. This household totem contains the trapped soul of a swamp dwelling Yando beast.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_tribal_mask",
+				"image_inventory": "econ\/items\/witchdoctor\/tribal_mask",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/tribal_mask.d45de1770ddc4689a8b297bd4efc71ba7ea5feac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/tribal_mask_large.b70d7cff4158a754d01dd59f3de629faccb590cd.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7955,19 +8122,19 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Demon Skull Staff",
+				"name": "Demon Skull Staff",
 				"defindex": 4240,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Witch Doctor's Demon Skull Staff",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Staff",
+				"item_name": "Demon Skull Staff",
+				"item_description": "Witch Doctor clearly has a thing for skulls.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/wichdoctor_demon_skull_staff",
+				"image_inventory": "econ\/items\/witchdoctor\/demon_skull_staff",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/demon_skull_staff.f6584c38577730a4fff8ffb47acdf266c27dd4e1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/demon_skull_staff_large.a405166c4c45acf2a30c24cd23ace496b2a944c0.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -7976,19 +8143,19 @@
 				}
 			},
 			{
-				"name": "Witch Doctor's Skull Hammer Staff",
+				"name": "Staff of the Old Doctor",
 				"defindex": 4241,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Witch Doctor's Skull Hammer Staff",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Staff",
+				"item_name": "Staff of the Old Doctor",
+				"item_description": "When the Witch Doctor rose to his position of power over his tribe, he fashioned this staff from the remains of the old Doctor. Perhaps it was meant as an honor, but most saw it as a warning.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/witchdoctor\/witchdoctor_skullhammer_staff",
+				"image_inventory": "econ\/items\/witchdoctor\/skullhammer_staff",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/skullhammer_staff.f4db84753dced658d60ae0a993757b94585b911f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/skullhammer_staff_large.8fabee2f33198849dcca80d7ad4f2d3188d30e26.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -8016,18 +8183,18 @@
 				}
 			},
 			{
-				"name": "Baggin' This",
+				"name": "Taunt: It's in the Bag",
 				"defindex": 10001,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Taunt",
-				"item_name": "Baggin' This",
-				"item_description": "Express your confidence to the enemy team. Surely nothing could possibly go wrong...",
+				"item_type_name": "All Hero Taunt",
+				"item_name": "Taunt: It's in the Bag",
+				"item_description": "Express your confidence to the enemy team. Surely nothing could possibly go wrong...<br><br>This taunt can be equipped as an action item and used with any hero.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/taunt\/in_the_bag",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/in_the_bag.23c13487de46812d8afc6830d11726978b9b5bd2.png",
 				"image_url_large": "",
 				"capabilities": {
 					"usable": true,
@@ -8092,8 +8259,8 @@
 				"image_inventory": "econ\/items\/sheepstick\/frog",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/frog.460e52f487fb236b5620155501d5c322dddabd2b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/frog_large.267e220bb9b0f1ef36c43fa771484147ad34c80f.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -8169,11 +8336,11 @@
 				"item_description": "Oh Fiddle Sticks!",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/announcer\/dr_kleiner",
+				"image_inventory": "econ\/announcer\/announcer_kleiner",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/announcer_kleiner.eeb9733871c744f4e7f93aa55f74c3d5123d8f18.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/announcer_kleiner_large.35f6d8f660afed585df40e54923b5631948f203f.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -8269,11 +8436,11 @@
 				"item_description": "I am the Juggernaut.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/announcer\/juggernaut",
+				"image_inventory": "econ\/announcer\/announcer_juggernaut",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/announcer_juggernaut.9878cf607f7c0f7c43a078b1a367366f772fbdcf.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/announcer_juggernaut_large.a4652fa750914e619b0940e070e7e1b33f230a21.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -8289,11 +8456,11 @@
 				"item_description": "I am the Juggernaut.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/announcer\/juggernaut",
+				"image_inventory": "econ\/announcer\/megakill_juggernaut",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/megakill_juggernaut.3362100707286af345fb6cb62e6b62ea39cb7262.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/megakill_juggernaut_large.46f73e904d1dc81bedd0bffe79ce1156048b2106.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -8309,11 +8476,11 @@
 				"item_description": "I am the Prophet.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/announcer\/natures_prophet",
+				"image_inventory": "econ\/announcer\/announcer_furion",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/announcer_furion.6da3ca6fa897b9cb9ac40557490bec3ac43c32fa.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/announcer_furion_large.a8168d5c28b61ab08b7379fca8cb6ae410d62c3a.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -8329,11 +8496,11 @@
 				"item_description": "I am the Prophet.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/announcer\/natures_prophet",
+				"image_inventory": "econ\/announcer\/megakill_furion",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/megakill_furion.d4b8e575ade2f4d34ceb84851e853b4382481e81.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/megakill_furion_large.1bb78843d239ccf3af056b0f094b0fd1dee19d50.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -8384,7 +8551,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 1.000000
+						"value": 3.000000
 					},
 					{
 						"name": "disallow recycling",
@@ -8418,7 +8585,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 2.000000
+						"value": 4.000000
 					},
 					{
 						"name": "disallow recycling",
@@ -8429,19 +8596,19 @@
 				
 			},
 			{
-				"name": "Treasure Chest 3",
+				"name": "Treasure of the Red Mist",
 				"defindex": 10022,
 				"item_class": "supply_crate",
 				"item_type_name": "Treasure",
-				"item_name": "",
+				"item_name": "Treasure of the Red Mist",
 				"item_description": "You will need a <font color='#FFD700'>Treasure Key<\/font> to open this chest. You can pick one up at the DOTA 2 Store. Each chest series comes with a different selection of possible loot.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/tools\/treasure_cache",
+				"image_inventory": "econ\/tools\/treasure_chest_axe",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/treasure_chest_axe.a65ac05a9ba9112d994478f5e1605cff29d3b193.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/treasure_chest_axe_large.e191a6ac8fe394720f5455a4813026ab70825c9b.png",
 				"capabilities": {
 					"decodable": true,
 					"can_craft_mark": true,
@@ -8452,7 +8619,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 3.000000
+						"value": 5.000000
 					},
 					{
 						"name": "disallow recycling",
@@ -8550,6 +8717,46 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/courier_mech.a5e792e8d78249eef2aac68969920d45717f4616.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/courier_mech_large.9680efee8ceb676b0ba578d54f8478f32f8fc271.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Speed Demon",
+				"defindex": 10027,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Custom Courier",
+				"item_name": "Speed Demon",
+				"item_description": "This imp has trained all his life for this moment. His is SO ready to go. He will deliver your loot on time or suffer eternal damnation in the sixty-four planes of the Lesser Hells.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/courier\/imp\/imp",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/imp.fc4164d26fc1ce5b049b1d3074452a9e15ae2991.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/imp_large.bc860bbafb3ec1fdbee4ba9bc3852ec091054ff3.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Skip the Delivery Frog",
+				"defindex": 10028,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Custom Courier",
+				"item_name": "Skip the Delivery Frog",
+				"item_description": "What he lacks in size he makes up for in character.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/courier\/frog\/frog",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/frog.460e52f487fb236b5620155501d5c322dddabd2b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/frog_large.267e220bb9b0f1ef36c43fa771484147ad34c80f.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -8847,19 +9054,19 @@
 				
 			},
 			{
-				"name": "Strange Essence: Carries Killed",
+				"name": "Strange Modifier: Godlikes",
 				"defindex": 15009,
 				"item_class": "tool",
-				"item_type_name": "Strange Essence",
-				"item_name": "Strange Essence: Carries Killed",
-				"item_description": "Adding this Strange Essence to a strange weapon of your choice will allow it to also track the number of carries you kill with that weapon.",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Godlike",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also track the number of godlike killing sprees you obtain while wearing it.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/tools\/strange_essence_carries_killed",
+				"image_inventory": "econ\/tools\/strange_types_godlike",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_essence_carries_killed.142d311065083e330616ed2e6c7ad8fe795f8035.png",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_godlike.f3230e33c6517d42068ad7d7a8c3f28806ca8570.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_godlike_large.381428e582ae572c424300c4f02f01abab89c0d5.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -8875,7 +9082,7 @@
 					{
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
-						"value": 10.000000
+						"value": 12.000000
 					}
 				]
 				
@@ -9070,7 +9277,7 @@
 				"item_class": "tool",
 				"item_type_name": "",
 				"item_name": "Wild Cards West",
-				"item_description": "Wild Cards West Admin Pass",
+				"item_description": "Watch eight of the best Dota 2 teams compete for a spot in The International",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/gift_multiple",
@@ -9104,7 +9311,7 @@
 				"item_class": "tool",
 				"item_type_name": "",
 				"item_name": "Wild Cards East",
-				"item_description": "Wild Cards East Admin Pass",
+				"item_description": "Watch eight of the best Dota 2 teams compete for a spot in The International",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/gift_multiple",
@@ -9136,9 +9343,9 @@
 				"name": "International 2012 Ticket",
 				"defindex": 15017,
 				"item_class": "tool",
-				"item_type_name": "DOTA_WearableType_TournamentTicket",
+				"item_type_name": "Tournament Ticket",
 				"item_name": "International 2012 Ticket",
-				"item_description": "This item is an invitation to personally attend the Dota 2 International Tournament, August 31 - September 2 2012, in Seattle, WA. Ticket holders are guaranteed priority seating on the show floor.<br><br>This ticket must be activated from your in-game backpack. Once activated, the ticket will be consumed and removed from your backpack and registered on your Steam account. Ticket information will be emailed no later than June 30th, 2012 to the email address associated with your Steam account.<br><br>This purchase also includes a tradable Dota 2 Invite that grants access to the game (PC only).",
+				"item_description": "This item is an invitation to personally attend the Dota 2 International Tournament, August 31 - September 2 2012, in Seattle, WA. Attendees will receive preferential seating on the show floor.<br><br>This ticket must be activated from your in-game backpack. Once activated, the ticket will be consumed and removed from your backpack and registered on your Steam account. Ticket information will be emailed no later than June 30th, 2012 to the email address associated with your Steam account.<br><br>This purchase also includes a tradable Dota 2 Invite that grants access to the game (PC only).",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/international_invite",
@@ -9167,11 +9374,249 @@
 				
 			},
 			{
+				"name": "The Defense #2",
+				"defindex": 15018,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "The Defense",
+				"item_description": "The Defense is the most prestigious Dota 2 online tournament held by joinDOTA, powered by Razer & BenQ. Featuring 20 hand-selected world-class teams and four community wildcard winners, €10,000 prize money await only the toughest and most experienced of contestants on their way to the top.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_thedefense",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_thedefense.0bfd7381df87c395ebf3a799190796e60f1217d8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_thedefense_large.5d11fd373d44468513a1156bf4dfb6e5aa640bc1.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: First Blood",
+				"defindex": 15019,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: First Blood",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also track the number of first bloods you obtain while wearing it.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_first_blood",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_first_blood.613abfbee86b65b0a6a9f6c277dae1a6d9a20444.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_first_blood_large.8b23cb8450e338b6fdfb699752f6e7726669f9be.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 11.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: Wards Placed",
+				"defindex": 15020,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Wards Placed",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also track the number of wards you place while wearing it.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_ward",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_ward.4579a9124f3ae924d29658947a21d194ce224030.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_ward_large.f66f34063f484c57cae37ca25aed51073a9c5254.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 7.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: Gold Earned",
+				"defindex": 15021,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Gold Earned",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also track the number of gold you earn while wearing it. The gold earned stat will update at the end of a match.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_gold.f41eaf8cc80750e110b42543e1197956075a70fb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_gold_large.804271efc2d54de9979b4911a962bf66bfa37f1d.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 13.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Defense #2 Admin",
+				"defindex": 15022,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "The Defense Admin",
+				"item_description": "The Defense is the most prestigious Dota 2 online tournament held by joinDOTA, powered by Razer & BenQ. Featuring 20 hand-selected world-class teams and four community wildcard winners, €10,000 prize money await only the toughest and most experienced of contestants on their way to the top.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_thedefense",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_thedefense.0bfd7381df87c395ebf3a799190796e60f1217d8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_thedefense_large.5d11fd373d44468513a1156bf4dfb6e5aa640bc1.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: Gold Spent",
+				"defindex": 15023,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Gold Spent",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also track the number of gold you spend while wearing it. The gold spent stat will update at the end of a match.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_gold_spent",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_gold_spent.c89aabfc5ad0c02ec90e14ddf64028a4b65fcef2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_gold_spent_large.88a0b5ea3d348f97c7b230b59eb1b2336f40bbd1.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 14.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: Towers Destroyed",
+				"defindex": 15024,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Towers Destroyed",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also track the number of gold you earn while wearing it. The gold earned stat will update at the end of a match.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_tower_destroyed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_tower_destroyed.0cae7183801f1196339447ed0b225f14776a3bb3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_tower_destroyed_large.cbce117c988c84e06fd0af17d3559368e9a21e09.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 15.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Of Ivory and Ebony Bundle",
 				"defindex": 20000,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Of Ebony and Ivory Bundle",
+				"item_name": "Of Ebony and Ivory Set",
 				"item_description": "Includes all of the items in the 'Of Ebony and Ivory' set for Juggernaut:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9191,7 +9636,7 @@
 				"defindex": 20001,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Wicked Bad Voodoo",
+				"item_name": "Wicked Bad Voodoo Set",
 				"item_description": "Includes all of the items in the 'Wicked Bad Voodoo' set for Witch Doctor:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9211,7 +9656,7 @@
 				"defindex": 20002,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Forged in Demons' Blood Bundle",
+				"item_name": "Forged in Demons' Blood Set",
 				"item_description": "Includes all of the items in the 'Forged in Demons Blood' set for Axe:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9231,7 +9676,7 @@
 				"defindex": 20003,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Defiant Axe Bundle",
+				"item_name": "The Defiant Axe Set",
 				"item_description": "Includes all of the items in the 'Defiant Axe' set for Axe:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9251,7 +9696,7 @@
 				"defindex": 20004,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Regal Forest Lord Bundle",
+				"item_name": "The Regal Forest Lord Set",
 				"item_description": "Includes all of the items in the 'Regal Forest Lord' set for Nature's Prophet:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9271,7 +9716,7 @@
 				"defindex": 20005,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Boar God's Honor Bundle",
+				"item_name": "The Boar God's Honor Set",
 				"item_description": "Includes all of the items in the 'The Boar God's Honor' set for Juggernaut:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9291,7 +9736,7 @@
 				"defindex": 20006,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Aspects of Beast and Man Bundle",
+				"item_name": "Aspects of Beast and Man Set",
 				"item_description": "Includes all of the items in the 'Aspects of Beast and Man' set for Juggernaut:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9311,7 +9756,7 @@
 				"defindex": 20007,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Traveler on the High Plains Bundle",
+				"item_name": "Traveler on the High Plains Set",
 				"item_description": "Includes all of the items in the 'Traveler on the High Plains' set for Juggernaut:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9331,7 +9776,7 @@
 				"defindex": 20008,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Scion of the Savage Bundle",
+				"item_name": "Scion of the Savage Set",
 				"item_description": "Includes all of the items in the 'Scion of the Savage' set for Nature's Prophet:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9351,7 +9796,7 @@
 				"defindex": 20009,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Heartwood Vanguard Bundle",
+				"item_name": "Heartwood Vanguard Set",
 				"item_description": "Includes all of the items in the 'Heartwood Vanguard' set for Nature's Prophet:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9371,7 +9816,7 @@
 				"defindex": 20010,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Garments of the Peace-Bringer Bundle",
+				"item_name": "Garments of the Peace-Bringer Set",
 				"item_description": "Includes all of the items in the 'Garments of the Peace-Bringer' set for Nature's Prophet:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9391,7 +9836,7 @@
 				"defindex": 20011,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Master of Beast and Bole Bundle",
+				"item_name": "Master of Beast and Bole Set",
 				"item_description": "Includes all of the items in the 'Master of Beast and Bole' set for Nature's Prophet:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9411,7 +9856,7 @@
 				"defindex": 20012,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Berserker's Blood Bundle",
+				"item_name": "The Berserker's Blood Set",
 				"item_description": "Includes all of the items in the 'The Berserker's Blood' set for Axe:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9431,7 +9876,7 @@
 				"defindex": 20013,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Forgemaster's Tools Bundle",
+				"item_name": "The Forgemaster's Tools Set",
 				"item_description": "Includes all of the items in the 'The Forgemaster's Tools' set for Axe:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9451,7 +9896,7 @@
 				"defindex": 20014,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Axecutioner Bundle",
+				"item_name": "The Axecutioner Set",
 				"item_description": "Includes all of the items in the 'The Axecutioner' set for Axe:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9471,7 +9916,7 @@
 				"defindex": 20015,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Swordmaster of the Vigil Bundle",
+				"item_name": "Swordmaster of the Vigil Set",
 				"item_description": "Includes all of the items in the 'Swordmaster of the Vigil' set for Sven:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9491,7 +9936,7 @@
 				"defindex": 20016,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Freelancer's Finery Bundle",
+				"item_name": "The Freelancer's Finery Set",
 				"item_description": "Includes all of the items in the 'The Freelancer's Finery' set for Sven:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9511,7 +9956,7 @@
 				"defindex": 20017,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Mono Militis Bundle",
+				"item_name": "Mono Militis Set",
 				"item_description": "Includes all of the items in the 'Sect Armor of the Mono Militis' set for Sven:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9531,7 +9976,7 @@
 				"defindex": 20018,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Flameguard Bundle",
+				"item_name": "Flameguard Set",
 				"item_description": "Includes all of the items in the 'Sect Armor of the Flameguard' set for Sven:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9551,7 +9996,7 @@
 				"defindex": 20019,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Chronite Defense Bundle",
+				"item_name": "Chronite Defense Set",
 				"item_description": "Includes all of the items in the 'Chronite Defense' set for Faceless Void:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9571,7 +10016,7 @@
 				"defindex": 20020,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Garb of the Alpine Stalker Bundle",
+				"item_name": "Garb of the Alpine Stalker Set",
 				"item_description": "Includes all of the items in the 'Garb of the Alpine Stalker' set for Ursa:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9591,7 +10036,7 @@
 				"defindex": 20021,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Ritual Garb of the Seeker Bundle",
+				"item_name": "Ritual Garb of the Seeker Set",
 				"item_description": "Includes all of the items in the 'Ritual Garb of the Seeker' set for Bloodseeker:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9611,7 +10056,7 @@
 				"defindex": 20022,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Pirate's Booty Bundle",
+				"item_name": "The Pirate's Booty Set",
 				"item_description": "Includes all of the items in the 'The Pirate's Booty' set for Tidehunter:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9631,7 +10076,7 @@
 				"defindex": 20023,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Paleogeneous Punisher Bundle",
+				"item_name": "The Paleogeneous Punisher Set",
 				"item_description": "Includes all of the items in the 'The Paleogeneous Punisher' set for Tidehunter:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9651,7 +10096,7 @@
 				"defindex": 20024,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Admirable Admiral Bundle",
+				"item_name": "The Admirable Admiral Set",
 				"item_description": "Includes all of the items in the 'The Admirable Admiral' set for Kunkka:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9671,7 +10116,7 @@
 				"defindex": 20025,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Uldorak's Hide Bundle",
+				"item_name": "Uldorak's Hide Set",
 				"item_description": "Includes all of the items in the 'Uldorak's Hide' set for Dragon Knight:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9691,7 +10136,7 @@
 				"defindex": 20026,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Radiance of the Crusade Bundle",
+				"item_name": "The Radiance of the Crusade Set",
 				"item_description": "Includes all of the items in the 'The Radiance of the Crusade' set for Omniknight:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9711,7 +10156,7 @@
 				"defindex": 20027,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "The Fires of Exort Bundle",
+				"item_name": "The Fires of Exort Set",
 				"item_description": "Includes all of the items in the 'The Fires of Exort' set for Invoker:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9751,7 +10196,7 @@
 				"defindex": 20029,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Spikes of Frost Bundle",
+				"item_name": "Spikes of Frost Set",
 				"item_description": "Includes all of the items in the 'Spikes of Frost' set for Drow Ranger:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9771,7 +10216,7 @@
 				"defindex": 20030,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Trappings of the Pangolin Guild Bundle",
+				"item_name": "Trappings of the Pangolin Guild Set",
 				"item_description": "Includes all of the items in the 'Trappings of the Pangolin Guild' set for Bounty Hunter:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -9780,6 +10225,46 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/dota_bundle_bounty_hunter_pangolin.5f18f15d7edee4f022d4fd64238c9d86c5e9cfde.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/dota_bundle_bounty_hunter_pangolin_large.98ea5a59a9b5b9f5b303755c52dd96921e32f0a8.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Collection of Couriers Pack",
+				"defindex": 20031,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "Collection of Couriers Pack",
+				"item_description": "Includes the following cute and cuddly couriers:",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/bundles\/courier_bundle01",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/courier_bundle01.da7c7561ce0978d2670afb6799cf9ab11f98ed9d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/courier_bundle01_large.387d35a8fe740a74b2f634bc82f4da07832b9c2a.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Assembly of Announcers Pack",
+				"defindex": 20032,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "Assembly of Announcers Pack",
+				"item_description": "Includes the following often ostentatious and always amusing announcers:",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/bundles\/speech_bundle01",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/speech_bundle01.8c361aea2f1f54ecbfa452f06c293dda8c2494d2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/speech_bundle01_large.79ad9050e54f3f412c081d6f19f15d9288cdf49a.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
