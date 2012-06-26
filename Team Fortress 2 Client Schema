@@ -32780,6 +32780,46 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
+		"2070"
+		{
+			"name" "Mysterious Promo 5" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_MysteriousPromo5"
+			"item_description"	"#TF_Bundle_MysteriousPromo5_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
 
 
 
@@ -39953,14 +39993,6 @@
 			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
-			"md5_388_1"	"9e86c9d1ba461d7c3b84ea4bac11b921"
-			"md5_388_2"	"f2629207217ce651f1a76ce33346d4c8"
-			"md5_388_3"	"5d1a66650820b260b043443137c23dc5"
-			"md5_388_4"	"0361ca75733f3c21f4ba4ae216e92155"
-			"md5_388_5"	"a0370078eaafd706e75e6a2a45b5678f"
-			"md5_388_6"	"0a009353adac7c721d8b4a188a9f8517"
-			"md5_388_7"	"6f1d22a53f398fd4404b7fc9d7b1f356"
-			"md5_388_8"	"eae894257e8b1502807a3a94fd2fcc1c"
 		}
 		"400"
 		{
