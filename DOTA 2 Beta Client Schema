@@ -2249,6 +2249,94 @@
 			}
 			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_daggers.mdl"
 		}
+		"142"
+		{
+			"name"		"Disruptor's Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Disruptors_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Disruptors_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/weapon.mdl"
+		}
+		"143"
+		{
+			"name"		"Disruptor's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_bracers"
+			"item_name"		"#DOTA_Item_Disruptors_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/bracers.mdl"
+		}
+		"144"
+		{
+			"name"		"Disruptor's Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Disruptors_Hair"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/hair.mdl"
+		}
+		"145"
+		{
+			"name"		"Disruptor's Back"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Disruptors_Back"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Hair"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/back.mdl"
+		}
+		"146"
+		{
+			"name"		"Disruptor's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Disruptors_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Back"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/shoulder.mdl"
+		}
+		"147"
+		{
+			"name"		"Disruptor's Mount"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_mount"
+			"item_name"		"#DOTA_Item_Disruptors_Mount"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Shoulder_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/mount.mdl"
+		}
 		"4000"
 		{
 			"name"		"Horn Mask"
@@ -12914,13 +13002,6 @@
 				{
 					"strange_parts"		"1"
 				}
-				"usage"
-				{
-					"required_tags"
-					{
-						"is_weapon"		"1"
-					}
-				}
 			}
 			"attributes"
 			{
@@ -13263,13 +13344,6 @@
 				{
 					"strange_parts"		"1"
 				}
-				"usage"
-				{
-					"required_tags"
-					{
-						"is_weapon"		"1"
-					}
-				}
 			}
 			"attributes"
 			{
@@ -13296,13 +13370,6 @@
 				{
 					"strange_parts"		"1"
 				}
-				"usage"
-				{
-					"required_tags"
-					{
-						"is_weapon"		"1"
-					}
-				}
 			}
 			"attributes"
 			{
@@ -13328,13 +13395,6 @@
 				"usage_capabilities"
 				{
 					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_tags"
-					{
-						"is_weapon"		"1"
-					}
 				}
 			}
 			"attributes"
@@ -13397,13 +13457,6 @@
 				{
 					"strange_parts"		"1"
 				}
-				"usage"
-				{
-					"required_tags"
-					{
-						"is_weapon"		"1"
-					}
-				}
 			}
 			"attributes"
 			{
@@ -13429,13 +13482,6 @@
 				"usage_capabilities"
 				{
 					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_tags"
-					{
-						"is_weapon"		"1"
-					}
 				}
 			}
 			"attributes"
@@ -15041,6 +15087,43 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"20031"
+		{
+			"name"		"Collection of Couriers Pack"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Bundle_Collection_of_Couriers_Pack"
+			"item_rarity"		"mythical"
+			"bundle"
+			{
+				"Enduring War Dog"		"1"
+				"Trusty Mountain Yak"		"1"
+				"Fearless Badger"		"1"
+				"Stumpy - Nature's Attendant"		"1"
+				"Mighty Boar"		"1"
+				"Morok's Mechanical Mediary"		"1"
+				"Speed Demon"		"1"
+				"Skip the Delivery Frog"		"1"
+			}
+			"item_description"		"#DOTA_Bundle_Desc_Collection_of_Couriers_Pack"
+			"image_inventory"		"econ/bundles/courier_bundle01"
+		}
+		"20032"
+		{
+			"name"		"Assembly of Announcers Pack"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Bundle_Assemblage_of_Announcers_Pack"
+			"item_rarity"		"mythical"
+			"bundle"
+			{
+				"Announcer: Dr. Kleiner"		"1"
+				"Announcer: Juggernaut"		"1"
+				"Mega-Kills: Juggernaut"		"1"
+				"Announcer: Nature's Prophet"		"1"
+				"Mega-Kills: Nature's Prophet"		"1"
+			}
+			"item_description"		"#DOTA_Bundle_Desc_Assemblage_of_Announcers_Pack"
+			"image_inventory"		"econ/bundles/speech_bundle01"
+		}
 	}
 	"attributes"
 	{
@@ -16350,6 +16433,21 @@
 		{
 			"75 Battle Bonus (3 Days)"		"1"
 		}
+		"strange_modifiers_a"
+		{
+			"Strange Modifier: Godlikes"		"1"
+			"Strange Modifier: Towers Destroyed"		"1"
+		}
+		"strange_modifiers_b"
+		{
+			"Strange Modifier: Gold Earned"		"1"
+			"Strange Modifier: Gold Spent"		"1"
+		}
+		"strange_modifiers_c"
+		{
+			"Strange Modifier: First Blood"		"1"
+			"Strange Modifier: Wards Placed"		"1"
+		}
 		"juggernaut_kill_eater_a"
 		{
 			"Grand Claive of the Unshamed"		"1"
@@ -16367,8 +16465,6 @@
 			"Relic Blade of the Kuur-Ishiminari"		"1"
 			"Prey-Tracker's Aspect Mask"		"1"
 			"Stoic Mask of the High Plains"		"1"
-			"Strange Modifier: Godlikes"		"1"
-			"Strange Modifier: Towers Destroyed"		"1"
 		}
 		"furion_kill_eater_a"
 		{
@@ -16387,8 +16483,6 @@
 			"Flared Wooden Crest"		"1"
 			"Luxuriant Chin-Foliage"		"1"
 			"Cape of Verdant Dreaming"		"1"
-			"Strange Modifier: Gold Earned"		"1"
-			"Strange Modifier: Gold Spent"		"1"
 		}
 		"axe_kill_eater_a"
 		{
@@ -16397,20 +16491,19 @@
 			"Berserker's Belt"		"1"
 			"Demon Blood Armor"		"1"
 			"Demon Blood Guard"		"1"
-			"Strange Modifier: First Blood"		"1"
-			"Strange Modifier: Wards Placed"		"1"
 		}
 		"treasure_chest_loot_list_1"
 		{
-			"juggernaut_kill_eater_a"		"400"
+			"juggernaut_kill_eater_a"		"1"
 		}
 		"treasure_chest_loot_list_2"
 		{
-			"furion_kill_eater_a"		"400"
+			"furion_kill_eater_a"		"1"
 		}
 		"treasure_chest_loot_list_3"
 		{
-			"juggernaut_kill_eater_b"		"400"
+			"juggernaut_kill_eater_b"		"1"
+			"strange_modifiers_a"		"1"
 			"additional_drop"
 			{
 				"chance"		"0.150000"
@@ -16420,7 +16513,8 @@
 		}
 		"treasure_chest_loot_list_4"
 		{
-			"furion_kill_eater_b"		"400"
+			"furion_kill_eater_b"		"1"
+			"strange_modifiers_b"		"1"
 			"additional_drop"
 			{
 				"chance"		"0.150000"
@@ -16430,7 +16524,8 @@
 		}
 		"treasure_chest_loot_list_5"
 		{
-			"axe_kill_eater_a"		"400"
+			"axe_kill_eater_a"		"1"
+			"strange_modifiers_c"		"1"
 			"additional_drop"
 			{
 				"chance"		"0.150000"
