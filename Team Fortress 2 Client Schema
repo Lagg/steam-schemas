@@ -15669,6 +15669,14 @@
 			{
 				"engineer"	"1"
 			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
+			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
@@ -28754,7 +28762,7 @@
 			"visuals"
 			{
 				"sound_single_shot"		"Weapon_ProSniperRifle.Single"
-				"sound_burst"			"Weapon_SniperRifle.SingleCrit"
+				"sound_burst"			"Weapon_ProSniperRifle.SingleCrit"
 			}
 		}
 		"753"
@@ -30055,15 +30063,15 @@
 					{
 						"model_player_per_class"	
 						{
-							"scout"		"models/player/items/all_class/all_domination_scout_b.mdl"
-							"sniper"	"models/player/items/all_class/all_domination_sniper_b.mdl"
-							"soldier"	"models/player/items/all_class/all_domination_soldier_b.mdl"
-							"demoman"	"models/player/items/all_class/all_domination_demo_b.mdl"
-							"medic"		"models/player/items/all_class/all_domination_medic_b.mdl"
-							"heavy"		"models/player/items/all_class/all_domination_heavy_b.mdl"
-							"spy"		"models/player/items/all_class/all_domination_spy_b.mdl"
-							"engineer"	"models/player/items/all_class/all_domination_engineer_b.mdl"
-							"pyro"		"models/player/items/all_class/all_domination_pyro_b.mdl"
+							"scout"		"models/player/items/all_class/as_robot_chicken_scout_b.mdl"
+							"sniper"	"models/player/items/all_class/as_robot_chicken_sniper_b.mdl"
+							"soldier"	"models/player/items/all_class/as_robot_chicken_soldier_b.mdl"
+							"demoman"	"models/player/items/all_class/as_robot_chicken_demo_b.mdl"
+							"medic"		"models/player/items/all_class/as_robot_chicken_medic_b.mdl"
+							"heavy"		"models/player/items/all_class/as_robot_chicken_heavy_b.mdl"
+							"spy"		"models/player/items/all_class/as_robot_chicken_spy_b.mdl"
+							"engineer"	"models/player/items/all_class/as_robot_chicken_engineer_b.mdl"
+							"pyro"		"models/player/items/all_class/as_robot_chicken_pyro_b.mdl"
 						}
 						"name"	"#TF_RobotChickenHat_Style1"
 					}
