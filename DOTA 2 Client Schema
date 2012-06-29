@@ -2249,6 +2249,94 @@
 			}
 			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_daggers.mdl"
 		}
+		"142"
+		{
+			"name"		"Disruptor's Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Disruptors_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Disruptors_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/weapon.mdl"
+		}
+		"143"
+		{
+			"name"		"Disruptor's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_bracers"
+			"item_name"		"#DOTA_Item_Disruptors_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/bracers.mdl"
+		}
+		"144"
+		{
+			"name"		"Disruptor's Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Disruptors_Hair"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/hair.mdl"
+		}
+		"145"
+		{
+			"name"		"Disruptor's Back"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Disruptors_Back"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Hair"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/back.mdl"
+		}
+		"146"
+		{
+			"name"		"Disruptor's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Disruptors_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Back"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/shoulder.mdl"
+		}
+		"147"
+		{
+			"name"		"Disruptor's Mount"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_mount"
+			"item_name"		"#DOTA_Item_Disruptors_Mount"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Disruptors_Shoulder_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/heroes/Disruptor/mount.mdl"
+		}
 		"4000"
 		{
 			"name"		"Horn Mask"
@@ -13404,8 +13492,253 @@
 					"value"		"15"
 				}
 			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Gold_Earned"
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Towers_Destroyed"
 			"image_inventory"		"econ/tools/strange_types_tower_destroyed"
+		}
+		"15025"
+		{
+			"name"		"Unusual Paint: Red"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Unusual_Paint_Red"
+			"item_rarity"		"legendary"
+			"tool"
+			{
+				"type"		"unusual_paint"
+				"usage_capabilities"
+				{
+					"paintable_unusual"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Unusual_Paint"
+			"image_inventory"		"econ/tools/courier_fx_paint"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"		"set_item_tint_rgb"
+					"value"		"13647155"
+				}
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15026"
+		{
+			"name"		"Unusual Paint: Orange"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Unusual_Paint_Orange"
+			"item_rarity"		"legendary"
+			"tool"
+			{
+				"type"		"unusual_paint"
+				"usage_capabilities"
+				{
+					"paintable_unusual"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Unusual_Paint"
+			"image_inventory"		"econ/tools/courier_fx_paint"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"		"set_item_tint_rgb"
+					"value"		"13662003"
+				}
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15027"
+		{
+			"name"		"Unusual Paint: Gold"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Unusual_Paint_Gold"
+			"item_rarity"		"legendary"
+			"tool"
+			{
+				"type"		"unusual_paint"
+				"usage_capabilities"
+				{
+					"paintable_unusual"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Unusual_Paint"
+			"image_inventory"		"econ/tools/courier_fx_paint"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"		"set_item_tint_rgb"
+					"value"		"13609777"
+				}
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15028"
+		{
+			"name"		"Unusual Paint: Light Green"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Unusual_Paint_Light_Green"
+			"item_rarity"		"legendary"
+			"tool"
+			{
+				"type"		"unusual_paint"
+				"usage_capabilities"
+				{
+					"paintable_unusual"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Unusual_Paint"
+			"image_inventory"		"econ/tools/courier_fx_paint"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"		"set_item_tint_rgb"
+					"value"		"12046131"
+				}
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15029"
+		{
+			"name"		"Unusual Paint: Green"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Unusual_Paint_Green"
+			"item_rarity"		"legendary"
+			"tool"
+			{
+				"type"		"unusual_paint"
+				"usage_capabilities"
+				{
+					"paintable_unusual"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Unusual_Paint"
+			"image_inventory"		"econ/tools/courier_fx_paint"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"		"set_item_tint_rgb"
+					"value"		"5354320"
+				}
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15030"
+		{
+			"name"		"Unusual Paint: Blue"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Unusual_Paint_Blue"
+			"item_rarity"		"legendary"
+			"tool"
+			{
+				"type"		"unusual_paint"
+				"usage_capabilities"
+				{
+					"paintable_unusual"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Unusual_Paint"
+			"image_inventory"		"econ/tools/courier_fx_paint"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"		"set_item_tint_rgb"
+					"value"		"38862"
+				}
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15031"
+		{
+			"name"		"Unusual Paint: Purple"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Unusual_Paint_Purple"
+			"item_rarity"		"legendary"
+			"tool"
+			{
+				"type"		"unusual_paint"
+				"usage_capabilities"
+				{
+					"paintable_unusual"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Unusual_Paint"
+			"image_inventory"		"econ/tools/courier_fx_paint"
+			"attributes"
+			{
+				"set item tint RGB"
+				{
+					"attribute_class"		"set_item_tint_rgb"
+					"value"		"8532717"
+				}
+				"always tradable"
+				{
+					"attribute_class"		"always_tradable"
+					"value"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
 		}
 		"20000"
 		{
