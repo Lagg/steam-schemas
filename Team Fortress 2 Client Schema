@@ -4519,7 +4519,7 @@
 			"image_inventory" "backpack/weapons/c_models/c_pickaxe/c_pickaxe_s2"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
+			"model_player"	"models/weapons/c_models/c_pickaxe/c_pickaxe_s2.mdl"
 			"attach_to_hands" "1"
 			"used_by_classes"
 			{
@@ -4543,7 +4543,6 @@
 				"sound_melee_miss"	"Weapon_PickAxe.Swing"
 				"sound_melee_hit"	"Weapon_PickAxe.HitFlesh"
 				"sound_melee_burst"	"Weapon_PickAxe.SwingCrit"
-				"skin" "1"
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -30057,6 +30056,8 @@
 							"engineer"	"models/player/items/all_class/as_robot_chicken_engineer.mdl"
 							"pyro"		"models/player/items/all_class/as_robot_chicken_pyro.mdl"
 						}
+						"skin_red"	"0"
+						"skin_blu"	"1"
 						"name"	"#TF_RobotChickenHat_Style0"
 					}
 					"1"
@@ -30073,6 +30074,8 @@
 							"engineer"	"models/player/items/all_class/as_robot_chicken_engineer_b.mdl"
 							"pyro"		"models/player/items/all_class/as_robot_chicken_pyro_b.mdl"
 						}
+						"skin_red"	"0"
+						"skin_blu"	"1"
 						"name"	"#TF_RobotChickenHat_Style1"
 					}
 				}
