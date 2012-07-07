@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.6ab43e71b07e63ab20f0d4265084f3320496a169.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.b678d62461714f0c7ba9f2548cd34b67c9ba782e.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -16,7 +16,8 @@
 			"customized": 10,
 			"strange": 11,
 			"completed": 12,
-			"haunted": 13
+			"haunted": 13,
+			"tobor_a": 14
 		},
 		"qualityNames": {
 			"normal": "Normal",
@@ -117,11 +118,11 @@
 			},
 			{
 				"origin": 20,
-				"name": "MvM Badge completion reward"
+				"name": "Unknown"
 			},
 			{
 				"origin": 21,
-				"name": "MvM Squad surplus reward"
+				"name": "Unknown"
 			}
 		]
 		,
@@ -595,7 +596,7 @@
 				"item_name": "SMG",
 				"proper_name": false,
 				"item_slot": "secondary",
-				"model_player": "models\/weapons\/w_models\/w_smg.mdl",
+				"model_player": "models\/weapons\/c_models\/c_smg\/c_smg.mdl",
 				"item_quality": 0,
 				"image_inventory": "backpack\/weapons\/w_models\/w_smg",
 				"min_ilevel": 1,
@@ -3129,13 +3130,13 @@
 				"item_name": "Equalizer",
 				"proper_name": true,
 				"item_slot": "melee",
-				"model_player": "models\/weapons\/c_models\/c_pickaxe\/c_pickaxe.mdl",
+				"model_player": "models\/weapons\/c_models\/c_pickaxe\/c_pickaxe_s2.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/weapons\/c_models\/c_pickaxe\/c_pickaxe",
+				"image_inventory": "backpack\/weapons\/c_models\/c_pickaxe\/c_pickaxe_s2",
 				"min_ilevel": 10,
 				"max_ilevel": 10,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pickaxe.0f6c70affe3902e80dea212930c3bc3e70e09580.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pickaxe_large.1dfbc4c2fa1f163676af1ca1be41161750a4c0c3.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pickaxe_s2.3f6bf8f2419c91d8af247699feb3c28677ee9a1a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pickaxe_s2_large.377d2d95e11dde92503011cd5b85ce630733d73f.png",
 				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -3153,6 +3154,11 @@
 					{
 						"name": "mod shovel damage boost",
 						"class": "set_weapon_mode",
+						"value": 1.000000
+					},
+					{
+						"name": "mod weapon blocks healing",
+						"class": "weapon_blocks_healing",
 						"value": 1.000000
 					}
 				]
@@ -3966,6 +3972,14 @@
 				"used_by_classes": [
 					"Pyro"
 				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 2.000000
+					}
+				]
 				
 			},
 			{
@@ -4295,7 +4309,7 @@
 				"item_class": "tf_weapon_lunchbox_drink",
 				"item_type_name": "Lunch Box",
 				"item_name": "Crit-a-Cola",
-				"item_description": "While under the effects, damage done\nand damage taken will be mini-crits.",
+				"item_description": "While under the effects, +25% movement speed and damage done\nand damage taken will be mini-crits.",
 				"proper_name": false,
 				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_energy_drink\/c_energy_drink.mdl",
@@ -5101,7 +5115,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 2.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Upgradeable TF_WEAPON_BAT",
@@ -5497,7 +5519,7 @@
 				"item_name": "SMG",
 				"proper_name": false,
 				"item_slot": "secondary",
-				"model_player": "models\/weapons\/w_models\/w_smg.mdl",
+				"model_player": "models\/weapons\/c_models\/c_smg\/c_smg.mdl",
 				"item_quality": 6,
 				"image_inventory": "backpack\/weapons\/w_models\/w_smg",
 				"min_ilevel": 1,
@@ -6657,7 +6679,7 @@
 					{
 						"name": "damage penalty",
 						"class": "mult_dmg",
-						"value": 0.500000
+						"value": 0.750000
 					},
 					{
 						"name": "provide on active",
@@ -6665,14 +6687,14 @@
 						"value": 1.000000
 					},
 					{
-						"name": "active health degen",
-						"class": "active_item_health_regen",
-						"value": -6.000000
-					},
-					{
 						"name": "lunchbox adds minicrits",
 						"class": "set_weapon_mode",
 						"value": 2.000000
+					},
+					{
+						"name": "self mark for death",
+						"class": "self_mark_for_death",
+						"value": 1.000000
 					}
 				]
 				
@@ -8611,6 +8633,11 @@
 						"name": "maxammo primary reduced",
 						"class": "mult_maxammo_primary",
 						"value": 0.250000
+					},
+					{
+						"name": "Reload time decreased",
+						"class": "mult_reload_time",
+						"value": 0.600000
 					}
 				]
 				
@@ -10931,6 +10958,14 @@
 				"used_by_classes": [
 					"Engineer"
 				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
 				
 			},
 			{
@@ -11147,6 +11182,14 @@
 				"used_by_classes": [
 					"Soldier",
 					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -12221,6 +12264,11 @@
 				,
 				"attributes": [
 					{
+						"name": "minigun spinup time decreased",
+						"class": "mult_minigun_spinup_time",
+						"value": 0.900000
+					},
+					{
 						"name": "minigun no spin sounds",
 						"class": "minigun_no_spin_sounds",
 						"value": 1.000000
@@ -13059,7 +13107,7 @@
 				"item_class": "tf_weapon_soda_popper",
 				"item_type_name": "Scattergun",
 				"item_name": "Soda Popper",
-				"item_description": "Builds hype as you run. When the hype meter is full, unleash mini-crits!",
+				"item_description": "Builds Hype as you run. When the Hype Meter is full, unleash mini-crits!",
 				"proper_name": true,
 				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_soda_popper\/c_soda_popper.mdl",
@@ -19204,6 +19252,14 @@
 				"used_by_classes": [
 					"Pyro"
 				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
 				
 			},
 			{
@@ -19525,6 +19581,11 @@
 				,
 				"attributes": [
 					{
+						"name": "health regen",
+						"class": "add_health_regen",
+						"value": 1.000000
+					},
+					{
 						"name": "aiming knockback resistance",
 						"class": "mult_aiming_knockback_resistance",
 						"value": 0.800000
@@ -19532,7 +19593,7 @@
 					{
 						"name": "sniper aiming movespeed decreased",
 						"class": "mult_player_aiming_movespeed",
-						"value": 0.100000
+						"value": 0.200000
 					},
 					{
 						"name": "aiming no flinch",
@@ -21891,6 +21952,139 @@
 				
 			},
 			{
+				"name": "The Beggar's Bazooka",
+				"defindex": 730,
+				"item_class": "tf_weapon_rocketlauncher",
+				"item_type_name": "Rocket Launcher",
+				"item_name": "Beggar's Bazooka",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_dumpster_device\/c_dumpster_device.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_dumpster_device\/c_dumpster_device",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dumpster_device.317580090616deba8e5976dfe3c0c5013a095485.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_dumpster_device_large.36652d6b073bf227551dfa753d64ae7262ddf5eb.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "fire rate bonus HIDDEN",
+						"class": "mult_postfiredelay",
+						"value": 0.300000
+					},
+					{
+						"name": "auto fires full clip",
+						"class": "auto_fires_full_clip",
+						"value": 1.000000
+					},
+					{
+						"name": "can overload",
+						"class": "can_overload",
+						"value": 1.000000
+					},
+					{
+						"name": "reload time increased hidden",
+						"class": "mult_reload_time_hidden",
+						"value": 1.300000
+					},
+					{
+						"name": "clip size penalty HIDDEN",
+						"class": "mult_clipsize",
+						"value": 0.750000
+					},
+					{
+						"name": "projectile spread angle penalty",
+						"class": "projectile_spread_angle",
+						"value": 3.000000
+					},
+					{
+						"name": "no primary ammo from dispensers",
+						"class": "no_primary_ammo_from_dispensers",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Captain's Cocktails",
+				"defindex": 731,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Captain's Cocktails",
+				"item_description": "Attention, tramps! Are you MAN enough to carry around cans full of expired soup? Are you CRAZY enough to pretend they're grenades? Are you HUNGRY enough to probably eat the soup later, when nobody's looking? We bet yes!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/soldier\/ds_can_grenades.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/ds_can_grenades",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ds_can_grenades.ae104c55c767651cda91805b6fca37ef727d0845.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ds_can_grenades_large.6f53bf51c46329af980e8da91b2d9a64f273f8fd.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Helmet Without a Home",
+				"defindex": 732,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Helmet Without a Home",
+				"item_description": "Think of this helmet as a fortified, portable home for your head. It's also lined with tin foil, so nobody will be able to steal your valuable tramp-thoughts.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/ds_football_helmet.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/ds_football_helmet",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ds_football_helmet.be1bec395e50d6dd9adedf7a590e1c993b831ba1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ds_football_helmet_large.8ffd9782ce0aa4c5b3b9be318c419728a84a77c2.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
 				"name": "The Teufort Tooth Kicker",
 				"defindex": 734,
 				"item_class": "tf_wearable",
@@ -22015,6 +22209,476 @@
 				},
 				"used_by_classes": [
 					"Engineer"
+				]
+				
+			},
+			{
+				"name": "Pet Balloonicorn",
+				"defindex": 738,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Balloonicorn",
+				"item_description": "Oh my goodness! Is it Balloonicorn? The Mayor of Pyroland? Don't be ridiculous, we're talking about an inflatable unicorn. He's the Municipal Ombudsman. Between you and me, Balloonicorn's a joke down at City Hall. Gary Brottman, the inflatable Sewer Superintendent, is sleeping with Balloonicorn's wife. Anyway, when he's riding around on your shoulder don't mention ANY of this to him, because Balloonicorn is on a hair trigger and he's usually pretty drunk.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/pet_balloonicorn.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/pet_balloonicorn",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pet_balloonicorn.d027fc4970883344d6f8ecf9a6bfcfab5d46c6c2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pet_balloonicorn_large.c19d9fe69a7f069ac5dda536230521e41df9091e.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "vision opt in flags",
+						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					},
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision only DISPLAY ONLY",
+						"class": "pyrovision_only_display",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Lollichop",
+				"defindex": 739,
+				"item_class": "tf_weapon_fireaxe",
+				"item_type_name": "Fire Axe",
+				"item_name": "Lollichop",
+				"item_description": "Fill (split) your buddies' tummies (skulls) with delicious candy (cold steel) with this oversized sugary treat. (Equips Pyrovision.)",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_lollichop\/c_lollichop.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_lollichop\/c_lollichop",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_lollichop.48a9d5aa006d1213817cda157ad57d251bab61f5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_lollichop_large.adcf851f112cae11d6cba55db8650d4aec559e74.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "vision opt in flags",
+						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision only DISPLAY ONLY",
+						"class": "pyrovision_only_display",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Scorch Shot",
+				"defindex": 740,
+				"item_class": "tf_weapon_flaregun",
+				"item_type_name": "Flare Gun",
+				"item_name": "Scorch Shot",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_scorch_shot\/c_scorch_shot.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_scorch_shot\/c_scorch_shot",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_scorch_shot.cd6f4d583387d2910862e0c696f0e39b836db030.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_scorch_shot_large.24390cc9720b25041e8ca20005af52fa823230e6.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "hidden secondary max ammo penalty",
+						"class": "mult_maxammo_secondary",
+						"value": 0.500000
+					},
+					{
+						"name": "damage penalty",
+						"class": "mult_dmg",
+						"value": 0.500000
+					},
+					{
+						"name": "mod flaregun fires pellets with knockback",
+						"class": "set_weapon_mode",
+						"value": 3.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Rainblower",
+				"defindex": 741,
+				"item_class": "tf_weapon_flamethrower",
+				"item_type_name": "Flame Thrower",
+				"item_name": "Rainblower",
+				"item_description": "Your friends (enemies) will squeal with delight (be consumed with fire) when you cover them in sparkly rainbows (all-consuming fire). (Equips Pyrovision.)",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_rainblower\/c_rainblower.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_rainblower\/c_rainblower",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_rainblower.4720610f5bbc9ebae4410148429b76b539c9f6c7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_rainblower_large.d378aecf58e0d0361f595173fb27f4c7ceaa6cee.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "vision opt in flags",
+						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					},
+					{
+						"name": "lunchbox adds minicrits",
+						"class": "set_weapon_mode",
+						"value": 3.000000
+					},
+					{
+						"name": "pyrovision only DISPLAY ONLY",
+						"class": "pyrovision_only_display",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Autogrant Pyrovision Goggles",
+				"defindex": 743,
+				"item_class": "tf_wearable",
+				"item_type_name": "Pyrovision Goggles",
+				"item_name": "Pyrovision Goggles",
+				"item_description": "Enter a world of imagination that's far superior to the crap-ass worlds of imagination you get from books. Pyrovision lets you see the TF2niverse from our favorite arsonist's perspective.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/pyrovision_goggles_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/pyrovision_goggles_heavy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyrovision_goggles_heavy.fb9dd8f3255e949238f1aa80e8087a38f1b6cbad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyrovision_goggles_heavy_large.8e3ec8d4edd02cf99640c1711d8f7d3749c15680.png",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "vision opt in flags",
+						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					},
+					{
+						"name": "pyro year number",
+						"class": "pyro_year_number",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Pyrovision Goggles",
+				"defindex": 744,
+				"item_class": "tf_wearable",
+				"item_type_name": "Pyrovision Goggles",
+				"item_name": "Pyrovision Goggles",
+				"item_description": "Enter a world of imagination that's far superior to the crap-ass worlds of imagination you get from books. Pyrovision lets you see the TF2niverse from our favorite arsonist's perspective.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/pyrovision_goggles_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/pyrovision_goggles_heavy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyrovision_goggles_heavy.fb9dd8f3255e949238f1aa80e8087a38f1b6cbad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyrovision_goggles_heavy_large.8e3ec8d4edd02cf99640c1711d8f7d3749c15680.png",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "vision opt in flags",
+						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Infernal Orchestrina",
+				"defindex": 745,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Infernal Orchestrina",
+				"item_description": "Your BFFs (enemies) will turn their frowns upside down (confront their own mortality) as they dance a merry jig to (run in terror from) these cheery tunes (soul-destroying funeral dirges). (Equips Pyrovision.)",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/mtp_backpack.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/mtp_backpack",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mtp_backpack.0dec30fa5f21cd94b24c76f2df425fc632e085f0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mtp_backpack_large.90dbf6e133d46e85cce48fe82db0b8191209ac86.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "vision opt in flags",
+						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision only DISPLAY ONLY",
+						"class": "pyrovision_only_display",
+						"value": 1.000000
+					},
+					{
+						"name": "taunt success sound",
+						"class": "taunt_success_sound",
+						"value": 2.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Burning Bongos",
+				"defindex": 746,
+				"item_class": "tf_wearable",
+				"item_type_name": "Bongos",
+				"item_name": "Burning Bongos",
+				"item_description": "When you were a kid, all you wanted was to play the bongos. But then you grew up and, like all of us, realized you're not as good at bongos as Matthew McConaughey. Well, guess what, pal: Nobody is, or ever will be. (Equips Pyrovision.)",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/mtp_bongos.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/mtp_bongos",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mtp_bongos.30a2b9309c9e280d2ada433ecef3c328008f5f44.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mtp_bongos_large.71e32d49625730facc32490b56cc0fb813cbd012.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "vision opt in flags",
+						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision only DISPLAY ONLY",
+						"class": "pyrovision_only_display",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Cleaner's Carbine",
+				"defindex": 751,
+				"item_class": "tf_weapon_smg",
+				"item_type_name": "SMG",
+				"item_name": "Cleaner's Carbine",
+				"item_description": "",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_pro_smg\/c_pro_smg.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_pro_smg\/c_pro_smg",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pro_smg.11974039568823e9ae23755827d3be434c3b290f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pro_smg_large.2863c7f18e34c4ad79f474af79cef4f69d21a7cb.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "critboost on kill",
+						"class": "add_onkill_critboost_time",
+						"value": 3.000000
+					},
+					{
+						"name": "fire rate penalty",
+						"class": "mult_postfiredelay",
+						"value": 1.350000
+					},
+					{
+						"name": "clip size penalty",
+						"class": "mult_clipsize",
+						"value": 0.800000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Hitman's Heatmaker",
+				"defindex": 752,
+				"item_class": "tf_weapon_sniperrifle",
+				"item_type_name": "Sniper Rifle",
+				"item_name": "Hitman's Heatmaker",
+				"item_description": "\nHeads will roll.",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_pro_rifle\/c_pro_rifle.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_pro_rifle\/c_pro_rifle",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pro_rifle.da74aa85cc1e7b657b2ac8499ba99f726044f797.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pro_rifle_large.d4be11a43e383d0dde518369a5c3917c1376268e.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "decapitate type",
+						"class": "decapitate_type",
+						"value": 1.000000
+					},
+					{
+						"name": "damage penalty on bodyshot",
+						"class": "bodyshot_damage_modify",
+						"value": 0.800000
+					},
+					{
+						"name": "rage on kill",
+						"class": "rage_on_kill",
+						"value": 35.000000
+					},
+					{
+						"name": "rage on assists",
+						"class": "rage_on_assists",
+						"value": 15.000000
+					},
+					{
+						"name": "mod soldier buff type",
+						"class": "set_buff_type",
+						"value": 6.000000
+					},
+					{
+						"name": "sniper rage DISPLAY ONLY",
+						"class": "sniper_rage_DISPLAY_ONLY",
+						"value": 0.000000
+					}
 				]
 				
 			},
@@ -22658,6 +23322,633 @@
 				},
 				"used_by_classes": [
 					"Medic"
+				]
+				
+			},
+			{
+				"name": "The Liquor Locker",
+				"defindex": 771,
+				"item_class": "tf_wearable",
+				"item_type_name": "Treasure",
+				"item_name": "Liquor Locker",
+				"item_description": "The Demo keeps his fortune close to his chest: Specifically, on the other side of it, strapped to his back. You won't find money in it: Demo wisely invests in gold, which he then spends on rare cask-aged liquors, which he then usually drinks, which is why he keeps it locked and the key hidden.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/demo_chest_back.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/demo_chest_back",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_chest_back.ad58d2fff59483710e154d086c65a7ca69b6fd74.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_chest_back_large.90dfbded793bc97cd513ca1bd1068acf60fca29c.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Classic"
+					},
+					{
+						"name": "Front"
+					},
+					{
+						"name": "Right Hip"
+					},
+					{
+						"name": "Left Hip"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "Baby Face's Blaster",
+				"defindex": 772,
+				"item_class": "tf_weapon_pep_brawler_blaster",
+				"item_type_name": "Scattergun",
+				"item_name": "Baby Face's Blaster",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_pep_scattergun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_pep_scattergun",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pep_scattergun.52bd5d3c27f7916ae10912e5e1083e91d1eae44c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pep_scattergun_large.39faf82d2a8426f61c8971b3c6b84212ee830ac4.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "damage penalty",
+						"class": "mult_dmg",
+						"value": 0.700000
+					},
+					{
+						"name": "weapon spread bonus",
+						"class": "mult_spread_scale",
+						"value": 0.600000
+					},
+					{
+						"name": "move speed penalty",
+						"class": "mult_player_movespeed",
+						"value": 0.650000
+					},
+					{
+						"name": "hype on damage",
+						"class": "hype_on_damage",
+						"value": 1.000000
+					},
+					{
+						"name": "hype resets on jump",
+						"class": "hype_resets_on_jump",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Pretty Boy's Pocket Pistol",
+				"defindex": 773,
+				"item_class": "tf_weapon_handgun_scout_secondary",
+				"item_type_name": "Pistol",
+				"item_name": "Pretty Boy's Pocket Pistol",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_pep_pistol\/c_pep_pistol.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_pep_pistol\/c_pep_pistol",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pep_pistol.ceeb65664adb047e035806c357754aa618c0ef22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pep_pistol_large.96195af84a0d4941f7296f68d572d012f52214e9.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "max health additive bonus",
+						"class": "add_maxhealth",
+						"value": 15.000000
+					},
+					{
+						"name": "cancel falling damage",
+						"class": "cancel_falling_damage",
+						"value": 1.000000
+					},
+					{
+						"name": "fire rate penalty",
+						"class": "mult_postfiredelay",
+						"value": 1.250000
+					},
+					{
+						"name": "dmg taken from fire increased",
+						"class": "mult_dmgtaken_from_fire",
+						"value": 1.500000
+					}
+				]
+				
+			},
+			{
+				"name": "The Gentle Munitionne of Leisure",
+				"defindex": 774,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Gentle Munitionne of Leisure",
+				"item_description": "This snappy all-class stovepipe commemorates man and monkey's joint attempt to conquer the heavens with a built-in rocket that, every year on the anniversary of the launch, might violently explode.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/sd_rocket_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_rocket_spy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_rocket_spy.d42dcc007ed4800f18df2c2651180aaad5dcc2bb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_rocket_spy_large.3cea69ee96d51f037ce6277809addaf910453f13.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "attach particle effect static",
+						"class": "set_attached_particle_static",
+						"value": 28.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Escape Plan",
+				"defindex": 775,
+				"item_class": "tf_weapon_shovel",
+				"item_type_name": "Pickaxe",
+				"item_name": "Escape Plan",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_pickaxe\/c_pickaxe.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_pickaxe\/c_pickaxe",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pickaxe.0f6c70affe3902e80dea212930c3bc3e70e09580.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_pickaxe_large.1dfbc4c2fa1f163676af1ca1be41161750a4c0c3.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "mod shovel speed boost",
+						"class": "set_weapon_mode",
+						"value": 2.000000
+					},
+					{
+						"name": "mod weapon blocks healing",
+						"class": "weapon_blocks_healing",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Bird-Man of Aberdeen",
+				"defindex": 776,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Animal",
+				"item_name": "Bird-Man of Aberdeen",
+				"item_description": "This shoulder-mounted feathered friend comes in any color you like, and is so full of whiskey it couldn't fly off if it wanted to. Great to have around if you decide to eat it—just turn your head and bite!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/demo_parrot.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/demo_parrot",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_parrot.a9d234cc0a0a9ea3e29126d322de430c045df61c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/demo_parrot_large.3a5b6c48b482d3191421fa16b0bb370702a86930.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Essential"
+					},
+					{
+						"name": "Distinguished"
+					},
+					{
+						"name": "Imbued"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Apparatchik's Apparel",
+				"defindex": 777,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shirt",
+				"item_name": "Apparatchik's Apparel",
+				"item_description": "Toting around a 150-kilogram minigun gives those forearm muscles a nice workout. Show them off with these rolled-sleeved shirts, in your choice of argyle, lumberjack, rugby stripe or vertical pinstripe.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/heavy_shirt.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/heavy_shirt",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/heavy_shirt.1d13bc4c7cb8437502e8befa232e9bd1deb93de0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/heavy_shirt_large.aa7afc1a97f10a1d492b0764994a5a99913f5018.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Outdoorsmen"
+					},
+					{
+						"name": "Blood Bin"
+					},
+					{
+						"name": "Investor"
+					},
+					{
+						"name": "J.R. Gyle"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Gentleman's Ushanka",
+				"defindex": 778,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Gentleman's Ushanka",
+				"item_description": "Made from genuine German rabbit fur, this military-grade trappers' hat makes the perfect complement to the Officer's Ushanka. Let the officer in your life know you'll always be right behind them, with a Medigun at the ready and a matching wardrobe.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/medic\/medic_ushanka.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/medic_ushanka",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medic_ushanka.b86ff5040ee1eef5268d2392466fec70e7f8cf29.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/medic_ushanka_large.1f685e571f6c2bf4302ee9f8d1448d1ee3e53e24.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "Liquidator's Lid",
+				"defindex": 779,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Liquidator's Lid",
+				"item_description": "This wool cap\/granny glasses combo fits any assassin, whether he's saving orphans in heated gun battles with the mob or impersonating lead guitarists in world-famous Irish rock bands.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/pro_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/pro_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pro_hat.59343d6eaf91f94d982227fc6ecbde957695a65e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pro_hat_large.0c690dfe70914875d968e9eb1896fa0592824cb5.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "The Fed-Fightin' Fedora",
+				"defindex": 780,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Fed-Fightin' Fedora",
+				"item_description": "This hat commemorates that time you stuck it on a broom and tricked the Feds into shooting at it for an hour while you scooted off with all that bank money. Goes great with all those bullet wounds in your torso from that time you pulled the same trick on much smarter Feds.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/pep_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/pep_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pep_hat.69f1a1c23c38c6ff6ac15fe2364df753f7f37a4d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pep_hat_large.6441bd00e159588eaa9842f09139cac848ae3026.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "Dillinger's Duffel",
+				"defindex": 781,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Dillinger's Duffel",
+				"item_description": "This duffel comes with leather straps so all your money doesn't fall out. The leather straps also don't tighten all the way, so some money WILL fall out, and ladies will know how rich you are. (Answer: Very. Also handsome.)",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/pep_bag.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/pep_bag",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pep_bag.528b0e857426462773fa65444ec45639dfb0ff73.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pep_bag_large.df837499c768f1c42e22e7c0ad3d2de8f34ab665.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Business Casual",
+				"defindex": 782,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shirt",
+				"item_name": "Business Casual",
+				"item_description": "It's casual business up front, and more casual business in the back. Now: check those sides. Yep. It's casual business there too. Cover all the casual business bases with this unbuttoned suit jacket.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/spy_openjacket.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/spy_openjacket",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_openjacket.f469e0d45253aa7e1af16799dd109cfbc507067b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/spy_openjacket_large.f28e61020958e93ccdca5e3be0c836ce3c2d1abd.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The HazMat Headcase",
+				"defindex": 783,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "HazMat Headcase",
+				"item_description": "This impermeable, gas-tight hood keeps your head at a comfortable 350-degree temperature throughout the day. The tinted visor lets you sweat off that unsightly face fat in the privacy of your own sweltering hell.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/pyro_hazmat_f.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/pyro_hazmat_f",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_hazmat_f.075e877bc368ac7481d182b8f5b00323f4d3db6f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyro_hazmat_f_large.06e1e07b82c28362a0100badd55d9289ee0b598d.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Safety First"
+					},
+					{
+						"name": "Reinforced"
+					},
+					{
+						"name": "Streamlined"
+					},
+					{
+						"name": "A Serious Absence of Fear"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Idea Tube",
+				"defindex": 784,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Idea Tube",
+				"item_description": "This handsome leather cylinder improves on the diary in every way. Do you have secret thoughts? Write 'em down, ball 'em up, and stuff 'em in the tube. It's incredibly easy to find a thought when you need it, too. Simply empty out the tube and there they all are. You're just one simple unballing away from remembering it.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/engineer_blueprints_back.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/engineer_blueprints_back",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/engineer_blueprints_back.a05e570a3d41687eb1bf4a2a01601fe339f6da2b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/engineer_blueprints_back_large.1a6d13d46e46af8bd1ebfc60ce958a2d5ddcc89d.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "Robot Chicken Hat",
+				"defindex": 785,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Robot Chicken Hat",
+				"item_description": "Why did the chicken REALLY cross the road? To get hit by a car, stolen by a mad scientist, and transformed into a terrifying cyborg that you can wear on your head. So the next time you hear someone telling you that joke, set that smug joke-teller straight, because you've got the FACTS.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/as_robot_chicken_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/as_robot_chicken_demo",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/as_robot_chicken_demo.f75f47a8c8e1ccd92d50b1d4b7991451b60dce1c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/as_robot_chicken_demo_large.abb07e963eee64af56d21525b35081c5192a8fe4.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Normal"
+					},
+					{
+						"name": "Beakless"
+					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -24894,12 +26185,12 @@
 				
 			},
 			{
-				"name": "Mysterious Promo 2",
+				"name": "Pet Balloonicorn Promo",
 				"defindex": 2066,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "Mysterious Promo 2",
-				"item_description": "Mysterious Promo 2",
+				"item_name": "Pet Balloonicorn Promo",
+				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -24908,6 +26199,118 @@
 				"max_ilevel": 50,
 				"image_url": "",
 				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Mysterious Promo 3",
+				"defindex": 2067,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Mysterious Promo 3",
+				"item_description": "Mysterious Promo 3",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Mysterious Promo 4",
+				"defindex": 2068,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Mysterious Promo 4",
+				"item_description": "Mysterious Promo 4",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Soldier Equalizer Escape Plan Bundle",
+				"defindex": 2069,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "The Pickaxe Pack",
+				"item_description": "Includes both the Equalizer and the Escape Plan:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/equalizer_escape_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/equalizer_escape_bundle.1f3cd06c11d1fafb5eb7950e7c0a0cba9d8c6018.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/equalizer_escape_bundle_large.f6206bdd1b3579fa2ceb107c53068f0b99f65da5.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "Robot Chicken Hat Promo",
+				"defindex": 2070,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Robot Chicken Hat Promo",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/as_robot_chicken_demo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/as_robot_chicken_demo.f75f47a8c8e1ccd92d50b1d4b7991451b60dce1c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/as_robot_chicken_demo_large.abb07e963eee64af56d21525b35081c5192a8fe4.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -27607,6 +29010,88 @@
 				
 			},
 			{
+				"name": "Scorched Crate",
+				"defindex": 5078,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Scorched Crate",
+				"item_description": "This crate's contents are unknown and only\nScorched Keys fit the lock.\n\nIt feels strangely warm to the touch.\n\nAfter 7\/11\/2012 this crate will disappear.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/fire_crate",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fire_crate.ddf2d8b322081529fd5fa8b0213de7b379e29f7d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fire_crate_large.cfef70b5b963e6d3383759b861b96b6f9df2a895.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "scorched"
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 46.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Scorched Key",
+				"defindex": 5079,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "Scorched Key",
+				"item_description": "Used to open Scorched Crates.\n\nAfter 7\/11\/2012 this will turn into a normal key.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/fire_key",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fire_key.5e9eecda2080e2b62c55d12769d268f8ccd2ce51.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fire_key_large.20be1b7a01c70a7447132834a125c4cf3d27ead2.png",
+				"craft_class": "tool",
+				"craft_material_type": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "decoder_ring",
+					"restriction": "scorched",
+					"usage_capabilities": {
+						"decodable": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "RIFT Spider Hat Code",
 				"defindex": 5500,
 				"item_class": "tool",
@@ -27635,6 +29120,216 @@
 
 				]
 				
+			},
+			{
+				"name": "Goldfish",
+				"defindex": 5600,
+				"item_class": "craft_item",
+				"item_type_name": "Ash",
+				"item_name": "Roasted Goldfish",
+				"item_description": "The Pyromania Update just got so hot, it burned up all of your mysterious treasures.\n\nYou can craft this together with any three other burned items, but only until 7\/11\/2012!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/ash",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash.b782f655f7c81a0f104d30b0baeaf35ed88e7549.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash_large.44a30ae829f5410de7759070ece679d60030ed5f.png",
+				"craft_material_type": "craft_material_burned",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Pocket Lint",
+				"defindex": 5601,
+				"item_class": "craft_item",
+				"item_type_name": "Ash",
+				"item_name": "Charred Pocket Lint",
+				"item_description": "The Pyromania Update just got so hot, it burned up all of your mysterious treasures.\n\nYou can craft this together with any three other burned items, but only until 7\/11\/2012!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/ash",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash.b782f655f7c81a0f104d30b0baeaf35ed88e7549.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash_large.44a30ae829f5410de7759070ece679d60030ed5f.png",
+				"craft_material_type": "craft_material_burned",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Cheese Wheel",
+				"defindex": 5602,
+				"item_class": "craft_item",
+				"item_type_name": "Ash",
+				"item_name": "Smoked Cheese Wheel",
+				"item_description": "The Pyromania Update just got so hot, it burned up all of your mysterious treasures.\n\nYou can craft this together with any three other burned items, but only until 7\/11\/2012!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/ash",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash.b782f655f7c81a0f104d30b0baeaf35ed88e7549.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash_large.44a30ae829f5410de7759070ece679d60030ed5f.png",
+				"craft_material_type": "craft_material_burned",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Banana Peel",
+				"defindex": 5603,
+				"item_class": "craft_item",
+				"item_type_name": "Ash",
+				"item_name": "Burned Banana Peel",
+				"item_description": "The Pyromania Update just got so hot, it burned up all of your mysterious treasures.\n\nYou can craft this together with any three other burned items, but only until 7\/11\/2012!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/ash",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash.b782f655f7c81a0f104d30b0baeaf35ed88e7549.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash_large.44a30ae829f5410de7759070ece679d60030ed5f.png",
+				"craft_material_type": "craft_material_burned",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Barn Door Plank",
+				"defindex": 5604,
+				"item_class": "craft_item",
+				"item_type_name": "Ash",
+				"item_name": "Incinerated Barn Door Plank",
+				"item_description": "The Pyromania Update just got so hot, it burned up all of your mysterious treasures.\n\nYou can craft this together with any three other burned items, but only until 7\/11\/2012!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/ash",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash.b782f655f7c81a0f104d30b0baeaf35ed88e7549.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash_large.44a30ae829f5410de7759070ece679d60030ed5f.png",
+				"craft_material_type": "craft_material_burned",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Secret Diary",
+				"defindex": 5605,
+				"item_class": "craft_item",
+				"item_type_name": "Secret Diary",
+				"item_name": "Fireproof Secret Diary",
+				"item_description": "It's smoldering a little, but otherwise it seems okay. This thing must be built out of the same stuff they make ancient astronauts from.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/diary_book",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/diary_book.51869484f35477a588ddf7083f6f317dc9d75c31.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/diary_book_large.8560274c9e1194f4dacd5fcb538033c5176259be.png",
+				"craft_material_type": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Damaged Capacitor",
+				"defindex": 5606,
+				"item_class": "craft_item",
+				"item_type_name": "Ash",
+				"item_name": "Barely-Melted Capacitor",
+				"item_description": "This damaged capacitor seems to be fire-proof as well as broken. Is there anything it CAN'T do (besides work)?",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/capacitor",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/capacitor.bfedac9e259af6bef871eb4530bf4b4fcb3a4c65.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/capacitor_large.8e65560f87ac3c537409ffd70c9c5d74f12bbc53.png",
+				"craft_material_type": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Pile Of Ash",
+				"defindex": 5607,
+				"item_class": "tf_wearable",
+				"item_type_name": "",
+				"item_name": "Pile Of Ash",
+				"item_description": "Looks like there's something in there...\n\nAfter 7\/11\/2012 this pile will disappear.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/ash_pile",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash_pile.19cc7c56fd132a7f516c1ac6638dd15ff61be7ae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/ash_pile_large.4a529f6db9682423831c8c6a6a0d8fef08194550.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "gift",
+					"use_string": "Rummage"
+				}
 			},
 			{
 				"name": "Strange Part (Armory)",
@@ -32602,6 +34297,18 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "cancel falling damage",
+				"defindex": 275,
+				"attribute_class": "cancel_falling_damage",
+				"min_value": 1.000000,
+				"max_value": 25.000000,
+				"description_string": "Wearer never takes falling damage",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
 				"name": "maxammo grenades1 increased",
 				"defindex": 279,
 				"attribute_class": "mult_maxammo_grenades1",
@@ -32714,7 +34421,7 @@
 				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
-				"stored_as_integer": true
+				"stored_as_integer": false
 			},
 			{
 				"name": "kill eater score type 2",
@@ -32724,7 +34431,7 @@
 				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
-				"stored_as_integer": true
+				"stored_as_integer": false
 			},
 			{
 				"name": "kill eater 2",
@@ -33444,7 +35151,7 @@
 				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
-				"stored_as_integer": true
+				"stored_as_integer": false
 			},
 			{
 				"name": "kill eater user 2",
@@ -33464,7 +35171,7 @@
 				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
-				"stored_as_integer": true
+				"stored_as_integer": false
 			},
 			{
 				"name": "kill eater user 3",
@@ -33484,7 +35191,7 @@
 				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
-				"stored_as_integer": true
+				"stored_as_integer": false
 			},
 			{
 				"name": "strange part new counter ID",
@@ -33494,7 +35201,19 @@
 				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
-				"stored_as_integer": true
+				"stored_as_integer": false
+			},
+			{
+				"name": "rage on kill",
+				"defindex": 387,
+				"attribute_class": "rage_on_kill",
+				"min_value": 0.000000,
+				"max_value": 100.000000,
+				"description_string": "Gain Focus on kills and assists",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			},
 			{
 				"name": "kill eater kill type",
@@ -33504,7 +35223,7 @@
 				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
-				"stored_as_integer": true
+				"stored_as_integer": false
 			},
 			{
 				"name": "mystery solving time decrease",
@@ -33514,6 +35233,52 @@
 				"max_value": 1.000000,
 				"description_string": "Reduces mystery solving time by up to %s1%",
 				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "damage penalty on bodyshot",
+				"defindex": 392,
+				"attribute_class": "bodyshot_damage_modify",
+				"min_value": 0.950000,
+				"max_value": 0.850000,
+				"description_string": "%s1% damage penalty on body shot",
+				"description_format": "value_is_percentage",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sniper rage DISPLAY ONLY",
+				"defindex": 393,
+				"attribute_class": "sniper_rage_DISPLAY_ONLY",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "Focus activates on Fire when Focus meter is full\nIn Focus: +25% faster charge and no unscoping",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "fire rate bonus HIDDEN",
+				"defindex": 394,
+				"attribute_class": "mult_postfiredelay",
+				"min_value": 0.950000,
+				"max_value": 0.900000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "rage on assists",
+				"defindex": 398,
+				"attribute_class": "rage_on_assists",
+				"min_value": 0.000000,
+				"max_value": 100.000000,
+				"description_string": "Attrib_RageGainOnAssists",
+				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
@@ -33543,6 +35308,18 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "vision opt in flags",
+				"defindex": 406,
+				"attribute_class": "vision_opt_in_flags",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"description_string": "On Equip: Visit Pyroland",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "damage bonus while undisguised",
 				"defindex": 410,
 				"attribute_class": "mult_dmg_undisguised",
@@ -33552,6 +35329,158 @@
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "projectile spread angle penalty",
+				"defindex": 411,
+				"attribute_class": "projectile_spread_angle",
+				"min_value": 0.000000,
+				"max_value": 10.000000,
+				"description_string": "+%s1 degrees random projectile deviation",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "dmg taken increased",
+				"defindex": 412,
+				"attribute_class": "mult_dmgtaken",
+				"min_value": 1.050000,
+				"max_value": 1.250000,
+				"description_string": "%s1% damage vulnerability on wearer",
+				"description_format": "value_is_percentage",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "auto fires full clip",
+				"defindex": 413,
+				"attribute_class": "auto_fires_full_clip",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Hold Fire to load up to three rockets\nRelease Fire to unleash the barrage",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "self mark for death",
+				"defindex": 414,
+				"attribute_class": "self_mark_for_death",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "You are marked for death while active, and for short period after switching weapons",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "counts as assister is some kind of pet this update is going to be awesome",
+				"defindex": 415,
+				"attribute_class": "counts_as_assister",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "mod flaregun fires pellets with knockback",
+				"defindex": 416,
+				"attribute_class": "set_weapon_mode",
+				"min_value": 3.000000,
+				"max_value": 3.000000,
+				"description_string": "Flare knocks back target on hit\nand ignites enemies in a small radius",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "can overload",
+				"defindex": 417,
+				"attribute_class": "can_overload",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Overloading the chamber will cause a misfire",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "hype on damage",
+				"defindex": 418,
+				"attribute_class": "hype_on_damage",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "On Hit: Builds Boost\nRun at up to double speed at maximum Boost",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "hype resets on jump",
+				"defindex": 419,
+				"attribute_class": "hype_resets_on_jump",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Boost resets on jump",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "pyro year number",
+				"defindex": 420,
+				"attribute_class": "pyro_year_number",
+				"min_value": 0.000000,
+				"max_value": 7334.000000,
+				"description_string": "Witnessed the %s1 inferno",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "no primary ammo from dispensers",
+				"defindex": 421,
+				"attribute_class": "no_primary_ammo_from_dispensers",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Cannot collect ammo from dispensers",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "pyrovision only DISPLAY ONLY",
+				"defindex": 422,
+				"attribute_class": "pyrovision_only_display",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Only visible in Pyroland",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "clip size penalty HIDDEN",
+				"defindex": 424,
+				"attribute_class": "mult_clipsize",
+				"min_value": 0.900000,
+				"max_value": 0.750000,
+				"effect_type": "negative",
+				"hidden": true,
 				"stored_as_integer": false
 			}
 		]
