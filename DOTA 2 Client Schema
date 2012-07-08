@@ -13877,6 +13877,41 @@
 				}
 			}
 		}
+		"15042"
+		{
+			"name"		"It's Gosu Monthly Madness Asia"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_ItsGosuMontlyMadnessAsia"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"5"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_ItsGosuMontlyMadnessAsia"
+			"image_inventory"		"econ/leagues/subscriptions_mmasia"
+			"image_banner"		"econ/leagues/subscriptions_mmasia_ingame"
+			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-announces-monthly-madness-asia-edition_563"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"20000"
 		{
 			"name"		"Of Ivory and Ebony Bundle"

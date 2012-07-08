@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.d25cea59b60a9bbee38d9da2a55018489824c0b0.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.c6be070b7b990872b9aed319e865d5aafe60ae19.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -11427,6 +11427,41 @@
 						"class": "always_tradable",
 						"value": 1.000000
 					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "It's Gosu Monthly Madness Asia",
+				"defindex": 15042,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "It's Gosu Monthly Madness Asia",
+				"item_description": "It’s Gosu Monthly Madness is a Dota 2 tournament hosted by It’s Gosu eSports and generously sponsored by Own3D.Tv, Razer and NOS Energy Drinks. Throughout the month of July, 16 of the best teams in Asia will clash and only the finalists will share a part of the prizepool of $1,000.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_mmasia",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_mmasia.e2368e5c321ea91b56cc6dcff7ce58745bd93f5b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_mmasia_large.ac4dd184c75bb281bb367c4500ffc04adfe78b25.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
 					{
 						"name": "disallow recycling",
 						"class": "disallow_recycling",
