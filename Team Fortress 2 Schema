@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.662782049826494b209ff2f0c035e5a6ab03fe8a.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.550b16ed3ea345c26396ce4ad2cf4b17b388d3a9.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -23901,6 +23901,58 @@
 				
 			},
 			{
+				"name": "Sandvich Promo Package",
+				"defindex": 790,
+				"item_class": "craft_item",
+				"item_type_name": "Package",
+				"item_name": "What's in the Sandvich Box?",
+				"item_description": "This sealed Sandvich Box will open to reveal its contents at a later date.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/gift_mystery",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/gift_mystery.e0cf7028a586c4ce6c21935928035d928a888498.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/gift_mystery_large.e42c714768c89d1407552798d5b5e76cf0bff99a.png",
+				"craft_material_type": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Companion Square Promo Package",
+				"defindex": 791,
+				"item_class": "craft_item",
+				"item_type_name": "Package",
+				"item_name": "What's in the Companion Square Box?",
+				"item_description": "This sealed Companion Square Box will open to reveal its contents at a later date.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/gift_mystery",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/gift_mystery.e0cf7028a586c4ce6c21935928035d928a888498.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/gift_mystery_large.e42c714768c89d1407552798d5b5e76cf0bff99a.png",
+				"craft_material_type": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -26162,12 +26214,12 @@
 				
 			},
 			{
-				"name": "Mysterious Promo 3",
+				"name": "Sandvich Promo",
 				"defindex": 2067,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "Mysterious Promo 3",
-				"item_description": "Mysterious Promo 3",
+				"item_name": "Sandvich Promo",
+				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -26180,23 +26232,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				},
-				"attributes": [
-					{
-						"name": "elevate quality",
-						"class": "set_elevated_quality",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
-				"name": "Mysterious Promo 4",
+				"name": "Companion Square Promo",
 				"defindex": 2068,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "Mysterious Promo 4",
-				"item_description": "Mysterious Promo 4",
+				"item_name": "Companion Square Promo",
+				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -26209,15 +26253,7 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				},
-				"attributes": [
-					{
-						"name": "elevate quality",
-						"class": "set_elevated_quality",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "Soldier Equalizer Escape Plan Bundle",
@@ -30717,6 +30753,1339 @@
 				"max_ilevel": 25,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6participantsteel.ecaff1b7dc837438b7bac5ad0a318533f3e804f2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc6participantsteel_large.1896c1258a9b392b589adb08528f911934419341.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Premier Division 1st Place",
+				"defindex": 8027,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Premier_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Premier Division 2nd Place",
+				"defindex": 8028,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Premier_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Premier Division 3rd Place",
+				"defindex": 8029,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Premier_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Premier Division Participant",
+				"defindex": 8030,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Premier_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 1 1st Place",
+				"defindex": 8031,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div1_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 1 2nd Place",
+				"defindex": 8032,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div1_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 1 3rd Place",
+				"defindex": 8033,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div1_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 1 Participant",
+				"defindex": 8034,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div1_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 2 1st Place",
+				"defindex": 8035,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div2_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 2 2nd Place",
+				"defindex": 8036,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div2_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 2 3rd Place",
+				"defindex": 8037,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div2_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 2 Participant",
+				"defindex": 8038,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div2_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 3 1st Place",
+				"defindex": 8039,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div3_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 3 2nd Place",
+				"defindex": 8040,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div3_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 3 3rd Place",
+				"defindex": 8041,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div3_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 3 Participant",
+				"defindex": 8042,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div3_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 4 1st Place",
+				"defindex": 8043,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div4_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 4 2nd Place",
+				"defindex": 8044,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div4_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 4 3rd Place",
+				"defindex": 8045,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div4_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 4 Participant",
+				"defindex": 8046,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div4_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 5 1st Place",
+				"defindex": 8047,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div5_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 5 2nd Place",
+				"defindex": 8048,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div5_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 5 3rd Place",
+				"defindex": 8049,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div5_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 5 Participant",
+				"defindex": 8050,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVI_Div5_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Premiership Division 1st Place",
+				"defindex": 8051,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Premiership_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Premiership Division 2nd Place",
+				"defindex": 8052,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Premiership_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Premiership Division 3rd Place",
+				"defindex": 8053,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Premiership_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Premiership Division Participant",
+				"defindex": 8054,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Premiership_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 1 1st Place",
+				"defindex": 8055,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div1_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 1 2nd Place",
+				"defindex": 8056,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div1_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 1 3rd Place",
+				"defindex": 8057,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div1_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 2 1st Place",
+				"defindex": 8058,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div2_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 2 2nd Place",
+				"defindex": 8059,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div2_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 2 Participant",
+				"defindex": 8060,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div2_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 3 Participant",
+				"defindex": 8061,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div3_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 4 1st Place",
+				"defindex": 8062,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div4_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 4 2nd Place",
+				"defindex": 8063,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div4_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 4 3rd Place",
+				"defindex": 8064,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div4_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 4 Participant",
+				"defindex": 8065,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div4_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 5 1st Place",
+				"defindex": 8066,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div5_1st",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 5 2nd Place",
+				"defindex": 8067,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div5_2nd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 5 3rd Place",
+				"defindex": 8068,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div5_3rd",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 5 Participant",
+				"defindex": 8069,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "TF_TournamentMedal_ESL_SeasonVII_Div5_Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true,
