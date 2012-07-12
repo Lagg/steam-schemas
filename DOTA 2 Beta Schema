@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/205790\/scripts\/items\/items_game.b79175843d120f16f3def14ac8af5caf52a3e760.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/205790\/scripts\/items\/items_game.ca8b1aa182228202e904d1c7506240ed0db15818.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -11479,7 +11479,7 @@
 				"item_description": "That disreputable scoundrel Sithil has lost a chest of plundered loot! You will need <font color='#FFD700'>Sithil's Summer Key<\/font> to open the chest. You can pick one up at the DOTA 2 Store. Beware! At the end of <font color='#FFD700'>July 2012<\/font> this chest will crumble into useless dust. This chest contains one of several mysterious new items.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "Econ\/tools\/summer_sale_2012_crate",
+				"image_inventory": "econ\/tools\/summer_sale_2012_crate",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/summer_sale_2012_crate.a685dbb695b5e6542de67a9e566f7c1228627c5d.png",
@@ -11492,7 +11492,7 @@
 					"paintable_unusual": true
 				},
 				"tool": {
-					"type": "",
+					"type": "supply_crate",
 					"restriction": "summer"
 				},
 				"attributes": [
@@ -11500,6 +11500,50 @@
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
 						"value": 9.000000
+					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Defense 2 Chest",
+				"defindex": 10037,
+				"item_class": "supply_crate",
+				"item_type_name": "Treasure",
+				"item_name": "DOTA_Item_Defense_2_Chest",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/summer_sale_2012_crate",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/summer_sale_2012_crate.a685dbb695b5e6542de67a9e566f7c1228627c5d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/summer_sale_2012_crate_large.f591498238dc74a6e7e33003db1e616e072a31fc.png",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "supply_crate",
+					"restriction": "defense2"
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					},
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 10.000000
 					},
 					{
 						"name": "disallow recycling",
@@ -13177,6 +13221,117 @@
 					"usage_capabilities": {
 						"decodable": true
 					}
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Defense 2 Key",
+				"defindex": 15046,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "The Defense 2 Key",
+				"item_description": "Used to open <font color='#FFD700'>The Defense 2 Chest<\/font>.\r\nDouble click or right-click the key in your backpack and select the chest you want to open.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/summer_sale_2012_key",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/summer_sale_2012_key.aa188c11aaaeecadf4773d50c2ff55388fdde39e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/summer_sale_2012_key_large.4a99dd40dca8b73d025c08cde260115d59fc846b.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "decoder_ring",
+					"restriction": "defense2",
+					"usage_capabilities": {
+						"decodable": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Star Series Season II Lan Final",
+				"defindex": 15047,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "Star Series Season II Lan Final",
+				"item_description": "Star Series is one of the most prestigious Dota 2 leagues held by StarLadder, and powered by Intel and Asus. The keystone of Star Series is the LAN final, which is held in Kiev CyberSport Arena, Ukraine. Watch six of the best teams compete for the Grand Prize of $15,000 and the title Star Series Champion.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_starladder2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Star Series Season II Lan Final ADMIN",
+				"defindex": 15048,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "Star Series Season II Lan Final ADMIN",
+				"item_description": "Star Series is one of the most prestigious Dota 2 leagues held by StarLadder, and powered by Intel and Asus. The keystone of Star Series is the LAN final, which is held in Kiev CyberSport Arena, Ukraine. Watch six of the best teams compete for the Grand Prize of $15,000 and the title Star Series Champion.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_starladder2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
 				},
 				"attributes": [
 					{
@@ -15093,6 +15248,12 @@
 				"id": 30,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle30"
+			},
+			{
+				"system": "courier_eye_glow_defense_01",
+				"id": 31,
+				"attach_to_rootbone": false,
+				"name": "Attrib_Particle31"
 			}
 		]
 		
