@@ -28418,6 +28418,7 @@
 				"can_reflect_projectiles"	"1"
 				"can_extinguish"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_posthumous_damage"	"1"
 			}
 			"item_logname"	"rainblower"
 			"item_iconname"	"rainblower"
@@ -29165,10 +29166,11 @@
 		"764"
 		{
 			"name"	"The Cross-Comm Crash Helmet"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
+				"can_craft_count" "1"
 			}
 			"item_name"	"#TF_GRFS_1"
 			"item_description"	"#TF_GRFS_1_Desc"
@@ -29183,10 +29185,11 @@
 		"765"
 		{
 			"name"	"The Cross-Comm Express"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
+				"can_craft_count" "1"
 			}
 			"item_name"	"#TF_GRFS_2"
 			"item_description"	"#TF_GRFS_2_Desc"
@@ -29209,10 +29212,11 @@
 		"766"
 		{
 			"name"	"The Doublecross-Comm"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
+				"can_craft_count" "1"
 			}
 			"item_name"	"#TF_GRFS_3"
 			"item_description"	"#TF_GRFS_3_Desc"
@@ -29236,7 +29240,7 @@
 		{
 			"name"	"The Atomic Accolade"
 			"first_sale_date"	"2012/05/30"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -29270,7 +29274,7 @@
 		{
 			"name"	"The Professor's Pineapple"
 			"first_sale_date"	"2012/05/30"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -29307,7 +29311,7 @@
 		{
 			"name"	"The Quadwrangler"
 			"first_sale_date"	"2012/05/30"
-			"prefab"	"promo_hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"

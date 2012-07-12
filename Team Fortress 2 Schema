@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.775007246d9403877903b24a7ff35944c42567da.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.917d9e1d21a51dcb2e25b54854af8258e86d212e.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -23028,24 +23028,19 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_soldier.db74e1f826550763b5e9062e2838ea3c5422c2f2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_soldier_large.f6ae17dc9b7b25b69fbfc56949901a58b1d0f71c.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
 				},
 				"used_by_classes": [
 					"Soldier"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23066,24 +23061,19 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_scout.1fcf6329598d9960d685d2858e4827e13536493d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_scout_large.1028b65d7f8c72286e2025b6e68d619ebddd42b9.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
 				},
 				"used_by_classes": [
 					"Scout"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23104,10 +23094,13 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_sniper.3f23c9030b93ec8188fbcda1f501b4a270462f1f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/grfs_sniper_large.cce4f907819c8b249d3fb7e17c1f7b4c2fc71da5.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -23115,14 +23108,6 @@
 				"used_by_classes": [
 					"Sniper",
 					"Spy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23143,23 +23128,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_badge.bddb508153aa3db5564e3a5fda29fa069efa88d4.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_badge_large.47336ed6d9a20eddf5e71468fd4a570e6e74ef8d.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The Professor's Pineapple",
@@ -23178,10 +23157,12 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_flask_demo.80ba8937e57dcfe6c8e5ad6a647c61f30d9b3159.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_flask_demo_large.ab135c2618efc3f13e5f631c2ad1e553985635ec.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -23191,14 +23172,6 @@
 					"Soldier",
 					"Demoman",
 					"Pyro"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23219,9 +23192,11 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_glove.fc2a4c0597c5250499366046c27d41a295e3cc99.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/qc_glove_large.7500421191a598f4996eff85d615c8a240a0e736.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -23229,14 +23204,6 @@
 				},
 				"used_by_classes": [
 					"Medic"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
