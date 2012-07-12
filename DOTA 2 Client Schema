@@ -13947,6 +13947,76 @@
 				}
 			}
 		}
+		"15047"
+		{
+			"name"		"Star Series Season II Lan Final"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_StarLadderS2"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"6"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_StarLadderS2"
+			"image_inventory"		"econ/leagues/subscriptions_starladder2"
+			"image_banner"		"econ/leagues/subscriptions_starladder2_ingame"
+			"tournament_url"		"http://dota2.starladder.tv/news/1182"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15048"
+		{
+			"name"		"Star Series Season II Lan Final ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"Star Series Season II Lan Final ADMIN"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"6"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_StarLadderS2"
+			"image_inventory"		"econ/leagues/subscriptions_starladder2"
+			"image_banner"		"econ/leagues/subscriptions_starladder2_ingame"
+			"tournament_url"		"http://dota2.starladder.tv/news/1182"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"20000"
 		{
 			"name"		"Of Ivory and Ebony Bundle"
