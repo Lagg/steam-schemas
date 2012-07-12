@@ -467,7 +467,7 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
-			}
+			} 
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -911,6 +911,7 @@
 		{
 			"item_class"	"craft_item"
 			"craft_material_type"	"craft_material_burned"
+			"expiration_date"	"2012-07-11 01:00:00"
 			"item_type_name"	"#TF_Ash_Type"
 			"show_in_armory"	"0"
 			"image_inventory"	"backpack/crafting/ash"
@@ -28095,7 +28096,7 @@
 		"731"
 		{
 			"name"	"The Captain's Cocktails"
-			"first_sale_date"	"2010/12/20"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"loadondemand"	"0"						
 			"propername"	"1"
@@ -28127,7 +28128,7 @@
 		"732"
 		{
 			"name"	"The Helmet Without a Home"
-			"first_sale_date"	"2010/12/20"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"capabilities"
 			{
@@ -28491,6 +28492,7 @@
 		"745"
 		{
 			"name"	"The Infernal Orchestrina"
+			"first_sale_date"	"2012/07/10"
 			"item_class"			"tf_wearable"
 			"loadondemand"			"1"
 			"craft_class"			"hat"
@@ -28570,6 +28572,7 @@
 		"746"
 		{
 			"name"	"The Burning Bongos"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"misc"			
 			"equip_region"	"grenades"
@@ -28606,12 +28609,12 @@
 			}
 			"visuals"
 			{
-				"skin_red"	"0"
-				"skin_blu"	"1"
 				"player_bodygroups"
 				{
 					"grenades"			"1"
 				}
+				"skin_red"	"0"
+				"skin_blu"	"1"
 			}
 		}		
 		
@@ -29661,7 +29664,7 @@
 		"776"
 		{
 			"name"	"The Bird-Man of Aberdeen"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"misc"
 			"equip_region"	"left_shoulder"
@@ -29713,7 +29716,7 @@
 		"777"
 		{
 			"name"	"The Apparatchik's Apparel"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"misc"
 			"equip_region"	"scout_or_heavy_shirt"
@@ -29765,7 +29768,7 @@
 		"778"
 		{
 			"name"	"The Gentleman's Ushanka"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"head"
 			"equip_region"	"hat"
@@ -29789,7 +29792,7 @@
 		"779"
 		{
 			"name"	"Liquidator's Lid"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"head"
 			"equip_region"	"hat"
@@ -29818,7 +29821,7 @@
 		"780"
 		{
 			"name"	"The Fed-Fightin' Fedora"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"head"
 			"equip_region"	"hat"
@@ -29850,7 +29853,7 @@
 		"781"
 		{
 			"name"	"Dillinger's Duffel"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"misc"
 			"equip_region"	"scout_backpack"
@@ -29873,7 +29876,7 @@
 		"782"
 		{
 			"name"	"The Business Casual"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"misc"
 			"equip_region"	"shirt"
@@ -29897,7 +29900,7 @@
 		"783"
 		{
 			"name"	"The HazMat Headcase"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"misc"
 			"equip_region"	"pyro_head_replacement"
@@ -29972,7 +29975,7 @@
 		"784"
 		{
 			"name"	"The Idea Tube"
-			"first_sale_date"	"2012/06/27"
+			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"capabilities"
 			{
@@ -34983,6 +34986,178 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
+		"2071"
+		{
+			"name" "Urban Professional Bundle"
+			"first_sale_date"	"2012/07/11"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Hitman's Heatmaker"		"1"
+				"The Cleaner's Carbine"			"1"
+				"Liquidator's Lid"				"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_Summer2012_UrbanProfessional"
+			"item_description"	"#TF_Bundle_Summer2012_UrbanProfessional_Desc"
+			"image_inventory"	"backpack/player/items/crafting/urbanpro_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2072"
+		{
+			"name" "Dumpster Diver Bundle"
+			"first_sale_date"	"2012/07/11"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Beggar's Bazooka"			"1"
+				"The Captain's Cocktails"		"1"
+				"The Helmet Without a Home"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_Summer2012_DumpsterDiver"
+			"item_description"	"#TF_Bundle_Summer2012_DumpsterDiver_Desc"
+			"image_inventory"	"backpack/player/items/crafting/dumpster_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2073"
+		{
+			"name" "Public Enemy Bundle"
+			"first_sale_date"	"2012/07/11"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Baby Face's Blaster"			"1"
+				"Pretty Boy's Pocket Pistol"	"1"
+				"The Fed-Fightin' Fedora"		"1"
+				"Dillinger's Duffel"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_Summer2012_PublicEnemy"
+			"item_description"	"#TF_Bundle_Summer2012_PublicEnemy_Desc"
+			"image_inventory"	"backpack/player/items/crafting/publicenemy_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2074"
+		{
+			"name" "Pyromania Bundle"
+			"first_sale_date"	"2012/07/11"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Hitman's Heatmaker"		"1"
+				"The Cleaner's Carbine"			"1"
+				"Liquidator's Lid"				"1"
+				"The Beggar's Bazooka"			"1"
+				"The Captain's Cocktails"		"1"
+				"The Helmet Without a Home"		"1"
+				"Baby Face's Blaster"			"1"
+				"Pretty Boy's Pocket Pistol"	"1"
+				"The Fed-Fightin' Fedora"		"1"
+				"Dillinger's Duffel"			"1"
+				"The Bird-Man of Aberdeen"		"1"
+				"The Idea Tube"					"1"
+				"The HazMat Headcase"			"1"
+				"The Business Casual"			"1"
+				"The Gentleman's Ushanka"		"1"
+				"The Apparatchik's Apparel"		"1"
+				"The Scorch Shot"				"1"
+				"The Infernal Orchestrina"		"1"
+				"The Burning Bongos"			"1"
+				"Pet Balloonicorn"				"1"
+				"The Lollichop"					"1"
+				"The Rainblower"				"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_Summer2012_Pyromania"
+			"item_description"	"#TF_Bundle_Summer2012_Pyromania_Desc"
+			"image_inventory"	"backpack/player/items/crafting/summer_pyro_sale_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+				"spy"		"1"
+				"engineer"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2075"
+		{
+			"name" "Summer 2012 Community Bundle"
+			"first_sale_date"	"2012/07/11"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Bird-Man of Aberdeen"		"1"
+				"The Idea Tube"					"1"
+				"The HazMat Headcase"			"1"
+				"The Business Casual"			"1"
+				"The Gentleman's Ushanka"		"1"
+				"The Apparatchik's Apparel"		"1"
+				"The Scorch Shot"				"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_Summer2012_Community"
+			"item_description"	"#TF_Bundle_Summer2012_Community_Desc"
+			"image_inventory"	"backpack/player/items/crafting/summer_pyro_community_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+				"spy"		"1"
+				"engineer"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
 
 
 
@@ -36788,6 +36963,7 @@
 			"item_class"	"supply_crate"
 			"craft_class"	"supply_crate"
 			"craft_material_type"	"supply_crate"
+			"expiration_date"	"2012-07-11 01:00:00"
 			"tool"
 			{
 				"type"	""
@@ -36837,7 +37013,6 @@
 				{
 					"decodable"	"1"
 				}
-				"restriction"	"scorched"
 			}
 			"attributes"
 			{
@@ -36848,12 +37023,11 @@
 				}
 			}
 			"armory_desc" "key"
-			"armory_remap"		"Decoder Ring"
 			"show_in_armory"	"0"
 			"item_type_name"	"#TF_T"
-			"item_name"		"#TF_Tool_ScorchedKey"
-			"item_description"	"#TF_Tool_ScorchedKey_Desc"
-			"image_inventory"	"backpack/crafting/fire_key"
+			"item_name"		"#TF_Tool_DecoderRing"
+			"item_description"	"#TF_Tool_DecoderRing_Desc"
+			"image_inventory"	"backpack/player/items/crafting/key"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
@@ -36945,6 +37119,7 @@
 			"name"		"Secret Diary"
 			"prefab"	"ash_remains"
 			"craft_material_type"	""
+			"expiration_date"	""
 			"item_name"	"#TF_Item_SecretDiary_FireProof"
 			"item_type_name"	"#TF_Item_SecretDiary_Type"
 			"item_description"	"#TF_Item_SecretDiary_FireProof_Desc"
@@ -36957,6 +37132,7 @@
 			"name"		"Damaged Capacitor"
 			"prefab"	"ash_remains"
 			"craft_material_type"	""
+			"expiration_date"	""
 			"item_name"	"#TF_Item_DamagedCapacitor"
 			"item_description"	"#TF_Item_DamagedCapacitor_Desc"
 			"image_inventory"	"backpack/crafting/capacitor"
@@ -36967,6 +37143,7 @@
 		{
 			"name"		"Pile Of Ash"
 			"item_class"	"tf_wearable"
+			"expiration_date"	"2012-07-11 01:00:00"
 			"tool"
 			{
 				"type"	"gift"
