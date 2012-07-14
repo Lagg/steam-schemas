@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.fd38a6679377b230e60f491ed0d855ffd0149a79.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.f288e7b3c26173962e30d2f0a6cbdaf63ba719f9.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -13415,6 +13415,76 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_starladder2.c99b4ea839d10ad865c4300fb9b922576338ccb0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_starladder2_large.cf8dec2994fc9b17c0839bac2c53daf0d5fa19c1.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "BeyondTheSummit World Tour",
+				"defindex": 15049,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "BeyondTheSummit World Tour",
+				"item_description": "BeyondTheSummit World Tour features 15 of the 16 teams attending The International. Brought to you in association with DotaCommentaries this warmup event is sure to whet your appetite as competitors from four different continents compete for the $1,000 prize that awaits only the top placing team.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_beyondthesummit",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_beyondthesummit.7a06f6a6358e71dadecea9911465a8b0117e4666.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_beyondthesummit_large.1435db4c6d0d2b033affe1a680bc18defa5ee21b.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "BeyondTheSummit World Tour ADMIN",
+				"defindex": 15050,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "",
+				"item_description": "BeyondTheSummit World Tour features 15 of the 16 teams attending The International. Brought to you in association with DotaCommentaries this warmup event is sure to whet your appetite as competitors from four different continents compete for the $1,000 prize that awaits only the top placing team.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_beyondthesummit",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_beyondthesummit.7a06f6a6358e71dadecea9911465a8b0117e4666.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/subscriptions_beyondthesummit_large.1435db4c6d0d2b033affe1a680bc18defa5ee21b.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,
