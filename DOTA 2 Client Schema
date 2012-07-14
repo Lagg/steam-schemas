@@ -3091,6 +3091,14 @@
 			{
 				"npc_dota_hero_axe"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"image_inventory"		"econ/items/axe/demon_blood_helm"
 			"model_player"		"models/items/axe/demon_blood_helm.mdl"
 			"item_description"		"#DOTA_Item_Desc_Demon_Blood_Helm"
@@ -3141,6 +3149,14 @@
 			{
 				"npc_dota_hero_axe"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"item_description"		"#DOTA_Item_Desc_Demon_Blood_Armor"
 			"icon_portrait"
 			{
@@ -3187,6 +3203,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_axe"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Demon_Blood_Guard"
 			"icon_portrait"
@@ -3696,6 +3720,14 @@
 			{
 				"npc_dota_hero_axe"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"item_description"		"#DOTA_Item_Desc_Berserkers_Pauldron"
 			"icon_portrait"
 			{
@@ -3743,6 +3775,14 @@
 			{
 				"npc_dota_hero_axe"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"item_description"		"#DOTA_Item_Desc_Berserkers_Helm"
 			"icon_portrait"
 			{
@@ -3789,6 +3829,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_axe"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Berserkers_Belt"
 			"icon_portrait"
@@ -14696,6 +14744,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Skin"
 			"item_name"		"#DOTA_Item_Elemental_Ice_Infusion"
+			"item_slot"		"misc"
 			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Elemental_Ice_Infusion"
 			"image_inventory"		"econ/items/tiny/DOTA_Item_Elemental_Ice_Infusion"
