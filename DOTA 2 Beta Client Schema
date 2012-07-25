@@ -129,7 +129,7 @@
 		"desc_attrib_neutral"
 		{
 			"color_name"		"ItemAttribNeutral"
-			"hex_color"		"#ebe2ca"
+			"hex_color"		"#6c7075"
 		}
 		"desc_attrib_positive"
 		{
@@ -144,17 +144,17 @@
 		"desc_itemset_name"
 		{
 			"color_name"		"ItemSetName"
-			"hex_color"		"#e1e10f"
+			"hex_color"		"#9da1a9"
 		}
 		"desc_itemset_equipped"
 		{
 			"color_name"		"ItemSetItemEquipped"
-			"hex_color"		"#95af0c"
+			"hex_color"		"#9da1a9"
 		}
 		"desc_itemset_missing"
 		{
 			"color_name"		"ItemSetItemMissing"
-			"hex_color"		"#8b8989"
+			"hex_color"		"#6c7075"
 		}
 		"desc_bundle"
 		{
@@ -849,11 +849,11 @@
 		}
 		"41"
 		{
-			"name"		"CrystalMaiden's Default Arms"
+			"name"		"Crystal Maiden's Cuffs"
 			"prefab"		"dota_default_item"
-			"item_name"		"#DOTA_Wearable_CrystalMaiden_Default_Boots_and_Cuffs"
+			"item_name"		"#DOTA_Item_Crystal_Maidens_Cuffs"
 			"item_slot"		"arms"
-			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_bootscuffs.mdl"
+			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_cuffs.mdl"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_crystal_maiden"		"1"
@@ -2020,18 +2020,18 @@
 		}
 		"126"
 		{
-			"name"		"Phantom Lancer's Legs"
+			"name"		"Gyrocopter's Bottles"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Phantom_Lancers_Legs"
-			"item_slot"		"legs"
+			"item_name"		"#DOTA_Item_Gyrocopters_Bottles"
+			"item_slot"		"misc"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
-			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Legs"
 			"used_by_heroes"
 			{
-				"npc_dota_hero_phantom_lancer"		"1"
+				"npc_dota_hero_gyrocopter"		"1"
 			}
-			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_legs.mdl"
+			"model_player"		"models/heroes/gyro/gyro_bottles.mdl"
 		}
 		"127"
 		{
@@ -2095,18 +2095,18 @@
 		}
 		"131"
 		{
-			"name"		"Phantom Lancer's Necklace"
+			"name"		"Gyrocopter's Gloves"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Phantom_Lancers_Necklace"
-			"item_slot"		"neck"
+			"item_name"		"#DOTA_Item_Gyrocopters_Gloves"
+			"item_slot"		"gloves"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
-			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Necklace"
 			"used_by_heroes"
 			{
-				"npc_dota_hero_phantom_lancer"		"1"
+				"npc_dota_hero_gyrocopter"		"1"
 			}
-			"model_player"		"models/heroes/Phantom_lancer/phantom_lancer_necklace.mdl"
+			"model_player"		"models/heroes/gyro/gyro_gloves.mdl"
 		}
 		"132"
 		{
@@ -2752,6 +2752,80 @@
 			}
 			"model_player"		"models/heroes/lanaya/lanaya_bracers_skirt.mdl"
 		}
+		"176"
+		{
+			"name"		"Gyrocopter's Goggles"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Gyrocopters_Goggles"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_gyrocopter"		"1"
+			}
+			"model_player"		"models/heroes/gyro/gyro_goggles.mdl"
+		}
+		"177"
+		{
+			"name"		"Gyrocopter's Guns"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Gyrocopters_Guns"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_gyrocopter"		"1"
+			}
+			"model_player"		"models/heroes/gyro/gyro_guns.mdl"
+		}
+		"178"
+		{
+			"name"		"Gyrocopter's Propeller"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Gyrocopters_Propeller"
+			"item_slot"		"armor"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_gyrocopter"		"1"
+			}
+			"model_player"		"models/heroes/gyro/gyro_propeller.mdl"
+		}
+		"179"
+		{
+			"name"		"Gyrocopter's Homing Missile"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Gyrocopters_Homing_Missile"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_gyrocopter"		"1"
+			}
+			"model_player"		"models/heroes/gyro/gyro_bomb.mdl"
+		}
+		"180"
+		{
+			"name"		"Sand King's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Sand_Kings_Head"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/heroes/sand_king/sand_king_head.mdl"
+		}
 		"181"
 		{
 			"name"		"Chaos Knights horse head"
@@ -2914,6 +2988,15 @@
 				"npc_dota_hero_naga_siren"		"1"
 			}
 			"model_player"		"models/heroes/siren/siren_hair.mdl"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"siren_ambient"
+					"modifier"		"siren_ambient_default"
+				}
+			}
 		}
 		"192"
 		{
@@ -2958,6 +3041,110 @@
 				"npc_dota_hero_naga_siren"		"1"
 			}
 			"model_player"		"models/heroes/siren/siren_armor.mdl"
+		}
+		"195"
+		{
+			"name"		"Nyx's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Nyxs_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_nyx_assassin"		"1"
+			}
+			"model_player"		"models/heroes/nerubian_assassin/nerubian_assassin_weapon.mdl"
+		}
+		"196"
+		{
+			"name"		"Nyx's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Nyxs_Armor"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Nyxs_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_nyx_assassin"		"1"
+			}
+			"model_player"		"models/heroes/nerubian_assassin/nerubian_assassin_armor.mdl"
+		}
+		"197"
+		{
+			"name"		"Nyx's Helmet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Nyxs_Helmet"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Nyxs_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_nyx_assassin"		"1"
+			}
+			"model_player"		"models/heroes/nerubian_assassin/nerubian_assassin_helmet.mdl"
+		}
+		"198"
+		{
+			"name"		"Sand King's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Sand_Kings_Armor"
+			"item_slot"		"armor"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/heroes/sand_king/sand_king_shoulder.mdl"
+		}
+		"199"
+		{
+			"name"		"Sand King's Arms"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Sand_Kings_Arms"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/heroes/sand_king/sand_king_arms.mdl"
+		}
+		"200"
+		{
+			"name"		"Sand King's Legs"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Sand_Kings_Legs"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/heroes/sand_king/sand_king_legs.mdl"
+		}
+		"201"
+		{
+			"name"		"Sand King's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Sand_Kings_Tail"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/heroes/sand_king/sand_king_tail.mdl"
 		}
 		"4000"
 		{
@@ -12576,7 +12763,7 @@
 		{
 			"name"		"Wooden Fetish Mask"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Staff"
+			"item_type_name"		"#DOTA_WearableType_Mask"
 			"item_name"		"#DOTA_Item_Wooden_Fetish_Mask"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Wooden_Fetish_Mask"
@@ -18331,7 +18518,7 @@
 			"item_description"		"#DOTA_Item_Desc_League_BeyondTheSummit"
 			"image_inventory"		"econ/leagues/subscriptions_beyondthesummit"
 			"image_banner"		"econ/leagues/subscriptions_beyondthesummit_ingame"
-			"tournament_url"		"http://www.dotacommentaries.com"
+			"tournament_url"		"http://www.dotacommentaries.com/index.php/bts-wt/"
 			"attributes"
 			{
 				"disallow recycling"
@@ -18366,7 +18553,77 @@
 			"item_description"		"#DOTA_Item_Desc_League_BeyondTheSummit"
 			"image_inventory"		"econ/leagues/subscriptions_beyondthesummit"
 			"image_banner"		"econ/leagues/subscriptions_beyondthesummit_ingame"
-			"tournament_url"		"http://www.dotacommentaries.com"
+			"tournament_url"		"http://www.dotacommentaries.com/index.php/bts-wt/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15051"
+		{
+			"name"		"Prodota 2 Worldwide League"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_Prodota2WL"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"8"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_Prodota2WL"
+			"image_inventory"		"econ/leagues/subscriptions_prodota2"
+			"image_banner"		"econ/leagues/subscriptions_prodota2_ingame"
+			"tournament_url"		"http://www.prodota2.com/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15052"
+		{
+			"name"		"Prodota 2 Worldwide League ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_Prodota2WL_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"8"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_Prodota2WL"
+			"image_inventory"		"econ/leagues/subscriptions_prodota2"
+			"image_banner"		"econ/leagues/subscriptions_prodota2_ingame"
+			"tournament_url"		"http://www.prodota2.com/"
 			"attributes"
 			{
 				"disallow recycling"
