@@ -18633,6 +18633,76 @@
 				}
 			}
 		}
+		"15053"
+		{
+			"name"		"Machinima ECAL: Americas"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_MachinimaECAL_America"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"9"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_MachinimaECAL_America"
+			"image_inventory"		"econ/leagues/subscriptions_americas"
+			"image_banner"		"econ/leagues/subscriptions_americas_ingame"
+			"tournament_url"		"http://www.ecal.tv/playoffs"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15054"
+		{
+			"name"		"Machinima ECAL: Americas ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_MachinimaECAL_America_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"9"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_MachinimaECAL_America"
+			"image_inventory"		"econ/leagues/subscriptions_americas"
+			"image_banner"		"econ/leagues/subscriptions_americas_ingame"
+			"tournament_url"		"http://www.ecal.tv/playoffs"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"20000"
 		{
 			"name"		"Of Ivory and Ebony Bundle"
