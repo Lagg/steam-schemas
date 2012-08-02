@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.339e2e506a5923760baf6c27b4a2cafc4b2c42ac.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.b63a4841bf8d59584bd5612eb015ea84ca4fd8ed.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -23920,6 +23920,871 @@
 				
 			},
 			{
+				"name": "The Red-Tape Recorder",
+				"defindex": 810,
+				"item_class": "tf_weapon_sapper",
+				"item_type_name": "Sapper",
+				"item_name": "Red-Tape Recorder",
+				"proper_name": true,
+				"item_slot": "building",
+				"model_player": "models\/weapons\/v_models\/v_sd_sapper_spy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_sd_sapper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_sd_sapper.cb93622110a3d16d4b87dec54cc56720d60df284.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_sd_sapper_large.0440053fe80d4b74f92f4d2c5863e53d72460f6d.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sapper degenerates buildings",
+						"class": "sapper_degenerates_buildings",
+						"value": 0.900000
+					},
+					{
+						"name": "sapper damage penalty",
+						"class": "mult_sapper_damage",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Huo Long Heatmaker",
+				"defindex": 811,
+				"item_class": "tf_weapon_minigun",
+				"item_type_name": "Minigun",
+				"item_name": "Huo Long Heatmaker",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_canton\/c_canton.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_canton\/c_canton",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_canton.f8f41fbe921d4fd43b936eae81d3a215703f733e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_canton_large.38fce87dd37a0b5ba1c2a348ac602a1d1e97d25d.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "ring of fire while aiming",
+						"class": "ring_of_fire_while_aiming",
+						"value": 15.000000
+					},
+					{
+						"name": "uses ammo while aiming",
+						"class": "uses_ammo_while_aiming",
+						"value": 6.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Flying Guillotine",
+				"defindex": 812,
+				"item_class": "tf_weapon_cleaver",
+				"item_type_name": "TF_Weapon_Cleaver",
+				"item_name": "Flying Guillotine",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_sd_cleaver\/v_sd_cleaver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sd_cleaver\/c_sd_cleaver",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sd_cleaver.de739c10ace3dfdf62c9bb70f6b5bcda5b894b79.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sd_cleaver_large.1cf8f41a45b3abef3be795f9f06e75fb28793387.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Thirsty"
+					},
+					{
+						"name": "Thirstier"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cleaver description",
+						"class": "desc_cleaver_description",
+						"value": 1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "crit vs stunned players",
+						"class": "or_crit_vs_playercond",
+						"value": 65536.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Neon Annihilator",
+				"defindex": 813,
+				"item_class": "tf_weapon_fireaxe",
+				"item_type_name": "Sign",
+				"item_name": "Neon Annihilator",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_sd_neonsign\/c_sd_neonsign.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sd_neonsign\/c_sd_neonsign",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sd_neonsign.0161b268a512b48f1f3f8c0ee07a9e9632afbf9e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sd_neonsign_large.6e1866b2780c63e44284fb650d8044dbb512cd35.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "damage penalty",
+						"class": "mult_dmg",
+						"value": 0.800000
+					},
+					{
+						"name": "ragdolls plasma effect",
+						"class": "ragdolls_plasma_effect",
+						"value": 1.000000
+					},
+					{
+						"name": "crit vs wet players",
+						"class": "crit_vs_wet_players",
+						"value": 1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Triad Trinket",
+				"defindex": 814,
+				"item_class": "tf_wearable",
+				"item_type_name": "Necklace",
+				"item_name": "Triad Trinket",
+				"item_description": "Clothes make the man, and jewelry makes the man look ridiculous if not worn correctly. This understated gold chain strikes a perfect balance that says, \"Yes, I'm wearing a necklace, but I left the tiara at home.\"",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_shirt_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_shirt_sniper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_shirt_sniper.f4de164d68ebbd76f078a7c3aa09ec37fc529c17.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_shirt_sniper_large.11b72ca76def8e26f7cc612692332f44d851a861.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Bare"
+					},
+					{
+						"name": "Bear"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Heavy",
+					"Spy",
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Champ Stamp",
+				"defindex": 815,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tattoos",
+				"item_name": "Champ Stamp",
+				"item_description": "Show Chinese organized crime gangs who's boss by wearing their cool tattoos without actually participating in any of their totally illegal criminal conspiracies! Note: DO NOT actually show your new tattoo to ANYONE in a Chinese organized crime gang.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_tattoos_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_tattoos_scout",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_tattoos_scout.38c0a0517e3721a1541b718dbf25cbb953b3d3a0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_tattoos_scout_large.0bbc87e70d8b8ef6a3774c79e98b8d65cafd6849.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Heavy",
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Marxman",
+				"defindex": 816,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Marxman",
+				"item_description": "Everyone knows laughter is the best medicine. But did you know that laughter is also the best disguise? No? Well, good thing you're not a cop infiltrating the Chinese mafia, then. Oh wait you are. AND NOW YOU'RE DEAD. Look, rookie, these glasses are hilarious.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_glasses_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_glasses",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_glasses.402304a948877617c53c75881df9150f8bc015b3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_glasses_large.9f0021aabc31d03e1092b82222eb125818aa023a.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "No Cigar"
+					},
+					{
+						"name": "Yes, Cigar"
+					}
+				]
+				
+			},
+			{
+				"name": "The Human Cannonball",
+				"defindex": 817,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Human Cannonball",
+				"item_description": "Ask any daredevil what they strap onto their heads before getting shot out of a cannon and the answer will be the same: a glassy, unfocused stare from years of head trauma. Head trauma that could have been prevented with this sharp-looking crash helmet.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/sd_helm_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_helm_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_helm_demo.16c20bf8e4e37c0c920c07582766717498f481e5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_helm_demo_large.fabfb2740ab07a8ab6fd68031478895cae79a2c3.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Crash"
+					},
+					{
+						"name": "Burn"
+					},
+					{
+						"name": "Override"
+					}
+				]
+				
+			},
+			{
+				"name": "Awesomenauts Badge",
+				"defindex": 818,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Awesomenauts Badge",
+				"item_description": "This badge is a sign of acknowledgment from another mercenary group. Just acknowledgment, all right? It's not like they like you or anything. It's not like they wish you'd maybe follow up on that Merc Party Invite they sent you a couple weeks ago. They're stone cold killers, you understand? Also there will be spinach dip at the party.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/awes_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/awes_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_badge.2f7695ea32310aefd03ef9a3a73994f405f98a6a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_badge_large.13ebeaf7f1c8726ad359aaa268b6a7b778fadff4.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Lone Star",
+				"defindex": 819,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Lone Star",
+				"item_description": "You're runnin' the show in these here parts; you deserve a big hat with a star. The size of the hat is indicative of how much of the show you're running – which is all of it, by the way. Honestly, we really don't know how people get respect without this hat.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/awes_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/awes_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_hat.dc62985694162af799961441845e31565d348456.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_hat_large.9de0bd904ccd827d6c04405bdcb48f706d19fc47.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Russian Rocketeer",
+				"defindex": 820,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Russian Rocketeer",
+				"item_description": "The latest in space-primate propulsion, this jet pack has been tested exclusively by apes! We can't stress enough how few human flight tests we've conducted with this product!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/awes_jetpack.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/awes_jetpack",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_jetpack.e6161acb1c5d60b5962f011771dbdb55baa414a3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_jetpack_large.a023642e4c55cc461782759565761ac0fe75c1be.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Red-Tape Recorder",
+				"defindex": 831,
+				"item_class": "tf_weapon_sapper",
+				"item_type_name": "Sapper",
+				"item_name": "Red-Tape Recorder",
+				"proper_name": true,
+				"item_slot": "building",
+				"model_player": "models\/weapons\/v_models\/v_sd_sapper_spy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_sd_sapper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_sd_sapper.cb93622110a3d16d4b87dec54cc56720d60df284.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_sd_sapper_large.0440053fe80d4b74f92f4d2c5863e53d72460f6d.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sapper degenerates buildings",
+						"class": "sapper_degenerates_buildings",
+						"value": 0.900000
+					},
+					{
+						"name": "sapper damage penalty",
+						"class": "mult_sapper_damage",
+						"value": 0.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Huo Long Heatmaker",
+				"defindex": 832,
+				"item_class": "tf_weapon_minigun",
+				"item_type_name": "Minigun",
+				"item_name": "Huo Long Heatmaker",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_canton\/c_canton.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_canton\/c_canton",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_canton.f8f41fbe921d4fd43b936eae81d3a215703f733e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_canton_large.38fce87dd37a0b5ba1c2a348ac602a1d1e97d25d.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "ring of fire while aiming",
+						"class": "ring_of_fire_while_aiming",
+						"value": 15.000000
+					},
+					{
+						"name": "uses ammo while aiming",
+						"class": "uses_ammo_while_aiming",
+						"value": 6.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Flying Guillotine",
+				"defindex": 833,
+				"item_class": "tf_weapon_cleaver",
+				"item_type_name": "TF_Weapon_Cleaver",
+				"item_name": "Flying Guillotine",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_sd_cleaver\/v_sd_cleaver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sd_cleaver\/c_sd_cleaver",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sd_cleaver.de739c10ace3dfdf62c9bb70f6b5bcda5b894b79.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sd_cleaver_large.1cf8f41a45b3abef3be795f9f06e75fb28793387.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Thirsty"
+					},
+					{
+						"name": "Thirstier"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cleaver description",
+						"class": "desc_cleaver_description",
+						"value": 1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "crit vs stunned players",
+						"class": "or_crit_vs_playercond",
+						"value": 65536.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Neon Annihilator",
+				"defindex": 834,
+				"item_class": "tf_weapon_fireaxe",
+				"item_type_name": "Sign",
+				"item_name": "Neon Annihilator",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_sd_neonsign\/c_sd_neonsign.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sd_neonsign\/c_sd_neonsign",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sd_neonsign.0161b268a512b48f1f3f8c0ee07a9e9632afbf9e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_sd_neonsign_large.6e1866b2780c63e44284fb650d8044dbb512cd35.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "damage penalty",
+						"class": "mult_dmg",
+						"value": 0.800000
+					},
+					{
+						"name": "ragdolls plasma effect",
+						"class": "ragdolls_plasma_effect",
+						"value": 1.000000
+					},
+					{
+						"name": "crit vs wet players",
+						"class": "crit_vs_wet_players",
+						"value": 1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Triad Trinket",
+				"defindex": 835,
+				"item_class": "tf_wearable",
+				"item_type_name": "Necklace",
+				"item_name": "Triad Trinket",
+				"item_description": "Clothes make the man, and jewelry makes the man look ridiculous if not worn correctly. This understated gold chain strikes a perfect balance that says, \"Yes, I'm wearing a necklace, but I left the tiara at home.\"",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_shirt_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_shirt_sniper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_shirt_sniper.f4de164d68ebbd76f078a7c3aa09ec37fc529c17.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_shirt_sniper_large.11b72ca76def8e26f7cc612692332f44d851a861.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Bare"
+					},
+					{
+						"name": "Bear"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Heavy",
+					"Spy",
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Champ Stamp",
+				"defindex": 836,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tattoos",
+				"item_name": "Champ Stamp",
+				"item_description": "Show Chinese organized crime gangs who's boss by wearing their cool tattoos without actually participating in any of their totally illegal criminal conspiracies! Note: DO NOT actually show your new tattoo to ANYONE in a Chinese organized crime gang.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_tattoos_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_tattoos_scout",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_tattoos_scout.38c0a0517e3721a1541b718dbf25cbb953b3d3a0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_tattoos_scout_large.0bbc87e70d8b8ef6a3774c79e98b8d65cafd6849.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Heavy",
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Marxman",
+				"defindex": 837,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Marxman",
+				"item_description": "Everyone knows laughter is the best medicine. But did you know that laughter is also the best disguise? No? Well, good thing you're not a cop infiltrating the Chinese mafia, then. Oh wait you are. AND NOW YOU'RE DEAD. Look, rookie, these glasses are hilarious.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_glasses_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_glasses",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_glasses.402304a948877617c53c75881df9150f8bc015b3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_glasses_large.9f0021aabc31d03e1092b82222eb125818aa023a.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "No Cigar"
+					},
+					{
+						"name": "Yes, Cigar"
+					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Human Cannonball",
+				"defindex": 838,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Human Cannonball",
+				"item_description": "Ask any daredevil what they strap onto their heads before getting shot out of a cannon and the answer will be the same: a glassy, unfocused stare from years of head trauma. Head trauma that could have been prevented with this sharp-looking crash helmet.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/sd_helm_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_helm_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_helm_demo.16c20bf8e4e37c0c920c07582766717498f481e5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sd_helm_demo_large.fabfb2740ab07a8ab6fd68031478895cae79a2c3.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Crash"
+					},
+					{
+						"name": "Burn"
+					},
+					{
+						"name": "Override"
+					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -26401,6 +27266,48 @@
 					"Engineer"
 				]
 				
+			},
+			{
+				"name": "Sleeping Dogs Bundle",
+				"defindex": 2076,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Triad Bundle",
+				"item_description": "Trick an incredibly violent and secretive underground Asian crime syndicate into thinking you're one of them! It's a well-known fact that the first thing you get when you join the Chinese mafia is a meat cleaver, a bunch of tattoos, and a special Chinese mafia helmet that will protect your head when you launch yourself at rival gangs out of an ancient Chinese crime cannon. Get in on the ground floor, though, because eventually the Chinese mafia is going to get wise to this bundle and change the contents of their complementary initiation gift basket.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/sleeping_dogs_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sleeping_dogs_bundle.4e2afa9b2dbdbb81f29bb48000772c63950497bb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sleeping_dogs_bundle_large.e70c12d318c59edb3bda7f4e40fcbfe3ae4fe276.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "QuakeCon2012 Bundle",
+				"defindex": 2077,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "QuakeCon Bundle",
+				"item_description": "Celebrate QuakeCon 2012 with this assortment of iconic items from twenty years of gaming history.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/bethesda_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bethesda_bundle.402b77f76f32b6a779d946dd6c91f3f93d730ce2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bethesda_bundle_large.3bdd613dcca0bd1392dd4f3639732e8c13ad25c0.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
 			},
 			{
 				"name": "Craft Bar Level 1",
@@ -36545,6 +37452,122 @@
 				"max_value": 0.750000,
 				"effect_type": "negative",
 				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper damage penalty",
+				"defindex": 426,
+				"attribute_class": "mult_sapper_damage",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "%s1% sapper damage penalty",
+				"description_format": "value_is_percentage",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper health penalty",
+				"defindex": 429,
+				"attribute_class": "mult_sapper_health",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "%s1% sapper health penalty",
+				"description_format": "value_is_percentage",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "ring of fire while aiming",
+				"defindex": 430,
+				"attribute_class": "ring_of_fire_while_aiming",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "Sustains a ring of flames while deployed",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "uses ammo while aiming",
+				"defindex": 431,
+				"attribute_class": "uses_ammo_while_aiming",
+				"min_value": 1.000000,
+				"max_value": 100.000000,
+				"description_string": "%s1 ammo consumed per second while deployed",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper degenerates buildings",
+				"defindex": 433,
+				"attribute_class": "sapper_degenerates_buildings",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "Reverses enemy building construction",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper damage penalty hidden",
+				"defindex": 434,
+				"attribute_class": "mult_sapper_damage",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "cleaver description",
+				"defindex": 435,
+				"attribute_class": "desc_cleaver_description",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Throw at your enemies to make them bleed!\nLong distance hits cause mini-crits",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "ragdolls plasma effect",
+				"defindex": 436,
+				"attribute_class": "ragdolls_plasma_effect",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "crit vs stunned players",
+				"defindex": 437,
+				"attribute_class": "or_crit_vs_playercond",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "100% critical hit vs stunned players",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "crit vs wet players",
+				"defindex": 438,
+				"attribute_class": "crit_vs_wet_players",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "100% critical hit vs wet players",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
 				"stored_as_integer": false
 			}
 		]

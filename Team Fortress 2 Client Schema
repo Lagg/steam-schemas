@@ -135,6 +135,7 @@
 		"feet"				"1"			
 		"necklace"			"1"
 		"grenades"			"1"
+		"arm_tatoos"		"1"
 		
 		"flair"				"1"
 		"head_skin"			"1"			
@@ -922,6 +923,542 @@
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
 		}
+		"recorder"
+		{
+			"first_sale_date"	"2012/08/02"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_weapon_sapper"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Spy_Sapper"
+			"item_name"	"#TF_SD_Sapper"
+			"item_slot"	"building"
+			"item_quality"	"unique"
+			"item_logname"	"recorder"
+			"item_iconname"	"recorder"
+			"image_inventory"	"backpack/weapons/w_models/w_sd_sapper"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"anim_slot"	"building"
+			"attach_to_hands"	"0"
+			"propername"	"1"
+			"model_player"	"models/weapons/v_models/v_sd_sapper_spy.mdl"
+			"model_world"	"models/weapons/w_models/w_sd_sapper.mdl"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"attributes"
+			{
+				"sapper degenerates buildings"
+				{
+					"attribute_class"	"sapper_degenerates_buildings"
+					"value"	"0.9"
+				}
+				"sapper damage penalty"
+				{
+					"attribute_class"	"mult_sapper_damage"
+					"value" "0.0"
+				}
+			}
+			"visuals"
+			{
+				"animation"
+				{
+					"activity"		"ACT_VM_IDLE"
+					"replacement"		"ACT_SECONDARY_VM_IDLE"
+				}
+				"animation"
+				{
+					"activity"		"ACT_VM_DRAW"
+					"replacement"		"ACT_SECONDARY_VM_DRAW"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		"long_heatmaker"
+		{
+			"first_sale_date"	"2012/08/02"
+			"item_class"	"tf_weapon_minigun"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Minigun"
+			"item_name"	"#TF_SD_Minigun"
+			"item_slot"	"primary"
+			"item_logname"	"long_heatmaker"
+			"item_iconname"	"long_heatmaker"
+			"image_inventory"	"backpack/weapons/c_models/c_canton/c_canton"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_canton/c_canton.mdl"
+			"attach_to_hands"	"1"
+			"propername"	"1"
+			"item_quality"	"unique"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"visuals"
+			{
+				"sound_double_shot"	"Dragon_Minigun.Fire"
+				"sound_special1"	"Dragon_Minigun.WindUp"
+				"sound_special2"	"Dragon_Minigun.WindDown"
+				"sound_special3"	"Dragon_Minigun.Spin"
+				"sound_burst"		"Dragon_Minigun.FireCrit"
+			}
+			"attributes"
+			{
+				"ring of fire while aiming"
+				{
+					"attribute_class"	"ring_of_fire_while_aiming"
+					"value"	"15"
+				}
+				"uses ammo while aiming"
+				{
+					"attribute_class"	"uses_ammo_while_aiming"
+					"value" "6"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+		}
+ 		"guillotine"
+		{
+			"first_sale_date"	"2012/08/02"
+			"item_class"	"tf_weapon_cleaver"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_posthumous_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Cleaver"
+			"item_name"	"#TF_SD_Cleaver"
+			"item_logname"	"guillotine"
+			"item_iconname"	"guillotine"
+			"item_slot"	"secondary"
+			"anim_slot"	"item1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"attach_to_hands"	"1"
+			"image_inventory"	"backpack/weapons/c_models/c_sd_cleaver/c_sd_cleaver"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_sd_cleaver/v_sd_cleaver.mdl"
+			"model_world"	"models/weapons/c_models/c_sd_cleaver/c_sd_cleaver.mdl"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"attributes"
+			{
+				"cleaver description"
+				{
+					"attribute_class"	"desc_cleaver_description"
+					"value"	"1"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+				"crit vs stunned players"
+				{
+					"attribute_class"	"or_crit_vs_playercond"
+					"value"	"65536"
+				}
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_SD_Cleaver_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_SD_Cleaver_Style1"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+ 		"annihilator"
+		{
+			"first_sale_date"	"2012/08/02"
+			"item_class"	"tf_weapon_fireaxe"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_logname"	"annihilator"
+			"item_iconname"	"annihilator"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Sign"
+			"item_name"	"#TF_SD_Sign"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_sd_neonsign/c_sd_neonsign"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_sd_neonsign/c_sd_neonsign.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"attributes"
+			{
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.80"
+				}
+				"ragdolls plasma effect"
+				{
+					"attribute_class"	"ragdolls_plasma_effect"
+					"value"	"1"
+				}
+				"crit vs wet players"
+				{
+					"attribute_class"	"crit_vs_wet_players"
+					"value"	"1"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+			}
+			"visuals"
+			{
+				"sound_melee_hit"	"Neon_Sign.ImpactFlesh"
+				"sound_melee_hit_world"	"Neon_Sign.ImpactWorld"
+			}
+			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
+			"drop_sound"		"ui/item_wood_pole_drop.wav"
+		}
+		"triad_trinket"
+		{
+			"first_sale_date"	"2012/08/02"
+			"item_class"			"tf_wearable"
+			"loadondemand"			"1"
+			"craft_class"			"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"		"#TF_Wearable_Necklace"
+			"item_name"	"#TF_SD_Chain"
+			"item_description"	"#TF_SD_Chain_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"necklace"
+			"propername" "1"
+			"show_in_armory"		"1"
+			"item_quality"			"unique"
+			"drop_type"				"none"
+			"image_inventory"	"backpack/player/items/all_class/sd_shirt_sniper"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/sd_shirt_scout.mdl"
+				"sniper"	"models/player/items/all_class/sd_shirt_sniper.mdl"
+				"heavy"		"models/player/items/all_class/sd_shirt_heavy.mdl"
+				"spy"		"models/player/items/all_class/sd_shirt_spy.mdl"
+				"engineer"	"models/player/items/all_class/sd_shirt_engineer.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"		"#TF_SD_Chain_Style0"
+					}
+					"1"
+					{
+						"skin_red"	"2"
+						"skin_blu"	"3"
+						"name"		"#TF_SD_Chain_Style1"
+					}
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
+ 		"champ_stamp"
+		{
+			"first_sale_date"	"2012/08/02"
+			"item_class"			"tf_wearable"
+			"loadondemand"			"1"
+			"craft_class"			"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"can_gift_wrap" 	"1"
+				"paintable"			"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"		"#TF_Wearable_Tattoos"
+			"item_name"	"#TF_SD_Tattoos"
+			"item_description"	"#TF_SD_Tattoos_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"arm_tatoos"
+			"show_in_armory"		"1"
+			"item_quality"			"unique"
+			"drop_type"				"none"
+			"propername" "1"
+			"image_inventory"	"backpack/player/items/all_class/sd_tattoos_scout"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/sd_tattoos_scout.mdl"
+				"sniper"	"models/player/items/all_class/sd_tattoos_sniper.mdl"
+				"heavy"		"models/player/items/all_class/sd_tattoos_heavy.mdl"
+				"engineer"	"models/player/items/all_class/sd_tattoos_engineer.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"heavy"	"1"
+				"engineer" "1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_pickup.wav"
+		}
+ 		"marxman"
+		{
+			"first_sale_date"	"2012/08/02"
+			"item_class"			"tf_wearable"			
+			"craft_class"			"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"can_gift_wrap" 	"1"
+				"paintable"			"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"		"#TF_Wearable_Glasses"
+			"item_name"	"#TF_SD_Glasses"
+			"item_description"	"#TF_SD_Glasses_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"glasses"
+			"loadondemand"			"1"
+			"show_in_armory"		"1"
+			"item_quality"			"unique"
+			"drop_type"				"none"
+			"propername" "1"
+			"image_inventory"	"backpack/player/items/all_class/sd_glasses"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/sd_glasses_scout.mdl"
+				"sniper"	"models/player/items/all_class/sd_glasses_sniper.mdl"
+				"soldier"	"models/player/items/all_class/sd_glasses_soldier.mdl"
+				"demoman"	"models/player/items/all_class/sd_glasses_demo.mdl"
+				"medic"		"models/player/items/all_class/sd_glasses_medic.mdl"
+				"heavy"		"models/player/items/all_class/sd_glasses_heavy.mdl"
+				"spy"		"models/player/items/all_class/sd_glasses_spy.mdl"
+				"engineer"	"models/player/items/all_class/sd_glasses_engineer.mdl"
+				"pyro"		"models/player/items/all_class/sd_glasses_pyro.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"	
+						{
+							"scout"		"models/player/items/all_class/sd_glasses_scout.mdl"
+							"sniper"	"models/player/items/all_class/sd_glasses_sniper.mdl"
+							"soldier"	"models/player/items/all_class/sd_glasses_soldier.mdl"
+							"demoman"	"models/player/items/all_class/sd_glasses_demo.mdl"
+							"medic"		"models/player/items/all_class/sd_glasses_medic.mdl"
+							"heavy"		"models/player/items/all_class/sd_glasses_heavy.mdl"
+							"spy"		"models/player/items/all_class/sd_glasses_spy.mdl"
+							"engineer"	"models/player/items/all_class/sd_glasses_engineer.mdl"
+							"pyro"		"models/player/items/all_class/sd_glasses_pyro.mdl"
+						}
+						"name"	"#TF_SD_Glasses_Style0"
+					}
+					"1"
+					{
+						"model_player_per_class"	
+						{
+							"scout"		"models/player/items/all_class/sd_glasses_scout_cigar.mdl"
+							"sniper"	"models/player/items/all_class/sd_glasses_sniper_cigar.mdl"
+							"soldier"	"models/player/items/all_class/sd_glasses_soldier_cigar.mdl"
+							"demoman"	"models/player/items/all_class/sd_glasses_demo_cigar.mdl"
+							"medic"		"models/player/items/all_class/sd_glasses_medic_cigar.mdl"
+							"heavy"		"models/player/items/all_class/sd_glasses_heavy_cigar.mdl"
+							"spy"		"models/player/items/all_class/sd_glasses_spy_cigar.mdl"
+							"engineer"	"models/player/items/all_class/sd_glasses_engineer_cigar.mdl"
+							"pyro"		"models/player/items/all_class/sd_glasses_pyro_cigar.mdl"
+						}
+						"name"	"#TF_SD_Glasses_Style1"
+					}
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_pickup.wav"
+		}
+  		"cannonball"
+		{
+			"first_sale_date"	"2012/08/02"
+			"item_class"			"tf_wearable"
+			"craft_class"			"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"can_gift_wrap" 	"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"		"#TF_Wearable_Hat"
+			"item_name"	"#TF_SD_Helmet"
+			"item_description"	"#TF_SD_Helmet_Desc"
+			"loadondemand"			"1"
+			"show_in_armory"		"1"
+			"item_slot"				"head"
+			"equip_region"			"hat"
+			"item_quality"			"unique"
+			"drop_type"				"drop"
+			"propername"			"1"
+			"image_inventory"	"backpack/player/items/all_class/sd_helm_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"scout"		"models/player/items/all_class/sd_helm_scout.mdl"
+				"sniper"	"models/player/items/all_class/sd_helm_sniper.mdl"
+				"soldier"	"models/player/items/all_class/sd_helm_soldier.mdl"
+				"demoman"	"models/player/items/all_class/sd_helm_demo.mdl"
+				"medic"		"models/player/items/all_class/sd_helm_medic.mdl"
+				"heavy"		"models/player/items/all_class/sd_helm_heavy.mdl"
+				"spy"		"models/player/items/all_class/sd_helm_spy.mdl"
+				"engineer"	"models/player/items/all_class/sd_helm_engineer.mdl"
+				"pyro"		"models/player/items/all_class/sd_helm_pyro.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"		"#TF_SD_Helmet_Style0"
+					}
+					"1"
+					{
+						"skin_red"	"2"
+						"skin_blu"	"3"
+						"name"		"#TF_SD_Helmet_Style1"
+					}
+					"2"
+					{
+						"skin_red"	"4"
+						"skin_blu"	"5"
+						"name"		"#TF_SD_Helmet_Style2"
+					}
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_helmet_pickup.wav"
+			"drop_sound" 		"ui/item_helmet_drop.wav"
+		}
+
 
 
 	}
@@ -28546,8 +29083,6 @@
 			}
 			"visuals"
 			{
-				"skin_red"	"0"
-				"skin_blu"	"1"
 				"player_bodygroups"
 				{
 					"backpack"			"1"
@@ -28615,8 +29150,6 @@
 				{
 					"grenades"			"1"
 				}
-				"skin_red"	"0"
-				"skin_blu"	"1"
 			}
 		}		
 		
@@ -30127,6 +30660,282 @@
 			"item_description"	"#TF_Companion_Square_Promo_Package_Desc"
 			"mouse_pressed_sound" 	"ui/item_paper_pickup.wav"
 			"drop_sound" 		"ui/item_paper_pickup.wav"
+		}
+		"810"
+		{
+			"name"	"The Red-Tape Recorder"
+			"prefab"		"recorder"
+		}
+		"811"
+		{
+			"name"	"The Huo Long Heatmaker"
+			"prefab"		"long_heatmaker"
+		}
+ 		"812"
+		{
+			"name"	"The Flying Guillotine"
+			"prefab"		"guillotine"
+		}
+ 		"813"
+		{
+			"name"	"The Neon Annihilator"
+			"prefab"		"annihilator"
+		}
+		"814"
+		{
+			"name"	"The Triad Trinket"
+			"prefab"		"triad_trinket"
+		}
+ 		"815"
+		{
+			"name"	"The Champ Stamp"
+			"prefab"		"champ_stamp"
+		}
+ 		"816"
+		{
+			"name"	"The Marxman"
+			"prefab"		"marxman"
+		}
+  		"817"
+		{
+			"name"	"The Human Cannonball"
+			"prefab"		"cannonball"
+		}
+		"818"
+		{
+			"name"	"Awesomenauts Badge"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_Awes_Medal"
+			"item_description"	"#TF_Awes_Medal_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"image_inventory"	"backpack/player/items/all_class/awes_badge"
+			"model_player"	"models/player/items/all_class/awes_badge.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
+		"819"
+		{
+			"name"	"The Lone Star"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"paintable"			"1"
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_Awes_Sniper"
+			"item_description"	"#TF_Awes_Sniper_Desc"
+			"propername" "1"
+			"image_inventory"	"backpack/player/items/sniper/awes_hat"
+			"model_player"	"models/player/items/sniper/awes_hat.mdl"
+			"used_by_classes"
+			{
+				"sniper" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
+			}
+		}
+		"820"
+		{
+			"name"	"The Russian Rocketeer"
+			"prefab"	"promo_hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Backpack"
+			"item_name"	"#TF_Awes_Pyro"
+			"item_description"	"#TF_Awes_Pyro_Desc"
+			"item_slot"	"misc"			
+			"equip_region"	"back"
+			"propername" "1"
+			"image_inventory"	"backpack/player/items/pyro/awes_jetpack"
+			"model_player"	"models/player/items/pyro/awes_jetpack.mdl"
+			"used_by_classes"
+			{
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"backpack"			"1"
+				}
+			}
+		}
+		"831"
+		{
+			"name"	"Promo Red-Tape Recorder"
+			"prefab"		"recorder"
+			"show_in_armory"	"0"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+		"832"
+		{
+			"name"	"Promo Huo Long Heatmaker"
+			"prefab"		"long_heatmaker"
+			"show_in_armory"	"0"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+ 		"833"
+		{
+			"name"	"Promo Flying Guillotine"
+			"prefab"		"guillotine"
+			"show_in_armory"	"0"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+ 		"834"
+		{
+			"name"	"Promo Neon Annihilator"
+			"prefab"		"annihilator"
+			"show_in_armory"	"0"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+		"835"
+		{
+			"name"	"Promo Triad Trinket"
+			"prefab"		"triad_trinket"
+			"show_in_armory"	"0"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+ 		"836"
+		{
+			"name"	"Promo Champ Stamp"
+			"prefab"		"champ_stamp"
+			"show_in_armory"	"0"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+ 		"837"
+		{
+			"name"	"Promo Marxman"
+			"prefab"		"marxman"
+			"show_in_armory"	"0"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+  		"838"
+		{
+			"name"	"Promo Human Cannonball"
+			"prefab"		"cannonball"
+			"show_in_armory"	"0"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
 		}
 
 
@@ -35159,6 +35968,83 @@
 				"pyro" "1"
 				"spy"		"1"
 				"engineer"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2076"
+		{
+			"name" "Sleeping Dogs Bundle"
+			"first_sale_date"	"2012/08/01"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Red-Tape Recorder"	 	"1"
+				"The Huo Long Heatmaker"	"1"
+				"The Flying Guillotine"		"1"
+				"The Neon Annihilator"		"1"
+				"The Triad Trinket"			"1"
+				"The Champ Stamp"			"1"
+				"The Marxman"				"1"
+				"The Human Cannonball"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_SleepingDogsBundle"
+			"item_description"	"#TF_Bundle_SleepingDogsBundle_Desc"
+			"image_inventory"	"backpack/player/items/crafting/sleeping_dogs_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2077"
+		{
+			"name" "QuakeCon2012 Bundle"
+			"first_sale_date"	"2012/08/01"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Original"	 	"1"
+				"Wingstick"			"1"
+				"Dragonborn Helmet"	"1"
+				"The Anger"			"1"
+				"Pip-Boy"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_QuakeCon2012Bundle"
+			"item_description"	"#TF_Bundle_QuakeCon2012Bundle_Desc"
+			"image_inventory"	"backpack/player/items/crafting/bethesda_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -42778,6 +43664,146 @@
 			"effect_type"	"negative"
 			"stored_as_integer"	"0"
 		}
+		"426"
+		{
+			"name"	"sapper damage penalty"
+			"attribute_class"	"mult_sapper_damage"
+			"attribute_name"	"sapper damage penalty"
+			"min_value"	"0"
+			"max_value"	"5"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Sapper_Damage_Penalty"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"429"
+		{
+			"name"	"sapper health penalty"
+			"attribute_class"	"mult_sapper_health"
+			"attribute_name"	"sapper health penalty"
+			"min_value"	"0"
+			"max_value"	"5"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Sapper_Health_Penalty"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"430"
+		{
+			"name"	"ring of fire while aiming"
+			"attribute_class"	"ring_of_fire_while_aiming"
+			"attribute_name"	"ring of fire while aiming"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Ring_Of_Fire_While_Aiming"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"431"
+		{
+			"name"	"uses ammo while aiming"
+			"attribute_class"	"uses_ammo_while_aiming"
+			"attribute_name"	"uses ammo while aiming"
+			"min_value"	"1"
+			"max_value"	"100"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Uses_Ammo_While_Aiming"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"433"
+		{
+			"name"	"sapper degenerates buildings"
+			"attribute_class"	"sapper_degenerates_buildings"
+			"attribute_name"	"sapper degenerates buildings"
+			"min_value"	"0"
+			"max_value"	"5"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Sapper_Degenerates_Buildings"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"434"
+		{
+			"name"	"sapper damage penalty hidden"
+			"attribute_class"	"mult_sapper_damage"
+			"attribute_name"	"sapper damage penalty"
+			"min_value"	"0"
+			"max_value"	"5"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Sapper_Damage_Penalty"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"435"
+		{
+			"name"	"cleaver description"
+			"attribute_class"	"desc_cleaver_description"
+			"attribute_name"	"Text description of cleaver"
+			"min_value"	"0"
+			"max_value"	"0"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Cleaver_Description"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"436"
+		{
+			"name"	"ragdolls plasma effect"
+			"attribute_class"	"ragdolls_plasma_effect"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	""
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"437"
+		{
+			"name"	"crit vs stunned players"
+			"attribute_class"	"or_crit_vs_playercond"
+			"attribute_name"	"Critical Hit vs Stunned Players"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CritVsStunned"
+			"description_format"	"value_is_or"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"438"
+		{
+			"name"	"crit vs wet players"
+			"attribute_class"	"crit_vs_wet_players"
+			"attribute_name"	"Critical Hit vs Wet Players"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CritVsWet"
+			"description_format"	"value_is_or"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+
 
 
 
@@ -51041,7 +52067,246 @@
 			}
 			"category"	"commonitem"
 		}
-
+		"112"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_SD_Sign"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#TF_ThirdDegree"
+			"di_C"	"#CI_Bar_B"
+			"do_A"	"1"
+			"do_B"	"#TF_SD_Sign"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Third Degree"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Neon Annihilator"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"113"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_SD_Cleaver"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#TF_MadMilk"
+			"di_C"	"#CI_Bar_B"
+			"do_A"	"1"
+			"do_B"	"#TF_SD_Cleaver"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Mad Milk"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Flying Guillotine"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"114"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_SD_Minigun"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#TF_RussianRiot"
+			"di_C"	"#CI_Bar_B"
+			"do_A"	"1"
+			"do_B"	"#TF_SD_Minigun"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Family Business"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Huo Long Heatmaker"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"115"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_SD_Sapper"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#TF_SpyCicle"
+			"di_C"	"#CI_Bar_B"
+			"do_A"	"1"
+			"do_B"	"#TF_SD_Sapper"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Spy-Cicle"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Red-Tape Recorder"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
 
 
 	}
