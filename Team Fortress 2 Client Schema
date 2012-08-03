@@ -1198,7 +1198,11 @@
 			"item_name"	"#TF_SD_Chain"
 			"item_description"	"#TF_SD_Chain_Desc"
 			"item_slot"	"misc"
-			"equip_region"	"necklace"
+			"equip_regions"
+			{
+				"scout_or_heavy_shirt"			"1"
+				"shirt"					"1"
+			}
 			"propername" "1"
 			"show_in_armory"		"1"
 			"item_quality"			"unique"
@@ -28364,7 +28368,11 @@
 				"paintable"		"1"
 			}
 			"item_slot"	"misc"
-			"equip_region"	"scout_or_heavy_shirt"
+			"equip_regions"
+			{
+				"scout_or_heavy_shirt"	"1"
+				"arm_tatoos" "1"
+			}
 			"item_name"	"#TF_ScoutPrepShirt"
 			"item_type_name"	"#TF_Wearable_Shirt"
 			"item_description"	"#TF_ScoutPrepShirt_Desc"
@@ -30257,7 +30265,11 @@
 			"first_sale_date"	"2012/07/10"
 			"prefab"	"hat"
 			"item_slot"	"misc"
-			"equip_region"	"scout_or_heavy_shirt"
+			"equip_regions"
+			{
+				"scout_or_heavy_shirt"	"1"
+				"arm_tatoos" "1"
+			}
 			"item_name"	"#TF_HeavyShirt"
 			"item_type_name"	"#TF_Wearable_Shirt"
 			"item_description"	"#TF_HeavyShirt_Desc"
