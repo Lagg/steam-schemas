@@ -118,6 +118,11 @@
 			"value"		"11"
 			"hexColor"		"#8650AC"
 		}
+		"tournament"
+		{
+			"value"		"12"
+			"hexColor"		"#8650AC"
+		}
 	}
 	"colors"
 	{
@@ -599,7 +604,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Wearable_Windrunner_DefaultHead"
-			"item_slot"		"body_head"
+			"item_slot"		"head"
 			"model_player"		"models/heroes/windrunner/windrunner_head.mdl"
 			"used_by_heroes"
 			{
@@ -650,7 +655,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Quiver"
 			"item_name"		"#DOTA_Wearable_Windrunner_DefaultQuiver"
-			"item_slot"		"belt"
+			"item_slot"		"offhand_weapon"
 			"model_player"		"models/heroes/windrunner/windrunner_quiver.mdl"
 			"used_by_heroes"
 			{
@@ -1762,6 +1767,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_head"
 			"item_name"		"#DOTA_Item_Lone_Druids_Hair"
+			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_head"
 			"used_by_heroes"
 			{
@@ -2191,7 +2197,7 @@
 			{
 				"npc_dota_hero_phantom_assassin"		"1"
 			}
-			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_head.mdl"
+			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_helmet.mdl"
 		}
 		"138"
 		{
@@ -2917,18 +2923,18 @@
 		}
 		"187"
 		{
-			"name"		"Obsidian Destroyers head"
+			"name"		"Obsidian Destroyers horns"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Obsidian_Destroyers_head"
+			"item_type_name"		"#DOTA_WearableType_New_Item"
+			"item_name"		"#DOTA_Item_Obsidian_Destroyers_horns"
 			"item_slot"		"head"
-			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"item_description"		"#DOTA_Item_Desc_Obsidian_Destroyers_head"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_obsidian_destroyer"		"1"
 			}
-			"model_player"		"models/heroes/obsidian_destroyer/obsidian_destroyer_head.mdl"
+			"model_player"		"models/heroes/obsidian_destroyer/obsidian_destroyer_horns.mdl"
 		}
 		"188"
 		{
@@ -3145,6 +3151,451 @@
 				"npc_dota_hero_sand_king"		"1"
 			}
 			"model_player"		"models/heroes/sand_king/sand_king_tail.mdl"
+		}
+		"202"
+		{
+			"name"		"Phantom Assassin's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Phantom_Assassins_Head"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_assassin"		"1"
+			}
+			"model_player"		"models/heroes/phantom_assassin/phantom_assassin_head.mdl"
+		}
+		"203"
+		{
+			"name"		"Rubick's Staff"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Rubicks_Staff"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_rubick"		"1"
+			}
+			"model_player"		"models/heroes/rubick/rubick_staff.mdl"
+		}
+		"204"
+		{
+			"name"		"Rubick's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Rubicks_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Rubicks_Staff"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_rubick"		"1"
+			}
+			"model_player"		"models/heroes/rubick/cape.mdl"
+		}
+		"205"
+		{
+			"name"		"Rubick's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Rubicks_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Rubicks_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_rubick"		"1"
+			}
+			"model_player"		"models/heroes/rubick/shoulder.mdl"
+		}
+		"206"
+		{
+			"name"		"Lycan's Blades"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Lycans_Blades"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lycan"		"1"
+			}
+			"model_player"		"models/heroes/lycan/lycan_blades.mdl"
+		}
+		"207"
+		{
+			"name"		"Lycan's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Lycans_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lycan"		"1"
+			}
+			"model_player"		"models/heroes/lycan/lycan_head.mdl"
+		}
+		"208"
+		{
+			"name"		"Lycan's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Lycans_Armor"
+			"item_slot"		"armor"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lycan"		"1"
+			}
+			"model_player"		"models/heroes/lycan/lycan_armor.mdl"
+		}
+		"209"
+		{
+			"name"		"Lycan's Fur"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Lycans_Fur"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lycan"		"1"
+			}
+			"model_player"		"models/heroes/lycan/lycan_fur.mdl"
+		}
+		"210"
+		{
+			"name"		"Lycan's Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Lycans_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lycan"		"1"
+			}
+			"model_player"		"models/heroes/lycan/lycan_belt.mdl"
+		}
+		"211"
+		{
+			"name"		"Necrolyte's Sickle"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Necrolytes_Sickle"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_necrolyte"		"1"
+			}
+			"model_player"		"models/heroes/necrolyte/necrolyte_sickle.mdl"
+		}
+		"212"
+		{
+			"name"		"Necrolyte's Beard"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Necrolytes_Beard"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Necrolytes_Sickle"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_necrolyte"		"1"
+			}
+			"model_player"		"models/heroes/necrolyte/beard.mdl"
+		}
+		"213"
+		{
+			"name"		"Necrolyte's Headdress"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Necrolytes_Headdress"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Necrolytes_Beard"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_necrolyte"		"1"
+			}
+			"model_player"		"models/heroes/necrolyte/hat.mdl"
+		}
+		"214"
+		{
+			"name"		"Necrolyte's Vestments"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Necrolytes_Vestments"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Necrolytes_Headdress"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_necrolyte"		"1"
+			}
+			"model_player"		"models/heroes/necrolyte/shoulders.mdl"
+		}
+		"215"
+		{
+			"name"		"Anti-Mage's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_AntiMages_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_antimage"		"1"
+			}
+			"model_player"		"models/heroes/antimage/antimage_head.mdl"
+		}
+		"216"
+		{
+			"name"		"Anti-Mage's Shoulder"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_AntiMages_Shoulder"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_antimage"		"1"
+			}
+			"model_player"		"models/heroes/antimage/antimage_shoulder.mdl"
+		}
+		"217"
+		{
+			"name"		"Anti-Mage's Arms"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_AntiMages_Arms"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_antimage"		"1"
+			}
+			"model_player"		"models/heroes/antimage/antimage_arms.mdl"
+		}
+		"218"
+		{
+			"name"		"Anti-Mage's Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_AntiMages_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_antimage"		"1"
+			}
+			"model_player"		"models/heroes/antimage/antimage_belt.mdl"
+		}
+		"219"
+		{
+			"name"		"Lone Druid's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_New_Item"
+			"item_name"		"#DOTA_Item_Lone_Druids_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lone_druid"		"1"
+			}
+			"model_player"		"models/heroes/lone_druid/weapon.mdl"
+		}
+		"220"
+		{
+			"name"		"Chen's Staff"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Chens_Staff"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_chen"		"1"
+			}
+			"model_player"		"models/heroes/chen/weapon.mdl"
+		}
+		"221"
+		{
+			"name"		"Chen's Mount"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_mount"
+			"item_name"		"#DOTA_Item_Chens_Mount"
+			"item_slot"		"mount"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Chens_Staff"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_chen"		"1"
+			}
+			"model_player"		"models/heroes/chen/mount.mdl"
+		}
+		"222"
+		{
+			"name"		"Chen's Helmet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Chens_Helmet"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Chens_Mount"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_chen"		"1"
+			}
+			"model_player"		"models/heroes/chen/helmet.mdl"
+		}
+		"223"
+		{
+			"name"		"Chen's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Chens_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Chens_Helmet"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_chen"		"1"
+			}
+			"model_player"		"models/heroes/chen/bracers.mdl"
+		}
+		"224"
+		{
+			"name"		"Chen's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Chens_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Chens_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_chen"		"1"
+			}
+			"model_player"		"models/heroes/chen/shoulders.mdl"
+		}
+		"225"
+		{
+			"name"		"Chen's Mount Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_misc"
+			"item_name"		"#DOTA_Item_Chens_Mount_Armor"
+			"item_slot"		"misc"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Chens_Shoulder_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_chen"		"1"
+			}
+			"model_player"		"models/heroes/chen/mount_armor.mdl"
+		}
+		"226"
+		{
+			"name"		"Obsidian Destroyers head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Obsidian_Destroyers_head"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_obsidian_destroyer"		"1"
+			}
+			"model_player"		"models/heroes/obsidian_destroyer/obsidian_destroyer_head.mdl"
+		}
+		"227"
+		{
+			"name"		"Treants' Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_body_head"
+			"item_name"		"#DOTA_Item_Treants_Head"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_treant"		"1"
+			}
+			"model_player"		"models/heroes/treant_protector/head.mdl"
+		}
+		"228"
+		{
+			"name"		"Treants' Foliage"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Treants_Foliage"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Treants_Head"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_treant"		"1"
+			}
+			"model_player"		"models/heroes/treant_protector/foliage.mdl"
+		}
+		"229"
+		{
+			"name"		"Treants' Hands"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Treants_Hands"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Treants_Foliage"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_treant"		"1"
+			}
+			"model_player"		"models/heroes/treant_protector/hands.mdl"
+		}
+		"230"
+		{
+			"name"		"Treants' Feet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_legs"
+			"item_name"		"#DOTA_Item_Treants_Feet"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Treants_Hands"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_treant"		"1"
+			}
+			"model_player"		"models/heroes/treant_protector/legs.mdl"
+		}
+		"231"
+		{
+			"name"		"Treants' Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_Treants_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Treants_Feet"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_treant"		"1"
+			}
+			"model_player"		"models/heroes/treant_protector/belt.mdl"
 		}
 		"4000"
 		{
@@ -16478,6 +16929,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"particle_file"		"particles\econ\courier\courier_mech_flying.pcf"
 		}
 		"10027"
 		{
@@ -17443,7 +17895,7 @@
 				"usage"
 				{
 					"league_id"		"2"
-					"admin"		"1"
+					"admin"		"0"
 				}
 			}
 			"capabilities"
@@ -17453,6 +17905,8 @@
 			}
 			"item_description"		"#DOTA_Item_Desc_WildCardsWest"
 			"image_inventory"		"econ/tools/gift_multiple"
+			"image_banner"		"econ/leagues/subscription_logo_the_wildcards"
+			"tournament_url"		"http://www.dota2.com/tournaments/international/"
 			"attributes"
 			{
 				"disallow recycling"
@@ -17476,7 +17930,7 @@
 				"usage"
 				{
 					"league_id"		"3"
-					"admin"		"1"
+					"admin"		"0"
 				}
 			}
 			"capabilities"
@@ -17486,6 +17940,8 @@
 			}
 			"item_description"		"#DOTA_Item_Desc_WildCardsEast"
 			"image_inventory"		"econ/tools/gift_multiple"
+			"image_banner"		"econ/leagues/subscription_logo_the_wildcards"
+			"tournament_url"		"http://www.dota2.com/tournaments/international/"
 			"attributes"
 			{
 				"disallow recycling"
@@ -18368,7 +18824,7 @@
 		{
 			"name"		"Sithil's Summer Key"
 			"prefab"		"dota_tool"
-			"item_name"		"#DOTA_Item_Treasure_Key_Summer_Sale"
+			"item_name"		"#DOTA_Item_Treasure_Key"
 			"item_rarity"		"mythical"
 			"tool"
 			{
@@ -18378,10 +18834,9 @@
 				{
 					"decodable"		"1"
 				}
-				"restriction"		"summer"
 			}
-			"item_description"		"#DOTA_Item_Desc_Treasure_Key_Summer_Sale"
-			"image_inventory"		"econ/tools/summer_sale_2012_key"
+			"item_description"		"#DOTA_Item_Desc_Treasure_Key"
+			"image_inventory"		"econ/tools/treasure_chest_key"
 			"attributes"
 			{
 				"disallow recycling"
@@ -18694,6 +19149,78 @@
 			"image_inventory"		"econ/leagues/subscriptions_americas"
 			"image_banner"		"econ/leagues/subscriptions_americas_ingame"
 			"tournament_url"		"http://www.ecal.tv/playoffs"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15055"
+		{
+			"name"		"The Internal"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_TheInternal"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"65000"
+					"admin"		"0"
+					"private"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_TheInternal"
+			"image_inventory"		"econ/leagues/subscriptions_internal_ingame"
+			"image_banner"		"econ/leagues/subscriptions_internal_ingame"
+			"tournament_url"		"http://www.dota2.com/tournaments/international/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15056"
+		{
+			"name"		"The Internal ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_TheInternal_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"65000"
+					"admin"		"1"
+					"private"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_TheInternal"
+			"image_inventory"		"econ/leagues/subscriptions_internal_ingame"
+			"image_banner"		"econ/leagues/subscriptions_internal_ingame"
+			"tournament_url"		"http://www.dota2.com/tournaments/international/"
 			"attributes"
 			{
 				"disallow recycling"
@@ -20864,6 +21391,20 @@
 			"effect_type"		"neutral"
 			"stored_as_integer"		"0"
 		}
+		"184"
+		{
+			"name"		"tournament event date"
+			"attribute_class"		"tournament_event_date"
+			"attribute_name"		"tournament event date"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_TournamentEventDate"
+			"description_format"		"value_is_date"
+			"hidden"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
 		"185"
 		{
 			"name"		"event date"
@@ -21183,6 +21724,104 @@
 			"hidden"		"0"
 			"effect_type"		"positive"
 			"stored_as_integer"		"0"
+		}
+		"312"
+		{
+			"name"		"tournament killer id"
+			"attribute_class"		"tournament_killer_id"
+			"attribute_name"		"tournament killer id"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_TournamentKillerID"
+			"description_format"		"value_is_account_id"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"313"
+		{
+			"name"		"tournament victim id"
+			"attribute_class"		"tournament_victim_id"
+			"attribute_name"		"tournament victim id"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_TournamentVictimID"
+			"description_format"		"value_is_account_id"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"315"
+		{
+			"name"		"tournament id"
+			"attribute_class"		"tournament_id"
+			"attribute_name"		"tournament id"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_TournamentID"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"316"
+		{
+			"name"		"tournament game id"
+			"attribute_class"		"tournament_game_id"
+			"attribute_name"		"tournament game id"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_TournamentGameID"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"317"
+		{
+			"name"		"tournament event id"
+			"attribute_class"		"tournament_event_id"
+			"attribute_name"		"tournament event id"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_TournamentEventID"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"318"
+		{
+			"name"		"match id"
+			"attribute_class"		"match_id"
+			"attribute_name"		"match id"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_MatchID"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"319"
+		{
+			"name"		"game time"
+			"attribute_class"		"game_time"
+			"attribute_name"		"game time"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_GameTime"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
 		}
 		"342"
 		{
