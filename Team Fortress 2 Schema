@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e6584fc3ae87145d7766017041c2962acdd8c9b2.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.f4962d89526887c956c23e259902196169ec42d0.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -24785,7 +24785,7 @@
 				
 			},
 			{
-				"name": "Steam Translation Service Package",
+				"name": "Steam Translation Package",
 				"defindex": 839,
 				"item_class": "tf_wearable",
 				"item_type_name": "Package",
@@ -27338,6 +27338,27 @@
 				"max_ilevel": 50,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bethesda_bundle.402b77f76f32b6a779d946dd6c91f3f93d730ce2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bethesda_bundle_large.3bdd613dcca0bd1392dd4f3639732e8c13ad25c0.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Steam Translation Bundle",
+				"defindex": 2078,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Steam Translation Bundle",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/sts_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
