@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.371919b971e47f5f571ad5eddf6416ec5ea244b8.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e6584fc3ae87145d7766017041c2962acdd8c9b2.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -24779,6 +24779,41 @@
 					{
 						"name": "cannot trade",
 						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Steam Translation Service Package",
+				"defindex": 839,
+				"item_class": "tf_wearable",
+				"item_type_name": "Package",
+				"item_name": "Mann Co. Store Package",
+				"item_description": "This bag contains one free item from the Mann Co. store! You can open it from your backpack!",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/shopping_bag",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/shopping_bag.10340a6535442192a73ae9203e6cb735a578866b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/shopping_bag_large.6d24af978d17fc1ebd49bb3fa0da9e9d74ab1d91.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "gift"
+				},
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
 						"value": 1.000000
 					}
 				]
