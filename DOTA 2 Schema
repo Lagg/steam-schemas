@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.b6a56c2c101eeec1a8d7b7f697321fc10eaaaa31.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.dc2b0b9489e0fd07c593f8c34cb069bd8064afe3.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -9954,7 +9954,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Shovel-Mouthed Mask",
@@ -17009,8 +17017,8 @@
 				"defindex": 20041,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "DOTA_Bundle_Summer_2012",
-				"item_description": "",
+				"item_name": "Sithil's Summer Bundle",
+				"item_description": "Includes a massive pile of 47 new items:",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/sets\/summer_bundle",
