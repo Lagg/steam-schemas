@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.dc0fcf60fd82281faae02135aab587d6a48ebdac.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.1be7204ca00486c46e23c9c51acaa87fb07272eb.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -1533,11 +1533,11 @@
 				}
 			},
 			{
-				"name": "Blood Seeker's Weapon",
+				"name": "Blood Seeker's Blade",
 				"defindex": 69,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Weapon",
-				"item_name": "Blood Seeker's Weapon",
+				"item_name": "Blood Seeker's Blade",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
@@ -1575,11 +1575,11 @@
 				}
 			},
 			{
-				"name": "Blood Seeker's Offhand Weapon",
+				"name": "Blood Seeker's Blade - Off-Hand",
 				"defindex": 71,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "offhand",
-				"item_name": "Blood Seeker's Offhand Weapon",
+				"item_name": "Blood Seeker's Blade - Off-Hand",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
@@ -5361,6 +5361,111 @@
 				"item_type_name": "body_head",
 				"item_name": "Shadow Shaman's Head",
 				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "KotL Mount",
+				"defindex": 252,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "mount",
+				"item_name": "KotL Mount",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "KotL Staff",
+				"defindex": 253,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Weapon",
+				"item_name": "KotL Staff",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "KotL Hood",
+				"defindex": 254,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Head",
+				"item_name": "KotL Hood",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "KotL Skirt",
+				"defindex": 255,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Belt",
+				"item_name": "KotL Skirt",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "KotL Horse Accesories",
+				"defindex": 256,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "misc",
+				"item_name": "KotL Horse Accesories",
+				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
 				"image_inventory": "econ\/testitem_slot_empty",
@@ -10407,11 +10512,11 @@
 				}
 			},
 			{
-				"name": "War Blade (Right)",
+				"name": "War Blade",
 				"defindex": 4203,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Blade, Right-Hand",
-				"item_name": "War Blade (Right)",
+				"item_type_name": "Blade",
+				"item_name": "War Blade",
 				"item_description": "An exceptionally sharp war-blade.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -10429,11 +10534,11 @@
 				}
 			},
 			{
-				"name": "War Blade (Left)",
+				"name": "War Blade - Off-Hand",
 				"defindex": 4204,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Blade, Left-Hand",
-				"item_name": "War Blade (Left)",
+				"item_type_name": "Blade",
+				"item_name": "War Blade - Off-Hand",
 				"item_description": "An exceptionally sharp war-blade.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -10701,11 +10806,11 @@
 				}
 			},
 			{
-				"name": "Back Hook (Right)",
+				"name": "Back Hook",
 				"defindex": 4216,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Blade, Right-Handed",
-				"item_name": "Back Hook (Right)",
+				"item_type_name": "Blade",
+				"item_name": "Back Hook",
 				"item_description": "A cruelly twisted hook. Perfect for draining blood from an unexpecting victim.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -10723,11 +10828,11 @@
 				}
 			},
 			{
-				"name": "Back Hook (Left)",
+				"name": "Back Hook - Off-Hand",
 				"defindex": 4217,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Blade, Right-Handed",
-				"item_name": "Back Hook (Left)",
+				"item_type_name": "Blade",
+				"item_name": "Back Hook - Off-Hand",
 				"item_description": "A cruelly twisted hook. Perfect for draining blood from an unexpecting victim.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -11144,7 +11249,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Bracer of the Burning Cabal",
@@ -11167,7 +11280,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Crest of the Burning Cabal",
@@ -11190,7 +11311,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Stylish Wizard's Topnot",
@@ -11212,7 +11341,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Commander's Pauldron of the Flameguard",
@@ -11375,7 +11512,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Edgebearer's Helm",
@@ -12436,7 +12581,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Crest of the Magus Magnus",
@@ -12459,7 +12612,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Hood of Endless Intellect",
@@ -12482,14 +12643,22 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
-				"name": "Beast of War Belt",
+				"name": "Iron Bear's Belt",
 				"defindex": 4292,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Belt",
-				"item_name": "Beast of War Belt",
+				"item_name": "Iron Bear's Belt",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -12507,11 +12676,11 @@
 				}
 			},
 			{
-				"name": "Beast of War Plates",
+				"name": "Iron Bear's Pauldrons",
 				"defindex": 4293,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Pauldrons",
-				"item_name": "Beast of War Plates",
+				"item_name": "Iron Bear's Pauldrons",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -12529,11 +12698,11 @@
 				}
 			},
 			{
-				"name": "Beast of War Bracers",
+				"name": "Iron Bear's Cutter",
 				"defindex": 4294,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Bracers",
-				"item_name": "Beast of War Bracers",
+				"item_name": "Iron Bear's Cutter",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -12551,11 +12720,11 @@
 				}
 			},
 			{
-				"name": "Beast of War Helm",
+				"name": "Iron Bear's Skullcap",
 				"defindex": 4295,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Helm",
-				"item_name": "Beast of War Helm",
+				"item_name": "Iron Bear's Skullcap",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -12620,16 +12789,16 @@
 				"name": "Metal Horns",
 				"defindex": 4298,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
+				"item_type_name": "Horns",
 				"item_name": "Metal Horns",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/furion\/furion_metal_horn",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -12639,11 +12808,11 @@
 				}
 			},
 			{
-				"name": "Horseshoe crab",
+				"name": "Horseshoe Crab",
 				"defindex": 4299,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "New Item",
-				"item_name": "Horseshoe crab",
+				"item_name": "Horseshoe Crab",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13101,11 +13270,11 @@
 				}
 			},
 			{
-				"name": "BloodLetter (Right)",
+				"name": "Bloodletter",
 				"defindex": 4320,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "BloodLetter (Right)",
+				"item_type_name": "Blade",
+				"item_name": "Bloodletter",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13123,11 +13292,11 @@
 				}
 			},
 			{
-				"name": "BloodLetter (Left)",
+				"name": "Bloodletter - Off-Hand",
 				"defindex": 4321,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "BloodLetter (Left)",
+				"item_type_name": "Blade",
+				"item_name": "Bloodletter - Off-Hand",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13255,11 +13424,11 @@
 				}
 			},
 			{
-				"name": "Savage Beast Arms",
+				"name": "Bonehunter Bracers",
 				"defindex": 4327,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Savage Beast Arms",
+				"item_type_name": "Bracers",
+				"item_name": "Bonehunter Bracers",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13277,11 +13446,11 @@
 				}
 			},
 			{
-				"name": "Savage Beast Shoulders",
+				"name": "Bonehunter Tuskguard",
 				"defindex": 4328,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Savage Beast Shoulders",
+				"item_type_name": "Guard",
+				"item_name": "Bonehunter Tuskguard",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13299,11 +13468,11 @@
 				}
 			},
 			{
-				"name": "Savage Beast Belt",
+				"name": "Bonehunter Belt",
 				"defindex": 4329,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Savage Beast Belt",
+				"item_type_name": "Belt",
+				"item_name": "Bonehunter Belt",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13321,11 +13490,11 @@
 				}
 			},
 			{
-				"name": "Savage Beast Head",
+				"name": "Bonehunter Skullguard",
 				"defindex": 4330,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Savage Beast Head",
+				"item_type_name": "Helm",
+				"item_name": "Bonehunter Skullguard",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13343,11 +13512,11 @@
 				}
 			},
 			{
-				"name": "Savage Beast Weapon (Right)",
+				"name": "Bonehunter Slicer",
 				"defindex": 4331,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Savage Beast Weapon (Right)",
+				"item_type_name": "Blade",
+				"item_name": "Bonehunter Slicer",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13365,11 +13534,11 @@
 				}
 			},
 			{
-				"name": "Savage Beast Weapon (Left)",
+				"name": "Bonehunter Slicer - Off-Hand",
 				"defindex": 4332,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Savage Beast Weapon (Left)",
+				"item_type_name": "Blade",
+				"item_name": "Bonehunter Slicer - Off-Hand",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13387,11 +13556,11 @@
 				}
 			},
 			{
-				"name": "Savage Beast Armor",
+				"name": "Bonehunter Spineguard",
 				"defindex": 4333,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Savage Beast Armor",
+				"item_type_name": "Armor",
+				"item_name": "Bonehunter Spineguard",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -13409,8 +13578,30 @@
 				}
 			},
 			{
-				"name": "Savage Helmet",
+				"name": "Bloodlord's Horns",
 				"defindex": 4334,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Mask",
+				"item_name": "Bloodlord's Horns",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/blood_seeker\/bloodlords_favor_head_lod1\/bloodlords_favor_head_lod1",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Savage Helmet",
+				"defindex": 4335,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Helm",
 				"item_name": "Savage Helmet",
@@ -13432,7 +13623,7 @@
 			},
 			{
 				"name": "Savage Armor",
-				"defindex": 4335,
+				"defindex": 4336,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Armor",
 				"item_name": "Savage Armor",
@@ -13454,7 +13645,7 @@
 			},
 			{
 				"name": "Savage Bracer",
-				"defindex": 4336,
+				"defindex": 4337,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Bracer",
 				"item_name": "Savage Bracer",
@@ -13475,8 +13666,8 @@
 				}
 			},
 			{
-				"name": "Savage Belt",
-				"defindex": 4337,
+				"name": "Savage Belt 2",
+				"defindex": 4338,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Belt",
 				"item_name": "Savage Belt",
@@ -13498,7 +13689,7 @@
 			},
 			{
 				"name": "Shiva's Frost Scepter",
-				"defindex": 4338,
+				"defindex": 4339,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Staff",
 				"item_name": "Shiva's Frost Scepter",
@@ -13520,7 +13711,7 @@
 			},
 			{
 				"name": "Rune Inscribed Cleaver",
-				"defindex": 4339,
+				"defindex": 4340,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Sword",
 				"item_name": "Rune Inscribed Cleaver",
@@ -13542,7 +13733,7 @@
 			},
 			{
 				"name": "Head-Ache",
-				"defindex": 4340,
+				"defindex": 4341,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Spikes",
 				"item_name": "Head-Ache",
@@ -13550,6 +13741,138 @@
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/tidehunter\/headache",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Bloodlord's Mantle",
+				"defindex": 4342,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Mantle",
+				"item_name": "Bloodlord's Mantle",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/blood_seeker\/bloodlords_favor_shoulder_lod1\/bloodlords_favor_shoulder_lod1",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Bloodlord's Bracer",
+				"defindex": 4343,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Bracer",
+				"item_name": "Bloodlord's Bracer",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/blood_seeker\/bloodlords_favor_bracer_lod1\/bloodlords_favor_bracer_lod1",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Bloodlord's Mark",
+				"defindex": 4344,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Cape",
+				"item_name": "Bloodlord's Mark",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/blood_seeker\/bloodlords_favor_back_lod1\/bloodlords_favor_back_lod1",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Bloodlord's Girdle",
+				"defindex": 4345,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Belt",
+				"item_name": "Bloodlord's Girdle",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/blood_seeker\/bloodlords_favor_belt_lod1\/bloodlords_favor_belt_lod1",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Bloodlord's Gouger",
+				"defindex": 4346,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Blade",
+				"item_name": "Bloodlord's Gouger",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Rhuis Tuning-Fork",
+				"defindex": 4347,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Sword",
+				"item_name": "Rhuis Tuning-Fork",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/sven\/rhuis tuning-fork\/Rhuis Tuning-Fork",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "",
@@ -13630,15 +13953,15 @@
 				}
 			},
 			{
-				"name": "Cockerel Conversion",
+				"name": "Drodo the Druffin",
 				"defindex": 10003,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Hex Animal",
-				"item_name": "Cockerel Conversion",
-				"item_description": "Deep within the shrouded southern forests, druids meet to practice these baleful rites.\r\nWhen equipped, this item replaces your hex animal with a chicken.",
+				"item_type_name": "International Courier",
+				"item_name": "Drodo the Druffin",
+				"item_description": "Discovered on an island in the Samareen Sea, this species of delicious dragon has been all but wiped out by hungry sailors.  Druffins lack the sense that nature gives most creatures, but their limitless  trust makes them good couriers in the thick of battle.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/sheepstick\/chicken",
+				"image_inventory": "econ\/courier\/drodo\/drodo",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "",
@@ -13651,19 +13974,19 @@
 				}
 			},
 			{
-				"name": "Amphibian Alteration",
+				"name": "Murrissey the Smeevil",
 				"defindex": 10004,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Hex Animal",
-				"item_name": "Amphibian Alteration",
-				"item_description": "A variation on the classic polymorphic hex favored by swamp wizards and spurned witches.\r\nWhen equipped, this item replaces your hex animal with a frog.",
+				"item_type_name": "International Courier",
+				"item_name": "Murrissey the Smeevil",
+				"item_description": "",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/sheepstick\/frog",
+				"image_inventory": "econ\/courier\/turtle_rider\/turtle_rider",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/frog.460e52f487fb236b5620155501d5c322dddabd2b.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/frog_large.267e220bb9b0f1ef36c43fa771484147ad34c80f.png",
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -13672,15 +13995,15 @@
 				}
 			},
 			{
-				"name": "Polymorphic Pasteurization",
+				"name": "Lockjaw the Boxhound",
 				"defindex": 10005,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Custom Hex Animal",
-				"item_name": "Polymorphic Pasteurization",
-				"item_description": "A particularly smelly shape change designed by a Dwarven spellsmith with a taste for Orcish Bleu.\r\nWhen equipped, this item replaces your hex animal with a piece of cheese.",
+				"item_type_name": "International Courier",
+				"item_name": "Lockjaw the Boxhound",
+				"item_description": "",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/items\/sheepstick\/cheese",
+				"image_inventory": "econ\/courier\/lockjaw\/lockjaw",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "",
@@ -14063,7 +14386,7 @@
 				"defindex": 10023,
 				"item_class": "supply_crate",
 				"item_type_name": "Treasure",
-				"item_name": "",
+				"item_name": "Treasure Chest - Mythical",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 4,
@@ -14502,6 +14825,44 @@
 					"strange_parts": true,
 					"paintable_unusual": true
 				}
+			},
+			{
+				"name": "Treasure of Profound Mysteries",
+				"defindex": 10039,
+				"item_class": "supply_crate",
+				"item_type_name": "Treasure",
+				"item_name": "Treasure of Profound Mysteries",
+				"item_description": "You will need a <font color='#9da1a9'>Treasure Key<\/font> to open this chest. You can pick one up at the DOTA 2 Store. Each chest series comes with a different selection of possible loot.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/treasure_chest_invoker",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/treasure_chest_invoker.3cdc7b135765dc68a80e4e50325e615926b987d0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/treasure_chest_invoker_large.6db59f2dbe4ce4a80babd0e6b2ea145bc64b93cd.png",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "supply_crate"
+				},
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 11.000000
+					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Name Tag",
@@ -15941,7 +16302,7 @@
 				"item_class": "tool",
 				"item_type_name": "Strange Modifier",
 				"item_name": "Strange Modifier: Sunstrike Kills",
-				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of your hero kills you achieve with Sunstrike while wearing it as Invoker.",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of enemies you've killed with Sunstrike as Invoker.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/strange_types_invoker_sunstrikekills",
@@ -16577,7 +16938,7 @@
 				"item_class": "tool",
 				"item_type_name": "Strange Modifier",
 				"item_name": "Strange Modifier: Enemies Culled",
-				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of enemies you've Culled as Axe.",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of enemies you've Culled while wearing it as Axe.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/strange_types_Axe_Culls",
@@ -16612,7 +16973,7 @@
 				"item_class": "tool",
 				"item_type_name": "Strange Modifier",
 				"item_name": "Strange Modifier: Battle Hunger Kills",
-				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of enemies you've killed with Battle Hunger as Axe.",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of enemies you've killed with Battle Hunger while wearing it as Axe.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/strange_types_Axe_BattleHungerKills",
@@ -16647,7 +17008,7 @@
 				"item_class": "tool",
 				"item_type_name": "Strange Modifier",
 				"item_name": "Strange Modifier: Axe Near Death Kills",
-				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of enemies you've killed while having less than 15% of your health as Axe.",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of enemies you've killed while having less than 15% of your health while wearing it as Axe.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/strange_types_Axe_LowHealthKills",
@@ -16682,7 +17043,7 @@
 				"item_class": "tool",
 				"item_type_name": "Strange Modifier",
 				"item_name": "Strange Modifier: Call Damage Done",
-				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the amount of damage you've done to enemies under the effects of your Berserker's Call as Axe.",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the amount of damage you've done to enemies under the effects of your Berserker's Call while wearing it as Axe.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/strange_types_Axe_CalledDamageDone",
@@ -16717,7 +17078,7 @@
 				"item_class": "tool",
 				"item_type_name": "Strange Modifier",
 				"item_name": "Strange Modifier: Call Damage Taken",
-				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the amount of damage you've taken from enemies under the effects of your Berserker's Call as Axe.",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the amount of damage you've taken from enemies under the effects of your Berserker's Call while wearing it as Axe.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/strange_types_Axe_CalledDamageTaken",
@@ -16917,6 +17278,146 @@
 						"name": "disallow recycling",
 						"class": "disallow_recycling",
 						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: Multi-Hero Storm Hammers",
+				"defindex": 15068,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Multi-Hero Storm Hammers",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of your Storm Hammers that hit at least two enemy Heroes while wearing it as Sven.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_Sven_DoubleStuns",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 34.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: Warcry Assists",
+				"defindex": 15069,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Warcry Assists",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of enemy Heroes your Warcry-buffed allies kill while wearing it as Sven.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_Sven_WarcryAssists",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 35.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: Multi-Hero Cleave Kills",
+				"defindex": 15070,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Multi-Hero Cleave Kills",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of times a single Cleave kills multiple enemy Heroes while wearing it as Sven.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_Sven_CleaveDoubleKills",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 36.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Modifier: Storm Hammer Teleport Interrupts",
+				"defindex": 15071,
+				"item_class": "tool",
+				"item_type_name": "Strange Modifier",
+				"item_name": "Strange Modifier: Storm Hammer Teleport Interrupts",
+				"item_description": "Adding this Strange Modifier to a strange item of your choice will allow it to also count the number of times your Storm Hammer interrupts an enemy Hero's teleport while wearing it as Sven.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/strange_types_Sven_TeleportInterrupts",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 37.000000
 					}
 				]
 				
@@ -18303,6 +18804,28 @@
 				"effect_type": "positive",
 				"hidden": true,
 				"stored_as_integer": true
+			},
+			{
+				"name": "team ID",
+				"defindex": 386,
+				"attribute_class": "team_id",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "fanfare level",
+				"defindex": 387,
+				"attribute_class": "fanfare_level",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Attrib_FanfareLevel",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			}
 		]
 		,
@@ -18387,8 +18910,8 @@
 					"Hlotl-Feather Gloves",
 					"Hlotl-Tusk Headdress of the Seeker",
 					"Hlotl-Feather Necklace",
-					"War Blade (Right)",
-					"War Blade (Left)"
+					"War Blade",
+					"War Blade - Off-Hand"
 				]
 				
 			},

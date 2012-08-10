@@ -223,7 +223,6 @@
 		"1"		"announcer"
 		"2"		"mega_kills"
 		"3"		"courier"
-		"4"		"fan_item"
 	}
 	"prefabs"
 	{
@@ -1237,10 +1236,10 @@
 		}
 		"69"
 		{
-			"name"		"Blood Seeker's Weapon"
+			"name"		"Blood Seeker's Blade"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_weapon"
-			"item_name"		"#DOTA_Item_Blood_Seekers_Weapon"
+			"item_name"		"#DOTA_Item_Blood_Seekers_Blade"
 			"model_player"		"models/heroes/blood_seeker/weapon.mdl"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dragon_Knights_Skirt"
 			"used_by_heroes"
@@ -1264,10 +1263,10 @@
 		}
 		"71"
 		{
-			"name"		"Blood Seeker's Offhand Weapon"
+			"name"		"Blood Seeker's Blade - Off-Hand"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_offhand"
-			"item_name"		"#DOTA_Item_Blood_Seekers_Offhand_Weapon"
+			"item_name"		"#DOTA_Item_Blood_Seekers_Blade__OffHand"
 			"item_slot"		"offhand_weapon"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Blood_Seekers_Headdress"
 			"used_by_heroes"
@@ -2750,7 +2749,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Lanayas_bracers_and_skirt"
-			"item_slot"		"misc"
+			"item_slot"		"armor"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -3702,6 +3701,110 @@
 			}
 			"model_player"		"models/heroes/doom/tail.mdl"
 		}
+		"239"
+		{
+			"name"		"Warlock's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Warlocks_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_warlock"		"1"
+			}
+			"model_player"		"models/heroes/warlock/warlock_staff.mdl"
+		}
+		"240"
+		{
+			"name"		"Warlock's Off-hand Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Warlocks_Offhand_Weapon"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_warlock"		"1"
+			}
+			"model_player"		"models/heroes/warlock/warlock_lantern.mdl"
+		}
+		"241"
+		{
+			"name"		"Warlock's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Warlocks_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_warlock"		"1"
+			}
+			"model_player"		"models/heroes/warlock/warlock_cape.mdl"
+		}
+		"242"
+		{
+			"name"		"Warlock's Shoulder"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Warlocks_Shoulder"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_warlock"		"1"
+			}
+			"model_player"		"models/heroes/warlock/warlock_shoulder.mdl"
+		}
+		"243"
+		{
+			"name"		"Warlock's Arms"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Warlocks_Arms"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_warlock"		"1"
+			}
+			"model_player"		"models/heroes/warlock/warlock_bracers.mdl"
+		}
+		"244"
+		{
+			"name"		"Warlock's Robe"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Warlocks_Robe"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_warlock"		"1"
+			}
+			"model_player"		"models/heroes/warlock/warlock_robe.mdl"
+		}
+		"245"
+		{
+			"name"		"Warlock's Bag"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Warlocks_Bag"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_warlock"		"1"
+			}
+			"model_player"		"models/heroes/warlock/warlock_bag.mdl"
+		}
 		"246"
 		{
 			"name"		"Shadow Shaman's Weapon"
@@ -3789,6 +3892,79 @@
 				"npc_dota_hero_shadow_shaman"		"1"
 			}
 			"model_player"		"models/heroes/shadowshaman/head.mdl"
+		}
+		"252"
+		{
+			"name"		"KotL Mount"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_mount"
+			"item_name"		"#DOTA_Item_KotL_Mount"
+			"item_slot"		"mount"
+			"item_description"		"#DOTA_Item_Desc_KotL_Mount"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_keeper_of_the_light"		"1"
+			}
+			"model_player"		"models/heroes/keeper_of_the_light/kotl_horse.mdl"
+		}
+		"253"
+		{
+			"name"		"KotL Staff"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_KotL_Staff"
+			"item_description"		"#DOTA_Item_Desc_KotL_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_keeper_of_the_light"		"1"
+			}
+			"model_player"		"models/heroes/keeper_of_the_light/kotl_staff.mdl"
+		}
+		"254"
+		{
+			"name"		"KotL Hood"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_KotL_Hood"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_keeper_of_the_light"		"1"
+			}
+			"model_player"		"models/heroes/keeper_of_the_light/kotl_hood.mdl"
+		}
+		"255"
+		{
+			"name"		"KotL Skirt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_KotL_Skirt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_KotL_Skirt"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_keeper_of_the_light"		"1"
+			}
+			"model_player"		"models/heroes/keeper_of_the_light/kotl_skirt.mdl"
+		}
+		"256"
+		{
+			"name"		"KotL Horse Accesories"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_misc"
+			"item_name"		"#DOTA_Item_KotL_Horse_Accesories"
+			"item_slot"		"misc"
+			"item_description"		"#DOTA_Item_Desc_KotL_Horse_Accesories"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_keeper_of_the_light"		"1"
+			}
+			"model_player"		"models/heroes/keeper_of_the_light/kotl_horse_accesories.mdl"
 		}
 		"4000"
 		{
@@ -12437,9 +12613,9 @@
 		}
 		"4203"
 		{
-			"name"		"War Blade (Right)"
+			"name"		"War Blade"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Blade_RightHand"
+			"item_type_name"		"#DOTA_WearableType_Blade"
 			"item_name"		"#DOTA_Item_War_Blade_Right"
 			"item_description"		"#DOTA_Item_Desc_War_Blade_Right"
 			"image_inventory"		"econ/items/blood_seeker/war_blade_right"
@@ -12481,10 +12657,10 @@
 		}
 		"4204"
 		{
-			"name"		"War Blade (Left)"
+			"name"		"War Blade - Off-Hand"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Blade_LeftHand"
-			"item_name"		"#DOTA_Item_War_Blade_Left"
+			"item_type_name"		"#DOTA_WearableType_Blade"
+			"item_name"		"#DOTA_Item_War_Blade__OffHand"
 			"item_slot"		"offhand_weapon"
 			"item_description"		"#DOTA_Item_Desc_War_Blade_Left"
 			"image_inventory"		"econ/items/blood_seeker/war_blade_left"
@@ -13036,9 +13212,9 @@
 		}
 		"4216"
 		{
-			"name"		"Back Hook (Right)"
+			"name"		"Back Hook"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Blade_RightHanded"
+			"item_type_name"		"#DOTA_WearableType_Blade"
 			"item_name"		"#DOTA_Item_Back_Hook_Right"
 			"item_description"		"#DOTA_Item_Desc_Back_Hook_Right"
 			"image_inventory"		"econ/items/blood_seeker/backhook_right"
@@ -13080,10 +13256,10 @@
 		}
 		"4217"
 		{
-			"name"		"Back Hook (Left)"
+			"name"		"Back Hook - Off-Hand"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Blade_RightHanded"
-			"item_name"		"#DOTA_Item_Back_Hook_Left"
+			"item_type_name"		"#DOTA_WearableType_Blade"
+			"item_name"		"#DOTA_Item_Back_Hook__OffHand"
 			"item_slot"		"offhand_weapon"
 			"item_description"		"#DOTA_Item_Desc_Back_Hook_Left"
 			"image_inventory"		"econ/items/blood_seeker/backhook_left"
@@ -13880,6 +14056,14 @@
 			{
 				"npc_dota_hero_invoker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/invoker/exort_cape.mdl"
 			"icon_portrait"
 			{
@@ -13925,6 +14109,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/invoker/exort_bracer.mdl"
 			"icon_portrait"
@@ -13972,6 +14164,14 @@
 			{
 				"npc_dota_hero_invoker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/invoker/exort_shoulder.mdl"
 			"icon_portrait"
 			{
@@ -14016,6 +14216,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/invoker/exort_hair.mdl"
 			"icon_portrait"
@@ -14354,6 +14562,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/invoker/wizard_cape.mdl"
 			"icon_portrait"
@@ -15329,8 +15545,8 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Mace"
 			"item_name"		"#DOTA_Item_Timebreaker"
-			"item_rarity"		"immortal"
 			"item_quality"		"vintage"
+			"item_rarity"		"immortal"
 			"forced_item_quality"		"vintage"
 			"item_description"		"#DOTA_Item_Desc_Timebreaker"
 			"image_inventory"		"econ/items/faceless_void/green_blessed_mace"
@@ -15339,11 +15555,21 @@
 				"npc_dota_hero_faceless_void"		"1"
 			}
 			"model_player"		"models/items/faceless_void/green_blessed_mace.mdl"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"faceless_void_weapon_glow"
+					"modifier"		"faceless_void_weapon_glow_timebreaker"
+				}
+			}
+			"particle_file"		"particles\econ\items\faceless_void\faceless_void_weapon_timebreaker.pcf"
 			"icon_portrait"
 			{
 				"PortraitPosition"		"155.451599 25.829124 214.159714"
-				"PortraitLookAt"		"21.203613 158.576660 0.000000"
-				"PortraitFOV"		"57.000000"
+				"PortraitLookAt"		"21.099243 156.835327 0.000000"
+				"PortraitFOV"		"54.000000"
 				"PortraitFar"		"984.000000"
 				"PortraitLightPosition"		"142.544907 133.090851 199.474960"
 				"PortraitLightLookAt"		"48.540001 136.610001 0.000000"
@@ -15369,16 +15595,6 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
-			"visuals"
-			{
-				"asset_modifier0"
-				{
-					"type"		"particle"
-					"asset"		"faceless_void_weapon_glow"
-					"modifier"		"faceless_void_weapon_glow_timebreaker"
-				}
-			}
-			"particle_file"		"particles\econ\items\faceless_void\faceless_void_weapon_timebreaker.pcf"
 		}
 		"4265"
 		{
@@ -16250,6 +16466,14 @@
 			{
 				"npc_dota_hero_invoker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/invoker/wizard_bracer.mdl"
 			"icon_portrait"
 			{
@@ -16297,6 +16521,14 @@
 			{
 				"npc_dota_hero_invoker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/invoker/wizard_armor.mdl"
 			"icon_portrait"
 			{
@@ -16343,6 +16575,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/invoker/wizard_hood.mdl"
 			"icon_portrait"
@@ -16412,6 +16652,213 @@
 					"asset"		"TLK_DOTA_INTHEBAG"
 					"modifier"		"#DOTA_Chat_InTheBag"
 				}
+			}
+		}
+		"10003"
+		{
+			"name"		"Drodo the Druffin"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_International_Courier"
+			"item_name"		"#DOTA_Item_Drodo_the_Druffin"
+			"item_slot"		"courier"
+			"item_rarity"		"ancient"
+			"item_description"		"#DOTA_Item_Desc_Drodo_the_Druffin"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/courier/drodo/drodo"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/drodo/drodo.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/drodo/drodo.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/drodo/drodo_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/drodo/drodo_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"124.603615 -129.066605 121.010880"
+				"PortraitLookAt"		"24.461060 132.203979 0.000000"
+				"PortraitFOV"		"37.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"-32.657112 -136.634705 156.815552"
+				"PortraitLightLookAt"		"49.889999 111.050003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.270000 0.270000 0.270000"
+				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
+				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"10004"
+		{
+			"name"		"Murrissey the Smeevil"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_International_Courier"
+			"item_name"		"#DOTA_Item_Murrissey_the_Smeevil"
+			"item_slot"		"courier"
+			"item_rarity"		"ancient"
+			"item_description"		"#DOTA_Item_Desc_Murrissey_the_Smeevil"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/courier/turtle_rider/turtle_rider"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/turtle_rider/turtle_rider.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/turtle_rider/turtle_rider.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/turtle_rider/turtle_rider_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/turtle_rider/turtle_rider_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"62.324635 -154.358261 138.823807"
+				"PortraitLookAt"		"25.922241 108.198853 0.000000"
+				"PortraitFOV"		"66.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"-32.657112 -136.634705 156.815552"
+				"PortraitLightLookAt"		"49.889999 111.050003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.270000 0.270000 0.270000"
+				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
+				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"10005"
+		{
+			"name"		"Lockjaw the Boxhound"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_International_Courier"
+			"item_name"		"#DOTA_Item_Lockjaw_the_Boxhound"
+			"item_slot"		"courier"
+			"item_rarity"		"ancient"
+			"item_description"		"#DOTA_Item_Desc_Lockjaw_the_Boxhound"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/courier/lockjaw/lockjaw"
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/lockjaw/lockjaw.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/lockjaw/lockjaw.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/lockjaw/lockjaw_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/lockjaw/lockjaw_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"129.533615 -122.958069 147.048752"
+				"PortraitLookAt"		"32.124023 137.395020 0.000000"
+				"PortraitFOV"		"41.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"-32.657112 -136.634705 156.815552"
+				"PortraitLightLookAt"		"49.889999 111.050003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.270000 0.270000 0.270000"
+				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
+				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
 			}
 		}
 		"10008"
@@ -16909,7 +17356,7 @@
 			"prefab"		"dota_misc_item"
 			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_TreasureChest_Type"
-			"item_name"		"#DOTA_TreasureChest_Rare"
+			"item_name"		"#DOTA_Item_Treasure_Chest__Mythical"
 			"item_rarity"		"mythical"
 			"tool"
 			{
@@ -17616,6 +18063,42 @@
 					"type"		"announcer"
 					"asset"		"npc_dota_hero_announcer_dlc_stormspirit_killing_spree"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_stormspirit_killing_spree.txt"
+				}
+			}
+		}
+		"10039"
+		{
+			"name"		"Treasure of Profound Mysteries"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
+			"item_name"		"#DOTA_Item_Treasure_of_Profound_Mysteries"
+			"tool"
+			{
+				"type"		"supply_crate"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_invoker"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Chest"
+			"image_inventory"		"econ/tools/treasure_chest_invoker"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"11"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
 				}
 			}
 		}
@@ -19763,6 +20246,126 @@
 				}
 			}
 		}
+		"15068"
+		{
+			"name"		"Strange Modifier: Multi-Hero Storm Hammers"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_DoubleStuns"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_sven"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"34"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_DoubleStuns"
+			"image_inventory"		"econ/tools/strange_types_Sven_DoubleStuns"
+		}
+		"15069"
+		{
+			"name"		"Strange Modifier: Warcry Assists"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_WarcryAssists"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_sven"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"35"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_WarcryAssists"
+			"image_inventory"		"econ/tools/strange_types_Sven_WarcryAssists"
+		}
+		"15070"
+		{
+			"name"		"Strange Modifier: Multi-Hero Cleave Kills"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_CleaveDoubleKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_sven"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"36"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_CleaveDoubleKills"
+			"image_inventory"		"econ/tools/strange_types_Sven_CleaveDoubleKills"
+		}
+		"15071"
+		{
+			"name"		"Strange Modifier: Storm Hammer Teleport Interrupts"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_TeleportInterrupts"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_sven"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"37"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_TeleportInterrupts"
+			"image_inventory"		"econ/tools/strange_types_Sven_TeleportInterrupts"
+		}
 		"20000"
 		{
 			"name"		"Of Ivory and Ebony Bundle"
@@ -20848,8 +21451,8 @@
 				"Hlotl-Feather Gloves"		"1"
 				"Hlotl-Tusk Headdress of the Seeker"		"1"
 				"Hlotl-Feather Necklace"		"1"
-				"War Blade (Right)"		"1"
-				"War Blade (Left)"		"1"
+				"War Blade"		"1"
+				"War Blade - Off-Hand"		"1"
 			}
 			"item_description"		"#DOTA_Bundle_Desc_Blood_Seeker_Hlotl"
 			"image_inventory"		"econ/sets/DOTA_Bundle_Blood_Seeker_Hlotl"
@@ -22467,6 +23070,31 @@
 			"effect_type"		"positive"
 			"stored_as_integer"		"1"
 		}
+		"386"
+		{
+			"name"		"team ID"
+			"attribute_class"		"team_id"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
+		}
+		"387"
+		{
+			"name"		"fanfare level"
+			"attribute_class"		"fanfare_level"
+			"min_value"		"0"
+			"max_value"		"1"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_FanfareLevel"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
 	}
 	"attribute_controlled_attached_particles"
 	{
@@ -23215,8 +23843,8 @@
 				"Hlotl-Feather Gloves"		"1"
 				"Hlotl-Tusk Headdress of the Seeker"		"1"
 				"Hlotl-Feather Necklace"		"1"
-				"War Blade (Right)"		"1"
-				"War Blade (Left)"		"1"
+				"War Blade"		"1"
+				"War Blade - Off-Hand"		"1"
 			}
 			"store_bundle"		"Ritual Garb of the Seeker Bundle"
 		}
@@ -23476,6 +24104,11 @@
 			"Strange Modifier: Quad Ravages"		"1"
 			"Strange Modifier: Enemies Gushed"		"1"
 		}
+		"strange_modifiers_invoker_a"
+		{
+			"Strange Modifier: Sunstrike Kills"		"1"
+			"Strange Modifier: Tornado Kills"		"1"
+		}
 		"juggernaut_kill_eater_a"
 		{
 			"Grand Claive of the Unshamed"		"1"
@@ -23547,6 +24180,15 @@
 			"Octopus Hat"		"1"
 			"Pirate Slayer's Black Flag"		"1"
 			"Pirate Slayer's Tricorn"		"1"
+		}
+		"invoker_kill_eater_a"
+		{
+			"Cape of the Burning Cabal"		"1"
+			"Crest of the Burning Cabal"		"1"
+			"Crest of the Magus Magnus"		"1"
+			"Bracers of Profound Perfection"		"1"
+			"Cape of Arcane Artistry"		"1"
+			"Hood of Endless Intellect"		"1"
 		}
 		"summer_sale_2012"
 		{
@@ -23650,6 +24292,17 @@
 			"tidehunter_kill_eater_a"		"1"
 			"the_defense_2_unusual_courier"		"1"
 		}
+		"treasure_chest_loot_list_11"
+		{
+			"invoker_kill_eater_a"		"1"
+			"strange_modifiers_invoker_a"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_a"
+			}
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -23663,6 +24316,7 @@
 		"treasure_chest_loot_list_8"		"8"
 		"summer_sale_2012_crate"		"9"
 		"defense_2_crate"		"10"
+		"treasure_chest_loot_list_11"		"11"
 	}
 	"item_levels"
 	{
@@ -24246,6 +24900,81 @@
 				"score"		"100000000"
 			}
 		}
+		"InvokerRank"
+		{
+			"0"
+			{
+				"score"		"10"
+			}
+			"1"
+			{
+				"score"		"25"
+			}
+			"2"
+			{
+				"score"		"50"
+			}
+			"3"
+			{
+				"score"		"75"
+			}
+			"4"
+			{
+				"score"		"100"
+			}
+			"5"
+			{
+				"score"		"150"
+			}
+			"6"
+			{
+				"score"		"200"
+			}
+			"7"
+			{
+				"score"		"250"
+			}
+			"8"
+			{
+				"score"		"300"
+			}
+			"9"
+			{
+				"score"		"350"
+			}
+			"10"
+			{
+				"score"		"400"
+			}
+			"11"
+			{
+				"score"		"450"
+			}
+			"12"
+			{
+				"score"		"500"
+			}
+			"13"
+			{
+				"score"		"600"
+			}
+			"14"
+			{
+				"score"		"700"
+			}
+			"15"
+			{
+				"score"		"800"
+			}
+			"16"
+			{
+				"score"		"900"
+			}
+			"17"
+			{
+				"score"		"1000"
+			}
+		}
 	}
 	"kill_eater_score_types"
 	{
@@ -24355,6 +25084,7 @@
 		"23"
 		{
 			"type_name"		"KillEaterEventType_Invoker_SunstrikeKills"
+			"level_data"		"InvokerRank"
 		}
 		"24"
 		{
@@ -24387,6 +25117,32 @@
 		"31"
 		{
 			"type_name"		"KillEaterEventType_Axe_CalledDamageTaken"
+		}
+		"32"
+		{
+			"type_name"		"KillEaterEventType_Invoker_TornadoKills"
+			"level_data"		"InvokerRank"
+		}
+		"33"
+		{
+			"type_name"		"KillEaterEventType_GamesViewed"
+			"use_level_data"		"0"
+		}
+		"34"
+		{
+			"type_name"		"KillEaterEventType_Sven_DoubleStuns"
+		}
+		"35"
+		{
+			"type_name"		"KillEaterEventType_Sven_WarcryAssists"
+		}
+		"36"
+		{
+			"type_name"		"KillEaterEventType_Sven_CleaveDoubleKills"
+		}
+		"37"
+		{
+			"type_name"		"KillEaterEventType_Sven_TeleportInterrupts"
 		}
 	}
 }
