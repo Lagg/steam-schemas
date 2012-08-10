@@ -1152,9 +1152,9 @@
 			}
 			"attributes"
 			{
-				"damage penalty"
+				"dmg penalty vs players"
 				{
-					"attribute_class"	"mult_dmg"
+					"attribute_class"	"mult_dmg_vs_players"
 					"value"	"0.80"
 				}
 				"ragdolls plasma effect"
@@ -1165,6 +1165,11 @@
 				"crit vs wet players"
 				{
 					"attribute_class"	"crit_vs_wet_players"
+					"value"	"1"
+				}
+				"damage applies to sappers"
+				{
+					"attribute_class"	"set_dmg_apply_to_sapper"
 					"value"	"1"
 				}
 				"crit mod disabled"
@@ -30635,6 +30640,95 @@
 			}
 		}
 
+		"786"
+		{
+			"name"	"The Grenadier Helm"
+			"prefab"	"hat"
+			"first_sale_date"	"2012/08/09"
+			"craft_class"	""			
+			"item_name"	"#TF_HA_Demo"
+			"item_description"	"#TF_HA_Demo_Desc"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"image_inventory"	"backpack/player/items/demo/hero_academy_demo"
+			"model_player"	"models/player/items/demo/hero_academy_demo.mdl"
+			"used_by_classes"
+			{
+				"demoman" "1"
+			}
+		}
+		"787"
+		{
+			"name"	"The Tribal Bones"
+			"prefab"	"hat"
+			"first_sale_date"	"2012/08/09"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"paintable"			"1"
+			}
+			"item_name"	"#TF_HA_Pyro"
+			"item_description"	"#TF_HA_Pyro_Desc"
+			"propername"	"1"
+			"item_slot"	"misc"
+			"equip_region"	"necklace"
+			"image_inventory"	"backpack/player/items/pyro/hero_academy_pyro"
+			"model_player"	"models/player/items/pyro/hero_academy_pyro.mdl"
+			"used_by_classes"
+			{
+				"pyro" "1"
+			}
+		}
+		"788"
+		{
+			"name"	"The Void Monk Hair"
+			"prefab"	"hat"
+			"first_sale_date"	"2012/08/09"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"paintable"			"1"
+			}
+			"item_name"	"#TF_HA_Scout"
+			"item_description"	"#TF_HA_Scout_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/scout/hero_academy_scout"
+			"model_player"	"models/player/items/scout/hero_academy_scout.mdl"
+			"used_by_classes"
+			{
+				"scout" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+		}
+		"789"
+		{
+			"name"	"The Ninja Cowl"
+			"prefab"	"hat"
+			"first_sale_date"	"2012/08/09"
+			"craft_class"	""			
+			"capabilities"
+			{
+				"paintable"			"1"
+			}
+			"item_name"	"#TF_HA_Spy"
+			"item_description"	"#TF_HA_Spy_Desc"
+			"propername"	"1"
+			"equip_region"	"whole_head"
+			"image_inventory"	"backpack/player/items/spy/hero_academy_spy"
+			"model_player"	"models/player/items/spy/hero_academy_spy.mdl"
+			"used_by_classes"
+			{
+				"spy" "1"
+			}
+		}
+
 		"790"
 		{
 			"name"	"Sandvich Promo Package" 
@@ -33096,6 +33190,26 @@
 				"skin"	"0"
 			}
 		}
+		"8070"
+		{		
+			"name"				"Ready Steady Pan Participant Season 1"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_Ready_Steady_Pan_Participant"
+			"item_description"	"#TF_TournamentMedal_Ready_Steady_Pan_Participant_Season1"
+			"image_inventory"	"backpack/player/items/all_class/all_class_badge_pan"
+			"model_player"	"models/player/items/all_class/all_class_badge_pan.mdl"
+		}
+		"8071"
+		{		
+			"name"				"Ready Steady Pan Helper Season 1"
+			"prefab"			"award_medal"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"item_name"			"#TF_TournamentMedal_Ready_Steady_Pan_Participant"
+			"item_description"	"#TF_TournamentMedal_Ready_Steady_Pan_Helper_Season1"
+			"image_inventory"	"backpack/player/items/all_class/all_class_badge_pan"
+			"model_player"	"models/player/items/all_class/all_class_badge_pan.mdl"
+		}
 
 
 
@@ -33527,6 +33641,26 @@
 			"show_in_armory"	"1"
 			"armory_desc"		"maptoken"
 			"image_inventory"	"backpack/player/items/all_class/stamp_gullywash"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"96"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"1918"
+		{
+			"name" "Map Token Kong King"
+			"first_sale_date"	"2012/08/08"
+			"item_class"	"map_token"
+			"item_type_name"	"#TF_MapToken"
+			"item_name"		"#TF_MapToken_KongKing"
+			"item_description"	"#TF_MapToken_KongKing_Desc"
+			"map_name"		"#TF_KongKing"
+			"show_in_armory"	"1"
+			"armory_desc"		"maptoken"
+			"image_inventory"	"backpack/player/items/all_class/stamp_kongking"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"96"
 			"item_quality"		"unique"
@@ -36116,7 +36250,6 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
-
 		"2078"
 		{
 			"name" "Steam Translation Bundle"
@@ -36146,6 +36279,123 @@
 				"spy" 		"1"
 				"engineer" 	"1"
 				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2079"
+		{
+			"name" "Map Token Bundle 4"
+			"first_sale_date"	"2012/08/09"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Map Token Egypt"		"1"
+				"Map Token Coldfront"	"1"
+				"Map Token Fastlane"	"1"
+				"Map Token Turbine"		"1"
+				"Map Token Steel"		"1"
+				"Map Token Junction"	"1"
+				"Map Token Watchtower"	"1"
+				"Map Token Hoodoo"		"1"
+				"Map Token Offblast"	"1"
+				"Map Token Yukon"		"1"
+				"Map Token Harvest"		"1"
+				"Map Token Freight"		"1"
+				"Map Token Mountain Lab"		"1"
+				"Map Token Manor Event"			"1"
+				"Map Token Nightfall"			"1"
+				"Map Token Frontier"			"1"
+				"Map Token Lakeside"			"1"
+				"Map Token Gullywash"			"1"
+				"Map Token Kong King"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_MapTokens"
+			"item_description"	"#TF_Bundle_MapTokens_Desc"
+			"image_inventory"	"backpack/player/items/all_class/stamp_collection"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"2080"
+		{
+			"name" "Hero Academy Gold Bundle"
+			"first_sale_date"	"2012/08/09"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Ninja Cowl"	 	"1"
+				"The Void Monk Hair"	"1"
+				"The Tribal Bones"		"1"
+				"The Grenadier Helm"	"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_HA_Gold"
+			"item_description"	"#TF_Bundle_HA_Gold_Desc"
+			"image_inventory"	"backpack/player/items/crafting/academy_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"demoman"	"1"
+				"spy" 		"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2081"
+		{
+			"name" "Sleeping Dogs Employee Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Red-Tape Recorder"		"1"
+				"The Huo Long Heatmaker"	"1"
+				"The Flying Guillotine"		"1"
+				"The Neon Annihilator"		"1"
+				"The Triad Trinket"			"1"
+				"The Champ Stamp"			"1"
+				"The Marxman"				"1"
+				"The Human Cannonball"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_SleepingDogsBundle"
+			"item_description"	"#TF_Bundle_SleepingDogsBundle_Desc"
+			"image_inventory"	"backpack/player/items/crafting/sleeping_dogs_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -53334,5 +53584,28 @@
 
 
 
+	}
+	"steam_packages"
+	{
+		"16082"
+		{
+			"localization_key"		"SteamPackage_HA_Council"
+		}
+		"16083"
+		{
+			"localization_key"		"SteamPackage_HA_DarkElves"
+		}
+		"16084"
+		{
+			"localization_key"		"SteamPackage_HA_Dwarves"
+		}
+		"16085"
+		{
+			"localization_key"		"SteamPackage_HA_Tribe"
+		}
+		"16086"
+		{
+			"localization_key"		"SteamPackage_HA_GoldPack"
+		}
 	}
 }

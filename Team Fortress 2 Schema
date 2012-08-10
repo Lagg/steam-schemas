@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.88697c80d3e6cee9fe3c918f5153a5a5c935826f.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.0c8cfbb2a791f1d0adeb51b7aae2895b1ae4855a.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -23868,6 +23868,133 @@
 				
 			},
 			{
+				"name": "The Grenadier Helm",
+				"defindex": 786,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Grenadier Helm",
+				"item_description": "Argghhh! You're angry! And you're small! And you need to convey these facts through a single accessory! Strap on the Grenadier Helm and send your enemies to whatever level of Dwarfish hell you deem appropriate.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/hero_academy_demo.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/hero_academy_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hero_academy_demo.b714beff7483a6909c7c86a8a864e9eea1b92adb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hero_academy_demo_large.0eba2b5146e6cde616fe037adef3f7d47e36b985.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Tribal Bones",
+				"defindex": 787,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Tribal Bones",
+				"item_description": "No ritual that results in the senseless destruction of human life at the behest of an angry god is complete without a Tribal Bones necklace. Like all of our mothers weirdly happened to say, if you're going to do some human sacrifices, you gotta look the part.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/hero_academy_pyro.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/hero_academy_pyro",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hero_academy_pyro.0421bb41017ac40ed7a5effd436561fe09114321.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hero_academy_pyro_large.ea7ba1e0335bc7b3ef12abbebe8d78457f9be105.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Void Monk Hair",
+				"defindex": 788,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Void Monk Hair",
+				"item_description": "Channel all the elegance and mystique of an elf with only half the pretention with the Void Monk Hair. Also included with purchase: effeminate good looks. But you already had those, didn't you, you handsome devil.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/hero_academy_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/hero_academy_scout",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hero_academy_scout.fd037b0eebb6fe315d0d4e9e100a0b6d84bd69f0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hero_academy_scout_large.c84eaf3647967f6ba337574884c836a68c1fe55c.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Ninja Cowl",
+				"defindex": 789,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Ninja Cowl",
+				"item_description": "If there's one thing that the ladies\/men love, it's mystery. And what's more mysterious than covering your entire face with a Ninja Cowl? \"Oh my, I can't see any of that man's face!\" they'll exclaim. \"He must have a terrible secret I will uncover with my love.\"",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/hero_academy_spy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/hero_academy_spy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hero_academy_spy.db2746750cce5e5de8e5ff3bced0534eb8ff4747.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hero_academy_spy_large.5b96c0b8aa6b8617296efd2d9e9ff5dab8a283b7.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
 				"name": "Sandvich Promo Package",
 				"defindex": 790,
 				"item_class": "craft_item",
@@ -23967,7 +24094,7 @@
 				"defindex": 811,
 				"item_class": "tf_weapon_minigun",
 				"item_type_name": "Minigun",
-				"item_name": "Huo Long Heatmaker",
+				"item_name": "Huo-Long Heater",
 				"proper_name": true,
 				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_canton\/c_canton.mdl",
@@ -24093,8 +24220,8 @@
 				,
 				"attributes": [
 					{
-						"name": "damage penalty",
-						"class": "mult_dmg",
+						"name": "dmg penalty vs players",
+						"class": "mult_dmg_vs_players",
 						"value": 0.800000
 					},
 					{
@@ -24105,6 +24232,11 @@
 					{
 						"name": "crit vs wet players",
 						"class": "crit_vs_wet_players",
+						"value": 1.000000
+					},
+					{
+						"name": "damage applies to sappers",
+						"class": "set_dmg_apply_to_sapper",
 						"value": 1.000000
 					},
 					{
@@ -24437,7 +24569,7 @@
 				"defindex": 832,
 				"item_class": "tf_weapon_minigun",
 				"item_type_name": "Minigun",
-				"item_name": "Huo Long Heatmaker",
+				"item_name": "Huo-Long Heater",
 				"proper_name": true,
 				"item_slot": "primary",
 				"model_player": "models\/weapons\/c_models\/c_canton\/c_canton.mdl",
@@ -24570,8 +24702,8 @@
 				,
 				"attributes": [
 					{
-						"name": "damage penalty",
-						"class": "mult_dmg",
+						"name": "dmg penalty vs players",
+						"class": "mult_dmg_vs_players",
 						"value": 0.800000
 					},
 					{
@@ -24582,6 +24714,11 @@
 					{
 						"name": "crit vs wet players",
 						"class": "crit_vs_wet_players",
+						"value": 1.000000
+					},
+					{
+						"name": "damage applies to sappers",
+						"class": "set_dmg_apply_to_sapper",
 						"value": 1.000000
 					},
 					{
@@ -25297,6 +25434,31 @@
 				"max_ilevel": 50,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_gullywash.86e8687005ae92c0c3b4eaba6e6a64b5c0f60544.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_gullywash_large.ef8f4107b7d99a1d62c9788cc06a16382bdcd86e.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Map Token Kong King",
+				"defindex": 1918,
+				"item_class": "map_token",
+				"item_type_name": "Map Stamp",
+				"item_name": "Map Stamp - Kong King",
+				"item_description": "A King of the Hill Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Kong King community map.  Show your support today!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamp_kongking",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -27364,6 +27526,88 @@
 					"can_be_restored": true,
 					"strange_parts": true
 				}
+			},
+			{
+				"name": "Map Token Bundle 4",
+				"defindex": 2079,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Map Stamps Collection",
+				"item_description": "Includes one a stamp for each community made map.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamp_collection",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_collection.eee58fb79e7aab6089d3eeab0aa6903d5ee1dccc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamp_collection_large.98575cfa328cabd56e340535e044a6db43368415.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Hero Academy Gold Bundle",
+				"defindex": 2080,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Hero Academy Gold Pack",
+				"item_description": "This heroic bundle contains a gift copy of Hero Academy with all DLC on Steam, as well as all four Hero Academy-themed hats:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/academy_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Demoman",
+					"Pyro",
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Sleeping Dogs Employee Bundle",
+				"defindex": 2081,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Triad Bundle",
+				"item_description": "Trick an incredibly violent and secretive underground Asian crime syndicate into thinking you're one of them! It's a well-known fact that the first thing you get when you join the Chinese mafia is a meat cleaver, a bunch of tattoos, and a special Chinese mafia helmet that will protect your head when you launch yourself at rival gangs out of an ancient Chinese crime cannon. Get in on the ground floor, though, because eventually the Chinese mafia is going to get wise to this bundle and change the contents of their complementary initiation gift basket.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/sleeping_dogs_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sleeping_dogs_bundle.4e2afa9b2dbdbb81f29bb48000772c63950497bb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sleeping_dogs_bundle_large.e70c12d318c59edb3bda7f4e40fcbfe3ae4fe276.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Craft Bar Level 1",
@@ -33141,6 +33385,68 @@
 				"max_ilevel": 25,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan Participant Season 1",
+				"defindex": 8070,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan Participant",
+				"item_description": "Season 1",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_pan.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_pan",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_pan.b0a0975cebb2c5086eaad74f29ac87c42a050d43.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_pan_large.e0ab803ae11b183dadf74ca7ca091bf150554248.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan Helper Season 1",
+				"defindex": 8071,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan Participant",
+				"item_description": "Season 1\nThanks for Helping!",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_pan.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_pan",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_pan.b0a0975cebb2c5086eaad74f29ac87c42a050d43.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_class_badge_pan_large.e0ab803ae11b183dadf74ca7ca091bf150554248.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true,
