@@ -223,6 +223,7 @@
 		"1"		"announcer"
 		"2"		"mega_kills"
 		"3"		"courier"
+		"4"		"fan_item"
 	}
 	"prefabs"
 	{
@@ -2045,7 +2046,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Phantom_Lancers_Head"
-			"item_slot"		"head"
+			"item_slot"		"body_head"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"item_description"		"#DOTA_Item_Desc_Phantom_Lancers_Head"
 			"used_by_heroes"
@@ -3231,7 +3232,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Lycans_Head"
-			"item_slot"		"head"
+			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -3596,6 +3597,198 @@
 				"npc_dota_hero_treant"		"1"
 			}
 			"model_player"		"models/heroes/treant_protector/belt.mdl"
+		}
+		"232"
+		{
+			"name"		"Doom's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Dooms_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_doom_bringer"		"1"
+			}
+			"model_player"		"models/heroes/doom/doom_sword.mdl"
+		}
+		"233"
+		{
+			"name"		"Doom's Helm"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Dooms_Helm"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_doom_bringer"		"1"
+			}
+			"model_player"		"models/heroes/doom/doom_helm.mdl"
+		}
+		"234"
+		{
+			"name"		"Doom's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Dooms_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Helm"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_doom_bringer"		"1"
+			}
+			"model_player"		"models/heroes/doom/shoulders.mdl"
+		}
+		"235"
+		{
+			"name"		"Doom's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Dooms_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Shoulder_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_doom_bringer"		"1"
+			}
+			"model_player"		"models/heroes/doom/bracer.mdl"
+		}
+		"236"
+		{
+			"name"		"Doom's Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_Dooms_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_doom_bringer"		"1"
+			}
+			"model_player"		"models/heroes/doom/belt.mdl"
+		}
+		"237"
+		{
+			"name"		"Doom's Wings"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Dooms_Wings"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Belt"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_doom_bringer"		"1"
+			}
+			"model_player"		"models/heroes/doom/wings.mdl"
+		}
+		"238"
+		{
+			"name"		"Doom's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_legs"
+			"item_name"		"#DOTA_Item_Dooms_Tail"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Wings"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_doom_bringer"		"1"
+			}
+			"model_player"		"models/heroes/doom/tail.mdl"
+		}
+		"246"
+		{
+			"name"		"Shadow Shaman's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Shadow_Shamans_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_shaman"		"1"
+			}
+			"model_player"		"models/heroes/shadowshaman/weapon.mdl"
+		}
+		"247"
+		{
+			"name"		"Shadow Shaman's Off-hand Weapon"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Shadow_Shamans_Offhand_Weapon"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shadow_Shamans_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_shaman"		"1"
+			}
+			"model_player"		"models/heroes/shadowshaman/weapon_offhand.mdl"
+		}
+		"248"
+		{
+			"name"		"Shadow Shaman's Headdress"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Shadow_Shamans_Headdress"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shadow_Shamans_Offhand_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_shaman"		"1"
+			}
+			"model_player"		"models/heroes/shadowshaman/helmet.mdl"
+		}
+		"249"
+		{
+			"name"		"Shadow Shaman's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Shadow_Shamans_Armor"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shadow_Shamans_Headdress"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_shaman"		"1"
+			}
+			"model_player"		"models/heroes/shadowshaman/armarmor.mdl"
+		}
+		"250"
+		{
+			"name"		"Shadow Shaman's Stuff"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_Shadow_Shamans_Stuff"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shadow_Shamans_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_shaman"		"1"
+			}
+			"model_player"		"models/heroes/shadowshaman/belt.mdl"
+		}
+		"251"
+		{
+			"name"		"Shadow Shaman's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_body_head"
+			"item_name"		"#DOTA_Item_Shadow_Shamans_Head"
+			"item_slot"		"body_head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shadow_Shamans_Stuff"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_shaman"		"1"
+			}
+			"model_player"		"models/heroes/shadowshaman/head.mdl"
 		}
 		"4000"
 		{
@@ -15136,7 +15329,9 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Mace"
 			"item_name"		"#DOTA_Item_Timebreaker"
-			"item_rarity"		"uncommon"
+			"item_rarity"		"immortal"
+			"item_quality"		"vintage"
+			"forced_item_quality"		"vintage"
 			"item_description"		"#DOTA_Item_Desc_Timebreaker"
 			"image_inventory"		"econ/items/faceless_void/green_blessed_mace"
 			"used_by_heroes"
@@ -15174,6 +15369,16 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"faceless_void_weapon_glow"
+					"modifier"		"faceless_void_weapon_glow_timebreaker"
+				}
+			}
+			"particle_file"		"particles\econ\items\faceless_void\faceless_void_weapon_timebreaker.pcf"
 		}
 		"4265"
 		{
@@ -18832,7 +19037,7 @@
 		{
 			"name"		"Sithil's Summer Key"
 			"prefab"		"dota_tool"
-			"item_name"		"#DOTA_Item_Treasure_Key"
+			"item_name"		"#DOTA_Item_Treasure_Key_Summer_Sale"
 			"item_rarity"		"mythical"
 			"tool"
 			{
@@ -19229,6 +19434,326 @@
 			"image_inventory"		"econ/leagues/subscriptions_internal_ingame"
 			"image_banner"		"econ/leagues/subscriptions_internal_ingame"
 			"tournament_url"		"http://www.dota2.com/tournaments/international/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15057"
+		{
+			"name"		"Strange Modifier: Enemies Culled"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_Culls"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_axe"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"27"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_Culls"
+			"image_inventory"		"econ/tools/strange_types_Axe_Culls"
+		}
+		"15058"
+		{
+			"name"		"Strange Modifier: Battle Hunger Kills"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_BattleHungerKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_axe"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"28"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_BattleHungerKills"
+			"image_inventory"		"econ/tools/strange_types_Axe_BattleHungerKills"
+		}
+		"15059"
+		{
+			"name"		"Strange Modifier: Axe Dangerous Kills"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_LowHealthKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_axe"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"29"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_LowHealthKills"
+			"image_inventory"		"econ/tools/strange_types_Axe_LowHealthKills"
+		}
+		"15060"
+		{
+			"name"		"Strange Modifier: Call Damage Done"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_CalledDamageDone"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_axe"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"30"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_CalledDamageDone"
+			"image_inventory"		"econ/tools/strange_types_Axe_CalledDamageDone"
+		}
+		"15061"
+		{
+			"name"		"Strange Modifier: Call Damage Taken"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_CalledDamageTaken"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_axe"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"31"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_CalledDamageTaken"
+			"image_inventory"		"econ/tools/strange_types_Axe_CalledDamageTaken"
+		}
+		"15062"
+		{
+			"name"		"Strange Modifier: Tornado Kills"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Invoker_TornadoKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_invoker"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"28"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Invoker_TornadoKills"
+			"image_inventory"		"econ/tools/strange_types_gold"
+		}
+		"15063"
+		{
+			"name"		"Razer Mini Madness"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_RazerMiniMadness"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"10"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_RazerMiniMadness"
+			"image_inventory"		"econ/leagues/subscriptions_razerminimadness"
+			"image_banner"		"econ/leagues/subscriptions_razerminimadness_ingame"
+			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-presents-razer-mini-madness_621"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15064"
+		{
+			"name"		"Razer Mini Madness ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_RazerMiniMadness_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"10"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_RazerMiniMadness"
+			"image_inventory"		"econ/leagues/subscriptions_razerminimadness"
+			"image_banner"		"econ/leagues/subscriptions_razerminimadness_ingame"
+			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-presents-razer-mini-madness_621"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15065"
+		{
+			"name"		"AbsoluteArena King of the Hill"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_AbsoluteArenaKOH"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"11"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_AbsoluteArenaKOH"
+			"image_inventory"		"econ/leagues/subscriptions_absolutearenakoh"
+			"image_banner"		"econ/leagues/subscriptions_absolutearenakoh_ingame"
+			"tournament_url"		"http://www.absolutelegends.net/news/2069/AbsoluteArena-King-of-the-Hill-Schedule-Update"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15066"
+		{
+			"name"		"AbsoluteArena King of the Hill ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_AbsoluteArenaKOH_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"11"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_League_AbsoluteArenaKOH"
+			"image_inventory"		"econ/leagues/subscriptions_absolutearenakoh"
+			"image_banner"		"econ/leagues/subscriptions_absolutearenakoh_ingame"
+			"tournament_url"		"http://www.absolutelegends.net/news/2069/AbsoluteArena-King-of-the-Hill-Schedule-Update"
 			"attributes"
 			{
 				"disallow recycling"
@@ -21815,7 +22340,7 @@
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
 			"effect_type"		"positive"
-			"stored_as_integer"		"1"
+			"stored_as_integer"		"0"
 		}
 		"319"
 		{
@@ -21826,10 +22351,24 @@
 			"max_value"		"0.850000"
 			"group"		"only_on_unique"
 			"description_string"		"#Attrib_GameTime"
-			"description_format"		"value_is_additive"
+			"description_format"		"value_is_game_time"
 			"hidden"		"1"
 			"effect_type"		"positive"
-			"stored_as_integer"		"1"
+			"stored_as_integer"		"0"
+		}
+		"320"
+		{
+			"name"		"replay time"
+			"attribute_class"		"replay_time"
+			"attribute_name"		"replay time"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ReplayTime"
+			"description_format"		"value_is_game_time"
+			"hidden"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
 		}
 		"342"
 		{
@@ -23828,6 +24367,26 @@
 		"26"
 		{
 			"type_name"		"KillEaterEventType_Tide_EnemiesGushed"
+		}
+		"27"
+		{
+			"type_name"		"KillEaterEventType_Axe_Culls"
+		}
+		"28"
+		{
+			"type_name"		"KillEaterEventType_Axe_BattleHungerKills"
+		}
+		"29"
+		{
+			"type_name"		"KillEaterEventType_Axe_LowHealthKills"
+		}
+		"30"
+		{
+			"type_name"		"KillEaterEventType_Axe_CalledDamageDone"
+		}
+		"31"
+		{
+			"type_name"		"KillEaterEventType_Axe_CalledDamageTaken"
 		}
 	}
 }
