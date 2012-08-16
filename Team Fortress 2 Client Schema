@@ -177,6 +177,7 @@
 			"sniper_legs"		"1"
 			"medic_gloves"		"1"
 			"scout_or_heavy_shirt"		"1"
+			"soldier_cigar"		"1"
 		}
 		"shared"
 		{
@@ -206,6 +207,25 @@
 	"prefabs"
 	{
 
+		"cosmetic"
+		{
+			"loadondemand"			"1"
+			"capabilities"
+			{
+				"nameable"			"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"		"1"
+			"item_class"			"tf_wearable"
+			"item_quality"			"unique"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_type"				"none"
+			"craft_class"			"hat"
+			"craft_material_type"	"hat"
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_pickup.wav"
+		}
 		"hat"
 		{
 			"item_class"			"tf_wearable"
@@ -302,6 +322,111 @@
 				"spy" "1"
 				"engineer" "1"
 				"pyro" "1"
+			}
+		}
+		"hat_new"
+		{
+			"prefab"				"cosmetic"
+			"item_type_name"		"#TF_Wearable_Hat"
+			"item_slot"				"head"
+			"equip_region"			"hat"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
+			}
+		}
+		"promo_hat_new"
+		{
+			"prefab"				"hat"
+			"craft_class"			""
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+		"score_reward_hat_new"
+		{
+			"prefab"				"promo_hat"
+			"craft_material_type"	""
+			"capabilities"
+			{
+				"paintable"			"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+		}
+		"backpack"
+		{
+			"prefab"				"cosmetic"
+			"item_type_name"		"#TF_Wearable_Backpack"
+			"item_slot"				"misc"
+			"equip_region"			"back"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"backpack"			"1"
+					"medic_backpack"	"1"
+				}
+			}
+		}
+		"promo_backpack"
+		{
+			"prefab"				"backpack"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+		"grenades"
+		{
+			"prefab"				"cosmetic"
+			"item_type_name"		"#TF_Wearable_Bombs"
+			"item_slot"				"misc"
+			"equip_region"			"grenades"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"grenades"		"1"
+				}
 			}
 		}
 		"paint_can"
@@ -415,6 +540,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_class"	"tf_weapon_minigun"
 			"craft_class"	"weapon"
@@ -433,6 +559,14 @@
 			"used_by_classes"
 			{
 				"heavy"	"1"
+			}
+			"visuals_mvm_boss"
+			{
+				"sound_double_shot"	"MVM.GiantHeavyGunFire"
+				"sound_burst"		"MVM.GiantHeavyGunFire"
+				"sound_special1"	"MVM.GiantHeavyGunWindUp"
+				"sound_special2"	"MVM.GiantHeavyGunWindDown"
+				"sound_special3"	"MVM.GiantHeavyGunSpin"
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -468,6 +602,12 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
+			}
+			"visuals_mvm_boss"
+			{
+				"sound_single_shot"	"MVM.GiantSoldierRocketShoot"
+				"sound_burst"		"MVM.GiantSoldierRocketShoot"
+				"sound_special1"	"MVM.GiantSoldierRocketExplode"
 			} 
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -677,6 +817,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_class"	"tf_weapon_scattergun"
 			"craft_class"	"weapon"
@@ -709,6 +850,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_headshot"				"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_class"	"tf_weapon_sniperrifle"
 			"craft_class"	"weapon"
@@ -1000,6 +1142,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -1741,6 +1884,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_shotgun"
@@ -1776,6 +1920,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"hidden"	"1"
 			"first_sale_date"	"2010/09/29"
@@ -1812,6 +1957,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"hidden"	"1"
 			"first_sale_date"	"2010/09/29"
@@ -1848,6 +1994,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"hidden"	"1"
 			"first_sale_date"	"2010/09/29"
@@ -1902,6 +2049,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_smg"
@@ -2025,6 +2173,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_pistol"
@@ -2060,6 +2209,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"hidden"	"1"
 			"first_sale_date"	"2010/09/29"
@@ -2096,6 +2246,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_revolver"
@@ -2810,6 +2961,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -3045,6 +3197,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Scattergun"
@@ -3433,6 +3586,7 @@
 				"can_headshot"				"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_CompoundBow"
@@ -3691,6 +3845,7 @@
 				"can_deal_damage"		"1"
 				"can_headshot"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -5852,6 +6007,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Shotgun"
@@ -8207,6 +8363,7 @@
 				"can_deal_damage"			"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8247,6 +8404,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8282,6 +8440,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_headshot"				"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8317,6 +8476,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8352,6 +8512,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8583,6 +8744,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8621,6 +8783,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8971,6 +9134,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Peppergun"
@@ -9661,6 +9825,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_logname"	"sydney_sleeper"
 			"item_iconname"	"sydney_sleeper"
@@ -12847,6 +13012,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -13469,6 +13635,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -16878,6 +17045,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_headshot"				"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_logname"	"bazaar_bargain"
 			"item_iconname"	"bazaar_bargain"
@@ -17687,6 +17855,7 @@
 				"can_deal_damage"			"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_name"	"#TF_ReserveShooter"
@@ -18041,6 +18210,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -18109,6 +18279,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_logname" "family_business"
@@ -19149,6 +19320,7 @@
 			"tags"
 			{
 				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Scattergun"
@@ -19284,6 +19456,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Pistol"
 			"item_logname" "the_winger"
@@ -19709,6 +19882,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -20757,6 +20931,68 @@
 			"drop_sound" 		"ui/item_paper_pickup.wav"
 		}
 		
+
+		"489"
+		{
+			"name"	"Power Up Canteen (MvM)"
+			"first_sale_date"	"2012/12/25"
+			"item_class"	"tf_powerup_bottle"
+			"tool"
+			{
+				"type"	"powerup_bottle"
+			}
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"usable"		"1"
+				"can_craft_count"	"1"
+			}
+			"loadondemand"			"1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_UsableItem"
+			"item_name"	"#TF_Usable_PowerupBottle"
+			"item_description"	"#TF_Usable_PowerupBottle_Desc"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/player/items/all_class/powerupbottle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"model_player"	"models/player/items/mvm_loot/all_class/mvm_flask_generic.mdl"
+			"armory_desc" "action"			
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"powerup charges"
+				{
+					"attribute_class"	"powerup_charges"
+					"value"	"0"
+				}
+				"powerup max charges"
+				{
+					"attribute_class"	"powerup_max_charges"
+					"value"	"3"
+				}
+				"powerup duration"
+				{
+					"attribute_class"	"powerup_duration"
+					"value"	"5"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
+			"drop_sound"		"ui/item_bottle_drop.wav"
+		}
 		
 		"490"
 		{
@@ -21157,6 +21393,13 @@
 				"sound_deploy"			"Weapon_QuakeRPG.Draw"
 				"sound_reload"			"Weapon_QuakeRPG.Reload"	
 			}
+			"visuals_mvm_boss"
+			{
+				"use_visualsblock_as_base"	"visuals"
+				"sound_single_shot"		"MVM.GiantSoldierRocketShoot"
+				"sound_burst"			"MVM.GiantSoldierRocketShoot"
+				"sound_special1"		"MVM.GiantSoldierRocketExplode"
+			} 
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -21699,6 +21942,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -21763,6 +22007,7 @@
 			{
 				"can_deal_damage"		"1"
 				"can_headshot"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_SniperRifle"
 			"item_name"	"#TF_DEX_Rifle"
@@ -21837,6 +22082,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_logname" "widowmaker"
@@ -24159,11 +24405,6 @@
 				{
 					"attribute_class"	"energy_weapon_no_ammo"
 					"value" "1"
-				}
-				"energy weapon penetration"
-				{
-					"attribute_class"	"energy_weapon_penetration"
-					"value"	"1"
 				}
 				"energy weapon no deflect"
 				{
@@ -28405,6 +28646,69 @@
 				"scout"	"1"
 			}
 		}
+		"725"
+		{
+			"name"	"Tour of Duty Ticket"
+			"first_sale_date"	"2012/08/16"
+			"item_class"	"craft_item"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Ticket"
+			"item_name"	"#TF_MvM_ChallengeTicket"
+			"item_description"	"#TF_MvM_ChallengeTicket_Desc"
+			"image_inventory"	"backpack/crafting/mvm_ticket"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"726"
+		{
+			"name"	"Tour of Duty Badge"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_MvM_ChallengeBadge"
+			"item_description"	"#TF_MvM_ChallengeBadge_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"image_inventory"	"backpack/player/items/mvm_loot/all_class/mvm_badge"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"model_player"	"models/player/items/mvm_loot/all_class/mvm_badge.mdl"
+			"min_ilevel"	"1"
+			"max_ilevel"	"100"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
 		"727"
 		{
 			"name"			"The Black Rose"
@@ -28683,6 +28987,7 @@
 			"prefab"	"hat"
 			"capabilities"
 			{
+				"paintable" "1"
 				"can_craft_count"	"1"
 			}
 			"propername"	"1"
@@ -28707,6 +29012,59 @@
 			}
 		}	
 		
+		"733"
+		{
+			"name"	"Pet Robro"
+			"first_sale_date"	"2012/08/15"
+			"hidden"	"0"	
+			"item_class"	"tf_wearable"
+			"craft_class"	""						
+			"craft_material_type"	"hat"
+			"equip_region"		"disconnected_floating_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"paintable"		"1"
+			}
+			"loadondemand" "1"
+			"propername" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Robot"
+			"item_name"	"#TF_Pet_Robro"
+			"item_description"	"#TF_Pet_Robro_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"100"
+			"image_inventory"	"backpack/player/items/all_class/pet_robro"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/pet_robro.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
 		
 		"734"
 		{
@@ -29186,6 +29544,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_logname"	"pro_smg"
 			"item_iconname"	"pro_smg"
@@ -29253,6 +29612,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_headshot"				"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"item_logname"	"pro_rifle"
 			"item_iconname"	"pro_rifle"
@@ -29507,6 +29867,28 @@
 			}
 		}
 
+		"758"
+		{
+			"name"	"MvM Squad Surplus Voucher"
+			"first_sale_date"	"2012/08/16"
+			"item_class"	"craft_item"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Ticket"
+			"item_name"	"#TF_MvM_SquadSurplusVoucher"
+			"item_description"	"#TF_MvM_SquadSurplusVoucher_Desc"
+			"image_inventory"	"backpack/crafting/mvm_squad_surplus"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
 		"759"
 		{
 			"name"	"The Fruit Shoot"
@@ -29978,6 +30360,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Scattergun"
@@ -30039,6 +30422,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
 			}
 			"first_sale_date" "2012/06/27"
 			"item_class"	"tf_weapon_handgun_scout_secondary"
@@ -30767,6 +31151,481 @@
 			"mouse_pressed_sound" 	"ui/item_paper_pickup.wav"
 			"drop_sound" 		"ui/item_paper_pickup.wav"
 		}
+		"792"
+		{
+			"name"			"Botkiller Sniper Rifle"
+			"prefab"		"weapon_sniperrifle"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_SniperRifle_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/sniper/fob_h_sniperrifle"
+			"extra_wearable" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_v.mdl"
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+
+		"793"
+		{
+			"name"			"Botkiller Minigun"
+			"prefab"		"weapon_minigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Minigun_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/heavy/fob_h_minigun"
+			"extra_wearable" "models/player/items/mvm_loot/heavy/fob_h_minigun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/heavy/fob_h_minigun_v.mdl"
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"794"
+		{
+			"name"			"Botkiller Knife"
+			"prefab"		"weapon_knife"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Knife_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/spy/fob_h_knife"
+			"extra_wearable" "models/player/items/mvm_loot/spy/fob_h_knife.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/spy/fob_h_knife_v.mdl"
+		}
+		"795"
+		{
+			"name"			"Botkiller Wrench"
+			"prefab"		"weapon_wrench"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Wrench_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/engineer/fob_h_wrench"
+			"extra_wearable" "models/player/items/mvm_loot/engineer/fob_h_wrench.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/engineer/fob_h_wrench_v.mdl"
+		}
+		"796"
+		{
+			"name"			"Botkiller Medi Gun"
+			"prefab"		"weapon_medigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Medigun_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/medic/fob_h_medigun"
+			"extra_wearable" "models/player/items/mvm_loot/medic/fob_h_medigun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/medic/fob_h_medigun_v.mdl"
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"797"
+		{
+			"name"			"Botkiller Stickybomb Launcher"
+			"prefab"		"weapon_stickybomb_launcher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_StickybombLauncher_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/demo/fob_h_stickybomb"
+			"extra_wearable" "models/player/items/mvm_loot/demo/fob_h_stickybomb.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/demo/fob_h_stickybomb_v.mdl"
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"798"
+		{
+			"name"			"Botkiller Flame Thrower"
+			"prefab"		"weapon_flamethrower"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Flamethrower_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/pyro/fob_h_flamethrower"
+			"extra_wearable" "models/player/items/mvm_loot/pyro/fob_h_flamethrower.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_v.mdl"
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"799"
+		{
+			"name"			"Botkiller Scattergun"
+			"prefab"		"weapon_scattergun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Scattergun_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/scout/fob_h_scattergun"
+			"extra_wearable" "models/player/items/mvm_loot/scout/fob_h_scattergun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/scout/fob_h_scattergun_v.mdl"
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"800"
+		{
+			"name"			"Botkiller Rocket Launcher"
+			"prefab"		"weapon_rocketlauncher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_RocketLauncher_MVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher"
+			"extra_wearable" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_v.mdl"
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+
+
+		"801"
+		{
+			"name"			"Gold Botkiller Sniper Rifle"
+			"prefab"		"weapon_sniperrifle"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_SniperRifle_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/sniper/fob_h_sniperrifle_gold"
+			"extra_wearable" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"802"
+		{
+			"name"			"Gold Botkiller Minigun"
+			"prefab"		"weapon_minigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Minigun_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/heavy/fob_h_minigun_gold"
+			"extra_wearable" "models/player/items/mvm_loot/heavy/fob_h_minigun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/heavy/fob_h_minigun_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"803"
+		{
+			"name"			"Gold Botkiller Knife"
+			"prefab"		"weapon_knife"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Knife_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/spy/fob_h_knife_gold"
+			"extra_wearable" "models/player/items/mvm_loot/spy/fob_h_knife.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/spy/fob_h_knife_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}
+		}
+		"804"
+		{
+			"name"			"Gold Botkiller Wrench"
+			"prefab"		"weapon_wrench"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Wrench_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/engineer/fob_h_wrench_gold"
+			"extra_wearable" "models/player/items/mvm_loot/engineer/fob_h_wrench.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/engineer/fob_h_wrench_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}
+		}
+		"805"
+		{
+			"name"			"Gold Botkiller Medi Gun"
+			"prefab"		"weapon_medigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Medigun_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/medic/fob_h_medigun_gold"
+			"extra_wearable" "models/player/items/mvm_loot/medic/fob_h_medigun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/medic/fob_h_medigun_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"806"
+		{
+			"name"			"Gold Botkiller Stickybomb Launcher"
+			"prefab"		"weapon_stickybomb_launcher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_StickybombLauncher_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/demo/fob_h_stickybomb_gold"
+			"extra_wearable" "models/player/items/mvm_loot/demo/fob_h_stickybomb.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/demo/fob_h_stickybomb_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}		
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"807"
+		{
+			"name"			"Gold Botkiller Flame Thrower"
+			"prefab"		"weapon_flamethrower"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Flamethrower_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/pyro/fob_h_flamethrower_gold"
+			"extra_wearable" "models/player/items/mvm_loot/pyro/fob_h_flamethrower.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}		
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"808"
+		{
+			"name"			"Gold Botkiller Scattergun"
+			"prefab"		"weapon_scattergun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Scattergun_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/scout/fob_h_scattergun_gold"
+			"extra_wearable" "models/player/items/mvm_loot/scout/fob_h_scattergun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/scout/fob_h_scattergun_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}		
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"809"
+		{
+			"name"			"Gold Botkiller Rocket Launcher"
+			"prefab"		"weapon_rocketlauncher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_RocketLauncher_MVMLootGold"
+			"image_inventory"	"backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher_gold"
+			"extra_wearable" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"2"
+			}
+			"visuals_blu"
+			{
+				"skin"	"3"
+			}		
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
 		"810"
 		{
 			"name"	"The Red-Tape Recorder"
@@ -30881,7 +31740,7 @@
 			"model_player"	"models/player/items/pyro/awes_jetpack.mdl"
 			"used_by_classes"
 			{
-				"pyro" "1"
+				"pyro"	"1"
 			}
 			"visuals"
 			{
@@ -30890,6 +31749,37 @@
 					"backpack"			"1"
 				}
 			}
+		}
+		"828"
+		{
+			"name"	"Archimedes"
+			"first_sale_date"	"2012/08/15"
+			"prefab"	"hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_slot"	"misc"
+			"equip_region"	"left_shoulder"
+			"item_type_name"	"#TF_Wearable_Animal"
+			"item_name"	"#TF_Archimedes"
+			"item_description"	"#TF_Archimedes_Desc"
+			"image_inventory"	"backpack/player/items/medic/archimedes"
+			"model_player"	"models/player/items/medic/archimedes.mdl"
+			"used_by_classes"
+			{
+				"medic"	"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
+			"drop_sound"			"ui/item_gooey_pickup.wav"
 		}
 		"831"
 		{
@@ -31097,6 +31987,292 @@
 			}
 			"mouse_pressed_sound" 	"ui/item_paper_pickup.wav"
 			"drop_sound" 		"ui/item_paper_pickup.wav"
+		}
+
+
+		"840"
+		{
+			"name"	"The U-clank-a"
+			"prefab"	"hat_new"
+			"craft_class"	""
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_Heavy_Robot_Ushanka_Hat"
+			"item_description"	"#TF_Heavy_Robot_Ushanka_Hat_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/heavy/robo_ushanka"
+			"model_player"	"models/player/items/mvm_loot/heavy/robo_ushanka.mdl"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+
+		"841"
+		{
+			"name"	"The Stealth Steeler"
+			"prefab"	"hat_new"
+			"craft_class"	""
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
+			"item_name"	"#TF_Spy_Robot_Fedora"
+			"item_description"	"#TF_Spy_Robot_Fedora_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/spy/robo_fedora"
+			"model_player"	"models/player/items/mvm_loot/spy/robo_fedora.mdl"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+
+		"842"
+		{
+			"name"	"The Pyrobotics Pack"
+			"prefab"	"backpack"
+			"craft_class"	""
+			"item_name"	"#TF_Pyro_Robot_Backpack"
+			"item_description"	"#TF_Pyro_Robot_Backpack_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/pyro/pyrobo_backpack"
+			"model_player"	"models/player/items/mvm_loot/pyro/pyrobo_backpack.mdl"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"pyro" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+
+		"843"
+		{
+			"name"	"The Medic Mech-bag"
+			"prefab"	"backpack"
+			"craft_class"	""
+			"item_name"	"#TF_Medic_Robot_Backpack"
+			"item_description"	"#TF_Medic_Robot_Backpack_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/medic/robo_backpack"
+			"model_player"	"models/player/items/mvm_loot/medic/robo_backpack.mdl"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"medic" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		
+		"844"
+		{
+			"name"	"The Tin Pot"
+			"prefab"	"hat_new"
+			"craft_class"	""
+			"item_name"	"#TF_Soldier_Robot_Helmet"
+			"item_description"	"#TF_Soldier_Robot_Helmet_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/soldier/robot_helmet"
+			"propername"	"1"
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"
+						{
+							"soldier"	"models/player/items/mvm_loot/soldier/robot_helmet_bullet.mdl"
+						}
+						"name"	"#TF_Soldier_Robot_Helmet_Style0"
+					}
+					"1"
+					{
+						"model_player_per_class"
+						{
+							"soldier"	"models/player/items/mvm_loot/soldier/robot_helmet.mdl"
+						}
+						"name"	"#TF_Soldier_Robot_Helmet_Style1"
+					}
+				}
+			}
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+
+		"845"
+		{
+			"name"	"The Battery Bandolier"
+			"prefab"	"grenades"
+			"craft_class"	""
+			"item_name"	"#TF_Demo_Robot_Grenades"
+			"item_description"	"#TF_Demo_Robot_Grenades_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/demo/battery_grenade"
+			"model_player"	"models/player/items/mvm_loot/demo/battery_grenade.mdl"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		
+		"846"
+		{
+			"name"	"The Robot Running Man"
+			"prefab"	"hat_new"
+			"craft_class"	""
+			"item_name"	"#TF_Scout_Robot_Cap"
+			"item_description"	"#TF_Scout_Robot_Cap_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/scout/robo_cap"
+			"model_player"	"models/player/items/mvm_loot/scout/robo_cap.mdl"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		
+		"847"
+		{
+			"name"	"The Bolted Bushman"
+			"prefab"	"hat_new"
+			"craft_class"	""
+			"item_name"	"#TF_Sniper_Robot_Hat"
+			"item_description"	"#TF_Sniper_Robot_Hat_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/sniper/robo_sniper_hat"
+			"model_player"	"models/player/items/mvm_loot/sniper/robo_sniper_hat.mdl"
+			"propername"	"1"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+
+		"848"
+		{
+			"name"	"The Tin-1000"
+			"prefab"	"hat"
+			"craft_class"	""
+			"item_name"	"#TF_Engineer_Robot_Hat"
+			"item_description"	"#TF_Engineer_Robot_Hat_Desc"
+			"image_inventory"	"backpack/player/items/mvm_loot/engineer/robo_engy_hat"
+			"model_player"	"models/player/items/mvm_loot/engineer/robo_engy_hat.mdl"
+			"propername"	"1"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_scrap_pickup.wav"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+
+
+
+		"850"
+		{
+			"name"			"Deflector"
+			"prefab"		"weapon_minigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"show_in_armory"	"0"
+			"item_name"		"#TF_Minigun_Deflector"
+			"item_quality"	"unique"
+			"visuals"
+			{
+				"tracer_effect"	"bullet_tracer02"
+			}
+			"visuals_mvm_boss"
+			{
+				"use_visualsblock_as_base"	"visuals"
+				"sound_double_shot"	"MVM.GiantHeavyGunFire"
+				"sound_burst"		"MVM.GiantHeavyGunFire"
+				"sound_special1"	"MVM.GiantHeavyGunWindUp"
+				"sound_special2"	"MVM.GiantHeavyGunWindDown"
+				"sound_special3"	"MVM.GiantHeavyGunSpin"
+			} 
+		}
+		"851"
+		{
+			"name"	"The AWPer Hand"
+			"prefab"	"weapon_sniperrifle"
+			"craft_class"	""
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0" 	
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_CSGO_AWP"
+			"item_description"	"#TF_CSGO_AWP_Desc"
+			"item_quality"	"unique"
+			"baseitem"	"0"
+			"image_inventory"	"backpack/weapons/c_models/c_csgo_awp/c_csgo_awp"
+			"model_player"	"models/weapons/c_models/c_csgo_awp/c_csgo_awp.mdl"
+			"propername"	"1"
+			"attach_to_hands"	"1"
+			"item_logname"	"awper_hand"
+			"visuals"
+			{
+				"sound_single_shot"	"Weapon_AWP.Single"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+		}
+		"852"
+		{
+			"name"	"The Soldier's Stogie"
+			"first_sale_date"	"2012/08/15"
+			"prefab"	"cosmetic"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_slot"	"misc"
+			"equip_region"	"soldier_cigar"
+			"item_type_name"	"#TF_Wearable_Cigar"
+			"item_name"	"#TF_SoldierCigar"
+			"item_description"	"#TF_SoldierCigar_Desc"
+			"image_inventory"	"backpack/player/items/soldier/cigar"
+			"model_player"	"models/player/items/soldier/cigar.mdl"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
 		}
 
 
@@ -35669,15 +36845,15 @@
 		}
 		"2061"
 		{
-			"name" "Mysterious Promo" 
+			"name" "Archimedes Promo" 
 			"item_class"	"bundle"
 			"bundle"
 			{
-				"The Flare Gun"		"1"
+				"Archimedes"		"1"
 			}
 			"item_type_name"	"#TF_StoreBundle"
-			"item_name"		"#TF_Bundle_MysteriousPromo"
-			"item_description"	"#TF_Bundle_MysteriousPromo_Desc"
+			"item_name"		"#TF_Bundle_ArchimedesPromo"
+			"item_description"	"#TF_Bundle_ArchimedesPromo_Desc"
 			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
@@ -35686,15 +36862,7 @@
 			"max_ilevel"	"50"
 			"used_by_classes"
 			{
-				"scout"		"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
 				"medic"		"1"
-				"heavy"		"1"
-				"spy" 		"1"
-				"engineer" 	"1"
-				"pyro" 		"1"
 			}
 			"attributes"
 			{
@@ -38394,15 +39562,6 @@
 			}
 			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
 			"drop_sound"		"ui/item_paper_pickup.wav"
-			"scout_md5_314" "40119059ad74854a84f78a102fb6048d"
-			"soldier_md5_516" "5f99cc6e57a84e6c52f6df772196a7ef"
-			"pyro_md5_323" "a8a7188d6911026801eb1a6279d7f0b9"
-			"demo_md5_372" "1c2594a0d12aba24d304487742205f04"
-			"heavy_md5_308" "2eb157506d8ca40c919541741b04d432"
-			"medic_md5_328" "6c5d3d7ea48af4c8ceb8eb801c65de84"
-			"engineer_md5_500" "928b4eba739114893aff40614aa74b17"
-			"sniper_md5_276" "6aa6787bc62adcd3d646164c9b68f026"
-			"spy_md5_65" "5696492788ca11dd2f1eaa9f5294e3d2"
 		}
 		"5607"
 		{
@@ -42643,6 +43802,73 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
+		"270"
+		{
+			"name"	"powerup max charges"
+			"attribute_class"	"powerup_max_charges"
+			"attribute_name"	"power max charges"
+			"min_value"	"1"
+			"max_value"	"25"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_PowerupMaxCharges"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"271"
+		{
+			"name"	"powerup charges"
+			"attribute_class"	"powerup_charges"
+			"attribute_name"	"power charges"
+			"min_value"	"1"
+			"max_value"	"25"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_PowerupCharges"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"272"
+		{
+			"name"	"powerup duration"
+			"attribute_class"	"powerup_duration"
+			"min_value"	"1"
+			"max_value"	"25"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_PowerupDuration"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"273"
+		{
+			"name"	"critboost"
+			"attribute_class"	"critboost"
+			"min_value"	"1"
+			"max_value"	"25"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CritBoost"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"274"
+		{
+			"name"	"ubercharge"
+			"attribute_class"	"ubercharge"
+			"min_value"	"1"
+			"max_value"	"25"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Ubercharge"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 		"275"
 		{
 			"name"	"cancel falling damage"
@@ -42655,6 +43881,46 @@
 			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"1"
+		}
+		"276"
+		{
+			"name"	"bidirectional teleport"
+			"attribute_class"	"bidirectional_teleport"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"wrench"
+			"description_string"	"#Attrib_BiDirectionalTP"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"277"
+		{
+			"name"	"multiple sentries"
+			"attribute_class"	"multiple_sentries"
+			"min_value"	"1"
+			"max_value"	"3"
+			"group"	"wrench"
+			"description_string"	"#Attrib_MultipleSentries"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"278"
+		{
+			"name"	"effect bar recharge rate increased"
+			"attribute_class"	"effectbar_recharge_rate"
+			"attribute_name"	"Increase to recharge rate."
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_EffectBarRechargeRateIncreased"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
 		}
 		"279"
 		{
@@ -42747,6 +44013,34 @@
 			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"1"
+		}
+		"286"
+		{
+			"name"	"engy building health bonus"
+			"attribute_class"	"mult_engy_building_health"
+			"attribute_name"	"engy buildings have health bonus"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_EngyBuildingHealthBonus"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"287"
+		{
+			"name"	"engy sentry damage bonus"
+			"attribute_class"	"mult_engy_sentry_damage"
+			"attribute_name"	"engy sentryguns have damage bonus"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_EngySentryDamageBonus"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
 		}
 		"288"
 		{
@@ -43011,6 +44305,19 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}		
+		"310"
+		{
+			"name"	"recall"
+			"attribute_class"	"recall"
+			"min_value"	"1"
+			"max_value"	"25"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Recall"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 		"311"
 		{
 			"name"	"unlimited quantity"
@@ -43038,6 +44345,46 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"1"
 		}
+		"313"
+		{
+			"name"	"applies snare effect"
+			"attribute_class"	"applies_snare_effect"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_AppliesSnareEffect"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"314"
+		{
+			"name"	"uber duration bonus"
+			"attribute_class"	"add_uber_time"
+			"attribute_name"	"uber duration bonus"
+			"min_value"	"1.05"
+			"max_value"	"1.1"
+			"group"	"weapons"
+			"description_string"	"#Attrib_UberDurationBonus"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"315"
+		{
+			"name"	"refill_ammo"
+			"attribute_class"	"refill_ammo"
+			"min_value"	"1"
+			"max_value"	"25"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_RefillAmmo"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 		"317"
 		{
 			"name"	"store sort override DEPRECATED"
@@ -43051,6 +44398,62 @@
 			"hidden"	"1"
 			"effect_type"	"neutral"
 			"stored_as_integer"	"1"
+		}
+		"318"
+		{
+			"name"	"faster reload rate"
+			"attribute_class"	"fast_reload"
+			"attribute_name"	"faster reload rate"
+			"min_value"	"0.9"
+			"max_value"	"0.1"
+			"group"	"weapons"
+			"description_string"	"#Attrib_FastReload"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"319"
+		{
+			"name"	"increase buff duration"
+			"attribute_class"	"mod_buff_duration"
+			"attribute_name"	"increase buff duration"
+			"min_value"	"1.05"
+			"max_value"	"1.15"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_BuffTime_Increased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"320"
+		{
+			"name"	"robo sapper"
+			"attribute_class"	"robo_sapper"
+			"attribute_name"	"special sapper for robotic enemies"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"sapper"
+			"description_string"	"#Attrib_RoboSapper"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"321"
+		{
+			"name"	"build rate bonus"
+			"attribute_class"	"mod_build_rate"
+			"attribute_name"	"increase build speed"
+			"min_value"	"0.95"
+			"max_value"	"0.9"
+			"group"	"engineer"
+			"description_string"	"#Attrib_BuildRateBonus"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
 		}
 		"322"
 		{
@@ -43066,6 +44469,76 @@
 			"effect_type"	"neutral"
 			"stored_as_integer"	"1"
 		}
+		"323"
+		{
+			"name"	"attack projectiles"
+			"attribute_class"	"attack_projectiles"
+			"attribute_name"	"able to shoot down rockets and grenades"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"sapper"
+			"description_string"	"#Attrib_AttackProjectiles"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"324"
+		{
+			"name"	"accuracy scales damage"
+			"attribute_class"	"accuracy_scales_damage"
+			"attribute_name"	"accuracy scales damage"
+			"min_value"	"1.05"
+			"max_value"	"1.15"
+			"group"	"weapons"
+			"description_string"	"#Attrib_AccurScalesDmg"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"325"
+		{
+			"name"	"currency bonus"
+			"attribute_class"	"currency_bonus"
+			"attribute_name"	"collected currency bonus"
+			"min_value"	"1.05"
+			"max_value"	"1.25"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CurrencyBonus"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"326"
+		{
+			"name"	"increased jump height"
+			"attribute_class"	"mod_jump_height"
+			"attribute_name"	"jump higher, farther"
+			"min_value"	"0.95"
+			"max_value"	"0.9"
+			"group"	"engineer"
+			"description_string"	"#Attrib_JumpHeightBonus"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"327"
+		{
+			"name"	"building instant upgrade"
+			"attribute_class"	"building_instant_upgrade"
+			"attribute_name"	"instantly upgrade buildings to max level"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"engineer"
+			"description_string"	"#Attrib_BuildingInstaUpgrade"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
 		"328"
 		{
 			"name"	"disable fancy class select anim"
@@ -43077,6 +44550,20 @@
 			"description_format"	"value_is_percentage"
 			"hidden"	"1"
 			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		"329"
+		{
+			"name"	"airblast vulnerability multiplier"
+			"attribute_class"	"airblast_vulnerability_multiplier"
+			"attribute_name"	"airblast vulnerability multiplier"
+			"min_value"	"0"
+			"max_value"	"32"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_AirBlastVulnerabilityMultipier"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
 		"330"
@@ -43212,6 +44699,61 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
+		"341"
+		{
+			"name"	"jarate backstabber"
+			"attribute_class"	"jarate_backstabber"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_JarateBackstabber"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"343"
+		{
+			"name"	"engy sentry fire rate increased"
+			"attribute_class"	"mult_sentry_firerate"
+			"attribute_name"	"sentry firerate bonus"
+			"min_value"	"0.95"
+			"max_value"	"0.9"
+			"group"	"weapons"
+			"description_string"	"#Attrib_SentryFireRate_Increased"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"344"
+		{
+			"name"	"engy sentry radius increased"
+			"attribute_class"	"mult_sentry_range"
+			"attribute_name"	"sentry radius increase"
+			"min_value"	"1.05"
+			"max_value"	"1.15"
+			"group"	"radius"
+			"description_string"	"#Attrib_SentryRadius_Increased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"345"
+		{
+			"name"	"engy dispenser radius increased"
+			"attribute_class"	"mult_dispenser_radius"
+			"attribute_name"	"engy dispenser radius increase"
+			"min_value"	"1.05"
+			"max_value"	"1.15"
+			"group"	"radius"
+			"description_string"	"#Attrib_DispenserRadius_Increased"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 		"346"
 		{
 			"name"	"mod bat launches ornaments"
@@ -43276,6 +44818,20 @@
 			"description_string"	""
 			"description_format"	"value_is_additive"
 			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"351"
+		{
+			"name"	"engy disposable sentries"
+			"attribute_class"	"engy_disposable_sentries"
+			"attribute_name"	"engy can place disposable sentries"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"sapper"
+			"description_string"	"#Attrib_EngyDisposableSentries"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
@@ -43461,6 +45017,19 @@
 			"effect_type"	"negative"
 			"stored_as_integer"	"0"
 		}				
+		"366"
+		{
+			"name"	"mod stun waist high airborne"
+			"attribute_class"	"stun_waist_high_airborne"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_StunWaistHighAirborne"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 		"367"
 		{
 			"name"	"extinguish earns revenge crits"
@@ -43572,6 +45141,20 @@
 			"hidden"	"1"
 			"effect_type"	"negative"
 			"stored_as_integer"	"1"
+		}
+		"375"
+		{
+			"name"	"generate rage on damage"
+			"attribute_class"	"generate_rage_on_dmg"
+			"attribute_name"	"damage done generates rage for general purpose use"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"penetration"
+			"description_string"	"#Attrib_RageOnDamage"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
 		}
 		"376"
 		{
@@ -43701,6 +45284,18 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
+		"386"
+		{
+			"name"	"mvm completed challenges bitmask"
+			"attribute_class"	"mvm_completed_challenges_bitmask"
+			"min_value"	"0"
+			"max_value"	"0"
+			"group"	"only_on_unique"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
 		"387"
 		{
 			"name"	"rage on kill"
@@ -43725,6 +45320,34 @@
 			"group"	"only_on_unique"
 			"description_format"	"value_is_additive"
 			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"389"
+		{
+			"name"	"shot penetrate all players"
+			"attribute_class"	"shot_penetrate_all_players"
+			"attribute_name"	"projectiles will travel through multiple targets"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"penetration"
+			"description_string"	"#Attrib_ShotPenetration"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"390"
+		{
+			"name"	"headshot damage increase"
+			"attribute_class"	"headshot_damage_modify"
+			"attribute_name"	"Damage from headshots increased"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_HeadshotDamageIncrease"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
@@ -43784,12 +45407,70 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
+		"395"
+		{
+			"name"	"explosive sniper shot"
+			"attribute_class"	"explosive_sniper_shot"
+			"attribute_name"	"explosive sniper shot"
+			"description_string"	"#Attrib_ExplosiveSniperShot"
+			"description_format"	"value_is_additive"
+			"min_value"	"0"
+			"max_value"	"100"
+			"group"	"only_on_unique"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"396"
+		{
+			"name"	"melee attack rate bonus"
+			"attribute_class"	"mult_postfiredelay"
+			"attribute_name"	"melee attack rate bonus"
+			"min_value"	"0.95"
+			"max_value"	"0.9"
+			"group"	"weapons"
+			"description_string"	"#Attrib_MeleeRate_Positive"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"397"
+		{
+			"name"	"projectile penetration heavy"
+			"attribute_class"	"projectile_penetration"
+			"attribute_name"	"projectiles will travel through multiple targets"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"penetration"
+			"description_string"	"#Attrib_Penetration_Heavy"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 		"398"
 		{
 			"name"	"rage on assists"
 			"attribute_class"	"rage_on_assists"
 			"attribute_name"	"player gains rage on assists"
 			"description_string"	"#Attrib_RageGainOnAssists"
+			"description_format"	"value_is_additive"
+			"min_value"	"0"
+			"max_value"	"100"
+			"group"	"only_on_unique"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"399"
+		{
+			"name"	"armor piercing"
+			"attribute_class"	"armor_piercing"
+			"attribute_name"	"armor piercing"
+			"description_string"	"#Attrib_ArmorPiercing"
 			"description_format"	"value_is_additive"
 			"min_value"	"0"
 			"max_value"	"100"
@@ -43827,6 +45508,63 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
+		"402"
+		{
+			"name"	"cannot be backstabbed"
+			"attribute_class"	"cannot_be_backstabbed"
+			"attribute_name"	"Spy won't even raise his knife to the backstab pose"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CannotBeBackstabbed"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"403"
+		{
+			"name"	"squad surplus claimer id"
+			"attribute_class"	"squad_surplus_claimer_account_id"
+			"attribute_name"	"squad surplus claimer id"
+			"min_value"	"0.95"
+			"max_value"	"0.85"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_SquadSurplusClaimerAccountID"
+			"description_format"	"value_is_account_id"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"404"
+		{
+			"name"	"share consumable with patient"
+			"attribute_class"	"share_consumable_with_patient"
+			"attribute_name"	"share consumable with patient"
+			"description_string"	"#Attrib_ShareConsumable"
+			"description_format"	"value_is_additive"
+			"min_value"	"0"
+			"max_value"	"100"
+			"group"	"only_on_unique"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"405"
+		{
+			"name"	"airblast vertical vulnerability multiplier"
+			"attribute_class"	"airblast_vertical_vulnerability_multiplier"
+			"attribute_name"	"airblast vertical vulnerability multiplier"
+			"min_value"	"0"
+			"max_value"	"2"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_AirBlastVerticalVulnerabilityMultipier"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 		"406"
 		{
 			"name"	"vision opt in flags"
@@ -43837,6 +45575,48 @@
 			"group"	"only_on_unique"
 			"description_string"	"#Attrib_VisionOptInFlags"
 			"description_format"	"value_is_or"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"407"
+		{
+			"name"	"crit vs disguised players"
+			"attribute_class"	"or_crit_vs_playercond"
+			"attribute_name"	"Critical Hit vs Disguised Players"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CritVsDisguised"
+			"description_format"	"value_is_or"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"408"
+		{
+			"name"	"crit vs non burning players"
+			"attribute_class"	"or_crit_vs_not_playercond"
+			"attribute_name"	"Critical Hit vs Non-Burning Players"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_CritVsNonBurning"
+			"description_format"	"value_is_or"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"409"
+		{
+			"name"	"kill forces attacker to laugh"
+			"attribute_class"	"kill_forces_attacker_to_laugh"
+			"attribute_name"	"kill forces attacker to laugh"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_KillForcesAttackerLaugh"
+			"description_format"	"value_is_additive"
 			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
@@ -44173,6 +45953,34 @@
 			"group"	"only_on_unique"
 			"description_string"	"#Attrib_CritVsWet"
 			"description_format"	"value_is_or"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"439"
+		{
+			"name"	"override item level desc string"
+			"attribute_class"	"override_item_level_desc_string"
+			"attribute_name"	"override item level desc string"
+			"min_value"	"1"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		
+		"440"
+		{
+			"name"	"clip size upgrade atomic"
+			"attribute_class"	"mult_clipsize_upgrade_atomic"
+			"attribute_name"	"clip size upgrade atomic"
+			"min_value"	"1.05"
+			"max_value"	"1.1"
+			"group"	"weapons"
+			"description_string"	"#Attrib_ClipSize_Atomic"
+			"description_format"	"value_is_additive"
 			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
@@ -52681,6 +54489,52 @@
 			}
 			"category"	"commonitem"
 		}
+		"116"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Usable_PowerupBottle"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"4"
+			"di_B"	"#CI_Bar_A"
+			"do_A"	"1"
+			"do_B"	"#TF_Usable_PowerupBottle"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"input_items"
+			{
+				"4"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Power Up Canteen (MvM)"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"special"
+		}
 
 
 	}
@@ -52722,6 +54576,9 @@
 		"TF_MAPS_FOUNDRY_ACHIEVE_PROGRESS1" "668"
 		"TF_DOMINATE_FOR_GOGGLES"		"744"		
 		"TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1"		"774"
+
+
+		"TF_MVM_COMPLETE_POP_FILE"	"489"	
 		
 		"ASW_PARA_HAT"
 		{ 
@@ -53607,6 +55464,107 @@
 
 
 
+	}
+	"mvm_maps"
+	{
+		"mvm_decoy"
+		{
+			"display_name"	"#TF_MVM_Map_Decoy"
+
+			"challenges"
+			{
+				"mvm_decoy"
+				{
+					"display_name"	"#TF_MVM_Challenge_Decoy1"
+					"tour_name"		"#TF_MvM_Tour_0"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"-1"
+					"difficulty"	"1"
+				}
+				"mvm_decoy_advanced"
+				{
+					"display_name"	"#TF_MVM_Challenge_Decoy2"
+					"tour_name"		"#TF_MvM_Tour_1"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"8"
+					"difficulty"	"2"
+				}
+				"mvm_decoy_advanced2"
+				{
+					"display_name"	"#TF_MVM_Challenge_Decoy3"
+					"tour_name"		"#TF_MvM_Tour_1"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"9"
+					"difficulty"	"2"
+				}
+			}
+		}
+
+		"mvm_coaltown"
+		{
+			"display_name"	"#TF_MVM_Map_CoalTown"
+
+			"challenges"
+			{
+				"mvm_coaltown"
+				{
+					"display_name"	"#TF_MVM_Challenge_CoalTown1"
+					"tour_name"		"#TF_MvM_Tour_0"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"-1"
+					"difficulty"	"1"
+				}
+				"mvm_coaltown_advanced"
+				{
+					"display_name"	"#TF_MVM_Challenge_CoalTown2"
+					"tour_name"		"#TF_MvM_Tour_1"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"1"
+					"difficulty"	"2"
+				}
+				"mvm_coaltown_advanced2"
+				{
+					"display_name"	"#TF_MVM_Challenge_CoalTown3"
+					"tour_name"		"#TF_MvM_Tour_1"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"2"
+					"difficulty"	"2"
+				}
+			}
+		}
+
+		"mvm_mannworks"
+		{
+			"display_name"	"#TF_MVM_Map_Mannworks"
+
+			"challenges"
+			{
+				"mvm_mannworks"
+				{
+					"display_name"	"#TF_MVM_Challenge_Mannworks1"
+					"tour_name"		"#TF_MvM_Tour_0"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"-1"
+					"difficulty"	"1"
+				}
+				"mvm_mannworks_advanced"
+				{
+					"display_name"	"#TF_MVM_Challenge_Mannworks2"
+					"tour_name"		"#TF_MvM_Tour_1"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"15"
+					"difficulty"	"2"
+				}
+				"mvm_mannworks_ironman"
+				{
+					"display_name"	"#TF_MVM_Challenge_Mannworks3"
+					"tour_name"		"#TF_MvM_Tour_1"
+					"mode"			"#TF_MVM_Challenge_Endurance"
+					"badge_slot"	"16"
+					"difficulty"	"2"
+				}
+			}
+		}
 	}
 	"steam_packages"
 	{
