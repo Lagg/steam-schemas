@@ -1338,7 +1338,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_head"
 			"item_name"		"#DOTA_Item_Drows_Cape"
-			"item_slot"		"head"
+			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Bracers"
 			"model_player"		"models/heroes/drow/drow_cape.mdl"
 			"used_by_heroes"
@@ -1379,7 +1379,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_back"
 			"item_name"		"#DOTA_Item_Drows_Quiver"
-			"item_slot"		"back"
+			"item_slot"		"misc"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Leg_Armor"
 			"model_player"		"models/heroes/drow/drow_quiver.mdl"
 			"used_by_heroes"
@@ -4108,6 +4108,20 @@
 				"npc_dota_hero_dazzle"		"1"
 			}
 			"model_player"		"models/heroes/Dazzle/dazzle_sleeve.mdl"
+		}
+		"267"
+		{
+			"name"		"Drow's Headwear"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_misc"
+			"item_name"		"#DOTA_Item_Drows_Headwear"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Drows_Shoulder_Armor"
+			"model_player"		"models/heroes/drow/drow_haircowl.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
 		}
 		"4000"
 		{
@@ -11685,6 +11699,7 @@
 			"item_name"		"#DOTA_Item_Ice_Burst_Bow"
 			"item_description"		"#DOTA_Item_Desc_Ice_Burst_Bow"
 			"image_inventory"		"econ/items/drow/iceburst_bow"
+			"item_set"		"drow_ranger_frost_spikes"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
@@ -12067,6 +12082,7 @@
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Ice_Burst_Bracers"
 			"image_inventory"		"econ/items/drow/ice_bracers"
+			"item_set"		"drow_ranger_frost_spikes"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
@@ -12112,6 +12128,7 @@
 			"item_slot"		"legs"
 			"item_description"		"#DOTA_Item_Desc_Ice_Burst_Greaves"
 			"image_inventory"		"econ/items/drow/ice_greaves"
+			"item_set"		"drow_ranger_frost_spikes"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
@@ -13362,6 +13379,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Blade"
 			"item_name"		"#DOTA_Item_Back_Hook_Right"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Back_Hook_Right"
 			"image_inventory"		"econ/items/blood_seeker/backhook_right"
 			"used_by_heroes"
@@ -13407,6 +13425,7 @@
 			"item_type_name"		"#DOTA_WearableType_Blade"
 			"item_name"		"#DOTA_Item_Back_Hook__OffHand"
 			"item_slot"		"offhand_weapon"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Back_Hook_Left"
 			"image_inventory"		"econ/items/blood_seeker/backhook_left"
 			"used_by_heroes"
@@ -14152,6 +14171,7 @@
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Frost_Spikes"
 			"image_inventory"		"econ/items/drow/drow_spikehair"
+			"item_set"		"drow_ranger_frost_spikes"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
@@ -16953,6 +16973,7 @@
 			"item_type_name"		"#DOTA_WearableType_Pauldron"
 			"item_name"		"#DOTA_Item_Shoulders_of_the_Comets_Tail"
 			"item_slot"		"shoulder"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Shoulders_of_the_Comets_Tail"
 			"image_inventory"		"econ/items/morphling/shoulder_comets_tail"
 			"used_by_heroes"
@@ -18856,6 +18877,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Axe"
 			"item_name"		"#DOTA_Item_Berserkers_Witchslayer"
+			"item_rarity"		"mythical"
 			"item_description"		"#DOTA_Item_Desc_Berserkers_Witchslayer"
 			"image_inventory"		"econ/items/axe/berserkers_weapon"
 			"used_by_heroes"
@@ -18901,6 +18923,7 @@
 			"item_type_name"		"#DOTA_WearableType_Crown"
 			"item_name"		"#DOTA_Item_Crown_of_the_Comets_Tail"
 			"item_slot"		"head"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Crown_of_the_Comets_Tail"
 			"image_inventory"		"econ/items/morphling/crown_comets_tail"
 			"used_by_heroes"
@@ -18946,6 +18969,7 @@
 			"item_type_name"		"#DOTA_WearableType_Cask"
 			"item_name"		"#DOTA_Item_The_Spiritual_Spirits"
 			"item_slot"		"offhand_weapon"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_The_Spiritual_Spirits"
 			"image_inventory"		"econ/items/brewmaster/spiritual_spirits"
 			"used_by_heroes"
@@ -18990,6 +19014,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Flail"
 			"item_name"		"#DOTA_Item_Flail_of_the_Great_Elder"
+			"item_rarity"		"mythical"
 			"item_description"		"#DOTA_Item_Desc_Flail_of_the_Great_Elder"
 			"image_inventory"		"econ/items/brewmaster/elder_mace"
 			"used_by_heroes"
@@ -19034,6 +19059,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Sickle"
 			"item_name"		"#DOTA_Item_Crescent_Sickle_of_the_Druid"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Crescent_Sickle_of_the_Druid"
 			"image_inventory"		"econ/items/lone_druid/weapon_crescent"
 			"used_by_heroes"
@@ -19079,6 +19105,7 @@
 			"item_type_name"		"#DOTA_WearableType_Pauldron"
 			"item_name"		"#DOTA_Item_Poor_Armor_of_the_Druid"
 			"item_slot"		"shoulder"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Poor_Armor_of_the_Druid"
 			"image_inventory"		"econ/items/lone_druid/shoulder_poor"
 			"used_by_heroes"
@@ -19124,6 +19151,7 @@
 			"item_type_name"		"#DOTA_WearableType_Pauldron"
 			"item_name"		"#DOTA_Item_Shoulder_of_the_Noble"
 			"item_slot"		"shoulder"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Shoulder_of_the_Noble"
 			"image_inventory"		"econ/items/lycan/shoulder_noble"
 			"used_by_heroes"
@@ -19168,6 +19196,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Short_Blades"
 			"item_name"		"#DOTA_Item_Sange_and_Yasha"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Sange_and_Yasha"
 			"image_inventory"		"econ/items/rikimaru/weapon_saya"
 			"used_by_heroes"
@@ -19212,6 +19241,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Sword"
 			"item_name"		"#DOTA_Item_Spine_Sword"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Spine_Sword"
 			"image_inventory"		"econ/items/skeleton_king/weapon_spine_sword"
 			"used_by_heroes"
@@ -19258,6 +19288,7 @@
 			"item_type_name"		"#DOTA_WearableType_Bottle"
 			"item_name"		"#DOTA_Item_Vice_of_the_West"
 			"item_slot"		"offhand_weapon"
+			"item_rarity"		"mythical"
 			"item_description"		"#DOTA_Item_Desc_Vice_of_the_West"
 			"image_inventory"		"econ/items/brewmaster/barrel_vice"
 			"used_by_heroes"
@@ -19303,6 +19334,7 @@
 			"item_type_name"		"#DOTA_WearableType_Mask"
 			"item_name"		"#DOTA_Item_Mask_of_the_ManySighted"
 			"item_slot"		"head"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Mask_of_the_ManySighted"
 			"image_inventory"		"econ/items/juggernaut/head_death_mask"
 			"used_by_heroes"
@@ -19349,6 +19381,7 @@
 			"item_type_name"		"#DOTA_WearableType_Belly_Guard"
 			"item_name"		"#DOTA_Item_Lucky_Belly_Belt"
 			"item_slot"		"belt"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Lucky_Belly_Belt"
 			"image_inventory"		"econ/items/ogre_magi/belt_rich"
 			"used_by_heroes"
@@ -19394,6 +19427,7 @@
 			"item_type_name"		"#DOTA_WearableType_Belly_Guard"
 			"item_name"		"#DOTA_Item_Champions_Belly_Belt"
 			"item_slot"		"belt"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Champions_Belly_Belt"
 			"image_inventory"		"econ/items/ogre_magi/championbelt/ChampionBelt"
 			"used_by_heroes"
@@ -19438,6 +19472,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Club"
 			"item_name"		"#DOTA_Item_Golden_Walrus_Whacker"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Golden_Walrus_Whacker"
 			"image_inventory"		"econ/items/ogre_magi/goldenwalruswhacker/GoldenWalrusWhacker"
 			"used_by_heroes"
@@ -19483,6 +19518,7 @@
 			"item_type_name"		"#DOTA_WearableType_Cloak"
 			"item_name"		"#DOTA_Item_Cloak_of_the_Dawn"
 			"item_slot"		"back"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Cloak_of_the_Dawn"
 			"image_inventory"		"econ/items/lone_druid/cloakofthedawn/CloakoftheDawn"
 			"used_by_heroes"
@@ -19528,6 +19564,7 @@
 			"item_type_name"		"#DOTA_WearableType_Pauldron"
 			"item_name"		"#DOTA_Item_Shoulders_of_the_Twelfth_Day"
 			"item_slot"		"shoulder"
+			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Shoulders_of_the_Twelfth_Day"
 			"image_inventory"		"econ/items/lone_druid/shoulder_twelfthday"
 			"used_by_heroes"
@@ -19559,6 +19596,221 @@
 				"PortraitBackgroundColor2"		"0.900000 0.700000 0.100000"
 				"PortraitBackgroundColor3"		"0.900000 0.700000 0.100000"
 				"PortraitBackgroundColor4"		"0.900000 0.700000 0.100000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"4363"
+		{
+			"name"		"Recluse Reef Denizen"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sea_Beast"
+			"item_name"		"#DOTA_Item_Recluse_Reef_Denizen"
+			"item_slot"		"offhand_weapon"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Recluse_Reef_Denizen"
+			"image_inventory"		"econ/items/tidehunter/hammer_head"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+			}
+			"model_player"		"models/items/tidehunter/hammer_head.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"-76.378029 -1.442776 200.038177"
+				"PortraitLookAt"		"121.558228 277.481689 0.000000"
+				"PortraitFOV"		"59.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+				"PortraitLightLookAt"		"54.790001 171.699997 0.000000"
+				"PortraitLightFOV"		"69.000000"
+				"PortraitLightDistance"		"377.000000"
+				"PortraitLightColor"		"0.821569 0.775926 0.730283"
+				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"79.070000 84.150002 25.320000"
+				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.000000 0.500000 1.000000"
+				"PortraitBackgroundColor2"		"0.000000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.500000 0.800000 1.000000"
+				"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"tidehunter_portrait"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+		}
+		"4364"
+		{
+			"name"		"Wyvernguard Edge"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Axe"
+			"item_name"		"#DOTA_Item_Wyvernguard_Edge"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Wyvernguard_Edge"
+			"image_inventory"		"econ/items/axe/axe_dragonaxe"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+			"model_player"		"models/items/axe/axe_dragonaxe.mdl"
+			"particle_file"		"particles\econ\items\axe\axe_weapon_wyvernguard_edge.pcf"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"axe_weapon_eyes_wyvernguard_edge"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"axe_attack_blur_counterhelix"
+					"modifier"		"axe_attack_blur_counterhelix_wyvernguard_edge"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"254.993301 -36.062183 327.896667"
+				"PortraitLookAt"		"41.868896 183.323364 0.000000"
+				"PortraitFOV"		"49.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"69.290001 -11.570000 252.089996"
+				"PortraitLightLookAt"		"56.509998 182.289993 0.000000"
+				"PortraitLightFOV"		"63.000000"
+				"PortraitLightDistance"		"207.000000"
+				"PortraitLightColor"		"0.550000 0.550000 0.550000"
+				"PortraitShadowColor"		"0.230000 0.230000 0.230000"
+				"PortraitShadowScale"		"0.205000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"76.519997 -7.960000 -38.340000"
+				"PortraitAmbientColor"		"0.360000 0.360000 0.360000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 0.500000 0.500000"
+				"PortraitBackgroundColor2"		"1.000000 0.800000 0.900000"
+				"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.500000 0.500000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.404000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+		}
+		"4365"
+		{
+			"name"		"Bow of the Howling Wind"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bow"
+			"item_name"		"#DOTA_Item_Bow_of_the_Howling_Wind"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Howling_Wind_Bow"
+			"image_inventory"		"econ/items/drow/weapon_howling_wind"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"drow_bowstring"
+					"modifier"		"drow_bowstring_howling_wind"
+				}
+				"attached_particlesystem0"
+				{
+					"system"		"drow_weapon_eyes_howling_wind"
+				}
+				"attached_particlesystem1"
+				{
+					"system"		"drow_weapon_frost_howling_wind"
+				}
+			}
+			"model_player"		"models/items/drow/weapon_howling_wind.mdl"
+			"particle_file"		"particles\econ\items\drow\drow_bow_howling_wind.pcf"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"74.974861 58.595543 151.045212"
+				"PortraitLookAt"		"48.460693 220.105591 0.000000"
+				"PortraitFOV"		"71.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"253.991089 -31.240320 179.975601"
+				"PortraitLightLookAt"		"54.790001 171.699997 0.000000"
+				"PortraitLightFOV"		"69.000000"
+				"PortraitLightDistance"		"377.000000"
+				"PortraitLightColor"		"0.319608 0.319608 0.319608"
+				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"79.070000 84.150002 25.320000"
+				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.852000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+		}
+		"4366"
+		{
+			"name"		"Ice Burst Cloak"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Cloak"
+			"item_name"		"#DOTA_Item_Ice_Burst_Cloak"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Ice_Burst_Cloak"
+			"image_inventory"		"econ/items/drow/ice_cape"
+			"item_set"		"drow_ranger_frost_spikes"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"model_player"		"models/items/drow/ice_cape.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"-43.828957 40.016182 186.017975"
+				"PortraitLookAt"		"59.710693 315.494385 0.000000"
+				"PortraitFOV"		"48.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"6.970000 39.520000 167.710007"
+				"PortraitLightLookAt"		"36.459999 259.640015 0.000000"
+				"PortraitLightFOV"		"84.000000"
+				"PortraitLightDistance"		"73.000000"
+				"PortraitLightColor"		"0.340000 0.340000 0.340000"
+				"PortraitShadowColor"		"0.039216 0.039216 0.039216"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-11.230000 7.930000 16.650000"
+				"PortraitAmbientColor"		"0.050000 0.070000 0.160000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
 				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
 				"PortraitAnimationActivity"		"0"
 				"PortraitAnimationCycle"		"0.000000"
@@ -19611,7 +19863,9 @@
 			"item_type_name"		"#DOTA_WearableType_International_Courier"
 			"item_name"		"#DOTA_Item_Drodo_the_Druffin"
 			"item_slot"		"courier"
+			"item_quality"		"unusual"
 			"item_rarity"		"immortal"
+			"forced_item_quality"		"unusual"
 			"item_description"		"#DOTA_Item_Desc_Drodo_the_Druffin"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/drodo/drodo"
@@ -19693,7 +19947,9 @@
 			"item_type_name"		"#DOTA_WearableType_International_Courier"
 			"item_name"		"#DOTA_Item_Murrissey_the_Smeevil"
 			"item_slot"		"courier"
+			"item_quality"		"unusual"
 			"item_rarity"		"immortal"
+			"forced_item_quality"		"unusual"
 			"item_description"		"#DOTA_Item_Desc_Murrissey_the_Smeevil"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/turtle_rider/turtle_rider"
@@ -19722,6 +19978,10 @@
 					"type"		"courier_flying"
 					"asset"		"models/courier/turtle_rider/turtle_rider_flying.mdl"
 					"modifier"		"dire"
+				}
+				"attached_particlesystem0"
+				{
+					"system"		"courier_murrissey_the_smeevil_trail"
 				}
 			}
 			"attributes"
@@ -19767,6 +20027,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"particle_file"		"particles\econ\courier\courier_murrissey_the_smeevil.pcf"
 		}
 		"10005"
 		{
@@ -19775,7 +20036,9 @@
 			"item_type_name"		"#DOTA_WearableType_International_Courier"
 			"item_name"		"#DOTA_Item_Lockjaw_the_Boxhound"
 			"item_slot"		"courier"
+			"item_quality"		"unusual"
 			"item_rarity"		"immortal"
+			"forced_item_quality"		"unusual"
 			"item_description"		"#DOTA_Item_Desc_Lockjaw_the_Boxhound"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/lockjaw/lockjaw"
@@ -20211,6 +20474,83 @@
 				"PortraitLightFOV"		"90.000000"
 				"PortraitLightDistance"		"247.000000"
 				"PortraitLightColor"		"0.379804 0.379804 0.379804"
+				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
+				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"10018"
+		{
+			"name"		"Dolfrat and Roshinante"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Custom_Courier"
+			"item_name"		"#DOTA_Item_Dolfrat_and_Roshinante"
+			"item_slot"		"courier"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Dolfrat_and_Roshinante"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/courier/sw_donkey/sw_donkey"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/sw_donkey/sw_donkey.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/sw_donkey/sw_donkey.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/sw_donkey/sw_donkey_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/sw_donkey/sw_donkey_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"130.961426 -121.392426 169.553787"
+				"PortraitLookAt"		"24.461060 132.203979 0.000000"
+				"PortraitFOV"		"75.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"47.249065 -148.833130 212.088074"
+				"PortraitLightLookAt"		"49.889999 111.050003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.270000 0.270000 0.270000"
 				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
 				"PortraitShadowScale"		"1.000000"
 				"PortraitGroundShadowScale"		"0.300000"
@@ -21185,6 +21525,458 @@
 				}
 			}
 		}
+		"10042"
+		{
+			"name"		"Team Pennant: DK"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_DK"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_DK"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team7_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"7"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10043"
+		{
+			"name"		"Team Pennant: LGD"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_LGD"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_LGD"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team15_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"15"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10044"
+		{
+			"name"		"Team Pennant: EHOME"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_EHOME"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_EHOME"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team4_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"4"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10045"
+		{
+			"name"		"Team Pennant: TongFu"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_TongFu"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_TongFu"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team20_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"20"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10046"
+		{
+			"name"		"Treasure of Champions"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
+			"item_name"		"#DOTA_Item_Treasure_of_Champions"
+			"expiration_date"		"2012-09-03 23:00:00"
+			"tool"
+			{
+				"type"		"supply_crate"
+				"restriction"		"international"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Chest_International_2012"
+			"image_inventory"		"econ/tools/treasure_chest_international_a"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"12"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10047"
+		{
+			"name"		"Treasure of Challengers"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
+			"item_name"		"#DOTA_Item_Treasure_of_Challengers"
+			"expiration_date"		"2012-09-03 23:00:00"
+			"tool"
+			{
+				"type"		"supply_crate"
+				"restriction"		"international"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Chest_International_2012"
+			"image_inventory"		"econ/tools/treasure_chest_international_b"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"13"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10048"
+		{
+			"name"		"Team Pennant: Complexity"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_Complexity"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_Complexity"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team3_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"3"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10049"
+		{
+			"name"		"Team Pennant: MUFC"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_MUFC"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_MUFC"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team66_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"66"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10050"
+		{
+			"name"		"Team Pennant: mTw"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_mTw"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_mTw"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team30_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"30"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10051"
+		{
+			"name"		"Team Pennant: Evil Geniuses"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_EG"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_EG"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team39_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"39"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
 		"15000"
 		{
 			"name"		"Name Tag"
@@ -21375,6 +22167,7 @@
 			"item_type_name"		"#DOTA_Item_Gift"
 			"item_name"		"#DOTA_Item_Gift_RandomPerson"
 			"item_rarity"		"uncommon"
+			"item_slot"		"action_item"
 			"tool"
 			{
 				"type"		"gift"
@@ -21391,7 +22184,6 @@
 				"usable_gc"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Gift_RandomPerson"
-			"item_slot"		"action_item"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/tools/gift_single"
 			"attributes"
@@ -21415,6 +22207,7 @@
 			"item_type_name"		"#DOTA_WearableType_Gift"
 			"item_name"		"#DOTA_Item_Gift_EntireGame"
 			"item_rarity"		"rare"
+			"item_slot"		"action_item"
 			"tool"
 			{
 				"type"		"gift"
@@ -21431,7 +22224,6 @@
 				"usable_gc"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Gift_EntireGame"
-			"item_slot"		"action_item"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/tools/gift_multiple"
 			"attributes"
@@ -21593,6 +22385,7 @@
 			"item_type_name"		"#DOTA_WearableType_Gift"
 			"item_name"		"#DOTA_Item_Gift_Tons"
 			"item_rarity"		"mythical"
+			"item_slot"		"action_item"
 			"tool"
 			{
 				"type"		"gift"
@@ -21609,7 +22402,6 @@
 				"usable_gc"		"1"
 			}
 			"item_description"		"#DOTA_Item_Desc_Gift_Tons"
-			"item_slot"		"action_item"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/tools/gift_tons"
 			"attributes"
@@ -23333,9 +24125,7 @@
 		{
 			"name"		"Pennant Upgrade"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Tool"
 			"item_name"		"#DOTA_Item_Pennant_Upgrade"
-			"item_rarity"		"common"
 			"tool"
 			{
 				"type"		"pennant_upgrade"
@@ -23535,6 +24325,33 @@
 			"image_inventory"		"econ/leagues/subscriptions_international_ingame"
 			"image_banner"		"econ/leagues/subscriptions_international_ingame"
 			"tournament_url"		"http://www.dota2.com/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15074"
+		{
+			"name"		"International Treasure Key"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_International_Treasure_Key"
+			"item_rarity"		"mythical"
+			"tool"
+			{
+				"type"		"decoder_ring"
+				"use_string"		"#UnlockUse"
+				"usage_capabilities"
+				{
+					"decodable"		"1"
+				}
+				"restriction"		"international"
+			}
+			"item_description"		"#DOTA_Item_Desc_International_Treasure_Key"
+			"image_inventory"		"econ/tools/international_key"
 			"attributes"
 			{
 				"disallow recycling"
@@ -25041,6 +25858,7 @@
 				"Ice Burst Bow"		"1"
 				"Ice Burst Bracers"		"1"
 				"Ice Burst Greaves"		"1"
+				"Ice Burst Cloak"		"1"
 				"Frost Spikes"		"1"
 			}
 			"item_description"		"#DOTA_Bundle_Desc_Drow_Ranger_Spikes_Frost"
@@ -27242,6 +28060,94 @@
 			"attach_type"		"absorigin_follow"
 			"attach_entity"		"parent"
 		}
+		"33"
+		{
+			"system"		"axe_weapon_eyes_wyvernguard_edge"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_axe_head"
+				}
+			}
+		}
+		"34"
+		{
+			"system"		"courier_murrissey_the_smeevil_trail"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+			}
+		}
+		"35"
+		{
+			"system"		"drow_weapon_eyes_howling_wind"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_bow_eyes"
+				}
+			}
+		}
+		"36"
+		{
+			"system"		"drow_weapon_frost_howling_wind"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"bow_mid1"
+				}
+			}
+		}
+		"37"
+		{
+			"resource"		"particles/econ/courier/courier_trail_int_2012.pcf"
+			"system"		"courier_trail_international_2012"
+			"attach_type"		"customorigin"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+			}
+		}
 	}
 	"upgradeable_base_items"
 	{
@@ -27673,6 +28579,7 @@
 				"Ice Burst Bow"		"1"
 				"Ice Burst Bracers"		"1"
 				"Ice Burst Greaves"		"1"
+				"Ice Burst Cloak"		"1"
 				"Frost Spikes"		"1"
 			}
 			"store_bundle"		"Spikes of Frost Bundle"
@@ -27820,6 +28727,12 @@
 			"Speed Demon"		"1"
 			"Tickled Tegu"		"1"
 		}
+		"international_2012_unusual_courier"
+		{
+			"Drodo the Druffin"		"1"
+			"Murrissey the Smeevil"		"1"
+			"Lockjaw the Boxhound"		"1"
+		}
 		"the_defense_2_unusual_courier"
 		{
 			"Defense Season 2 War Dog"		"1"
@@ -27962,6 +28875,28 @@
 			"Elemental Ice Infusion"		"1"
 			"Dragonclaw Hook"		"1"
 		}
+		"international_2012_items_a"
+		{
+			"Shoulders of the Comet's Tail"		"1"
+			"The Spiritual Spirits"		"1"
+			"Golden Walrus Whacker"		"1"
+			"Cloak of the Dawn"		"1"
+			"Shoulders of the Twelfth Day"		"1"
+			"Crown of the Comet's Tail"		"1"
+			"Champion's Belly Belt"		"1"
+			"Flail of the Great Elder"		"1"
+		}
+		"international_2012_items_b"
+		{
+			"Lucky Belly Belt"		"1"
+			"Crescent Sickle of the Druid"		"1"
+			"Poor Armor of the Druid"		"1"
+			"Sange and Yasha"		"1"
+			"Spine Sword"		"1"
+			"Mask of the Many-Sighted"		"1"
+			"Shoulder of the Noble"		"1"
+			"Vice of the West"		"1"
+		}
 		"treasure_chest_loot_list_1"
 		{
 			"juggernaut_kill_eater_a"		"1"
@@ -28062,6 +28997,14 @@
 				"loot_list"		"crate_bonus_a"
 			}
 		}
+		"international_2012_chest_a"
+		{
+			"international_2012_items_a"		"1"
+		}
+		"international_2012_chest_b"
+		{
+			"international_2012_items_b"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -28076,6 +29019,8 @@
 		"summer_sale_2012_crate"		"9"
 		"defense_2_crate"		"10"
 		"treasure_chest_loot_list_11"		"11"
+		"international_2012_chest_a"		"12"
+		"international_2012_chest_b"		"13"
 	}
 	"item_levels"
 	{
