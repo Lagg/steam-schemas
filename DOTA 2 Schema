@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.d90007b4749ac99df4de60a982d5fdd12b1f4bb0.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.5b0693772b3551fc6ff7b87f101e4c43a803ebe5.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -3637,7 +3637,7 @@
 				"defindex": 169,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "New Item",
-				"item_name": "Death Prophet's Arms",
+				"item_name": "DOTA_Item_Death_Prophets_Arms",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
@@ -3658,7 +3658,7 @@
 				"defindex": 170,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "New Item",
-				"item_name": "Death Prophet's Head",
+				"item_name": "DOTA_Item_Death_Prophets_Head",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
@@ -5502,11 +5502,11 @@
 				}
 			},
 			{
-				"name": "back rings",
+				"name": "Pudge's Backrings",
 				"defindex": 258,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Back",
-				"item_name": "",
+				"item_name": "Pudge's Backrings",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
@@ -5523,11 +5523,11 @@
 				}
 			},
 			{
-				"name": "cleaver",
+				"name": "Pudge's Cleaver",
 				"defindex": 259,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "offhand",
-				"item_name": "",
+				"item_name": "Pudge's Cleaver",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
@@ -5544,11 +5544,11 @@
 				}
 			},
 			{
-				"name": "left arm",
+				"name": "Pudge's Left Arm",
 				"defindex": 260,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Shoulder",
-				"item_name": "",
+				"item_name": "Pudge's Left Arm",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
@@ -5565,11 +5565,11 @@
 				}
 			},
 			{
-				"name": "bracer",
+				"name": "Pudge's Bracer",
 				"defindex": 261,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "arms",
-				"item_name": "",
+				"item_name": "Pudge's Bracer",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
@@ -5586,11 +5586,11 @@
 				}
 			},
 			{
-				"name": "hair",
+				"name": "Pudge's Toupee",
 				"defindex": 262,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Head",
-				"item_name": "",
+				"item_name": "Pudge's Toupee",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 0,
@@ -11441,12 +11441,12 @@
 				
 			},
 			{
-				"name": "Frost Spikes",
+				"name": "Frost Spikes FIXUP BUNDLE",
 				"defindex": 4232,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Hair",
-				"item_name": "Frost Spikes",
-				"item_description": "A playful crop of spikes that says 'I'm killing you and having fun doing it.' Includes a frost-tinged cloak to complete the image.",
+				"item_name": "Frost Spikes Bundle",
+				"item_description": "Use this bundle to unpack the Frost Spikes and Ice Burst Cloak items. These were previously one item, but have been broken into two.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/drow\/drow_spikehair",
@@ -11454,14 +11454,37 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/drow_spikehair.5c1585ce49c192fb3cc8beb5007a17adf638013a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/drow_spikehair_large.5627f92f4f95c63c92edd14e89c08acd90b28034.png",
-				"item_set": "drow_ranger_frost_spikes",
 				"capabilities": {
 					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"tool": {
+					"type": "gift",
+					"use_string": "Open Pack"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					},
+					{
+						"name": "ignore charge notification",
+						"class": "ignore_charge_notification",
+						"value": 1.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Cape of the Burning Cabal",
@@ -14569,6 +14592,29 @@
 				}
 			},
 			{
+				"name": "Frost Spikes",
+				"defindex": 4367,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Hair",
+				"item_name": "Frost Spikes",
+				"item_description": "A playful crop of spikes that says 'I'm killing you and having fun doing it.' Includes a frost-tinged cloak to complete the image.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/drow\/drow_spikehair",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/drow_spikehair.5c1585ce49c192fb3cc8beb5007a17adf638013a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/drow_spikehair_large.5627f92f4f95c63c92edd14e89c08acd90b28034.png",
+				"item_set": "drow_ranger_frost_spikes",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
 				"name": "Free Trial Premium Upgrade",
 				"defindex": 10000,
 				"item_class": "upgrade",
@@ -14641,7 +14687,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "International Courier",
 				"item_name": "Drodo the Druffin",
-				"item_description": "Discovered on an island in the Samareen Sea, this species of delicious dragon has been all but wiped out by hungry sailors.  Druffins lack the sense that nature gives most creatures, but their limitless  trust makes them good couriers in the thick of battle.",
+				"item_description": "Discovered on an island in the Samareen Sea, this species of delicious dragon has been all but wiped out by hungry sailors.  Druffins lack the sense that nature gives most creatures, but their limitless trust makes them good couriers in the thick of battle.",
 				"proper_name": false,
 				"item_quality": 3,
 				"image_inventory": "econ\/courier\/drodo\/drodo",
@@ -15030,8 +15076,8 @@
 				"image_inventory": "econ\/props_gameplay\/donkey1",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/donkey1.462ddcff3577290e55e22c7dc6e60f167a6686a5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/donkey1_large.d708f87f314906a59ee18595f2c32a857a3b8a41.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -15744,14 +15790,14 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Fan",
 				"item_name": "DK Pennant",
-				"item_description": "Team Pennant showcasing support for DK",
+				"item_description": "Show your support for DK by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future..",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_team7_icon",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team7_icon.fec6ee3dc0703286237d0caed7e1d445aeef257e.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team7_icon_large.a442d841db170b6d58de993963f3532d39ba4496.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team7_icon.6d9f910827c22a70aad5d577b4dcea79fe1c304b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team7_icon_large.e3a912ffaf404cbb894a8f7f697cd05911e9f199.png",
 				"capabilities": {
 					"usable": true,
 					"usable_gc": true,
@@ -15791,7 +15837,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Fan",
 				"item_name": "LGD Pennant",
-				"item_description": "Team Pennant showcasing support for LGD",
+				"item_description": "Show your support for LGD by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_team15_icon",
@@ -15838,7 +15884,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Fan",
 				"item_name": "EHOME Pennant",
-				"item_description": "Team Pennant showcasing support for EHOME",
+				"item_description": "Show your support for EHOME by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_team4_icon",
@@ -15885,7 +15931,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Fan",
 				"item_name": "TongFu Pennant",
-				"item_description": "Team Pennant showcasing support for TongFu",
+				"item_description": "Show your support for TongFu by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_team20_icon",
@@ -16010,7 +16056,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Fan",
 				"item_name": "Complexity Pennant",
-				"item_description": "Team Pennant showcasing support for Complexity",
+				"item_description": "Show your support for Complexity by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_team3_icon",
@@ -16057,7 +16103,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Fan",
 				"item_name": "MUFC Pennant",
-				"item_description": "Team Pennant showcasing support for MUFC",
+				"item_description": "Show your support for MUFC by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_team66_icon",
@@ -16104,7 +16150,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Fan",
 				"item_name": "mTw Pennant",
-				"item_description": "Team Pennant showcasing support for mTw",
+				"item_description": "Show your support for mTw by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_team30_icon",
@@ -16151,7 +16197,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Fan",
 				"item_name": "Evil Geniuses Pennant",
-				"item_description": "Team Pennant showcasing support for Evil Geniuses",
+				"item_description": "Show your support for Evil Geniuses by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_team39_icon",
@@ -16173,6 +16219,241 @@
 						"name": "team ID",
 						"class": "team_id",
 						"value": 39.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					},
+					{
+						"name": "fanfare level",
+						"class": "fanfare_level",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Team Pennant: NaVi",
+				"defindex": 10052,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Fan",
+				"item_name": "NaVi Pennant",
+				"item_description": "Show your support for NaVi by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/pennant\/pennant_team36_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team36_icon.35ffb1b4ba89f7b328110b95af4c2c6d727285f6.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team36_icon_large.d33bb94a20f1c8b204106715f16f7afc41fb3f12.png",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true,
+					"can_increment": true
+				},
+				"attributes": [
+					{
+						"name": "team ID",
+						"class": "team_id",
+						"value": 36.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					},
+					{
+						"name": "fanfare level",
+						"class": "fanfare_level",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Team Pennant: CLG",
+				"defindex": 10053,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Fan",
+				"item_name": "CLG Pennant",
+				"item_description": "Show your support for CLG by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/pennant\/pennant_team22_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team22_icon.4c6f2ced93b55ceddb1f7c5339d8bd89cd1fa617.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team22_icon_large.41b88de1a02cd967e93b77bf29b8cf6e1a0822c5.png",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true,
+					"can_increment": true
+				},
+				"attributes": [
+					{
+						"name": "team ID",
+						"class": "team_id",
+						"value": 22.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					},
+					{
+						"name": "fanfare level",
+						"class": "fanfare_level",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Team Pennant: Zenith",
+				"defindex": 10054,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Fan",
+				"item_name": "Zenith Pennant",
+				"item_description": "Show your support for Zenith by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/pennant\/pennant_team2_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team2_icon.3752e1a48c803af28d7b9bda5a3b3b3a3983f7cf.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team2_icon_large.da0b447c02a2d4101e8f063379afd6e90cf04a8d.png",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true,
+					"can_increment": true
+				},
+				"attributes": [
+					{
+						"name": "team ID",
+						"class": "team_id",
+						"value": 2.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					},
+					{
+						"name": "fanfare level",
+						"class": "fanfare_level",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Team Pennant: WE",
+				"defindex": 10055,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Fan",
+				"item_name": "WE Pennant",
+				"item_description": "Show your support for World Elite by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/pennant\/pennant_team17_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team17_icon.ab8331fc2330e94ffea807160f39c7e25695b18b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team17_icon_large.f93b3f9352ae7a61ee35414807b8af02cc259962.png",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true,
+					"can_increment": true
+				},
+				"attributes": [
+					{
+						"name": "team ID",
+						"class": "team_id",
+						"value": 17.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					},
+					{
+						"name": "fanfare level",
+						"class": "fanfare_level",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Team Pennant: aL",
+				"defindex": 10056,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Fan",
+				"item_name": "AL Pennant",
+				"item_description": "Show your support for Absolute Legends by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/pennant\/pennant_team6_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team6_icon.576c5bfd754d9b1946c393e7b8abedd841e9c0ac.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team6_icon_large.5f091d6e9f1d598ea9ab945031ea7641ca521029.png",
+				"capabilities": {
+					"usable": true,
+					"usable_gc": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true,
+					"can_increment": true
+				},
+				"attributes": [
+					{
+						"name": "team ID",
+						"class": "team_id",
+						"value": 6.000000
 					},
 					{
 						"name": "kill eater",
@@ -18616,14 +18897,14 @@
 				"item_class": "tool",
 				"item_type_name": "Tool",
 				"item_name": "Pennant Upgrade",
-				"item_description": "Increase the Fanfare Level of a team pennant",
+				"item_description": "Use this tool to upgrade your Team Pennant fan level.  The level of your Team Pennant will increase the total fan value of the team when you are spectating a Tournament match.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/tools\/strange_types_gold_spent",
+				"image_inventory": "econ\/pennant\/pennant_upgrade",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_gold_spent.c89aabfc5ad0c02ec90e14ddf64028a4b65fcef2.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/strange_types_gold_spent_large.88a0b5ea3d348f97c7b230b59eb1b2336f40bbd1.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_upgrade.d4134a6b0b6edd4e183ebc80e520fe3e8e144215.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_upgrade_large.8b9ffade30d98a9b55b7bd48dcf2f39408f63dc2.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -21262,6 +21543,18 @@
 				"id": 37,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle37"
+			},
+			{
+				"system": "courier_lockjaw_ambient",
+				"id": 38,
+				"attach_to_rootbone": false,
+				"name": "Attrib_Particle38"
+			},
+			{
+				"system": "courier_drodo_ambient",
+				"id": 39,
+				"attach_to_rootbone": false,
+				"name": "Attrib_Particle39"
 			}
 		]
 		

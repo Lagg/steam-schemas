@@ -3983,10 +3983,10 @@
 		}
 		"258"
 		{
-			"name"		"back rings"
+			"name"		"Pudge's Backrings"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_back"
-			"item_name"		"#DOTA_Item_back_rings"
+			"item_type_name"		"#DOTA_WearableType_Back"
+			"item_name"		"#DOTA_Item_Pudges_Backrings"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_back_rings"
 			"used_by_heroes"
@@ -3997,12 +3997,12 @@
 		}
 		"259"
 		{
-			"name"		"cleaver"
+			"name"		"Pudge's Cleaver"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_offhand"
-			"item_name"		"#DOTA_Item_cleaver"
+			"item_name"		"#DOTA_Item_Pudges_Cleaver"
 			"item_slot"		"offhand_weapon"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_back_rings"
+			"item_description"		"#DOTA_Item_Desc_Pudges_Cleaver"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_pudge"		"1"
@@ -4011,10 +4011,10 @@
 		}
 		"260"
 		{
-			"name"		"left arm"
+			"name"		"Pudge's Left Arm"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_shoulder"
-			"item_name"		"#DOTA_Item_left_arm"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Pudges_Left_Arm"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_left_arm"
 			"used_by_heroes"
@@ -4025,10 +4025,10 @@
 		}
 		"261"
 		{
-			"name"		"bracer"
+			"name"		"Pudge's Bracer"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_arms"
-			"item_name"		"#DOTA_Item_bracer"
+			"item_name"		"#DOTA_Item_Pudges_Bracer"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_left_arm"
 			"used_by_heroes"
@@ -4039,16 +4039,17 @@
 		}
 		"262"
 		{
-			"name"		"hair"
+			"name"		"Pudge's Toupee"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_head"
-			"item_name"		"#DOTA_Item_hair"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Pudges_Toupee"
 			"item_slot"		"head"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_bracer"
+			"item_description"		"#DOTA_Item_Desc_Pudges_Toupee"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_pudge"		"1"
 			}
+			"model_player"		"models/heroes/pudge/hair.mdl"
 		}
 		"263"
 		{
@@ -14164,14 +14165,48 @@
 		}
 		"4232"
 		{
-			"name"		"Frost Spikes"
+			"name"		"Frost Spikes FIXUP BUNDLE"
 			"prefab"		"dota_item"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
 			"item_type_name"		"#DOTA_WearableType_Hair"
-			"item_name"		"#DOTA_Item_Frost_Spikes"
-			"item_slot"		"head"
-			"item_description"		"#DOTA_Item_Desc_Frost_Spikes"
+			"item_name"		"#DOTA_Item_Frost_Spikes_FIXUP_BUNDLE"
+			"item_description"		"#DOTA_Item_Desc_Frost_Spikes_FIXUP_BUNDLE"
 			"image_inventory"		"econ/items/drow/drow_spikehair"
-			"item_set"		"drow_ranger_frost_spikes"
+			"tool"
+			{
+				"type"		"gift"
+				"use_string"		"#OpenPack"
+				"usage"
+				{
+					"loot_list"		"frost_spikes_fixup_bundle"
+					"num_items"		"1"
+					"max_recipients"		"1"
+					"target_rule"		"only_self"
+				}
+			}
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+				"ignore charge notification"
+				{
+					"attribute_class"		"ignore_charge_notification"
+					"value"		"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"		"cannot_trade"
+					"value"		"1"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
@@ -19818,6 +19853,52 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"4367"
+		{
+			"name"		"Frost Spikes"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hair"
+			"item_name"		"#DOTA_Item_Frost_Spikes"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Frost_Spikes"
+			"image_inventory"		"econ/items/drow/drow_spikehair"
+			"item_set"		"drow_ranger_frost_spikes"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"model_player"		"models/items/drow/drow_spikehair.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"25.413458 17.645771 145.101822"
+				"PortraitLookAt"		"4.960327 227.779541 0.000000"
+				"PortraitFOV"		"51.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"192.595352 -56.021103 285.528839"
+				"PortraitLightLookAt"		"54.790001 171.699997 0.000000"
+				"PortraitLightFOV"		"69.000000"
+				"PortraitLightDistance"		"377.000000"
+				"PortraitLightColor"		"0.525490 0.496296 0.467102"
+				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"79.070000 84.150002 25.320000"
+				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"4"
+				"PortraitAnimationCycle"		"0.384000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 		"10000"
 		{
 			"name"		"Free Trial Premium Upgrade"
@@ -19908,6 +19989,10 @@
 					"asset"		"models/courier/drodo/drodo_flying.mdl"
 					"modifier"		"dire"
 				}
+				"attached_particlesystem0"
+				{
+					"system"		"courier_drodo_ambient"
+				}
 			}
 			"icon_portrait"
 			{
@@ -19939,6 +20024,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"particle_file"		"particles\econ\courier\courier_drodo.pcf"
 		}
 		"10004"
 		{
@@ -20081,6 +20167,10 @@
 					"asset"		"models/courier/lockjaw/lockjaw_flying.mdl"
 					"modifier"		"dire"
 				}
+				"attached_particlesystem0"
+				{
+					"system"		"courier_lockjaw_ambient"
+				}
 			}
 			"icon_portrait"
 			{
@@ -20112,6 +20202,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"particle_file"		"particles\econ\courier\courier_lockjaw.pcf"
 		}
 		"10008"
 		{
@@ -20546,6 +20637,84 @@
 				"PortraitLookAt"		"24.461060 132.203979 0.000000"
 				"PortraitFOV"		"75.000000"
 				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"47.249065 -148.833130 212.088074"
+				"PortraitLightLookAt"		"49.889999 111.050003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.270000 0.270000 0.270000"
+				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
+				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"10019"
+		{
+			"name"		"Braze the Zonkey"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Custom_Courier"
+			"item_name"		"#DOTA_Item_Braze_the_Zonkey"
+			"item_slot"		"courier"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Braze_the_Zonkey"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/props_gameplay/donkey1"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/props_gameplay/donkey.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier"
+					"asset"		"models/props_gameplay/donkey.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/props_gameplay/donkey_wings.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/props_gameplay/donkey_wings.mdl"
+					"modifier"		"dire"
+				}
+				"skin"		"1"
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"145.896057 -129.746078 141.303528"
+				"PortraitLookAt"		"23.186646 133.264160 0.000000"
+				"PortraitFOV"		"59.000000"
+				"PortraitFar"		"990.000000"
 				"PortraitLightPosition"		"47.249065 -148.833130 212.088074"
 				"PortraitLightLookAt"		"49.889999 111.050003 0.000000"
 				"PortraitLightFOV"		"90.000000"
@@ -21957,6 +22126,241 @@
 				{
 					"attribute_class"		"team_id"
 					"value"		"39"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10052"
+		{
+			"name"		"Team Pennant: NaVi"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_NaVi"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_NaVi"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team36_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"36"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10053"
+		{
+			"name"		"Team Pennant: CLG"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_CLG"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_CLG"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team22_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"22"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10054"
+		{
+			"name"		"Team Pennant: Zenith"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_Zenith"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_Zenith"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team2_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"2"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10055"
+		{
+			"name"		"Team Pennant: WE"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_WE"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_WE"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team17_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"17"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
+		"10056"
+		{
+			"name"		"Team Pennant: aL"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_AL"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_AL"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team6_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"6"
 				}
 				"kill eater"
 				{
@@ -24142,7 +24546,7 @@
 				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Pennant_Upgrade"
-			"image_inventory"		"econ/tools/strange_types_gold_spent"
+			"image_inventory"		"econ/pennant/pennant_upgrade"
 		}
 		"15068"
 		{
@@ -26884,10 +27288,6 @@
 			"item_rarity"		"rare"
 			"bundle"
 			{
-				"Alpine Stalker's Scarf"		"1"
-				"Alpine Stalker's Pants"		"1"
-				"Alpine Stalker's Gloves"		"1"
-				"Lucky Alpine Stalker's Hat"		"1"
 				"Iron Bear's Belt"		"1"
 				"Iron Bear's Plates"		"1"
 				"Iron Bear's Cutter"		"1"
@@ -28145,6 +28545,36 @@
 					"control_point_index"		"1"
 					"attach_type"		"point_follow"
 					"attachment"		"attach_eye_l"
+				}
+			}
+		}
+		"38"
+		{
+			"system"		"courier_lockjaw_ambient"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"self"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_hitloc"
+				}
+			}
+		}
+		"39"
+		{
+			"system"		"courier_drodo_ambient"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"self"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_hitloc"
 				}
 			}
 		}
