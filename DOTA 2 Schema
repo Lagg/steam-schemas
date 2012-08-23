@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.7c24559e72a8843859bb02495b1d5dcbb2f2a5d3.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.f9a2dc3c81b71b3500651e6d3d68c83e36d6d9f2.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -13623,8 +13623,8 @@
 				"image_inventory": "econ\/items\/dragon_knight\/blood_ravager",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/blood_ravager.597ad429a7e98370873c874e18721160c610d23f.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/blood_ravager_large.7dfba7f7110531861dad06078bf4bfda37ab207b.png",
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -16534,6 +16534,51 @@
 				
 			},
 			{
+				"name": "Team Pennant: Orange",
+				"defindex": 10059,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Fan",
+				"item_name": "Orange Pennant",
+				"item_description": "Show your support for Orange by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/pennant\/pennant_team42_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team42_icon.5f90102b57d0523635e205b29441bf995a5beaf5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team42_icon_large.063bbcc7563cce166fa87d1d8e38e81d20d46c86.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true,
+					"can_increment": true
+				},
+				"attributes": [
+					{
+						"name": "team ID",
+						"class": "team_id",
+						"value": 42.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					},
+					{
+						"name": "fanfare level",
+						"class": "fanfare_level",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Name Tag",
 				"defindex": 15000,
 				"item_class": "tool",
@@ -18963,8 +19008,8 @@
 				"image_inventory": "econ\/pennant\/pennant_upgrade",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_upgrade.d4134a6b0b6edd4e183ebc80e520fe3e8e144215.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_upgrade_large.8b9ffade30d98a9b55b7bd48dcf2f39408f63dc2.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_upgrade.ec9713f7c0341fb96e867fd9485baab63c56110e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_upgrade_large.6b9a788fedf4274a9bde3c32815394d01a04b4da.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
