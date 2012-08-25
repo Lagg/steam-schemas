@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.9dea600eb481ddb4155a6ac89f2474d073a7a931.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.024ad73ead7eb7cd5986c8c537ab367e06054728.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -16559,6 +16559,51 @@
 						"name": "team ID",
 						"class": "team_id",
 						"value": 42.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					},
+					{
+						"name": "fanfare level",
+						"class": "fanfare_level",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 33.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Team Pennant: Darer",
+				"defindex": 10060,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Fan",
+				"item_name": "Darer Pennant",
+				"item_description": "Show your support for Darer by buying this Team Pennant! Equip it in the 'fan slot' of your Player Loadout to show other spectators who you're rooting for. Upgrade it to show you mean business! In addition, equipping a pennant makes you eligible for item drops while you spectate your team's matches live during the International 2012, and other tournaments Valve may designate in the future.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/pennant\/pennant_team31_icon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team31_icon.ede5ba7aac94b1697e316ce345ee066e03fb9c8f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/pennant_team31_icon_large.a4e0a88d9e80aa16e7241b31c35a666d56336d8d.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true,
+					"can_increment": true
+				},
+				"attributes": [
+					{
+						"name": "team ID",
+						"class": "team_id",
+						"value": 31.000000
 					},
 					{
 						"name": "kill eater",

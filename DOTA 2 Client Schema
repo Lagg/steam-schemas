@@ -22495,6 +22495,51 @@
 				}
 			}
 		}
+		"10060"
+		{
+			"name"		"Team Pennant: Darer"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Fan"
+			"item_name"		"#DOTA_Item_Pennant_Darer"
+			"item_slot"		"fan"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Pennant_Darer"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/pennant/pennant_team31_icon"
+			"tags"
+			{
+				"team_pennant"		"1"
+			}
+			"capabilities"
+			{
+				"can_increment"		"1"
+			}
+			"attributes"
+			{
+				"team ID"
+				{
+					"attribute_class"		"team_id"
+					"value"		"31"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"fanfare level"
+				{
+					"attribute_class"		"fanfare_level"
+					"value"		"1"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+		}
 		"15000"
 		{
 			"name"		"Name Tag"
