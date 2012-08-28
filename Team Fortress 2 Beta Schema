@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.b678d62461714f0c7ba9f2548cd34b67c9ba782e.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.630c2d6375f713c1259cb7b364edc4bfb59d69ab.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -114,15 +114,15 @@
 			},
 			{
 				"origin": 19,
-				"name": "Unknown"
+				"name": "Periodic score reward"
 			},
 			{
 				"origin": 20,
-				"name": "Unknown"
+				"name": "MvM Badge completion reward"
 			},
 			{
 				"origin": 21,
-				"name": "Unknown"
+				"name": "MvM Squad surplus reward"
 			}
 		]
 		,
@@ -4309,7 +4309,7 @@
 				"item_class": "tf_weapon_lunchbox_drink",
 				"item_type_name": "Lunch Box",
 				"item_name": "Crit-a-Cola",
-				"item_description": "While under the effects, +25% movement speed and damage done\nand damage taken will be mini-crits.",
+				"item_description": "While under the effects, +25% movement speed and damage done and damage taken will be mini-crits.",
 				"proper_name": false,
 				"item_slot": "secondary",
 				"model_player": "models\/weapons\/c_models\/c_energy_drink\/c_energy_drink.mdl",
@@ -14281,6 +14281,53 @@
 				}
 			},
 			{
+				"name": "Power Up Canteen (MvM)",
+				"defindex": 489,
+				"item_class": "tf_powerup_bottle",
+				"item_type_name": "Usable Item",
+				"item_name": "Power Up Canteen",
+				"item_description": "Applies a bonus effect for a limited amount of time when used. Must first be filled at an Upgrade Station and can only be filled with one bonus type at a time.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": "models\/player\/items\/mvm_loot\/all_class\/mvm_flask_generic.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/powerupbottle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/powerupbottle.1908d78941919586ff0e4dff5bac49f8b10bb671.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/powerupbottle_large.aeb39f33c1291697a9143870641503c517a370f1.png",
+				"capabilities": {
+					"nameable": true,
+					"usable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "powerup_bottle"
+				},
+				"attributes": [
+					{
+						"name": "powerup charges",
+						"class": "powerup_charges",
+						"value": 0.000000
+					},
+					{
+						"name": "powerup max charges",
+						"class": "powerup_max_charges",
+						"value": 3.000000
+					},
+					{
+						"name": "powerup duration",
+						"class": "powerup_duration",
+						"value": 5.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Scout Flip-Flops",
 				"defindex": 490,
 				"item_class": "tf_wearable",
@@ -17716,11 +17763,6 @@
 					{
 						"name": "energy weapon no ammo",
 						"class": "energy_weapon_no_ammo",
-						"value": 1.000000
-					},
-					{
-						"name": "energy weapon penetration",
-						"class": "energy_weapon_penetration",
 						"value": 1.000000
 					},
 					{
@@ -21879,6 +21921,62 @@
 				
 			},
 			{
+				"name": "Tour of Duty Ticket",
+				"defindex": 725,
+				"item_class": "craft_item",
+				"item_type_name": "Ticket",
+				"item_name": "Tour of Duty Ticket",
+				"item_description": "Present this ticket in Mann vs. Machine to play Mann Up Mode on an official server to earn rare items and track progress on your Tour of Duty Badge.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/mvm_ticket",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mvm_ticket.09ace67431a4605c3ddc8593d62ccf957f65aeeb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mvm_ticket_large.6d93b0d98e632745b5349ec4f85e80464b3d5d34.png",
+				"capabilities": {
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Tour of Duty Badge",
+				"defindex": 726,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Operation Steel Trap Badge",
+				"item_description": "You have accepted the challenge to Mann Up in Operation Steel Trap",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/mvm_loot\/all_class\/mvm_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/all_class\/mvm_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mvm_badge.2e37b4652c52f09e888d8647dfab5607aac65645.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mvm_badge_large.f593345b3d39610b0d3e599d3a312ff572b76084.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "The Black Rose",
 				"defindex": 727,
 				"item_class": "tf_weapon_knife",
@@ -22072,6 +22170,7 @@
 				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_gift_wrap": true,
 					"can_craft_count": true,
@@ -22081,6 +22180,42 @@
 				},
 				"used_by_classes": [
 					"Soldier"
+				]
+				
+			},
+			{
+				"name": "Pet Robro",
+				"defindex": 733,
+				"item_class": "tf_wearable",
+				"item_type_name": "Robot",
+				"item_name": "RoBro 3000",
+				"item_description": "The RoBro 3000 doesn't just watch your back in battle! Whether you're on the battlefield, out on the town, sleeping in bed or on the toilet, you'll always have a friend in the RoBro, which comes with no \"OFF\" switch and cannot be shut down. The RoBro even tapes everything you do, whether you want it to or not. It's not even a feature we installed on the RoBro—it's just something it does for its own mysterious reasons!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/pet_robro.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/pet_robro",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pet_robro.cfad84d8f2cb7638e97ffdc268ca4e502cc82dce.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pet_robro_large.dcc70466ece692a0e9b09bd9f327ab0449cc29c6.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -22859,6 +22994,32 @@
 				
 			},
 			{
+				"name": "MvM Squad Surplus Voucher",
+				"defindex": 758,
+				"item_class": "craft_item",
+				"item_type_name": "Ticket",
+				"item_name": "Squad Surplus Voucher",
+				"item_description": "Present this voucher in Mann vs. Machine when starting Mann Up Mode. You and every person on your team will receive an extra item drop when you complete a mission.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/mvm_squad_surplus",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mvm_squad_surplus.016b1bd4ea8a12eb7d7ecf278f0d60ae6424cdda.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/mvm_squad_surplus_large.8526f62ff943ac95220642e9cc8245d93bcc87b6.png",
+				"capabilities": {
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
 				"name": "The Fruit Shoot",
 				"defindex": 759,
 				"item_class": "tf_wearable",
@@ -23080,24 +23241,19 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_soldier.db74e1f826550763b5e9062e2838ea3c5422c2f2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_soldier_large.f6ae17dc9b7b25b69fbfc56949901a58b1d0f71c.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
 				},
 				"used_by_classes": [
 					"Soldier"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23118,24 +23274,19 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_scout.1fcf6329598d9960d685d2858e4827e13536493d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_scout_large.1028b65d7f8c72286e2025b6e68d619ebddd42b9.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
 				},
 				"used_by_classes": [
 					"Scout"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23156,10 +23307,13 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_sniper.3f23c9030b93ec8188fbcda1f501b4a270462f1f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/grfs_sniper_large.cce4f907819c8b249d3fb7e17c1f7b4c2fc71da5.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -23167,14 +23321,6 @@
 				"used_by_classes": [
 					"Sniper",
 					"Spy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23195,23 +23341,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_badge.bddb508153aa3db5564e3a5fda29fa069efa88d4.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_badge_large.47336ed6d9a20eddf5e71468fd4a570e6e74ef8d.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The Professor's Pineapple",
@@ -23230,10 +23370,12 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_flask_demo.80ba8937e57dcfe6c8e5ad6a647c61f30d9b3159.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_flask_demo_large.ab135c2618efc3f13e5f631c2ad1e553985635ec.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -23243,14 +23385,6 @@
 					"Soldier",
 					"Demoman",
 					"Pyro"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23271,9 +23405,11 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_glove.fc2a4c0597c5250499366046c27d41a295e3cc99.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/qc_glove_large.7500421191a598f4996eff85d615c8a240a0e736.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -23281,14 +23417,6 @@
 				},
 				"used_by_classes": [
 					"Medic"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -23953,6 +24081,2203 @@
 				
 			},
 			{
+				"name": "The Grenadier Helm",
+				"defindex": 786,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Grenadier Helm",
+				"item_description": "Argghhh! You're angry! And you're small! And you need to convey these facts through a single accessory! Strap on the Grenadier Helm and send your enemies to whatever level of Dwarfish hell you deem appropriate.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/hero_academy_demo.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/hero_academy_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hero_academy_demo.b714beff7483a6909c7c86a8a864e9eea1b92adb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hero_academy_demo_large.0eba2b5146e6cde616fe037adef3f7d47e36b985.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Tribal Bones",
+				"defindex": 787,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Tribal Bones",
+				"item_description": "No ritual that results in the senseless destruction of human life at the behest of an angry god is complete without a Tribal Bones necklace. Like all of our mothers weirdly happened to say, if you're going to do some human sacrifices, you gotta look the part.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/hero_academy_pyro.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/hero_academy_pyro",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hero_academy_pyro.0421bb41017ac40ed7a5effd436561fe09114321.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hero_academy_pyro_large.ea7ba1e0335bc7b3ef12abbebe8d78457f9be105.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Void Monk Hair",
+				"defindex": 788,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Void Monk Hair",
+				"item_description": "Channel all the elegance and mystique of an elf with only half the pretention with the Void Monk Hair. Also included with purchase: effeminate good looks. But you already had those, didn't you, you handsome devil.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/scout\/hero_academy_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/hero_academy_scout",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hero_academy_scout.fd037b0eebb6fe315d0d4e9e100a0b6d84bd69f0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hero_academy_scout_large.c84eaf3647967f6ba337574884c836a68c1fe55c.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Ninja Cowl",
+				"defindex": 789,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Ninja Cowl",
+				"item_description": "If there's one thing that the ladies\/men love, it's mystery. And what's more mysterious than covering your entire face with a Ninja Cowl? \"Oh my, I can't see any of that man's face!\" they'll exclaim. \"He must have a terrible secret I will uncover with my love.\"",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/hero_academy_spy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/hero_academy_spy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hero_academy_spy.db2746750cce5e5de8e5ff3bced0534eb8ff4747.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/hero_academy_spy_large.5b96c0b8aa6b8617296efd2d9e9ff5dab8a283b7.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Sandvich Promo Package",
+				"defindex": 790,
+				"item_class": "craft_item",
+				"item_type_name": "Package",
+				"item_name": "What's in the Sandvich Box?",
+				"item_description": "This sealed Sandvich Box will open to reveal its contents at a later date.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/gift_mystery",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_mystery.e0cf7028a586c4ce6c21935928035d928a888498.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_mystery_large.e42c714768c89d1407552798d5b5e76cf0bff99a.png",
+				"craft_material_type": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Companion Square Promo Package",
+				"defindex": 791,
+				"item_class": "craft_item",
+				"item_type_name": "Package",
+				"item_name": "What's in the Companion Square Box?",
+				"item_description": "This sealed Companion Square Box will open to reveal its contents at a later date.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/gift_mystery",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_mystery.e0cf7028a586c4ce6c21935928035d928a888498.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_mystery_large.e42c714768c89d1407552798d5b5e76cf0bff99a.png",
+				"craft_material_type": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Botkiller Sniper Rifle",
+				"defindex": 792,
+				"item_class": "tf_weapon_sniperrifle",
+				"item_type_name": "Sniper Rifle",
+				"item_name": "Botkiller Sniper Rifle",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_sniperrifle.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/sniper\/fob_h_sniperrifle",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_sniperrifle.4ab6e6d2a54fffd6429c7449a66d87f6313ffde0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_sniperrifle_large.bd774d55525ebea0a5835b0db666dea7f5039afd.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Botkiller Minigun",
+				"defindex": 793,
+				"item_class": "tf_weapon_minigun",
+				"item_type_name": "Minigun",
+				"item_name": "Botkiller Minigun",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_minigun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/heavy\/fob_h_minigun",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_minigun.8fec69a76ba6f799c28e1156ee2821446cb6db83.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_minigun_large.4e683870f04fb6bfe9937d68b27c374074c9124b.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Botkiller Knife",
+				"defindex": 794,
+				"item_class": "tf_weapon_knife",
+				"item_type_name": "Knife",
+				"item_name": "Botkiller Knife",
+				"proper_name": false,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/w_models\/w_knife.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/spy\/fob_h_knife",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_knife.50efc3912307edd5313337d4f82df8ed66b509ad.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_knife_large.4f6336053d9a386caf2591e2a3fc336e8d982b41.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Botkiller Wrench",
+				"defindex": 795,
+				"item_class": "tf_weapon_wrench",
+				"item_type_name": "Wrench",
+				"item_name": "Botkiller Wrench",
+				"proper_name": false,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/w_models\/w_wrench.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/engineer\/fob_h_wrench",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_wrench.26137085758cd765b3e2417dfd721e58568472f4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_wrench_large.35b56c9049e784a2410280ff6bfdd1f26ec2b3ab.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Botkiller Medi Gun",
+				"defindex": 796,
+				"item_class": "tf_weapon_medigun",
+				"item_type_name": "Medi Gun",
+				"item_name": "Botkiller Medi Gun",
+				"proper_name": false,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/w_models\/w_medigun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/medic\/fob_h_medigun",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_medigun.598403c0601edf7dfb41a6713f8ba78f3316a818.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_medigun_large.d3a19b3c0171349b9f06614b61156fab13189309.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 2.000000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Botkiller Stickybomb Launcher",
+				"defindex": 797,
+				"item_class": "tf_weapon_pipebomblauncher",
+				"item_type_name": "Stickybomb Launcher",
+				"item_name": "Botkiller Stickybomb Launcher",
+				"proper_name": false,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/w_models\/w_stickybomb_launcher.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/demo\/fob_h_stickybomb",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_stickybomb.226973390bca6b603d846aa19b1cd13ff40f26e8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_stickybomb_large.4de6b03f323541e0abe16238b84929aed5532692.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Botkiller Flame Thrower",
+				"defindex": 798,
+				"item_class": "tf_weapon_flamethrower",
+				"item_type_name": "Flame Thrower",
+				"item_name": "Botkiller Flame Thrower",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_flamethrower\/c_flamethrower.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/pyro\/fob_h_flamethrower",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_flamethrower.cdbcb4071b0333a84e78b32e5a29ec64c7d196d5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_flamethrower_large.423f7892bf5d297f274ed198eada28a3e59bd995.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Botkiller Scattergun",
+				"defindex": 799,
+				"item_class": "tf_weapon_scattergun",
+				"item_type_name": "Scattergun",
+				"item_name": "Botkiller Scattergun",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_scattergun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/scout\/fob_h_scattergun",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_scattergun.b41cc6c14195714a9b93f2d516690cc9d70f9c0e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_scattergun_large.7f75a12db59aad18d1d6075f6441ffeb185c6780.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Botkiller Rocket Launcher",
+				"defindex": 800,
+				"item_class": "tf_weapon_rocketlauncher",
+				"item_type_name": "Rocket Launcher",
+				"item_name": "Botkiller Rocket Launcher",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_rocketlauncher.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/soldier\/fob_h_rocketlauncher",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_rocketlauncher.f5b960e2881aaa925b7b9595d4496aa6cb086eff.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_rocketlauncher_large.83c30d8f74f5fda8bc9cd22f7cf4fa162e5973ef.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Sniper Rifle",
+				"defindex": 801,
+				"item_class": "tf_weapon_sniperrifle",
+				"item_type_name": "Sniper Rifle",
+				"item_name": "Gold Botkiller Sniper Rifle",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_sniperrifle.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/sniper\/fob_h_sniperrifle_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_sniperrifle_gold.d2771cf37870f30964d1432ed32249a954ffa5a3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_sniperrifle_gold_large.aa3ac5f68eeb8a3999ca055237c7c79665135293.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Minigun",
+				"defindex": 802,
+				"item_class": "tf_weapon_minigun",
+				"item_type_name": "Minigun",
+				"item_name": "Gold Botkiller Minigun",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_minigun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/heavy\/fob_h_minigun_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_minigun_gold.f9fcc8a8775658b59287f21a5a74fff9362fee3a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_minigun_gold_large.c00e18320f9ac09bcb1fee769d1ed1b8502c1faa.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Knife",
+				"defindex": 803,
+				"item_class": "tf_weapon_knife",
+				"item_type_name": "Knife",
+				"item_name": "Gold Botkiller Knife",
+				"proper_name": false,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/w_models\/w_knife.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/spy\/fob_h_knife_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_knife_gold.d28e75f0fcf8b2f942c502da8699eef37528fa6c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_knife_gold_large.8e571eb1526503ed6d4abb57cbe174fb7733624f.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Wrench",
+				"defindex": 804,
+				"item_class": "tf_weapon_wrench",
+				"item_type_name": "Wrench",
+				"item_name": "Gold Botkiller Wrench",
+				"proper_name": false,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/w_models\/w_wrench.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/engineer\/fob_h_wrench_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_wrench_gold.c131a8d5b2521fccbbeecc9149bd12652c054dd1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_wrench_gold_large.d8e85388a863a1d45a7a68cde81bce84ce26e1f9.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Medi Gun",
+				"defindex": 805,
+				"item_class": "tf_weapon_medigun",
+				"item_type_name": "Medi Gun",
+				"item_name": "Gold Botkiller Medi Gun",
+				"proper_name": false,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/w_models\/w_medigun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/medic\/fob_h_medigun_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_medigun_gold.2e8120ceb66d421950ecf53ec088171dfa298762.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_medigun_gold_large.23374a7295ae5fb45eb45fff379cce8207921b06.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 1.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 2.000000
+					},
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Stickybomb Launcher",
+				"defindex": 806,
+				"item_class": "tf_weapon_pipebomblauncher",
+				"item_type_name": "Stickybomb Launcher",
+				"item_name": "Gold Botkiller Stickybomb Launcher",
+				"proper_name": false,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/w_models\/w_stickybomb_launcher.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/demo\/fob_h_stickybomb_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_stickybomb_gold.8bd8ef5f75a6b27da2e93e02cb65a7fffbcf7066.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_stickybomb_gold_large.8a08093730ecc3f9646b2491082f6ba0be28143f.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Flame Thrower",
+				"defindex": 807,
+				"item_class": "tf_weapon_flamethrower",
+				"item_type_name": "Flame Thrower",
+				"item_name": "Gold Botkiller Flame Thrower",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_flamethrower\/c_flamethrower.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/pyro\/fob_h_flamethrower_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_flamethrower_gold.69e6bd2d0a8b856abd88f1de44c5e85a07537d8b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_flamethrower_gold_large.ea6d254446f5232ff4ae735590110349790e961d.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Scattergun",
+				"defindex": 808,
+				"item_class": "tf_weapon_scattergun",
+				"item_type_name": "Scattergun",
+				"item_name": "Gold Botkiller Scattergun",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_scattergun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/scout\/fob_h_scattergun_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_scattergun_gold.7ca57e19492b513c8a0c88d901eeb6ca7120ead4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_scattergun_gold_large.b1e551ff413d76e4e094518d8959e736b2520005.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Gold Botkiller Rocket Launcher",
+				"defindex": 809,
+				"item_class": "tf_weapon_rocketlauncher",
+				"item_type_name": "Rocket Launcher",
+				"item_name": "Gold Botkiller Rocket Launcher",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_rocketlauncher.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/soldier\/fob_h_rocketlauncher_gold",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_rocketlauncher_gold.cd998ae33cc7db7524a8345b3059e16f51549a42.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fob_h_rocketlauncher_gold_large.4b1c6f3a0fbae80f41d50622bc166c7ce6cffe57.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "disable fancy class select anim",
+						"class": "disable_fancy_class_select_anim",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Red-Tape Recorder",
+				"defindex": 810,
+				"item_class": "tf_weapon_sapper",
+				"item_type_name": "Sapper",
+				"item_name": "Red-Tape Recorder",
+				"proper_name": true,
+				"item_slot": "building",
+				"model_player": "models\/weapons\/v_models\/v_sd_sapper_spy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_sd_sapper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_sd_sapper.cb93622110a3d16d4b87dec54cc56720d60df284.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_sd_sapper_large.0440053fe80d4b74f92f4d2c5863e53d72460f6d.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sapper degenerates buildings",
+						"class": "sapper_degenerates_buildings",
+						"value": 0.500000
+					},
+					{
+						"name": "sapper damage penalty",
+						"class": "mult_sapper_damage",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Huo Long Heatmaker",
+				"defindex": 811,
+				"item_class": "tf_weapon_minigun",
+				"item_type_name": "Minigun",
+				"item_name": "Huo-Long Heater",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_canton\/c_canton.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_canton\/c_canton",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_canton.f8f41fbe921d4fd43b936eae81d3a215703f733e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_canton_large.38fce87dd37a0b5ba1c2a348ac602a1d1e97d25d.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "ring of fire while aiming",
+						"class": "ring_of_fire_while_aiming",
+						"value": 15.000000
+					},
+					{
+						"name": "uses ammo while aiming",
+						"class": "uses_ammo_while_aiming",
+						"value": 6.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Flying Guillotine",
+				"defindex": 812,
+				"item_class": "tf_weapon_cleaver",
+				"item_type_name": "TF_Weapon_Cleaver",
+				"item_name": "Flying Guillotine",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_sd_cleaver\/v_sd_cleaver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sd_cleaver\/c_sd_cleaver",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sd_cleaver.de739c10ace3dfdf62c9bb70f6b5bcda5b894b79.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sd_cleaver_large.1cf8f41a45b3abef3be795f9f06e75fb28793387.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Thirsty"
+					},
+					{
+						"name": "Thirstier"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cleaver description",
+						"class": "desc_cleaver_description",
+						"value": 1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "crit vs stunned players",
+						"class": "or_crit_vs_playercond",
+						"value": 65536.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Neon Annihilator",
+				"defindex": 813,
+				"item_class": "tf_weapon_fireaxe",
+				"item_type_name": "Sign",
+				"item_name": "Neon Annihilator",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_sd_neonsign\/c_sd_neonsign.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sd_neonsign\/c_sd_neonsign",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sd_neonsign.0161b268a512b48f1f3f8c0ee07a9e9632afbf9e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sd_neonsign_large.6e1866b2780c63e44284fb650d8044dbb512cd35.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "dmg penalty vs players",
+						"class": "mult_dmg_vs_players",
+						"value": 0.800000
+					},
+					{
+						"name": "ragdolls plasma effect",
+						"class": "ragdolls_plasma_effect",
+						"value": 1.000000
+					},
+					{
+						"name": "crit vs wet players",
+						"class": "crit_vs_wet_players",
+						"value": 1.000000
+					},
+					{
+						"name": "damage applies to sappers",
+						"class": "set_dmg_apply_to_sapper",
+						"value": 1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Triad Trinket",
+				"defindex": 814,
+				"item_class": "tf_wearable",
+				"item_type_name": "Necklace",
+				"item_name": "Triad Trinket",
+				"item_description": "Clothes make the man, and jewelry makes the man look ridiculous if not worn correctly. This understated gold chain strikes a perfect balance that says, \"Yes, I'm wearing a necklace, but I left the tiara at home.\"",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_shirt_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_shirt_sniper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_shirt_sniper.f4de164d68ebbd76f078a7c3aa09ec37fc529c17.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_shirt_sniper_large.11b72ca76def8e26f7cc612692332f44d851a861.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Bare"
+					},
+					{
+						"name": "Bear"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Heavy",
+					"Spy",
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Champ Stamp",
+				"defindex": 815,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tattoos",
+				"item_name": "Champ Stamp",
+				"item_description": "Show Chinese organized crime gangs who's boss by wearing their cool tattoos without actually participating in any of their totally illegal criminal conspiracies! Note: DO NOT actually show your new tattoo to ANYONE in a Chinese organized crime gang.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_tattoos_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_tattoos_scout",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_tattoos_scout.38c0a0517e3721a1541b718dbf25cbb953b3d3a0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_tattoos_scout_large.0bbc87e70d8b8ef6a3774c79e98b8d65cafd6849.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Heavy",
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Marxman",
+				"defindex": 816,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Marxman",
+				"item_description": "Everyone knows laughter is the best medicine. But did you know that laughter is also the best disguise? No? Well, good thing you're not a cop infiltrating the Chinese mafia, then. Oh wait you are. AND NOW YOU'RE DEAD. Look, rookie, these glasses are hilarious.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_glasses_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_glasses",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_glasses.402304a948877617c53c75881df9150f8bc015b3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_glasses_large.9f0021aabc31d03e1092b82222eb125818aa023a.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "No Cigar"
+					},
+					{
+						"name": "Yes, Cigar"
+					}
+				]
+				
+			},
+			{
+				"name": "The Human Cannonball",
+				"defindex": 817,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Human Cannonball",
+				"item_description": "Ask any daredevil what they strap onto their heads before getting shot out of a cannon and the answer will be the same: a glassy, unfocused stare from years of head trauma. Head trauma that could have been prevented with this sharp-looking crash helmet.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/sd_helm_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_helm_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_helm_demo.16c20bf8e4e37c0c920c07582766717498f481e5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_helm_demo_large.fabfb2740ab07a8ab6fd68031478895cae79a2c3.png",
+				"drop_type": "drop",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Crash"
+					},
+					{
+						"name": "Burn"
+					},
+					{
+						"name": "Override"
+					}
+				]
+				
+			},
+			{
+				"name": "Awesomenauts Badge",
+				"defindex": 818,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Awesomenauts Badge",
+				"item_description": "This badge is a sign of acknowledgment from another mercenary group. Just acknowledgment, all right? It's not like they like you or anything. It's not like they wish you'd maybe follow up on that Merc Party Invite they sent you a couple weeks ago. They're stone cold killers, you understand? Also there will be spinach dip at the party.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/awes_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/awes_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/awes_badge.2f7695ea32310aefd03ef9a3a73994f405f98a6a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/awes_badge_large.13ebeaf7f1c8726ad359aaa268b6a7b778fadff4.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Lone Star",
+				"defindex": 819,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Lone Star",
+				"item_description": "You're runnin' the show in these here parts; you deserve a big hat with a star. The size of the hat is indicative of how much of the show you're running – which is all of it, by the way. Honestly, we really don't know how people get respect without this hat.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/awes_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/awes_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/awes_hat.dc62985694162af799961441845e31565d348456.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/awes_hat_large.9de0bd904ccd827d6c04405bdcb48f706d19fc47.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Russian Rocketeer",
+				"defindex": 820,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Russian Rocketeer",
+				"item_description": "The latest in space-primate propulsion, this jet pack has been tested exclusively by apes! We can't stress enough how few human flight tests we've conducted with this product!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/awes_jetpack.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/awes_jetpack",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/awes_jetpack.e6161acb1c5d60b5962f011771dbdb55baa414a3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/awes_jetpack_large.a023642e4c55cc461782759565761ac0fe75c1be.png",
+				"drop_type": "none",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Archimedes",
+				"defindex": 828,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Animal",
+				"item_name": "Archimedes",
+				"item_description": "Before Archimedes came into the Medic's care, he made his living through wedding dovery. A lucrative trade, but he always felt something was missing. He looks back on the day that the Medic stole that catering van during the prime minister's wedding as the best day of his life. He's been burrowing into the chests of unwitting patients ever since.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/archimedes.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/archimedes",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/archimedes.97345e4cafc5611795253fb2ebc42152624d83e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/archimedes_large.808dc1610544b0e093242e1ae1dfcbb5b0962071.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Red-Tape Recorder",
+				"defindex": 831,
+				"item_class": "tf_weapon_sapper",
+				"item_type_name": "Sapper",
+				"item_name": "Red-Tape Recorder",
+				"proper_name": true,
+				"item_slot": "building",
+				"model_player": "models\/weapons\/v_models\/v_sd_sapper_spy.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_sd_sapper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_sd_sapper.cb93622110a3d16d4b87dec54cc56720d60df284.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_sd_sapper_large.0440053fe80d4b74f92f4d2c5863e53d72460f6d.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sapper degenerates buildings",
+						"class": "sapper_degenerates_buildings",
+						"value": 0.500000
+					},
+					{
+						"name": "sapper damage penalty",
+						"class": "mult_sapper_damage",
+						"value": 0.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Huo Long Heatmaker",
+				"defindex": 832,
+				"item_class": "tf_weapon_minigun",
+				"item_type_name": "Minigun",
+				"item_name": "Huo-Long Heater",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_canton\/c_canton.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_canton\/c_canton",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_canton.f8f41fbe921d4fd43b936eae81d3a215703f733e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_canton_large.38fce87dd37a0b5ba1c2a348ac602a1d1e97d25d.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "ring of fire while aiming",
+						"class": "ring_of_fire_while_aiming",
+						"value": 15.000000
+					},
+					{
+						"name": "uses ammo while aiming",
+						"class": "uses_ammo_while_aiming",
+						"value": 6.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Flying Guillotine",
+				"defindex": 833,
+				"item_class": "tf_weapon_cleaver",
+				"item_type_name": "TF_Weapon_Cleaver",
+				"item_name": "Flying Guillotine",
+				"proper_name": true,
+				"item_slot": "secondary",
+				"model_player": "models\/weapons\/c_models\/c_sd_cleaver\/v_sd_cleaver.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sd_cleaver\/c_sd_cleaver",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sd_cleaver.de739c10ace3dfdf62c9bb70f6b5bcda5b894b79.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sd_cleaver_large.1cf8f41a45b3abef3be795f9f06e75fb28793387.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Thirsty"
+					},
+					{
+						"name": "Thirstier"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cleaver description",
+						"class": "desc_cleaver_description",
+						"value": 1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "crit vs stunned players",
+						"class": "or_crit_vs_playercond",
+						"value": 65536.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Neon Annihilator",
+				"defindex": 834,
+				"item_class": "tf_weapon_fireaxe",
+				"item_type_name": "Sign",
+				"item_name": "Neon Annihilator",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_sd_neonsign\/c_sd_neonsign.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_sd_neonsign\/c_sd_neonsign",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sd_neonsign.0161b268a512b48f1f3f8c0ee07a9e9632afbf9e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_sd_neonsign_large.6e1866b2780c63e44284fb650d8044dbb512cd35.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "dmg penalty vs players",
+						"class": "mult_dmg_vs_players",
+						"value": 0.800000
+					},
+					{
+						"name": "ragdolls plasma effect",
+						"class": "ragdolls_plasma_effect",
+						"value": 1.000000
+					},
+					{
+						"name": "crit vs wet players",
+						"class": "crit_vs_wet_players",
+						"value": 1.000000
+					},
+					{
+						"name": "damage applies to sappers",
+						"class": "set_dmg_apply_to_sapper",
+						"value": 1.000000
+					},
+					{
+						"name": "crit mod disabled",
+						"class": "mult_crit_chance",
+						"value": 0.000000
+					},
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Triad Trinket",
+				"defindex": 835,
+				"item_class": "tf_wearable",
+				"item_type_name": "Necklace",
+				"item_name": "Triad Trinket",
+				"item_description": "Clothes make the man, and jewelry makes the man look ridiculous if not worn correctly. This understated gold chain strikes a perfect balance that says, \"Yes, I'm wearing a necklace, but I left the tiara at home.\"",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_shirt_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_shirt_sniper",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_shirt_sniper.f4de164d68ebbd76f078a7c3aa09ec37fc529c17.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_shirt_sniper_large.11b72ca76def8e26f7cc612692332f44d851a861.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Bare"
+					},
+					{
+						"name": "Bear"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Heavy",
+					"Spy",
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Champ Stamp",
+				"defindex": 836,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tattoos",
+				"item_name": "Champ Stamp",
+				"item_description": "Show Chinese organized crime gangs who's boss by wearing their cool tattoos without actually participating in any of their totally illegal criminal conspiracies! Note: DO NOT actually show your new tattoo to ANYONE in a Chinese organized crime gang.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_tattoos_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_tattoos_scout",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_tattoos_scout.38c0a0517e3721a1541b718dbf25cbb953b3d3a0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_tattoos_scout_large.0bbc87e70d8b8ef6a3774c79e98b8d65cafd6849.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Heavy",
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Marxman",
+				"defindex": 837,
+				"item_class": "tf_wearable",
+				"item_type_name": "Glasses",
+				"item_name": "Marxman",
+				"item_description": "Everyone knows laughter is the best medicine. But did you know that laughter is also the best disguise? No? Well, good thing you're not a cop infiltrating the Chinese mafia, then. Oh wait you are. AND NOW YOU'RE DEAD. Look, rookie, these glasses are hilarious.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/sd_glasses_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_glasses",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_glasses.402304a948877617c53c75881df9150f8bc015b3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_glasses_large.9f0021aabc31d03e1092b82222eb125818aa023a.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "No Cigar"
+					},
+					{
+						"name": "Yes, Cigar"
+					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Promo Human Cannonball",
+				"defindex": 838,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Human Cannonball",
+				"item_description": "Ask any daredevil what they strap onto their heads before getting shot out of a cannon and the answer will be the same: a glassy, unfocused stare from years of head trauma. Head trauma that could have been prevented with this sharp-looking crash helmet.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/sd_helm_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/sd_helm_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_helm_demo.16c20bf8e4e37c0c920c07582766717498f481e5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sd_helm_demo_large.fabfb2740ab07a8ab6fd68031478895cae79a2c3.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Crash"
+					},
+					{
+						"name": "Burn"
+					},
+					{
+						"name": "Override"
+					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Steam Translation Package",
+				"defindex": 839,
+				"item_class": "tf_wearable",
+				"item_type_name": "Package",
+				"item_name": "Mann Co. Store Package",
+				"item_description": "This bag contains one free item from the Mann Co. store! You can open it from your backpack!",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/shopping_bag",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/shopping_bag.10340a6535442192a73ae9203e6cb735a578866b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/shopping_bag_large.6d24af978d17fc1ebd49bb3fa0da9e9d74ab1d91.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "gift"
+				},
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The U-clank-a",
+				"defindex": 840,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "U-clank-a",
+				"item_description": "Roast this steel ushanka in the fire and place it on your head for sustained warmth throughout the day. Make sure to come up with an impressive sounding fake anecdote for your third degree burns!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/mvm_loot\/heavy\/robo_ushanka.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/heavy\/robo_ushanka",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_ushanka.289358473e0680bd844a9f00a02a144ec035b2e3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_ushanka_large.8eec2548a72ba7a762d341488d574ac744a056df.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Stealth Steeler",
+				"defindex": 841,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Stealth Steeler",
+				"item_description": "Has back-stabbing lost its charm? Is sneaking too simple? Try wearing this 15 pound metal hat on your head! Enjoy the meta-challenge of keeping your neck from snapping as you sap sentries! This is spine-crushing entertainment!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/mvm_loot\/spy\/robo_fedora.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/spy\/robo_fedora",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_fedora.411d9f9d00ef7b0fbbec0025152e0943d1923a5f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_fedora_large.e71bdaf8dfb130d65be2a339f02bcce7a145d648.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Pyrobotics Pack",
+				"defindex": 842,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Pyrobotics Pack",
+				"item_description": "Did you know that fire can melt metal? Like, say you were fighting an army of robots. You could melt them! With fire! It's true! Just a fun little fact we learned today. We don't really see any practical application for the information, but it's good to learn.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/mvm_loot\/pyro\/pyrobo_backpack.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/pyro\/pyrobo_backpack",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyrobo_backpack.3b05e2b6975a405e069921df2ef8d84513835faa.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pyrobo_backpack_large.22bafe29aef6878007f24e1f7bf5acd7c8094525.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Medic Mech-bag",
+				"defindex": 843,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Medic Mech-bag",
+				"item_description": "The best part of fighting a robot army is you get to salvage all of their destroyed body parts for fun new accessories. Take the Medic Mech-pack! What a fine looking number. It's a good thing robots don't have souls, or they'd be mighty angry that we're using their body parts as cosmetic items!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/mvm_loot\/medic\/robo_backpack.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/medic\/robo_backpack",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_backpack.bb8385ed36fdb8500f756bab2f51cb84fd02459b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_backpack_large.3992ef5f67c6f46634491634716896a503fd0a2b.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "The Tin Pot",
+				"defindex": 844,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Tin Pot",
+				"item_description": "The great thing about this helmet is that it stops bullets (no it doesn't)! Look at it – it's made of robot metal! Bullets can't go through robot metal (they definitely can)! There really is no way you could be harmed while wearing this helmet (there absolutely is).",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/soldier\/robot_helmet",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robot_helmet.a8fd9c5fdced7fc3dc7b31dcdbf53b5734e5a1fd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robot_helmet_large.9f37efc5fc6bc021c6f60b2ff52094ff526e187d.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Battered"
+					},
+					{
+						"name": "Standard Issue"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Battery Bandolier",
+				"defindex": 845,
+				"item_class": "tf_wearable",
+				"item_type_name": "Decorative Bombs",
+				"item_name": "Battery Bandolier",
+				"item_description": "For the first time in history, batteries are included with your purchase of Demo's battery Bandolier. Because, well, you're purchasing batteries. We should have said, for the first time in history [except for all those times you bought batteries].",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/mvm_loot\/demo\/battery_grenade.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/demo\/battery_grenade",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/battery_grenade.bc24075f2b92c6c0fcc3271df3ac189e30cb4318.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/battery_grenade_large.b523587792b22a2856b9de32b93c62e7d13dc326.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Robot Running Man",
+				"defindex": 846,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Robot Running Man",
+				"item_description": "You'd think this robot cap would slow Scout down, but he's actually just as fast! It's all that milk he drinks. You didn't expect this item to be a thinly veiled milk advertisement, did you? We're full of surprises today. Just wait until you try to go to sleep tonight! Ohhh boy!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/mvm_loot\/scout\/robo_cap.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/scout\/robo_cap",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_cap.90da1993e385954e4ec5900d0e7167ff948c8dbd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_cap_large.85191864490d45a8f5a9f84e1756b6232b2d961c.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Bolted Bushman",
+				"defindex": 847,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Bolted Bushman",
+				"item_description": "A hat says things about its wearer. Fedoras? Mystery, danger, and hard drinking cool. Deerstalkers? Pipe smoking, cunning, and raw intellect. The Bolted Bushman will show your friends and foes alike that you are steely, hard and… full of bolts we guess. You know what, some hats only need to say two things.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/mvm_loot\/sniper\/robo_sniper_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/sniper\/robo_sniper_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_sniper_hat.c07a4143373697ff97740b52b2a457d093b6f915.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_sniper_hat_large.79bee58a708acbb43c35204c9d8c4da9a6acb75f.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "The Tin-1000",
+				"defindex": 848,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Tin-1000",
+				"item_description": "Are people bothering you while you're trying to work? Just strap on The Tin-1000, stare at them unflinchingly with your soulless, red, robot eyes, and watch as they slink away in terror. It's a great way to thin out your friend circle – fast!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/mvm_loot\/engineer\/robo_engy_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/mvm_loot\/engineer\/robo_engy_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_engy_hat.0b0d64ee0200ddbce1f567b6076e76d54c9d0f77.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/robo_engy_hat_large.b494eaf3ca4f3a34a5f7e3fc84cbb5474de76c9d.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "Deflector",
+				"defindex": 850,
+				"item_class": "tf_weapon_minigun",
+				"item_type_name": "Minigun",
+				"item_name": "Deflector",
+				"proper_name": false,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/w_models\/w_minigun.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/w_models\/w_minigun",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_minigun.c8dd004e4691ebde7af11d564bf2717468e485ff.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/w_minigun_large.8dae9a1a5003d1c815aec04bf0eeb32523ad8fdc.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The AWPer Hand",
+				"defindex": 851,
+				"item_class": "tf_weapon_sniperrifle",
+				"item_type_name": "Sniper Rifle",
+				"item_name": "AWPer Hand",
+				"item_description": "This controversial bolt-action beaut is banned in thousands of countries, and with good reason: You could really hurt someone with this thing.",
+				"proper_name": true,
+				"item_slot": "primary",
+				"model_player": "models\/weapons\/c_models\/c_csgo_awp\/c_csgo_awp.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_csgo_awp\/c_csgo_awp",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_csgo_awp.8480ff27af59a4f8491c48b504e244d3f10c31b2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_csgo_awp_large.7854637843ab3654a31c8aa2f8ab3fccbe5286fd.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Soldier's Stogie",
+				"defindex": 852,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cigar",
+				"item_name": "Soldier's Stogie",
+				"item_description": "Sometimes a cigar is just a cigar. And sometimes, as is the case with this hand-rolled Soldier cigar, it's gravel, manure, human hair, and taco seasoning wrapped up in old band-aids.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/soldier\/cigar.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/cigar",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/cigar.0b2a633c64f69984093be6916d58574cbac74a42.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/cigar_large.a54b8886a6bcebd0eaf0441c7c6b8aa53bcd8f7e.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
 				"name": "World Traveler",
 				"defindex": 1899,
 				"item_class": "tf_wearable",
@@ -24430,6 +26755,31 @@
 				"max_ilevel": 50,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_gullywash.86e8687005ae92c0c3b4eaba6e6a64b5c0f60544.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_gullywash_large.ef8f4107b7d99a1d62c9788cc06a16382bdcd86e.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Map Token Kong King",
+				"defindex": 1918,
+				"item_class": "map_token",
+				"item_type_name": "Map Stamp",
+				"item_name": "Map Stamp - Kong King",
+				"item_description": "A King of the Hill Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Kong King community map.  Show your support today!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamp_kongking",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_kongking.8285cd33fe66ca418b5a54cab6c9512b57d33f0a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_kongking_large.0187731a0d56822fe04a17829ee3a3ee774bfc6b.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -26055,12 +28405,12 @@
 				}
 			},
 			{
-				"name": "Mysterious Promo",
+				"name": "Archimedes Promo",
 				"defindex": 2061,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "Mysterious Promo",
-				"item_description": "Mysterious Promo",
+				"item_name": "Archimedes Promo",
+				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -26074,6 +28424,10 @@
 					"can_be_restored": true,
 					"strange_parts": true
 				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
 				"attributes": [
 					{
 						"name": "elevate quality",
@@ -26214,12 +28568,12 @@
 				
 			},
 			{
-				"name": "Mysterious Promo 3",
+				"name": "Sandvich Promo",
 				"defindex": 2067,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "Mysterious Promo 3",
-				"item_description": "Mysterious Promo 3",
+				"item_name": "Sandvich Promo",
+				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -26232,23 +28586,15 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				},
-				"attributes": [
-					{
-						"name": "elevate quality",
-						"class": "set_elevated_quality",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
-				"name": "Mysterious Promo 4",
+				"name": "Companion Square Promo",
 				"defindex": 2068,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "Mysterious Promo 4",
-				"item_description": "Mysterious Promo 4",
+				"item_name": "Companion Square Promo",
+				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -26261,15 +28607,7 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				},
-				"attributes": [
-					{
-						"name": "elevate quality",
-						"class": "set_elevated_quality",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "Soldier Equalizer Escape Plan Bundle",
@@ -26311,6 +28649,277 @@
 				"max_ilevel": 50,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/as_robot_chicken_demo.f75f47a8c8e1ccd92d50b1d4b7991451b60dce1c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/as_robot_chicken_demo_large.abb07e963eee64af56d21525b35081c5192a8fe4.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Urban Professional Bundle",
+				"defindex": 2071,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Urban Professional Bundle",
+				"item_description": "Nothing commands respect like a beanie, sunglasses and an incredibly large sniper rifle:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/urbanpro_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/urbanpro_bundle.3f77c30ba5aa05530698d5f2aa98664c377eb551.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/urbanpro_bundle_large.f8fb9b03a817769da65a2a317662260481e56381.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				
+			},
+			{
+				"name": "Dumpster Diver Bundle",
+				"defindex": 2072,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Dumpster Diver Bundle",
+				"item_description": "Finally! Experience the thrill of being homeless from the comfort of your own home:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/dumpster_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dumpster_bundle.3aa4cacfd6a237d6e0760c06807716fcb6c4f485.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/dumpster_bundle_large.172784cf472bdfcabc00660c2720add5b1928796.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "Public Enemy Bundle",
+				"defindex": 2073,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Public Enemy Bundle",
+				"item_description": "Deciding whether or not to start your own crime syndicate? Test the gangster waters with the Public Enemy Bundle:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/publicenemy_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/publicenemy_bundle.27681040d6bbdc04f9f93f3a06112100d45aceff.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/publicenemy_bundle_large.f7c223c5fb1ba6910362976a4b317d58e3a1c864.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "Pyromania Bundle",
+				"defindex": 2074,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Pyromania Mega Bundle",
+				"item_description": "If you bought all this gear separately, it would cost over $100. If you buy it all in this bundle, it would cost less. So we think the choice is clear: Buy them separately. Please?",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/summer_pyro_sale_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/summer_pyro_sale_bundle.686ee63d3d38f4d5f2c327100c9c40387d19aeb7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/summer_pyro_sale_bundle_large.5933f62dc498edea64bfb70b436e6eeb607c2f06.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Summer 2012 Community Bundle",
+				"defindex": 2075,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Summer 2012 Community Bundle",
+				"item_description": "The Summer 2012 Community Bundle is filled with amazing creations by members of the TF2 community. So if you happen to be on parole, this actually probably counts as community service:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/summer_pyro_community_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/summer_pyro_community_bundle.03cf10167a5a15b55c02b4d9830fe247e3b50817.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/summer_pyro_community_bundle_large.61cc500c4a447755323071ed51a99bf62390a84c.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Pyro",
+					"Spy",
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "Sleeping Dogs Bundle",
+				"defindex": 2076,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Triad Bundle",
+				"item_description": "Trick an incredibly violent and secretive underground Asian crime syndicate into thinking you're one of them! It's a well-known fact that the first thing you get when you join the Chinese mafia is a meat cleaver, a bunch of tattoos, and a special Chinese mafia helmet that will protect your head when you launch yourself at rival gangs out of an ancient Chinese crime cannon. Get in on the ground floor, though, because eventually the Chinese mafia is going to get wise to this bundle and change the contents of their complementary initiation gift basket.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/sleeping_dogs_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sleeping_dogs_bundle.4e2afa9b2dbdbb81f29bb48000772c63950497bb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sleeping_dogs_bundle_large.e70c12d318c59edb3bda7f4e40fcbfe3ae4fe276.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "QuakeCon2012 Bundle",
+				"defindex": 2077,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "QuakeCon Bundle",
+				"item_description": "Celebrate QuakeCon 2012 with this assortment of iconic items from twenty years of gaming history.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/bethesda_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bethesda_bundle.402b77f76f32b6a779d946dd6c91f3f93d730ce2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/bethesda_bundle_large.3bdd613dcca0bd1392dd4f3639732e8c13ad25c0.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Steam Translation Bundle",
+				"defindex": 2078,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Steam Translation Bundle",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/sts_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
+			},
+			{
+				"name": "Map Token Bundle 4",
+				"defindex": 2079,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Map Stamps Collection",
+				"item_description": "Includes one a stamp for each community made map.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/stamp_collection",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_collection.eee58fb79e7aab6089d3eeab0aa6903d5ee1dccc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/stamp_collection_large.98575cfa328cabd56e340535e044a6db43368415.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Hero Academy Gold Bundle",
+				"defindex": 2080,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Hero Academy Gold Pack",
+				"item_description": "This heroic bundle contains a gift copy of Hero Academy with all DLC on Steam, as well as all four Hero Academy-themed hats:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/academy_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/academy_bundle.6461b2fbb629b310f4ed5cbafa4059a6f43eedbb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/academy_bundle_large.459343d623ac9f63d0c0fc9282e191f788239a0c.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Demoman",
+					"Pyro",
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Sleeping Dogs Employee Bundle",
+				"defindex": 2081,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Triad Bundle",
+				"item_description": "Trick an incredibly violent and secretive underground Asian crime syndicate into thinking you're one of them! It's a well-known fact that the first thing you get when you join the Chinese mafia is a meat cleaver, a bunch of tattoos, and a special Chinese mafia helmet that will protect your head when you launch yourself at rival gangs out of an ancient Chinese crime cannon. Get in on the ground floor, though, because eventually the Chinese mafia is going to get wise to this bundle and change the contents of their complementary initiation gift basket.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/sleeping_dogs_bundle",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sleeping_dogs_bundle.4e2afa9b2dbdbb81f29bb48000772c63950497bb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/sleeping_dogs_bundle_large.e70c12d318c59edb3bda7f4e40fcbfe3ae4fe276.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -29054,16 +31663,16 @@
 				"defindex": 5079,
 				"item_class": "tool",
 				"item_type_name": "Tool",
-				"item_name": "Scorched Key",
-				"item_description": "Used to open Scorched Crates.\n\nAfter 7\/11\/2012 this will turn into a normal key.",
+				"item_name": "Mann Co. Supply Crate Key",
+				"item_description": "Used to open locked supply crates.",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
-				"image_inventory": "backpack\/crafting\/fire_key",
+				"image_inventory": "backpack\/player\/items\/crafting\/key",
 				"min_ilevel": 5,
 				"max_ilevel": 5,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fire_key.5e9eecda2080e2b62c55d12769d268f8ccd2ce51.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/fire_key_large.20be1b7a01c70a7447132834a125c4cf3d27ead2.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/key.067945a6cae528464e4fa00126f0ef17ee2dc8b5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/key_large.443e254bfd7c6f54de0842a14df3c2aa72e8b6f0.png",
 				"craft_class": "tool",
 				"craft_material_type": "tool",
 				"capabilities": {
@@ -29073,7 +31682,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "scorched",
 					"usage_capabilities": {
 						"decodable": true
 					}
@@ -29280,11 +31888,12 @@
 			{
 				"name": "Damaged Capacitor",
 				"defindex": 5606,
-				"item_class": "craft_item",
+				"item_class": "tf_wearable",
 				"item_type_name": "Ash",
 				"item_name": "Barely-Melted Capacitor",
 				"item_description": "This damaged capacitor seems to be fire-proof as well as broken. Is there anything it CAN'T do (besides work)?",
 				"proper_name": false,
+				"item_slot": "misc",
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/capacitor",
@@ -29297,11 +31906,7 @@
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				},
-				"used_by_classes": [
-
-				]
-				
+				}
 			},
 			{
 				"name": "Pile Of Ash",
@@ -30785,6 +33390,1401 @@
 				
 			},
 			{
+				"name": "ESL Season VI Premier Division 1st Place",
+				"defindex": 8027,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Premier Division 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Premier Division 2nd Place",
+				"defindex": 8028,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Premier Division 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Premier Division 3rd Place",
+				"defindex": 8029,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Premier Division 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Premier Division Participant",
+				"defindex": 8030,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Premier Division Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 1 1st Place",
+				"defindex": 8031,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 1 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 1 2nd Place",
+				"defindex": 8032,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 1 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 1 3rd Place",
+				"defindex": 8033,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 1 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 1 Participant",
+				"defindex": 8034,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 1 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 2 1st Place",
+				"defindex": 8035,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 2 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 2 2nd Place",
+				"defindex": 8036,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 2 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 2 3rd Place",
+				"defindex": 8037,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 2 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 2 Participant",
+				"defindex": 8038,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 2 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 3 1st Place",
+				"defindex": 8039,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 3 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 3 2nd Place",
+				"defindex": 8040,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 3 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 3 3rd Place",
+				"defindex": 8041,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 3 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 3 Participant",
+				"defindex": 8042,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 3 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 4 1st Place",
+				"defindex": 8043,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 4 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 4 2nd Place",
+				"defindex": 8044,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 4 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 4 3rd Place",
+				"defindex": 8045,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 4 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 4 Participant",
+				"defindex": 8046,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 4 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 5 1st Place",
+				"defindex": 8047,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 5 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 5 2nd Place",
+				"defindex": 8048,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 5 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 5 3rd Place",
+				"defindex": 8049,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 5 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VI Division 5 Participant",
+				"defindex": 8050,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VI Division 5 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Premiership Division 1st Place",
+				"defindex": 8051,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Premiership Division 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Premiership Division 2nd Place",
+				"defindex": 8052,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Premiership Division 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Premiership Division 3rd Place",
+				"defindex": 8053,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Premiership Division 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Premiership Division Participant",
+				"defindex": 8054,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Premiership Division Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 1 1st Place",
+				"defindex": 8055,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 1 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 1 2nd Place",
+				"defindex": 8056,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 1 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 1 3rd Place",
+				"defindex": 8057,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 1 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 2 1st Place",
+				"defindex": 8058,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 2 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 2 2nd Place",
+				"defindex": 8059,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 2 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 2 Participant",
+				"defindex": 8060,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 2 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 3 Participant",
+				"defindex": 8061,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 3 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 4 1st Place",
+				"defindex": 8062,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 4 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 4 2nd Place",
+				"defindex": 8063,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 4 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 4 3rd Place",
+				"defindex": 8064,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 4 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 4 Participant",
+				"defindex": 8065,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 4 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 5 1st Place",
+				"defindex": 8066,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 5 1st Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_gold",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold.4739c94714a55972f6c1272be79d965fc46150dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_gold_large.e2ae26dc9dd4070c853e2a08c3029eb3ca0b0b60.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 5 2nd Place",
+				"defindex": 8067,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 5 2nd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_silver",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver.f32f027847b43736e22017468b3e299828ebf27a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_silver_large.501272d8d865fd10a0abe3c1f4854b8d271ac171.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 5 3rd Place",
+				"defindex": 8068,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 5 3rd Place",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl_bronze",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze.57f69182343d1b22205b8eb2235c9e3f882f4deb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_bronze_large.4b463d142569e48f37f4b452c518e9879c4961ba.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "ESL Season VII Division 5 Participant",
+				"defindex": 8069,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "ESL Season VII Division 5 Participant",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_esl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_esl",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl.275f4a75623e80f6e45cc0121aefc8d6e81b754d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_esl_large.2b492f0798aa180c004bf47f03530ee0e6279500.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan Participant Season 1",
+				"defindex": 8070,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan Participant",
+				"item_description": "Season 1",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_pan.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_pan",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_pan.b0a0975cebb2c5086eaad74f29ac87c42a050d43.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_pan_large.e0ab803ae11b183dadf74ca7ca091bf150554248.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan Helper Season 1",
+				"defindex": 8071,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan Participant",
+				"item_description": "Season 1\nThanks for Helping!",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/all_class_badge_pan.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_class_badge_pan",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_pan.b0a0975cebb2c5086eaad74f29ac87c42a050d43.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_class_badge_pan_large.e0ab803ae11b183dadf74ca7ca091bf150554248.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Beta Pocket Rocket Launcher",
 				"defindex": 9010,
 				"item_class": "tf_weapon_rocketlauncher",
@@ -31246,7 +35246,7 @@
 				"attribute_class": "mult_medigun_overheal_amount",
 				"min_value": 1.050000,
 				"max_value": 1.150000,
-				"description_string": "%s1% more overheal",
+				"description_string": "+%s1% max overheal",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -32366,7 +36366,7 @@
 				"attribute_class": "mult_medigun_overheal_amount",
 				"min_value": 0.900000,
 				"max_value": 0.700000,
-				"description_string": "%s1% less max overheal",
+				"description_string": "%s1% max overheal",
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -32946,7 +36946,7 @@
 				"attribute_class": "set_disguise_on_backstab",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "Upon a successful backstab you rapidly disguise as your victim",
+				"description_string": "Upon a successful backstab against a human target, you rapidly disguise as your victim",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -34297,6 +38297,66 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "powerup max charges",
+				"defindex": 270,
+				"attribute_class": "powerup_max_charges",
+				"min_value": 1.000000,
+				"max_value": 25.000000,
+				"description_string": "Holds a maximum of %s1 charges",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "powerup charges",
+				"defindex": 271,
+				"attribute_class": "powerup_charges",
+				"min_value": 1.000000,
+				"max_value": 25.000000,
+				"description_string": "Currently holds %s1 charges",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "powerup duration",
+				"defindex": 272,
+				"attribute_class": "powerup_duration",
+				"min_value": 1.000000,
+				"max_value": 25.000000,
+				"description_string": "Each charge lasts %s1 seconds",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "critboost",
+				"defindex": 273,
+				"attribute_class": "critboost",
+				"min_value": 1.000000,
+				"max_value": 25.000000,
+				"description_string": "Consumable: Become Crit Boosted for 5 seconds\n(and double your sentry's firing speed)",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "ubercharge",
+				"defindex": 274,
+				"attribute_class": "ubercharge",
+				"min_value": 1.000000,
+				"max_value": 25.000000,
+				"description_string": "Consumable: Become Übercharged for 5 seconds\n(and shield your sentry from damage)",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "cancel falling damage",
 				"defindex": 275,
 				"attribute_class": "cancel_falling_damage",
@@ -34309,12 +38369,48 @@
 				"stored_as_integer": true
 			},
 			{
+				"name": "bidirectional teleport",
+				"defindex": 276,
+				"attribute_class": "bidirectional_teleport",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "Teleporters can be used in both directions",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "multiple sentries",
+				"defindex": 277,
+				"attribute_class": "multiple_sentries",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_string": "Attrib_MultipleSentries",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "effect bar recharge rate increased",
+				"defindex": 278,
+				"attribute_class": "effectbar_recharge_rate",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "+%s1% increase in recharge rate",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "maxammo grenades1 increased",
 				"defindex": 279,
 				"attribute_class": "mult_maxammo_grenades1",
 				"min_value": 1.050000,
 				"max_value": 1.150000,
-				"description_string": "Attrib_MaxammoGrenades1_Increased",
+				"description_string": "+%s1% max misc ammo on wearer",
 				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
@@ -34390,6 +38486,30 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": true
+			},
+			{
+				"name": "engy building health bonus",
+				"defindex": 286,
+				"attribute_class": "mult_engy_building_health",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "+%s1% max building health",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "engy sentry damage bonus",
+				"defindex": 287,
+				"attribute_class": "mult_engy_sentry_damage",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "+%s1% Sentry Gun damage bonus",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			},
 			{
 				"name": "no crit boost",
@@ -34620,6 +38740,18 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "recall",
+				"defindex": 310,
+				"attribute_class": "recall",
+				"min_value": 1.000000,
+				"max_value": 25.000000,
+				"description_string": "Consumable: Instantly teleport to spawn",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "unlimited quantity",
 				"defindex": 311,
 				"attribute_class": "unlimited_quantity",
@@ -34642,6 +38774,42 @@
 				"stored_as_integer": true
 			},
 			{
+				"name": "applies snare effect",
+				"defindex": 313,
+				"attribute_class": "applies_snare_effect",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "%s1% movement speed on targets",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "uber duration bonus",
+				"defindex": 314,
+				"attribute_class": "add_uber_time",
+				"min_value": 1.050000,
+				"max_value": 1.100000,
+				"description_string": "Über duration increased %s1 seconds",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "refill_ammo",
+				"defindex": 315,
+				"attribute_class": "refill_ammo",
+				"min_value": 1.000000,
+				"max_value": 25.000000,
+				"description_string": "Consumable: Instantly refill all weapon clips and ammo",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "store sort override DEPRECATED",
 				"defindex": 317,
 				"attribute_class": "store_sort_override_DEPRECATED",
@@ -34650,6 +38818,54 @@
 				"effect_type": "neutral",
 				"hidden": true,
 				"stored_as_integer": true
+			},
+			{
+				"name": "faster reload rate",
+				"defindex": 318,
+				"attribute_class": "fast_reload",
+				"min_value": 0.900000,
+				"max_value": 0.100000,
+				"description_string": "+%s1% faster reload time",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "increase buff duration",
+				"defindex": 319,
+				"attribute_class": "mod_buff_duration",
+				"min_value": 1.050000,
+				"max_value": 1.150000,
+				"description_string": "+%s1% buff duration",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "robo sapper",
+				"defindex": 320,
+				"attribute_class": "robo_sapper",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Increased robot Sapper radius and duration",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "build rate bonus",
+				"defindex": 321,
+				"attribute_class": "mod_build_rate",
+				"min_value": 0.950000,
+				"max_value": 0.900000,
+				"description_string": "+%s1% faster build speed",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			},
 			{
 				"name": "taunt is press and hold",
@@ -34662,6 +38878,66 @@
 				"stored_as_integer": true
 			},
 			{
+				"name": "attack projectiles",
+				"defindex": 323,
+				"attribute_class": "attack_projectiles",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Bullets destroy rockets and grenades in-flight",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
+				"name": "accuracy scales damage",
+				"defindex": 324,
+				"attribute_class": "accuracy_scales_damage",
+				"min_value": 1.050000,
+				"max_value": 1.150000,
+				"description_string": "Accuracy scales damage",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "currency bonus",
+				"defindex": 325,
+				"attribute_class": "currency_bonus",
+				"min_value": 1.050000,
+				"max_value": 1.250000,
+				"description_string": "+%s1% bonus currency from packs",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "increased jump height",
+				"defindex": 326,
+				"attribute_class": "mod_jump_height",
+				"min_value": 0.950000,
+				"max_value": 0.900000,
+				"description_string": "+%s1% greater jump height",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "building instant upgrade",
+				"defindex": 327,
+				"attribute_class": "building_instant_upgrade",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Consumable: Instantly upgrade all buildings to max level",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
+			},
+			{
 				"name": "disable fancy class select anim",
 				"defindex": 328,
 				"attribute_class": "disable_fancy_class_select_anim",
@@ -34669,6 +38945,18 @@
 				"max_value": 1.150000,
 				"effect_type": "neutral",
 				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "airblast vulnerability multiplier",
+				"defindex": 329,
+				"attribute_class": "airblast_vulnerability_multiplier",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"description_string": "Attrib_AirBlastVulnerabilityMultipier",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -34741,7 +39029,7 @@
 				"attribute_class": "hide_enemy_health",
 				"min_value": 0.000000,
 				"max_value": 1.000000,
-				"description_string": "Unable to see enemy health",
+				"description_string": "Attrib_HideEnemyHealth",
 				"description_format": "value_is_additive",
 				"effect_type": "negative",
 				"hidden": false,
@@ -34791,6 +39079,54 @@
 				"max_value": 1.000000,
 				"description_string": "On Hit Spy: Reveal disguised Spy",
 				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "jarate backstabber",
+				"defindex": 341,
+				"attribute_class": "jarate_backstabber",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "When backstabbed: Jarate attacker",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "engy sentry fire rate increased",
+				"defindex": 343,
+				"attribute_class": "mult_sentry_firerate",
+				"min_value": 0.950000,
+				"max_value": 0.900000,
+				"description_string": "+%s1% sentry firing speed",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "engy sentry radius increased",
+				"defindex": 344,
+				"attribute_class": "mult_sentry_range",
+				"min_value": 1.050000,
+				"max_value": 1.150000,
+				"description_string": "+%s1% sentry range",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "engy dispenser radius increased",
+				"defindex": 345,
+				"attribute_class": "mult_dispenser_radius",
+				"min_value": 1.050000,
+				"max_value": 1.150000,
+				"description_string": "+%s1% dispenser range",
+				"description_format": "value_is_percentage",
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
@@ -34847,6 +39183,18 @@
 				"max_value": 1.000000,
 				"effect_type": "positive",
 				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "engy disposable sentries",
+				"defindex": 351,
+				"attribute_class": "engy_disposable_sentries",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Build +%s1 additional disposable-sentry",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
 				"stored_as_integer": false
 			},
 			{
@@ -35002,6 +39350,18 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "mod stun waist high airborne",
+				"defindex": 366,
+				"attribute_class": "stun_waist_high_airborne",
+				"min_value": 0.000000,
+				"max_value": 1000.000000,
+				"description_string": "On Hit: If enemy's belt is at or above eye level,\nstun them for %s1 seconds",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "extinguish earns revenge crits",
 				"defindex": 367,
 				"attribute_class": "extinguish_revenge",
@@ -35096,6 +39456,18 @@
 				"effect_type": "negative",
 				"hidden": true,
 				"stored_as_integer": true
+			},
+			{
+				"name": "generate rage on damage",
+				"defindex": 375,
+				"attribute_class": "generate_rage_on_dmg",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "+%s1 rage on damage\nTaunt to knock back targets on damage",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			},
 			{
 				"name": "aiming no flinch",
@@ -35204,6 +39576,16 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "mvm completed challenges bitmask",
+				"defindex": 386,
+				"attribute_class": "mvm_completed_challenges_bitmask",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
 				"name": "rage on kill",
 				"defindex": 387,
 				"attribute_class": "rage_on_kill",
@@ -35226,6 +39608,30 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "shot penetrate all players",
+				"defindex": 389,
+				"attribute_class": "shot_penetrate_all_players",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Shots go through multiple enemies",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "headshot damage increase",
+				"defindex": 390,
+				"attribute_class": "headshot_damage_modify",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Headshots deal an extra +%s1% damage",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "mystery solving time decrease",
 				"defindex": 391,
 				"attribute_class": "mystery_solving_time_decrease",
@@ -35243,7 +39649,7 @@
 				"attribute_class": "bodyshot_damage_modify",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
-				"description_string": "%s1% damage penalty on body shot",
+				"description_string": "%s1% damage on body shot",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
 				"hidden": false,
@@ -35272,12 +39678,60 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "explosive sniper shot",
+				"defindex": 395,
+				"attribute_class": "explosive_sniper_shot",
+				"min_value": 0.000000,
+				"max_value": 100.000000,
+				"description_string": "Increased headshot explosion radius and damage to nearby enemies",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "melee attack rate bonus",
+				"defindex": 396,
+				"attribute_class": "mult_postfiredelay",
+				"min_value": 0.950000,
+				"max_value": 0.900000,
+				"description_string": "+%s1% faster melee attack speed",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "projectile penetration heavy",
+				"defindex": 397,
+				"attribute_class": "projectile_penetration",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Bullets penetrate +%s1 enemies",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "rage on assists",
 				"defindex": 398,
 				"attribute_class": "rage_on_assists",
 				"min_value": 0.000000,
 				"max_value": 100.000000,
 				"description_string": "Attrib_RageGainOnAssists",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "armor piercing",
+				"defindex": 399,
+				"attribute_class": "armor_piercing",
+				"min_value": 0.000000,
+				"max_value": 100.000000,
+				"description_string": "Allow backstabs against Giant Robots at %s1% damage",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -35308,6 +39762,54 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "cannot be backstabbed",
+				"defindex": 402,
+				"attribute_class": "cannot_be_backstabbed",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "Cannot be backstabbed",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "squad surplus claimer id",
+				"defindex": 403,
+				"attribute_class": "squad_surplus_claimer_account_id",
+				"min_value": 0.950000,
+				"max_value": 0.850000,
+				"description_string": "Squad surplus claimed by: %s1",
+				"description_format": "value_is_account_id",
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "share consumable with patient",
+				"defindex": 404,
+				"attribute_class": "share_consumable_with_patient",
+				"min_value": 0.000000,
+				"max_value": 100.000000,
+				"description_string": "Using your Power Up Canteen will apply the same bonus effect to your heal target",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "airblast vertical vulnerability multiplier",
+				"defindex": 405,
+				"attribute_class": "airblast_vertical_vulnerability_multiplier",
+				"min_value": 0.000000,
+				"max_value": 2.000000,
+				"description_string": "Attrib_AirBlastVerticalVulnerabilityMultipier",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "vision opt in flags",
 				"defindex": 406,
 				"attribute_class": "vision_opt_in_flags",
@@ -35315,6 +39817,42 @@
 				"max_value": 32.000000,
 				"description_string": "On Equip: Visit Pyroland",
 				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "crit vs disguised players",
+				"defindex": 407,
+				"attribute_class": "or_crit_vs_playercond",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "100% critical hit vs disguised players",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "crit vs non burning players",
+				"defindex": 408,
+				"attribute_class": "or_crit_vs_not_playercond",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "100% critical hit vs non-burning players",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "kill forces attacker to laugh",
+				"defindex": 409,
+				"attribute_class": "kill_forces_attacker_to_laugh",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "On Kill: Burst into joyous laughter",
+				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
@@ -35481,6 +40019,144 @@
 				"max_value": 0.750000,
 				"effect_type": "negative",
 				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper damage penalty",
+				"defindex": 426,
+				"attribute_class": "mult_sapper_damage",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "%s1% sapper damage penalty",
+				"description_format": "value_is_percentage",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper health penalty",
+				"defindex": 429,
+				"attribute_class": "mult_sapper_health",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "%s1% sapper health penalty",
+				"description_format": "value_is_percentage",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "ring of fire while aiming",
+				"defindex": 430,
+				"attribute_class": "ring_of_fire_while_aiming",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "Sustains a ring of flames while deployed",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "uses ammo while aiming",
+				"defindex": 431,
+				"attribute_class": "uses_ammo_while_aiming",
+				"min_value": 1.000000,
+				"max_value": 100.000000,
+				"description_string": "%s1 ammo consumed per second while deployed",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper degenerates buildings",
+				"defindex": 433,
+				"attribute_class": "sapper_degenerates_buildings",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "Reverses enemy building construction",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper damage penalty hidden",
+				"defindex": 434,
+				"attribute_class": "mult_sapper_damage",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "cleaver description",
+				"defindex": 435,
+				"attribute_class": "desc_cleaver_description",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Throw at your enemies to make them bleed!\nLong distance hits cause mini-crits",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "ragdolls plasma effect",
+				"defindex": 436,
+				"attribute_class": "ragdolls_plasma_effect",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "crit vs stunned players",
+				"defindex": 437,
+				"attribute_class": "or_crit_vs_playercond",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "100% critical hit vs stunned players",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "crit vs wet players",
+				"defindex": 438,
+				"attribute_class": "crit_vs_wet_players",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"description_string": "100% critical hit vs wet players",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "override item level desc string",
+				"defindex": 439,
+				"attribute_class": "override_item_level_desc_string",
+				"min_value": 1.000000,
+				"max_value": 1.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "clip size upgrade atomic",
+				"defindex": 440,
+				"attribute_class": "mult_clipsize_upgrade_atomic",
+				"min_value": 1.050000,
+				"max_value": 1.100000,
+				"description_string": "+%s1 clip size",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
 				"stored_as_integer": false
 			}
 		]
