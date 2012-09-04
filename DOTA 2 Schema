@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.d8a61d9ed08f946989a9b1182d119a7c721b0d0d.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.a8932e4a48f609e2c145ccb557b6ae252934efca.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -19283,15 +19283,15 @@
 				"defindex": 15074,
 				"item_class": "tool",
 				"item_type_name": "Tool",
-				"item_name": "International Key",
-				"item_description": "Used to open both the <font color='#9da1a9'>Treasure of Champions<\/font> and the <font color='#9da1a9'>Treasure of Challengers<\/font>.\r\nDouble click or right-click the key in your backpack and select the chest you want to open.\r\nAfter the end of September 3rd, 2012 this will become a normal key.",
+				"item_name": "Treasure Key",
+				"item_description": "Used to open locked <font color='#9da1a9'>Treasure Chests<\/font>.\r\nDouble click or right-click the key in your backpack and select the chest you want to open.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/tools\/international_key",
+				"image_inventory": "econ\/tools\/treasure_chest_key",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/international_key.ba2048e4ea1e6f3fb08a1d310f78233a76c031ce.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/international_key_large.d1fbaf16cbfe941e6f8158895fd8d32461c5c5c4.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/treasure_chest_key.1b2e506f79a3407207ca19aeee006fcdfe0982f7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/treasure_chest_key_large.d54ff9128607edc8fa3e4fdebb06916587da476b.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -19300,7 +19300,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "international",
 					"usage_capabilities": {
 						"decodable": true
 					}
