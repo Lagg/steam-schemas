@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.3ab1976aa40463439ad5ded627a375403df77cdd.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.70fe28391c7ceeb90e552806aabd1defe62422cc.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -1507,7 +1507,7 @@
 					{
 						"name": "clip size penalty",
 						"class": "mult_clipsize",
-						"value": 0.400000
+						"value": 0.340000
 					},
 					{
 						"name": "scattergun no reload single",
@@ -8693,7 +8693,7 @@
 					{
 						"name": "clip size penalty",
 						"class": "mult_clipsize",
-						"value": 0.400000
+						"value": 0.500000
 					},
 					{
 						"name": "damage bonus",
@@ -9634,6 +9634,11 @@
 						"name": "cannot trade",
 						"class": "cannot_trade",
 						"value": 1.000000
+					},
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
 					}
 				]
 				
@@ -10043,6 +10048,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_rift_fire_axe.c5fb53f050e8cb9c950cd907054bdc192836f0f3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_rift_fire_axe_large.ae237712a98a985eed661c78bf52151b72628afe.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
@@ -10085,6 +10091,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_rift_fire_mace.8e6e8938c7f47e42366cf16e45444b173962d343.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_rift_fire_mace_large.20dee3f47cce19f1b32a41978956f60f8c6a4971.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
@@ -10810,6 +10817,18 @@
 					"can_be_restored": true,
 					"strange_parts": true
 				},
+				"styles": [
+					{
+						"name": "Nelson",
+						"additional_hidden_bodygroups": {
+							"hat": 1
+						}
+					},
+					{
+						"name": "Brooks"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Engineer"
 				]
@@ -10863,6 +10882,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/professor_hair_icon.617a3480ba02278d7cfbcb2823fd69748fdf197e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/professor_hair_icon_large.7a8b30e6285a6c0dcd4895681e9b37c91abf27a0.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -10872,6 +10892,18 @@
 					"can_be_restored": true,
 					"strange_parts": true
 				},
+				"styles": [
+					{
+						"name": "Manic",
+						"additional_hidden_bodygroups": {
+							"hat": 1
+						}
+					},
+					{
+						"name": "Tamed"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Engineer"
 				]
@@ -12268,7 +12300,7 @@
 					{
 						"name": "clip size bonus",
 						"class": "mult_clipsize",
-						"value": 1.400000
+						"value": 1.330000
 					}
 				]
 				
@@ -13094,7 +13126,7 @@
 					{
 						"name": "clip size penalty",
 						"class": "mult_clipsize",
-						"value": 0.400000
+						"value": 0.340000
 					},
 					{
 						"name": "scattergun no reload single",
@@ -13952,6 +13984,15 @@
 					"can_be_restored": true,
 					"strange_parts": true
 				},
+				"styles": [
+					{
+						"name": "Peacekeeper"
+					},
+					{
+						"name": "Lawless"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Heavy"
 				]
@@ -17901,6 +17942,11 @@
 						"name": "damage all connected",
 						"class": "damage_all_connected",
 						"value": 1.000000
+					},
+					{
+						"name": "ragdolls become ash",
+						"class": "ragdolls_become_ash",
+						"value": 1.000000
 					}
 				]
 				
@@ -18714,6 +18760,14 @@
 				},
 				"used_by_classes": [
 					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -19556,6 +19610,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_sniper_commandobackpack.b6424a3ced8f91e3d9f6e3c6cdec5d759c369cdc.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xms_sniper_commandobackpack_large.e450d8e427568b39060ce896a1f5519abcc3e9f9.png",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
@@ -21579,6 +21634,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dueler_demo.3b4e679819841779c710903ab51a82b8bc08570a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dueler_demo_large.bff07fa9fb3638e386842b7ff4615e43b4bab223.png",
 				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -21612,6 +21669,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/generous_demo.baed158c7c15916bf4b7182a08840ff945a8585e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/generous_demo_large.01f623034c61ecc2285451fd12703991844afe4c.png",
 				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -21645,6 +21704,8 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamper_demo.7d44a04c8da248d384272e6b91a0d2a9438d9020.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/stamper_demo_large.66b573032d14e721135a1b409b757456c09f2712.png",
 				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
@@ -21892,6 +21953,14 @@
 				"used_by_classes": [
 
 				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
 				
 			},
 			{
@@ -22070,7 +22139,7 @@
 				"name": "The Captain's Cocktails",
 				"defindex": 731,
 				"item_class": "tf_wearable",
-				"item_type_name": "Hat",
+				"item_type_name": "Decorative Bombs",
 				"item_name": "Captain's Cocktails",
 				"item_description": "Attention, tramps! Are you MAN enough to carry around cans full of expired soup? Are you CRAZY enough to pretend they're grenades? Are you HUNGRY enough to probably eat the soup later, when nobody's looking? We bet yes!",
 				"proper_name": true,
@@ -22184,6 +22253,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cowboyboots_soldier.5211120f4ea54d243bdeb979ab85df5f342f473f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cowboyboots_soldier_large.0635c464305e118a6371e097f58ab6dbf0bf377a.png",
 				"drop_type": "none",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -22838,6 +22908,14 @@
 					"Medic",
 					"Pyro"
 				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
 				
 			},
 			{
@@ -22965,6 +23043,14 @@
 				"used_by_classes": [
 
 				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
 				
 			},
 			{
@@ -23072,6 +23158,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smnc_pyro.08312f905d934143dc032bc9de19a0d91db48d76.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smnc_pyro_large.5b761edae248381fa4010101b13df9004d206a3a.png",
 				"drop_type": "none",
+				"craft_class": "",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -23119,6 +23206,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smnc_sniper.a44807c9e2cf8f68903e2909b43d50760051a838.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smnc_sniper_large.8396e93eeb5bf79a1d670e7794e8777d25bf61c8.png",
 				"drop_type": "drop",
+				"craft_class": "",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -23529,6 +23617,7 @@
 				"capabilities": {
 					"nameable": true,
 					"can_gift_wrap": true,
+					"can_collect": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -24063,7 +24152,7 @@
 				"name": "The Tribal Bones",
 				"defindex": 787,
 				"item_class": "tf_wearable",
-				"item_type_name": "Hat",
+				"item_type_name": "Bones",
 				"item_name": "Tribal Bones",
 				"item_description": "No ritual that results in the senseless destruction of human life at the behest of an angry god is complete without a Tribal Bones necklace. Like all of our mothers weirdly happened to say, if you're going to do some human sacrifices, you gotta look the part.",
 				"proper_name": true,
@@ -25264,6 +25353,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_badge.2f7695ea32310aefd03ef9a3a73994f405f98a6a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_badge_large.13ebeaf7f1c8726ad359aaa268b6a7b778fadff4.png",
 				"drop_type": "none",
+				"craft_class": "",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -25298,6 +25388,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_hat.dc62985694162af799961441845e31565d348456.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_hat_large.9de0bd904ccd827d6c04405bdcb48f706d19fc47.png",
 				"drop_type": "none",
+				"craft_class": "",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
@@ -25337,6 +25428,7 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_jetpack.e6161acb1c5d60b5962f011771dbdb55baa414a3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_jetpack_large.a023642e4c55cc461782759565761ac0fe75c1be.png",
 				"drop_type": "none",
+				"craft_class": "",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
@@ -26222,6 +26314,124 @@
 				},
 				"used_by_classes": [
 					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Crafty Hair",
+				"defindex": 853,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hair",
+				"item_name": "Crafty Hair",
+				"item_description": "If you're ever planning on fighting aliens, this is the hair to have. Aliens are afraid of angular, painstakingly coiffed hair, so the mere sight of you will send them running back to Mars. Or, alternatively, we're completely wrong and you're going to die. Either way, though, you're going to look stylin'.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/xcom_flattop_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/xcom_flattop_engineer",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xcom_flattop_engineer.b3d37a55ddce69b37655ef7172d4db912b520bf9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xcom_flattop_engineer_large.eb6e32adb18e42323ef5dd2b0d33baba24cb4e8a.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Soldier",
+					"Medic",
+					"Heavy",
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Area 451",
+				"defindex": 854,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Area 451",
+				"item_description": "If aliens ever invaded Badlands and used their special alien powers to make all of our heads look like alien heads, this is a scientifically accurate representation of what Pyro would look like. We tried doing similar mock-ups with the rest of the TF team, but we finished one of Heavy and haven't stopped crying and vomiting long enough to do the other ones.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/xcom_sectoid_mask.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/xcom_sectoid_mask",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xcom_sectoid_mask.b761063728bfaab8c7b46f6153a1e616594ecde4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xcom_sectoid_mask_large.4288a168fdd5b08879b3d32ca5a677d7b9550e20.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Vigilant Pin",
+				"defindex": 855,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Vigilant Pin",
+				"item_description": "This pin proudly states to all that you are at least vaguely aware of the possibility that maybe aliens exist. You've been to some of those conventions; you've looked pensively into the sky; you've watched Signs a couple of times. If extraterrestrials ever show up, you can proudly show others this badge and proclaim that you once entertained the possibility that this was maybe going to happen one day. ",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/xcom_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/xcom_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xcom_badge.cf1c559fd6f65e7d5e7eb4943b29018f09132c06.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/xcom_badge_large.3264d351608f6e79b4cc0a80a004c5f9fdd2f0d2.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -29415,7 +29625,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 43.000000
+						"value": 47.000000
 					}
 				]
 				
@@ -31648,6 +31858,46 @@
 				
 			},
 			{
+				"name": "Fall Crate 2012",
+				"defindex": 5080,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Fall Crate",
+				"item_description": "This crate's contents are unknown and only\nFall Keys fit the lock.\n\nA sense of community can be felt emanating from the inside.\n\nAfter 9\/20\/2012 this crate will disappear.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/fall_crate",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fall_crate.35cf419e422e4a416fdc8670475d7a9dc1091a91.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fall_crate_large.ff382019e42fa7e1e4f77bafca5fa7eb86b40fcb.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "fall 2012"
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 48.000000
+					}
+				]
+				
+			},
+			{
 				"name": "RIFT Spider Hat Code",
 				"defindex": 5500,
 				"item_class": "tool",
@@ -32028,6 +32278,45 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 12.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Scouts Killed",
+				"defindex": 6003,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Scouts Killed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon will enable it to track the number of Scouts you kill with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_scouts_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_scouts_killed.83be318078c5840bc92b689fb73189d4ff4dfd61.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_scouts_killed_large.7dc990da8d528b62ba6ddcd0e318ddfbd47c3d24.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 10.000000
 					}
 				]
 				
@@ -32496,6 +32785,84 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 34.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Cloaked Spies Killed",
+				"defindex": 6024,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Cloaked Spies Killed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of spies you kill while they're invisible.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_invisibles_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_invisibles_killed.211d0ae016ba0b3fc5676ee77fc70f93eb11be4f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_invisibles_killed_large.256f75d59849501644a77371be8e048013a82b30.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 37.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Sappers Destroyed",
+				"defindex": 6025,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Sappers Destroyed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemy sappers you destroy with it.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_sappers_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_sappers_killed.5a2a96e410212217ae9f81f93dc8a73d41a7a1d4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_sappers_killed_large.a9441157c5b4b38e819252443b432e05f9f809fe.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 36.000000
 					}
 				]
 				
@@ -41126,6 +41493,11 @@
 				"level_data": "KillEaterRank"
 			},
 			{
+				"type": 10,
+				"type_name": "Scouts Killed",
+				"level_data": "KillEaterRank"
+			},
+			{
 				"type": 12,
 				"type_name": "Soldiers Killed",
 				"level_data": "KillEaterRank"
@@ -41213,6 +41585,16 @@
 			{
 				"type": 34,
 				"type_name": "Kills While Explosive-Jumping",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 36,
+				"type_name": "Sappers Removed",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 37,
+				"type_name": "Cloaked Spies Killed",
 				"level_data": "KillEaterRank"
 			}
 		]
