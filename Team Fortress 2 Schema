@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.70fe28391c7ceeb90e552806aabd1defe62422cc.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.15a33962c30cf1283c8ebdbb35ab8675830deba9.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -25451,6 +25451,229 @@
 				
 			},
 			{
+				"name": "The Soviet Gentleman",
+				"defindex": 821,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Soviet Gentleman",
+				"item_description": "Heavy is a man of intrigue, and every intrigue-man worth his salt deserves a fine hat and moustache to sport. That way, people can excitedly whisper things like: \"I wonder how long it took him to grow that moustache\" and \"what do you think he keeps under his hat?\"",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/heavy_mustachehat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/heavy_mustachehat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_mustachehat.5399bd9c7c1967c44dfa9e89f6eb45cb40de185f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_mustachehat_large.a3caef8ab588c3704fb58a049539fbe44aa727a0.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Pocket Purrer",
+				"defindex": 823,
+				"item_class": "tf_wearable",
+				"item_type_name": "Satchel",
+				"item_name": "Pocket Purrer",
+				"item_description": "Little known fact: cats are fantastic engineers. Go ahead and ask about it next time you see one. In case you don't speak feline, \"meow\" means \"that cantilever is deflected over its g-type joist girder.\" It's probably going to say that a lot.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/engineer_pocketcat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/engineer_pocketcat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_pocketcat.54d57bd212c26492f9642018f39a4e9ad8942c9e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_pocketcat_large.5ee60b727ce77805fb22bf9f32b5100f0a5a6dc3.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Koala Compact",
+				"defindex": 824,
+				"item_class": "tf_wearable",
+				"item_type_name": "Satchel",
+				"item_name": "Koala Compact",
+				"item_description": "Watch as your enemies quake in fear at the sight of this tiny koala! Hear them scream at his horrifying little hat! Smell them reel in alarm at how deviously small it is! Warning: You may not be able to stand the terror yourself!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/sniper_pocketkoala.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/sniper_pocketkoala",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sniper_pocketkoala.0c0d67fc683394e3e7508916eab5f2f12d7f52b8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sniper_pocketkoala_large.8c53460424bdb6b00cf5f862200ee34df02f633d.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Twins"
+					},
+					{
+						"name": "Poor and Irish"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Hat of Cards",
+				"defindex": 825,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Hat of Cards",
+				"item_description": "Why did we just take one of those cards out of our hats to blatantly cheat at poker? Maybe what you should be asking is this: why are our knives…in your gut?! You might also want to ask: where is the nearest hospital?! And: is blood as important as everyone claims?!",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/spy\/spy_cardhat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/spy_cardhat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_cardhat.6e3e93b0daa8260125d5f032fe98e6711b04cb29.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_cardhat_large.d665cd3494898fc835019d46bc3ba24803d5c8ab.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "Medi-Mask",
+				"defindex": 826,
+				"item_class": "tf_wearable",
+				"item_type_name": "Mask",
+				"item_name": "Medi-Mask",
+				"item_description": "As a thought experiment, Medic has taken to wearing this mask, releasing innocuous gas into a room and screaming, \"Dear god – the poison tanker has burst!\" to see what people will do. So far, the tests have been inconclusive. Although, a couple people have died. So that's interesting.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/medic_gasmask.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/medic_gasmask",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medic_gasmask.3a5790a636deac3566d1bf4c2439a715451a96c1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medic_gasmask_large.0dbb9c318a7011591272dd6f8f6bb0a20cfb645e.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				
+			},
+			{
+				"name": "The Track Terrorizer",
+				"defindex": 827,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shirt",
+				"item_name": "Track Terrorizer",
+				"item_description": "For a brief stint in high school, Scout joined the track team in one of his many schemes to pick up girls. He was kicked off the team after three days when everyone realized he was 23-years-old and also not enrolled in the school.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/scout_trackjacket.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/scout_trackjacket",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_trackjacket.345e7e660d008fbb2897986d15ec59ce28b2a653.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_trackjacket_large.093a61e9db29f66ca13aaf7d00bbfcf9a3b08ada.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
 				"name": "Archimedes",
 				"defindex": 828,
 				"item_class": "tf_wearable",
@@ -25486,6 +25709,98 @@
 						"name": "counts as assister is some kind of pet this update is going to be awesome",
 						"class": "counts_as_assister",
 						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The War Pig",
+				"defindex": 829,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "War Pig",
+				"item_description": "After complaints that obstructed vision was affecting his performance, Soldier slapped some goggles on a helmet and charged back into the fray. His performance did not improve, but on the upside, everyone has stopped expecting anything from him.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/soldier_warpig.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/soldier_warpig",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_warpig.e183081f85b5b2e3e9da1217481685613a3fed1f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_warpig_large.2db1b9289778ba26c85c9bc2ffff90395d22c62c.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Uninhibited"
+					},
+					{
+						"name": "Conspicuous"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Bearded Bombardier",
+				"defindex": 830,
+				"item_class": "tf_wearable",
+				"item_type_name": "Facial Hair",
+				"item_name": "Bearded Bombardier",
+				"item_description": "Demo is already a lot like Santa Claus. They both have extensive knowledge of modern explosives, they both hate Judy Garland, and now, they can both sport a charming beard and corn cob pipe.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/demo_beardpipe.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/demo_beardpipe",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_beardpipe.b8c0a016273b41726aa915f6d5af9c95f714511b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_beardpipe_large.d58e540010d3df5d4f88593a9d9ba48d8c787336.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Whatever"
+					},
+					{
+						"name": "Formal"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "attach particle effect static",
+						"class": "set_attached_particle_static",
+						"value": 28.000000
 					}
 				]
 				
@@ -26432,6 +26747,39 @@
 						"class": "cannot_trade",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "The Pyrotechnic Tote",
+				"defindex": 856,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Pyrotechnic Tote",
+				"item_description": "Any day can be the Fourth of July if you just believe. It also helps if you have a bag of fireworks – like the Pyrotechnic Tote - you can set off to distract people when they try to tell you that you can’t take the day off to eat hot dogs and get drunk at the park. Is this not America, Samuel?  Do we not have the freedom to vomit in our own shoes?",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/pyro_fireworksbag.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/pyro_fireworksbag",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_fireworksbag.d0867a3da48326c4b9731d205cc5316cb8f93c3e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_fireworksbag_large.9762e62f94151a39c662cf66a0ffe8fedb8905c2.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Pyro"
 				]
 				
 			},
@@ -31893,6 +32241,48 @@
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
 						"value": 48.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Fall Key 2012",
+				"defindex": 5081,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "Fall Key",
+				"item_description": "Used to open Fall Crates.\n\nAfter 9\/20\/2012 this will turn into a normal key.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/fall_key",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fall_key.5d4d77a035369e3f3a7b7bb32a188478983dd852.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/fall_key_large.fffc5be5e86b0c37276d1d1d40f0af35beed5236.png",
+				"craft_class": "tool",
+				"craft_material_type": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"tool": {
+					"type": "decoder_ring",
+					"restriction": "fall 2012",
+					"usage_capabilities": {
+						"decodable": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
 					}
 				]
 				
