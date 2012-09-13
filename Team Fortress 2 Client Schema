@@ -30772,7 +30772,7 @@
 		"818"
 		{
 			"name"	"Awesomenauts Badge"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -30802,7 +30802,7 @@
 		"819"
 		{
 			"name"	"The Lone Star"
-			"prefab"	"promo hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"			"1"
@@ -30828,7 +30828,7 @@
 		"820"
 		{
 			"name"	"The Russian Rocketeer"
-			"prefab"	"promo backpack"
+			"prefab"	"backpack"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -31155,18 +31155,6 @@
 			"prefab"		"recorder"
 			"show_in_armory"	"0"
 			"craft_class"	""			
-			"capabilities"
-			{
-				"can_gift_wrap" 	"0" 
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
 		"832"
 		{
@@ -31174,18 +31162,6 @@
 			"prefab"		"long_heatmaker"
 			"show_in_armory"	"0"
 			"craft_class"	""			
-			"capabilities"
-			{
-				"can_gift_wrap" 	"0" 
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
  		"833"
 		{
@@ -31193,18 +31169,6 @@
 			"prefab"		"guillotine"
 			"show_in_armory"	"0"
 			"craft_class"	""			
-			"capabilities"
-			{
-				"can_gift_wrap" 	"0" 
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
  		"834"
 		{
@@ -31212,18 +31176,6 @@
 			"prefab"		"annihilator"
 			"show_in_armory"	"0"
 			"craft_class"	""			
-			"capabilities"
-			{
-				"can_gift_wrap" 	"0" 
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
 		"835"
 		{
@@ -31231,18 +31183,6 @@
 			"prefab"		"triad_trinket"
 			"show_in_armory"	"0"
 			"craft_class"	""			
-			"capabilities"
-			{
-				"can_gift_wrap" 	"0" 
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
  		"836"
 		{
@@ -31250,18 +31190,6 @@
 			"prefab"		"champ_stamp"
 			"show_in_armory"	"0"
 			"craft_class"	""			
-			"capabilities"
-			{
-				"can_gift_wrap" 	"0" 
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
  		"837"
 		{
@@ -31269,18 +31197,6 @@
 			"prefab"		"marxman"
 			"show_in_armory"	"0"
 			"craft_class"	""			
-			"capabilities"
-			{
-				"can_gift_wrap" 	"0" 
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
   		"838"
 		{
@@ -31288,18 +31204,6 @@
 			"prefab"		"cannonball"
 			"show_in_armory"	"0"
 			"craft_class"	""			
-			"capabilities"
-			{
-				"can_gift_wrap" 	"0" 
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 		}
 
 		"839"
@@ -31591,10 +31495,10 @@
 		{
 			"name"	"The AWPer Hand"
 			"prefab"	"weapon_sniperrifle"
-			"craft_class"	""
+			"craft_class"	"weapon"
 			"capabilities"
 			{
-				"can_gift_wrap" 	"0" 	
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 			}
 			"item_name"	"#TF_CSGO_AWP"
@@ -31610,14 +31514,6 @@
 			{
 				"sound_single_shot"	"Weapon_AWP.Single"
 				"sound_burst"		"Weapon_AWP.SingleCrit"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
 			}
 		}
 		"852"

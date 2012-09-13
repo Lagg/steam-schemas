@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.15a33962c30cf1283c8ebdbb35ab8675830deba9.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9a1ea59d68055bac25029037a8f5a43ac45ef52f.txt",
 		"qualities": {
 			"normal": 0,
 			"rarity1": 1,
@@ -25353,23 +25353,16 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_badge.2f7695ea32310aefd03ef9a3a73994f405f98a6a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_badge_large.13ebeaf7f1c8726ad359aaa268b6a7b778fadff4.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The Lone Star",
@@ -25388,11 +25381,12 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_hat.dc62985694162af799961441845e31565d348456.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_hat_large.9de0bd904ccd827d6c04405bdcb48f706d19fc47.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -25400,14 +25394,6 @@
 				},
 				"used_by_classes": [
 					"Sniper"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -25428,10 +25414,11 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_jetpack.e6161acb1c5d60b5962f011771dbdb55baa414a3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/awes_jetpack_large.a023642e4c55cc461782759565761ac0fe75c1be.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -25439,14 +25426,6 @@
 				},
 				"used_by_classes": [
 					"Pyro"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -25824,6 +25803,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -25843,11 +25823,6 @@
 						"name": "sapper damage penalty",
 						"class": "mult_sapper_damage",
 						"value": 0.000000
-					},
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
 					}
 				]
 				
@@ -25871,6 +25846,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -25890,11 +25866,6 @@
 						"name": "uses ammo while aiming",
 						"class": "uses_ammo_while_aiming",
 						"value": 6.000000
-					},
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
 					}
 				]
 				
@@ -25918,6 +25889,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -25951,11 +25923,6 @@
 						"name": "crit vs stunned players",
 						"class": "or_crit_vs_playercond",
 						"value": 65536.000000
-					},
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
 					}
 				]
 				
@@ -25979,6 +25946,7 @@
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -26013,11 +25981,6 @@
 						"name": "crit mod disabled",
 						"class": "mult_crit_chance",
 						"value": 0.000000
-					},
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
 					}
 				]
 				
@@ -26043,6 +26006,7 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -26063,14 +26027,6 @@
 					"Heavy",
 					"Spy",
 					"Engineer"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -26096,6 +26052,7 @@
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -26106,14 +26063,6 @@
 					"Sniper",
 					"Heavy",
 					"Engineer"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -26139,6 +26088,7 @@
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -26150,14 +26100,6 @@
 					},
 					{
 						"name": "Yes, Cigar"
-					}
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
 					}
 				]
 				
@@ -26183,6 +26125,7 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -26197,14 +26140,6 @@
 					},
 					{
 						"name": "Override"
-					}
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
 					}
 				]
 				
@@ -26578,10 +26513,11 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_csgo_awp.8480ff27af59a4f8491c48b504e244d3f10c31b2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_csgo_awp_large.7854637843ab3654a31c8aa2f8ab3fccbe5286fd.png",
-				"craft_class": "",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -26589,14 +26525,6 @@
 				},
 				"used_by_classes": [
 					"Sniper"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
