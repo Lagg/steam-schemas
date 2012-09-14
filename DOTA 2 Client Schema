@@ -945,6 +945,10 @@
 				"npc_dota_hero_pudge"		"1"
 			}
 			"model_player"		"models/heroes/pudge/righthook.mdl"
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
 		}
 		"48"
 		{
@@ -2656,10 +2660,10 @@
 		}
 		"169"
 		{
-			"name"		"Death Prophet's Arms"
+			"name"		"Death Prophet's Hair"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Death_Prophets_Arms"
+			"item_name"		"#DOTA_Item_Death_Prophets_Hair"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
@@ -2667,14 +2671,14 @@
 			{
 				"npc_dota_hero_death_prophet"		"1"
 			}
-			"model_player"		"models/heroes/death_prophet/death_prophet_arm.mdl"
+			"model_player"		"models/heroes/death_prophet/death_prophet_hair.mdl"
 		}
 		"170"
 		{
-			"name"		"Death Prophet's Head"
+			"name"		"Death Prophet's Corset"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Death_Prophets_Head"
+			"item_type_name"		"#DOTA_WearableType_New_Item"
+			"item_name"		"#DOTA_Item_Death_Prophets_Corset"
 			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
@@ -2682,7 +2686,7 @@
 			{
 				"npc_dota_hero_death_prophet"		"1"
 			}
-			"model_player"		"models/heroes/death_prophet/death_prophet_head.mdl"
+			"model_player"		"models/heroes/death_prophet/death_prophet_dresstop.mdl"
 		}
 		"171"
 		{
@@ -4124,6 +4128,637 @@
 				"npc_dota_hero_drow_ranger"		"1"
 			}
 		}
+		"268"
+		{
+			"name"		"Huskar's Spear"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Spear"
+			"item_name"		"#DOTA_Item_Huskars_Spear"
+			"item_description"		"#DOTA_Item_Desc_Huskars_Spear"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/heroes/huskar/huskar_spear.mdl"
+		}
+		"269"
+		{
+			"name"		"Huskar's Dagger"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Dagger"
+			"item_name"		"#DOTA_Item_Huskars_Dagger"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Huskars_Dagger"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/heroes/huskar/huskar_dagger.mdl"
+		}
+		"270"
+		{
+			"name"		"Huskar's Helmet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Helmet"
+			"item_name"		"#DOTA_Item_Huskars_Helmet"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Huskars_Helmet"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/heroes/huskar/huskar_helmet.mdl"
+		}
+		"271"
+		{
+			"name"		"Huskar's Shoulder"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Huskars_Shoulder"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Huskars_Shoulder"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/heroes/huskar/huskar_shoulder.mdl"
+		}
+		"272"
+		{
+			"name"		"Huskar's Bracer"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
+			"item_name"		"#DOTA_Item_Huskars_Bracer"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Huskars_Bracer"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/heroes/huskar/huskar_bracer.mdl"
+		}
+		"273"
+		{
+			"name"		"Slardar Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Slardar_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_slardar"		"1"
+			}
+			"model_player"		"models/heroes/slardar/slardar_weapon.mdl"
+		}
+		"274"
+		{
+			"name"		"Slardar Fin"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Slardar_Fin"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_slardar"		"1"
+			}
+			"model_player"		"models/heroes/slardar/slardar_back.mdl"
+		}
+		"275"
+		{
+			"name"		"Slardar Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Slardar_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_slardar"		"1"
+			}
+			"model_player"		"models/heroes/slardar/slardar_head.mdl"
+		}
+		"276"
+		{
+			"name"		"Slardar Arms"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Slardar_Arms"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_slardar"		"1"
+			}
+			"model_player"		"models/heroes/slardar/slardar_bracers.mdl"
+		}
+		"277"
+		{
+			"name"		"Weaver Antlers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Weaver_Antlers"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_weaver"		"1"
+			}
+			"model_player"		"models/heroes/weaver/weaver_antlers.mdl"
+		}
+		"278"
+		{
+			"name"		"Weaver Legs"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Weaver_Legs"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_weaver"		"1"
+			}
+			"model_player"		"models/heroes/weaver/weaver_legs.mdl"
+		}
+		"279"
+		{
+			"name"		"Weaver Arms"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Weaver_Arms"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_weaver"		"1"
+			}
+			"model_player"		"models/heroes/weaver/weaver_arms.mdl"
+		}
+		"280"
+		{
+			"name"		"Weaver Back"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Weaver_Back"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_weaver"		"1"
+			}
+			"model_player"		"models/heroes/weaver/weaver_head.mdl"
+		}
+		"281"
+		{
+			"name"		"Sniper's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Snipers_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"model_player"		"models/heroes/sniper/weapon.mdl"
+		}
+		"282"
+		{
+			"name"		"Sniper's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Snipers_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Snipers_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"model_player"		"models/heroes/sniper/cape.mdl"
+		}
+		"283"
+		{
+			"name"		"Sniper's Head Gear"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Snipers_Head_Gear"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Snipers_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"model_player"		"models/heroes/sniper/headitem.mdl"
+		}
+		"284"
+		{
+			"name"		"Sniper's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Snipers_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Snipers_Head_Gear"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"model_player"		"models/heroes/sniper/shoulder.mdl"
+		}
+		"285"
+		{
+			"name"		"Sniper's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Snipers_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Snipers_Shoulder_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"model_player"		"models/heroes/sniper/bracer.mdl"
+		}
+		"286"
+		{
+			"name"		"Enchantress' Necklace"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Enchantress_Necklace"
+			"item_slot"		"neck"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_enchantress"		"1"
+			}
+			"model_player"		"models/heroes/enchantress/enchantress_necklace.mdl"
+		}
+		"287"
+		{
+			"name"		"Enchantress' Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Enchantress_Hair"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Enchantress_Necklace"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_enchantress"		"1"
+			}
+			"model_player"		"models/heroes/enchantress/enchantress_hair.mdl"
+		}
+		"288"
+		{
+			"name"		"Enchantress' Dress"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Enchantress_Dress"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Enchantress_Hair"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_enchantress"		"1"
+			}
+			"model_player"		"models/heroes/enchantress/enchantress_dress.mdl"
+		}
+		"289"
+		{
+			"name"		"Enchantress' Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Enchantress_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Enchantress_Dress"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_enchantress"		"1"
+			}
+			"model_player"		"models/heroes/enchantress/enchantress_bracers.mdl"
+		}
+		"290"
+		{
+			"name"		"Enchantress' Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Enchantress_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Enchantress_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_enchantress"		"1"
+			}
+			"model_player"		"models/heroes/enchantress/enchantress_weapon.mdl"
+		}
+		"291"
+		{
+			"name"		"Venomancer's Mandibles"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Venomancers_Mandibles"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_venomancers_mandibles"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_venomancer"		"1"
+			}
+			"model_player"		"models/heroes/venomancer/venomancer_mandibles.mdl"
+		}
+		"292"
+		{
+			"name"		"Venomancer's Stingers"
+			"prefab"		"dota_default_item"
+			"item_name"		"#DOTA_Item_Venomancers_Stingers"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_venomancers_mandibles"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_venomancer"		"1"
+			}
+			"model_player"		"models/heroes/venomancer/venomancer_stingers.mdl"
+		}
+		"293"
+		{
+			"name"		"Venomancer's Limbs"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Venomancers_Limbs"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Venomancers_Limbs"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_venomancer"		"1"
+			}
+			"model_player"		"models/heroes/venomancer/venomancer_limbs.mdl"
+		}
+		"294"
+		{
+			"name"		"Venomancer's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Back"
+			"item_name"		"#DOTA_Item_Venomancers_Tail"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Venomancers_Limbs"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_venomancer"		"1"
+			}
+			"model_player"		"models/heroes/venomancer/venomancer_tail.mdl"
+		}
+		"295"
+		{
+			"name"		"Venomancer's Wards"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_ability3"
+			"item_name"		"#DOTA_Item_Venomancers_Wards"
+			"item_slot"		"ability3"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Venomancers_Tail"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_venomancer"		"1"
+			}
+		}
+		"296"
+		{
+			"name"		"Meepo's Hood"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Meepos_Hood"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Meepos_Weapon"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_meepo"		"1"
+			}
+			"model_player"		"models/heroes/meepo/hood.mdl"
+		}
+		"297"
+		{
+			"name"		"Meepo's Backpack"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Meepos_Backpack"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Meepos_Hood"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_meepo"		"1"
+			}
+			"model_player"		"models/heroes/meepo/pack.mdl"
+		}
+		"298"
+		{
+			"name"		"Meepo's Shoulderpads"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Meepos_Shoulderpads"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Meepos_Backpack"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_meepo"		"1"
+			}
+			"model_player"		"models/heroes/meepo/shoulders.mdl"
+		}
+		"299"
+		{
+			"name"		"Meepo's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Meepos_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Meepos_Shoulderpads"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_meepo"		"1"
+			}
+			"model_player"		"models/heroes/meepo/bracers.mdl"
+		}
+		"300"
+		{
+			"name"		"Meepo's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_Meepos_Tail"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Meepos_Bracers"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_meepo"		"1"
+			}
+			"model_player"		"models/heroes/meepo/tail.mdl"
+		}
+		"301"
+		{
+			"name"		"Silencer's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Silencers_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_silencer"		"1"
+			}
+			"model_player"		"models/heroes/silencer/silender_bracers.mdl"
+		}
+		"302"
+		{
+			"name"		"Silencer's Helmet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Silencers_Helmet"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_silencer"		"1"
+			}
+			"model_player"		"models/heroes/silencer/silencer_helmet.mdl"
+		}
+		"303"
+		{
+			"name"		"Silencer's Shoulders"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Silencers_Shoulders"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_silencer"		"1"
+			}
+			"model_player"		"models/heroes/silencer/silencer_shoulder.mdl"
+		}
+		"304"
+		{
+			"name"		"Silencer's Robe"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Silencers_Robe"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_silencer"		"1"
+			}
+			"model_player"		"models/heroes/silencer/silencer_robe.mdl"
+		}
+		"305"
+		{
+			"name"		"Storm_Spirits_Beard_Jewelry"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Storm_Spirits_Beard_Jewelry"
+			"item_slot"		"neck"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_storm_spirit"		"1"
+			}
+			"model_player"		"models/heroes/storm_spirit/storm_beard_jewelry.mdl"
+		}
+		"306"
+		{
+			"name"		"Storm_Spirits_Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Storm_Spirits_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_storm_spirit"		"1"
+			}
+			"model_player"		"models/heroes/storm_spirit/storm_belt.mdl"
+		}
+		"307"
+		{
+			"name"		"Storm_Spirits_Misc"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Storm_Spirits_Misc"
+			"item_slot"		"misc"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_storm_spirit"		"1"
+			}
+		}
+		"308"
+		{
+			"name"		"Storm_Spirits_Hat"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Storm_Spirits_Hat"
+			"item_slot"		"armor"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_storm_spirit"		"1"
+			}
+			"model_player"		"models/heroes/storm_spirit/storm_hat.mdl"
+		}
+		"309"
+		{
+			"name"		"Storm_Spirits_Sleeves"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Storm_Spirits_Sleeves"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_storm_spirit"		"1"
+			}
+			"model_player"		"models/heroes/storm_spirit/storm_sleeves.mdl"
+		}
+		"310"
+		{
+			"name"		"Storm_Spirits_Shirt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Storm_Spirits_Shirt"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_storm_spirit"		"1"
+			}
+			"model_player"		"models/heroes/storm_spirit/storm_shirt.mdl"
+		}
 		"4000"
 		{
 			"name"		"Horn Mask"
@@ -4132,7 +4767,7 @@
 			"item_name"		"#DOTA_Item_Horn_Mask"
 			"item_slot"		"head"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"item_description"		"#DOTA_Item_Desc_Horn_Mask"
 			"image_inventory"		"econ/items/witchdoctor/horn_mask"
 			"used_by_heroes"
 			{
@@ -4538,6 +5173,7 @@
 					"asset"		"pudge_meathook"
 					"modifier"		"pudge_meathook_skeleton"
 				}
+				"skip_model_combine"		"1"
 			}
 			"icon_portrait"
 			{
@@ -8238,6 +8874,12 @@
 					"type"		"particle"
 					"asset"		"juggernaut_healing_ward"
 					"modifier"		"juggernaut_healing_ward_foo"
+				}
+				"asset_modifier2"
+				{
+					"type"		"entity_scale"
+					"asset"		"juggernaut_healing_ward"
+					"modifier"		"0.666000"
 				}
 			}
 			"particle_file"		"particles\econ\items\juggernaut\jugg_ward_foo.pcf"
@@ -24538,7 +25180,7 @@
 				"strange part new counter ID"
 				{
 					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"28"
+					"value"		"32"
 				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Invoker_TornadoKills"
@@ -24901,8 +25543,8 @@
 		{
 			"name"		"International Treasure Key"
 			"prefab"		"dota_tool"
-			"item_name"		"#DOTA_Item_International_Treasure_Key"
-			"item_rarity"		"mythical"
+			"item_name"		"#DOTA_Item_Treasure_Key"
+			"item_rarity"		"uncommon"
 			"tool"
 			{
 				"type"		"decoder_ring"
@@ -24911,10 +25553,9 @@
 				{
 					"decodable"		"1"
 				}
-				"restriction"		"international"
 			}
-			"item_description"		"#DOTA_Item_Desc_International_Treasure_Key"
-			"image_inventory"		"econ/tools/international_key"
+			"item_description"		"#DOTA_Item_Desc_Treasure_Key"
+			"image_inventory"		"econ/tools/treasure_chest_key"
 			"attributes"
 			{
 				"disallow recycling"
