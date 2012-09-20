@@ -1690,7 +1690,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Broodmothers_Hair"
-			"item_slot"		"body_head"
+			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"used_by_heroes"
 			{
@@ -1704,7 +1704,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Broodmothers_Legs"
-			"item_slot"		"arms"
+			"item_slot"		"legs"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"used_by_heroes"
 			{
@@ -2664,7 +2664,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Death_Prophets_Hair"
-			"item_slot"		"arms"
+			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -2679,7 +2679,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_New_Item"
 			"item_name"		"#DOTA_Item_Death_Prophets_Corset"
-			"item_slot"		"body_head"
+			"item_slot"		"armor"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -3011,10 +3011,10 @@
 		}
 		"192"
 		{
-			"name"		"Naga Siren's Swords"
+			"name"		"Naga Siren's Sword"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Naga_Sirens_Swords"
+			"item_name"		"#DOTA_Item_Naga_Sirens_Sword"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -4222,7 +4222,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Slardar_Fin"
-			"item_slot"		"shoulder"
+			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -4267,6 +4267,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Weaver_Antlers"
+			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -4602,7 +4603,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_belt"
 			"item_name"		"#DOTA_Item_Meepos_Tail"
-			"item_slot"		"belt"
+			"item_slot"		"tail"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Meepos_Bracers"
 			"used_by_heroes"
 			{
@@ -4720,7 +4721,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Storm_Spirits_Hat"
-			"item_slot"		"armor"
+			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -4750,7 +4751,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Storm_Spirits_Shirt"
-			"item_slot"		"back"
+			"item_slot"		"armor"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -4758,6 +4759,35 @@
 				"npc_dota_hero_storm_spirit"		"1"
 			}
 			"model_player"		"models/heroes/storm_spirit/storm_shirt.mdl"
+		}
+		"311"
+		{
+			"name"		"Crystal Maiden's Headdress"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Crystal_Maidens_Headdress"
+			"item_slot"		"head"
+			"model_player"		"models/heroes/crystal_maiden/head_item.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Crystal_Maidens_Cape"
+		}
+		"312"
+		{
+			"name"		"Naga Siren's Offhand Sword"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Naga_Sirens_Offhand_Sword"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Naga_Sirens_Sword"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_naga_siren"		"1"
+			}
+			"model_player"		"models/heroes/siren/siren_weapon_offhand.mdl"
 		}
 		"4000"
 		{
@@ -20947,7 +20977,7 @@
 			"item_type_name"		"#DOTA_Custom_Courier"
 			"item_name"		"#DOTA_Item_Trusty_Mountain_Yak"
 			"item_slot"		"courier"
-			"item_rarity"		"rare"
+			"item_rarity"		"mythical"
 			"item_description"		"#DOTA_Item_Desc_Juggernaut_Yak_Courier"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/yak/yak"
@@ -21016,7 +21046,7 @@
 			"item_type_name"		"#DOTA_Custom_Courier"
 			"item_name"		"#DOTA_Item_Fearless_Badger"
 			"item_slot"		"courier"
-			"item_rarity"		"rare"
+			"item_rarity"		"mythical"
 			"item_description"		"#DOTA_Item_Desc_Badger_Courier"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/courier/badger/courier_badger"
@@ -23179,6 +23209,48 @@
 				{
 					"attribute_class"		"kill_eater_score_type"
 					"value"		"33"
+				}
+			}
+		}
+		"10061"
+		{
+			"name"		"Announcer: Axe"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Axe"
+			"item_slot"		"announcer"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Axe"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/announcer_axe"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_axe"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_axe.txt"
+				}
+			}
+		}
+		"10062"
+		{
+			"name"		"Mega-Kills: Axe"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_MegaKills_Axe"
+			"item_slot"		"mega_kills"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_MegaKills_Axe"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/megakill_axe"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_axe_killing_spree"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_axe_killing_spree.txt"
 				}
 			}
 		}
@@ -25556,6 +25628,146 @@
 			}
 			"item_description"		"#DOTA_Item_Desc_Treasure_Key"
 			"image_inventory"		"econ/tools/treasure_chest_key"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15075"
+		{
+			"name"		"RaidCall Dota 2 League"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_RaidCall"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"12"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_RaidCall_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_d2l"
+			"image_banner"		"econ/leagues/subscriptions_d2l_ingame"
+			"tournament_url"		"http://d2l.evilgeniuses.net"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15076"
+		{
+			"name"		"RaidCall Dota 2 League Admin"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_RaidCall_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"12"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_RaidCall_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_d2l"
+			"image_banner"		"econ/leagues/subscriptions_d2l_ingame"
+			"tournament_url"		"http://d2l.evilgeniuses.net"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15077"
+		{
+			"name"		"Star Series Season III"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_StarSeries3"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"13"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_StarSeries3_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_starladder3"
+			"image_banner"		"econ/leagues/subscriptions_starladder3_ingame"
+			"tournament_url"		"http://dota2.starladder.tv"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15078"
+		{
+			"name"		"Star Series Season III ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_StarSeries3_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"13"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_StarSeries3_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_starladder3"
+			"image_banner"		"econ/leagues/subscriptions_starladder3_ingame"
+			"tournament_url"		"http://dota2.starladder.tv"
 			"attributes"
 			{
 				"disallow recycling"
@@ -28137,6 +28349,33 @@
 				"PortraitAnimationCycle"		"0.760000"
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
+			}
+		}
+		"20055"
+		{
+			"name"		"The Talk Like A Pirate Pack"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Bundle_Talk_Like_A_Pirate_Day"
+			"item_rarity"		"rare"
+			"bundle"
+			{
+				"Pirate Slayer's Bracer"		"1"
+				"Pirate Slayer's Tricorn"		"1"
+				"Pirate Slayer's Black Flag"		"1"
+				"Pirate Slayer's Cutlass"		"1"
+				"Captain's Hook"		"1"
+				"Pegleg of the Cursed Pirate"		"1"
+				"Pride of the Crew"		"1"
+				"Ceremonial Rapier"		"1"
+				"Announcer: The Pirate Cap'n"		"1"
+				"Mega-Kills: The Pirate Cap'n"		"1"
+			}
+			"item_description"		"#DOTA_Bundle_Desc_Talk_Like_A_Pirate_Day"
+			"image_inventory"		"econ/sets/DOTA_Bundle_Talk_Like_A_Pirate_Day"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_tidehunter"		"1"
+				"npc_dota_hero_kunkka"		"1"
 			}
 		}
 	}
