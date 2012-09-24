@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.8d9e03a23111ef4cc8ad7d45fef60209754d823f.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.acecbad2f0e33c3a2912c675d29a9478a7a99d65.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -26914,7 +26914,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Spikes of Frost Bundle",
