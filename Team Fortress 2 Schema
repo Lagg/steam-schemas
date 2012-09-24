@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.764d5d1999febca12fd08d11b9b800c5abc0e1a8.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.f2da08761a2a0fd68623aa2b207e10dd9eceb46e.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -29535,6 +29535,27 @@
 					}
 				]
 				
+			},
+			{
+				"name": "Mysterious Promo",
+				"defindex": 2082,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Mysterious Promo",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				}
 			},
 			{
 				"name": "Craft Bar Level 1",
