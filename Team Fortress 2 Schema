@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.f2da08761a2a0fd68623aa2b207e10dd9eceb46e.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.798929ea126f4643c2cd5d526c5971f4ce220117.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -26789,6 +26789,7 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -26827,6 +26828,7 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -26865,6 +26867,7 @@
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true
@@ -26876,6 +26879,393 @@
 					{
 						"name": "German"
 					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Lacking Moral Fiber Mask",
+				"defindex": 872,
+				"item_class": "tf_wearable",
+				"item_type_name": "Mask",
+				"item_name": "Lacking Moral Fiber Mask",
+				"item_description": "This grifter's mask is perfect for running the oldest scam in the book: tricking people into thinking you're a down-on-his-luck, dishonored robot who's just had dental surgery, then getting them to lend you money. Also comes with eye-gun, so if the scam doesn't work, you can rob them.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/spy_dishonored.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/spy_dishonored",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_dishonored.643e2651878b106547430e548fb4f0db4850dd11.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_dishonored_large.769f33819fbf95f6de19694e346853d474f6db17.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Whale Bone Charm",
+				"defindex": 873,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Whale Bone Charm",
+				"item_description": "Made of Dunwall's finest whalebone, this charm is guaranteed to be ten times as lucky as your other jewelry made of skeleton parts. Say goodbye to that annoying necklace of rabbit feet, bat wings and shriveled hands you usually wear to buy lottery tickets.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/dishonored_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/dishonored_badge",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dishonored_badge.180b97de780296ff3de1e14f334c665d4a4a23a0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dishonored_badge_large.bad7ad182138e17e0392a3897f8d6a9c4e992ab1.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The King of Scotland Cape",
+				"defindex": 874,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cape",
+				"item_name": "King of Scotland Cape",
+				"item_description": "Capes are worn by only the most prestigious individuals. Kings. Dracula. Teenagers pretending they're wizards. Now you can join their illustrious ranks with this King of Scotland Cape. Wear it with pride, and make those prepubescents proud.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/tw_kingcape.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/tw_kingcape",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_kingcape.34590c5eb5c022d903191aef868343c00a31dddf.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_kingcape_large.c7ec0322ff5e585fbe938db4e7f77f0a2f45a5d7.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Menpo",
+				"defindex": 875,
+				"item_class": "tf_wearable",
+				"item_type_name": "Mask",
+				"item_name": "Menpo",
+				"item_description": "Discover the exciting world of the samurai! Speak quickly and angrily! Grow facial hair! Maybe if you kill another samurai and apologize after, you'll get to date his wife! The possibilities are endless!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/soldier\/tw_shogun_soldier.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/tw_shogun_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_shogun_demo.02a067a71dc034e0f82ae0189812585b0cda1b69.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_shogun_demo_large.c570cd5d6dc653082f4b20ad175345d4771f1923.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Yuurei"
+					},
+					{
+						"name": "Obake"
+					},
+					{
+						"name": "Youkai"
+					},
+					{
+						"name": "Azukiarai"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Soldier",
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The K-9 Mane",
+				"defindex": 876,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "K-9 Mane",
+				"item_description": "The K-9 mane is perfect for tricky social situations. People will either only want to talk about the hat, which means they'll be distracted from that rash making its way up your jugular, or they'll avoid you altogether. It's a win\/win!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/tw_doghat_demo.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/tw_doghat_heavy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_doghat_heavy.af9198fd49f6423e4b2e0b8180ac9101d7ff00bd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_doghat_heavy_large.411d4557b2910af40eaccba821a7b27f9e47646d.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Demoman",
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Stovepipe Sniper Shako",
+				"defindex": 877,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Stovepipe Sniper Shako",
+				"item_description": "This hat is perfect for the sniper who likes to hide in the shadows, then run suddenly from those shadows to go lead a parade.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/tw_shako.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/tw_shako",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_shako.6ac58041db2f3e9534352d57d113dc522a814268.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_shako_large.4a536324e254a6ae9a16f04c3a2b0537ee1afa01.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Foppish Physician",
+				"defindex": 878,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Foppish Physician",
+				"item_description": "Whether you're trepanning a skull to let out the sickness ghosts or attaching enough leeches to a patient that they'll pass out from blood loss before you cut off any suspicious-looking limbs, this dapper ruffed shirt and coat will assure your patients that they came to the right place for their dangerously insane 18th century medicine.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/tw_coat_medic_necktie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/tw_coat_medic_necktie",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_coat_medic_necktie.9593b763ec4225a6cdc1b910af0b1e2f366ed1e8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_coat_medic_necktie_large.3740cea91f6df92c0387a83d01f2e1af6f931f72.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Tie"
+					},
+					{
+						"name": "Epaulettes"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Distinguished Rogue",
+				"defindex": 879,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Distinguished Rogue",
+				"item_description": "This coat does so much of the heavy lifting to make you look like a sophisticated man of espionage, you won't need to wear anything else at all. Watch those heads turn the next time you attend a fancy gala completely nude except for a coat. So jealous. How about that guy calling the police? Is HE jealous? Yeah he is.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/tw_coat_spy_necktie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/tw_coat_spy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_coat_spy.a136011b8437cee7e2cb8543249139069f74de75.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tw_coat_spy_large.ffa1192dc0daa4a14998c3e70948455a1ed87499.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"styles": [
+					{
+						"name": "Tie"
+					},
+					{
+						"name": "Epaulettes"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Freedom Staff",
+				"defindex": 880,
+				"item_class": "saxxy",
+				"item_type_name": "Staff",
+				"item_name": "Freedom Staff",
+				"item_description": "Since America was founded over ten thousand years ago, the noble eagle has been its symbol of freedom. Show people how much you like freedom by clubbing them senseless with a golden eagle on a stick, just like Kofi Annan.",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_tw_eagle\/c_tw_eagle.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_tw_eagle\/c_tw_eagle",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_tw_eagle.4b63d3eecec4dc4300c24b1825a25f2670e1bf64.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_tw_eagle_large.c6a70a276fef324c9db9b060a5910a688efff2d6.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Soldier",
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Pyro"
 				]
 				,
 				"attributes": [
