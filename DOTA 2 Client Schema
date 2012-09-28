@@ -1648,7 +1648,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Invokers_Head"
-			"item_slot"		"head"
+			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"used_by_heroes"
 			{
@@ -1662,7 +1662,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Invokers_Hair"
-			"item_slot"		"body_head"
+			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"used_by_heroes"
 			{
@@ -3099,11 +3099,11 @@
 		}
 		"198"
 		{
-			"name"		"Sand King's Armor"
+			"name"		"Sand King's Shoulders"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Sand_Kings_Armor"
-			"item_slot"		"armor"
+			"item_type_name"		"#DOTA_WearableType_New_Item"
+			"item_name"		"#DOTA_Item_Sand_Kings_Shoulders"
+			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -3503,7 +3503,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_misc"
 			"item_name"		"#DOTA_Item_Chens_Mount_Armor"
-			"item_slot"		"misc"
+			"item_slot"		"armor"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Chens_Shoulder_Armor"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -4789,6 +4789,80 @@
 			}
 			"model_player"		"models/heroes/siren/siren_weapon_offhand.mdl"
 		}
+		"313"
+		{
+			"name"		"Beastmaster's Weapons"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Beastmasters_Weapons"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_beastmaster"		"1"
+			}
+			"model_player"		"models/heroes/beastmaster/beastmaster_weapon.mdl"
+		}
+		"314"
+		{
+			"name"		"Beastmasters's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Beastmasterss_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_beastmaster"		"1"
+			}
+			"model_player"		"models/heroes/beastmaster/beastmaster_head.mdl"
+		}
+		"315"
+		{
+			"name"		"Beastmaster's Shoulder"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Beastmasters_Shoulder"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_beastmaster"		"1"
+			}
+			"model_player"		"models/heroes/beastmaster/beastmaster_shoulder.mdl"
+		}
+		"316"
+		{
+			"name"		"Beastmaster's Arms"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Beastmasters_Arms"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_beastmaster"		"1"
+			}
+			"model_player"		"models/heroes/beastmaster/beastmaster_arms.mdl"
+		}
+		"317"
+		{
+			"name"		"Beastmaster's Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Beastmasters_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_beastmaster"		"1"
+			}
+			"model_player"		"models/heroes/beastmaster/beastmaster_belt.mdl"
+		}
 		"4000"
 		{
 			"name"		"Horn Mask"
@@ -5100,6 +5174,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"icon_portrait"
 			{
@@ -6566,6 +6648,14 @@
 			{
 				"npc_dota_hero_sven"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"set_parent_skin"		"2"
 			"icon_portrait"
 			{
@@ -6613,6 +6703,14 @@
 			{
 				"npc_dota_hero_sven"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"set_parent_skin"		"2"
 			"icon_portrait"
 			{
@@ -6656,6 +6754,14 @@
 			"image_inventory"		"econ/items/sven/sven_shoulderpad"
 			"model_player"		"models/items/sven/sven_shoulderpad.mdl"
 			"item_set"		"sven_swordmaster"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_sven"		"1"
@@ -6845,6 +6951,14 @@
 			"tags"
 			{
 				"is_weapon"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"used_by_heroes"
 			{
@@ -8555,6 +8669,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"witchdoctor_wicked_badness"
 		}
 		"4098"
 		{
@@ -11439,6 +11554,14 @@
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Bindings_of_the_Rift"
 			"image_inventory"		"econ/items/faceless_void/faceless_void_rift_head"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
@@ -12571,6 +12694,14 @@
 			"item_description"		"#DOTA_Item_Desc_Chronite_Armor"
 			"image_inventory"		"econ/items/faceless_void/faceless_void_crystal_shoulder"
 			"item_set"		"faceless_chronite"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
@@ -12618,6 +12749,14 @@
 			"item_description"		"#DOTA_Item_Desc_Chronite_Bracers"
 			"image_inventory"		"econ/items/faceless_void/faceless_void_crystal_bracer"
 			"item_set"		"faceless_chronite"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
@@ -12713,6 +12852,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/faceless_void/faceless_void_crystal_head.mdl"
 			"icon_portrait"
@@ -12892,6 +13039,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"item_set"		"bounty_hunter_creeper"
 		}
 		"4188"
 		{
@@ -12948,6 +13096,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"item_set"		"bounty_hunter_creeper"
 		}
 		"4189"
 		{
@@ -13013,6 +13162,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"bounty_hunter_creeper"
 		}
 		"4193"
 		{
@@ -13589,6 +13739,14 @@
 			"item_description"		"#DOTA_Item_Desc_Helm_of_the_Flameguard"
 			"image_inventory"		"econ/items/sven/knight_helmet"
 			"item_set"		"sven_flameguard"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_sven"		"1"
@@ -13636,6 +13794,14 @@
 			"item_description"		"#DOTA_Item_Desc_Dressed_Pauldron_of_the_Flameguard"
 			"image_inventory"		"econ/items/sven/knight_pauldron"
 			"item_set"		"sven_flameguard"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_sven"		"1"
@@ -14253,7 +14419,6 @@
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Juju_o_Wicked_Badness"
 			"image_inventory"		"econ/items/witchdoctor/voodoo_backpack"
-			"item_set"		"witchdoctor_wicked_badness"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_witch_doctor"		"1"
@@ -14289,6 +14454,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"item_set"		"witchdoctor_wicked_badness"
 		}
 		"4221"
 		{
@@ -14298,7 +14464,6 @@
 			"item_name"		"#DOTA_Item_Staff_o_Wicked_Badness"
 			"item_description"		"#DOTA_Item_Desc_Skull_Staff_of_Grim_Rites"
 			"image_inventory"		"econ/items/witchdoctor/voodo_staff"
-			"item_set"		"witchdoctor_wicked_badness"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_witch_doctor"		"1"
@@ -14334,6 +14499,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"item_set"		"witchdoctor_wicked_badness"
 		}
 		"4222"
 		{
@@ -14344,7 +14510,6 @@
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Skull_Mask_o_Wicked_Badness"
 			"image_inventory"		"econ/items/witchdoctor/voodoo_skullmask"
-			"item_set"		"witchdoctor_wicked_badness"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_witch_doctor"		"1"
@@ -14380,6 +14545,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"witchdoctor_wicked_badness"
 		}
 		"4223"
 		{
@@ -17591,6 +17757,14 @@
 			"item_description"		"#DOTA_Item_Desc_Iron_Bears_Cutter"
 			"image_inventory"		"econ/items/ursa/assault_armor_bracer"
 			"item_set"		"ursa_iron_bear"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_ursa"		"1"
@@ -17637,6 +17811,14 @@
 			"item_description"		"#DOTA_Item_Desc_Iron_Bears_Skullcap"
 			"image_inventory"		"econ/items/ursa/assault_armor_helmet"
 			"item_set"		"ursa_iron_bear"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_ursa"		"1"
@@ -17913,6 +18095,14 @@
 			"item_description"		"#DOTA_Item_Desc_Skull_of_the_Ravager"
 			"image_inventory"		"econ/items/ursa/ravager_head"
 			"item_set"		"ursa_ravager"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_ursa"		"1"
@@ -17959,6 +18149,14 @@
 			"item_description"		"#DOTA_Item_Desc_Quills_of_the_Ravager"
 			"image_inventory"		"econ/items/ursa/ravager_quills"
 			"item_set"		"ursa_ravager"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_ursa"		"1"
@@ -18751,6 +18949,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"item_set"		"omniknight_hierophant"
 		}
 		"4325"
 		{
@@ -18761,6 +18960,14 @@
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Shard_of_the_Rift"
 			"image_inventory"		"econ/items/faceless_void/weapon_rift"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_faceless_void"		"1"
@@ -19178,6 +19385,14 @@
 			"item_description"		"#DOTA_Item_Desc_Savage_Helmet"
 			"image_inventory"		"econ/items/ursa/savage_helmet"
 			"item_set"		"ursa_savage_age"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_ursa"		"1"
@@ -19224,6 +19439,14 @@
 			"item_description"		"#DOTA_Item_Desc_Savage_Armor"
 			"image_inventory"		"econ/items/ursa/savage_cuirass"
 			"item_set"		"ursa_savage_age"
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"used_by_heroes"
 			{
 				"npc_dota_hero_ursa"		"1"
@@ -23254,6 +23477,114 @@
 				}
 			}
 		}
+		"10063"
+		{
+			"name"		"Treasure of the Rogue Knight"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
+			"item_name"		"#DOTA_Item_Treasure_of_the_Rogue_Knight"
+			"tool"
+			{
+				"type"		"supply_crate"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Chest"
+			"image_inventory"		"econ/tools/treasure_chest_sven"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"14"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10064"
+		{
+			"name"		"Timeless Treasure of Claszureme"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
+			"item_name"		"#DOTA_Item_Timeless_Treasure_of_Claszureme"
+			"tool"
+			{
+				"type"		"supply_crate"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Chest"
+			"image_inventory"		"econ/tools/treasure_chest_faceless_void"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"15"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10065"
+		{
+			"name"		"Treasure of the Wild Claw"
+			"prefab"		"dota_misc_item"
+			"item_class"		"supply_crate"
+			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
+			"item_name"		"#DOTA_Item_Treasure_of_the_Wild_Claw"
+			"tool"
+			{
+				"type"		"supply_crate"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_ursa"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Chest"
+			"image_inventory"		"econ/tools/treasure_chest_ursa"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"16"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"15000"
 		{
 			"name"		"Name Tag"
@@ -25777,11 +26108,267 @@
 				}
 			}
 		}
+		"15080"
+		{
+			"name"		"Portal 2 Soundtrack Gift Pack"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_Item_Gift"
+			"item_name"		"#DOTA_Item_Portal_2_Soundtrack_Gift_Pack"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"gift"
+				"use_string"		"#OpenPack"
+				"usage"
+				{
+					"loot_list"		"portal_2_soundtrack_gift_pack"
+					"num_items"		"1"
+					"max_recipients"		"1"
+					"target_rule"		"only_self"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Portal_2_Soundtrack_Gift_Pack"
+			"player_loadout"		"0"
+			"image_inventory"		"econ/tools/gift_single"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+				"ignore charge notification"
+				{
+					"attribute_class"		"ignore_charge_notification"
+					"value"		"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"		"cannot_trade"
+					"value"		"1"
+				}
+			}
+		}
+		"15081"
+		{
+			"name"		"GEST Dota 2"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_GEST"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"14"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_GEST_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_gest"
+			"image_banner"		"econ/leagues/subscriptions_gest_ingame"
+			"tournament_url"		"http://www.dotatalk.com/tournaments/gest/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15082"
+		{
+			"name"		"GEST Dota 2 ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_GEST_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"14"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_GEST_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_gest"
+			"image_banner"		"econ/leagues/subscriptions_gest_ingame"
+			"tournament_url"		"http://www.dotatalk.com/tournaments/gest/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15083"
+		{
+			"name"		"Premier League"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_PremierLeague"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"15"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_PremierLeague_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_tpl_season3"
+			"image_banner"		"econ/leagues/subscriptions_tpl_season3_ingame"
+			"tournament_url"		"www.thepremierleague.eu"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15084"
+		{
+			"name"		"Premier League ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass_Admin"
+			"item_name"		"#DOTA_Item_League_PremierLeague"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"15"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_PremierLeague_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_tpl_season3"
+			"image_banner"		"econ/leagues/subscriptions_tpl_season3_ingame"
+			"tournament_url"		"www.thepremierleague.eu"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15085"
+		{
+			"name"		"GosuLeague"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_GosuLeague"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"16"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_GosuLeague_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_gosuleague"
+			"image_banner"		"econ/leagues/subscriptions_gosuleague_ingame"
+			"tournament_url"		"http://play.gosugamers.net/events/48:gosuleague-season-4"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15086"
+		{
+			"name"		"GosuLeague ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_GosuLeague_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"16"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_GosuLeague_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_gosuleague"
+			"image_banner"		"econ/leagues/subscriptions_gosuleague_ingame"
+			"tournament_url"		"http://play.gosugamers.net/events/48:gosuleague-season-4"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"20000"
 		{
-			"name"		"Of Ivory and Ebony Bundle"
+			"name"		"Of Ebony and Ivory Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Juggernaut_Ivory_Ebony"
+			"item_name"		"#DOTA_Item_Of_Ebony_and_Ivory_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -25830,9 +26417,9 @@
 		}
 		"20001"
 		{
-			"name"		"Wicked Bad Vodooo Bundle"
+			"name"		"Wicked Bad Voodoo Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Witch_Doctor_Wicked_Bad_Voodoo"
+			"item_name"		"#DOTA_Item_Wicked_Bad_Voodoo_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -25881,9 +26468,9 @@
 		}
 		"20002"
 		{
-			"name"		"Demon Blood Bundle"
+			"name"		"Forged in Demons' Blood Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Axe_Demon_Blood"
+			"item_name"		"#DOTA_Item_Forged_in_Demons_Blood_Set"
 			"item_rarity"		"mythical"
 			"bundle"
 			{
@@ -25932,9 +26519,9 @@
 		}
 		"20003"
 		{
-			"name"		"Defiant Axe Bundle"
+			"name"		"The Defiant Axe Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Axe_Defiant"
+			"item_name"		"#DOTA_Item_The_Defiant_Axe_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -25983,9 +26570,9 @@
 		}
 		"20004"
 		{
-			"name"		"Regal Forest Lord Bundle"
+			"name"		"The Regal Forest Lord Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Natures_Prophet_Forest_Lord"
+			"item_name"		"#DOTA_Item_The_Regal_Forest_Lord_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -26036,9 +26623,9 @@
 		}
 		"20005"
 		{
-			"name"		"The Boar God's Honor Bundle"
+			"name"		"The Boar God's Honor Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Juggernaut_Boar_God"
+			"item_name"		"#DOTA_Item_The_Boar_Gods_Honor_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26087,9 +26674,9 @@
 		}
 		"20006"
 		{
-			"name"		"Aspects of Beast and Man Bundle"
+			"name"		"Aspects of Beast and Man Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Juggernaut_Beasts_Man"
+			"item_name"		"#DOTA_Item_Aspects_of_Beast_and_Man_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26138,9 +26725,9 @@
 		}
 		"20007"
 		{
-			"name"		"Traveler on the High Plains Bundle"
+			"name"		"Traveler on the High Plains Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Juggernaut_High_Plains"
+			"item_name"		"#DOTA_Item_Traveler_on_the_High_Plains_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -26189,9 +26776,9 @@
 		}
 		"20008"
 		{
-			"name"		"Scion of the Savage Bundle"
+			"name"		"Scion of the Savage Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Natures_Prophet_Scion_Savage"
+			"item_name"		"#DOTA_Item_Scion_of_the_Savage_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26241,9 +26828,9 @@
 		}
 		"20009"
 		{
-			"name"		"Heartwood Vanguard Bundle"
+			"name"		"Heartwood Vanguard Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Natures_Prophet_Heartwood_Vanguard"
+			"item_name"		"#DOTA_Item_Heartwood_Vanguard_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26293,9 +26880,9 @@
 		}
 		"20010"
 		{
-			"name"		"Garments of the Peace-Bringer Bundle"
+			"name"		"Garments of the Peace-Bringer Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Natures_Prophet_Peace_Bringer"
+			"item_name"		"#DOTA_Item_Garments_of_the_PeaceBringer_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -26345,9 +26932,9 @@
 		}
 		"20011"
 		{
-			"name"		"Master of Beast and Bole Bundle"
+			"name"		"Master of Beast and Bole Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Natures_Prophet_Beast_Bole"
+			"item_name"		"#DOTA_Item_Master_of_Beast_and_Bole_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26395,9 +26982,9 @@
 		}
 		"20012"
 		{
-			"name"		"The Berserker's Blood Bundle"
+			"name"		"The Berserker's Blood Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Axe_Berserker"
+			"item_name"		"#DOTA_Item_The_Berserkers_Blood_Set"
 			"bundle"
 			{
 				"Berserker's Pauldron"		"1"
@@ -26444,9 +27031,9 @@
 		}
 		"20013"
 		{
-			"name"		"The Forgemaster's Tools Bundle"
+			"name"		"The Forgemaster's Tools Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Axe_Forgemaster"
+			"item_name"		"#DOTA_Item_The_Forgemasters_Tools_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26495,9 +27082,9 @@
 		}
 		"20014"
 		{
-			"name"		"The Axecutioner Bundle"
+			"name"		"The Axecutioner Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Axe_Axecutioner"
+			"item_name"		"#DOTA_Item_The_Axecutioner_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -26546,9 +27133,9 @@
 		}
 		"20015"
 		{
-			"name"		"Swordmaster of the Vigil Bundle"
+			"name"		"Swordmaster of the Vigil Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Sven_Swordmaster"
+			"item_name"		"#DOTA_Item_Swordmaster_of_the_Vigil_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26597,9 +27184,9 @@
 		}
 		"20016"
 		{
-			"name"		"The Freelancer's Finery Bundle"
+			"name"		"The Freelancer's Finery Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Sven_Freelancer"
+			"item_name"		"#DOTA_Item_The_Freelancers_Finery_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26648,9 +27235,9 @@
 		}
 		"20017"
 		{
-			"name"		"Mono Militis Bundle"
+			"name"		"Mono Militis Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Sven_Mono_Militis"
+			"item_name"		"#DOTA_Item_Mono_Militis_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26698,9 +27285,9 @@
 		}
 		"20018"
 		{
-			"name"		"Flameguard Bundle"
+			"name"		"Flameguard Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Sven_Flameguard"
+			"item_name"		"#DOTA_Item_Flameguard_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -26750,9 +27337,9 @@
 		}
 		"20019"
 		{
-			"name"		"Chronite Defense Bundle"
+			"name"		"Chronite Defense Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Faceless_Void_Chronite"
+			"item_name"		"#DOTA_Item_Chronite_Defense_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -26799,61 +27386,11 @@
 				"PortraitHideHero"		"0"
 			}
 		}
-		"20020"
-		{
-			"name"		"Garb of the Alpine Stalker Bundle"
-			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Ursa_Alpine_Stalker"
-			"item_rarity"		"uncommon"
-			"bundle"
-			{
-				"Lucky Alpine Stalker's Hat"		"1"
-				"Alpine Stalker's Scarf"		"1"
-				"Alpine Stalker's Pants"		"1"
-				"Alpine Stalker's Gloves"		"1"
-			}
-			"item_description"		"#DOTA_Bundle_Desc_Ursa_Alpine_Stalker"
-			"image_inventory"		"econ/sets/DOTA_Bundle_Ursa_Alpine_Stalker"
-			"used_by_heroes"
-			{
-				"npc_dota_hero_ursa"		"1"
-			}
-			"icon_portrait"
-			{
-				"PortraitPosition"		"478.240448 -95.072754 175.775589"
-				"PortraitLookAt"		"11.074219 167.448120 0.000000"
-				"PortraitFOV"		"32.000000"
-				"PortraitFar"		"1000.000000"
-				"PortraitLightPosition"		"241.437607 -111.372849 183.494385"
-				"PortraitLightLookAt"		"42.540001 149.300003 0.000000"
-				"PortraitLightFOV"		"90.000000"
-				"PortraitLightDistance"		"133.000000"
-				"PortraitLightColor"		"0.390000 0.390000 0.390000"
-				"PortraitShadowColor"		"0.060000 0.090000 0.040000"
-				"PortraitShadowScale"		"1.000000"
-				"PortraitGroundShadowScale"		"0.300000"
-				"PortraitAmbientOrigin"		"31.670000 -34.840000 -37.060001"
-				"PortraitAmbientColor"		"0.530000 0.500833 0.501311"
-				"PortraitAmbientScale"		"1.000000"
-				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
-				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
-				"PortraitSpecularPower"		"16.000000"
-				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
-				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
-				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
-				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
-				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
-				"PortraitAnimationActivity"		"0"
-				"PortraitAnimationCycle"		"0.760000"
-				"PortraitAnimationRate"		"0.000000"
-				"PortraitHideHero"		"0"
-			}
-		}
 		"20021"
 		{
-			"name"		"Ritual Garb of the Seeker Bundle"
+			"name"		"Ritual Garb of the Seeker Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Bloodseeker_Hlotl"
+			"item_name"		"#DOTA_Item_Ritual_Garb_of_the_Seeker_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -26904,9 +27441,9 @@
 		}
 		"20022"
 		{
-			"name"		"The Pirate's Booty Bundle"
+			"name"		"The Pirate's Booty Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Tidehunter_Pirate_Slayer"
+			"item_name"		"#DOTA_Item_The_Pirates_Booty_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -26955,9 +27492,9 @@
 		}
 		"20023"
 		{
-			"name"		"The Paleogeneous Punisher Bundle"
+			"name"		"The Paleogeneous Punisher Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Tidehunter_Punisher"
+			"item_name"		"#DOTA_Item_The_Paleogeneous_Punisher_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27006,9 +27543,9 @@
 		}
 		"20024"
 		{
-			"name"		"The Admirable Admiral Bundle"
+			"name"		"The Admirable Admiral Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Kunkka_Admirable_Admiral"
+			"item_name"		"#DOTA_Item_The_Admirable_Admiral_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27058,9 +27595,9 @@
 		}
 		"20025"
 		{
-			"name"		"Uldorak's Hide Bundle"
+			"name"		"Uldorak's Hide Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Dragon_Knight_Uldorak"
+			"item_name"		"#DOTA_Item_Uldoraks_Hide_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -27110,9 +27647,9 @@
 		}
 		"20026"
 		{
-			"name"		"The Radiance of the Crusade Bundle"
+			"name"		"The Radiance of the Crusade Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Omniknight_Crusader"
+			"item_name"		"#DOTA_Item_The_Radiance_of_the_Crusade_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -27162,9 +27699,9 @@
 		}
 		"20027"
 		{
-			"name"		"The Fires of Exort Bundle"
+			"name"		"The Fires of Exort Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Invoker_Exort"
+			"item_name"		"#DOTA_Item_The_Fires_of_Exort_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27273,9 +27810,9 @@
 		}
 		"20029"
 		{
-			"name"		"Spikes of Frost Bundle"
+			"name"		"Spikes of Frost Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Drow_Ranger_Spikes_Frost"
+			"item_name"		"#DOTA_Item_Spikes_of_Frost_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -27325,9 +27862,9 @@
 		}
 		"20030"
 		{
-			"name"		"Trappings of the Pangolin Guild Bundle"
+			"name"		"Trappings of the Pangolin Guild Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Bounty_Hunter_Pangolin"
+			"item_name"		"#DOTA_Item_Trappings_of_the_Pangolin_Guild_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -27415,9 +27952,9 @@
 		}
 		"20033"
 		{
-			"name"		"The Dauntless Bundle"
+			"name"		"The Dauntless Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Juggernaut_Dauntless"
+			"item_name"		"#DOTA_Item_The_Dauntless_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27465,9 +28002,9 @@
 		}
 		"20034"
 		{
-			"name"		"Blood Mist Armor Bundle"
+			"name"		"Bloodmist Armor Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Axe_Blood_Mist"
+			"item_name"		"#DOTA_Item_Bloodmist_Armor_Set"
 			"bundle"
 			{
 				"Bloodmist Helm"		"1"
@@ -27514,9 +28051,9 @@
 		}
 		"20035"
 		{
-			"name"		"Armor of Sir Davion Bundle"
+			"name"		"Armor of Sir Davion Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Dragon_Knight_Davion"
+			"item_name"		"#DOTA_Item_Armor_of_Sir_Davion_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27566,9 +28103,9 @@
 		}
 		"20036"
 		{
-			"name"		"Armor of the Purist Champion Bundle"
+			"name"		"Armor of the Purist Champion Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Omniknight_Purist_Champion"
+			"item_name"		"#DOTA_Item_Armor_of_the_Purist_Champion_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27616,9 +28153,9 @@
 		}
 		"20037"
 		{
-			"name"		"The Traveling Tale-Teller Bundle"
+			"name"		"Traveling Tale-Teller's Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Witch_Doctor_Tale_Teller"
+			"item_name"		"#DOTA_Item_Traveling_TaleTellers_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27666,9 +28203,9 @@
 		}
 		"20038"
 		{
-			"name"		"Hardened Hunter's Gear Bundle"
+			"name"		"Hardened Hunter's Gear Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Bounty_Hunter_Hardened"
+			"item_name"		"#DOTA_Item_Hardened_Hunters_Gear_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27717,9 +28254,9 @@
 		}
 		"20039"
 		{
-			"name"		"Radiant Crystal Bindings Bundle"
+			"name"		"Radiant Crystal Bindings Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Morphling_Radiant_Crystal"
+			"item_name"		"#DOTA_Item_Radiant_Crystal_Bindings_Set"
 			"bundle"
 			{
 				"Radiant Crystal Bracer"		"1"
@@ -27766,9 +28303,9 @@
 		}
 		"20040"
 		{
-			"name"		"The Magus Magnus Bundle"
+			"name"		"The Magus Magnus Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Invoker_Magnus"
+			"item_name"		"#DOTA_Item_The_Magus_Magnus_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -27875,9 +28412,9 @@
 		}
 		"20042"
 		{
-			"name"		"The Iron Bear Bundle"
+			"name"		"The Iron Bear's Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Ursa_Iron_Bear"
+			"item_name"		"#DOTA_Item_The_Iron_Bears_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -27925,9 +28462,9 @@
 		}
 		"20043"
 		{
-			"name"		"The Ursine Ravager Bundle"
+			"name"		"The Ursine Ravager Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Ursa_Ravager"
+			"item_name"		"#DOTA_Item_The_Ursine_Ravager_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -27975,9 +28512,9 @@
 		}
 		"20044"
 		{
-			"name"		"The Savage Age Bundle"
+			"name"		"The Savage Age Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Ursa_Savage_Age"
+			"item_name"		"#DOTA_Item_The_Savage_Age_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -28025,9 +28562,9 @@
 		}
 		"20045"
 		{
-			"name"		"The Master Assassin Bundle"
+			"name"		"The Master Assassin Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Bounty_Hunter_Master_Assassin"
+			"item_name"		"#DOTA_Item_The_Master_Assassin_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -28077,9 +28614,9 @@
 		}
 		"20046"
 		{
-			"name"		"The Hierophant's Protection Bundle"
+			"name"		"The Hierophant's Protection Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Omniknight_Hierophant"
+			"item_name"		"#DOTA_Item_The_Hierophants_Protection_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -28090,7 +28627,7 @@
 				"Hammer of Hope"		"1"
 			}
 			"item_description"		"#DOTA_Bundle_Desc_Omniknight_Hierophant"
-			"image_inventory"		"econ/sets/DOTA_Bundle_Omniknight_Hierophant"
+			"image_inventory"		"econ/sets/DOTA_Item_The_Hierophants_Protection_Set"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_omniknight"		"1"
@@ -28129,9 +28666,9 @@
 		}
 		"20047"
 		{
-			"name"		"The Bonehunter Bundle"
+			"name"		"The Bonehunter Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Bloodseeker_Bonehunter"
+			"item_name"		"#DOTA_Item_The_Bonehunter_Set"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -28183,9 +28720,9 @@
 		}
 		"20048"
 		{
-			"name"		"The Alpine Stalker Bundle"
+			"name"		"The Alpine Stalker's Set"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Ursa_Alpine_Stalker"
+			"item_name"		"#DOTA_Item_The_Alpine_Stalkers_Set"
 			"item_rarity"		"uncommon"
 			"bundle"
 			{
@@ -28361,9 +28898,9 @@
 		}
 		"20055"
 		{
-			"name"		"The Talk Like A Pirate Pack"
+			"name"		"Kunkka's 'But I'm Not A Pirate!' Pack"
 			"prefab"		"dota_bundle"
-			"item_name"		"#DOTA_Bundle_Talk_Like_A_Pirate_Day"
+			"item_name"		"#DOTA_Item_Kunkkas_But_Im_Not_A_Pirate_Pack"
 			"item_rarity"		"rare"
 			"bundle"
 			{
@@ -29686,130 +30223,6 @@
 	}
 	"item_sets"
 	{
-		"juggernaut_boar_god"
-		{
-			"name"		"#DOTA_Set_Juggernaut_Boar_God"
-			"items"
-			{
-				"Three-Fold Mien of the Boar God"		"1"
-				"Seven-Sealed the Fur Bracer"		"1"
-				"Twelve-Tusks the Cape of Boars"		"1"
-				"Four-Fangs the Swordbreaker"		"1"
-			}
-			"store_bundle"		"The Boar God's Honor Bundle"
-		}
-		"juggernaut_ivory_ebony"
-		{
-			"name"		"#DOTA_Set_Juggernaut_Ivory_Ebony"
-			"items"
-			{
-				"Visage of the Ivory Isles"		"1"
-				"Kimono of the Ebony Tower"		"1"
-				"Bracers of the Ebony Tower"		"1"
-				"Defender of the Ivory Isles"		"1"
-			}
-			"store_bundle"		"Of Ivory and Ebony Bundle"
-		}
-		"juggernaut_beasts_men"
-		{
-			"name"		"#DOTA_Set_Juggernaut_Beasts_Men"
-			"items"
-			{
-				"100-Proof Jug"		"1"
-				"Fine Bone Bracers"		"1"
-				"Prey-Tracker's Aspect Mask"		"1"
-				"Omnishred the Defiant"		"1"
-			}
-			"store_bundle"		"Aspects of Beast and Man Bundle"
-		}
-		"juggernaut_high_plains"
-		{
-			"name"		"#DOTA_Set_Juggernaut_High_Plains"
-			"items"
-			{
-				"Stoic Mask of the High Plains"		"1"
-				"Wolf Cape of the High Plains"		"1"
-				"Aspect Wraps of the High Plains"		"1"
-				"Long-Fang the Grey Blade"		"1"
-			}
-			"store_bundle"		"Traveler on the High Plains Bundle"
-		}
-		"juggernaut_brave"
-		{
-			"name"		"#DOTA_Set_Juggernaut_Brave"
-			"items"
-			{
-				"Bone Bracer of the Brave"		"1"
-				"Death Mask of the Brave"		"1"
-				"Elder Tusk of the Brave"		"1"
-				"No-Guard the Courageous Edge"		"1"
-			}
-			"store_bundle"		"The Dauntless Bundle"
-		}
-		"furion_scion_savage"
-		{
-			"name"		"#DOTA_Set_Furion_Scion_Savage"
-			"items"
-			{
-				"Staff of the Tusk-Bereft"		"1"
-				"Horns of the Forest Lord"		"1"
-				"Doubly Braided Beard"		"1"
-				"Pauldron of Al-Fusha"		"1"
-				"Tusked Bracers"		"1"
-			}
-			"store_bundle"		"Scion of the Savage Bundle"
-		}
-		"furion_heartwood"
-		{
-			"name"		"#DOTA_Set_Furion_Heartwood_Vanguard"
-			"items"
-			{
-				"Sinorian Sphere Staff"		"1"
-				"Diadem of the Goddess Enthroned"		"1"
-				"Beard of Cycles"		"1"
-				"Flared Wooden Crest"		"1"
-				"Guard of the Deep Tribes"		"1"
-			}
-			"store_bundle"		"Heartwood Vanguard Bundle"
-		}
-		"furion_beast_bole"
-		{
-			"name"		"#DOTA_Set_Furion_Beast_Bole"
-			"items"
-			{
-				"Staff of the Eagle"		"1"
-				"Grand Crown of the Gigas"		"1"
-				"Druidic Ritual Crest"		"1"
-			}
-			"store_bundle"		"Master of Beast and Bole Bundle"
-		}
-		"furion_forest_lord"
-		{
-			"name"		"#DOTA_Set_Furion_Forest_Lord"
-			"items"
-			{
-				"Runestaff of Verodicia"		"1"
-				"Horns of Noblesse"		"1"
-				"Luxuriant Chin-Foliage"		"1"
-				"Cape of Verdant Dreaming"		"1"
-				"Runed Ailettes"		"1"
-				"Cuffs of Oak and Yew"		"1"
-			}
-			"store_bundle"		"Regal Forest Lord Bundle"
-		}
-		"furion_peace_bringer"
-		{
-			"name"		"#DOTA_Set_Furion_Peace_Bringer"
-			"items"
-			{
-				"Flower Staff of the Peace-Bringer"		"1"
-				"Lei of the Peace-Bringer"		"1"
-				"Horns of the Peace-Bringer"		"1"
-				"Beard of the Peace-Bringer"		"1"
-				"Toga of the Peace-Bringer"		"1"
-			}
-			"store_bundle"		"Garments of the Peace-Bringer Bundle"
-		}
 		"axe_berserker"
 		{
 			"name"		"#DOTA_Set_Axe_Berserker"
@@ -29819,55 +30232,7 @@
 				"Berserker's Helm"		"1"
 				"Berserker's Belt"		"1"
 			}
-			"store_bundle"		"The Berserker's Blood Bundle"
-		}
-		"axe_defiant"
-		{
-			"name"		"#DOTA_Set_Axe_Defiant"
-			"items"
-			{
-				"Pillar of Strength"		"1"
-				"Stone Loins"		"1"
-				"Stone Guard"		"1"
-				"Stone Helmet"		"1"
-			}
-			"store_bundle"		"Defiant Axe Bundle"
-		}
-		"axe_forgemaster"
-		{
-			"name"		"#DOTA_Set_Axe_Forgemaster"
-			"items"
-			{
-				"Forgemaster's Apron"		"1"
-				"Forgemaster's Armlet"		"1"
-				"Forgemaster's Mask"		"1"
-				"Forgemaster's Hammer"		"1"
-			}
-			"store_bundle"		"The Forgemaster's Tools Bundle"
-		}
-		"axe_executioner"
-		{
-			"name"		"#DOTA_Set_Axe_Executioner"
-			"items"
-			{
-				"Executioner's Axe"		"1"
-				"Executioner's Cape"		"1"
-				"Executioner's Trophies"		"1"
-				"Executioner's Hood"		"1"
-			}
-			"store_bundle"		"The Axecutioner Bundle"
-		}
-		"axe_demon_blood"
-		{
-			"name"		"#DOTA_Set_Axe_Demon_Blood"
-			"items"
-			{
-				"Demon Blood Helm"		"1"
-				"Demon Blood Armor"		"1"
-				"Demon Blood Guard"		"1"
-				"The Blood Chaser"		"1"
-			}
-			"store_bundle"		"Demon Blood Bundle"
+			"store_bundle"		"The Berserker's Blood Set"
 		}
 		"axe_blood_mist"
 		{
@@ -29879,78 +30244,55 @@
 				"Bloodmist Pauldrons"		"1"
 				"Bloodmist Crescent Axe"		"1"
 			}
-			"store_bundle"		"Blood Mist Armor Bundle"
+			"store_bundle"		"Bloodmist Armor Set"
 		}
-		"sven_swordmaster"
+		"axe_defiant"
 		{
-			"name"		"#DOTA_Set_Sven_Swordmaster"
+			"name"		"#DOTA_Set_Axe_Defiant"
 			"items"
 			{
-				"Tayrnhelm of the Swordmaster"		"1"
-				"Girth of the Swordmaster"		"1"
-				"Fluted Guard of the Swordmaster"		"1"
-				"Grip of the Swordmaster"		"1"
+				"Pillar of Strength"		"1"
+				"Stone Loins"		"1"
+				"Stone Guard"		"1"
+				"Stone Helmet"		"1"
 			}
-			"store_bundle"		"Swordmaster of the Vigil Bundle"
+			"store_bundle"		"The Defiant Axe Set"
 		}
-		"sven_freelancer"
+		"axe_demon_blood"
 		{
-			"name"		"#DOTA_Set_Sven_Freelancer"
+			"name"		"#DOTA_Set_Axe_Demon_Blood"
 			"items"
 			{
-				"Mask of the Freelancer"		"1"
-				"Shoulderguard of the Freelancer"		"1"
-				"Pantaloons of the Freelancer"		"1"
-				"Sword of the Freelancer"		"1"
+				"Demon Blood Helm"		"1"
+				"Demon Blood Armor"		"1"
+				"Demon Blood Guard"		"1"
+				"The Blood Chaser"		"1"
 			}
-			"store_bundle"		"The Freelancer's Finery Bundle"
+			"store_bundle"		"Forged in Demons' Blood Set"
 		}
-		"sven_mono_militis"
+		"axe_executioner"
 		{
-			"name"		"#DOTA_Set_Sven_Mono_Militis"
+			"name"		"#DOTA_Set_Axe_Executioner"
 			"items"
 			{
-				"Dressed Pauldron of the Mono Militis"		"1"
-				"Cyclopean Helm of the Mono Militis"		"1"
-				"Sword of the Mono Militis"		"1"
+				"Executioner's Axe"		"1"
+				"Executioner's Cape"		"1"
+				"Executioner's Trophies"		"1"
+				"Executioner's Hood"		"1"
 			}
-			"store_bundle"		"Mono Militis Bundle"
+			"store_bundle"		"The Axecutioner Set"
 		}
-		"sven_flameguard"
+		"axe_forgemaster"
 		{
-			"name"		"#DOTA_Set_Sven_Flameguard"
+			"name"		"#DOTA_Set_Axe_Forgemaster"
 			"items"
 			{
-				"Helm of the Flameguard"		"1"
-				"Dressed Pauldron of the Flameguard"		"1"
-				"Skirt of the Flameguard"		"1"
-				"Sword of the Flameguard"		"1"
-				"Cape of the Flameguard"		"1"
+				"Forgemaster's Apron"		"1"
+				"Forgemaster's Armlet"		"1"
+				"Forgemaster's Mask"		"1"
+				"Forgemaster's Hammer"		"1"
 			}
-			"store_bundle"		"Flameguard Bundle"
-		}
-		"faceless_chronite"
-		{
-			"name"		"#DOTA_Set_Faceless_Chronite"
-			"items"
-			{
-				"Chronite Armor"		"1"
-				"Chronite Bracers"		"1"
-				"Chronite Scepter"		"1"
-			}
-			"store_bundle"		"Chronite Defense Bundle"
-		}
-		"ursa_alpine_stalker"
-		{
-			"name"		"#DOTA_Set_Ursa_Alpine_Stalker"
-			"items"
-			{
-				"Lucky Alpine Stalker's Hat"		"1"
-				"Alpine Stalker's Scarf"		"1"
-				"Alpine Stalker's Pants"		"1"
-				"Alpine Stalker's Gloves"		"1"
-			}
-			"store_bundle"		"Garb of the Alpine Stalker Bundle"
+			"store_bundle"		"The Forgemaster's Tools Set"
 		}
 		"blood_seeker_hlotl"
 		{
@@ -29964,258 +30306,7 @@
 				"War Blade"		"1"
 				"War Blade - Off-Hand"		"1"
 			}
-			"store_bundle"		"Ritual Garb of the Seeker Bundle"
-		}
-		"tidehunter_pirate_slayer"
-		{
-			"name"		"#DOTA_Set_Tidehunter_Pirate_Slayer"
-			"items"
-			{
-				"Pirate Slayer's Bracer"		"1"
-				"Pirate Slayer's Tricorn"		"1"
-				"Pirate Slayer's Black Flag"		"1"
-				"Pirate Slayer's Cutlass"		"1"
-			}
-			"store_bundle"		"The Pirate's Booty Bundle"
-		}
-		"tidehunter_punisher"
-		{
-			"name"		"#DOTA_Set_Tidehunter_Punisher"
-			"items"
-			{
-				"Cerebral Support"		"1"
-				"Excavator's Treasure"		"1"
-				"Femur Thrasher"		"1"
-				"Skeletal Catch"		"1"
-			}
-			"store_bundle"		"The Paleogeneous Punisher Bundle"
-		}
-		"kunkka_admirable_admiral"
-		{
-			"name"		"#DOTA_Set_Kunkka_Admirable_Admiral"
-			"items"
-			{
-				"Gloves of the Admirable Admiral"		"1"
-				"Ceremonial Rapier"		"1"
-				"Grand Curls of the Admirable Admiral"		"1"
-				"Seafarer's Shoes"		"1"
-				"Sword of the Admirable Admiral"		"1"
-			}
-			"store_bundle"		"The Admirable Admiral Bundle"
-		}
-		"dragon_knight_uldorak"
-		{
-			"name"		"#DOTA_Set_Dragon_Knight_Uldorak"
-			"items"
-			{
-				"Wyrm Helm of Uldorak"		"1"
-				"Wyrm Bracer of Uldorak"		"1"
-				"Wyrm Skirt of Uldorak"		"1"
-				"Wyrm Pauldron of Uldorak"		"1"
-				"Wyrm Shield of Uldorak"		"1"
-				"Dragonmaw"		"1"
-			}
-			"store_bundle"		"Uldorak's Hide Bundle"
-		}
-		"dragon_knight_davion"
-		{
-			"name"		"#DOTA_Set_Dragon_Knight_Davion"
-			"items"
-			{
-				"Light Cape of Sir Davion"		"1"
-				"Bracer of Sir Davion"		"1"
-				"Pauldron of Sir Davion"		"1"
-				"Slayer-Sword of Sir Davion"		"1"
-				"Enameled Shield of Sir Davion"		"1"
-				"Dragonbone Helm of Sir Davion"		"1"
-			}
-			"store_bundle"		"Armor of Sir Davion Bundle"
-		}
-		"omniknight_crusader"
-		{
-			"name"		"#DOTA_Set_Omniknight_Crusader"
-			"items"
-			{
-				"Helm of the Radiant Crusader"		"1"
-				"Armor of the Radiant Crusader"		"1"
-				"Bracers of the Radiant Crusader"		"1"
-				"Sigil of the Radiant Crusader"		"1"
-				"Hammer of the Radiant Crusader"		"1"
-			}
-			"store_bundle"		"The Radiance of the Crusade Bundle"
-		}
-		"omniknight_purist_champion"
-		{
-			"name"		"#DOTA_Set_Omniknight_Purist_Champion"
-			"items"
-			{
-				"Circlet of the Purist Champion"		"1"
-				"Bracer of the Purist Champion"		"1"
-				"Armor of the Purist Champion"		"1"
-				"Hammer of the Purist Champion"		"1"
-			}
-			"store_bundle"		"Armor of the Purist Champion Bundle"
-		}
-		"invoker_exort"
-		{
-			"name"		"#DOTA_Set_Invoker_Exort"
-			"items"
-			{
-				"Cape of the Burning Cabal"		"1"
-				"Bracer of the Burning Cabal"		"1"
-				"Crest of the Burning Cabal"		"1"
-			}
-			"store_bundle"		"The Fires of Exort Bundle"
-		}
-		"invoker_magnus"
-		{
-			"name"		"#DOTA_Set_Invoker_Magus_Magnus"
-			"items"
-			{
-				"Crest of the Magus Magnus"		"1"
-				"Bracers of Profound Perfection"		"1"
-				"Cape of Arcane Artistry"		"1"
-				"Hood of Endless Intellect"		"1"
-			}
-			"store_bundle"		"The Magus Magnus Bundle"
-		}
-		"witchdoctor_wicked_badness"
-		{
-			"name"		"#DOTA_Set_Witchdoctor_Wicked_Badness"
-			"items"
-			{
-				"Juju o' Wicked Badness"		"1"
-				"Staff o' Wicked Badness"		"1"
-				"Mask o' Wicked Badness"		"1"
-				"Belt o' Wicked Badness"		"1"
-			}
-		}
-		"witchdoctor_tale_teller"
-		{
-			"name"		"#DOTA_Set_Witchdoctor_Tale_Teller"
-			"items"
-			{
-				"Veil of Fables"		"1"
-				"Sacral Apparel"		"1"
-				"Drum of Tales"		"1"
-				"Mantle of Mysteries"		"1"
-			}
-			"store_bundle"		"The Traveling Tale-Teller Bundle"
-		}
-		"drow_ranger_frost_spikes"
-		{
-			"name"		"#DOTA_Set_Drow_Ranger_Frost_Spikes"
-			"items"
-			{
-				"Ice Burst Bow"		"1"
-				"Ice Burst Bracers"		"1"
-				"Ice Burst Greaves"		"1"
-				"Ice Burst Cloak"		"1"
-				"Frost Spikes"		"1"
-			}
-			"store_bundle"		"Spikes of Frost Bundle"
-		}
-		"bounty_hunter_pangolin"
-		{
-			"name"		"#DOTA_Set_Bounty_Hunter_Pangolin"
-			"items"
-			{
-				"Shuriken of the Hidden Hunter"		"1"
-				"Harvester of the Hidden Hunter"		"1"
-				"Cleaver of the Hidden Hunter"		"1"
-				"Pangolin Carapace"		"1"
-				"Pangolin Scarf"		"1"
-				"Pangolin Shoulder Armor"		"1"
-			}
-			"store_bundle"		"Trappings of the Pangolin Guild Bundle"
-		}
-		"bounty_hunter_hardened"
-		{
-			"name"		"#DOTA_Set_Bounty_Hunter_Hardened"
-			"items"
-			{
-				"Hardened Hunter's Armor"		"1"
-				"Hardened Hunter's Mask"		"1"
-				"Shuriken of the Reaper"		"1"
-				"Bladed-Staff of the Reaper"		"1"
-				"Makeshift Sword of the Reaper"		"1"
-			}
-			"store_bundle"		"Hardened Hunter's Gear Bundle"
-		}
-		"morphling_radiant_crystal"
-		{
-			"name"		"#DOTA_Set_Morphling_Radiant_Crystal"
-			"items"
-			{
-				"Radiant Crystal Bracer"		"1"
-				"Radiant Crystal Crests"		"1"
-				"Radiant Crystal Crown"		"1"
-				"Radiant Crystal Pauldrons"		"1"
-			}
-			"store_bundle"		"Radiant Crystal Bindings Bundle"
-		}
-		"ursa_iron_bear"
-		{
-			"name"		"#DOTA_Set_Ursa_Iron_Bear"
-			"items"
-			{
-				"Iron Bear's Belt"		"1"
-				"Iron Bear's Plates"		"1"
-				"Iron Bear's Cutter"		"1"
-				"Iron Bear's Skullcap"		"1"
-			}
-			"store_bundle"		"The Iron Bear Bundle"
-		}
-		"ursa_ravager"
-		{
-			"name"		"#DOTA_Set_Ursa_Ravager"
-			"items"
-			{
-				"Spiked Bracers of the Ravager"		"1"
-				"Sash of the Ravager"		"1"
-				"Skull of the Ravager"		"1"
-				"Quills of the Ravager"		"1"
-			}
-			"store_bundle"		"The Ursine Ravager Bundle"
-		}
-		"ursa_savage_age"
-		{
-			"name"		"#DOTA_Set_Ursa_Savage_Age"
-			"items"
-			{
-				"Helm of a Savage Age"		"1"
-				"Armor of a Savage Age"		"1"
-				"Bracer of a Savage Age"		"1"
-				"Belt of a Savage Age"		"1"
-			}
-			"store_bundle"		"The Savage Age Bundle"
-		}
-		"bounty_hunter_master_assassin"
-		{
-			"name"		"#DOTA_Set_Bounty_Hunter_Master_Assassin"
-			"items"
-			{
-				"Master Assassin's Shuriken"		"1"
-				"Master Assassin's Shoulders"		"1"
-				"Master Assassin's Mask"		"1"
-				"Master Assassin's Mancatcher"		"1"
-				"Master Assassin's Grim Cutter"		"1"
-				"Master Assassin's Tails"		"1"
-			}
-			"store_bundle"		"The Master Assassin Bundle"
-		}
-		"omniknight_hierophant"
-		{
-			"name"		"#DOTA_Set_Omniknight_Hierophant"
-			"items"
-			{
-				"Chestplate of the Hierophant"		"1"
-				"Heavy Pauldrons of the Hierophant"		"1"
-				"Holy Words of the Hierophant"		"1"
-				"Bracers of the Hierophant"		"1"
-				"Hammer of Hope"		"1"
-			}
-			"store_bundle"		"The Hierophant's Protection Bundle"
+			"store_bundle"		"Ritual Garb of the Seeker Set"
 		}
 		"bloodseeker_bonehunter"
 		{
@@ -30230,7 +30321,464 @@
 				"Bonehunter Spineguard"		"1"
 				"Bonehunter Skullguard"		"1"
 			}
-			"store_bundle"		"The Bonehunter Bundle"
+			"store_bundle"		"The Bonehunter Set"
+		}
+		"bounty_hunter_creeper"
+		{
+			"name"		"#DOTA_Set_Creepers_Cruelty"
+			"items"
+			{
+				"Creeper's Cruel Painsaw"		"1"
+				"Creeper's Cruel Hook"		"1"
+				"Creeper's Cruel Shuriken"		"1"
+			}
+		}
+		"bounty_hunter_hardened"
+		{
+			"name"		"#DOTA_Set_Bounty_Hunter_Hardened"
+			"items"
+			{
+				"Hardened Hunter's Armor"		"1"
+				"Hardened Hunter's Mask"		"1"
+				"Shuriken of the Reaper"		"1"
+				"Bladed-Staff of the Reaper"		"1"
+				"Makeshift Sword of the Reaper"		"1"
+			}
+			"store_bundle"		"Hardened Hunter's Gear Set"
+		}
+		"bounty_hunter_master_assassin"
+		{
+			"name"		"#DOTA_Set_Bounty_Hunter_Master_Assassin"
+			"items"
+			{
+				"Master Assassin's Shuriken"		"1"
+				"Master Assassin's Shoulders"		"1"
+				"Master Assassin's Mask"		"1"
+				"Master Assassin's Mancatcher"		"1"
+				"Master Assassin's Grim Cutter"		"1"
+				"Master Assassin's Tails"		"1"
+			}
+			"store_bundle"		"The Master Assassin Set"
+		}
+		"bounty_hunter_pangolin"
+		{
+			"name"		"#DOTA_Set_Bounty_Hunter_Pangolin"
+			"items"
+			{
+				"Shuriken of the Hidden Hunter"		"1"
+				"Harvester of the Hidden Hunter"		"1"
+				"Cleaver of the Hidden Hunter"		"1"
+				"Pangolin Carapace"		"1"
+				"Pangolin Scarf"		"1"
+				"Pangolin Shoulder Armor"		"1"
+			}
+			"store_bundle"		"Trappings of the Pangolin Guild Set"
+		}
+		"dragon_knight_davion"
+		{
+			"name"		"#DOTA_Set_Dragon_Knight_Davion"
+			"items"
+			{
+				"Light Cape of Sir Davion"		"1"
+				"Bracer of Sir Davion"		"1"
+				"Pauldron of Sir Davion"		"1"
+				"Slayer-Sword of Sir Davion"		"1"
+				"Enameled Shield of Sir Davion"		"1"
+				"Dragonbone Helm of Sir Davion"		"1"
+			}
+			"store_bundle"		"Armor of Sir Davion Set"
+		}
+		"dragon_knight_uldorak"
+		{
+			"name"		"#DOTA_Set_Dragon_Knight_Uldorak"
+			"items"
+			{
+				"Wyrm Helm of Uldorak"		"1"
+				"Wyrm Bracer of Uldorak"		"1"
+				"Wyrm Skirt of Uldorak"		"1"
+				"Wyrm Pauldron of Uldorak"		"1"
+				"Wyrm Shield of Uldorak"		"1"
+				"Dragonmaw"		"1"
+			}
+			"store_bundle"		"Uldorak's Hide Set"
+		}
+		"drow_ranger_frost_spikes"
+		{
+			"name"		"#DOTA_Set_Drow_Ranger_Frost_Spikes"
+			"items"
+			{
+				"Ice Burst Bow"		"1"
+				"Ice Burst Bracers"		"1"
+				"Ice Burst Greaves"		"1"
+				"Ice Burst Cloak"		"1"
+				"Frost Spikes"		"1"
+			}
+			"store_bundle"		"Spikes of Frost Set"
+		}
+		"faceless_chronite"
+		{
+			"name"		"#DOTA_Set_Faceless_Chronite"
+			"items"
+			{
+				"Chronite Armor"		"1"
+				"Chronite Bracers"		"1"
+				"Chronite Scepter"		"1"
+			}
+			"store_bundle"		"Chronite Defense Set"
+		}
+		"furion_beast_bole"
+		{
+			"name"		"#DOTA_Set_Furion_Beast_Bole"
+			"items"
+			{
+				"Staff of the Eagle"		"1"
+				"Grand Crown of the Gigas"		"1"
+				"Druidic Ritual Crest"		"1"
+			}
+			"store_bundle"		"Master of Beast and Bole Set"
+		}
+		"furion_forest_lord"
+		{
+			"name"		"#DOTA_Set_Furion_Forest_Lord"
+			"items"
+			{
+				"Runestaff of Verodicia"		"1"
+				"Horns of Noblesse"		"1"
+				"Luxuriant Chin-Foliage"		"1"
+				"Cape of Verdant Dreaming"		"1"
+				"Runed Ailettes"		"1"
+				"Cuffs of Oak and Yew"		"1"
+			}
+			"store_bundle"		"The Regal Forest Lord Set"
+		}
+		"furion_heartwood"
+		{
+			"name"		"#DOTA_Set_Furion_Heartwood_Vanguard"
+			"items"
+			{
+				"Sinorian Sphere Staff"		"1"
+				"Diadem of the Goddess Enthroned"		"1"
+				"Beard of Cycles"		"1"
+				"Flared Wooden Crest"		"1"
+				"Guard of the Deep Tribes"		"1"
+			}
+			"store_bundle"		"Heartwood Vanguard Set"
+		}
+		"furion_peace_bringer"
+		{
+			"name"		"#DOTA_Set_Furion_Peace_Bringer"
+			"items"
+			{
+				"Flower Staff of the Peace-Bringer"		"1"
+				"Lei of the Peace-Bringer"		"1"
+				"Horns of the Peace-Bringer"		"1"
+				"Beard of the Peace-Bringer"		"1"
+				"Toga of the Peace-Bringer"		"1"
+			}
+			"store_bundle"		"Garments of the Peace-Bringer Set"
+		}
+		"furion_scion_savage"
+		{
+			"name"		"#DOTA_Set_Furion_Scion_Savage"
+			"items"
+			{
+				"Staff of the Tusk-Bereft"		"1"
+				"Horns of the Forest Lord"		"1"
+				"Doubly Braided Beard"		"1"
+				"Pauldron of Al-Fusha"		"1"
+				"Tusked Bracers"		"1"
+			}
+			"store_bundle"		"Scion of the Savage Set"
+		}
+		"invoker_exort"
+		{
+			"name"		"#DOTA_Set_Invoker_Exort"
+			"items"
+			{
+				"Cape of the Burning Cabal"		"1"
+				"Bracer of the Burning Cabal"		"1"
+				"Crest of the Burning Cabal"		"1"
+			}
+			"store_bundle"		"The Fires of Exort Set"
+		}
+		"invoker_magnus"
+		{
+			"name"		"#DOTA_Set_Invoker_Magus_Magnus"
+			"items"
+			{
+				"Crest of the Magus Magnus"		"1"
+				"Bracers of Profound Perfection"		"1"
+				"Cape of Arcane Artistry"		"1"
+				"Hood of Endless Intellect"		"1"
+			}
+			"store_bundle"		"The Magus Magnus Set"
+		}
+		"juggernaut_beasts_men"
+		{
+			"name"		"#DOTA_Set_Juggernaut_Beasts_Men"
+			"items"
+			{
+				"100-Proof Jug"		"1"
+				"Fine Bone Bracers"		"1"
+				"Prey-Tracker's Aspect Mask"		"1"
+				"Omnishred the Defiant"		"1"
+			}
+			"store_bundle"		"Aspects of Beast and Man Set"
+		}
+		"juggernaut_boar_god"
+		{
+			"name"		"#DOTA_Set_Juggernaut_Boar_God"
+			"items"
+			{
+				"Three-Fold Mien of the Boar God"		"1"
+				"Seven-Sealed the Fur Bracer"		"1"
+				"Twelve-Tusks the Cape of Boars"		"1"
+				"Four-Fangs the Swordbreaker"		"1"
+			}
+			"store_bundle"		"The Boar God's Honor Set"
+		}
+		"juggernaut_brave"
+		{
+			"name"		"#DOTA_Set_Juggernaut_Brave"
+			"items"
+			{
+				"Bone Bracer of the Brave"		"1"
+				"Death Mask of the Brave"		"1"
+				"Elder Tusk of the Brave"		"1"
+				"No-Guard the Courageous Edge"		"1"
+			}
+			"store_bundle"		"The Dauntless Set"
+		}
+		"juggernaut_high_plains"
+		{
+			"name"		"#DOTA_Set_Juggernaut_High_Plains"
+			"items"
+			{
+				"Stoic Mask of the High Plains"		"1"
+				"Wolf Cape of the High Plains"		"1"
+				"Aspect Wraps of the High Plains"		"1"
+				"Long-Fang the Grey Blade"		"1"
+			}
+			"store_bundle"		"Traveler on the High Plains Set"
+		}
+		"juggernaut_ivory_ebony"
+		{
+			"name"		"#DOTA_Set_Of_Ebony_and_Ivory"
+			"store_bundle"		"Of Ebony and Ivory Set"
+			"items"
+			{
+				"Visage of the Ivory Isles"		"1"
+				"Kimono of the Ebony Tower"		"1"
+				"Bracers of the Ebony Tower"		"1"
+				"Defender of the Ivory Isles"		"1"
+			}
+		}
+		"kunkka_admirable_admiral"
+		{
+			"name"		"#DOTA_Set_Kunkka_Admirable_Admiral"
+			"items"
+			{
+				"Gloves of the Admirable Admiral"		"1"
+				"Ceremonial Rapier"		"1"
+				"Grand Curls of the Admirable Admiral"		"1"
+				"Seafarer's Shoes"		"1"
+				"Sword of the Admirable Admiral"		"1"
+			}
+			"store_bundle"		"The Admirable Admiral Set"
+		}
+		"morphling_radiant_crystal"
+		{
+			"name"		"#DOTA_Set_Radiant_Crystal_Bindings"
+			"store_bundle"		"Radiant Crystal Bindings Set"
+			"items"
+			{
+				"Radiant Crystal Bracer"		"1"
+				"Radiant Crystal Crests"		"1"
+				"Radiant Crystal Crown"		"1"
+				"Radiant Crystal Pauldrons"		"1"
+			}
+		}
+		"omniknight_crusader"
+		{
+			"name"		"#DOTA_Set_Omniknight_Crusader"
+			"items"
+			{
+				"Helm of the Radiant Crusader"		"1"
+				"Armor of the Radiant Crusader"		"1"
+				"Bracers of the Radiant Crusader"		"1"
+				"Sigil of the Radiant Crusader"		"1"
+				"Hammer of the Radiant Crusader"		"1"
+			}
+			"store_bundle"		"The Radiance of the Crusade Set"
+		}
+		"omniknight_hierophant"
+		{
+			"name"		"#DOTA_Set_The_Hierophants_Protection"
+			"store_bundle"		"The Hierophant's Protection Set"
+			"items"
+			{
+				"Chestplate of the Hierophant"		"1"
+				"Heavy Pauldrons of the Hierophant"		"1"
+				"Holy Words of the Hierophant"		"1"
+				"Bracers of the Hierophant"		"1"
+				"Hammer of Hope"		"1"
+			}
+		}
+		"omniknight_purist_champion"
+		{
+			"name"		"#DOTA_Set_Omniknight_Purist_Champion"
+			"items"
+			{
+				"Circlet of the Purist Champion"		"1"
+				"Bracer of the Purist Champion"		"1"
+				"Armor of the Purist Champion"		"1"
+				"Hammer of the Purist Champion"		"1"
+			}
+			"store_bundle"		"Armor of the Purist Champion Set"
+		}
+		"sven_flameguard"
+		{
+			"name"		"#DOTA_Set_Sven_Flameguard"
+			"items"
+			{
+				"Helm of the Flameguard"		"1"
+				"Dressed Pauldron of the Flameguard"		"1"
+				"Skirt of the Flameguard"		"1"
+				"Sword of the Flameguard"		"1"
+				"Cape of the Flameguard"		"1"
+			}
+			"store_bundle"		"Flameguard Set"
+		}
+		"sven_freelancer"
+		{
+			"name"		"#DOTA_Set_Sven_Freelancer"
+			"items"
+			{
+				"Mask of the Freelancer"		"1"
+				"Shoulderguard of the Freelancer"		"1"
+				"Pantaloons of the Freelancer"		"1"
+				"Sword of the Freelancer"		"1"
+			}
+			"store_bundle"		"The Freelancer's Finery Set"
+		}
+		"sven_mono_militis"
+		{
+			"name"		"#DOTA_Set_Sven_Mono_Militis"
+			"items"
+			{
+				"Dressed Pauldron of the Mono Militis"		"1"
+				"Cyclopean Helm of the Mono Militis"		"1"
+				"Sword of the Mono Militis"		"1"
+			}
+			"store_bundle"		"Mono Militis Set"
+		}
+		"sven_swordmaster"
+		{
+			"name"		"#DOTA_Set_Sven_Swordmaster"
+			"items"
+			{
+				"Tayrnhelm of the Swordmaster"		"1"
+				"Girth of the Swordmaster"		"1"
+				"Fluted Guard of the Swordmaster"		"1"
+				"Grip of the Swordmaster"		"1"
+			}
+			"store_bundle"		"Swordmaster of the Vigil Set"
+		}
+		"tidehunter_pirate_slayer"
+		{
+			"name"		"#DOTA_Set_Tidehunter_Pirate_Slayer"
+			"items"
+			{
+				"Pirate Slayer's Bracer"		"1"
+				"Pirate Slayer's Tricorn"		"1"
+				"Pirate Slayer's Black Flag"		"1"
+				"Pirate Slayer's Cutlass"		"1"
+			}
+			"store_bundle"		"The Pirate's Booty Set"
+		}
+		"tidehunter_punisher"
+		{
+			"name"		"#DOTA_Set_Tidehunter_Punisher"
+			"items"
+			{
+				"Cerebral Support"		"1"
+				"Excavator's Treasure"		"1"
+				"Femur Thrasher"		"1"
+				"Skeletal Catch"		"1"
+			}
+			"store_bundle"		"The Paleogeneous Punisher Set"
+		}
+		"ursa_alpine_stalker"
+		{
+			"name"		"#DOTA_Set_Ursa_Alpine_Stalker"
+			"items"
+			{
+				"Lucky Alpine Stalker's Hat"		"1"
+				"Alpine Stalker's Scarf"		"1"
+				"Alpine Stalker's Pants"		"1"
+				"Alpine Stalker's Gloves"		"1"
+			}
+			"store_bundle"		"The Alpine Stalker's Set"
+		}
+		"ursa_iron_bear"
+		{
+			"name"		"#DOTA_Set_Ursa_Iron_Bear"
+			"items"
+			{
+				"Iron Bear's Belt"		"1"
+				"Iron Bear's Plates"		"1"
+				"Iron Bear's Cutter"		"1"
+				"Iron Bear's Skullcap"		"1"
+			}
+			"store_bundle"		"The Iron Bear's Set"
+		}
+		"ursa_ravager"
+		{
+			"name"		"#DOTA_Set_Ursa_Ravager"
+			"items"
+			{
+				"Spiked Bracers of the Ravager"		"1"
+				"Sash of the Ravager"		"1"
+				"Skull of the Ravager"		"1"
+				"Quills of the Ravager"		"1"
+			}
+			"store_bundle"		"The Ursine Ravager Set"
+		}
+		"ursa_savage_age"
+		{
+			"name"		"#DOTA_Set_Ursa_Savage_Age"
+			"items"
+			{
+				"Helm of a Savage Age"		"1"
+				"Armor of a Savage Age"		"1"
+				"Bracer of a Savage Age"		"1"
+				"Belt of a Savage Age"		"1"
+			}
+			"store_bundle"		"The Savage Age Set"
+		}
+		"witchdoctor_tale_teller"
+		{
+			"name"		"#DOTA_Set_Witchdoctor_Tale_Teller"
+			"items"
+			{
+				"Veil of Fables"		"1"
+				"Sacral Apparel"		"1"
+				"Drum of Tales"		"1"
+				"Mantle of Mysteries"		"1"
+			}
+			"store_bundle"		"Traveling Tale-Teller's Set"
+		}
+		"witchdoctor_wicked_badness"
+		{
+			"name"		"#DOTA_Set_Wicked_Bad_Voodoo"
+			"store_bundle"		"Wicked Bad Voodoo Set"
+			"items"
+			{
+				"Juju o' Wicked Badness"		"1"
+				"Belt o' Wicked Badness"		"1"
+				"Staff o' Wicked Badness"		"1"
+				"Mask o' Wicked Badness"		"1"
+			}
 		}
 	}
 	"client_loot_lists"
@@ -30272,6 +30820,10 @@
 		{
 			"75 Battle Bonus (3 Days)"		"1"
 		}
+		"crate_bonus_b"
+		{
+			"75 Battle Bonus (6 Days)"		"1"
+		}
 		"strange_modifiers_a"
 		{
 			"Strange Modifier: Godlikes"		"1"
@@ -30311,6 +30863,11 @@
 		{
 			"Strange Modifier: Sunstrike Kills"		"1"
 			"Strange Modifier: Tornado Kills"		"1"
+		}
+		"strange_modifiers_sven_a"
+		{
+			"Strange Modifier: Multi-Hero Storm Hammers"		"1"
+			"Strange Modifier: Multi-Hero Cleave Kills"		"1"
 		}
 		"juggernaut_kill_eater_a"
 		{
@@ -30392,6 +30949,33 @@
 			"Bracers of Profound Perfection"		"1"
 			"Cape of Arcane Artistry"		"1"
 			"Hood of Endless Intellect"		"1"
+		}
+		"sven_kill_eater_a"
+		{
+			"Tayrnhelm of the Swordmaster"		"1"
+			"Girth of the Swordmaster"		"1"
+			"Fluted Guard of the Swordmaster"		"1"
+			"Helm of the Flameguard"		"1"
+			"Dressed Pauldron of the Flameguard"		"1"
+			"Wuldastron the Twin-Blade of Giants"		"1"
+		}
+		"faceless_void_kill_eater_a"
+		{
+			"Timestopper"		"1"
+			"Voidkeeper's Visage"		"1"
+			"Bindings of the Rift"		"1"
+			"Shard of the Rift"		"1"
+			"Chronite Armor"		"1"
+			"Chronite Bracers"		"1"
+		}
+		"ursa_kill_eater_a"
+		{
+			"Iron Bear's Cutter"		"1"
+			"Iron Bear's Skullcap"		"1"
+			"Armor of a Savage Age"		"1"
+			"Quills of the Ravager"		"1"
+			"Skull of the Ravager"		"1"
+			"Helm of a Savage Age"		"1"
 		}
 		"summer_sale_2012"
 		{
@@ -30536,6 +31120,37 @@
 		{
 			"international_2012_items_b"		"1"
 		}
+		"treasure_chest_loot_list_14"
+		{
+			"sven_kill_eater_a"		"1"
+			"strange_modifiers_sven_a"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_b"
+			}
+		}
+		"treasure_chest_loot_list_15"
+		{
+			"faceless_void_kill_eater_a"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_b"
+			}
+		}
+		"treasure_chest_loot_list_16"
+		{
+			"ursa_kill_eater_a"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_b"
+			}
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -30552,6 +31167,9 @@
 		"treasure_chest_loot_list_11"		"11"
 		"international_2012_chest_a"		"12"
 		"international_2012_chest_b"		"13"
+		"treasure_chest_loot_list_14"		"14"
+		"treasure_chest_loot_list_15"		"15"
+		"treasure_chest_loot_list_16"		"16"
 	}
 	"item_levels"
 	{
