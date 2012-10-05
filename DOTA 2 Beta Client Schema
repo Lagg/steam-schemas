@@ -1377,6 +1377,13 @@
 			{
 				"npc_dota_hero_drow_ranger"		"1"
 			}
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
+				}
+			}
 		}
 		"78"
 		{
@@ -12274,6 +12281,10 @@
 					"asset"		"drow_bowstring"
 					"modifier"		"drow_bowstring_coldcase"
 				}
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
+				}
 			}
 			"particle_file"		"particles\econ\items\drow\drow_bow_coldcase.pcf"
 		}
@@ -12776,6 +12787,10 @@
 					"type"		"particle"
 					"asset"		"drow_bowstring"
 					"modifier"		"drow_bowstring_iceburst"
+				}
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
 				}
 			}
 			"particle_file"		"particles\econ\items\drow\drow_bow_iceburst.pcf"
@@ -13526,6 +13541,10 @@
 					"type"		"particle"
 					"asset"		"drow_bowstring"
 					"modifier"		"drow_bowstring_pincher"
+				}
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
 				}
 			}
 			"particle_file"		"particles\econ\items\drow\drow_bow_pincher.pcf"
@@ -17278,6 +17297,13 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
+				}
+			}
 		}
 		"4273"
 		{
@@ -17486,6 +17512,22 @@
 				"PortraitHideHero"		"1"
 			}
 			"item_set"		"bounty_hunter_qaldin"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"bounty_hunter_hand_L"
+					"modifier"		"bounty_hunter_hand_L_generic"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle_snapshot"
+					"asset"		"particles\particle_snapshots\bounty_hunter\bounty_hunter_weapon_l.psf"
+					"modifier"		"particles\econ\items\bounty_hunter\qaldin_l.psf"
+				}
+			}
+			"particle_file"		"particles\econ\items\bounty_hunter\bounty_hunter_weapon_left_generic.pcf"
 		}
 		"4277"
 		{
@@ -17533,6 +17575,22 @@
 				"PortraitHideHero"		"1"
 			}
 			"item_set"		"bounty_hunter_qaldin"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"bounty_hunter_hand_R"
+					"modifier"		"bounty_hunter_hand_R_generic"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle_snapshot"
+					"asset"		"particles\particle_snapshots\bounty_hunter\bounty_hunter_weapon_r.psf"
+					"modifier"		"particles\econ\items\bounty_hunter\qaldin_r.psf"
+				}
+			}
+			"particle_file"		"particles\econ\items\bounty_hunter\bounty_hunter_weapon_right_generic.pcf"
 		}
 		"4278"
 		{
@@ -21356,6 +21414,10 @@
 				{
 					"system"		"drow_weapon_frost_howling_wind"
 				}
+				"attached_particlesystem2"
+				{
+					"system"		"drow_bowstring"
+				}
 			}
 			"model_player"		"models/items/drow/weapon_howling_wind.mdl"
 			"particle_file"		"particles\econ\items\drow\drow_bow_howling_wind.pcf"
@@ -21802,6 +21864,22 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"bounty_hunter_hand_L"
+					"modifier"		"bounty_hunter_hand_L_generic"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle_snapshot"
+					"asset"		"particles\particle_snapshots\bounty_hunter\bounty_hunter_weapon_l.psf"
+					"modifier"		"particles\econ\items\bounty_hunter\sacrificial_short_blade.psf"
+				}
+			}
+			"particle_file"		"particles\econ\items\bounty_hunter\bounty_hunter_weapon_left_generic.pcf"
 		}
 		"4376"
 		{
@@ -22680,6 +22758,13 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
+				}
+			}
 		}
 		"4422"
 		{
@@ -23322,6 +23407,22 @@
 				"PortraitHideHero"		"1"
 			}
 			"item_set"		"bounty_hunter_crimson"
+			"visuals"
+			{
+				"asset_modifier1"
+				{
+					"type"		"particle"
+					"asset"		"bounty_hunter_hand_R"
+					"modifier"		"bounty_hunter_hand_R_generic"
+				}
+				"asset_modifier2"
+				{
+					"type"		"particle_snapshot"
+					"asset"		"particles\particle_snapshots\bounty_hunter\bounty_hunter_weapon_r.psf"
+					"modifier"		"particles\econ\items\bounty_hunter\crimson_cut_throat_r.psf"
+				}
+			}
+			"particle_file"		"particles\econ\items\bounty_hunter\bounty_hunter_weapon_right_generic.pcf"
 		}
 		"4458"
 		{
@@ -23690,6 +23791,22 @@
 				"PortraitHideHero"		"1"
 			}
 			"item_set"		"bounty_hunter_crimson"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle_snapshot"
+					"asset"		"particles\particle_snapshots\bounty_hunter\bounty_hunter_weapon_l.psf"
+					"modifier"		"particles\econ\items\bounty_hunter\crimson_cut_throat_l.psf"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle"
+					"asset"		"bounty_hunter_hand_L"
+					"modifier"		"bounty_hunter_hand_L_generic"
+				}
+			}
+			"particle_file"		"particles\econ\items\bounty_hunter\bounty_hunter_weapon_left_generic.pcf"
 		}
 		"4471"
 		{
@@ -25815,6 +25932,13 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
+				}
+			}
 		}
 		"4596"
 		{
@@ -26040,6 +26164,13 @@
 				"PortraitAnimationCycle"		"0.852000"
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
+			}
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
+				}
 			}
 		}
 		"4605"
@@ -26450,6 +26581,20 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"drow_bowstring"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"drow_bowstring"
+					"modifier"		"drow_bowstring_royal_guard"
+				}
+			}
+			"particle_file"		"particles\econ\items\drow\drow_bow_royal_guard.pcf"
 		}
 		"4626"
 		{
@@ -38069,6 +38214,33 @@
 					"control_point_index"		"0"
 					"attach_type"		"point_follow"
 					"attachment"		"attach_flipper_fr"
+				}
+			}
+		}
+		"42"
+		{
+			"system"		"drow_bowstring"
+			"attach_type"		"customorigin"
+			"attach_entity"		"self"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"bow_bot"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"bow_mid"
+				}
+				"2"
+				{
+					"control_point_index"		"2"
+					"attach_type"		"point_follow"
+					"attachment"		"bow_top"
 				}
 			}
 		}
