@@ -5878,6 +5878,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_destroy_sappers"		"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Robot_Arm"
@@ -27861,13 +27862,13 @@
 		}
 		"726"
 		{
-			"name"	"Tour of Duty Badge"
+			"name"	"Tour of Duty Badge Advanced 1"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
-			"item_name"	"#TF_MvM_ChallengeBadge"
-			"item_description"	"#TF_MvM_ChallengeBadge_Desc"
+			"item_name"	"#TF_MvM_Badge_Advanced1"
+			"item_description"	"#TF_MvM_Badge_Advanced1_Desc"
 			"item_slot"	"misc"
 			"equip_region"	"medal"
 			"image_inventory"	"backpack/player/items/mvm_loot/all_class/mvm_badge"
@@ -29207,7 +29208,7 @@
 			{
 				"paintable"	"1"
 				"can_craft_count" "1"
-			}			
+			}
 			"item_slot"	"misc"
 			"equip_region"	"feet"
 			"item_type_name"	"#TF_Wearable_Shoes"
@@ -29387,7 +29388,7 @@
 			{
 				"paintable"	"1"
 				"can_craft_count" "1"
-			}			
+			}
 			"item_slot"	"misc"
 			"equip_region"	"medic_hip"
 			"item_type_name"	"#TF_Wearable_Satchel"
@@ -30312,7 +30313,7 @@
 		}
 		"792"
 		{
-			"name"			"Botkiller Sniper Rifle"
+			"name"			"Silver Botkiller Sniper Rifle"
 			"prefab"		"weapon_sniperrifle"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30321,7 +30322,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_SniperRifle_MVMLoot"
+			"item_name"			"#TF_Weapon_SniperRifle_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/sniper/fob_h_sniperrifle"
 			"extra_wearable" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_v.mdl"
@@ -30337,7 +30338,7 @@
 
 		"793"
 		{
-			"name"			"Botkiller Minigun"
+			"name"			"Silver Botkiller Minigun"
 			"prefab"		"weapon_minigun"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30346,7 +30347,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Minigun_MVMLoot"
+			"item_name"			"#TF_Weapon_Minigun_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/heavy/fob_h_minigun"
 			"extra_wearable" "models/player/items/mvm_loot/heavy/fob_h_minigun.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/heavy/fob_h_minigun_v.mdl"
@@ -30361,7 +30362,7 @@
 		}
 		"794"
 		{
-			"name"			"Botkiller Knife"
+			"name"			"Silver Botkiller Knife"
 			"prefab"		"weapon_knife"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30370,14 +30371,14 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Knife_MVMLoot"
+			"item_name"			"#TF_Weapon_Knife_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/spy/fob_h_knife"
 			"extra_wearable" "models/player/items/mvm_loot/spy/fob_h_knife.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/spy/fob_h_knife_v.mdl"
 		}
 		"795"
 		{
-			"name"			"Botkiller Wrench"
+			"name"			"Silver Botkiller Wrench"
 			"prefab"		"weapon_wrench"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30386,14 +30387,14 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Wrench_MVMLoot"
+			"item_name"			"#TF_Weapon_Wrench_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/engineer/fob_h_wrench"
 			"extra_wearable" "models/player/items/mvm_loot/engineer/fob_h_wrench.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/engineer/fob_h_wrench_v.mdl"
 		}
 		"796"
 		{
-			"name"			"Botkiller Medi Gun"
+			"name"			"Silver Botkiller Medi Gun"
 			"prefab"		"weapon_medigun"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30402,7 +30403,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Medigun_MVMLoot"
+			"item_name"			"#TF_Weapon_Medigun_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/medic/fob_h_medigun"
 			"extra_wearable" "models/player/items/mvm_loot/medic/fob_h_medigun.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/medic/fob_h_medigun_v.mdl"
@@ -30417,7 +30418,7 @@
 		}
 		"797"
 		{
-			"name"			"Botkiller Stickybomb Launcher"
+			"name"			"Silver Botkiller Stickybomb Launcher"
 			"prefab"		"weapon_stickybomb_launcher"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30426,7 +30427,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_StickybombLauncher_MVMLoot"
+			"item_name"			"#TF_Weapon_StickybombLauncher_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/demo/fob_h_stickybomb"
 			"extra_wearable" "models/player/items/mvm_loot/demo/fob_h_stickybomb.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/demo/fob_h_stickybomb_v.mdl"
@@ -30441,7 +30442,7 @@
 		}
 		"798"
 		{
-			"name"			"Botkiller Flame Thrower"
+			"name"			"Silver Botkiller Flame Thrower"
 			"prefab"		"weapon_flamethrower"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30450,7 +30451,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Flamethrower_MVMLoot"
+			"item_name"			"#TF_Weapon_Flamethrower_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/pyro/fob_h_flamethrower"
 			"extra_wearable" "models/player/items/mvm_loot/pyro/fob_h_flamethrower.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_v.mdl"
@@ -30465,7 +30466,7 @@
 		}
 		"799"
 		{
-			"name"			"Botkiller Scattergun"
+			"name"			"Silver Botkiller Scattergun"
 			"prefab"		"weapon_scattergun"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30474,7 +30475,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Scattergun_MVMLoot"
+			"item_name"			"#TF_Weapon_Scattergun_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/scout/fob_h_scattergun"
 			"extra_wearable" "models/player/items/mvm_loot/scout/fob_h_scattergun.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/scout/fob_h_scattergun_v.mdl"
@@ -30489,7 +30490,7 @@
 		}
 		"800"
 		{
-			"name"			"Botkiller Rocket Launcher"
+			"name"			"Silver Botkiller Rocket Launcher"
 			"prefab"		"weapon_rocketlauncher"
 			"craft_class"	""
 			"baseitem"		"0"
@@ -30498,7 +30499,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_RocketLauncher_MVMLoot"
+			"item_name"			"#TF_Weapon_RocketLauncher_AdvancedMVMLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher"
 			"extra_wearable" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_v.mdl"
@@ -30511,8 +30512,6 @@
 				}
 			}
 		}
-
-
 		"801"
 		{
 			"name"			"Gold Botkiller Sniper Rifle"
@@ -30524,7 +30523,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_SniperRifle_MVMLootGold"
+			"item_name"			"#TF_Weapon_SniperRifle_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/sniper/fob_h_sniperrifle_gold"
 			"extra_wearable" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_v.mdl"
@@ -30556,7 +30555,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Minigun_MVMLootGold"
+			"item_name"			"#TF_Weapon_Minigun_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/heavy/fob_h_minigun_gold"
 			"extra_wearable" "models/player/items/mvm_loot/heavy/fob_h_minigun.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/heavy/fob_h_minigun_v.mdl"
@@ -30588,7 +30587,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Knife_MVMLootGold"
+			"item_name"			"#TF_Weapon_Knife_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/spy/fob_h_knife_gold"
 			"extra_wearable" "models/player/items/mvm_loot/spy/fob_h_knife.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/spy/fob_h_knife_v.mdl"
@@ -30612,7 +30611,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Wrench_MVMLootGold"
+			"item_name"			"#TF_Weapon_Wrench_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/engineer/fob_h_wrench_gold"
 			"extra_wearable" "models/player/items/mvm_loot/engineer/fob_h_wrench.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/engineer/fob_h_wrench_v.mdl"
@@ -30636,7 +30635,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Medigun_MVMLootGold"
+			"item_name"			"#TF_Weapon_Medigun_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/medic/fob_h_medigun_gold"
 			"extra_wearable" "models/player/items/mvm_loot/medic/fob_h_medigun.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/medic/fob_h_medigun_v.mdl"
@@ -30668,7 +30667,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_StickybombLauncher_MVMLootGold"
+			"item_name"			"#TF_Weapon_StickybombLauncher_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/demo/fob_h_stickybomb_gold"
 			"extra_wearable" "models/player/items/mvm_loot/demo/fob_h_stickybomb.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/demo/fob_h_stickybomb_v.mdl"
@@ -30700,7 +30699,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Flamethrower_MVMLootGold"
+			"item_name"			"#TF_Weapon_Flamethrower_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/pyro/fob_h_flamethrower_gold"
 			"extra_wearable" "models/player/items/mvm_loot/pyro/fob_h_flamethrower.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_v.mdl"
@@ -30732,7 +30731,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_Scattergun_MVMLootGold"
+			"item_name"			"#TF_Weapon_Scattergun_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/scout/fob_h_scattergun_gold"
 			"extra_wearable" "models/player/items/mvm_loot/scout/fob_h_scattergun.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/scout/fob_h_scattergun_v.mdl"
@@ -30764,7 +30763,7 @@
 			{
 				"can_gift_wrap" "1"
 			}
-			"item_name"			"#TF_Weapon_RocketLauncher_MVMLootGold"
+			"item_name"			"#TF_Weapon_RocketLauncher_AdvancedMVMRareLoot"
 			"image_inventory"	"backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher_gold"
 			"extra_wearable" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher.mdl"
 			"extra_wearable_vm" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_v.mdl"
@@ -31902,16 +31901,96 @@
 				}
 			}
 		}
+		"870"
+		{
+			"name"	"Tour of Duty Badge Intermediate 1"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_MvM_Badge_Intermediate1"
+			"item_description"	"#TF_MvM_Badge_Intermediate1_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"image_inventory"	"backpack/player/items/mvm_loot/all_class/mvm_badge_rust"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"model_player"	"models/player/items/mvm_loot/all_class/mvm_badge_rust.mdl"
+			"min_ilevel"	"1"
+			"max_ilevel"	"100"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
+		"871"
+		{
+			"name"	"Tour of Duty Badge Expert 1"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_MvM_Badge_Expert1"
+			"item_description"	"#TF_MvM_Badge_Expert1_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"medal"
+			"image_inventory"	"backpack/player/items/mvm_loot/all_class/mvm_badge_diamond"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"model_player"	"models/player/items/mvm_loot/all_class/mvm_badge_diamond.mdl"
+			"min_ilevel"	"1"
+			"max_ilevel"	"100"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_medal_pickup.wav"
+			"drop_sound"		"ui/item_medal_pickup.wav"
+		}
 		"872"
 		{
 			"name"	"The Lacking Moral Fiber Mask"
-			"prefab"	"promo cosmetic"
+			"prefab"	"promo hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
 			}
-			"item_slot"	"misc"
-			"equip_region"	"face"
 			"item_type_name"	"TF_Wearable_Mask"
 			"item_name"	"#TF_Dishonored_Mask"
 			"item_description"	"#TF_Dishonored_Mask_Desc"
@@ -31957,7 +32036,7 @@
 		"874"
 		{
 			"name"	"The King of Scotland Cape"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -31978,7 +32057,7 @@
 		"875"
 		{
 			"name"	"The Menpo"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -32054,7 +32133,7 @@
 		"876"
 		{
 			"name"	"The K-9 Mane"
-			"prefab"	"promo hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -32077,7 +32156,7 @@
 		"877"
 		{
 			"name"	"The Stovepipe Sniper Shako"
-			"prefab"	"promo hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -32096,7 +32175,7 @@
 		"878"
 		{
 			"name"	"The Foppish Physician"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -32137,7 +32216,7 @@
 		"879"
 		{
 			"name"	"The Distinguished Rogue"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -32179,12 +32258,12 @@
 		{
 			"name"	"The Freedom Staff"
 			"item_class"	"saxxy"
-			"craft_class"			""	
+			"craft_class"		"weapon"
 			"craft_material_type"	"weapon"
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_gift_wrap" 	"0"	 
+				"can_gift_wrap" 	"1"
 				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
@@ -32214,16 +32293,1024 @@
 				"heavy"	"1"
 				"pyro" "1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
 			"drop_sound"		"ui/item_wood_pole_drop.wav"
+		}
+		"881"
+		{
+			"name"			"Rust Botkiller Sniper Rifle"
+			"prefab"		"weapon_sniperrifle"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_SniperRifle_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/sniper/fob_h_sniperrifle_rust"
+			"extra_wearable" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"882"
+		{
+			"name"			"Rust Botkiller Minigun"
+			"prefab"		"weapon_minigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Minigun_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/heavy/fob_h_minigun_rust"
+			"extra_wearable" "models/player/items/mvm_loot/heavy/fob_h_minigun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/heavy/fob_h_minigun_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"883"
+		{
+			"name"			"Rust Botkiller Knife"
+			"prefab"		"weapon_knife"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Knife_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/spy/fob_h_knife_rust"
+			"extra_wearable" "models/player/items/mvm_loot/spy/fob_h_knife.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/spy/fob_h_knife_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+		}
+		"884"
+		{
+			"name"			"Rust Botkiller Wrench"
+			"prefab"		"weapon_wrench"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Wrench_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/engineer/fob_h_wrench_rust"
+			"extra_wearable" "models/player/items/mvm_loot/engineer/fob_h_wrench.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/engineer/fob_h_wrench_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+		}
+		"885"
+		{
+			"name"			"Rust Botkiller Medi Gun"
+			"prefab"		"weapon_medigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Medigun_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/medic/fob_h_medigun_rust"
+			"extra_wearable" "models/player/items/mvm_loot/medic/fob_h_medigun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/medic/fob_h_medigun_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"886"
+		{
+			"name"			"Rust Botkiller Stickybomb Launcher"
+			"prefab"		"weapon_stickybomb_launcher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_StickybombLauncher_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/demo/fob_h_stickybomb_rust"
+			"extra_wearable" "models/player/items/mvm_loot/demo/fob_h_stickybomb.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/demo/fob_h_stickybomb_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"887"
+		{
+			"name"			"Rust Botkiller Flame Thrower"
+			"prefab"		"weapon_flamethrower"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Flamethrower_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/pyro/fob_h_flamethrower_rust"
+			"extra_wearable" "models/player/items/mvm_loot/pyro/fob_h_flamethrower.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"888"
+		{
+			"name"			"Rust Botkiller Scattergun"
+			"prefab"		"weapon_scattergun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Scattergun_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/scout/fob_h_scattergun_rust"
+			"extra_wearable" "models/player/items/mvm_loot/scout/fob_h_scattergun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/scout/fob_h_scattergun_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"889"
+		{
+			"name"			"Rust Botkiller Rocket Launcher"
+			"prefab"		"weapon_rocketlauncher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_RocketLauncher_IntermediateMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher_rust"
+			"extra_wearable" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"4"
+			}
+			"visuals_blu"
+			{
+				"skin"	"5"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"890"
+		{
+			"name"			"Blood Botkiller Sniper Rifle"
+			"prefab"		"weapon_sniperrifle"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_SniperRifle_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/sniper/fob_h_sniperrifle_blood"
+			"extra_wearable" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"891"
+		{
+			"name"			"Blood Botkiller Minigun"
+			"prefab"		"weapon_minigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Minigun_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/heavy/fob_h_minigun_blood"
+			"extra_wearable" "models/player/items/mvm_loot/heavy/fob_h_minigun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/heavy/fob_h_minigun_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"892"
+		{
+			"name"			"Blood Botkiller Knife"
+			"prefab"		"weapon_knife"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Knife_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/spy/fob_h_knife_blood"
+			"extra_wearable" "models/player/items/mvm_loot/spy/fob_h_knife.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/spy/fob_h_knife_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+		}
+		"893"
+		{
+			"name"			"Blood Botkiller Wrench"
+			"prefab"		"weapon_wrench"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Wrench_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/engineer/fob_h_wrench_blood"
+			"extra_wearable" "models/player/items/mvm_loot/engineer/fob_h_wrench.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/engineer/fob_h_wrench_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+		}
+		"894"
+		{
+			"name"			"Blood Botkiller Medi Gun"
+			"prefab"		"weapon_medigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Medigun_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/medic/fob_h_medigun_blood"
+			"extra_wearable" "models/player/items/mvm_loot/medic/fob_h_medigun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/medic/fob_h_medigun_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"895"
+		{
+			"name"			"Blood Botkiller Stickybomb Launcher"
+			"prefab"		"weapon_stickybomb_launcher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_StickybombLauncher_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/demo/fob_h_stickybomb_blood"
+			"extra_wearable" "models/player/items/mvm_loot/demo/fob_h_stickybomb.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/demo/fob_h_stickybomb_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"896"
+		{
+			"name"			"Blood Botkiller Flame Thrower"
+			"prefab"		"weapon_flamethrower"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Flamethrower_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/pyro/fob_h_flamethrower_blood"
+			"extra_wearable" "models/player/items/mvm_loot/pyro/fob_h_flamethrower.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"897"
+		{
+			"name"			"Blood Botkiller Scattergun"
+			"prefab"		"weapon_scattergun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Scattergun_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/scout/fob_h_scattergun_blood"
+			"extra_wearable" "models/player/items/mvm_loot/scout/fob_h_scattergun.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/scout/fob_h_scattergun_v.mdl"
+		    "visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"898"
+		{
+			"name"			"Blood Botkiller Rocket Launcher"
+			"prefab"		"weapon_rocketlauncher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_RocketLauncher_IntermediateMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher_blood"
+			"extra_wearable" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_v.mdl"
+			"visuals_red"
+			{			
+				"skin"	"6"
+			}
+			"visuals_blu"
+			{
+				"skin"	"7"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"899"
+		{
+			"name"			"Carbonado Botkiller Sniper Rifle"
+			"prefab"		"weapon_sniperrifle"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_SniperRifle_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/sniper/fob_h_sniperrifle_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"900"
+		{
+			"name"			"Carbonado Botkiller Minigun"
+			"prefab"		"weapon_minigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Minigun_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/heavy/fob_h_minigun_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/heavy/fob_h_minigun_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/heavy/fob_h_minigun_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"901"
+		{
+			"name"			"Carbonado Botkiller Knife"
+			"prefab"		"weapon_knife"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Knife_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/spy/fob_h_knife_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/spy/fob_h_knife_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/spy/fob_h_knife_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"902"
+		{
+			"name"			"Carbonado Botkiller Wrench"
+			"prefab"		"weapon_wrench"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Wrench_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/engineer/fob_h_wrench_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/engineer/fob_h_wrench_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/engineer/fob_h_wrench_diamond_v.mdl" 
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"903"
+		{
+			"name"			"Carbonado Botkiller Medi Gun"
+			"prefab"		"weapon_medigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Medigun_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/medic/fob_h_medigun_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/medic/fob_h_medigun_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/medic/fob_h_medigun_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}			
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"904"
+		{
+			"name"			"Carbonado Botkiller Stickybomb Launcher"
+			"prefab"		"weapon_stickybomb_launcher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_StickybombLauncher_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/demo/fob_h_stickybomb_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/demo/fob_h_stickybomb_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/demo/fob_h_stickybomb_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}		
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"905"
+		{
+			"name"			"Carbonado Botkiller Flame Thrower"
+			"prefab"		"weapon_flamethrower"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Flamethrower_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/pyro/fob_h_flamethrower_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}	
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"906"
+		{
+			"name"			"Carbonado Botkiller Scattergun"
+			"prefab"		"weapon_scattergun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Scattergun_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/scout/fob_h_scattergun_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/scout/fob_h_scattergun_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/scout/fob_h_scattergun_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}	
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"907"
+		{
+			"name"			"Carbonado Botkiller Rocket Launcher"
+			"prefab"		"weapon_rocketlauncher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_RocketLauncher_ExpertMVMLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher_diamond_black"
+			"extra_wearable" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"908"
+		{
+			"name"			"Diamond Botkiller Sniper Rifle"
+			"prefab"		"weapon_sniperrifle"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_SniperRifle_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/sniper/fob_h_sniperrifle_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/sniper/fob_h_sniperrifle_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"909"
+		{
+			"name"			"Diamond Botkiller Minigun"
+			"prefab"		"weapon_minigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Minigun_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/heavy/fob_h_minigun_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/heavy/fob_h_minigun_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/heavy/fob_h_minigun_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"910"
+		{
+			"name"			"Diamond Botkiller Knife"
+			"prefab"		"weapon_knife"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Knife_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/spy/fob_h_knife_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/spy/fob_h_knife_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/spy/fob_h_knife_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"911"
+		{
+			"name"			"Diamond Botkiller Wrench"
+			"prefab"		"weapon_wrench"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Wrench_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/engineer/fob_h_wrench_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/engineer/fob_h_wrench_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/engineer/fob_h_wrench_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"912"
+		{
+			"name"			"Diamond Botkiller Medi Gun"
+			"prefab"		"weapon_medigun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Medigun_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/medic/fob_h_medigun_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/medic/fob_h_medigun_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/medic/fob_h_medigun_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"913"
+		{
+			"name"			"Diamond Botkiller Stickybomb Launcher"
+			"prefab"		"weapon_stickybomb_launcher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_StickybombLauncher_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/demo/fob_h_stickybomb_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/demo/fob_h_stickybomb_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/demo/fob_h_stickybomb_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"914"
+		{
+			"name"			"Diamond Botkiller Flame Thrower"
+			"prefab"		"weapon_flamethrower"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Flamethrower_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/pyro/fob_h_flamethrower_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/pyro/fob_h_flamethrower_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"915"
+		{
+			"name"			"Diamond Botkiller Scattergun"
+			"prefab"		"weapon_scattergun"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_Scattergun_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/scout/fob_h_scattergun_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/scout/fob_h_scattergun_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/scout/fob_h_scattergun_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"916"
+		{
+			"name"			"Diamond Botkiller Rocket Launcher"
+			"prefab"		"weapon_rocketlauncher"
+			"craft_class"	""
+			"baseitem"		"0"
+			"item_quality"	"unique"
+			"capabilities"
+			{
+				"can_gift_wrap" "1"
+			}
+			"item_name"			"#TF_Weapon_RocketLauncher_ExpertMVMRareLoot"
+			"image_inventory"	"backpack/player/items/mvm_loot/soldier/fob_h_rocketlauncher_diamond"
+			"extra_wearable" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_diamond.mdl"
+			"extra_wearable_vm" "models/player/items/mvm_loot/soldier/fob_h_rocketlauncher_diamond_v.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+			"attributes"
+			{
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
 		}
 
 
@@ -37551,6 +38638,262 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
+		"2083"
+		{
+			"name" "Mysterious Promo 2" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Mysterious_Promo2"
+			"item_description"	"#TF_Mysterious_Promo2_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2084"
+		{
+			"name" "Mysterious Promo 3" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Mysterious_Promo3"
+			"item_description"	"#TF_Mysterious_Promo3_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2085"
+		{
+			"name" "Mysterious Promo 4" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Mysterious_Promo4"
+			"item_description"	"#TF_Mysterious_Promo4_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2086"
+		{
+			"name" "Mysterious Promo 5" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Mysterious_Promo5"
+			"item_description"	"#TF_Mysterious_Promo5_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2087"
+		{
+			"name" "Mysterious Promo 6" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Mysterious_Promo6"
+			"item_description"	"#TF_Mysterious_Promo6_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2088"
+		{
+			"name" "Mysterious Promo 7" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Mysterious_Promo7"
+			"item_description"	"#TF_Mysterious_Promo7_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2089"
+		{
+			"name" "Mysterious Promo 8" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Mysterious_Promo8"
+			"item_description"	"#TF_Mysterious_Promo8_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2090"
+		{
+			"name" "Mysterious Promo 9" 
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The Flare Gun"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Mysterious_Promo9"
+			"item_description"	"#TF_Mysterious_Promo9_Desc"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
 
 
 
@@ -38385,7 +39728,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "44"
+					"value" "49"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -39772,6 +41115,32 @@
 			"item_name"	"#TF_StrangePart_ScoutsKilled"
 			"item_description"	"#TF_StrangePart_ScoutsKilled_Desc"
 		}
+		"6004"
+		{
+			"name"	"Strange Part: Engineers Killed"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"17"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_engineers_killed"
+			"item_name"	"#TF_StrangePart_EngineersKilled"
+			"item_description"	"#TF_StrangePart_EngineersKilled_Desc"
+		}
 		
 		
 		"6009"
@@ -40138,6 +41507,58 @@
 			"image_inventory"	"backpack/crafting/strange_part_sappers_killed"
 			"item_name"	"#TF_StrangePart_SappersDestroyed"
 			"item_description"	"#TF_StrangePart_SappersDestroyed_Desc"
+		}
+		"6026"
+		{
+			"name"	"Strange Part: Robots Destroyed"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"39"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_mvm_robot_kills"
+			"item_name"	"#TF_StrangePart_RobotsDestroyed"
+			"item_description"	"#TF_StrangePart_RobotsDestroyed_Desc"
+		}
+		"6032"
+		{
+			"name"	"Strange Part: Kills While Low-Health"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"44"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_10_percent_kills"
+			"item_name"	"#TF_StrangePart_KillWhileLowHealth"
+			"item_description"	"#TF_StrangePart_KillWhileLowHealth_Desc"
 		}
 
 
@@ -46818,6 +48239,12 @@
 			"Upgradeable TF_WEAPON_FLAMETHROWER"		"1"
 			"Tomislav"		"1"
 		}
+		"kill_eater_set_mixed_o"
+		{
+			"The Homewrecker"		"1"
+			"Upgradeable TF_WEAPON_SHOVEL"		"1"
+			"Upgradeable TF_WEAPON_SCATTERGUN"		"1"
+		}
 		"supply_crate_loot_list_1"
 		{
 			"The Vita-Saw"		"1"
@@ -47168,13 +48595,21 @@
 		}
 		"supply_crate_loot_list_47"
 		{
-			"loot_list_header_desc"		"#Econ_Revolving_Loot_List_Strange_Weapons"
 			"kill_eater_set_mixed_n"		"1"
 			"Strange Part: Scouts Killed"		"1"
 			"Strange Part: Sappers Destroyed"		"1"
 			"Strange Part: Cloaked Spies Killed"		"1"
 			"The Backwards Ballcap"		"1"
 			"Professional's Panama"		"1"
+		}
+		"supply_crate_loot_list_49"
+		{
+			"kill_eater_set_mixed_o"		"1"
+			"Strange Part: Engineers Killed"		"1"
+			"Strange Part: Robots Destroyed"		"1"
+			"Strange Part: Kills While Low-Health"		"1"
+			"The Surgeon's Stahlhelm"		"1"
+			"Furious Fukaamigasa"		"1"
 		}
 	}
 	"revolving_loot_lists"
@@ -47227,6 +48662,7 @@
 		"supply_crate_loot_list_pyro_2012"	"46" 
 		"supply_crate_loot_list_47"	"47" 
 		"supply_crate_loot_list_fall_2012"	"48" 
+		"supply_crate_loot_list_49"	"49" 
 		
 		
 		"kill_eater_set_demo_a"						"-1"
@@ -55480,6 +56916,93 @@
 				"score"		"3000"
 			}
 		}
+		"KillEater_RobotsKilledRank"
+		{
+			"0"
+			{
+				"score"		"100"
+			}
+			"1"
+			{
+				"score"		"250"
+			}
+			"2"
+			{
+				"score"		"450"
+			}
+			"3"
+			{
+				"score"		"700"
+			}
+			"4"
+			{
+				"score"		"1000"
+			}
+			"5"
+			{
+				"score"		"1350"
+			}
+			"6"
+			{
+				"score"		"1750"
+			}
+			"7"
+			{
+				"score"		"2250"
+			}
+			"8"
+			{
+				"score"		"2750"
+			}
+			"9"
+			{
+				"score"		"3500"
+			}
+			"10"
+			{
+				"score"		"5000"
+			}
+			"11"
+			{
+				"score"		"7500"
+			}
+			"12"
+			{
+				"score"		"9990"
+			}
+			"13"
+			{
+				"score"		"10000"
+			}
+			"14"
+			{
+				"score"		"15000"
+			}
+			"15"
+			{
+				"score"		"25000"
+			}
+			"16"
+			{
+				"score"		"50000"
+			}
+			"17"
+			{
+				"score"		"75000"
+			}
+			"18"
+			{
+				"score"		"76160"
+			}
+			"19"
+			{
+				"score"		"85000"
+			}
+			"20"
+			{
+				"score"		"100000"
+			}
+		}
 
 
 	}
@@ -55543,6 +57066,11 @@
 		"14"
 		{
 			"type_name"	"KillEaterEventType_HeaviesKilled"
+		}
+
+		"17"
+		{
+			"type_name"	"KillEaterEventType_EngineersKilled"
 		}
 		
 		"19"
@@ -55618,7 +57146,15 @@
 		{
 			"type_name"	"KillEaterEventType_InvisibleSpiesKilled"
 		}
-
+		"39"
+		{
+			"type_name"	"KillEaterEventType_RobotsKilled"
+			"level_data"	"KillEater_RobotsKilledRank"
+		}
+		"44"
+		{
+			"type_name"	"KillEaterEventType_LowHealthKill"
+		}
 
 
 	}
@@ -55628,31 +57164,45 @@
 		{
 			"display_name"	"#TF_MVM_Map_Decoy"
 
-			"challenges"
+			"missions"
 			{
 				"mvm_decoy"
 				{
 					"display_name"	"#TF_MVM_Challenge_Decoy1"
-					"tour_name"		"#TF_MvM_Tour_0"
 					"mode"			"#TF_MVM_Challenge_Invasion"
-					"badge_slot"	"-1"
 					"difficulty"	"normal"
+				}
+				"mvm_decoy_intermediate"
+				{
+					"display_name"	"#TF_MVM_Challenge_Decoy_Intermediate"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"difficulty"	"intermediate"
+				}
+				"mvm_decoy_intermediate2"
+				{
+					"display_name"	"#TF_MVM_Challenge_Decoy_Intermediate2"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"difficulty"	"intermediate"
 				}
 				"mvm_decoy_advanced"
 				{
 					"display_name"	"#TF_MVM_Challenge_Decoy2"
-					"tour_name"		"#TF_MvM_Tour_1"
 					"mode"			"#TF_MVM_Challenge_Invasion"
-					"badge_slot"	"8"
 					"difficulty"	"advanced"
 				}
 				"mvm_decoy_advanced2"
 				{
 					"display_name"	"#TF_MVM_Challenge_Decoy3"
-					"tour_name"		"#TF_MvM_Tour_1"
 					"mode"			"#TF_MVM_Challenge_Invasion"
-					"badge_slot"	"9"
 					"difficulty"	"advanced"
+				}
+				"mvm_decoy_expert1"
+				{
+					"display_name"	"#TF_MVM_Challenge_Decoy_Expert1"
+					"tour_name"		"#TF_MvM_Tour_0"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"badge_slot"	"-1"
+					"difficulty"	"expert"
 				}
 			}
 		}
@@ -55661,31 +57211,43 @@
 		{
 			"display_name"	"#TF_MVM_Map_CoalTown"
 
-			"challenges"
+			"missions"
 			{
 				"mvm_coaltown"
 				{
 					"display_name"	"#TF_MVM_Challenge_CoalTown1"
-					"tour_name"		"#TF_MvM_Tour_0"
 					"mode"			"#TF_MVM_Challenge_Invasion"
-					"badge_slot"	"-1"
 					"difficulty"	"normal"
+				}
+				"mvm_coaltown_intermediate"
+				{
+					"display_name"	"#TF_MVM_Challenge_CoalTown_Intermediate"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"difficulty"	"intermediate"
+				}
+				"mvm_coaltown_intermediate2"
+				{
+					"display_name"	"#TF_MVM_Challenge_CoalTown_Intermediate2"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"difficulty"	"intermediate"
 				}
 				"mvm_coaltown_advanced"
 				{
 					"display_name"	"#TF_MVM_Challenge_CoalTown2"
-					"tour_name"		"#TF_MvM_Tour_1"
 					"mode"			"#TF_MVM_Challenge_Invasion"
-					"badge_slot"	"1"
 					"difficulty"	"advanced"
 				}
 				"mvm_coaltown_advanced2"
 				{
 					"display_name"	"#TF_MVM_Challenge_CoalTown3"
-					"tour_name"		"#TF_MvM_Tour_1"
 					"mode"			"#TF_MVM_Challenge_Invasion"
-					"badge_slot"	"2"
 					"difficulty"	"advanced"
+				}
+				"mvm_coaltown_expert1"
+				{
+					"display_name"	"#TF_MVM_Challenge_CoalTown_Expert1"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"difficulty"	"expert"
 				}
 			}
 		}
@@ -55694,32 +57256,103 @@
 		{
 			"display_name"	"#TF_MVM_Map_Mannworks"
 
-			"challenges"
+			"missions"
 			{
 				"mvm_mannworks"
 				{
 					"display_name"	"#TF_MVM_Challenge_Mannworks1"
-					"tour_name"		"#TF_MvM_Tour_0"
 					"mode"			"#TF_MVM_Challenge_Invasion"
-					"badge_slot"	"-1"
 					"difficulty"	"normal"
+				}
+				"mvm_mannworks_intermediate"
+				{
+					"display_name"	"#TF_MVM_Challenge_MannWorks_Intermediate"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"difficulty"	"intermediate"
+				}
+				"mvm_mannworks_intermediate2"
+				{
+					"display_name"	"#TF_MVM_Challenge_MannWorks_Intermediate2"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"difficulty"	"intermediate"
 				}
 				"mvm_mannworks_advanced"
 				{
 					"display_name"	"#TF_MVM_Challenge_Mannworks2"
-					"tour_name"		"#TF_MvM_Tour_1"
 					"mode"			"#TF_MVM_Challenge_Invasion"
-					"badge_slot"	"15"
 					"difficulty"	"advanced"
 				}
 				"mvm_mannworks_ironman"
 				{
 					"display_name"	"#TF_MVM_Challenge_Mannworks3"
-					"tour_name"		"#TF_MvM_Tour_1"
 					"mode"			"#TF_MVM_Challenge_Endurance"
-					"badge_slot"	"16"
 					"difficulty"	"advanced"
 				}
+				"mvm_mannworks_expert1"
+				{
+					"display_name"	"#TF_MVM_Challenge_MannWorks_Expert1"
+					"mode"			"#TF_MVM_Challenge_Invasion"
+					"difficulty"	"expert"
+				}
+			}
+		}
+	}
+	"mvm_tours"
+	{
+		"tour_intermediate1"
+		{
+			"tour_name"						"#TF_MvM_Tour_Intermediate_1"
+			"badge_item_def"				"Tour of Duty Badge Intermediate 1"
+			"mission_complete_loot_list"	"mvm_victory"
+			"tour_complete_loot_list"		"mvm_victory_badge_leveled_intermediate"
+			"difficulty"					"intermediate"
+			"loot_image"				"pve/mvm_loot_image_intermediate1"
+
+			"missions"
+			{
+				"mvm_coaltown_intermediate"		"1"
+				"mvm_coaltown_intermediate2"	"2"
+				"mvm_decoy_intermediate"		"3"
+				"mvm_decoy_intermediate2"		"4"
+				"mvm_mannworks_intermediate"	"5"
+				"mvm_mannworks_intermediate2"	"6"
+			}
+		}
+
+		"tour_advanced1"
+		{
+			"tour_name"						"#TF_MvM_Tour_Advanced_1"
+			"badge_item_def"				"Tour of Duty Badge Advanced 1"
+			"mission_complete_loot_list"	"mvm_victory"
+			"tour_complete_loot_list"		"mvm_victory_badge_leveled_advanced"
+			"difficulty"					"advanced"
+			"loot_image"				"pve/mvm_loot_image"
+
+			"missions"
+			{
+				"mvm_coaltown_advanced"		"1"
+				"mvm_coaltown_advanced2"	"2"
+				"mvm_decoy_advanced"		"8"
+				"mvm_decoy_advanced2"		"9"
+				"mvm_mannworks_advanced"	"15"
+				"mvm_mannworks_ironman"		"16"
+			}
+		}
+
+		"tour_expert1"
+		{
+			"tour_name"						"#TF_MvM_Tour_Expert_1"
+			"badge_item_def"				"Tour of Duty Badge Expert 1"
+			"mission_complete_loot_list"	"mvm_victory"
+			"tour_complete_loot_list"		"mvm_victory_badge_leveled_expert"
+			"difficulty"					"expert"
+			"loot_image"				"pve/mvm_loot_image_expert1"
+
+			"missions"
+			{
+				"mvm_coaltown_expert1"	"1"
+				"mvm_decoy_expert1"		"2"
+				"mvm_mannworks_expert1"	"3"
 			}
 		}
 	}
