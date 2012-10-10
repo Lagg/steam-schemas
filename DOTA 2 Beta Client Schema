@@ -350,10 +350,10 @@
 		}
 		"1"
 		{
-			"name"		"Anti-Mage's Glaives"
+			"name"		"Anti-Mage's Glaive"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_Glaives"
-			"item_name"		"#DOTA_Item_AntiMages_Glaives"
+			"item_type_name"		"#DOTA_WearableType_Glaive"
+			"item_name"		"#DOTA_Item_AntiMages_Glaive"
 			"visuals"
 			{
 				"attached_particlesystem"
@@ -637,6 +637,13 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_windrunner"		"1"
+			}
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"windrunner_bowstring"
+				}
 			}
 		}
 		"23"
@@ -5137,6 +5144,146 @@
 				"npc_dota_hero_lich"		"1"
 			}
 			"model_player"		"models/heroes/lich/lich_horns.mdl"
+		}
+		"335"
+		{
+			"name"		"Anti-Mage's Offhand Glaive"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Glaive"
+			"item_name"		"#DOTA_Item_AntiMages_Offhand_Glaive"
+			"item_slot"		"offhand_weapon"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"antimage_blade"
+				}
+			}
+			"model_player"		"models/heroes/antimage/antimage_offhand_weapon.mdl"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_AntiMages_Glaive"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_antimage"		"1"
+			}
+		}
+		"337"
+		{
+			"name"		"Nightstalker's Wings"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Nightstalkers_Wings"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_night_stalker"		"1"
+			}
+			"model_player"		"models/heroes/nightstalker/nightstalker_wings.mdl"
+		}
+		"338"
+		{
+			"name"		"Nightstalker's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_legs"
+			"item_name"		"#DOTA_Item_Nightstalkers_Armor"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Nightstalkers_Wings"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_night_stalker"		"1"
+			}
+			"model_player"		"models/heroes/nightstalker/nightstalker_legarmor.mdl"
+		}
+		"339"
+		{
+			"name"		"Nightstalker's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_tail"
+			"item_name"		"#DOTA_Item_Nightstalkers_Tail"
+			"item_slot"		"tail"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Nightstalkers_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_night_stalker"		"1"
+			}
+			"model_player"		"models/heroes/nightstalker/nightstalker_tail.mdl"
+		}
+		"340"
+		{
+			"name"		"Razor's Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Razors_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_razor"		"1"
+			}
+			"model_player"		"models/heroes/razor/razor_weapon.mdl"
+		}
+		"341"
+		{
+			"name"		"Razor's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Razors_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_razor"		"1"
+			}
+			"model_player"		"models/heroes/razor/razor_head.mdl"
+		}
+		"342"
+		{
+			"name"		"Razor's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Razors_Armor"
+			"item_slot"		"armor"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_razor"		"1"
+			}
+			"model_player"		"models/heroes/razor/razor_armor.mdl"
+		}
+		"343"
+		{
+			"name"		"Razor's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Razors_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_razor"		"1"
+			}
+			"model_player"		"models/heroes/razor/razor_bracers.mdl"
+		}
+		"344"
+		{
+			"name"		"Razor's Robe"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Razors_Robe"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_razor"		"1"
+			}
+			"model_player"		"models/heroes/razor/razor_robe.mdl"
 		}
 		"4000"
 		{
@@ -21594,7 +21741,7 @@
 		{
 			"name"		"Vambraces of the Slain Dragon"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_New_Item"
+			"item_type_name"		"#DOTA_WearableType_Bracers"
 			"item_name"		"#DOTA_Item_Vambraces_of_the_Slain_Dragon"
 			"item_slot"		"arms"
 			"item_rarity"		"uncommon"
@@ -29979,6 +30126,21 @@
 			"item_name"		"#DOTA_Item_Mysterious_Egg"
 			"item_description"		"#DOTA_Item_Desc_Mysterious_Egg"
 			"image_inventory"		"econ/courier/greevil/greevil_egg_natural"
+			"tags"
+			{
+				"event_egg"		"1"
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+				"uses_essence"		"1"
+			}
+			"tool"
+			{
+				"type"		"egg"
+				"use_string"		"#Hatch"
+			}
 			"attributes"
 			{
 				"disallow recycling"
@@ -29988,7 +30150,7 @@
 				}
 			}
 		}
-		"10077"
+		"10067"
 		{
 			"name"		"Greevil"
 			"prefab"		"dota_misc_item"
@@ -30014,13 +30176,13 @@
 				"asset_modifier2"
 				{
 					"type"		"courier"
-					"asset"		"models/courier/drodo/drodo.mdl"
+					"asset"		"models/courier/greevil/greevil.mdl"
 					"modifier"		"radiant"
 				}
 				"asset_modifier0"
 				{
 					"type"		"courier"
-					"asset"		"models/courier/drodo/drodo.mdl"
+					"asset"		"models/courier/greevil/greevil.mdl"
 					"modifier"		"dire"
 				}
 				"asset_modifier1"
@@ -30079,6 +30241,27 @@
 				"PortraitHideHero"		"0"
 			}
 			"particle_file"		"particles\econ\courier\courier_drodo.pcf"
+		}
+		"10068"
+		{
+			"name"		"Announcer: Pyrion Flax"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Pyrion_Flax"
+			"item_slot"		"announcer"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Pyrion_Flax"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/announcer_pyrion_lich"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_dlc_pyrion"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_pyrion.txt"
+				}
+			}
 		}
 		"15000"
 		{
@@ -32978,24 +33161,35 @@
 		"15091"
 		{
 			"name"		"Exort Essence"
-			"prefab"		"dota_misc_item"
-			"item_class"		"mysterious_egg"
-			"item_type_name"		"#DOTA_WearableType_Egg"
-			"item_name"		"#DOTA_Item_Mysterious_Egg"
-			"item_description"		"#DOTA_Item_Desc_Mysterious_Egg"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Essence"
+			"item_name"		"#DOTA_Item_Exort_Essence"
+			"item_description"		"#DOTA_Item_Desc_Exort_Essence"
 			"image_inventory"		"econ/courier/greevil/essence_red"
+			"expiration_date"		"2012-11-12 23:00:00"
 			"tool"
 			{
 				"type"		"egg_essence"
 				"use_string"		"#InfuseEgg"
-			}
-			"capabilities"
-			{
-				"usable_gc"		"1"
-				"usable_out_of_game"		"1"
+				"usage"
+				{
+					"required_tags"
+					{
+						"event_egg"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"uses_essence"		"1"
+				}
 			}
 			"attributes"
 			{
+				"essence type"
+				{
+					"attribute_class"		"essence_type"
+					"value"		"0"
+				}
 				"disallow recycling"
 				{
 					"attribute_class"		"disallow_recycling"
@@ -33006,24 +33200,35 @@
 		"15092"
 		{
 			"name"		"Wex Essence"
-			"prefab"		"dota_misc_item"
-			"item_class"		"mysterious_egg"
-			"item_type_name"		"#DOTA_WearableType_Egg"
-			"item_name"		"#DOTA_Item_Mysterious_Egg"
-			"item_description"		"#DOTA_Item_Desc_Mysterious_Egg"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Essence"
+			"item_name"		"#DOTA_Item_Wex_Essence"
+			"item_description"		"#DOTA_Item_Desc_Wex_Essence"
 			"image_inventory"		"econ/courier/greevil/essence_yellow"
+			"expiration_date"		"2012-11-12 23:00:00"
 			"tool"
 			{
 				"type"		"egg_essence"
 				"use_string"		"#InfuseEgg"
-			}
-			"capabilities"
-			{
-				"usable_gc"		"1"
-				"usable_out_of_game"		"1"
+				"usage"
+				{
+					"required_tags"
+					{
+						"event_egg"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"uses_essence"		"1"
+				}
 			}
 			"attributes"
 			{
+				"essence type"
+				{
+					"attribute_class"		"essence_type"
+					"value"		"1"
+				}
 				"disallow recycling"
 				{
 					"attribute_class"		"disallow_recycling"
@@ -33034,24 +33239,35 @@
 		"15093"
 		{
 			"name"		"Quas Essence"
-			"prefab"		"dota_misc_item"
-			"item_class"		"mysterious_egg"
-			"item_type_name"		"#DOTA_WearableType_Egg"
-			"item_name"		"#DOTA_Item_Mysterious_Egg"
-			"item_description"		"#DOTA_Item_Desc_Mysterious_Egg"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Essence"
+			"item_name"		"#DOTA_Item_Quas_Essence"
+			"item_description"		"#DOTA_Item_Desc_Quas_Essence"
 			"image_inventory"		"econ/courier/greevil/essence_blue"
+			"expiration_date"		"2012-11-12 23:00:00"
 			"tool"
 			{
 				"type"		"egg_essence"
 				"use_string"		"#InfuseEgg"
-			}
-			"capabilities"
-			{
-				"usable_gc"		"1"
-				"usable_out_of_game"		"1"
+				"usage"
+				{
+					"required_tags"
+					{
+						"event_egg"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"uses_essence"		"1"
+				}
 			}
 			"attributes"
 			{
+				"essence type"
+				{
+					"attribute_class"		"essence_type"
+					"value"		"2"
+				}
 				"disallow recycling"
 				{
 					"attribute_class"		"disallow_recycling"
@@ -33062,25 +33278,36 @@
 		"15094"
 		{
 			"name"		"Unusual Essence"
-			"prefab"		"dota_misc_item"
-			"item_class"		"mysterious_egg"
-			"item_type_name"		"#DOTA_WearableType_Egg"
-			"item_name"		"#DOTA_Item_Mysterious_Egg"
-			"item_description"		"#DOTA_Item_Desc_MysTerious_Egg"
-			"image_inventory"		"econ/courier/greevil/essence_power"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Essence"
+			"item_name"		"#DOTA_Item_Unusual_Essence"
 			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Unusual_Essence"
+			"image_inventory"		"econ/courier/greevil/essence_power"
+			"expiration_date"		"2012-11-12 23:00:00"
 			"tool"
 			{
 				"type"		"egg_essence"
 				"use_string"		"#InfuseEgg"
-			}
-			"capabilities"
-			{
-				"usable_gc"		"1"
-				"usable_out_of_game"		"1"
+				"usage"
+				{
+					"required_tags"
+					{
+						"event_egg"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"uses_essence"		"1"
+				}
 			}
 			"attributes"
 			{
+				"essence type"
+				{
+					"attribute_class"		"essence_type"
+					"value"		"3"
+				}
 				"disallow recycling"
 				{
 					"attribute_class"		"disallow_recycling"
@@ -33091,25 +33318,36 @@
 		"15095"
 		{
 			"name"		"Shadow Essence"
-			"prefab"		"dota_misc_item"
-			"item_class"		"mysterious_egg"
-			"item_type_name"		"#DOTA_WearableType_Egg"
-			"item_name"		"#DOTA_Item_Mysterious_Egg"
-			"item_description"		"#DOTA_Item_Desc_Mysterious_Egg"
-			"image_inventory"		"econ/courier/greevil/essence_black"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_Essence"
+			"item_name"		"#DOTA_Item_Shadow_Essence"
 			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Shadow_Essence"
+			"image_inventory"		"econ/courier/greevil/essence_black"
+			"expiration_date"		"2012-11-12 23:00:00"
 			"tool"
 			{
 				"type"		"egg_essence"
 				"use_string"		"#InfuseEgg"
-			}
-			"capabilities"
-			{
-				"usable_gc"		"1"
-				"usable_out_of_game"		"1"
+				"usage"
+				{
+					"required_tags"
+					{
+						"event_egg"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"uses_essence"		"1"
+				}
 			}
 			"attributes"
 			{
+				"essence type"
+				{
+					"attribute_class"		"essence_type"
+					"value"		"4"
+				}
 				"disallow recycling"
 				{
 					"attribute_class"		"disallow_recycling"
@@ -36221,9 +36459,9 @@
 			"bundle"
 			{
 				"Shoulders of the Slain Dragon"		"1"
-				"Helm of the Slain Dragon"		"1"
 				"Vambraces of the Slain Dragon"		"1"
 				"Edge of the Slain Dragon"		"1"
+				"Helm of the Slain Dragon"		"1"
 			}
 			"icon_portrait"
 			{
@@ -36998,6 +37236,48 @@
 			"hidden"		"0"
 			"effect_type"		"neutral"
 			"stored_as_integer"		"0"
+		}
+		"135"
+		{
+			"name"		"essence type"
+			"attribute_class"		"essence_type"
+			"attribute_name"		"essence type"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_EssenceType"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"0"
+		}
+		"136"
+		{
+			"name"		"uryb essence level"
+			"attribute_class"		"uryb_essence_level"
+			"attribute_name"		"uryb essence level"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_URYBEssenceLevel"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"137"
+		{
+			"name"		"opgb essence level"
+			"attribute_class"		"opgb_essence_level"
+			"attribute_name"		"opgb essence level"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_OPGBEssenceLevel"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
 		}
 		"142"
 		{
@@ -38244,6 +38524,33 @@
 				}
 			}
 		}
+		"43"
+		{
+			"system"		"windrunner_bowstring"
+			"attach_type"		"customorigin"
+			"attach_entity"		"self"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"bow_bot"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"bow_mid"
+				}
+				"2"
+				{
+					"control_point_index"		"2"
+					"attach_type"		"point_follow"
+					"attachment"		"bow_top"
+				}
+			}
+		}
 	}
 	"upgradeable_base_items"
 	{
@@ -38509,9 +38816,9 @@
 			"items"
 			{
 				"Shoulders of the Slain Dragon"		"1"
-				"Helm of the Slain Dragon"		"1"
 				"Vambraces of the Slain Dragon"		"1"
 				"Edge of the Slain Dragon"		"1"
+				"Helm of the Slain Dragon"		"1"
 			}
 		}
 		"dragon_knight_uldorak"
