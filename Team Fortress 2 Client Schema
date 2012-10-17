@@ -31603,7 +31603,7 @@
 		{
 			"name"	"The Crafty Hair"
 			"first_sale_date"	"2012/08/29"
-			"prefab"	"promo hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"			"1"
@@ -31632,6 +31632,19 @@
 			}
 			"visuals"
 			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_XCOM_Hair_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_XCOM_Hair_Style1"
+					}
+				}
 				"player_bodygroups"
 				{
 					"hat"			"1"
@@ -31643,7 +31656,7 @@
 		{
 			"name"	"Area 451"
 			"first_sale_date"	"2012/08/29"
-			"prefab"	"promo hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -31661,7 +31674,7 @@
 		{
 			"name"	"The Vigilant Pin"
 			"first_sale_date"	"2012/08/29"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -33319,7 +33332,25 @@
 				}
 			}
 		}
-
+		"928"
+		{
+			"name"	"Portal 2 Soundtrack Promo Package"
+			"item_class"	"craft_item"
+			"craft_material_type"	""
+			"show_in_armory"	"0"
+			"image_inventory"	"backpack/crafting/gift_mystery"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_quality"	"unique"
+			"propername" "0"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"item_type_name"	"#TF_Package_Type"
+			"item_name"	"#TF_Portal2_Soundtrack_Promo_Package"
+			"item_description"	"#TF_Portal2_Soundtrack_Promo_Package_Desc"
+			"mouse_pressed_sound" 	"ui/item_paper_pickup.wav"
+			"drop_sound" 		"ui/item_paper_pickup.wav"
+		}				
 
 
 
@@ -38615,15 +38646,16 @@
 		}
 		"2082"
 		{
-			"name" "Mysterious Promo" 
+			"name" "Portal 2 Soundtrack Promo"
 			"item_class"	"bundle"
 			"bundle"
 			{
-				"The Flare Gun"		"1"
+				"Portal 2 Soundtrack Promo Package"		"1"
+				"Store Purchase Promotion Package"		"1"
 			}
 			"item_type_name"	"#TF_StoreBundle"
-			"item_name"		"#TF_Mysterious_Promo"
-			"item_description"	"#TF_Mysterious_Promo_Desc"
+			"item_name"		"#TF_Portal2_Soundtrack_Promo"
+			"item_description"	"#TF_Portal2_Soundtrack_Promo_Desc"
 			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
@@ -38901,6 +38933,7 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
+
 
 
 
