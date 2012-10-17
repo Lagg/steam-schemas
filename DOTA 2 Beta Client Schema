@@ -3,7 +3,7 @@
 	"game_info"
 	{
 		"first_valid_class"		"1"
-		"last_valid_class"		"999"
+		"last_valid_class"		"1000"
 		"first_valid_item_slot"		"0"
 		"last_valid_item_slot"		"10"
 		"num_item_presets"		"4"
@@ -1566,7 +1566,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_New_Item"
 			"item_name"		"#DOTA_Item_Facelesss_Head"
-			"item_slot"		"head"
+			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"used_by_heroes"
 			{
@@ -3633,10 +3633,10 @@
 		}
 		"232"
 		{
-			"name"		"Doom's Weapon"
+			"name"		"Doombringer's Weapon"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_weapon"
-			"item_name"		"#DOTA_Item_Dooms_Weapon"
+			"item_name"		"#DOTA_Item_Doombringers_Weapon"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -3647,10 +3647,10 @@
 		}
 		"233"
 		{
-			"name"		"Doom's Helm"
+			"name"		"Doombringer's Helm"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_head"
-			"item_name"		"#DOTA_Item_Dooms_Helm"
+			"item_name"		"#DOTA_Item_Doombringers_Helm"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Weapon"
 			"image_inventory"		"econ/testitem_slot_empty"
@@ -3662,10 +3662,10 @@
 		}
 		"234"
 		{
-			"name"		"Doom's Shoulder Armor"
+			"name"		"Doombringer's Shoulder Armor"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_shoulder"
-			"item_name"		"#DOTA_Item_Dooms_Shoulder_Armor"
+			"item_name"		"#DOTA_Item_Doombringers_Shoulder_Armor"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Helm"
 			"image_inventory"		"econ/testitem_slot_empty"
@@ -3677,10 +3677,10 @@
 		}
 		"235"
 		{
-			"name"		"Doom's Bracers"
+			"name"		"Doombringer's Bracers"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_arms"
-			"item_name"		"#DOTA_Item_Dooms_Bracers"
+			"item_name"		"#DOTA_Item_Doombringers_Bracers"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Shoulder_Armor"
 			"image_inventory"		"econ/testitem_slot_empty"
@@ -3692,10 +3692,10 @@
 		}
 		"236"
 		{
-			"name"		"Doom's Belt"
+			"name"		"Doombringer's Belt"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_belt"
-			"item_name"		"#DOTA_Item_Dooms_Belt"
+			"item_name"		"#DOTA_Item_Doombringers_Belt"
 			"item_slot"		"belt"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Bracers"
 			"image_inventory"		"econ/testitem_slot_empty"
@@ -3707,10 +3707,10 @@
 		}
 		"237"
 		{
-			"name"		"Doom's Wings"
+			"name"		"Doombringer's Wings"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_back"
-			"item_name"		"#DOTA_Item_Dooms_Wings"
+			"item_name"		"#DOTA_Item_Doombringers_Wings"
 			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Belt"
 			"image_inventory"		"econ/testitem_slot_empty"
@@ -3722,11 +3722,11 @@
 		}
 		"238"
 		{
-			"name"		"Doom's Tail"
+			"name"		"Doombringer's Tail"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_legs"
-			"item_name"		"#DOTA_Item_Dooms_Tail"
-			"item_slot"		"legs"
+			"item_name"		"#DOTA_Item_Doombringers_Tail"
+			"item_slot"		"tail"
 			"item_description"		"#DOTA_Item_Desc_Copy_of_Dooms_Wings"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -5166,6 +5166,20 @@
 				"npc_dota_hero_antimage"		"1"
 			}
 		}
+		"336"
+		{
+			"name"		"Leshrac's Arms"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Leshracs_Arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_leshrac"		"1"
+			}
+			"model_player"		"models/heroes/leshrac/leshrac_arms.mdl"
+		}
 		"337"
 		{
 			"name"		"Nightstalker's Wings"
@@ -5284,6 +5298,51 @@
 				"npc_dota_hero_razor"		"1"
 			}
 			"model_player"		"models/heroes/razor/razor_robe.mdl"
+		}
+		"345"
+		{
+			"name"		"Leshrac's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Leshracs_Armor"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_leshrac"		"1"
+			}
+			"model_player"		"models/heroes/leshrac/leshrac_armor.mdl"
+		}
+		"346"
+		{
+			"name"		"Leshrac's Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Leshracs_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_leshrac"		"1"
+			}
+			"model_player"		"models/heroes/leshrac/leshrac_head.mdl"
+		}
+		"347"
+		{
+			"name"		"Leshrac's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Leshracs_Tail"
+			"item_slot"		"tail"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_leshrac"		"1"
+			}
+			"model_player"		"models/heroes/leshrac/leshrac_tail.mdl"
 		}
 		"4000"
 		{
@@ -9046,6 +9105,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"item_set"		"dragon_knight_uldorak"
 		}
 		"4096"
 		{
@@ -9502,6 +9562,12 @@
 					"type"		"entity_model"
 					"asset"		"npc_dota_furion_treant"
 					"modifier"		"models/items/furion/treant_stump.mdl"
+				}
+				"asset_modifier1"
+				{
+					"type"		"entity_scale"
+					"asset"		"npc_dota_furion_treant"
+					"modifier"		"0.700000"
 				}
 			}
 			"icon_portrait"
@@ -10028,6 +10094,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"dragon_knight_uldorak"
 		}
 		"4115"
 		{
@@ -10073,6 +10140,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"item_set"		"dragon_knight_uldorak"
 		}
 		"4116"
 		{
@@ -10118,6 +10186,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"dragon_knight_uldorak"
 		}
 		"4117"
 		{
@@ -10163,6 +10232,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"dragon_knight_uldorak"
 		}
 		"4118"
 		{
@@ -11855,6 +11925,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"1"
 			}
+			"item_set"		"dragon_knight_uldorak"
 		}
 		"4155"
 		{
@@ -11972,7 +12043,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Item_Bindings_of_the_Rift"
-			"item_slot"		"head"
+			"item_slot"		"body_head"
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Bindings_of_the_Rift"
 			"image_inventory"		"econ/items/faceless_void/faceless_void_rift_head"
@@ -13275,7 +13346,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Abomination"
 			"item_name"		"#DOTA_Item_Voidkeepers_Visage"
-			"item_slot"		"head"
+			"item_slot"		"body_head"
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Voidkeepers_Visage"
 			"image_inventory"		"econ/items/faceless_void/faceless_void_crystal_head"
@@ -15683,7 +15754,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Hair"
 			"item_name"		"#DOTA_Item_Stylish_Wizards_Topnot"
-			"item_slot"		"body_head"
+			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Stylish_Wizards_Topnot"
 			"image_inventory"		"econ/items/invoker/exort_hair"
 			"used_by_heroes"
@@ -17793,7 +17864,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Helm"
 			"item_name"		"#DOTA_Item_Helm_of_Claszureme"
-			"item_slot"		"head"
+			"item_slot"		"body_head"
 			"item_description"		"#DOTA_Item_Desc_Helm_of_Claszureme"
 			"image_inventory"		"econ/items/faceless_void/helm_of_claszureme/helm_of_claszureme"
 			"item_set"		"faceless_clas"
@@ -18360,7 +18431,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Hood"
 			"item_name"		"#DOTA_Item_Hood_of_Endless_Intellect"
-			"item_slot"		"body_head"
+			"item_slot"		"head"
 			"item_rarity"		"rare"
 			"item_set"		"invoker_magnus"
 			"item_description"		"#DOTA_Item_Desc_Hood_of_Endless_Intellect"
@@ -22444,7 +22515,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
-			"item_set"		"morphling_polymoprhia"
+			"item_set"		"morphling_polymorphia"
 		}
 		"4404"
 		{
@@ -23332,7 +23403,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Item_Infectious_Amalgamate"
-			"item_slot"		"head"
+			"item_slot"		"body_head"
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Infectuous_Amalgamate"
 			"image_inventory"		"econ/items/faceless_void/head_alien/head_alien"
@@ -27114,7 +27185,7 @@
 		{
 			"name"		"Hair of the Dark Magic"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_head"
+			"item_type_name"		"#DOTA_WearableType_Hair"
 			"item_name"		"#DOTA_Item_Hair_of_the_Dark_Magic"
 			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Hair_of_the_Dark_Magic"
@@ -30147,119 +30218,6 @@
 				{
 					"attribute_class"		"disallow_recycling"
 					"value"		"1"
-				}
-			}
-		}
-		"10067"
-		{
-			"name"		"Greevil"
-			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_WearableType_Custom_Courier"
-			"item_name"		"#DOTA_Item_Greevil"
-			"item_slot"		"courier"
-			"item_quality"		"unusual"
-			"item_rarity"		"mythical"
-			"forced_item_quality"		"unusual"
-			"item_description"		"#DOTA_Item_Desc_Greevil"
-			"player_loadout"		"1"
-			"image_inventory"		"econ/courier/drodo/drodo"
-			"attributes"
-			{
-				"disallow recycling"
-				{
-					"attribute_class"		"disallow_recycling"
-					"value"		"1"
-				}
-			}
-			"visuals"
-			{
-				"asset_modifier2"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/greevil/greevil.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier0"
-				{
-					"type"		"courier"
-					"asset"		"models/courier/greevil/greevil.mdl"
-					"modifier"		"dire"
-				}
-				"asset_modifier1"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/drodo/drodo_flying.mdl"
-					"modifier"		"radiant"
-				}
-				"asset_modifier3"
-				{
-					"type"		"courier_flying"
-					"asset"		"models/courier/drodo/drodo_flying.mdl"
-					"modifier"		"dire"
-				}
-				"attached_particlesystem0"
-				{
-					"system"		"courier_drodo_ambient"
-				}
-				"attached_models"
-				{
-					"0"
-					{
-						"model_display_flags"		"1"
-						"model"		"models/courier/turtle_rider/turtle_rider.mdl"
-					}
-				}
-			}
-			"icon_portrait"
-			{
-				"PortraitPosition"		"124.603615 -129.066605 121.010880"
-				"PortraitLookAt"		"24.461060 132.203979 0.000000"
-				"PortraitFOV"		"37.000000"
-				"PortraitFar"		"1000.000000"
-				"PortraitLightPosition"		"-32.657112 -136.634705 156.815552"
-				"PortraitLightLookAt"		"49.889999 111.050003 0.000000"
-				"PortraitLightFOV"		"90.000000"
-				"PortraitLightDistance"		"133.000000"
-				"PortraitLightColor"		"0.270000 0.270000 0.270000"
-				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
-				"PortraitShadowScale"		"1.000000"
-				"PortraitGroundShadowScale"		"0.300000"
-				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
-				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
-				"PortraitAmbientScale"		"1.000000"
-				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
-				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
-				"PortraitSpecularPower"		"16.000000"
-				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
-				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
-				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
-				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
-				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
-				"PortraitAnimationActivity"		"0"
-				"PortraitAnimationCycle"		"0.000000"
-				"PortraitAnimationRate"		"0.000000"
-				"PortraitHideHero"		"0"
-			}
-			"particle_file"		"particles\econ\courier\courier_drodo.pcf"
-		}
-		"10068"
-		{
-			"name"		"Announcer: Pyrion Flax"
-			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_WearableType_Announcer"
-			"item_name"		"#DOTA_Item_Announcer_Pyrion_Flax"
-			"item_slot"		"announcer"
-			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_Announcer_Pyrion_Flax"
-			"player_loadout"		"1"
-			"image_inventory"		"econ/announcer/announcer_pyrion_lich"
-			"visuals"
-			{
-				"asset_modifier0"
-				{
-					"type"		"announcer"
-					"asset"		"npc_dota_hero_announcer_dlc_pyrion"
-					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_pyrion.txt"
 				}
 			}
 		}
@@ -34229,7 +34187,6 @@
 			"name"		"Mono Militis Set"
 			"prefab"		"dota_bundle"
 			"item_name"		"#DOTA_Item_Mono_Militis_Set"
-			"item_rarity"		"uncommon"
 			"bundle"
 			{
 				"Dressed Pauldron of the Mono Militis"		"1"
@@ -36093,7 +36050,6 @@
 			"name"		"Dials of Claszureme Set"
 			"prefab"		"dota_bundle"
 			"item_name"		"#DOTA_Item_Dials_of_Claszureme_Set"
-			"item_rarity"		"rare"
 			"bundle"
 			{
 				"Helm of Claszureme"		"1"
@@ -36751,6 +36707,7 @@
 			"name"		"Thunderwrath's Calling Set"
 			"prefab"		"dota_bundle"
 			"item_name"		"#DOTA_Item_Thunderwraths_Calling_Set"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Thunderwraths_Calling_Set"
 			"image_inventory"		"econ/sets/DOTA_Item_Thunderwraths_Calling_Set"
 			"used_by_heroes"
@@ -37279,6 +37236,34 @@
 			"effect_type"		"neutral"
 			"stored_as_integer"		"1"
 		}
+		"138"
+		{
+			"name"		"courier slots 1"
+			"attribute_class"		"courier_slots_1"
+			"attribute_name"		"courier slots 1"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_CourierSlots1"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"139"
+		{
+			"name"		"courier slots 2"
+			"attribute_class"		"courier_slots_2"
+			"attribute_name"		"courier slots 2"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_CourierSlots2"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
 		"142"
 		{
 			"name"		"set item tint RGB"
@@ -37723,7 +37708,7 @@
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
 			"effect_type"		"positive"
-			"stored_as_integer"		"0"
+			"stored_as_integer"		"1"
 		}
 		"319"
 		{
@@ -38823,17 +38808,17 @@
 		}
 		"dragon_knight_uldorak"
 		{
-			"name"		"#DOTA_Set_Dragon_Knight_Uldorak"
+			"name"		"#DOTA_Set_Uldoraks_Hide"
+			"store_bundle"		"Uldorak's Hide Set"
 			"items"
 			{
+				"Wyrm Shield of Uldorak"		"1"
 				"Wyrm Helm of Uldorak"		"1"
 				"Wyrm Bracer of Uldorak"		"1"
 				"Wyrm Skirt of Uldorak"		"1"
 				"Wyrm Pauldron of Uldorak"		"1"
-				"Wyrm Shield of Uldorak"		"1"
 				"Dragonmaw"		"1"
 			}
-			"store_bundle"		"Uldorak's Hide Set"
 		}
 		"drow_ranger_frost_spikes"
 		{
@@ -39097,10 +39082,10 @@
 			"store_bundle"		"Shards of Polymorphia Set"
 			"items"
 			{
-				"Crests of Polymorphia"		"1"
 				"Crown of Polymorphia"		"1"
 				"Pauldrons of Polymorphia"		"1"
 				"Bracers of Polymorphia"		"1"
+				"Crests of Polymorphia"		"1"
 			}
 		}
 		"morphling_radiant_crystal"
