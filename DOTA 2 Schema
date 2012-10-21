@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.26a91c4055be9e1ad4dd57f262214342ce3be7f9.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.efdc32fd912cd42d8d8633cc28162db088f4efba.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -28615,6 +28615,76 @@
 						"class": "essence_type",
 						"value": 4.000000
 					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "G-1 Championship League",
+				"defindex": 15096,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "G-1 Championship League",
+				"item_description": "The G-1 Championship League, hosted by 17173 Games, is the first Dota 2 tournament in China. Exciting matches await with teams like iG, LGD and DK competing for a prize pool of $50,000.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_g1",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_g1.4bfec11be41de3ac4a2384f8ca0eec1a25e2fa3d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_g1_large.ea02ed3bb1d30e46907d5d2ed3429c3ae9575d00.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "G-1 Championship League ADMIN",
+				"defindex": 15097,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "G-1 Championship League ADMIN",
+				"item_description": "The G-1 Championship League, hosted by 17173 Games, is the first Dota 2 tournament in China. Exciting matches await with teams like iG, LGD and DK competing for a prize pool of $50,000.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_g1_admin",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_g1_admin.53517ff6e3f5c6169be18de2393498224b79793c.png",
+				"image_url_large": "",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
 					{
 						"name": "disallow recycling",
 						"class": "disallow_recycling",
