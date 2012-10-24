@@ -507,7 +507,7 @@
 			"name"		"Kunkka's Sword"
 			"prefab"		"dota_default_item"
 			"item_name"		"#DOTA_Item_Kunkkas_Sword"
-			"model_player"		"models/heroes/kunkka/sword.mdl"
+			"model_player"		"models/heroes/kunkka/kunkka_sword.mdl"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_kunkka"		"1"
@@ -529,12 +529,12 @@
 		}
 		"14"
 		{
-			"name"		"Kunkka's Head"
+			"name"		"Kunkka's Hair"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Head"
-			"item_name"		"#DOTA_Item_Kunkkas_Head"
-			"item_slot"		"body_head"
-			"model_player"		"models/heroes/kunkka/kunkka_head.mdl"
+			"item_name"		"#DOTA_Item_Kunkkas_Hair"
+			"item_slot"		"head"
+			"model_player"		"models/heroes/kunkka/kunkka_hair.mdl"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_kunkka"		"1"
@@ -5136,7 +5136,7 @@
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
 			"item_name"		"#DOTA_Item_Lichs_horns"
-			"item_slot"		"shoulder"
+			"item_slot"		"back"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
@@ -5168,17 +5168,17 @@
 		}
 		"336"
 		{
-			"name"		"Leshrac's Arms"
+			"name"		"Slark's Weapon"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Leshracs_Arms"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Slarks_Weapon"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
-				"npc_dota_hero_leshrac"		"1"
+				"npc_dota_hero_slark"		"1"
 			}
-			"model_player"		"models/heroes/leshrac/leshrac_arms.mdl"
+			"model_player"		"models/heroes/slark/weapon.mdl"
 		}
 		"337"
 		{
@@ -5343,6 +5343,259 @@
 				"npc_dota_hero_leshrac"		"1"
 			}
 			"model_player"		"models/heroes/leshrac/leshrac_tail.mdl"
+		}
+		"348"
+		{
+			"name"		"Dark Seers Spikes"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Back"
+			"item_name"		"#DOTA_Item_Dark_Seers_Spikes"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Dark_Seers_Spikes"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dark_seer"		"1"
+			}
+			"model_player"		"models/heroes/dark_seer/dark_seer_back.mdl"
+		}
+		"349"
+		{
+			"name"		"Dark Seers Hat"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_name"		"#DOTA_Item_Dark_Seers_Hat"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Dark_Seers_Hat"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dark_seer"		"1"
+			}
+			"model_player"		"models/heroes/dark_seer/dark_seer_head.mdl"
+		}
+		"350"
+		{
+			"name"		"Dark Seers Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Arms"
+			"item_name"		"#DOTA_Item_Dark_Seers_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dark_Seers_Hat"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dark_seer"		"1"
+			}
+			"model_player"		"models/heroes/dark_seer/dark_seer_arm.mdl"
+		}
+		"351"
+		{
+			"name"		"Dark Seers Loin Cloth"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"item_name"		"#DOTA_Item_Dark_Seers_Loin_Cloth"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Dark_Seers_Loin_Cloth"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dark_seer"		"1"
+			}
+			"model_player"		"models/heroes/dark_seer/dark_seer_waist.mdl"
+		}
+		"352"
+		{
+			"name"		"Dark Seers Neck Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"item_name"		"#DOTA_Item_Dark_Seers_Neck_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dark_Seers_Loin_Cloth"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dark_seer"		"1"
+			}
+			"model_player"		"models/heroes/dark_seer/dark_seer_neck.mdl"
+		}
+		"353"
+		{
+			"name"		"Slark's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Slarks_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Slarks_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_slark"		"1"
+			}
+			"model_player"		"models/heroes/slark/bracer.mdl"
+		}
+		"354"
+		{
+			"name"		"Slark's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Slarks_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Slarks_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_slark"		"1"
+			}
+			"model_player"		"models/heroes/slark/shoulder.mdl"
+		}
+		"355"
+		{
+			"name"		"Slark's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Slarks_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Slarks_Shoulder_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_slark"		"1"
+			}
+			"model_player"		"models/heroes/slark/cape.mdl"
+		}
+		"356"
+		{
+			"name"		"Slark's Hood"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Slarks_Hood"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Slarks_Hood"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_slark"		"1"
+			}
+			"model_player"		"models/heroes/slark/hood.mdl"
+		}
+		"357"
+		{
+			"name"		"Kunkka's Shoulder Guard"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Kunkkas_Shoulder_Guard"
+			"item_slot"		"shoulder"
+			"model_player"		"models/heroes/kunkka/kunkka_shoulders.mdl"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_kunkka"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Kunkkas_Spyglass"
+		}
+		"358"
+		{
+			"name"		"Centaur's Axe"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Centaurs_Axe"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_centaur"		"1"
+			}
+			"model_player"		"models/heroes/centaur/weapon.mdl"
+		}
+		"359"
+		{
+			"name"		"Centaur's Horns and Hair"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Centaurs_Horns_and_Hair"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Centaurs_Axe"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_centaur"		"1"
+			}
+			"model_player"		"models/heroes/centaur/headitem.mdl"
+		}
+		"360"
+		{
+			"name"		"Centaur's Upper Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Centaurs_Upper_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Centaurs_Pride"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_centaur"		"1"
+			}
+			"model_player"		"models/heroes/centaur/shoulder.mdl"
+		}
+		"361"
+		{
+			"name"		"Centaur's Belt Buckle"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_Centaurs_Belt_Buckle"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Centaurs_Upper_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_centaur"		"1"
+			}
+			"model_player"		"models/heroes/centaur/belt.mdl"
+		}
+		"362"
+		{
+			"name"		"Centaur's Trophies"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Centaurs_Trophies"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Centaurs_Belt_Buckle"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_centaur"		"1"
+			}
+			"model_player"		"models/heroes/centaur/shield.mdl"
+		}
+		"363"
+		{
+			"name"		"Centaur's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Centaurs_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Centaurs_Trophies"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_centaur"		"1"
+			}
+			"model_player"		"models/heroes/centaur/bracer.mdl"
+		}
+		"364"
+		{
+			"name"		"Centaur's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_tail"
+			"item_name"		"#DOTA_Item_Centaurs_Tail"
+			"item_slot"		"tail"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Centaurs_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_centaur"		"1"
+			}
+			"model_player"		"models/heroes/centaur/tail.mdl"
 		}
 		"4000"
 		{
@@ -6248,7 +6501,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Head"
 			"item_name"		"#DOTA_Wearable_Kunkka_Bandana"
-			"item_slot"		"body_head"
+			"item_slot"		"head"
 			"image_inventory"		"econ/items/kunkka/kunkka_bandana"
 			"model_player"		"models/items/kunkka/kunkka_bandana.mdl"
 			"used_by_heroes"
@@ -8096,6 +8349,14 @@
 			"tags"
 			{
 				"is_weapon"		"1"
+			}
+			"attributes"
+			{
+				"animation mod"
+				{
+					"attribute_class"		"animation_mod"
+					"value"		"1"
+				}
 			}
 			"used_by_heroes"
 			{
@@ -27185,12 +27446,12 @@
 		{
 			"name"		"Hair of the Dark Magic"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Hair"
+			"item_type_name"		"#DOTA_WearableType_Sexy_Hair"
 			"item_name"		"#DOTA_Item_Hair_of_the_Dark_Magic"
 			"item_slot"		"head"
+			"item_rarity"		"rare"
 			"item_description"		"#DOTA_Item_Desc_Hair_of_the_Dark_Magic"
-			"image_inventory"		"econ/items/invoker/exort_cape"
-			"item_set"		"invoker_exort"
+			"image_inventory"		"econ/items/invoker/darkmagic_hair"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -27234,17 +27495,18 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"invoker_dark_magic"
 		}
 		"4647"
 		{
 			"name"		"Cape of the Dark Magic"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_back"
+			"item_type_name"		"#DOTA_WearableType_Cape"
 			"item_name"		"#DOTA_Item_Cape_of_the_Dark_Magic"
 			"item_slot"		"back"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_Hair_of_the_Dark_Magic"
-			"image_inventory"		"econ/items/invoker/exort_cape"
-			"item_set"		"invoker_exort"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Cape_of_the_Dark_Magic"
+			"image_inventory"		"econ/items/invoker/darkmagic_cape"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -27288,17 +27550,17 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"invoker_dark_magic"
 		}
 		"4649"
 		{
 			"name"		"Bracers of the Dark Magic"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_type_name"		"#DOTA_WearableType_Bracer"
 			"item_name"		"#DOTA_Item_Bracers_of_the_Dark_Magic"
 			"item_slot"		"arms"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_Cape_of_the_Dark_Magic"
-			"image_inventory"		"econ/items/invoker/exort_cape"
-			"item_set"		"invoker_exort"
+			"item_description"		"#DOTA_Item_Desc_Bracers_of_the_Dark_Magic"
+			"image_inventory"		"econ/items/invoker/darkmagic_bracer"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -27342,17 +27604,17 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"invoker_dark_magic"
 		}
 		"4650"
 		{
 			"name"		"Shoulders of the Dark Magic"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_type_name"		"#DOTA_WearableType_Crest"
 			"item_name"		"#DOTA_Item_Shoulders_of_the_Dark_Magic"
 			"item_slot"		"shoulder"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_Bracers_of_the_Dark_Magic"
-			"image_inventory"		"econ/items/invoker/exort_cape"
-			"item_set"		"invoker_exort"
+			"item_description"		"#DOTA_Item_Desc_Shoulders_of_the_Dark_Magic"
+			"image_inventory"		"econ/items/invoker/darkmagic_shoulder"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_invoker"		"1"
@@ -27396,6 +27658,7 @@
 				"PortraitAnimationRate"		"0.000000"
 				"PortraitHideHero"		"0"
 			}
+			"item_set"		"invoker_dark_magic"
 		}
 		"10000"
 		{
@@ -29110,21 +29373,37 @@
 		"10040"
 		{
 			"name"		"Team Pennant: QQ"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_QQ"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_QQ"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_fluffy_bunnies"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_qq"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_qq"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29165,11 +29444,26 @@
 			"image_inventory"		"econ/pennant/pennant_van_buren_boys"
 			"tags"
 			{
-				"team_pennant"		"1"
+				"team_pennant_bbv"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_bbv"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29200,21 +29494,37 @@
 		"10042"
 		{
 			"name"		"Team Pennant: DK"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_DK"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_DK"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team7_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_dk"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_dk"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29245,21 +29555,37 @@
 		"10043"
 		{
 			"name"		"Team Pennant: LGD"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_LGD"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_LGD"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team15_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_lgd"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_lgd"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29290,21 +29616,37 @@
 		"10044"
 		{
 			"name"		"Team Pennant: EHOME"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_EHOME"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_EHOME"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team4_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_ehome"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_ehome"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29335,21 +29677,37 @@
 		"10045"
 		{
 			"name"		"Team Pennant: TongFu"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_TongFu"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_TongFu"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team20_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_tongfu"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_tongfu"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29456,21 +29814,37 @@
 		"10048"
 		{
 			"name"		"Team Pennant: Complexity"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_Complexity"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_Complexity"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team3_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_complexity"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_complexity"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29501,21 +29875,37 @@
 		"10049"
 		{
 			"name"		"Team Pennant: MUFC"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_MUFC"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_MUFC"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team66_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_mufc"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_mufc"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29546,21 +29936,37 @@
 		"10050"
 		{
 			"name"		"Team Pennant: mTw"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_mTw"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_mTw"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team30_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_mtw"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_mtw"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29591,21 +29997,37 @@
 		"10051"
 		{
 			"name"		"Team Pennant: Evil Geniuses"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_EG"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_EG"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team39_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_eg"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_eg"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29636,21 +30058,37 @@
 		"10052"
 		{
 			"name"		"Team Pennant: NaVi"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_NaVi"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_NaVi"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team36_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_navi"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_navi"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29681,21 +30119,37 @@
 		"10053"
 		{
 			"name"		"Team Pennant: CLG"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_CLG"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_CLG"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team22_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_clg"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_clg"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29726,21 +30180,37 @@
 		"10054"
 		{
 			"name"		"Team Pennant: Zenith"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_Zenith"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_Zenith"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team2_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_zenith"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_zenith"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29771,21 +30241,37 @@
 		"10055"
 		{
 			"name"		"Team Pennant: WE"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_WE"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_WE"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team17_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_we"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_we"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29816,21 +30302,37 @@
 		"10056"
 		{
 			"name"		"Team Pennant: aL"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_AL"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_AL"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team6_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_al"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_al"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29861,21 +30363,37 @@
 		"10057"
 		{
 			"name"		"Team Pennant: iG"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_iG"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_iG"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team5_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_ig"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_ig"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29906,21 +30424,37 @@
 		"10058"
 		{
 			"name"		"Team Pennant: Mousesports"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_Mousesports"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_Mousesports"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team26_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_mousesports"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_mousesports"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29951,21 +30485,37 @@
 		"10059"
 		{
 			"name"		"Team Pennant: Orange"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_Orange"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_Orange"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team42_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_orange"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_orange"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -29996,21 +30546,37 @@
 		"10060"
 		{
 			"name"		"Team Pennant: Darer"
-			"prefab"		"dota_misc_item"
+			"prefab"		"dota_tool"
 			"item_type_name"		"#DOTA_WearableType_Fan"
 			"item_name"		"#DOTA_Item_Pennant_Darer"
-			"item_slot"		"fan"
 			"item_rarity"		"mythical"
+			"item_slot"		"fan"
 			"item_description"		"#DOTA_Item_Desc_Pennant_Darer"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/pennant/pennant_team31_icon"
 			"tags"
 			{
 				"team_pennant"		"1"
+				"team_pennant_darer"		"1"
 			}
 			"capabilities"
 			{
 				"can_increment"		"1"
+			}
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant_darer"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
 			}
 			"attributes"
 			{
@@ -33306,6 +33872,76 @@
 					"attribute_class"		"essence_type"
 					"value"		"4"
 				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15096"
+		{
+			"name"		"G-1 Championship League"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_G1Championship"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"17"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_G1Championship_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_g1"
+			"image_banner"		"econ/leagues/subscriptions_g1_ingame"
+			"tournament_url"		"http://media.17173.com/dota/g1/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15097"
+		{
+			"name"		"G-1 Championship League ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_G1Championship_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"17"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_G1Championship_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_g1_admin"
+			"image_banner"		"econ/leagues/subscriptions_g1_ingame"
+			"tournament_url"		"http://media.17173.com/dota/g1/"
+			"attributes"
+			{
 				"disallow recycling"
 				{
 					"attribute_class"		"disallow_recycling"
@@ -37149,6 +37785,56 @@
 				"PortraitHideHero"		"1"
 			}
 		}
+		"20082"
+		{
+			"name"		"Cabalist of Dark Magic Set"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Item_Cabalist_of_Dark_Magic_Set"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Cabalist_of_Dark_Magic_Set"
+			"image_inventory"		"econ/sets/DOTA_Item_Cabalist_of_Dark_Magic_Set"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_invoker"		"1"
+			}
+			"bundle"
+			{
+				"Hair of the Dark Magic"		"1"
+				"Cape of the Dark Magic"		"1"
+				"Bracers of the Dark Magic"		"1"
+				"Shoulders of the Dark Magic"		"1"
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"480.123352 -101.407181 184.440628"
+				"PortraitLookAt"		"10.085449 166.755981 0.000000"
+				"PortraitFOV"		"40.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"241.437607 -111.372849 183.494385"
+				"PortraitLightLookAt"		"42.540001 149.300003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.390000 0.390000 0.390000"
+				"PortraitShadowColor"		"0.060000 0.090000 0.040000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"31.670000 -34.840000 -37.060001"
+				"PortraitAmbientColor"		"0.530000 0.500833 0.501311"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.760000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 	}
 	"attributes"
 	{
@@ -37210,31 +37896,31 @@
 		}
 		"136"
 		{
-			"name"		"uryb essence level"
-			"attribute_class"		"uryb_essence_level"
-			"attribute_name"		"uryb essence level"
+			"name"		"animation mod"
+			"attribute_class"		"animation_mod"
+			"attribute_name"		"animation_mod"
 			"min_value"		"0"
 			"max_value"		"0"
 			"group"		"only_on_unique"
-			"description_string"		"#Attrib_URYBEssenceLevel"
+			"description_string"		"#Attrib_AnimationMod"
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
-			"effect_type"		"neutral"
-			"stored_as_integer"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
 		}
 		"137"
 		{
-			"name"		"opgb essence level"
-			"attribute_class"		"opgb_essence_level"
-			"attribute_name"		"opgb essence level"
+			"name"		"custom powershot"
+			"attribute_class"		"custom_powershot"
+			"attribute_name"		"custom powershot"
 			"min_value"		"0"
 			"max_value"		"0"
 			"group"		"only_on_unique"
-			"description_string"		"#Attrib_OPGBEssenceLevel"
+			"description_string"		"#Attrib_CustomPowershot"
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
-			"effect_type"		"neutral"
-			"stored_as_integer"		"1"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
 		}
 		"138"
 		{
@@ -37263,6 +37949,34 @@
 			"hidden"		"0"
 			"effect_type"		"neutral"
 			"stored_as_integer"		"1"
+		}
+		"140"
+		{
+			"name"		"item set anim"
+			"attribute_class"		"item_set_anim"
+			"attribute_name"		"item_set_anim"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ItemSetAnim"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"141"
+		{
+			"name"		"item set anim bonus"
+			"attribute_class"		"item_set_anim_bonus"
+			"attribute_name"		"item set anim bonus"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ItemSetAnimBonus"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
 		}
 		"142"
 		{
@@ -38543,6 +39257,20 @@
 	}
 	"item_sets"
 	{
+		"antimage_mage_slayer"
+		{
+			"name"		"#DOTA_Set_The_Mage_Slayer"
+			"items"
+			{
+				"Armor of the Mage Slayer"		"1"
+				"Collar of the Mage Slayer"		"1"
+				"Skirt of the Mage Slayer"		"1"
+				"Glaive of the Mage Slayer"		"1"
+				"Bracer of the Mage Slayer"		"1"
+				"Glaive of the Mage Slayer - Off-Hand"		"1"
+				"Mask of the Mage Slayer"		"1"
+			}
+		}
 		"axe_berserker"
 		{
 			"name"		"#DOTA_Set_Axe_Berserker"
@@ -38755,6 +39483,16 @@
 			}
 			"store_bundle"		"Demonic Vandal's Set"
 		}
+		"death_prophet_corpse_maiden"
+		{
+			"name"		"#DOTA_Set_The_Corpse_Maiden"
+			"items"
+			{
+				"Dress of the Corpse Maiden"		"1"
+				"Wicked Collar of the Corpse Maiden"		"1"
+				"Ghastly Scarf of the Corpse Maiden"		"1"
+			}
+		}
 		"dragon_knight_crimson_wyvern"
 		{
 			"name"		"#DOTA_Set_Enchanted_Plate_of_the_Crimson_Wyvern"
@@ -38934,6 +39672,18 @@
 				"Tusked Bracers"		"1"
 			}
 			"store_bundle"		"Scion of the Savage Set"
+		}
+		"invoker_dark_magic"
+		{
+			"name"		"#DOTA_Set_The_Cabalist_of_Dark_Magic"
+			"store_bundle"		"Cabalist of Dark Magic Set"
+			"items"
+			{
+				"Hair of the Dark Magic"		"1"
+				"Cape of the Dark Magic"		"1"
+				"Shoulders of the Dark Magic"		"1"
+				"Bracers of the Dark Magic"		"1"
+			}
 		}
 		"invoker_exort"
 		{
@@ -39349,16 +40099,24 @@
 				"Sparrowhawk Quiver"		"1"
 				"Sparrowhawk Wings"		"1"
 			}
+			"attributes"
+			{
+				"item set anim bonus"
+				{
+					"attribute_class"		"item_set_anim_bonus"
+					"value"		"1"
+				}
+			}
 		}
 		"windrunner_zarukina"
 		{
 			"name"		"#DOTA_Set_ZaruKina_Protectors_Garb"
 			"items"
 			{
-				"Zaru'Kina Protector Cape"		"1"
-				"Zaru'Kina Protector Bow"		"1"
-				"Zaru'Kina Protector Pads"		"1"
-				"Zaru'kina Protector Hair"		"1"
+				"Zaru'Kina Protector's Cape"		"1"
+				"Zaru'Kina Protector's Bow"		"1"
+				"Zaru'Kina Protector's Pads"		"1"
+				"Zaru'Kina Protector's Hair"		"1"
 			}
 		}
 		"witchdoctor_tale_teller"
