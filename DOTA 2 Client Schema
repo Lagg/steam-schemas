@@ -33313,6 +33313,76 @@
 				}
 			}
 		}
+		"15096"
+		{
+			"name"		"G-1 Championship League"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_G1Championship"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"17"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_G1Championship_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_g1"
+			"image_banner"		"econ/leagues/subscriptions_g1_ingame"
+			"tournament_url"		"http://media.17173.com/dota/g1/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15097"
+		{
+			"name"		"G-1 Championship League ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_G1Championship_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"17"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_G1Championship_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_g1_admin"
+			"image_banner"		"econ/leagues/subscriptions_g1_ingame"
+			"tournament_url"		"http://media.17173.com/dota/g1/"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"20000"
 		{
 			"name"		"Of Ebony and Ivory Set"
