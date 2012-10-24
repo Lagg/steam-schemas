@@ -38933,6 +38933,35 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
+		"2091"
+		{
+			"name" "Sega Total War Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"The King of Scotland Cape"		"1"
+				"The Menpo"						"1"
+				"The K-9 Mane"					"1"
+				"The Stovepipe Sniper Shako"	"1"
+				"The Foppish Physician"			"1"
+				"The Distinguished Rogue"		"1"
+				"The Freedom Staff"				"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"Sega Total War Bundle"
+			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
+		}
 
 
 

@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.dbf1ecd67ba2ee270901d2cb3c7c2486510e83fd.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e668f36370dce6301d3c355af72e88ba9aea38ea.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -32398,6 +32398,39 @@
 					"strange_parts": true,
 					"can_card_upgrade": true
 				}
+			},
+			{
+				"name": "Sega Total War Bundle",
+				"defindex": 2091,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Sega Total War Bundle",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Craft Bar Level 1",
