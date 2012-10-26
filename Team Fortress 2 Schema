@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.4765caaa99b3437abd0c115d775641e85c48eb69.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.9ef1d0f82d8d48df6f5e9284e2800516c0bcc4a7.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -2816,6 +2816,9 @@
 					},
 					{
 						"name": "Ghastlierest"
+					},
+					{
+						"name": "Ghostly"
 					}
 				]
 				,
@@ -8005,6 +8008,9 @@
 					},
 					{
 						"name": "Ghastly"
+					},
+					{
+						"name": "Ghostly"
 					}
 				]
 				,
@@ -18053,6 +18059,15 @@
 					"strange_parts": true,
 					"can_card_upgrade": true
 				},
+				"styles": [
+					{
+						"name": "Ghastly"
+					},
+					{
+						"name": "Ghostly"
+					}
+				]
+				,
 				"attributes": [
 					{
 						"name": "cannot trade",
@@ -22995,6 +23010,11 @@
 						"name": "pyrovision only DISPLAY ONLY",
 						"class": "pyrovision_only_display",
 						"value": 1.000000
+					},
+					{
+						"name": "pyrovision opt in DISPLAY ONLY",
+						"class": "pyrovision_opt_in_display_only",
+						"value": 1.000000
 					}
 				]
 				
@@ -23039,6 +23059,11 @@
 					{
 						"name": "pyrovision only DISPLAY ONLY",
 						"class": "pyrovision_only_display",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision opt in DISPLAY ONLY",
+						"class": "pyrovision_opt_in_display_only",
 						"value": 1.000000
 					}
 				]
@@ -23140,6 +23165,11 @@
 						"name": "pyrovision only DISPLAY ONLY",
 						"class": "pyrovision_only_display",
 						"value": 1.000000
+					},
+					{
+						"name": "pyrovision opt in DISPLAY ONLY",
+						"class": "pyrovision_opt_in_display_only",
+						"value": 1.000000
 					}
 				]
 				
@@ -23172,6 +23202,11 @@
 					{
 						"name": "vision opt in flags",
 						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision opt in DISPLAY ONLY",
+						"class": "pyrovision_opt_in_display_only",
 						"value": 1.000000
 					},
 					{
@@ -23210,6 +23245,11 @@
 					{
 						"name": "vision opt in flags",
 						"class": "vision_opt_in_flags",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision opt in DISPLAY ONLY",
+						"class": "pyrovision_opt_in_display_only",
 						"value": 1.000000
 					}
 				]
@@ -23256,6 +23296,11 @@
 					{
 						"name": "pyrovision only DISPLAY ONLY",
 						"class": "pyrovision_only_display",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision opt in DISPLAY ONLY",
+						"class": "pyrovision_opt_in_display_only",
 						"value": 1.000000
 					},
 					{
@@ -23307,6 +23352,11 @@
 					{
 						"name": "pyrovision only DISPLAY ONLY",
 						"class": "pyrovision_only_display",
+						"value": 1.000000
+					},
+					{
+						"name": "pyrovision opt in DISPLAY ONLY",
+						"class": "pyrovision_opt_in_display_only",
 						"value": 1.000000
 					}
 				]
@@ -27620,6 +27670,36 @@
 				
 			},
 			{
+				"name": "The Rump-o'-Lantern",
+				"defindex": 869,
+				"item_class": "tf_wearable",
+				"item_type_name": "Lantern",
+				"item_name": "Rump-o'-Lantern",
+				"item_description": "Since time immemorial man has had two dreams: the dream of flying, and the dream of tricking people into thinking your ass is haunted. Airplanes took care of the easy dream. This miracle ass lantern tackles the other.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/pumpkin_lantern_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/pumpkin_lantern_engineer",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pumpkin_lantern_engineer.66ec2cb1ac0d36a4e4667cba4f34f5779819e0f4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pumpkin_lantern_engineer_large.8a6106c5be1adfd1f68294b3cdf67ff45a891148.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				}
+			},
+			{
 				"name": "Tour of Duty Badge Intermediate 1",
 				"defindex": 870,
 				"item_class": "tf_wearable",
@@ -29425,6 +29505,394 @@
 				
 			},
 			{
+				"name": "Sir Hootsalot",
+				"defindex": 917,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Animal",
+				"item_name": "Sir Hootsalot",
+				"item_description": "If owls are so smart, why did this one let you glue it to your shoulder? Come to think of it, neither one of you is looking like a super-genius on this one.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/sniper_owl.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/sniper_owl",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sniper_owl.be456f32546c746671298c98479e751df484a5b7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sniper_owl_large.12cf942b575d07336ba62819398a3c1c4046cc72.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"styles": [
+					{
+						"name": "TF_SniperOwl_Style0"
+					},
+					{
+						"name": "TF_SniperOwl_Style1"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Master Mind",
+				"defindex": 918,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Master Mind",
+				"item_description": "Science fact: the human brain is 70% more effective when exposed to oxygen. Fashion fact: the human brain is 90% cooler-looking when you glue lots of Radio Shack stuff to it. Finally, an item that capitalizes on both.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/engineer_brain.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/engineer_brain",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_brain.c5af893b4b40941d88dfe98be9019307189484a3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_brain_large.967074e26aca6d5fdc0d1bbdf6c8e40ddd2070b7.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				
+			},
+			{
+				"name": "The Scarecrow",
+				"defindex": 919,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Scarecrow",
+				"item_description": "Need a scarecrow but you're short on wood and straw? Why not capture the Spy, stitch his mouth shut, give him buttons for eyes and stick him in your corn field? He probably won't mind. Everybody likes corn.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/workshop\/player\/items\/spy\/spy_scarecrowface\/spy_scarecrowface.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/workshop\/player\/items\/spy\/spy_scarecrowface\/spy_scarecrowface",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_scarecrowface.ef54f438aa574518bcf84bff42fd5466f675d820.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_scarecrowface_large.082ec6f61a9d09a138cd3723ccedc2b227685af5.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Crone's Dome",
+				"defindex": 920,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Crone's Dome",
+				"item_description": "For hundreds of years, women have enjoyed all the perks of being a witch (making potions, having warts, getting burned alive) while men stood on the sidelines. No longer! Break through that haunted glass ceiling with the Crone's Dome.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/witchhat_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/witchhat_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/witchhat_demo.75012466ebcf4d9d81c6d7f75ca646b673114353.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/witchhat_demo_large.e66f59c194331b2ed7805738d3778765b579026d.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				}
+			},
+			{
+				"name": "The Executioner",
+				"defindex": 921,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Executioner",
+				"item_description": "Being an executioner is a lot more than just killing people. Sometimes you get to torture them first. Tip: To make things interesting, why not torture someone until they yell the secret word? (Hint: the secret word is \"Freedom\".)",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/executionerhood_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/executionerhood_medic",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/executionerhood_medic.20ad21d171cb0b3d8491e5ab52844e4a5a189d29.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/executionerhood_medic_large.63e1c91d24d3b9be0242243d665529fb3b1cbb85.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				}
+			},
+			{
+				"name": "The Bonedolier",
+				"defindex": 922,
+				"item_class": "tf_wearable",
+				"item_type_name": "Bones",
+				"item_name": "Bonedolier",
+				"item_description": "Scare your friends into thinking you're carrying around deadly grenades. Bask in their relief when it turns out they're only harmless human skulls.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/soldier_grenade_skulls.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/demo_grenade_skulls",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_grenade_skulls.bd629ee344648def1f27b33fa381f7772b8a2fd9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_grenade_skulls_large.f1bf835358dc474987e4252c55c8f5fd5748b1aa.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Soldier",
+					"Demoman",
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Plutonidome",
+				"defindex": 923,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Plutonidome",
+				"item_description": "It's a well-known fact that we only use 10% of our brain power. Which means there's a 90% chance that anything you do to your brain is only going to make you smarter. Like letting it float around in plutonium. Let's be honest, doing nothing isn't making you any smarter.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/pyro_brainhead.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/pyro_brainhead",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_brainhead.93ae8085610bdc998ffa10273456935fcc8e7542.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_brainhead_large.67420ecafe6ec7e121d2553235523af7b1bdf20c.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"styles": [
+					{
+						"name": "TF_PyroBrainhead_Style0"
+					},
+					{
+						"name": "TF_PyroBrainhead_Style1"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Spooky Shoes",
+				"defindex": 924,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shoes",
+				"item_name": "Spooky Shoes",
+				"item_description": "From Hell! Size 666! Outside of Hell, that’s a 5 1\/2. Men’s! Experience the agonizing terror of tiny man feet!.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/scout_halloweenshoes.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/scout_halloweenshoes",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_halloweenshoes.13c570ac7ac6a5a2f54f0739b57d2da2eae939dd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_halloweenshoes_large.de72936f1359702271d2156afdbfa31df6325a1f.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Spooky Sleeves",
+				"defindex": 925,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Spooky Sleeves",
+				"item_description": "Get these now, before Glenn Danzig finds out about them and buys them all! Seriously, you can have a world where these spooky sleeves are in stock, or a world where Glenn Danzig exists, but not both! Hurry! He's googling \"spooky sleeves\" RIGHT NOW!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/scout_halloweenjacket.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/scout_halloweenjacket",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_halloweenjacket.43b9b49afc060425bec3b77fbea09905bf9f4ea6.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_halloweenjacket_large.56c928c653947f9459664efeebac673d2683ad6a.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				
+			},
+			{
+				"name": "The Zipperface",
+				"defindex": 926,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Zipperface",
+				"item_description": "\"Daddy, what does your skull look like?\" \"I guess we'll never know, thanks to my stupid face.\" Pow-zoop! Zipperface! Never look like an idiot in front of your kids again!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/soldier_zipperhead.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/soldier_zipperhead",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_zipperhead.6f94c88ee4adead5eff4baa7a888ccedfb3bed05.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_zipperhead_large.2c30b12e0bdede8294a6b39142c1741acd88094a.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				
+			},
+			{
+				"name": "The Boo Balloon",
+				"defindex": 927,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Boo Balloon",
+				"item_description": "These cheery (but terrifying!) balloons are made from the actual inflated faces of ghosts. Order now, before those uppity ghost rights activists get wind of this and shut it down.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/hwn_pet_balloon.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/hwn_pet_balloon",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_pet_balloon.c1e7a0d119ebb58360a0a4e8fc4e3f4ed79af6f4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_pet_balloon_large.d758509b3b57f67d2339c5fd24a80c35099d0851.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Portal 2 Soundtrack Promo Package",
 				"defindex": 928,
 				"item_class": "craft_item",
@@ -29450,6 +29918,429 @@
 
 				]
 				
+			},
+			{
+				"name": "The Unknown Monkeynaut",
+				"defindex": 929,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Unknown Monkeynaut",
+				"item_description": "Have an actual ghost of Mann Co.'s first doomed monkeynaut expedition haunt your shoulder! Unlike the many other doomed monkeynaut expeditions undertaken by Mann Co., Operation Banana Catapult was unique in that no space shuttles were even used.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/hwn_ghost_pj.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/hwn_ghost_pj",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_ghost_pj.4131385156d96a745c5f0745c0ea70867cdb5bfe.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_ghost_pj_large.04bbd851b5dc3f94029bc1def882583bcf91f503.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Grand Duchess Tutu",
+				"defindex": 930,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Grand Duchess Tutu",
+				"item_description": "Celebrate the life of Grand Duchess Anastasia Nikolaevna with this somber historical costume. Enjoy this replica of the tutu she wore while governing Russia from atop her hundred-foot-tall gumdrop throne.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/heavy_fairy_tutu.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/heavy_fairy_tutu",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_fairy_tutu.517e1f5879e2c7cd4c51e1f743b74f0ea1d496bb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_fairy_tutu_large.3b64585427a5dc062cb47a83379a25d58c68e117.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Grand Duchess Fairy Wings",
+				"defindex": 931,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Grand Duchess Fairy Wings",
+				"item_description": "Celebrate the life of Grand Duchess Anastasia Nikolaevna with this somber historical costume. Enjoy this replica of the fairy wings she wore while governing Russia from atop her hundred-foot-tall gumdrop throne.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/heavy_fairy_wings.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/heavy_fairy_wings",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_fairy_wings.0b62ab9967da9e5c81e66034500e4a1650bf3e61.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_fairy_wings_large.e6f7c9feaed6ac637ae195dfe660ecd50e512c85.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Grand Duchess Tiara",
+				"defindex": 932,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Grand Duchess Tiara",
+				"item_description": "Celebrate the life of Grand Duchess Anastasia Nikolaevna with this somber historical costume. Enjoy this replica of the tiara she wore while governing Russia from atop her hundred-foot-tall gumdrop throne.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/heavy_fairy_tiara.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/heavy_fairy_tiara",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_fairy_tiara.4076bf560424d5da43db11614e309dc6492c3224.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_fairy_tiara_large.04654ea9ecd26a408833af5975e4ee60a2df0dca.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Dead Little Buddy",
+				"defindex": 934,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Dead Little Buddy",
+				"item_description": "Take a hike, dogs--there's a new Man's Best Friend on the market. Your pet ghost is guaranteed to be loyal (he's dead! He doesn't know anybody else!), great around children (he used to be one!), and house-trained (ghosts don't poop).",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/hwn_pet_ghost.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/hwn_pet_ghost",
+				"min_ilevel": 20,
+				"max_ilevel": 20,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_pet_ghost.e946936505b2dea3df7bf72fe87498e638ce1e2f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_pet_ghost_large.eb2427c186c1b81f823b48bd933ee2caad4c84c1.png",
+				"drop_type": "none",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Voodoo Juju (Slight Return)",
+				"defindex": 935,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Voodoo JuJu (Slight Return)",
+				"item_description": "Bones: They hold your body up, keep all your meat in place, and they're all that separates us from jellyfish. Why keep them inside, where they can't get the acclaim they deserve? Here's to you, bones.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/demo\/demo_bonehat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/demo_bonehat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_bonehat.f89d96df08bfbcb8a6bf1009c6d61434d5b1035d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_bonehat_large.441d8b78b2ecf9d8bf3cd09a38fe7ce92fb98988.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Exorcizor",
+				"defindex": 936,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Exorcizor",
+				"item_description": "The power of Christ compels you... to get this snazzy exorcizing outfit!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/hwn_spy_priest.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/hwn_spy_priest",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_spy_priest.ef8552ddf32a08864f6fed3cd1e5ed78390a421b.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_spy_priest_large.cdf21906ad3178bf38f751bc15f7303e97e7f4f1.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				
+			},
+			{
+				"name": "The Wraith Wrap",
+				"defindex": 937,
+				"item_class": "tf_wearable",
+				"item_type_name": "Apparel",
+				"item_name": "Wraith Wrap",
+				"item_description": "The perfect accessory for maintaining anonymity while stealing rings from midgets.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/hwn_pyro_spookyhood.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/hwn_pyro_spookyhood",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_pyro_spookyhood.a66f51c4cf3ea37ac4f86a2a92cb32938e83a95f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_pyro_spookyhood_large.28409bcaf09c69f3ba65761630010d928e074370.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Coffin Kit",
+				"defindex": 938,
+				"item_class": "tf_wearable",
+				"item_type_name": "Backpack",
+				"item_name": "Coffin Kit",
+				"item_description": "Unlike other survival packs, this handy last-aid kit rightly assumes that the moment you're in a survival situation, you are going to die. Just pull the ripcord to inflate the minature coffin into a standard corpse-sized one that you can die right into.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/hwn_pyro_coffinpack.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/hwn_pyro_coffinpack",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_pyro_coffinpack.94200426ff8c69a1fd1c9d173e232235c03e49d6.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hwn_pyro_coffinpack_large.95689606f4548ae249afe4927d6c0d47663c8558.png",
+				"drop_type": "none",
+				"craft_class": "hat",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
+			},
+			{
+				"name": "The Bat Outta Hell",
+				"defindex": 939,
+				"item_class": "saxxy",
+				"item_type_name": "TF_Weapon_Skullbat",
+				"item_name": "Bat Outta Hell",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_skullbat\/c_skullbat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_skullbat\/c_skullbat",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_skullbat.6c0934b8f63364506ff0cd142c6cf38962eabcae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_skullbat_large.f9d342eaefec6cacada225eab98e8225e49fea9e.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"styles": [
+					{
+						"name": "TF_Skullbat_Style0"
+					},
+					{
+						"name": "TF_Skullbat_Style1"
+					},
+					{
+						"name": "TF_Skullbat_Style2"
+					},
+					{
+						"name": "TF_Skullbat_Style3"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Soldier",
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ghostly Gibus",
+				"defindex": 940,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Ghostly Gibus",
+				"item_description": "Dominate a player wearing any Gibus hat, collect the Ghostly Gibus, and take your rightful place on the Halloween-update-related-hat-throne.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/ghostly_gibus_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/ghostly_gibus_demo",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ghostly_gibus_demo.edcf3a97442fe23ebec9559df8388cb27ad17084.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ghostly_gibus_demo_large.8ad991f3508316565497b7db83f6151be0ee3933.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Skull Island Topper",
+				"defindex": 941,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Skull Island Topper",
+				"item_description": "This terrifying (innocuous) witching cap was found by the all-powerful (mediocre) wizard Merasmus in the depths of the Hades Spiral (right near the entrance of the Hades Spiral).",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/merasmus_skull_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/merasmus_skull",
+				"min_ilevel": 31,
+				"max_ilevel": 31,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/merasmus_skull.13619009044fe0d0de542804733f025bc9d2491e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/merasmus_skull_large.e459125659a248204659b0689fd29d1755ba7df5.png",
+				"drop_type": "drop",
+				"capabilities": {
+					"nameable": true,
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				}
 			},
 			{
 				"name": "World Traveler",
@@ -32430,6 +33321,32 @@
 						"class": "set_elevated_quality",
 						"value": 1.000000
 					}
+				]
+				
+			},
+			{
+				"name": "Halloween 2012 Community Bundle",
+				"defindex": 2092,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Halloween 2012 Community Bundle",
+				"item_description": "This spooky bundle contains more than twenty incredible items created by members of the TF2 community to celebrate the Fourth Annual Spectral Halloween Special:",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/halloween_bundle",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/halloween_bundle.710542af3933b20c772885d8924ac2d5efe79f45.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/halloween_bundle_large.7e4eb46271b8ff87d9cd05dce1677245622eb420.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
 				]
 				
 			},
@@ -35591,6 +36508,742 @@
 				}
 			},
 			{
+				"name": "Voodoo-Cursed Item (Armory)",
+				"defindex": 5608,
+				"item_class": "craft_item",
+				"item_type_name": "Cursed Object",
+				"item_name": "Voodoo-Cursed Object",
+				"item_description": "Each voodoo-cursed object has a tiny amount of curse remaining in it. You can combine seven of these smaller items on the craft screen to get a larger curse. Anything could happen!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/hwn_crafting\/mvm_skeleton_arm",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mvm_skeleton_arm.c361c372cf80a9acb831e718826c77015a35db3f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mvm_skeleton_arm_large.281e42cea08ce37d5a594ed6b802910ca78854f8.png",
+				"craft_material_type": "craft_material_voodoocursed",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Voodoo-Cursed Old Boot",
+				"defindex": 5609,
+				"item_class": "craft_item",
+				"item_type_name": "Cursed Object",
+				"item_name": "Voodoo-Cursed Old Boot",
+				"item_description": "This boot has a tiny amount of curse remaining in it. You can craft together seven cursed items to get a larger curse. Anything could happen!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/hwn_crafting\/hh_gib_boot",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hh_gib_boot.5235b50fbc83b794194002427ef9d04b5a4202cd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hh_gib_boot_large.4270f6ab6988458d36526b928efb6b8eac5dec5a.png",
+				"craft_material_type": "craft_material_voodoocursed",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Voodoo-Cursed Skeleton",
+				"defindex": 5610,
+				"item_class": "craft_item",
+				"item_type_name": "Cursed Object",
+				"item_name": "Voodoo-Cursed Skeleton",
+				"item_description": "These bones have a tiny amount of curse remaining in them. You can craft together seven cursed items to get a larger curse. Anything could happen!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/hwn_crafting\/mvm_skeleton_arm",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mvm_skeleton_arm.c361c372cf80a9acb831e718826c77015a35db3f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/mvm_skeleton_arm_large.281e42cea08ce37d5a594ed6b802910ca78854f8.png",
+				"craft_material_type": "craft_material_voodoocursed",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Voodoo-Cursed Bag Of Quicklime",
+				"defindex": 5611,
+				"item_class": "craft_item",
+				"item_type_name": "Cursed Object",
+				"item_name": "Voodoo-Cursed Bag Of Quicklime",
+				"item_description": "This bag has a tiny amount of curse remaining in it. You can craft together seven cursed items to get a larger curse. Anything could happen!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/hwn_crafting\/sack_flat",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sack_flat.9fe171e4ea027b32ccba4c5a6efdfc2e0d0175f4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sack_flat_large.6c82b5ee35137f0de6639fe3836d407cd45ef198.png",
+				"craft_material_type": "craft_material_voodoocursed",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Voodoo-Cursed Robot Arm",
+				"defindex": 5612,
+				"item_class": "craft_item",
+				"item_type_name": "Cursed Object",
+				"item_name": "Voodoo-Cursed Robot Arm",
+				"item_description": "This arm has a tiny amount of curse remaining in it. You can craft together seven cursed items to get a larger curse. Anything could happen!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/hwn_crafting\/soldierbot_gib_arm2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldierbot_gib_arm2.3a85e7efd55360ca215ada177ad1c48efb6cdb62.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldierbot_gib_arm2_large.b7ee535bb7c08610e2e657050e8f60d462cde3ce.png",
+				"craft_material_type": "craft_material_voodoocursed",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Voodoo-Cursed Novelty Bass",
+				"defindex": 5613,
+				"item_class": "craft_item",
+				"item_type_name": "Cursed Object",
+				"item_name": "Voodoo-Cursed Novelty Bass",
+				"item_description": "For whatever reason, this fish has a tiny amount of curse remaining in it. You can craft together seven cursed items to get a larger curse. Anything could happen!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/hwn_crafting\/trophy_bass",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trophy_bass.87b7c96d6c09562d588a0d8adc49548fe55dbeab.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/trophy_bass_large.24883c652a28cf4828da0e54b29ce447196f86e7.png",
+				"craft_material_type": "craft_material_voodoocursed",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Voodoo-Cursed Sticky-Bomb",
+				"defindex": 5614,
+				"item_class": "craft_item",
+				"item_type_name": "Cursed Object",
+				"item_name": "Voodoo-Cursed Sticky-Bomb",
+				"item_description": "This shrapnel has a tiny amount of curse remaining in it. You can craft together seven cursed items to get a larger curse. Anything could happen!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/hwn_crafting\/w_stickybomb_gib4",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_stickybomb_gib4.3cf7586b6ab293728c8d651173f2c7ef6b85dbe3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_stickybomb_gib4_large.063e7d52409491a4c0d71d2a4ebedc302a814b71.png",
+				"craft_material_type": "craft_material_voodoocursed",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Voodoo-Cursed Nail",
+				"defindex": 5615,
+				"item_class": "craft_item",
+				"item_type_name": "Cursed Object",
+				"item_name": "Voodoo-Cursed Nail",
+				"item_description": "This nail has a tiny amount of curse remaining in it. You can craft together seven cursed items to get a larger curse. Anything could happen!",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/hwn_crafting\/w_nail",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_nail.017bc2964d24629ff270fa26eb25e388bf15523f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/w_nail_large.0ddbc8b7895659dfec5cd09cda92d4e32b9ab443.png",
+				"craft_material_type": "craft_material_voodoocursed",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
+				"name": "Voodoo-Cursed Soul (Armory)",
+				"defindex": 5616,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/engineer_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_zombie.9c40388eb6bf93770beeaf31986ad898721cf939.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_zombie_large.4c360bae12e1c46594278c5f5fc13d3c75c7715e.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Scout",
+				"defindex": 5617,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Scout Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/scout_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/scout_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_zombie.f17489a99d6b046ff612c865d783c5b7a394591c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_zombie_large.cd8bfb3877ecc1c407a240c1a149e9126c641e0c.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Soldier",
+				"defindex": 5618,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Soldier Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/soldier\/soldier_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/soldier_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_zombie.7f77ceba6ed9e0fce809f41dd9244acb075a89ff.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/soldier_zombie_large.5de8c8e6b9fa10a0095416aad8983f9a94ebc7e3.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Heavy",
+				"defindex": 5619,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Heavy Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/heavy_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/heavy_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_zombie.a8924462e7fec2f12c27b944dab817fe1a4ef5cf.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/heavy_zombie_large.49d6d2bd24f78632fc0464b4335ff8f332ff23e3.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Demo",
+				"defindex": 5620,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Demoman Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/demo_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/demo_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_zombie.c7550db180e5b3f00f3280a9e34fbff16d479eea.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/demo_zombie_large.109612c0224a615572eb79bdd9dc6b2e2136996c.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Engineer",
+				"defindex": 5621,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Engineer Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/engineer_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/engineer_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_zombie.9c40388eb6bf93770beeaf31986ad898721cf939.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_zombie_large.4c360bae12e1c46594278c5f5fc13d3c75c7715e.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Medic",
+				"defindex": 5622,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Medic Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/medic\/medic_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/medic\/medic_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medic_zombie.a9ad13a626dbc0492cfe2d898316087b00e55581.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/medic_zombie_large.45eba32080bb9514383e372a45ccb4b1d68a7a20.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Medic"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Spy",
+				"defindex": 5623,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Spy Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/spy_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/spy_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_zombie.73153a4b72d995c42f877fb963a5f9b103ad83a7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_zombie_large.b321cd393f35abb728f6c1bec59394d83828f4e0.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Pyro",
+				"defindex": 5624,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Pyro Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/pyro\/pyro_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/pyro_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_zombie.8d4ea9b439ed1826f5e0db1af35e8f1429133d33.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/pyro_zombie_large.5898fcb3d175aa1c178ff3c0f904ed9174d7c804.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Zombie Sniper",
+				"defindex": 5625,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cursed Soul",
+				"item_name": "Voodoo-Cursed Sniper Soul",
+				"item_description": "",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/sniper_zombie.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/sniper_zombie",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sniper_zombie.55fdfa951c0d1970e7b452dc15fbc0fd51af2ba5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/sniper_zombie_large.5d0fb396cde5941c210bb70b0cd73c0c5bc8de3d.png",
+				"holiday_restriction": "halloween_or_fullmoon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "player skin override",
+						"class": "player_skin_override",
+						"value": 1.000000
+					},
+					{
+						"name": "zombiezombiezombiezombie",
+						"class": "zombiezombiezombiezombie",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Pile Of Curses",
+				"defindex": 5626,
+				"item_class": "tf_wearable",
+				"item_type_name": "",
+				"item_name": "Pile Of Curses",
+				"item_description": "It looks like there's something in there... IF YOU DARE!\n\nAfter 11\/9\/2012 this pile will disappear.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/ash_pile_haunted",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ash_pile_haunted.6fd2e19a6a0bd2be772bf16da3e2efd513279172.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ash_pile_haunted_large.ef9aed02ae9d842a8d89cba7cc8b038bfec00033.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "gift",
+					"use_string": "Reach In"
+				}
+			},
+			{
+				"name": "Eerie Crate",
+				"defindex": 5627,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Eerie Crate",
+				"item_description": "This crate's contents are unknown and only\nEerie Keys fit the lock.\n\nA sinister presence lurks within.\n\nAfter 11\/08\/2012 this crate will disappear.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/crate_halloween",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/crate_halloween.97a77ed63620af720a6941e8ca15e1c79d943ccf.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/crate_halloween_large.a07f77277b10bd53fc7af52806387e04ba8476fc.png",
+				"holiday_restriction": "halloween",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "halloween2012"
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 51.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Eerie Key",
+				"defindex": 5628,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "Eerie Key",
+				"item_description": "Used to open Eerie Crates. Eerie Crates contain\nHalloween-themed items that are only visible\nduring the Halloween event and full moons.\n\nAfter 11\/08\/2012 this will turn into a normal key.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/skeleton_key",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/skeleton_key.4d9cc0023ff73a537d8b08e9555f6241f0d47468.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/skeleton_key_large.efa7a7264fe8705c94a63ee446605330ff3e1e1e.png",
+				"holiday_restriction": "halloween",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "decoder_ring",
+					"restriction": "halloween2012",
+					"usage_capabilities": {
+						"decodable": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Strange Part (Armory)",
 				"defindex": 5999,
 				"item_class": "tool",
@@ -36458,6 +38111,86 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 44.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Halloween Kills",
+				"defindex": 6033,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Halloween Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of enemies you kill during the Halloween event.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_halloween_kills",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_halloween_kills.35e5d66d1055889db466fb63eecae059cf41d90c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_halloween_kills_large.b1a130b9d033e665e583862bfe8f293c4ecd9311.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 45.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Robots Destroyed During Halloween",
+				"defindex": 6034,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Robots Destroyed During Halloween",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of invading Robots you destroy with it in Mann-vs-Machine games during the Halloween event.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_mvm_robot_kills_halloween",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_mvm_robot_kills_halloween.b6a4b8fdbe4efd6b65c767bfdb57104a8e94c6c9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/strange_part_mvm_robot_kills_halloween_large.aee214b2c4bd1bdd86f5192dc5e2f2b58a6373b1.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 46.000000
 					}
 				]
 				
@@ -38765,6 +40498,1072 @@
 					}
 				]
 				
+			},
+			{
+				"name": "Halloween Spell: Paint 1",
+				"defindex": 8900,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Putrescent Pigmentation",
+				"item_description": "Possess the petrifying power of paranormal paint!\nThis spell can be applied to any paintable item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_florence",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence.cc7f47c43f77b104dcca67701c72179a6232870a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence_large.87540f185abec0f52336b69323646a79dfefa21d.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 65280.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Paint 2",
+				"defindex": 8901,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Die Job",
+				"item_description": "Possess the petrifying power of paranormal paint!\nThis spell can be applied to any paintable item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_florence",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence.cc7f47c43f77b104dcca67701c72179a6232870a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence_large.87540f185abec0f52336b69323646a79dfefa21d.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 255.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Paint 3",
+				"defindex": 8902,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Chromatic Corruption",
+				"item_description": "Possess the petrifying power of paranormal paint!\nThis spell can be applied to any paintable item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_florence",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence.cc7f47c43f77b104dcca67701c72179a6232870a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence_large.87540f185abec0f52336b69323646a79dfefa21d.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16711680.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Paint 4",
+				"defindex": 8903,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Spectral Spectrum",
+				"item_description": "Possess the petrifying power of paranormal paint!\nThis spell can be applied to any paintable item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_florence",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence.cc7f47c43f77b104dcca67701c72179a6232870a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence_large.87540f185abec0f52336b69323646a79dfefa21d.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16744192.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Paint 5",
+				"defindex": 8904,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Sinister Staining",
+				"item_description": "Possess the petrifying power of paranormal paint!\nThis spell can be applied to any paintable item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_florence",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence.cc7f47c43f77b104dcca67701c72179a6232870a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_florence_large.87540f185abec0f52336b69323646a79dfefa21d.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16776960.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Soldier Voice",
+				"defindex": 8905,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Soldier's Booming Bark",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Soldier hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16711680.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Scout Voice",
+				"defindex": 8906,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Scout's Spectral Snarl",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Scout hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 65280.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Sniper Voice",
+				"defindex": 8907,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Sniper's Deep Downunder Drawl",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Sniper hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 255.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Engineer Voice",
+				"defindex": 8908,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Engineers's Gravelly Growl",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Engineer hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16776960.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Heavy Voice",
+				"defindex": 8909,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Heavy's Bottomless Bass",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Heavy hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16711935.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Demoman Voice",
+				"defindex": 8910,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Demoman's Cadaverous Croak",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Demoman hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 65535.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Pyro Voice",
+				"defindex": 8911,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Pyro's Muffled Moan",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Pyro hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16742399.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Spy Voice",
+				"defindex": 8912,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Spy's Creepy Croon",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Spy hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 13421772.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Medic Voice",
+				"defindex": 8913,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Medic's Blood-curdling Bellow",
+				"item_description": "These spells make the Merc’s voices 4% sexier and 130% spookier – except for Scout’s, which is -5% sexier.\nThis spell can be applied to a Medic hat.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_erlenmeyer",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer.4499983a165ef3feb171231b05d5e7aa684872e2.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_erlenmeyer_large.fbc70b81f9f841be388e19b265fed593779c11c7.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16737280.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Team Spirit Footprints",
+				"defindex": 8914,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Team Spirit Footprints",
+				"item_description": "These colors don’t run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_bottle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle.af2ccb2e2e7afcae4ae2ff8b755a129e00a7de90.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle_large.23e1595fbcc3427150e8482e5e4c1e19cb069396.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 14540032.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Gangreen Footprints",
+				"defindex": 8915,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Gangreen Footprints",
+				"item_description": "These colors don’t run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_bottle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle.af2ccb2e2e7afcae4ae2ff8b755a129e00a7de90.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle_large.23e1595fbcc3427150e8482e5e4c1e19cb069396.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 39168.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Corpse Gray Footprints",
+				"defindex": 8916,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Corpse Gray Footprints",
+				"item_description": "These colors don’t run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_bottle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle.af2ccb2e2e7afcae4ae2ff8b755a129e00a7de90.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle_large.23e1595fbcc3427150e8482e5e4c1e19cb069396.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 3100495.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Violent Violet Footprints",
+				"defindex": 8917,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Violent Violet Footprints",
+				"item_description": "These colors don’t run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_bottle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle.af2ccb2e2e7afcae4ae2ff8b755a129e00a7de90.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle_large.23e1595fbcc3427150e8482e5e4c1e19cb069396.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16742399.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Rotten Orange Footprints",
+				"defindex": 8918,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Rotten Orange Footprints",
+				"item_description": "These colors don’t run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_bottle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle.af2ccb2e2e7afcae4ae2ff8b755a129e00a7de90.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle_large.23e1595fbcc3427150e8482e5e4c1e19cb069396.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16737280.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Bruised Purple Footprints",
+				"defindex": 8919,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Bruised Purple Footprints",
+				"item_description": "These colors don’t run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_bottle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle.af2ccb2e2e7afcae4ae2ff8b755a129e00a7de90.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle_large.23e1595fbcc3427150e8482e5e4c1e19cb069396.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 2490623.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Headless Horseshoes",
+				"defindex": 8920,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Headless Horseshoes",
+				"item_description": "These colors don’t run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_bottle",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle.af2ccb2e2e7afcae4ae2ff8b755a129e00a7de90.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_bottle_large.23e1595fbcc3427150e8482e5e4c1e19cb069396.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 9109759.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Exorcism",
+				"defindex": 8921,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Exorcism",
+				"item_description": "The power of deadly force compels you!\nThis spell can be applied to any weapon that deals damage.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_vial",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_vial.72962a062a3ec2180316cdaa5742015dee2bda69.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_vial_large.2cfb075a11239894dc3e48b77fd2e14c5f108da2.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 13369344.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Squash Rockets",
+				"defindex": 8922,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Squash Rockets",
+				"item_description": "Death not frightening enough for your enemies? Hit them with these special Halloween spells!\nThis spell can be applied to any rocket launcher",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_tub",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_tub.5607977dd8ed7dc2bd3112f097654c009e7938e3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_tub_large.8f7679529fe7815d90b08ec9868f010b02a31e0b.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 12517631.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Gourd Grenades",
+				"defindex": 8923,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Gourd Grenades",
+				"item_description": "Death not frightening enough for your enemies? Hit them with these special Halloween spells!\nThis spell can be applied to any Demoman explosive weapon",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_tub",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_tub.5607977dd8ed7dc2bd3112f097654c009e7938e3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_tub_large.8f7679529fe7815d90b08ec9868f010b02a31e0b.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 16741656.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Sentry Quad-Pumpkins",
+				"defindex": 8924,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Sentry Quad-Pumpkins",
+				"item_description": "Death not frightening enough for your enemies? Hit them with these special Halloween spells!\nThis spell can be applied to any wrench",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_tub",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_tub.5607977dd8ed7dc2bd3112f097654c009e7938e3.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_tub_large.8f7679529fe7815d90b08ec9868f010b02a31e0b.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 205.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Halloween Spell: Spectral Flame",
+				"defindex": 8925,
+				"item_class": "tool",
+				"item_type_name": "TF_SpellTool",
+				"item_name": "Halloween Spell: Spectral Flame",
+				"item_description": "Death not frightening enough for your enemies? Hit them with these special Halloween spells!\nThis spell can be applied to any flamethrower",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/flask_tube",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_tube.e94508f8a8340b5685836e474ac66e24a4745c3a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/flask_tube_large.395844517219572d0ca7d4ae1df64fceab2696dc.png",
+				"craft_class": "tool",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "apply_custom_attrib",
+					"usage_capabilities": {
+						"can_card_upgrade": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set item tint RGB",
+						"class": "set_item_tint_rgb",
+						"value": 3329330.000000
+					}
+				]
+				
 			}
 		]
 		,
@@ -39393,7 +42192,7 @@
 				"attribute_class": "set_fire_retardant",
 				"min_value": 1.000000,
 				"max_value": 1.000000,
-				"description_string": "Attrib_FireRetardant",
+				"description_string": "Wearer cannot ignite",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -42673,6 +45472,18 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "hide enemy health",
+				"defindex": 336,
+				"attribute_class": "hide_enemy_health",
+				"min_value": 0.000000,
+				"max_value": 1.000000,
+				"description_string": "Unable to see enemy health",
+				"description_format": "value_is_additive",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "subtract victim medigun charge on hit",
 				"defindex": 337,
 				"attribute_class": "subtract_victim_medigun_charge_onhit",
@@ -43411,9 +46222,9 @@
 				"stored_as_integer": false
 			},
 			{
-				"name": "squad surplus claimer id",
+				"name": "squad surplus claimer id DEPRECATED",
 				"defindex": 403,
-				"attribute_class": "squad_surplus_claimer_account_id",
+				"attribute_class": "squad_surplus_claimer_account_id_DEPRECATED",
 				"min_value": 0.950000,
 				"max_value": 0.850000,
 				"description_string": "Squad surplus claimed by: %s1",
@@ -43452,7 +46263,6 @@
 				"attribute_class": "vision_opt_in_flags",
 				"min_value": 0.000000,
 				"max_value": 32.000000,
-				"description_string": "On Equip: Visit Pyroland",
 				"description_format": "value_is_or",
 				"effect_type": "positive",
 				"hidden": false,
@@ -43659,6 +46469,18 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "sapper damage bonus",
+				"defindex": 425,
+				"attribute_class": "mult_sapper_damage",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "+%s1% sapper damage bonus",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "sapper damage penalty",
 				"defindex": 426,
 				"attribute_class": "mult_sapper_damage",
@@ -43667,6 +46489,30 @@
 				"description_string": "%s1% sapper damage penalty",
 				"description_format": "value_is_percentage",
 				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper damage leaches health",
+				"defindex": 427,
+				"attribute_class": "sapper_damage_leaches_health",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "+%s1 health regenerated per second for each active sapper",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper health bonus",
+				"defindex": 428,
+				"attribute_class": "mult_sapper_health",
+				"min_value": 0.000000,
+				"max_value": 5.000000,
+				"description_string": "%s1% sapper health bonus",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
 			},
@@ -43791,6 +46637,226 @@
 				"min_value": 1.050000,
 				"max_value": 1.100000,
 				"description_string": "+%s1 clip size",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "major move speed bonus",
+				"defindex": 442,
+				"attribute_class": "major_mult_player_movespeed",
+				"min_value": 1.500000,
+				"max_value": 2.000000,
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "major increased jump height",
+				"defindex": 443,
+				"attribute_class": "major_jump_height",
+				"min_value": 1.000000,
+				"max_value": 3.000000,
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "head scale",
+				"defindex": 444,
+				"attribute_class": "head_scale",
+				"min_value": 0.000000,
+				"max_value": 3.000000,
+				"description_string": "Disables double jump",
+				"description_format": "value_is_percentage",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "pyrovision opt in DISPLAY ONLY",
+				"defindex": 445,
+				"attribute_class": "pyrovision_opt_in_display_only",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"description_string": "On Equip: Visit Pyroland",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "halloweenvision opt in DISPLAY ONLY",
+				"defindex": 446,
+				"attribute_class": "halloweenvision_opt_in_display_only",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"description_string": "",
+				"description_format": "value_is_or",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "halloweenvision filter DISPLAY ONLY",
+				"defindex": 447,
+				"attribute_class": "halloweenvision_filter_display_only",
+				"min_value": 0.000000,
+				"max_value": 32.000000,
+				"description_string": "",
+				"description_format": "value_is_or",
+				"effect_type": "negative",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "player skin override",
+				"defindex": 448,
+				"attribute_class": "player_skin_override",
+				"min_value": 0.000000,
+				"max_value": 99.000000,
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "never craftable",
+				"defindex": 449,
+				"attribute_class": "never_craftable",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "zombiezombiezombiezombie",
+				"defindex": 450,
+				"attribute_class": "zombiezombiezombiezombie",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "CARD: damage bonus",
+				"defindex": 1000,
+				"attribute_class": "mult_dmg__mvm",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "+%s1% damage bonus",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "CARD: dmg taken from bullets reduced",
+				"defindex": 1001,
+				"attribute_class": "mult_dmgtaken_from_bullets__mvm",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "+%s1% bullet damage resistance on wearer",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "CARD: move speed bonus",
+				"defindex": 1002,
+				"attribute_class": "mult_player_movespeed__mvm",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "+%s1% faster move speed on wearer",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "CARD: health regen",
+				"defindex": 1003,
+				"attribute_class": "add_health_regen",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "+%s1 health regenerated per second on wearer",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "SPELL: set item tint RGB",
+				"defindex": 1004,
+				"attribute_class": "set_item_tint_rgb_override__halloween",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "%s1",
+				"description_format": "value_is_from_lookup_table",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "SPELL: set Halloween footstep type",
+				"defindex": 1005,
+				"attribute_class": "halloween_footstep_type__halloween",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "%s1",
+				"description_format": "value_is_from_lookup_table",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "SPELL: Halloween voice modulation",
+				"defindex": 1006,
+				"attribute_class": "halloween_voice_modulation__halloween",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Voices From Below",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "SPELL: Halloween pumpkin explosions",
+				"defindex": 1007,
+				"attribute_class": "halloween_pumpkin_explosions__halloween",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Pumpkin Bombs",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "SPELL: Halloween green flames",
+				"defindex": 1008,
+				"attribute_class": "halloween_green_flames__halloween",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Halloween Fire",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "SPELL: Halloween death ghosts",
+				"defindex": 1009,
+				"attribute_class": "halloween_death_ghosts__halloween",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Exorcism",
 				"description_format": "value_is_additive",
 				"effect_type": "positive",
 				"hidden": false,
@@ -44444,6 +47510,41 @@
 				"id": 40,
 				"attach_to_rootbone": true,
 				"name": "Eerie Orbiting Fire"
+			},
+			{
+				"system": "unusual_storm_knives",
+				"id": 43,
+				"attach_to_rootbone": true,
+				"attachment": "muzzle",
+				"name": "Knifestorm"
+			},
+			{
+				"system": "unusual_skull_misty",
+				"id": 44,
+				"attach_to_rootbone": true,
+				"attachment": "muzzle",
+				"name": "Misty Skull"
+			},
+			{
+				"system": "unusual_fullmoon_cloudy_green",
+				"id": 45,
+				"attach_to_rootbone": true,
+				"attachment": "muzzle",
+				"name": "Harvest Moon"
+			},
+			{
+				"system": "unusual_fullmoon_cloudy_secret",
+				"id": 46,
+				"attach_to_rootbone": true,
+				"attachment": "muzzle",
+				"name": "It's A Secret To Everybody"
+			},
+			{
+				"system": "unusual_storm_spooky",
+				"id": 47,
+				"attach_to_rootbone": true,
+				"attachment": "muzzle",
+				"name": "Stormy 13th Hour"
 			}
 		]
 		,
@@ -45388,6 +48489,16 @@
 			{
 				"type": 44,
 				"type_name": "Kills While Low Health",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 45,
+				"type_name": "Kills During Halloween",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 46,
+				"type_name": "Robots Killed During Halloween",
 				"level_data": "KillEaterRank"
 			}
 		]
