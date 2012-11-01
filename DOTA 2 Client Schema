@@ -33439,6 +33439,11 @@
 					"attribute_class"		"disallow_recycling"
 					"value"		"1"
 				}
+				"cannot remove custom name"
+				{
+					"attribute_class"		"cannot_remove_custom_name"
+					"value"		"1"
+				}
 			}
 		}
 		"10091"
@@ -33564,6 +33569,82 @@
 					"value"		"1"
 				}
 			}
+		}
+		"10096"
+		{
+			"name"		"Golden Baby Roshan"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Custom_Courier"
+			"item_name"		"#DOTA_Item_Golden_Baby_Roshan"
+			"item_slot"		"courier"
+			"item_quality"		"unusual"
+			"item_rarity"		"immortal"
+			"item_description"		"#DOTA_Item_Desc_Golden_Baby_Roshan"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/courier/baby_rosh/babyroshan1"
+			"visuals"
+			{
+				"skin"		"1"
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/baby_rosh/babyroshan.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/baby_rosh/babyroshan.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/baby_rosh/babyroshan_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/baby_rosh/babyroshan_flying.mdl"
+					"modifier"		"dire"
+				}
+				"attached_particlesystem0"
+				{
+					"system"		"golden_roshan_ambient"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"330.418274 -155.112869 87.396309"
+				"PortraitLookAt"		"4.542847 154.703979 0.000000"
+				"PortraitFOV"		"32.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"161.957916 -139.716171 141.286057"
+				"PortraitLightLookAt"		"11.293945 139.383545 0.000000"
+				"PortraitLightFOV"		"69.000000"
+				"PortraitLightDistance"		"377.000000"
+				"PortraitLightColor"		"0.900000 0.850000 0.800000"
+				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"79.070000 84.150002 25.320000"
+				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.100000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+			"particle_file"		"particles\econ\courier\courier_golden_roshan.pcf"
 		}
 		"15000"
 		{
@@ -41136,6 +41217,146 @@
 			"effect_type"		"neutral"
 			"stored_as_integer"		"0"
 		}
+		"154"
+		{
+			"name"		"black power"
+			"attribute_class"		"black_power"
+			"attribute_name"		"black power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_BlackPower"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"155"
+		{
+			"name"		"unusual power"
+			"attribute_class"		"unusual_power"
+			"attribute_name"		"unusual power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_UnusualPower"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"156"
+		{
+			"name"		"red power"
+			"attribute_class"		"red_power"
+			"attribute_name"		"red power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_RedPower"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"157"
+		{
+			"name"		"blue power"
+			"attribute_class"		"blue_power"
+			"attribute_name"		"blue power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_BluePower"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"158"
+		{
+			"name"		"yellow power"
+			"attribute_class"		"yellow_power"
+			"attribute_name"		"yellow power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_YellowPower"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"159"
+		{
+			"name"		"orange power"
+			"attribute_class"		"orange_power"
+			"attribute_name"		"orange power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_OrangePower"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"160"
+		{
+			"name"		"green power"
+			"attribute_class"		"green_power"
+			"attribute_name"		"green power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_GreenPower"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"161"
+		{
+			"name"		"purple power"
+			"attribute_class"		"purple_power"
+			"attribute_name"		"purple power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_PurplePower"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"162"
+		{
+			"name"		"skin index"
+			"attribute_class"		"skin_index"
+			"attribute_name"		"skin index"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_SkinIndex"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"163"
+		{
+			"name"		"cannot remove custom name"
+			"attribute_class"		"cannot_remove_custom_name"
+			"attribute_name"		"cannot remove custom name"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_CannotRemoveCustomName"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
 		"184"
 		{
 			"name"		"tournament event date"
@@ -41609,6 +41830,20 @@
 			"hidden"		"0"
 			"effect_type"		"positive"
 			"stored_as_integer"		"0"
+		}
+		"323"
+		{
+			"name"		"diretide cycle"
+			"attribute_class"		"diretide_cycle"
+			"attribute_name"		"diretide cycle"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_DiretideCycle"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"1"
 		}
 		"342"
 		{
@@ -42430,6 +42665,33 @@
 			"system"		"courier_trail_hw_2012"
 			"attach_type"		"absorigin_follow"
 			"attach_entity"		"parent"
+		}
+		"47"
+		{
+			"system"		"golden_roshan_ambient"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"self"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"2"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_m"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+				"2"
+				{
+					"control_point_index"		"3"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+			}
 		}
 	}
 	"upgradeable_base_items"
