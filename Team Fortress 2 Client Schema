@@ -590,6 +590,7 @@
 				"can_extinguish"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"is_flamethrower" "1"
 			}
 			"item_class"	"tf_weapon_flamethrower"
 			"craft_class"	"weapon"
@@ -2890,6 +2891,7 @@
 				"can_extinguish"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"is_flamethrower" "1"
 			}
 			"item_logname"	"backburner"
 			"item_iconname"	"backburner"
@@ -8936,6 +8938,7 @@
 				"can_extinguish"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"is_flamethrower" "1"
 			}
 			"item_logname"	"degreaser"
 			"item_iconname"	"degreaser"
@@ -24424,6 +24427,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"is_flamethrower" "1"
 			}
 			"item_logname"	"phlogistinator"
 			"item_iconname"	"phlogistinator"
@@ -28671,6 +28675,7 @@
 				"can_extinguish"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_posthumous_damage"	"1"
+				"is_flamethrower" "1"
 			}
 			"item_logname"	"rainblower"
 			"item_iconname"	"rainblower"
@@ -34000,6 +34005,7 @@
 			{
 				"heavy"	"1"
 			}
+			"item_set"	"heavy_fairy"
 		} 
 		"931"
 		{
@@ -34021,6 +34027,7 @@
 			{
 				"heavy"	"1"
 			}
+			"item_set"	"heavy_fairy"
 		} 
 		"932"
 		{
@@ -34040,6 +34047,7 @@
 			{
 				"heavy"	"1"
 			}
+			"item_set"	"heavy_fairy"
 		}
 		"934"
 		{
@@ -43784,6 +43792,7 @@
 					{
 						"auto__class_pyro"	"1"
 						"auto__slot_primary" "1"
+						"is_flamethrower" "1"
 					}
 					"attributes"
 					{
@@ -49948,6 +49957,20 @@
 			"effect_type"	"neutral"
 			"stored_as_integer"	"0"
 		}
+		"453"
+		{
+			"name"	"merasmus hat level display ONLY"
+			"attribute_class"	"merasmus_hat_level_display_ONLY"
+			"attribute_name"	"merasmus hat level display ONLY"
+			"min_value"	"0"
+			"max_value"	"5"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Merasmus_Hat_Level"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
 		
 		"1000"
 		{
@@ -50497,6 +50520,19 @@
 				}
 			}
 		}
+		"heavy_fairy"
+		{
+			"name" "#TF_Set_Heavy_Fairy"
+			"items"
+			{
+				"The Grand Duchess Tutu"		"1"
+				"The Grand Duchess Fairy Wings"	"1"
+				"The Grand Duchess Tiara"		"1"
+			}
+			"attributes"
+			{
+			}
+		}
 
 		"drg_brainiac"
 		{
@@ -50579,6 +50615,7 @@
 				}
 			}
 		}
+
 
 
 	}
@@ -59869,6 +59906,7 @@
 		{
 			"type_name"	"KillEaterEventType_RobotsKilled"
 			"level_data"	"KillEater_RobotsKilledRank"
+			"allow_bot_victims"	"1"
 		}
 		"44"
 		{
