@@ -33849,6 +33849,13 @@
 			"image_inventory"	"backpack/player/items/scout/scout_halloweenshoes"
 			"model_player"		"models/player/items/scout/scout_halloweenshoes.mdl"
 			"propername"	"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"shoes_socks"			"1"
+				}
+			}
 			"used_by_classes"
 			{
 				"scout"	"1"
@@ -33921,6 +33928,32 @@
 				"engineer" "1"
 				"pyro" "1"
 			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#TF_BooBalloon_Style0"
+						"skin"		"0"					
+					}
+					"1"
+					{
+						"name"		"#TF_BooBalloon_Style1"
+						"skin"		"1"
+					}
+					"2"
+					{
+						"name"		"#TF_BooBalloon_Style2"
+						"skin"		"2"
+					}
+					"3"
+					{
+						"name"		"#TF_BooBalloon_Style3"
+						"skin"		"3"
+					}
+				}
+			}	
 			"attributes"
 			{
 				"counts as assister is some kind of pet this update is going to be awesome"
@@ -34170,7 +34203,7 @@
 			{
 				"player_bodygroups"
 				{
-					"backpack"			"1"
+					"backpack"			"0"
 				}
 			}
 		}
@@ -34205,7 +34238,6 @@
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
 			"anim_slot" "MELEE_ALLCLASS"
-			"holiday_restriction"	"halloween_or_fullmoon"
 			"used_by_classes"
 			{
 				"scout"	"1"
