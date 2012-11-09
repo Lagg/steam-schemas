@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.94d5b20bb1095ac284a26507b9a33d03172177f4.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.0613c1558908a0992f6d241b3f05e4c7fd65609a.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -37222,17 +37222,16 @@
 				"defindex": 5628,
 				"item_class": "tool",
 				"item_type_name": "Tool",
-				"item_name": "Eerie Key",
-				"item_description": "Used to open Eerie Crates. Eerie Crates contain\nHalloween-themed items that are only visible\nduring the Halloween event and full moons.\n\nAfter 11\/08\/2012 this will turn into a normal key.",
+				"item_name": "Mann Co. Supply Crate Key",
+				"item_description": "Used to open locked supply crates.",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/crafting\/skeleton_key",
+				"image_inventory": "backpack\/player\/items\/crafting\/key",
 				"min_ilevel": 5,
 				"max_ilevel": 5,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/skeleton_key.90baf521688371b997664e4c7c041b99fa2aed8b.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/skeleton_key_large.16f037666afb600ba24a1a5680f49deb40900a3d.png",
-				"holiday_restriction": "halloween",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key.067945a6cae528464e4fa00126f0ef17ee2dc8b5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key_large.443e254bfd7c6f54de0842a14df3c2aa72e8b6f0.png",
 				"craft_class": "tool",
 				"capabilities": {
 					"can_craft_mark": true,
@@ -37242,7 +37241,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "halloween2012",
 					"usage_capabilities": {
 						"decodable": true
 					}
@@ -47429,6 +47427,7 @@
 				"system": "superrare_burning2",
 				"id": 14,
 				"attach_to_rootbone": true,
+				"attachment": "unusual",
 				"name": "Scorching Flames"
 			},
 			{
@@ -48539,6 +48538,69 @@
 				"type": 46,
 				"type_name": "Robots Killed During Halloween",
 				"level_data": "KillEaterRank"
+			}
+		]
+		,
+		"string_lookups": [
+			{
+				"table_name": "SPELL: set item tint RGB",
+				"strings": [
+					{
+						"index": 0,
+						"string": "#TF_HalloweenSpell_Paint_1_Attr"
+					},
+					{
+						"index": 1,
+						"string": "#TF_HalloweenSpell_Paint_2_Attr"
+					},
+					{
+						"index": 2,
+						"string": "#TF_HalloweenSpell_Paint_3_Attr"
+					},
+					{
+						"index": 3,
+						"string": "#TF_HalloweenSpell_Paint_4_Attr"
+					},
+					{
+						"index": 4,
+						"string": "#TF_HalloweenSpell_Paint_5_Attr"
+					}
+				]
+				
+			},
+			{
+				"table_name": "SPELL: set Halloween footstep type",
+				"strings": [
+					{
+						"index": 1,
+						"string": "#TF_HalloweenSpell_Footprints_1_Attr"
+					},
+					{
+						"index": 8421376,
+						"string": "#TF_HalloweenSpell_Footprints_8421376_Attr"
+					},
+					{
+						"index": 3100495,
+						"string": "#TF_HalloweenSpell_Footprints_3100495_Attr"
+					},
+					{
+						"index": 5322826,
+						"string": "#TF_HalloweenSpell_Footprints_5322826_Attr"
+					},
+					{
+						"index": 13595446,
+						"string": "#TF_HalloweenSpell_Footprints_13595446_Attr"
+					},
+					{
+						"index": 8208497,
+						"string": "#TF_HalloweenSpell_Footprints_8208497_Attr"
+					},
+					{
+						"index": 2,
+						"string": "#TF_HalloweenSpell_Footprints_2_Attr"
+					}
+				]
+				
 			}
 		]
 		

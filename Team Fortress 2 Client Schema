@@ -34421,6 +34421,7 @@
 
 
 
+
 		"496"
 		{
 			"name"	"TournamentMedal - GWJ Winners"
@@ -40572,7 +40573,6 @@
 			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
-			"loot_list_rare_item_footer"	"#Econ_Revolving_Loot_List_Rare_Item_Halloween"
 			"attributes"
 			{
 				"set supply crate series"
@@ -40900,7 +40900,6 @@
 			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
-			"loot_list_rare_item_footer"	"#Econ_Revolving_Loot_List_Rare_Item_Halloween"
 			"attributes"
 			{
 				"set supply crate series"
@@ -41047,7 +41046,6 @@
 			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
-			"loot_list_rare_item_footer"	"#Econ_Revolving_Loot_List_Rare_Item_Halloween"
 			"attributes"
 			{
 				"set supply crate series"
@@ -41560,7 +41558,6 @@
 			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
-			"loot_list_rare_item_footer"	"#Econ_Revolving_Loot_List_Rare_Item_Halloween"
 			"attributes"
 			{
 				"set supply crate series"
@@ -42501,7 +42498,6 @@
 				{
 					"decodable"	"1"
 				}
-				"restriction"	"halloween2012"
 			}
 			"attributes"
 			{
@@ -42514,12 +42510,11 @@
 			"armory_desc" "key"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_T"
-			"item_name"		"#TF_Tool_HalloweenKey2012"
-			"item_description"	"#TF_Tool_HalloweenKey2012_Desc"
-			"image_inventory"	"backpack/player/items/crafting/skeleton_key"
+			"item_name"		"#TF_Tool_DecoderRing"
+			"item_description"	"#TF_Tool_DecoderRing_Desc"
+			"image_inventory"	"backpack/player/items/crafting/key"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
-			"holiday_restriction"	"halloween"
 			"item_quality"		"unique"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
@@ -58759,6 +58754,7 @@
 			"do_B"	"#TF_PileOfCurses"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"1"
 			"input_items"
 			{
 				"1"
@@ -59081,6 +59077,7 @@
 		{
 			"system"			"superrare_burning2"
 			"attach_to_rootbone"	"1"
+			"attachment"		"unusual"
 		}
 
 		"15"
@@ -59958,21 +59955,6 @@
 	}
 	"mvm_maps"
 	{
-		"mvm_coaltown_event"
-		{
-			"display_name"	"#TF_MVM_Map_CoalTown_Event"
-
-			"missions"
-			{
-				"mvm_coaltown_event"
-				{
-					"display_name"	"#TF_MVM_Challenge_CoalTown_Event"
-					"mode"			"#TF_MVM_Challenge_Endurance"
-					"difficulty"	"haunted"
-				}
-			}
-		}
-
 		"mvm_decoy"
 		{
 			"display_name"	"#TF_MVM_Map_Decoy"
