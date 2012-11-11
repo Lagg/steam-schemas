@@ -38544,6 +38544,76 @@
 				}
 			}
 		}
+		"15101"
+		{
+			"name"		"It's Gosu Asia Madness"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_GosuAsiaMadness"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"19"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_GosuAsiaMadness_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_gosuasiamadness"
+			"image_banner"		"econ/leagues/subscriptions_gosuasiamadness_ingame"
+			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-asia-madness-for-love-completes-the-line-up_802"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15102"
+		{
+			"name"		"It's Gosu Asia Madness ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_GosuAsiaMadness_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"19"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_GosuAsiaMadness_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_gosuasiamadness"
+			"image_banner"		"econ/leagues/subscriptions_gosuasiamadness_ingame"
+			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-asia-madness-for-love-completes-the-line-up_802"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"20000"
 		{
 			"name"		"Of Ebony and Ivory Set"
