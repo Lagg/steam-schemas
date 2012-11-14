@@ -371,9 +371,9 @@
 		}
 		"2"
 		{
-			"name"		"Axe's Default Axe"
+			"name"		"Axe's Axe"
 			"prefab"		"dota_default_item"
-			"item_name"		"#DOTA_Wearable_Axe_DefaultWeapon"
+			"item_name"		"#DOTA_Item_Axes_Axe"
 			"model_player"		"models/heroes/axe/axe_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -30468,7 +30468,7 @@
 		{
 			"name"		"Toxic Gaze"
 			"prefab"		"dota_misc_item"
-			"item_type_name"		"#DOTA_WearableType_Custom_Ward"
+			"item_type_name"		"#DOTA_WearableType_Ward"
 			"item_name"		"#DOTA_Item_Toxic_Gaze"
 			"item_slot"		"ward"
 			"item_description"		"#DOTA_Item_Desc_Toxic_Gaze"
@@ -30504,9 +30504,9 @@
 			}
 			"icon_portrait"
 			{
-				"PortraitPosition"		"-201.236847 98.611336 220.933105"
-				"PortraitLookAt"		"30.300293 337.879028 0.131836"
-				"PortraitFOV"		"31.000000"
+				"PortraitPosition"		"198.793488 -33.351772 213.596100"
+				"PortraitLookAt"		"34.887085 170.392456 0.131836"
+				"PortraitFOV"		"55.000000"
 				"PortraitFar"		"1000.000000"
 				"PortraitLightPosition"		"104.440002 -17.150000 288.730011"
 				"PortraitLightLookAt"		"60.029999 151.380005 0.000000"
@@ -31032,9 +31032,9 @@
 			"particle_file"		"particles\econ\wards\lina\lina_ward.pcf"
 			"icon_portrait"
 			{
-				"PortraitPosition"		"-196.297256 122.959312 212.815872"
-				"PortraitLookAt"		"29.047852 331.083984 0.000000"
-				"PortraitFOV"		"30.000000"
+				"PortraitPosition"		"183.314133 60.175766 199.372116"
+				"PortraitLookAt"		"27.103271 196.699219 0.000000"
+				"PortraitFOV"		"63.000000"
 				"PortraitFar"		"1000.000000"
 				"PortraitLightPosition"		"104.440002 -17.150000 288.730011"
 				"PortraitLightLookAt"		"60.029999 151.380005 0.000000"
@@ -31257,10 +31257,10 @@
 			"particle_file"		"particles\econ\wards\bane\bane_ward.pcf"
 			"icon_portrait"
 			{
-				"PortraitPosition"		"-197.918610 95.943550 223.850723"
-				"PortraitLookAt"		"29.388428 340.065308 0.736084"
-				"PortraitFOV"		"28.000000"
-				"PortraitFar"		"1000.000000"
+				"PortraitPosition"		"236.995773 177.050323 180.906158"
+				"PortraitLookAt"		"20.852051 214.909058 0.736084"
+				"PortraitFOV"		"41.000000"
+				"PortraitFar"		"379.000000"
 				"PortraitLightPosition"		"104.440002 -17.150000 288.730011"
 				"PortraitLightLookAt"		"60.029999 151.380005 0.000000"
 				"PortraitLightFOV"		"88.000000"
@@ -34666,8 +34666,15 @@
 			{
 				"event_egg"		"1"
 			}
+			"tool"
+			{
+				"type"		"egg"
+				"use_string"		"#Hatch"
+			}
 			"capabilities"
 			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
 				"uses_essence"		"1"
 			}
 			"attributes"
@@ -34686,12 +34693,12 @@
 		}
 		"10067"
 		{
-			"name"		"Witch Doctor's Fetish"
+			"name"		"Eyeball Fetish"
 			"prefab"		"dota_misc_item"
 			"item_type_name"		"#DOTA_WearableType_Ward"
-			"item_name"		"#DOTA_Item_Witch_Doctors_Fetish"
+			"item_name"		"#DOTA_Item_Eyeball_Fetish"
 			"item_slot"		"ward"
-			"item_description"		"#DOTA_Item_Desc_Witch_Doctors_Fetish"
+			"item_description"		"#DOTA_Item_Desc_Eyeball_Fetish"
 			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/witchdoctor_ward/witchdoctor_ward_npc_dota_observer_wards"
 			"visuals"
@@ -34724,9 +34731,9 @@
 			}
 			"icon_portrait"
 			{
-				"PortraitPosition"		"-250.155457 127.868332 150.230743"
-				"PortraitLookAt"		"19.918213 332.852783 0.000000"
-				"PortraitFOV"		"33.000000"
+				"PortraitPosition"		"176.757462 -70.216820 189.551041"
+				"PortraitLookAt"		"30.712280 158.027344 0.000000"
+				"PortraitFOV"		"52.000000"
 				"PortraitFar"		"1000.000000"
 				"PortraitLightPosition"		"104.440002 -17.150000 288.730011"
 				"PortraitLightLookAt"		"60.029999 151.380005 0.000000"
@@ -34793,9 +34800,9 @@
 			}
 			"icon_portrait"
 			{
-				"PortraitPosition"		"-197.918610 95.943550 223.850723"
-				"PortraitLookAt"		"34.848633 337.543945 0.000000"
-				"PortraitFOV"		"31.000000"
+				"PortraitPosition"		"196.590973 -103.826439 186.412827"
+				"PortraitLookAt"		"25.383911 152.034302 0.000000"
+				"PortraitFOV"		"50.000000"
 				"PortraitFar"		"1000.000000"
 				"PortraitLightPosition"		"104.440002 -17.150000 288.730011"
 				"PortraitLightLookAt"		"60.029999 151.380005 0.000000"
@@ -34980,7 +34987,7 @@
 			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
 			"item_name"		"#DOTA_Item_Ghastly_Treasure_of_Diretide"
-			"expiration_date"		"2012-11-12 23:00:00"
+			"expiration_date"		"2012-11-15 23:00:00"
 			"tool"
 			{
 				"type"		"supply_crate"
@@ -35189,10 +35196,10 @@
 			"particle_file"		"particles\econ\wards\shadow_demon\shadow_demon_ward.pcf"
 			"icon_portrait"
 			{
-				"PortraitPosition"		"-197.918610 95.943550 223.850723"
-				"PortraitLookAt"		"30.465088 339.345703 0.000000"
-				"PortraitFOV"		"31.000000"
-				"PortraitFar"		"1000.000000"
+				"PortraitPosition"		"220.277603 -55.925289 199.136139"
+				"PortraitLookAt"		"24.944458 165.585938 0.000000"
+				"PortraitFOV"		"57.000000"
+				"PortraitFar"		"418.000000"
 				"PortraitLightPosition"		"104.440002 -17.150000 288.730011"
 				"PortraitLightLookAt"		"60.029999 151.380005 0.000000"
 				"PortraitLightFOV"		"88.000000"
@@ -35263,9 +35270,9 @@
 			"particle_file"		"particles\econ\wards\crystal_maiden\crystal_maiden_ward.pcf"
 			"icon_portrait"
 			{
-				"PortraitPosition"		"155.237442 68.681000 251.537750"
-				"PortraitLookAt"		"41.879883 208.641357 0.000000"
-				"PortraitFOV"		"33.000000"
+				"PortraitPosition"		"210.713440 101.628181 212.998764"
+				"PortraitLookAt"		"28.970947 205.680542 0.000000"
+				"PortraitFOV"		"45.000000"
 				"PortraitFar"		"1000.000000"
 				"PortraitLightPosition"		"104.440002 -17.150000 288.730011"
 				"PortraitLightLookAt"		"60.029999 151.380005 0.000000"
@@ -38535,6 +38542,76 @@
 			"item_description"		"#DOTA_Item_League_atoD2_Desc"
 			"image_inventory"		"econ/leagues/subscriptions_atod2"
 			"image_banner"		"econ/leagues/subscriptions_atod2_ingame"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15101"
+		{
+			"name"		"It's Gosu Asia Madness"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_GosuAsiaMadness"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"19"
+					"admin"		"0"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_GosuAsiaMadness_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_gosuasiamadness"
+			"image_banner"		"econ/leagues/subscriptions_gosuasiamadness_ingame"
+			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-asia-madness-for-love-completes-the-line-up_802"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15102"
+		{
+			"name"		"It's Gosu Asia Madness ADMIN"
+			"prefab"		"dota_tool"
+			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_name"		"#DOTA_Item_League_GosuAsiaMadness_Admin"
+			"item_rarity"		"uncommon"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"19"
+					"admin"		"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"item_description"		"#DOTA_Item_League_GosuAsiaMadness_Desc"
+			"image_inventory"		"econ/leagues/subscriptions_gosuasiamadness"
+			"image_banner"		"econ/leagues/subscriptions_gosuasiamadness_ingame"
+			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-asia-madness-for-love-completes-the-line-up_802"
 			"attributes"
 			{
 				"disallow recycling"
@@ -42858,31 +42935,31 @@
 		}
 		"140"
 		{
-			"name"		"item set anim"
-			"attribute_class"		"item_set_anim"
-			"attribute_name"		"item_set_anim"
+			"name"		"courier slots 3"
+			"attribute_class"		"courier_slots_3"
+			"attribute_name"		"courier slots 3"
 			"min_value"		"0"
 			"max_value"		"0"
 			"group"		"only_on_unique"
-			"description_string"		"#Attrib_ItemSetAnim"
+			"description_string"		"#Attrib_CourierSlots3"
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
-			"effect_type"		"positive"
-			"stored_as_integer"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
 		}
 		"141"
 		{
-			"name"		"item set anim bonus"
-			"attribute_class"		"item_set_anim_bonus"
-			"attribute_name"		"item set anim bonus"
+			"name"		"courier slots 4"
+			"attribute_class"		"courier_slots_4"
+			"attribute_name"		"courier slots 4"
 			"min_value"		"0"
 			"max_value"		"0"
 			"group"		"only_on_unique"
-			"description_string"		"#Attrib_ItemSetAnimBonus"
+			"description_string"		"#Attrib_CourierSlots4"
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
-			"effect_type"		"positive"
-			"stored_as_integer"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
 		}
 		"142"
 		{
@@ -42911,6 +42988,34 @@
 			"hidden"		"0"
 			"effect_type"		"neutral"
 			"stored_as_integer"		"1"
+		}
+		"144"
+		{
+			"name"		"item set anim"
+			"attribute_class"		"item_set_anim"
+			"attribute_name"		"item_set_anim"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ItemSetAnim"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"145"
+		{
+			"name"		"item set anim bonus"
+			"attribute_class"		"item_set_anim_bonus"
+			"attribute_name"		"item set anim bonus"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ItemSetAnimBonus"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
 		}
 		"153"
 		{
@@ -43061,6 +43166,48 @@
 			"max_value"		"0"
 			"group"		"only_on_unique"
 			"description_string"		"#Attrib_CannotRemoveCustomName"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"164"
+		{
+			"name"		"alternate icon"
+			"attribute_class"		"alternate_icon"
+			"attribute_name"		"alternate icon"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_AlternateIcon"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"165"
+		{
+			"name"		"use animation modifier"
+			"attribute_class"		"use_animation_modifier"
+			"attribute_name"		"use animation modifier"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_UseAnimationModifier"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"166"
+		{
+			"name"		"white power"
+			"attribute_class"		"white_power"
+			"attribute_name"		"white power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_WhitePower"
 			"description_format"		"value_is_additive"
 			"hidden"		"1"
 			"effect_type"		"neutral"
@@ -44384,19 +44531,19 @@
 			{
 				"0"
 				{
-					"control_point_index"		"2"
+					"control_point_index"		"0"
 					"attach_type"		"point_follow"
-					"attachment"		"attach_eye_m"
+					"attachment"		"attach_eye_l"
 				}
 				"1"
 				{
 					"control_point_index"		"1"
 					"attach_type"		"point_follow"
-					"attachment"		"attach_eye_l"
+					"attachment"		"attach_eye_m"
 				}
 				"2"
 				{
-					"control_point_index"		"3"
+					"control_point_index"		"2"
 					"attach_type"		"point_follow"
 					"attachment"		"attach_eye_r"
 				}
@@ -44412,7 +44559,7 @@
 				"0"
 				{
 					"control_point_index"		"0"
-					"attach_type"		"point"
+					"attach_type"		"point_follow"
 					"attachment"		"attach_hitloc"
 				}
 			}
@@ -44458,7 +44605,7 @@
 				{
 					"control_point_index"		"0"
 					"attach_type"		"point_follow"
-					"attachment"		"attach_hitloc"
+					"attachment"		"attach_fx"
 				}
 			}
 		}
@@ -44477,10 +44624,117 @@
 				}
 			}
 		}
+		"53"
+		{
+			"system"		"courier_greevil_ambient"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+				"2"
+				{
+					"control_point_index"		"3"
+					"attach_type"		"renderorigin_follow"
+				}
+				"3"
+				{
+					"control_point_index"		"4"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_mouth"
+				}
+			}
+		}
 	}
 	"upgradeable_base_items"
 	{
 		"Upgradeable Sven's Default Sword"		"1"
+	}
+	"alternate_icons"
+	{
+		"0"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_natural"
+		}
+		"1"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_red"
+		}
+		"2"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_yellow"
+		}
+		"3"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_blue"
+		}
+		"4"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_orange"
+		}
+		"5"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_purple"
+		}
+		"6"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_green"
+		}
+		"7"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_black"
+		}
+		"8"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_white"
+		}
+		"9"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_natural"
+		}
+		"10"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_red"
+		}
+		"11"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_yellow"
+		}
+		"12"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_blue"
+		}
+		"13"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_orange"
+		}
+		"14"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_purple"
+		}
+		"15"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_green"
+		}
+		"16"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_black"
+		}
+		"17"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_white"
+		}
 	}
 	"item_sets"
 	{

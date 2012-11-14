@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/205790\/scripts\/items\/items_game.710f5022dbf9f680fe5f2c1ee0a3ca0ddd793531.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/205790\/scripts\/items\/items_game.696c8739c12feb0ec445b5a0ba4a46590efb7480.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -166,7 +166,7 @@
 				}
 			},
 			{
-				"name": "Axe's Default Axe",
+				"name": "Axe's Axe",
 				"defindex": 2,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "weapon",
@@ -23544,7 +23544,7 @@
 				"name": "Toxic Gaze",
 				"defindex": 10002,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "",
+				"item_type_name": "Ward",
 				"item_name": "Toxic Gaze",
 				"item_description": "May cause blindness.",
 				"proper_name": false,
@@ -25788,11 +25788,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/courier\/greevil\/greevil_egg_natural.cc88573cac86ad14d91b252ccabd2c8dbf15fa61.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/courier\/greevil\/greevil_egg_natural_large.3c5add5871279d9b4b4b633236575ba584243cf1.png",
 				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true,
 					"uses_essence": true
+				},
+				"tool": {
+					"type": "egg",
+					"use_string": "Hatch the Egg"
 				},
 				"attributes": [
 					{
@@ -25809,19 +25815,19 @@
 				
 			},
 			{
-				"name": "Witch Doctor's Fetish",
+				"name": "Eyeball Fetish",
 				"defindex": 10067,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Ward",
-				"item_name": "Witch Doctor's Fetish",
+				"item_name": "Eyeball Fetish",
 				"item_description": "\"I like to watch.\"",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/wards\/witchdoctor_ward\/witchdoctor_ward_npc_dota_observer_wards",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/wards\/witchdoctor_ward\/witchdoctor_ward_npc_dota_observer_wards.2af56a56cba86199401fd8a3278f7418455adae6.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/wards\/witchdoctor_ward\/witchdoctor_ward_npc_dota_observer_wards_large.d7515c64dbc281b8798a6942e7f609ca07a138e1.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/wards\/witchdoctor_ward\/witchdoctor_ward_npc_dota_observer_wards.bdeb6b2f18235a1fb8d25c1b1631ef0e1171f070.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/wards\/witchdoctor_ward\/witchdoctor_ward_npc_dota_observer_wards_large.ec68e6849208f8ed06757cf4f5368e06a71fd955.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -25877,9 +25883,9 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
 				"item_name": "Greevil",
-				"item_description": "A creature.",
+				"item_description": "A strange beast infused with magic. It's color, appearance, and abilities are determined by the types of magical essences it was exposed to while still an egg.",
 				"proper_name": false,
-				"item_quality": 3,
+				"item_quality": 4,
 				"image_inventory": "econ\/courier\/greevil\/greevil_red",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
@@ -25901,11 +25907,11 @@
 				
 			},
 			{
-				"name": "Greevil Ears 1",
+				"name": "Perky Greevil Ears",
 				"defindex": 10071,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Ears 1",
+				"item_name": "Perky Greevil Ears",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -25921,11 +25927,11 @@
 				}
 			},
 			{
-				"name": "Greevil Ears 2",
+				"name": "Pointed Greevil Ears",
 				"defindex": 10072,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Ears 2",
+				"item_name": "Pointed Greevil Ears",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -25941,11 +25947,11 @@
 				}
 			},
 			{
-				"name": "Greevil Hair 1",
+				"name": "Short Greevil Hair",
 				"defindex": 10073,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Hair 1",
+				"item_name": "Short Greevil Hair",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -25961,11 +25967,11 @@
 				}
 			},
 			{
-				"name": "Greevil Hair 2",
+				"name": "Long Greevil Hair",
 				"defindex": 10074,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Hair 2",
+				"item_name": "Long Greevil Hair",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -25981,11 +25987,11 @@
 				}
 			},
 			{
-				"name": "Greevil Horns 1",
+				"name": "Stubby Greevil Horns",
 				"defindex": 10075,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Horns 1",
+				"item_name": "Stubby Greevil Horns",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26001,11 +26007,11 @@
 				}
 			},
 			{
-				"name": "Greevil Horns 2",
+				"name": "Wicked Greevil Horns",
 				"defindex": 10076,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Horns 2",
+				"item_name": "Wicked Greevil Horns",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26021,11 +26027,11 @@
 				}
 			},
 			{
-				"name": "Greevil Horns 3",
+				"name": "Massive Greevil Horns",
 				"defindex": 10077,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Horns 3",
+				"item_name": "Massive Greevil Horns",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26041,11 +26047,11 @@
 				}
 			},
 			{
-				"name": "Greevil Nose 1",
+				"name": "Modest Greevil Nose",
 				"defindex": 10078,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Nose 1",
+				"item_name": "Modest Greevil Nose",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 4,
@@ -26062,11 +26068,11 @@
 				}
 			},
 			{
-				"name": "Greevil Nose 2",
+				"name": "Hooked Greevil Nose",
 				"defindex": 10079,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Nose 2",
+				"item_name": "Hooked Greevil Nose",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26082,11 +26088,11 @@
 				}
 			},
 			{
-				"name": "Greevil Nose 3",
+				"name": "Horned Greevil Nose",
 				"defindex": 10080,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Nose 3",
+				"item_name": "Horned Greevil Nose",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26102,11 +26108,11 @@
 				}
 			},
 			{
-				"name": "Greevil Tail 1",
+				"name": "Thin Greevil Tail",
 				"defindex": 10081,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Tail 1",
+				"item_name": "Thin Greevil Tail",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26122,11 +26128,11 @@
 				}
 			},
 			{
-				"name": "Greevil Tail 2",
+				"name": "Balanced Greevil Tail",
 				"defindex": 10082,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Tail 2",
+				"item_name": "Balanced Greevil Tail",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26142,11 +26148,11 @@
 				}
 			},
 			{
-				"name": "Greevil Tail 3",
+				"name": "Spiked Greevil Tail",
 				"defindex": 10083,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Tail 3",
+				"item_name": "Spiked Greevil Tail",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26162,11 +26168,11 @@
 				}
 			},
 			{
-				"name": "Greevil Teeth 1",
+				"name": "Simple Greevil Teeth",
 				"defindex": 10084,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Teeth 1",
+				"item_name": "Simple Greevil Teeth",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26182,11 +26188,11 @@
 				}
 			},
 			{
-				"name": "Greevil Teeth 2",
+				"name": "Sharp Greevil Teeth",
 				"defindex": 10085,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Teeth 2",
+				"item_name": "Sharp Greevil Teeth",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26202,11 +26208,11 @@
 				}
 			},
 			{
-				"name": "Greevil Teeth 3",
+				"name": "Toothy Greevil Teeth",
 				"defindex": 10086,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Teeth 3",
+				"item_name": "Toothy Greevil Teeth",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26222,11 +26228,11 @@
 				}
 			},
 			{
-				"name": "Greevil Wings 1",
+				"name": "Barely Functional Greevil Wings",
 				"defindex": 10087,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Wings 1",
+				"item_name": "Barely Functional Greevil Wings",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26242,11 +26248,11 @@
 				}
 			},
 			{
-				"name": "Greevil Wings 2",
+				"name": "Functional Greevil Wings",
 				"defindex": 10088,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Wings 2",
+				"item_name": "Functional Greevil Wings",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26262,11 +26268,11 @@
 				}
 			},
 			{
-				"name": "Greevil Wings 3",
+				"name": "Elaborate Greevil Wings",
 				"defindex": 10089,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Wings 3",
+				"item_name": "Elaborate Greevil Wings",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26282,11 +26288,11 @@
 				}
 			},
 			{
-				"name": "Greevil Eyes",
+				"name": "Googly Greevil Eyes",
 				"defindex": 10090,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
-				"item_name": "Greevil Eyes",
+				"item_name": "Googly Greevil Eyes",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26477,6 +26483,646 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/wards\/crystal_maiden_ward\/crystal_maiden_ward_npc_dota_observer_wards.d973b4c56d39c2b0b5a8b519bb0db43747a48745.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/wards\/crystal_maiden_ward\/crystal_maiden_ward_npc_dota_observer_wards_large.19550ccda914a309b28fcdd2bf72f96ae1cbdeb0.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Naked Air",
+				"defindex": 10099,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Naked Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Naked Ambience",
+				"defindex": 10100,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Naked Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Naked Aura",
+				"defindex": 10101,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Naked Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Exort Air",
+				"defindex": 10102,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Exort Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Exort Ambience",
+				"defindex": 10103,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Exort Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Exort Aura",
+				"defindex": 10104,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Exort Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Flam Air",
+				"defindex": 10105,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Flam Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Flam Ambience",
+				"defindex": 10106,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Flam Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Flam Aura",
+				"defindex": 10107,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Flam Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Wex Air",
+				"defindex": 10108,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Wex Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Wex Ambience",
+				"defindex": 10109,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Wex Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Wex Aura",
+				"defindex": 10110,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Wex Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Vas Air",
+				"defindex": 10111,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Vas Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Vas Ambience",
+				"defindex": 10112,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Vas Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Vas Aura",
+				"defindex": 10113,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Vas Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Quas Air",
+				"defindex": 10114,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Quas Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Quas Ambience",
+				"defindex": 10115,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Quas Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Quas Aura",
+				"defindex": 10116,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Quas Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Por Air",
+				"defindex": 10117,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Por Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Por Ambience",
+				"defindex": 10118,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Por Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Por Aura",
+				"defindex": 10119,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Por Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Sanct Air",
+				"defindex": 10120,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Sanct Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Sanct Ambience",
+				"defindex": 10121,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Sanct Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Sanct Aura",
+				"defindex": 10122,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Sanct Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Corp Air",
+				"defindex": 10123,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Corp Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Corp Ambience",
+				"defindex": 10124,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Corp Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Corp Aura",
+				"defindex": 10125,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Corp Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Demonic Greevil Horns",
+				"defindex": 10126,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Demonic Greevil Horns",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Evil Greevil Tail",
+				"defindex": 10127,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Evil Greevil Tail",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Jagged Greevil Teeth",
+				"defindex": 10128,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Jagged Greevil Teeth",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Gothic Greevil Wings",
+				"defindex": 10129,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Gothic Greevil Wings",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Shaggy Greevil Feathers",
+				"defindex": 10130,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier",
+				"item_name": "Shaggy Greevil Feathers",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -30091,6 +30737,76 @@
 				
 			},
 			{
+				"name": "It's Gosu Asia Madness",
+				"defindex": 15101,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "It's Gosu Asia Madness",
+				"item_description": "It's Gosu returns with its third edition of the Asia Madness where the ten best teams from Asia will be competing for a prize pool of $5,000 in a triple elimination format.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_gosuasiamadness",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_gosuasiamadness.f5401f9c88be9057f847e597bbe80decf207c293.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_gosuasiamadness_large.9ad65edf6e5b04ebb39520b9a8db8f3eb7663d02.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "It's Gosu Asia Madness ADMIN",
+				"defindex": 15102,
+				"item_class": "tool",
+				"item_type_name": "",
+				"item_name": "It's Gosu Asia Madness 3 ADMIN",
+				"item_description": "It's Gosu returns with its third edition of the Asia Madness where the ten best teams from Asia will be competing for a prize pool of $5,000 in a triple elimination format.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_gosuasiamadness",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_gosuasiamadness.f5401f9c88be9057f847e597bbe80decf207c293.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_gosuasiamadness_large.9ad65edf6e5b04ebb39520b9a8db8f3eb7663d02.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Of Ebony and Ivory Set",
 				"defindex": 20000,
 				"item_class": "bundle",
@@ -31960,28 +32676,28 @@
 				"stored_as_integer": true
 			},
 			{
-				"name": "item set anim",
+				"name": "courier slots 3",
 				"defindex": 140,
-				"attribute_class": "item_set_anim",
+				"attribute_class": "courier_slots_3",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
-				"description_string": "This item unlocks custom animations when worn with other pieces of the set.",
+				"description_string": "Attrib_CourierSlots3",
 				"description_format": "value_is_additive",
-				"effect_type": "positive",
+				"effect_type": "neutral",
 				"hidden": false,
-				"stored_as_integer": false
+				"stored_as_integer": true
 			},
 			{
-				"name": "item set anim bonus",
+				"name": "courier slots 4",
 				"defindex": 141,
-				"attribute_class": "item_set_anim_bonus",
+				"attribute_class": "courier_slots_4",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
-				"description_string": "Custom Animation Set",
+				"description_string": "Attrib_CourierSlots4",
 				"description_format": "value_is_additive",
-				"effect_type": "positive",
+				"effect_type": "neutral",
 				"hidden": false,
-				"stored_as_integer": false
+				"stored_as_integer": true
 			},
 			{
 				"name": "set item tint RGB",
@@ -32006,6 +32722,30 @@
 				"effect_type": "neutral",
 				"hidden": false,
 				"stored_as_integer": true
+			},
+			{
+				"name": "item set anim",
+				"defindex": 144,
+				"attribute_class": "item_set_anim",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "This item unlocks custom animations when worn with other pieces of the set.",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "item set anim bonus",
+				"defindex": 145,
+				"attribute_class": "item_set_anim_bonus",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Custom Animation Set",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			},
 			{
 				"name": "cannot trade",
@@ -32111,6 +32851,36 @@
 				"name": "cannot remove custom name",
 				"defindex": 163,
 				"attribute_class": "cannot_remove_custom_name",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "alternate icon",
+				"defindex": 164,
+				"attribute_class": "alternate_icon",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "use animation modifier",
+				"defindex": 165,
+				"attribute_class": "use_animation_modifier",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "white power",
+				"defindex": 166,
+				"attribute_class": "white_power",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
 				"effect_type": "neutral",
@@ -33769,7 +34539,7 @@
 				"system": "warlock_ambient_staff",
 				"id": 44,
 				"attach_to_rootbone": false,
-				"name": "Diretide Corruption"
+				"name": "Attrib_Particle44"
 			},
 			{
 				"system": "warlock_ambient_smoke",
@@ -33781,7 +34551,7 @@
 				"system": "courier_trail_hw_2012",
 				"id": 46,
 				"attach_to_rootbone": false,
-				"name": "Attrib_Particle46"
+				"name": "Diretide Corruption"
 			},
 			{
 				"system": "golden_roshan_ambient",
@@ -33818,6 +34588,12 @@
 				"id": 52,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle52"
+			},
+			{
+				"system": "courier_greevil_ambient",
+				"id": 53,
+				"attach_to_rootbone": false,
+				"name": "Attrib_Particle53"
 			}
 		]
 		
