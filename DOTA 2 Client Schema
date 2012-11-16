@@ -371,9 +371,9 @@
 		}
 		"2"
 		{
-			"name"		"Axe's Default Axe"
+			"name"		"Axe's Axe"
 			"prefab"		"dota_default_item"
-			"item_name"		"#DOTA_Wearable_Axe_DefaultWeapon"
+			"item_name"		"#DOTA_Item_Axes_Axe"
 			"model_player"		"models/heroes/axe/axe_weapon.mdl"
 			"used_by_heroes"
 			{
@@ -34666,8 +34666,15 @@
 			{
 				"event_egg"		"1"
 			}
+			"tool"
+			{
+				"type"		"egg"
+				"use_string"		"#Hatch"
+			}
 			"capabilities"
 			{
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
 				"uses_essence"		"1"
 			}
 			"attributes"
@@ -34822,6 +34829,474 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"10070"
+		{
+			"name"		"Greevil"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Custom_Courier"
+			"item_name"		"#DOTA_Item_Greevil"
+			"item_slot"		"courier"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Greevil"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/courier/greevil/greevil_red"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+			"visuals"
+			{
+				"asset_modifier2"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/greevil/greevil.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/greevil/greevil.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/greevil/greevil_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/greevil/greevil_flying.mdl"
+					"modifier"		"dire"
+				}
+				"animation_modifiers"
+				{
+					"naked"		"1"
+					"level_1"		"1"
+					"level_2"		"1"
+					"level_3"		"1"
+					"white"		"1"
+					"black"		"1"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"124.603615 -129.066605 121.010880"
+				"PortraitLookAt"		"24.461060 132.203979 0.000000"
+				"PortraitFOV"		"37.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"-32.657112 -136.634705 156.815552"
+				"PortraitLightLookAt"		"49.889999 111.050003 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"133.000000"
+				"PortraitLightColor"		"0.270000 0.270000 0.270000"
+				"PortraitShadowColor"		"0.020000 0.010000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"15.180000 -33.369999 28.139999"
+				"PortraitAmbientColor"		"0.010000 0.020000 0.050000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+			"preview_portrait"
+			{
+				"PortraitPosition"		"600.000000 -48.000000 98.000000"
+				"PortraitLookAt"		"357.600006 175.899994 0.000000"
+				"PortraitFOV"		"29.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"276.429993 -18.010000 333.350006"
+				"PortraitLightLookAt"		"33.889999 183.929993 0.000000"
+				"PortraitLightFOV"		"63.000000"
+				"PortraitLightDistance"		"471.000000"
+				"PortraitLightColor"		"0.400000 0.340000 0.730000"
+				"PortraitShadowColor"		"0.230000 0.230000 0.230000"
+				"PortraitShadowScale"		"0.205000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"76.519997 -7.960000 -38.340000"
+				"PortraitAmbientColor"		"0.000000 0.360000 0.330000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.550000 0.450000 0.600000"
+				"PortraitBackgroundColor2"		"0.550000 0.450000 0.600000"
+				"PortraitBackgroundColor3"		"0.550000 0.450000 0.600000"
+				"PortraitBackgroundColor4"		"0.550000 0.450000 0.600000"
+				"PortraitBackgroundTexture"		"portraits_card/portrait_backgrounds/full_view_background"
+				"PortraitBackgroundModel"		"models/heroes/pedestal/pedestal_1_small.mdl"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"1.000000"
+				"PortraitHideHero"		"0"
+			}
+			"preview_portrait_flying"
+			{
+				"PortraitPosition"		"600.000000 -48.000000 48.000000"
+				"PortraitLookAt"		"357.600006 175.899994 0.000000"
+				"PortraitFOV"		"29.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"276.429993 -18.010000 333.350006"
+				"PortraitLightLookAt"		"33.889999 183.929993 0.000000"
+				"PortraitLightFOV"		"63.000000"
+				"PortraitLightDistance"		"471.000000"
+				"PortraitLightColor"		"0.400000 0.340000 0.730000"
+				"PortraitShadowColor"		"0.230000 0.230000 0.230000"
+				"PortraitShadowScale"		"0.205000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"76.519997 -7.960000 -38.340000"
+				"PortraitAmbientColor"		"0.000000 0.360000 0.330000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.550000 0.450000 0.600000"
+				"PortraitBackgroundColor2"		"0.550000 0.450000 0.600000"
+				"PortraitBackgroundColor3"		"0.550000 0.450000 0.600000"
+				"PortraitBackgroundColor4"		"0.550000 0.450000 0.600000"
+				"PortraitBackgroundTexture"		"portraits_card/portrait_backgrounds/full_view_background"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"1.000000"
+				"PortraitHideHero"		"0"
+			}
+			"courier_slots"
+			{
+				"greevil"
+				{
+					"horns"		"0"
+					"teeth"		"1"
+					"tail"		"2"
+					"hair"		"3"
+					"nose"		"4"
+					"ears"		"5"
+					"wings"		"6"
+					"eyes"		"7"
+					"effect"		"8"
+					"feathers"		"9"
+				}
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_generic.pcf"
+		}
+		"10071"
+		{
+			"name"		"Perky Greevil Ears"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Perky_Greevil_Ears"
+			"model_player"		"models/courier/greevil/greevil_ears1.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"ears"
+				"index"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10072"
+		{
+			"name"		"Pointed Greevil Ears"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Pointed_Greevil_Ears"
+			"model_player"		"models/courier/greevil/greevil_ears2.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"ears"
+				"index"		"2"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10073"
+		{
+			"name"		"Short Greevil Hair"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Short_Greevil_Hair"
+			"model_player"		"models/courier/greevil/greevil_hair1.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"hair"
+				"index"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10074"
+		{
+			"name"		"Long Greevil Hair"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Long_Greevil_Hair"
+			"model_player"		"models/courier/greevil/greevil_hair2.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"hair"
+				"index"		"2"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10075"
+		{
+			"name"		"Stubby Greevil Horns"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Stubby_Greevil_Horns"
+			"model_player"		"models/courier/greevil/greevil_horns1.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"horns"
+				"index"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10076"
+		{
+			"name"		"Wicked Greevil Horns"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Wicked_Greevil_Horns"
+			"model_player"		"models/courier/greevil/greevil_horns2.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"horns"
+				"index"		"2"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10077"
+		{
+			"name"		"Massive Greevil Horns"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Massive_Greevil_Horns"
+			"model_player"		"models/courier/greevil/greevil_horns3.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"horns"
+				"index"		"3"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10078"
+		{
+			"name"		"Modest Greevil Nose"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Modest_Greevil_Nose"
+			"model_player"		"models/courier/greevil/greevil_nose1.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"nose"
+				"index"		"1"
+			}
+			"use_parent_skin"		"1"
+			"item_description"		"#DOTA_Item_Desc_Greevil_Nose_1"
+		}
+		"10079"
+		{
+			"name"		"Hooked Greevil Nose"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Hooked_Greevil_Nose"
+			"model_player"		"models/courier/greevil/greevil_nose2.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"nose"
+				"index"		"2"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10080"
+		{
+			"name"		"Horned Greevil Nose"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Horned_Greevil_Nose"
+			"model_player"		"models/courier/greevil/greevil_nose3.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"nose"
+				"index"		"3"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10081"
+		{
+			"name"		"Thin Greevil Tail"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Thin_Greevil_Tail"
+			"model_player"		"models/courier/greevil/greevil_tail1.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"tail"
+				"index"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10082"
+		{
+			"name"		"Balanced Greevil Tail"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Balanced_Greevil_Tail"
+			"model_player"		"models/courier/greevil/greevil_tail2.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"tail"
+				"index"		"2"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10083"
+		{
+			"name"		"Spiked Greevil Tail"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Spiked_Greevil_Tail"
+			"model_player"		"models/courier/greevil/greevil_tail3.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"tail"
+				"index"		"3"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10084"
+		{
+			"name"		"Simple Greevil Teeth"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Simple_Greevil_Teeth"
+			"model_player"		"models/courier/greevil/greevil_teeth1.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"teeth"
+				"index"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10085"
+		{
+			"name"		"Sharp Greevil Teeth"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Sharp_Greevil_Teeth"
+			"model_player"		"models/courier/greevil/greevil_teeth2.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"teeth"
+				"index"		"2"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10086"
+		{
+			"name"		"Toothy Greevil Teeth"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Toothy_Greevil_Teeth"
+			"model_player"		"models/courier/greevil/greevil_teeth3.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"teeth"
+				"index"		"3"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10087"
+		{
+			"name"		"Barely Functional Greevil Wings"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Barely_Functional_Greevil_Wings"
+			"model_player"		"models/courier/greevil/greevil_wings1.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"wings"
+				"index"		"1"
+				"flying"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10088"
+		{
+			"name"		"Functional Greevil Wings"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Functional_Greevil_Wings"
+			"model_player"		"models/courier/greevil/greevil_wings2.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"wings"
+				"index"		"2"
+				"flying"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10089"
+		{
+			"name"		"Elaborate Greevil Wings"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Elaborate_Greevil_Wings"
+			"model_player"		"models/courier/greevil/greevil_wings3.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"wings"
+				"index"		"3"
+				"flying"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10090"
+		{
+			"name"		"Googly Greevil Eyes"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Googly_Greevil_Eyes"
+			"model_player"		"models/courier/greevil/greevil_eyes.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"eyes"
+				"index"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
 		"10091"
 		{
 			"name"		"Baby Roshan"
@@ -34956,6 +35431,7 @@
 		{
 			"name"		"Roshan's Costume - Frankenstein"
 			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Costume"
 			"item_name"		"#DOTA_Item_Roshans_Costume__Frankenstein"
 			"model_player"		"models/creeps/roshan_halloween/roshan_halloween_frankenstein.mdl"
 		}
@@ -34963,6 +35439,7 @@
 		{
 			"name"		"Roshan's Costume - Dracula"
 			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Costume"
 			"item_name"		"#DOTA_Item_Roshans_Costume__Dracula"
 			"model_player"		"models/creeps/roshan_halloween/roshan_halloween_dracula.mdl"
 		}
@@ -34970,6 +35447,7 @@
 		{
 			"name"		"Roshan's Costume - Angel"
 			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Costume"
 			"item_name"		"#DOTA_Item_Roshans_Costume__Angel"
 			"model_player"		"models/creeps/roshan_halloween/roshan_halloween_angel.mdl"
 		}
@@ -34980,7 +35458,7 @@
 			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_WearableType_Treasure_Chest"
 			"item_name"		"#DOTA_Item_Ghastly_Treasure_of_Diretide"
-			"expiration_date"		"2012-11-12 23:00:00"
+			"expiration_date"		"2012-11-15 23:00:00"
 			"tool"
 			{
 				"type"		"supply_crate"
@@ -35292,6 +35770,832 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"10099"
+		{
+			"name"		"Naked Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Naked_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"1"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_naked.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_naked_ambient_1"
+				}
+			}
+		}
+		"10100"
+		{
+			"name"		"Naked Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Naked_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"2"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_naked.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_naked_ambient_2"
+				}
+			}
+		}
+		"10101"
+		{
+			"name"		"Naked Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Naked_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"3"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_naked.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_naked_ambient_3"
+				}
+			}
+		}
+		"10102"
+		{
+			"name"		"Exort Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Exort_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"4"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_red.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_red_ambient_1"
+				}
+			}
+		}
+		"10103"
+		{
+			"name"		"Exort Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Exort_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"5"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_red.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_red_ambient_2"
+				}
+			}
+		}
+		"10104"
+		{
+			"name"		"Exort Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Exort_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"6"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_red.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_red_ambient_3"
+				}
+			}
+		}
+		"10105"
+		{
+			"name"		"Flam Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Flam_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"7"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_orange.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_orange_ambient_1"
+				}
+			}
+		}
+		"10106"
+		{
+			"name"		"Flam Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Flam_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"8"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_orange.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_orange_ambient_2"
+				}
+			}
+		}
+		"10107"
+		{
+			"name"		"Flam Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Flam_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"9"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_orange.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_orange_ambient_3"
+				}
+			}
+		}
+		"10108"
+		{
+			"name"		"Wex Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Wex_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"10"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_yellow.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_yellow_ambient_1"
+				}
+			}
+		}
+		"10109"
+		{
+			"name"		"Wex Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Wex_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"11"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_yellow.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_yellow_ambient_2"
+				}
+			}
+		}
+		"10110"
+		{
+			"name"		"Wex Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Wex_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"12"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_yellow.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_yellow_ambient_3"
+				}
+			}
+		}
+		"10111"
+		{
+			"name"		"Vas Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Vas_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"13"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_green.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_green_ambient_1"
+				}
+			}
+		}
+		"10112"
+		{
+			"name"		"Vas Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Vas_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"14"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_green.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_green_ambient_2"
+				}
+			}
+		}
+		"10113"
+		{
+			"name"		"Vas Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Vas_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"15"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_green.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_green_ambient_3"
+				}
+			}
+		}
+		"10114"
+		{
+			"name"		"Quas Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Quas_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"16"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_blue.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_blue_ambient_1"
+				}
+			}
+		}
+		"10115"
+		{
+			"name"		"Quas Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Quas_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"17"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_blue.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_blue_ambient_2"
+				}
+			}
+		}
+		"10116"
+		{
+			"name"		"Quas Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Quas_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"18"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_blue.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_blue_ambient_3"
+				}
+			}
+		}
+		"10117"
+		{
+			"name"		"Por Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Por_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"19"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_purple.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_purple_ambient_1"
+				}
+			}
+		}
+		"10118"
+		{
+			"name"		"Por Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Por_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"20"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_purple.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_purple_ambient_2"
+				}
+			}
+		}
+		"10119"
+		{
+			"name"		"Por Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Por_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"21"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_purple.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_purple_ambient_3"
+				}
+			}
+		}
+		"10120"
+		{
+			"name"		"Sanct Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Sanct_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"22"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_white.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_white_ambient_1"
+				}
+			}
+		}
+		"10121"
+		{
+			"name"		"Sanct Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Sanct_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"23"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_white.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_white_ambient_2"
+				}
+			}
+		}
+		"10122"
+		{
+			"name"		"Sanct Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Sanct_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"24"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_white.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_white_ambient_3"
+				}
+			}
+		}
+		"10123"
+		{
+			"name"		"Corp Air"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Corp_Air"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"25"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_black.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_black_ambient_1"
+				}
+			}
+		}
+		"10124"
+		{
+			"name"		"Corp Ambience"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Corp_Ambience"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"26"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_black.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_black_ambient_2"
+				}
+			}
+		}
+		"10125"
+		{
+			"name"		"Corp Aura"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Effect"
+			"item_name"		"#DOTA_Item_Corp_Aura"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"effect"
+				"index"		"27"
+			}
+			"particle_file"		"particles\econ\courier\courier_greevil_black.pcf"
+			"visuals"
+			{
+				"attached_particlesystem"
+				{
+					"system"		"courier_greevil_ambient"
+				}
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"courier_greevil_ambient"
+					"modifier"		"courier_greevil_black_ambient_3"
+				}
+			}
+		}
+		"10126"
+		{
+			"name"		"Demonic Greevil Horns"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Demonic_Greevil_Horns"
+			"model_player"		"models/courier/greevil/greevil_horns4.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"horns"
+				"index"		"4"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10127"
+		{
+			"name"		"Evil Greevil Tail"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Evil_Greevil_Tail"
+			"model_player"		"models/courier/greevil/greevil_tail4.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"tail"
+				"index"		"4"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10128"
+		{
+			"name"		"Jagged Greevil Teeth"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Jagged_Greevil_Teeth"
+			"model_player"		"models/courier/greevil/greevil_teeth4.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"teeth"
+				"index"		"4"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10129"
+		{
+			"name"		"Gothic Greevil Wings"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Gothic_Greevil_Wings"
+			"model_player"		"models/courier/greevil/greevil_wings4.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"wings"
+				"index"		"4"
+				"flying"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10130"
+		{
+			"name"		"Shaggy Greevil Feathers"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Courier_Wearable"
+			"item_name"		"#DOTA_Item_Shaggy_Greevil_Feathers"
+			"model_player"		"models/courier/greevil/greevil_feathers.mdl"
+			"courier_wearable"
+			{
+				"courier"		"greevil"
+				"slot"		"feathers"
+				"index"		"1"
+			}
+			"use_parent_skin"		"1"
+		}
+		"10131"
+		{
+			"name"		"Announcer: Death Prophet"
+			"prefab"		"dota_misc_item"
+			"item_type_name"		"#DOTA_WearableType_Announcer"
+			"item_name"		"#DOTA_Item_Announcer_Death_Prophet"
+			"item_slot"		"announcer"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Announcer_Death_Prophet"
+			"player_loadout"		"1"
+			"image_inventory"		"econ/announcer/announcer_death_prophet"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"announcer"
+					"asset"		"npc_dota_hero_announcer_diretide_2012"
+					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_diretide_2012.txt"
+				}
+			}
+		}
 		"15000"
 		{
 			"name"		"Name Tag"
@@ -35585,7 +36889,7 @@
 		{
 			"name"		"League View Pass"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_LeagueViewPass"
 			"item_rarity"		"mythical"
 			"tool"
@@ -35616,10 +36920,10 @@
 		}
 		"15011"
 		{
-			"name"		"League View Pass Admin"
+			"name"		"League View Test - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_League_View_Test__Admin"
 			"item_rarity"		"mythical"
 			"tool"
 			{
@@ -35735,10 +37039,10 @@
 		}
 		"15014"
 		{
-			"name"		"League Test Item"
+			"name"		"League View Test 5150 - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_League_View_Test_5150__Admin"
 			"item_rarity"		"mythical"
 			"tool"
 			{
@@ -35771,7 +37075,7 @@
 		{
 			"name"		"Wild Cards West"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_WildCardsWest"
 			"item_rarity"		"mythical"
 			"tool"
@@ -35806,7 +37110,7 @@
 		{
 			"name"		"Wild Cards East"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_WildCardsEast"
 			"item_rarity"		"mythical"
 			"tool"
@@ -35873,7 +37177,7 @@
 		{
 			"name"		"The Defense #2"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_TheDefense"
 			"item_rarity"		"mythical"
 			"tool"
@@ -35984,10 +37288,10 @@
 		}
 		"15022"
 		{
-			"name"		"The Defense #2 Admin"
+			"name"		"The Defense - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_TheDefense_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_The_Defense__Admin"
 			"item_rarity"		"mythical"
 			"tool"
 			{
@@ -36610,7 +37914,7 @@
 		{
 			"name"		"It's Gosu Monthly Madness Asia"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_ItsGosuMontlyMadnessAsia"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -36643,10 +37947,10 @@
 		}
 		"15043"
 		{
-			"name"		"It's Gosu Monthly Madness Asia ADMIN"
+			"name"		"It's Gosu Monthly Madness Asia - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_ItsGosuMontlyMadnessAsia_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_Its_Gosu_Monthly_Madness_Asia__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -36768,7 +38072,7 @@
 		{
 			"name"		"Star Series Season II Lan Final"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_StarLadderS2"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -36801,10 +38105,10 @@
 		}
 		"15048"
 		{
-			"name"		"Star Series Season II Lan Final ADMIN"
+			"name"		"Star Series Season II Lan Final - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"Star Series Season II Lan Final ADMIN"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_Star_Series_Season_II_Lan_Final__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -36838,7 +38142,7 @@
 		{
 			"name"		"BeyondTheSummit World Tour"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_BeyondTheSummit"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -36871,10 +38175,10 @@
 		}
 		"15050"
 		{
-			"name"		"BeyondTheSummit World Tour ADMIN"
+			"name"		"BeyondTheSummit World Tour - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_BeyondTheSummit_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_BeyondTheSummit_World_Tour__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -36908,7 +38212,7 @@
 		{
 			"name"		"Prodota 2 Worldwide League"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_Prodota2WL"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -36941,10 +38245,10 @@
 		}
 		"15052"
 		{
-			"name"		"Prodota 2 Worldwide League ADMIN"
+			"name"		"Prodota 2 Worldwide League - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_Prodota2WL_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_Prodota_2_Worldwide_League__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -36978,7 +38282,7 @@
 		{
 			"name"		"Machinima ECAL: Americas"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_MachinimaECAL_America"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37011,10 +38315,10 @@
 		}
 		"15054"
 		{
-			"name"		"Machinima ECAL: Americas ADMIN"
+			"name"		"Machinima ECAL: Americas - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_MachinimaECAL_America_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_Machinima_ECAL_Americas__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -37048,7 +38352,7 @@
 		{
 			"name"		"The Internal"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_TheInternal"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37082,10 +38386,10 @@
 		}
 		"15056"
 		{
-			"name"		"The Internal ADMIN"
+			"name"		"The Internal - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_TheInternal_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_The_Internal__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -37300,7 +38604,7 @@
 		{
 			"name"		"Razer Mini Madness"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_RazerMiniMadness"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37333,10 +38637,10 @@
 		}
 		"15064"
 		{
-			"name"		"Razer Mini Madness ADMIN"
+			"name"		"Razer Mini Madness - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_RazerMiniMadness_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_Razer_Mini_Madness__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -37370,7 +38674,7 @@
 		{
 			"name"		"AbsoluteArena King of the Hill"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_AbsoluteArenaKOH"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37403,10 +38707,10 @@
 		}
 		"15066"
 		{
-			"name"		"AbsoluteArena King of the Hill ADMIN"
+			"name"		"AbsoluteArena King of the Hill - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_AbsoluteArenaKOH_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_AbsoluteArena_King_of_the_Hill__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -37583,7 +38887,7 @@
 		{
 			"name"		"The International"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_TheInternational"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37616,10 +38920,10 @@
 		}
 		"15073"
 		{
-			"name"		"The International Admin"
+			"name"		"The International - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_TheInternational_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_The_International__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -37679,7 +38983,7 @@
 		{
 			"name"		"RaidCall Dota 2 League"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_RaidCall"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37712,10 +39016,10 @@
 		}
 		"15076"
 		{
-			"name"		"RaidCall Dota 2 League Admin"
+			"name"		"RaidCall Dota 2 League - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_RaidCall_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_RaidCall_Dota_2_League__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -37749,7 +39053,7 @@
 		{
 			"name"		"Star Series Season III"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_StarSeries3"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37782,10 +39086,10 @@
 		}
 		"15078"
 		{
-			"name"		"Star Series Season III ADMIN"
+			"name"		"Star Series Season III - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_StarSeries3_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_Star_Series_Season_III__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -37865,7 +39169,7 @@
 		{
 			"name"		"GEST Dota 2"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_GEST"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37898,10 +39202,10 @@
 		}
 		"15082"
 		{
-			"name"		"GEST Dota 2 ADMIN"
+			"name"		"GEST - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_GEST_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_GEST__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -37935,7 +39239,7 @@
 		{
 			"name"		"Premier League"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_PremierLeague"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -37968,10 +39272,10 @@
 		}
 		"15084"
 		{
-			"name"		"Premier League ADMIN"
+			"name"		"Premier League - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass_Admin"
-			"item_name"		"#DOTA_Item_League_PremierLeague_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_Premier_League__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -38005,7 +39309,7 @@
 		{
 			"name"		"GosuLeague"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_GosuLeague"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -38038,10 +39342,10 @@
 		}
 		"15086"
 		{
-			"name"		"GosuLeague ADMIN"
+			"name"		"GosuLeague - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_GosuLeague_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_GosuLeague__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -38383,7 +39687,7 @@
 		{
 			"name"		"G-1 Championship League"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_G1Championship"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -38416,10 +39720,10 @@
 		}
 		"15097"
 		{
-			"name"		"G-1 Championship League ADMIN"
+			"name"		"G-1 Championship League - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_G1Championship_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_G1_Championship_League__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -38463,7 +39767,6 @@
 				{
 					"decodable"		"1"
 				}
-				"restriction"		"diretide"
 			}
 			"item_description"		"#DOTA_Item_Desc_Treasure_Key"
 			"image_inventory"		"econ/tools/treasure_chest_key_diretide"
@@ -38480,7 +39783,7 @@
 		{
 			"name"		"atoD 2"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_atoD2"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -38512,10 +39815,10 @@
 		}
 		"15100"
 		{
-			"name"		"atoD 2 ADMIN"
+			"name"		"atoD 2 - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass_Admin"
-			"item_name"		"#DOTA_Item_League_atoD2_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_atoD_2__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -38548,7 +39851,7 @@
 		{
 			"name"		"It's Gosu Asia Madness"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_GosuAsiaMadness"
 			"item_rarity"		"uncommon"
 			"tool"
@@ -38581,10 +39884,10 @@
 		}
 		"15102"
 		{
-			"name"		"It's Gosu Asia Madness ADMIN"
+			"name"		"It's Gosu Asia Madness 3 - Admin"
 			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_LeagueViewPass"
-			"item_name"		"#DOTA_Item_League_GosuAsiaMadness_Admin"
+			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
+			"item_name"		"#DOTA_Item_Its_Gosu_Asia_Madness_3__Admin"
 			"item_rarity"		"uncommon"
 			"tool"
 			{
@@ -42928,31 +44231,31 @@
 		}
 		"140"
 		{
-			"name"		"item set anim"
-			"attribute_class"		"item_set_anim"
-			"attribute_name"		"item_set_anim"
+			"name"		"courier slots 3"
+			"attribute_class"		"courier_slots_3"
+			"attribute_name"		"courier slots 3"
 			"min_value"		"0"
 			"max_value"		"0"
 			"group"		"only_on_unique"
-			"description_string"		"#Attrib_ItemSetAnim"
+			"description_string"		"#Attrib_CourierSlots3"
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
-			"effect_type"		"positive"
-			"stored_as_integer"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
 		}
 		"141"
 		{
-			"name"		"item set anim bonus"
-			"attribute_class"		"item_set_anim_bonus"
-			"attribute_name"		"item set anim bonus"
+			"name"		"courier slots 4"
+			"attribute_class"		"courier_slots_4"
+			"attribute_name"		"courier slots 4"
 			"min_value"		"0"
 			"max_value"		"0"
 			"group"		"only_on_unique"
-			"description_string"		"#Attrib_ItemSetAnimBonus"
+			"description_string"		"#Attrib_CourierSlots4"
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
-			"effect_type"		"positive"
-			"stored_as_integer"		"0"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
 		}
 		"142"
 		{
@@ -42970,17 +44273,45 @@
 		}
 		"143"
 		{
-			"name"		"courier skin"
-			"attribute_class"		"courier_skin"
-			"attribute_name"		"courier skin"
+			"name"		"courier seed"
+			"attribute_class"		"courier_seed"
+			"attribute_name"		"courier seed"
 			"min_value"		"0"
 			"max_value"		"0"
 			"group"		"only_on_unique"
-			"description_string"		"#Attrib_CourierSkin"
+			"description_string"		"#Attrib_CourierSeed"
 			"description_format"		"value_is_additive"
 			"hidden"		"0"
 			"effect_type"		"neutral"
 			"stored_as_integer"		"1"
+		}
+		"144"
+		{
+			"name"		"item set anim"
+			"attribute_class"		"item_set_anim"
+			"attribute_name"		"item_set_anim"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ItemSetAnim"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
+		"145"
+		{
+			"name"		"item set anim bonus"
+			"attribute_class"		"item_set_anim_bonus"
+			"attribute_name"		"item set anim bonus"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_ItemSetAnimBonus"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
 		}
 		"153"
 		{
@@ -43131,6 +44462,48 @@
 			"max_value"		"0"
 			"group"		"only_on_unique"
 			"description_string"		"#Attrib_CannotRemoveCustomName"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"164"
+		{
+			"name"		"alternate icon"
+			"attribute_class"		"alternate_icon"
+			"attribute_name"		"alternate icon"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_AlternateIcon"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"165"
+		{
+			"name"		"use animation modifier"
+			"attribute_class"		"use_animation_modifier"
+			"attribute_name"		"use animation modifier"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_UseAnimationModifier"
+			"description_format"		"value_is_additive"
+			"hidden"		"1"
+			"effect_type"		"neutral"
+			"stored_as_integer"		"1"
+		}
+		"166"
+		{
+			"name"		"white power"
+			"attribute_class"		"white_power"
+			"attribute_name"		"white power"
+			"min_value"		"0"
+			"max_value"		"0"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_WhitePower"
 			"description_format"		"value_is_additive"
 			"hidden"		"1"
 			"effect_type"		"neutral"
@@ -44454,19 +45827,19 @@
 			{
 				"0"
 				{
-					"control_point_index"		"2"
+					"control_point_index"		"0"
 					"attach_type"		"point_follow"
-					"attachment"		"attach_eye_m"
+					"attachment"		"attach_eye_l"
 				}
 				"1"
 				{
 					"control_point_index"		"1"
 					"attach_type"		"point_follow"
-					"attachment"		"attach_eye_l"
+					"attachment"		"attach_eye_m"
 				}
 				"2"
 				{
-					"control_point_index"		"3"
+					"control_point_index"		"2"
 					"attach_type"		"point_follow"
 					"attachment"		"attach_eye_r"
 				}
@@ -44482,7 +45855,7 @@
 				"0"
 				{
 					"control_point_index"		"0"
-					"attach_type"		"point"
+					"attach_type"		"point_follow"
 					"attachment"		"attach_hitloc"
 				}
 			}
@@ -44547,10 +45920,117 @@
 				}
 			}
 		}
+		"53"
+		{
+			"system"		"courier_greevil_ambient"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+				"2"
+				{
+					"control_point_index"		"3"
+					"attach_type"		"renderorigin_follow"
+				}
+				"3"
+				{
+					"control_point_index"		"4"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_mouth"
+				}
+			}
+		}
 	}
 	"upgradeable_base_items"
 	{
 		"Upgradeable Sven's Default Sword"		"1"
+	}
+	"alternate_icons"
+	{
+		"0"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_natural"
+		}
+		"1"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_red"
+		}
+		"2"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_yellow"
+		}
+		"3"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_blue"
+		}
+		"4"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_orange"
+		}
+		"5"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_purple"
+		}
+		"6"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_green"
+		}
+		"7"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_black"
+		}
+		"8"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_egg_white"
+		}
+		"9"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_natural"
+		}
+		"10"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_red"
+		}
+		"11"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_yellow"
+		}
+		"12"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_blue"
+		}
+		"13"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_orange"
+		}
+		"14"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_purple"
+		}
+		"15"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_green"
+		}
+		"16"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_black"
+		}
+		"17"
+		{
+			"icon_path"		"econ/courier/greevil/greevil_white"
+		}
 	}
 	"item_sets"
 	{

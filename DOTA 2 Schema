@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.600192c10bab25bd576578e25d2177d176411f58.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.74d35d62a7847fbce30609d11cb579394a045b72.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -166,7 +166,7 @@
 				}
 			},
 			{
-				"name": "Axe's Default Axe",
+				"name": "Axe's Axe",
 				"defindex": 2,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "weapon",
@@ -8043,11 +8043,11 @@
 				}
 			},
 			{
-				"name": "troll_warlord_base_weapon_melee",
+				"name": "troll_warlord_axe_melee_r",
 				"defindex": 379,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "New Item",
-				"item_name": "",
+				"item_name": "troll_warlord_axe_melee_r",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
@@ -8064,11 +8064,11 @@
 				}
 			},
 			{
-				"name": "troll_warlord_off_hand_base_weapon_melee",
+				"name": "troll_warlord_axe_melee_l",
 				"defindex": 380,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "New Item",
-				"item_name": "",
+				"item_name": "troll_warlord_axe_melee_l",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
@@ -8605,28 +8605,6 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/kunkka\/kunkka_harpoon.e4c9d2c08a883a1c44d0a8561426b2b6f04c68d7.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/kunkka\/kunkka_harpoon_large.bd98eff6e5dac19fb4ac0a45a62aece720d87025.png",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
-				"name": "Pact of Gor-Thramak",
-				"defindex": 4020,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Ability Modifier",
-				"item_name": "Pact of Gor-Thramak",
-				"item_description": "In his travels across the Outer Worlds, ostensibly in search of arcane artifacts, the warlock Demnok Lannik has signed many a dark pact. Countless terrible entities owe him their favor. Gor-Thramak, the Sanguinated Fiend, is one such debtor. In a time of dire need, the Warlock might call upon the Fiend's Avatar - the Rendbeast - to aid in the dubious work of slaughter and mayhem.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -13190,28 +13168,6 @@
 				
 			},
 			{
-				"name": "Pugna Curved Horns",
-				"defindex": 4202,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Pugna Curved Horns",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
 				"name": "War Blade",
 				"defindex": 4203,
 				"item_class": "dota_item_wearable",
@@ -16520,28 +16476,6 @@
 				}
 			},
 			{
-				"name": "Rune Inscribed Cleaver",
-				"defindex": 4340,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Sword",
-				"item_name": "Rune Inscribed Cleaver",
-				"item_description": "The runes grant visions of the afterlife to whoever is cut by the blade.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/items\/skeleton_king\/mordiggian_blade",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
 				"name": "Head-Ache",
 				"defindex": 4341,
 				"item_class": "dota_item_wearable",
@@ -17129,28 +17063,6 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/drow\/drow_spikehair.5c1585ce49c192fb3cc8beb5007a17adf638013a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/drow\/drow_spikehair_large.5627f92f4f95c63c92edd14e89c08acd90b28034.png",
 				"item_set": "drow_ranger_frost_spikes",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
-				"name": "Warlock's Malevolent Staff",
-				"defindex": 4368,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Warlock's Malevolent Staff",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -23685,27 +23597,6 @@
 				}
 			},
 			{
-				"name": "Minipudge Courier",
-				"defindex": 10007,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Minipudge Courier",
-				"item_description": "",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/items\/couriers\/minipudge",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
-				"capabilities": {
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
 				"name": "Announcer: Dr. Kleiner",
 				"defindex": 10008,
 				"item_class": "dota_item_wearable",
@@ -25788,11 +25679,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/courier\/greevil\/greevil_egg_natural.cc88573cac86ad14d91b252ccabd2c8dbf15fa61.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/courier\/greevil\/greevil_egg_natural_large.3c5add5871279d9b4b4b633236575ba584243cf1.png",
 				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true,
 					"uses_essence": true
+				},
+				"tool": {
+					"type": "egg",
+					"use_string": "Hatch the Egg"
 				},
 				"attributes": [
 					{
@@ -25877,14 +25774,14 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Courier",
 				"item_name": "Greevil",
-				"item_description": "A creature.",
+				"item_description": "A strange beast infused with magic. Its color, appearance, and abilities are determined by the types of magical essences it was exposed to while still an egg.",
 				"proper_name": false,
-				"item_quality": 3,
+				"item_quality": 4,
 				"image_inventory": "econ\/courier\/greevil\/greevil_red",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "",
-				"image_url_large": "",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/courier\/greevil\/greevil_red.240831d7fa5c04c2813188105d08b50ba8c6c629.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/courier\/greevil\/greevil_red_large.df68ffbaa5470f4bda1632ffa810f75212f1044c.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -25901,11 +25798,11 @@
 				
 			},
 			{
-				"name": "Greevil Ears 1",
+				"name": "Perky Greevil Ears",
 				"defindex": 10071,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Ears 1",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Perky Greevil Ears",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -25921,11 +25818,11 @@
 				}
 			},
 			{
-				"name": "Greevil Ears 2",
+				"name": "Pointed Greevil Ears",
 				"defindex": 10072,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Ears 2",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Pointed Greevil Ears",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -25941,11 +25838,11 @@
 				}
 			},
 			{
-				"name": "Greevil Hair 1",
+				"name": "Short Greevil Hair",
 				"defindex": 10073,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Hair 1",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Short Greevil Hair",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -25961,11 +25858,11 @@
 				}
 			},
 			{
-				"name": "Greevil Hair 2",
+				"name": "Long Greevil Hair",
 				"defindex": 10074,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Hair 2",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Long Greevil Hair",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -25981,11 +25878,11 @@
 				}
 			},
 			{
-				"name": "Greevil Horns 1",
+				"name": "Stubby Greevil Horns",
 				"defindex": 10075,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Horns 1",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Stubby Greevil Horns",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26001,11 +25898,11 @@
 				}
 			},
 			{
-				"name": "Greevil Horns 2",
+				"name": "Wicked Greevil Horns",
 				"defindex": 10076,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Horns 2",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Wicked Greevil Horns",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26021,11 +25918,11 @@
 				}
 			},
 			{
-				"name": "Greevil Horns 3",
+				"name": "Massive Greevil Horns",
 				"defindex": 10077,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Horns 3",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Massive Greevil Horns",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26041,11 +25938,11 @@
 				}
 			},
 			{
-				"name": "Greevil Nose 1",
+				"name": "Modest Greevil Nose",
 				"defindex": 10078,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Nose 1",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Modest Greevil Nose",
 				"item_description": "",
 				"proper_name": false,
 				"item_quality": 4,
@@ -26062,11 +25959,11 @@
 				}
 			},
 			{
-				"name": "Greevil Nose 2",
+				"name": "Hooked Greevil Nose",
 				"defindex": 10079,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Nose 2",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Hooked Greevil Nose",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26082,11 +25979,11 @@
 				}
 			},
 			{
-				"name": "Greevil Nose 3",
+				"name": "Horned Greevil Nose",
 				"defindex": 10080,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Nose 3",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Horned Greevil Nose",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26102,11 +25999,11 @@
 				}
 			},
 			{
-				"name": "Greevil Tail 1",
+				"name": "Thin Greevil Tail",
 				"defindex": 10081,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Tail 1",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Thin Greevil Tail",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26122,11 +26019,11 @@
 				}
 			},
 			{
-				"name": "Greevil Tail 2",
+				"name": "Balanced Greevil Tail",
 				"defindex": 10082,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Tail 2",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Balanced Greevil Tail",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26142,11 +26039,11 @@
 				}
 			},
 			{
-				"name": "Greevil Tail 3",
+				"name": "Spiked Greevil Tail",
 				"defindex": 10083,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Tail 3",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Spiked Greevil Tail",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26162,11 +26059,11 @@
 				}
 			},
 			{
-				"name": "Greevil Teeth 1",
+				"name": "Simple Greevil Teeth",
 				"defindex": 10084,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Teeth 1",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Simple Greevil Teeth",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26182,11 +26079,11 @@
 				}
 			},
 			{
-				"name": "Greevil Teeth 2",
+				"name": "Sharp Greevil Teeth",
 				"defindex": 10085,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Teeth 2",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Sharp Greevil Teeth",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26202,11 +26099,11 @@
 				}
 			},
 			{
-				"name": "Greevil Teeth 3",
+				"name": "Toothy Greevil Teeth",
 				"defindex": 10086,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Teeth 3",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Toothy Greevil Teeth",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26222,11 +26119,11 @@
 				}
 			},
 			{
-				"name": "Greevil Wings 1",
+				"name": "Barely Functional Greevil Wings",
 				"defindex": 10087,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Wings 1",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Barely Functional Greevil Wings",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26242,11 +26139,11 @@
 				}
 			},
 			{
-				"name": "Greevil Wings 2",
+				"name": "Functional Greevil Wings",
 				"defindex": 10088,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Wings 2",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Functional Greevil Wings",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26262,11 +26159,11 @@
 				}
 			},
 			{
-				"name": "Greevil Wings 3",
+				"name": "Elaborate Greevil Wings",
 				"defindex": 10089,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Wings 3",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Elaborate Greevil Wings",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26282,11 +26179,11 @@
 				}
 			},
 			{
-				"name": "Greevil Eyes",
+				"name": "Googly Greevil Eyes",
 				"defindex": 10090,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Courier",
-				"item_name": "Greevil Eyes",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Googly Greevil Eyes",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": null,
@@ -26326,7 +26223,7 @@
 				"name": "Roshan's Costume - Frankenstein",
 				"defindex": 10092,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "weapon",
+				"item_type_name": "Costume",
 				"item_name": "Roshan's Costume - Frankenstein",
 				"proper_name": false,
 				"item_quality": 4,
@@ -26346,7 +26243,7 @@
 				"name": "Roshan's Costume - Dracula",
 				"defindex": 10093,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "weapon",
+				"item_type_name": "Costume",
 				"item_name": "Roshan's Costume - Dracula",
 				"proper_name": false,
 				"item_quality": 4,
@@ -26366,7 +26263,7 @@
 				"name": "Roshan's Costume - Angel",
 				"defindex": 10094,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "weapon",
+				"item_type_name": "Costume",
 				"item_name": "Roshan's Costume - Angel",
 				"proper_name": false,
 				"item_quality": 4,
@@ -26477,6 +26374,667 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/wards\/crystal_maiden_ward\/crystal_maiden_ward_npc_dota_observer_wards.a155bed2b72e5f94fe7f679c7f43a0d9de57050d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/wards\/crystal_maiden_ward\/crystal_maiden_ward_npc_dota_observer_wards_large.a2431824dd3d01867798e21a6264831922894443.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Naked Air",
+				"defindex": 10099,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Naked Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Naked Ambience",
+				"defindex": 10100,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Naked Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Naked Aura",
+				"defindex": 10101,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Naked Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Exort Air",
+				"defindex": 10102,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Exort Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Exort Ambience",
+				"defindex": 10103,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Exort Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Exort Aura",
+				"defindex": 10104,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Exort Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Flam Air",
+				"defindex": 10105,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Flam Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Flam Ambience",
+				"defindex": 10106,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Flam Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Flam Aura",
+				"defindex": 10107,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Flam Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Wex Air",
+				"defindex": 10108,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Wex Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Wex Ambience",
+				"defindex": 10109,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Wex Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Wex Aura",
+				"defindex": 10110,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Wex Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Vas Air",
+				"defindex": 10111,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Vas Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Vas Ambience",
+				"defindex": 10112,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Vas Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Vas Aura",
+				"defindex": 10113,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Vas Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Quas Air",
+				"defindex": 10114,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Quas Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Quas Ambience",
+				"defindex": 10115,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Quas Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Quas Aura",
+				"defindex": 10116,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Quas Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Por Air",
+				"defindex": 10117,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Por Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Por Ambience",
+				"defindex": 10118,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Por Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Por Aura",
+				"defindex": 10119,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Por Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Sanct Air",
+				"defindex": 10120,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Sanct Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Sanct Ambience",
+				"defindex": 10121,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Sanct Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Sanct Aura",
+				"defindex": 10122,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Sanct Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Corp Air",
+				"defindex": 10123,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Corp Air",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Corp Ambience",
+				"defindex": 10124,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Corp Ambience",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Corp Aura",
+				"defindex": 10125,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Effect",
+				"item_name": "Corp Aura",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Demonic Greevil Horns",
+				"defindex": 10126,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Demonic Greevil Horns",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Evil Greevil Tail",
+				"defindex": 10127,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Evil Greevil Tail",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Jagged Greevil Teeth",
+				"defindex": 10128,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Jagged Greevil Teeth",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Gothic Greevil Wings",
+				"defindex": 10129,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Gothic Greevil Wings",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Shaggy Greevil Feathers",
+				"defindex": 10130,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Courier Wearable",
+				"item_name": "Shaggy Greevil Feathers",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": null,
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Announcer: Death Prophet",
+				"defindex": 10131,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Announcer",
+				"item_name": "Announcer: Death Prophet",
+				"item_description": "A special Death Prophet announcer pack, created for the 2012 Diretide event.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/announcer\/announcer_death_prophet",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -26821,7 +27379,7 @@
 				"name": "League View Pass",
 				"defindex": 15010,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "League View Test",
 				"item_description": "League View Test",
 				"proper_name": false,
@@ -26853,11 +27411,11 @@
 				
 			},
 			{
-				"name": "League View Pass Admin",
+				"name": "League View Test - Admin",
 				"defindex": 15011,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "League View Test",
+				"item_type_name": "Admin Pass",
+				"item_name": "League View Test - Admin",
 				"item_description": "League View Test",
 				"proper_name": false,
 				"item_quality": 4,
@@ -26972,11 +27530,11 @@
 				
 			},
 			{
-				"name": "League Test Item",
+				"name": "League View Test 5150 - Admin",
 				"defindex": 15014,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "League View Test",
+				"item_type_name": "Admin Pass",
+				"item_name": "League View Test 5150 - Admin",
 				"item_description": "League View Test",
 				"proper_name": false,
 				"item_quality": 4,
@@ -27010,7 +27568,7 @@
 				"name": "Wild Cards West",
 				"defindex": 15015,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "Wild Cards West",
 				"item_description": "Watch eight of the best Dota 2 teams compete for a spot in The International",
 				"proper_name": false,
@@ -27045,7 +27603,7 @@
 				"name": "Wild Cards East",
 				"defindex": 15016,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "Wild Cards East",
 				"item_description": "Watch eight of the best Dota 2 teams compete for a spot in The International",
 				"proper_name": false,
@@ -27115,7 +27673,7 @@
 				"name": "The Defense #2",
 				"defindex": 15018,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "The Defense",
 				"item_description": "The Defense is the most prestigious Dota 2 online tournament held by joinDOTA, powered by Razer & BenQ. Featuring 20 hand-selected world-class teams and four community wildcard winners $10,000 prize money await only the toughest and most experienced of contestants on their way to the top.",
 				"proper_name": false,
@@ -27252,11 +27810,11 @@
 				
 			},
 			{
-				"name": "The Defense #2 Admin",
+				"name": "The Defense - Admin",
 				"defindex": 15022,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "The Defense Admin",
+				"item_type_name": "Admin Pass",
+				"item_name": "The Defense - Admin",
 				"item_description": "The Defense is the most prestigious Dota 2 online tournament held by joinDOTA, powered by Razer & BenQ. Featuring 20 hand-selected world-class teams and four community wildcard winners $10,000 prize money await only the toughest and most experienced of contestants on their way to the top.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -28025,7 +28583,7 @@
 				"name": "It's Gosu Monthly Madness Asia",
 				"defindex": 15042,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "It's Gosu Monthly Madness Asia",
 				"item_description": "It's Gosu Monthly Madness is a Dota 2 tournament hosted by It's Gosu eSports and generously sponsored by Own3D.Tv, Razer and NOS Energy Drinks. Throughout the month of July, 16 of the best teams in Asia will clash and only the finalists will share a part of the prizepool of $1,000.",
 				"proper_name": false,
@@ -28057,11 +28615,11 @@
 				
 			},
 			{
-				"name": "It's Gosu Monthly Madness Asia ADMIN",
+				"name": "It's Gosu Monthly Madness Asia - Admin",
 				"defindex": 15043,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "It's Gosu Monthly Madness Asia ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "It's Gosu Monthly Madness Asia - Admin",
 				"item_description": "It's Gosu Monthly Madness is a Dota 2 tournament hosted by It's Gosu eSports and generously sponsored by Own3D.Tv, Razer and NOS Energy Drinks. Throughout the month of July, 16 of the best teams in Asia will clash and only the finalists will share a part of the prizepool of $1,000.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -28206,7 +28764,7 @@
 				"name": "Star Series Season II Lan Final",
 				"defindex": 15047,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "Star Series Season II Lan Final",
 				"item_description": "Star Series is one of the most prestigious Dota 2 leagues held by StarLadder, and powered by Intel and Asus. The keystone of Star Series is the LAN final, which is held in Kiev CyberSport Arena, Ukraine. Watch the six best teams compete for the Grand Prize of $15,000 and the title Star Series Champion.",
 				"proper_name": false,
@@ -28238,11 +28796,11 @@
 				
 			},
 			{
-				"name": "Star Series Season II Lan Final ADMIN",
+				"name": "Star Series Season II Lan Final - Admin",
 				"defindex": 15048,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "Star Series Season II Lan Final ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "Star Series Season II Lan Final - Admin",
 				"item_description": "Star Series is one of the most prestigious Dota 2 leagues held by StarLadder, and powered by Intel and Asus. The keystone of Star Series is the LAN final, which is held in Kiev CyberSport Arena, Ukraine. Watch the six best teams compete for the Grand Prize of $15,000 and the title Star Series Champion.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -28276,7 +28834,7 @@
 				"name": "BeyondTheSummit World Tour",
 				"defindex": 15049,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "BeyondTheSummit World Tour",
 				"item_description": "BeyondTheSummit World Tour features 15 of the 16 teams attending The International. Brought to you in association with DotaCommentaries this warmup event is sure to whet your appetite as competitors from four different continents compete for the $1,000 prize that awaits only the top placing team.",
 				"proper_name": false,
@@ -28308,11 +28866,11 @@
 				
 			},
 			{
-				"name": "BeyondTheSummit World Tour ADMIN",
+				"name": "BeyondTheSummit World Tour - Admin",
 				"defindex": 15050,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "BeyondTheSummit World Tour Admin",
+				"item_type_name": "Admin Pass",
+				"item_name": "BeyondTheSummit World Tour - Admin",
 				"item_description": "BeyondTheSummit World Tour features 15 of the 16 teams attending The International. Brought to you in association with DotaCommentaries this warmup event is sure to whet your appetite as competitors from four different continents compete for the $1,000 prize that awaits only the top placing team.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -28346,7 +28904,7 @@
 				"name": "Prodota 2 Worldwide League",
 				"defindex": 15051,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "Prodota 2 Worldwide League",
 				"item_description": "Prodota 2 takes its tournament to the world stage during the play-offs, featuring some of the most well known and talented teams from around the globe. With $30,000 in prize money on the line we'll find out which region of the world truly has the best of the best!",
 				"proper_name": false,
@@ -28378,11 +28936,11 @@
 				
 			},
 			{
-				"name": "Prodota 2 Worldwide League ADMIN",
+				"name": "Prodota 2 Worldwide League - Admin",
 				"defindex": 15052,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "Prodota 2 Worldwide League ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "Prodota 2 Worldwide League - Admin",
 				"item_description": "Prodota 2 takes its tournament to the world stage during the play-offs, featuring some of the most well known and talented teams from around the globe. With $30,000 in prize money on the line we'll find out which region of the world truly has the best of the best!",
 				"proper_name": false,
 				"item_quality": 4,
@@ -28416,7 +28974,7 @@
 				"name": "Machinima ECAL: Americas",
 				"defindex": 15053,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "Machinima ECAL: Americas",
 				"item_description": "ECAL playoffs will feature 3 teams from the international: EG, coL, and aL along with up and coming teams in the competitive scene such as Quantic Gaming and POTM BOTTOM. A $3,000 prize pool sponsored by Machinima will be offered to the victors.",
 				"proper_name": false,
@@ -28448,11 +29006,11 @@
 				
 			},
 			{
-				"name": "Machinima ECAL: Americas ADMIN",
+				"name": "Machinima ECAL: Americas - Admin",
 				"defindex": 15054,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "Machinima ECAL: Americas ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "Machinima ECAL: Americas - Admin",
 				"item_description": "ECAL playoffs will feature 3 teams from the international: EG, coL, and aL along with up and coming teams in the competitive scene such as Quantic Gaming and POTM BOTTOM. A $3,000 prize pool sponsored by Machinima will be offered to the victors.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -28486,7 +29044,7 @@
 				"name": "The Internal",
 				"defindex": 15055,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "The Internal",
 				"item_description": "This is the test tournament for the systems that will be used at The International. Watch the best Dota 2 teams in Bellevue compete for the grand prize of being hated by their coworkers.",
 				"proper_name": false,
@@ -28518,11 +29076,11 @@
 				
 			},
 			{
-				"name": "The Internal ADMIN",
+				"name": "The Internal - Admin",
 				"defindex": 15056,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "The Internal ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "The Internal - Admin",
 				"item_description": "This is the test tournament for the systems that will be used at The International. Watch the best Dota 2 teams in Bellevue compete for the grand prize of being hated by their coworkers.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -28766,7 +29324,7 @@
 				"name": "Razer Mini Madness",
 				"defindex": 15063,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "Razer Mini Madness",
 				"item_description": "Razer Mini Madness is a Dota 2 tournament hosted by It's Gosu eSports and generously sponsored by Razer. Eight of the best teams in Asia will compete and will try to bag the $500 prize. This tournament is the last opportunity for the teams to get ready for this year's The International.",
 				"proper_name": false,
@@ -28798,11 +29356,11 @@
 				
 			},
 			{
-				"name": "Razer Mini Madness ADMIN",
+				"name": "Razer Mini Madness - Admin",
 				"defindex": 15064,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "Razer Mini Madness ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "Razer Mini Madness - Admin",
 				"item_description": "Razer Mini Madness is a Dota 2 tournament hosted by It's Gosu eSports and generously sponsored by Razer. Eight of the best teams in Asia will compete and will try to bag the $500 prize. This tournament is the last opportunity for the teams to get ready for this year's The International.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -28836,7 +29394,7 @@
 				"name": "AbsoluteArena King of the Hill",
 				"defindex": 15065,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "AbsoluteArena King of the Hill",
 				"item_description": "AbsoluteArena King of the Hill is a tournament consisting of a weekly match-up between two teams in a best-of-5 format. The first win is $100, and the prize increases every week by $100. Teams are able to win five games in a row ($1500) at which time the series starts over.",
 				"proper_name": false,
@@ -28868,11 +29426,11 @@
 				
 			},
 			{
-				"name": "AbsoluteArena King of the Hill ADMIN",
+				"name": "AbsoluteArena King of the Hill - Admin",
 				"defindex": 15066,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "",
+				"item_type_name": "Admin Pass",
+				"item_name": "AbsoluteArena King of the Hill - Admin",
 				"item_description": "AbsoluteArena King of the Hill is a tournament consisting of a weekly match-up between two teams in a best-of-5 format. The first win is $100, and the prize increases every week by $100. Teams are able to win five games in a row ($1500) at which time the series starts over.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -29073,7 +29631,7 @@
 				"name": "The International",
 				"defindex": 15072,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "The International",
 				"item_description": "Watch the top 16 teams from around the world compete in The International.",
 				"proper_name": false,
@@ -29105,11 +29663,11 @@
 				
 			},
 			{
-				"name": "The International Admin",
+				"name": "The International - Admin",
 				"defindex": 15073,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "The International ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "The International - Admin",
 				"item_description": "Watch the top 16 teams from around the world compete in The International.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -29178,7 +29736,7 @@
 				"name": "RaidCall Dota 2 League",
 				"defindex": 15075,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "RaidCall Dota 2 League",
 				"item_description": "The RaidCall Dota 2 League is a $10,000 online Dota 2 tournament series featuring the top Dota 2 teams from around the globe. Broadcast four days a week for over eight weeks, the D2L (as it's commonly called) is commentated live by Ayesee and invited guests.",
 				"proper_name": false,
@@ -29210,11 +29768,11 @@
 				
 			},
 			{
-				"name": "RaidCall Dota 2 League Admin",
+				"name": "RaidCall Dota 2 League - Admin",
 				"defindex": 15076,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "RaidCall Dota 2 League ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "RaidCall Dota 2 League - Admin",
 				"item_description": "The RaidCall Dota 2 League is a $10,000 online Dota 2 tournament series featuring the top Dota 2 teams from around the globe. Broadcast four days a week for over eight weeks, the D2L (as it's commonly called) is commentated live by Ayesee and invited guests.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -29248,7 +29806,7 @@
 				"name": "Star Series Season III",
 				"defindex": 15077,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "Star Series Season III",
 				"item_description": "StarLadder's Star Series is one of the most prestigious Dota 2 leagues, powered by Intel & Asus and casted by v1lat and TobiWan. The keystone of Star Series is the LAN final, held in Kiev CyberSport Arena, Ukraine. Watch the best Dota 2 teams compete for $15,000 and the title Star Series Champion.",
 				"proper_name": false,
@@ -29280,11 +29838,11 @@
 				
 			},
 			{
-				"name": "Star Series Season III ADMIN",
+				"name": "Star Series Season III - Admin",
 				"defindex": 15078,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "Star Series Season III ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "Star Series Season III - Admin",
 				"item_description": "StarLadder's Star Series is one of the most prestigious Dota 2 leagues, powered by Intel & Asus and casted by v1lat and TobiWan. The keystone of Star Series is the LAN final, held in Kiev CyberSport Arena, Ukraine. Watch the best Dota 2 teams compete for $15,000 and the title Star Series Champion.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -29363,7 +29921,7 @@
 				"name": "GEST Dota 2",
 				"defindex": 15081,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "GEST Dota 2",
 				"item_description": "The Gigabyte E-Sports Tournament is sponsored by Gigabyte and hosted by DotaTalk. The winners of six qualifiers from South-East Asia will face off against veteran teams for a cash prize of $1,500 and the chance to compete against two of the best Chinese teams, IG and LGD, for another $1500.",
 				"proper_name": false,
@@ -29395,11 +29953,11 @@
 				
 			},
 			{
-				"name": "GEST Dota 2 ADMIN",
+				"name": "GEST - Admin",
 				"defindex": 15082,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "GEST ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "GEST - Admin",
 				"item_description": "The Gigabyte E-Sports Tournament is sponsored by Gigabyte and hosted by DotaTalk. The winners of six qualifiers from South-East Asia will face off against veteran teams for a cash prize of $1,500 and the chance to compete against two of the best Chinese teams, IG and LGD, for another $1500.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -29433,7 +29991,7 @@
 				"name": "Premier League",
 				"defindex": 15083,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "Premier League",
 				"item_description": "Fueled by joint forces of TwitchTV and SteelSeries, Season 3 is the newest edition of The Premier League. Watch 10 of the best teams from both Europe and North America contend for $6,000 with 5 intense matches every week for 9 weeks. Commentary by TriumphOfMan.",
 				"proper_name": false,
@@ -29465,11 +30023,11 @@
 				
 			},
 			{
-				"name": "Premier League ADMIN",
+				"name": "Premier League - Admin",
 				"defindex": 15084,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "",
+				"item_type_name": "Admin Pass",
+				"item_name": "Premier League - Admin",
 				"item_description": "Fueled by joint forces of TwitchTV and SteelSeries, Season 3 is the newest edition of The Premier League. Watch 10 of the best teams from both Europe and North America contend for $6,000 with 5 intense matches every week for 9 weeks. Commentary by TriumphOfMan.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -29503,7 +30061,7 @@
 				"name": "GosuLeague",
 				"defindex": 15085,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "GosuLeague",
 				"item_description": "GosuLeague delivers seasons on a monthly basis where teams of all skill levels play in different divisions. The top division is awarded with $5000 each month. Each team play two matches a week.",
 				"proper_name": false,
@@ -29535,11 +30093,11 @@
 				
 			},
 			{
-				"name": "GosuLeague ADMIN",
+				"name": "GosuLeague - Admin",
 				"defindex": 15086,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "GosuLeague ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "GosuLeague - Admin",
 				"item_description": "GosuLeague delivers seasons on a monthly basis where teams of all skill levels play in different divisions. The top division is awarded with $5000 each month. Each team play two matches a week.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -29918,7 +30476,7 @@
 				"name": "G-1 Championship League",
 				"defindex": 15096,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "G-1 Championship League",
 				"item_description": "The G-1 Championship League, hosted by 17173 Games, is the first Dota 2 tournament in China. Exciting matches await with teams like iG, LGD and DK competing for a prize pool of $50,000.",
 				"proper_name": false,
@@ -29950,11 +30508,11 @@
 				
 			},
 			{
-				"name": "G-1 Championship League ADMIN",
+				"name": "G-1 Championship League - Admin",
 				"defindex": 15097,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "G-1 Championship League ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "G-1 Championship League - Admin",
 				"item_description": "The G-1 Championship League, hosted by 17173 Games, is the first Dota 2 tournament in China. Exciting matches await with teams like iG, LGD and DK competing for a prize pool of $50,000.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -30006,7 +30564,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "diretide",
 					"usage_capabilities": {
 						"decodable": true
 					}
@@ -30024,7 +30581,7 @@
 				"name": "atoD 2",
 				"defindex": 15099,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "atoD 2",
 				"item_description": "atoD 2 features 8 top North American and European teams. Using Reverse Captain's Mode, teams will surely play unconventional heroes and sabotage each other's lineups.  With some of the proceeds going to the prize it's the first tournament to include a direct way for fans to increase the prizepool.",
 				"proper_name": false,
@@ -30056,11 +30613,11 @@
 				
 			},
 			{
-				"name": "atoD 2 ADMIN",
+				"name": "atoD 2 - Admin",
 				"defindex": 15100,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "atoD 2 ADMIN",
+				"item_type_name": "Admin Pass",
+				"item_name": "atoD 2 - Admin",
 				"item_description": "atoD 2 features 8 top North American and European teams. Using Reverse Captain's Mode, teams will surely play unconventional heroes and sabotage each other's lineups.  With some of the proceeds going to the prize it's the first tournament to include a direct way for fans to increase the prizepool.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -30094,9 +30651,9 @@
 				"name": "It's Gosu Asia Madness",
 				"defindex": 15101,
 				"item_class": "tool",
-				"item_type_name": "",
+				"item_type_name": "League Pass",
 				"item_name": "It's Gosu Asia Madness",
-				"item_description": "It's Gosu returns with its third edition of the Asia Madness — sponsored by Own3d.tv, Razer, NOS Energy Drink and MAXXintegration — where the ten best teams from Asia will be competing for a prize pool of $5,000 in a triple elimination format.",
+				"item_description": "It's Gosu returns with its third edition of the Asia Madness where the ten best teams from Asia will be competing for a prize pool of $5,000 in a triple elimination format.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/leagues\/subscriptions_gosuasiamadness",
@@ -30126,12 +30683,12 @@
 				
 			},
 			{
-				"name": "It's Gosu Asia Madness ADMIN",
+				"name": "It's Gosu Asia Madness 3 - Admin",
 				"defindex": 15102,
 				"item_class": "tool",
-				"item_type_name": "",
-				"item_name": "It's Gosu Asia Madness 3 ADMIN",
-				"item_description": "It's Gosu returns with its third edition of the Asia Madness — sponsored by Own3d.tv, Razer, NOS Energy Drink and MAXXintegration — where the ten best teams from Asia will be competing for a prize pool of $5,000 in a triple elimination format.",
+				"item_type_name": "Admin Pass",
+				"item_name": "It's Gosu Asia Madness 3 - Admin",
+				"item_description": "It's Gosu returns with its third edition of the Asia Madness where the ten best teams from Asia will be competing for a prize pool of $5,000 in a triple elimination format.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/leagues\/subscriptions_gosuasiamadness",
@@ -32030,28 +32587,28 @@
 				"stored_as_integer": true
 			},
 			{
-				"name": "item set anim",
+				"name": "courier slots 3",
 				"defindex": 140,
-				"attribute_class": "item_set_anim",
+				"attribute_class": "courier_slots_3",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
-				"description_string": "This item unlocks custom animations when worn with other pieces of the set.",
+				"description_string": "Attrib_CourierSlots3",
 				"description_format": "value_is_additive",
-				"effect_type": "positive",
+				"effect_type": "neutral",
 				"hidden": false,
-				"stored_as_integer": false
+				"stored_as_integer": true
 			},
 			{
-				"name": "item set anim bonus",
+				"name": "courier slots 4",
 				"defindex": 141,
-				"attribute_class": "item_set_anim_bonus",
+				"attribute_class": "courier_slots_4",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
-				"description_string": "Custom Animation Set",
+				"description_string": "Attrib_CourierSlots4",
 				"description_format": "value_is_additive",
-				"effect_type": "positive",
+				"effect_type": "neutral",
 				"hidden": false,
-				"stored_as_integer": false
+				"stored_as_integer": true
 			},
 			{
 				"name": "set item tint RGB",
@@ -32066,16 +32623,40 @@
 				"stored_as_integer": false
 			},
 			{
-				"name": "courier skin",
+				"name": "courier seed",
 				"defindex": 143,
-				"attribute_class": "courier_skin",
+				"attribute_class": "courier_seed",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
-				"description_string": "Attrib_CourierSkin",
+				"description_string": "Attrib_CourierSeed",
 				"description_format": "value_is_additive",
 				"effect_type": "neutral",
 				"hidden": false,
 				"stored_as_integer": true
+			},
+			{
+				"name": "item set anim",
+				"defindex": 144,
+				"attribute_class": "item_set_anim",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "This item unlocks custom animations when worn with other pieces of the set.",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "item set anim bonus",
+				"defindex": 145,
+				"attribute_class": "item_set_anim_bonus",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Custom Animation Set",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			},
 			{
 				"name": "cannot trade",
@@ -32181,6 +32762,36 @@
 				"name": "cannot remove custom name",
 				"defindex": 163,
 				"attribute_class": "cannot_remove_custom_name",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "alternate icon",
+				"defindex": 164,
+				"attribute_class": "alternate_icon",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "use animation modifier",
+				"defindex": 165,
+				"attribute_class": "use_animation_modifier",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "neutral",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "white power",
+				"defindex": 166,
+				"attribute_class": "white_power",
 				"min_value": 0.000000,
 				"max_value": 0.000000,
 				"effect_type": "neutral",
@@ -33753,7 +34364,7 @@
 				"system": "warlock_ambient_staff",
 				"id": 44,
 				"attach_to_rootbone": false,
-				"name": "Diretide Corruption"
+				"name": "Attrib_Particle44"
 			},
 			{
 				"system": "warlock_ambient_smoke",
@@ -33765,7 +34376,7 @@
 				"system": "courier_trail_hw_2012",
 				"id": 46,
 				"attach_to_rootbone": false,
-				"name": "Attrib_Particle46"
+				"name": "Diretide Corruption"
 			},
 			{
 				"system": "golden_roshan_ambient",
@@ -33802,6 +34413,12 @@
 				"id": 52,
 				"attach_to_rootbone": false,
 				"name": "Attrib_Particle52"
+			},
+			{
+				"system": "courier_greevil_ambient",
+				"id": 53,
+				"attach_to_rootbone": false,
+				"name": "Attrib_Particle53"
 			}
 		]
 		
