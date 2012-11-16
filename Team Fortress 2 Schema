@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.0613c1558908a0992f6d241b3f05e4c7fd65609a.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.4feb1c975264e7a2573f719fe968e661dc704d82.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -22970,7 +22970,7 @@
 				"name": "Pet Balloonicorn",
 				"defindex": 738,
 				"item_class": "tf_wearable",
-				"item_type_name": "Badge",
+				"item_type_name": "Balloon",
 				"item_name": "Balloonicorn",
 				"item_description": "Oh my goodness! Is it Balloonicorn? The Mayor of Pyroland? Don't be ridiculous, we're talking about an inflatable unicorn. He's the Municipal Ombudsman. Between you and me, Balloonicorn's a joke down at City Hall. Gary Brottman, the inflatable Sewer Superintendent, is sleeping with Balloonicorn's wife. Anyway, when he's riding around on your shoulder don't mention ANY of this to him, because Balloonicorn is on a hair trigger and he's usually pretty drunk.",
 				"proper_name": true,
@@ -27778,10 +27778,11 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_dishonored.643e2651878b106547430e548fb4f0db4850dd11.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/spy_dishonored_large.769f33819fbf95f6de19694e346853d474f6db17.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -27790,14 +27791,6 @@
 				},
 				"used_by_classes": [
 					"Spy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -27818,24 +27811,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dishonored_badge.180b97de780296ff3de1e14f334c665d4a4a23a0.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/dishonored_badge_large.bad7ad182138e17e0392a3897f8d6a9c4e992ab1.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The King of Scotland Cape",
@@ -29533,10 +29519,10 @@
 				},
 				"styles": [
 					{
-						"name": "TF_SniperOwl_Style0"
+						"name": "Wilderness"
 					},
 					{
-						"name": "TF_SniperOwl_Style1"
+						"name": "Snowy"
 					}
 				]
 				,
@@ -29743,10 +29729,10 @@
 				},
 				"styles": [
 					{
-						"name": "TF_PyroBrainhead_Style0"
+						"name": "Functioning"
 					},
 					{
-						"name": "TF_PyroBrainhead_Style1"
+						"name": "Broken"
 					}
 				]
 				,
@@ -29858,7 +29844,7 @@
 				"name": "The Boo Balloon",
 				"defindex": 927,
 				"item_class": "tf_wearable",
-				"item_type_name": "Badge",
+				"item_type_name": "Balloon",
 				"item_name": "Boo Balloon",
 				"item_description": "These cheery (but terrifying!) balloons are made from the actual inflated faces of ghosts. Order now, before those uppity ghost rights activists get wind of this and shut it down.",
 				"proper_name": true,
@@ -29938,7 +29924,7 @@
 				"name": "The Unknown Monkeynaut",
 				"defindex": 929,
 				"item_class": "tf_wearable",
-				"item_type_name": "Badge",
+				"item_type_name": "Ghost",
 				"item_name": "Unknown Monkeynaut",
 				"item_description": "Have an actual ghost of Mann Co.'s first doomed monkeynaut expedition haunt your shoulder! Unlike the many other doomed monkeynaut expeditions undertaken by Mann Co., Operation Banana Catapult was unique in that no space shuttles were even used.",
 				"proper_name": true,
@@ -30080,7 +30066,7 @@
 				"name": "The Dead Little Buddy",
 				"defindex": 934,
 				"item_class": "tf_wearable",
-				"item_type_name": "Badge",
+				"item_type_name": "Ghost",
 				"item_name": "Dead Little Buddy",
 				"item_description": "Take a hike, dogs--there's a new Man's Best Friend on the market. Your pet ghost is guaranteed to be loyal (he's dead! He doesn't know anybody else!), great around children (he used to be one!), and house-trained (ghosts don't poop).",
 				"proper_name": true,
@@ -30267,16 +30253,16 @@
 				},
 				"styles": [
 					{
-						"name": "TF_Skullbat_Style0"
+						"name": "Universal"
 					},
 					{
-						"name": "TF_Skullbat_Style1"
+						"name": "Scout"
 					},
 					{
-						"name": "TF_Skullbat_Style2"
+						"name": "Demoman"
 					},
 					{
-						"name": "TF_Skullbat_Style3"
+						"name": "Soldier"
 					}
 				]
 				,
@@ -30288,14 +30274,6 @@
 					"Medic",
 					"Heavy",
 					"Pyro"
-				]
-				,
-				"attributes": [
-					{
-						"name": "always tradable",
-						"class": "always_tradable",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -30358,6 +30336,304 @@
 					"strange_parts": true,
 					"can_card_upgrade": true
 				}
+			},
+			{
+				"name": "The Cockfighter",
+				"defindex": 942,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Cockfighter",
+				"item_description": "Let all those chickens on the battlefield know you're one bad clucker with this paintable all-class rooster helmet.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/all_scrib_m_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_scrib_m_demo",
+				"min_ilevel": 10,
+				"max_ilevel": 10,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_scrib_m_demo.3f7648346a1bfc4bfd96ff370acafb51a5497854.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_scrib_m_demo_large.cf846f46ad50f75b328917d4c171046c0e468367.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"styles": [
+					{
+						"name": "Max"
+					},
+					{
+						"name": "Lilly"
+					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Hitt Mann Badge",
+				"defindex": 943,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Hitt Mann Badge",
+				"item_description": "The Hitt Mann lets the world know that you're the highest class of professional assassin. Now comes with a handy barcode for faster supermarket checkouts when shopping for assassins in a hurry.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/hm_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/hm_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_badge.fd1f23d62f30a055a9a660cdd4d065cab5e4a4e9.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_badge_large.33699d82691ca1c693170b7f0604e86ec8e51441.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "That '70s Chapeau",
+				"defindex": 944,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "That '70s Chapeau",
+				"item_description": "Go incognito with this sunglasses and leather cap combo, the perfect disguise for infiltrating Huggy Bear lookalike conventions.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/hm_disguisehat_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/hm_disguisehat_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_disguisehat_demo.11c3fb3e6430fafd41cd77b92894284213427ff1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_disguisehat_demo_large.075641174d4fd9f4008b505391dcb9c3f4d318f9.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Chief Constable",
+				"defindex": 945,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Chief Constable",
+				"item_description": "The best product to let you pretend to be a British police officer since SpyTech's \"Scotland Yard\" backyard disguise kit.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/hm_cap.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/hm_cap",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_cap.560752ff608a3267d1348435b8613c674935389e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_cap_large.34f9cea8b2b329cdb18e8f33c569a11837eb77fc.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Siberian Sophisticate",
+				"defindex": 946,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shirt",
+				"item_name": "Siberian Sophisticate",
+				"item_description": "The shirt and tie let enemies know you're all business. But the short-sleeved vest tells them you're the kind of businessman who can't find a suit jacket that covers your huge guns.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/hm_shirt.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/hm_shirt",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_shirt.9fd1eb89f22b3405165eaaae7d99ec035fc79428.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_shirt_large.c73110d794cdbb9ec7359790f75ecd44baa09f35.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Qu�ckenbirdt",
+				"defindex": 947,
+				"item_class": "tf_weapon_invis",
+				"item_type_name": "Invis Watch",
+				"item_name": "Quäckenbirdt",
+				"item_description": "A marvel of German engineering, the Quäckenbirdt is a classically handsome two-tone Australium and tungsten spywatch for the European assassin who likes to be reminded how rich he is every time he turns invisible.",
+				"proper_name": true,
+				"item_slot": "pda2",
+				"model_player": "models\/weapons\/v_models\/v_hm_watch\/v_hm_watch.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/v_models\/v_hm_watch",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/v_hm_watch.4bbd780b5e32bc4ad3698cf9c34f8a986cef2164.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/v_hm_watch_large.4147a3c6c762818317e0d7e8b5a2384290550e6d.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Deadliest Duckling",
+				"defindex": 948,
+				"item_class": "tf_wearable",
+				"item_type_name": "Duck",
+				"item_name": "Deadliest Duckling",
+				"item_description": "Every time you fed a duck a breadcrumb, you were financing the Duck Mob. You're implicated. There's no going back now. Take this duck, go to the corner of 43rd, and enter the black Cadillac. When you meet the Don, don't make any jokes about horse heads. He hates that.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/hm_duck_sniper.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/hm_duck_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_duck_demo.ede45573b1cd7ddea2f71b59f54ada463f497f38.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_duck_demo_large.dd82c348fddc3d4adac3d4b723c9398cf4972dda.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"styles": [
+					{
+						"name": "Capone"
+					},
+					{
+						"name": "Luciano"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Sniper",
+					"Soldier",
+					"Demoman",
+					"Pyro",
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					},
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "World Traveler",
