@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.74d35d62a7847fbce30609d11cb579394a045b72.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.d273574e8f29ea755681e444578782f457ebc441.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -21046,11 +21046,11 @@
 				}
 			},
 			{
-				"name": "Diadem of the Dark Destroyer ",
+				"name": "Diadem of the Dark Destroyer",
 				"defindex": 4550,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Horns",
-				"item_name": "Diadem of the Dark Destroyer ",
+				"item_name": "Diadem of the Dark Destroyer",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -24515,7 +24515,7 @@
 			{
 				"name": "Team Pennant: Buren Boys Van",
 				"defindex": 10041,
-				"item_class": "dota_item_wearable",
+				"item_class": "tool",
 				"item_type_name": "Fan Item",
 				"item_name": "Buren Boys Van Pennant",
 				"item_description": "Team Pennant showcasing support for Buren Boys Van",
@@ -27376,76 +27376,6 @@
 				
 			},
 			{
-				"name": "League View Pass",
-				"defindex": 15010,
-				"item_class": "tool",
-				"item_type_name": "League Pass",
-				"item_name": "League View Test",
-				"item_description": "League View Test",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/default_item",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/default_item.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/default_item_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"usable_gc": true,
-					"usable_out_of_game": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				},
-				"tool": {
-					"type": "league_view_pass",
-					"use_string": "Use"
-				},
-				"attributes": [
-					{
-						"name": "disallow recycling",
-						"class": "disallow_recycling",
-						"value": 1.000000
-					}
-				]
-				
-			},
-			{
-				"name": "League View Test - Admin",
-				"defindex": 15011,
-				"item_class": "tool",
-				"item_type_name": "Admin Pass",
-				"item_name": "League View Test - Admin",
-				"item_description": "League View Test",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/default_item",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/default_item.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/default_item_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"usable_gc": true,
-					"usable_out_of_game": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				},
-				"tool": {
-					"type": "league_view_pass",
-					"use_string": "Use"
-				},
-				"attributes": [
-					{
-						"name": "disallow recycling",
-						"class": "disallow_recycling",
-						"value": 1.000000
-					}
-				]
-				
-			},
-			{
 				"name": "Wicked Bad Voodoo Pack",
 				"defindex": 15012,
 				"item_class": "tool",
@@ -27524,41 +27454,6 @@
 					{
 						"name": "ignore charge notification",
 						"class": "ignore_charge_notification",
-						"value": 1.000000
-					}
-				]
-				
-			},
-			{
-				"name": "League View Test 5150 - Admin",
-				"defindex": 15014,
-				"item_class": "tool",
-				"item_type_name": "Admin Pass",
-				"item_name": "League View Test 5150 - Admin",
-				"item_description": "League View Test",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/default_item",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/default_item.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/default_item_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"usable_gc": true,
-					"usable_out_of_game": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				},
-				"tool": {
-					"type": "league_view_pass",
-					"use_string": "Use"
-				},
-				"attributes": [
-					{
-						"name": "disallow recycling",
-						"class": "disallow_recycling",
 						"value": 1.000000
 					}
 				]
@@ -29465,15 +29360,15 @@
 				"defindex": 15067,
 				"item_class": "tool",
 				"item_type_name": "Tool",
-				"item_name": "Pennant Upgrade",
-				"item_description": "Use this tool to upgrade your Team Pennant fan level.  The level of your Team Pennant will increase the total fan value of the team when you are spectating a Tournament match.",
+				"item_name": "DOTA_Item_Pennant_Upgrade",
+				"item_description": "",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/pennant\/pennant_upgrade",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/pennant\/pennant_upgrade.ec9713f7c0341fb96e867fd9485baab63c56110e.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/pennant\/pennant_upgrade_large.6b9a788fedf4274a9bde3c32815394d01a04b4da.png",
+				"image_url": "",
+				"image_url_large": "",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -30696,6 +30591,146 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gosuasiamadness.f5401f9c88be9057f847e597bbe80decf207c293.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gosuasiamadness_large.9ad65edf6e5b04ebb39520b9a8db8f3eb7663d02.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "DreamHack Dota 2 Corsair Vengeance Cup",
+				"defindex": 15103,
+				"item_class": "tool",
+				"item_type_name": "League Pass",
+				"item_name": "DreamHack Dota 2 Corsair Vengeance Cup",
+				"item_description": "Watch the DreamHack Dota 2 Corsair Vengeance Cup at this year's Dreamhack Winter where 16 teams compete for the 200 000 SEK prize purse. The Grand Final is played in the DreamArena Extreme in front of 1100 fans.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_dreamhack_winter2012",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_dreamhack_winter2012.ae730942a611d65675c73dd9bbf80ead5029f537.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_dreamhack_winter2012_large.d7bff85f3dc2d72b38eb2008f71ff94fe7f88fc1.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "DreamHack Dota 2 Corsair Vengeance Cup ADMIN",
+				"defindex": 15104,
+				"item_class": "tool",
+				"item_type_name": "League Pass",
+				"item_name": "DreamHack Dota 2 Corsair Vengeance Cup ADMIN",
+				"item_description": "Watch the DreamHack Dota 2 Corsair Vengeance Cup at this year's Dreamhack Winter where 16 teams compete for the 200 000 SEK prize purse. The Grand Final is played in the DreamArena Extreme in front of 1100 fans.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_dreamhack_winter2012",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_dreamhack_winter2012.ae730942a611d65675c73dd9bbf80ead5029f537.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_dreamhack_winter2012_large.d7bff85f3dc2d72b38eb2008f71ff94fe7f88fc1.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Star Series Season IV",
+				"defindex": 15105,
+				"item_class": "tool",
+				"item_type_name": "League Pass",
+				"item_name": "Star Series Season IV",
+				"item_description": "StarLadder's Star Series is one of the most prestigious Dota 2 leagues, powered by Intel & Asus and casted by v1lat and TobiWan. The keystone of Star Series is the LAN final, held in Kiev CyberSport Arena, Ukraine. Watch the best Dota 2 teams compete for $15,000 and the title Star Series Champion.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_starladder4",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_starladder4.fefed09e42c3f233320166e2add19519c9892b45.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_starladder4_large.1e57eb33d55865be31126cdb283906253b33744a.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Star Series Season IV ADMIN",
+				"defindex": 15106,
+				"item_class": "tool",
+				"item_type_name": "League Pass",
+				"item_name": "Star Series Season IV ADMIN",
+				"item_description": "StarLadder's Star Series is one of the most prestigious Dota 2 leagues, powered by Intel & Asus and casted by v1lat and TobiWan. The keystone of Star Series is the LAN final, held in Kiev CyberSport Arena, Ukraine. Watch the best Dota 2 teams compete for $15,000 and the title Star Series Champion.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_starladder4",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_starladder4.fefed09e42c3f233320166e2add19519c9892b45.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_starladder4_large.1e57eb33d55865be31126cdb283906253b33744a.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,
