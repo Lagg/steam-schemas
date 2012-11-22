@@ -34506,8 +34506,8 @@
 		"943"
 		{
 			"name"	"The Hitt Mann Badge"
-			"first_sale_date"	"2012/11/15"
-			"prefab"	"promo cosmetic"
+			"first_sale_date"	"2012/11/21"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -34535,8 +34535,8 @@
 		"944"
 		{
 			"name"	"That '70s Chapeau"
-			"first_sale_date"	"2012/11/15"
-			"prefab"	"promo hat"
+			"first_sale_date"	"2012/11/21"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -34580,8 +34580,8 @@
 		"945"
 		{
 			"name"	"The Chief Constable"
-			"first_sale_date"	"2012/11/15"
-			"prefab"	"promo hat"
+			"first_sale_date"	"2012/11/21"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"			"1"
@@ -34601,8 +34601,8 @@
 		"946"
 		{
 			"name"	"The Siberian Sophisticate"
-			"first_sale_date"	"2012/11/15"
-			"prefab"	"promo cosmetic"
+			"first_sale_date"	"2012/11/21"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"paintable"			"1"
@@ -34623,14 +34623,14 @@
 		"947"
 		{
 			"name"	"The Quackenbirdt"
-			"first_sale_date"	"2012/11/15"
+			"first_sale_date"	"2012/11/21"
 			"item_class"	"tf_weapon_invis"
-			"craft_class"	""					
+			"craft_class"	"weapon"
 			"craft_material_type"	"weapon"			
 			"capabilities"
 			{
 				"nameable"			"1"
-				"can_gift_wrap" 	"0"			
+				"can_gift_wrap" 	"1"		
 				"can_craft_count"	"1"
 			}
 			"show_in_armory"	"1"
@@ -34649,22 +34649,14 @@
 			{
 				"spy"	"1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"mouse_pressed_sound"	"ui/item_watch_pickup.wav"
 			"drop_sound"		"ui/item_watch_drop.wav"
 		}
 		"948"
 		{
 			"name"	"The Deadliest Duckling"
-			"first_sale_date"	"2012/11/15"
-			"prefab"	"promo cosmetic"
+			"first_sale_date"	"2012/11/21"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"paintable"			"1"
@@ -42327,6 +42319,45 @@
 			"max_ilevel"	"5"
 			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
 			"drop_sound"		"ui/item_metal_tiny_drop.wav"
+		}
+		"5082"
+		{
+			"name"	"Account Upgrade To Premium"
+			"first_sale_date"	"2012/11/22"
+			"item_class"	"tool"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"1"
+			}
+			"tool"
+			{
+				"type"	"account_upgrade_to_premium"
+			}
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"	"always_tradable"
+					"value"				"1"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"		"1"
+				"usable_out_of_game"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_T"
+			"item_name"		"#TF_Tool_AccountUpgradeToPremium"
+			"item_description"	"#TF_Tool_AccountUpgradeToPremium_Desc"
+			"image_inventory"	"backpack/crafting/gift_premium"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"59"
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
 		}
 		
 		"5500"

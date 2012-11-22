@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.eab8b1c2e6b2539381b50c9bd085382db1feedbf.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.b0710402f7f08bfe6695c925dbf4abef4cd020ef.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -30401,24 +30401,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_badge.fd1f23d62f30a055a9a660cdd4d065cab5e4a4e9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_badge_large.33699d82691ca1c693170b7f0604e86ec8e51441.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "That '70s Chapeau",
@@ -30437,24 +30430,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_disguisehat_demo.11c3fb3e6430fafd41cd77b92894284213427ff1.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_disguisehat_demo_large.075641174d4fd9f4008b505391dcb9c3f4d318f9.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The Chief Constable",
@@ -30473,11 +30459,12 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_cap.560752ff608a3267d1348435b8613c674935389e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_cap_large.34f9cea8b2b329cdb18e8f33c569a11837eb77fc.png",
 				"drop_type": "drop",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -30486,14 +30473,6 @@
 				},
 				"used_by_classes": [
 					"Soldier"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -30514,11 +30493,12 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_shirt.9fd1eb89f22b3405165eaaae7d99ec035fc79428.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_shirt_large.c73110d794cdbb9ec7359790f75ecd44baa09f35.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -30527,14 +30507,6 @@
 				},
 				"used_by_classes": [
 					"Heavy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -30554,10 +30526,11 @@
 				"max_ilevel": 100,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/v_hm_watch.f858ca6c1368b93570d630d2a9b39bed37584f1e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/v_hm_watch_large.dbe6e6d49439c29915965f08dc076f4ce0f5c16e.png",
-				"craft_class": "",
+				"craft_class": "weapon",
 				"craft_material_type": "weapon",
 				"capabilities": {
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -30566,14 +30539,6 @@
 				},
 				"used_by_classes": [
 					"Spy"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -30594,11 +30559,12 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_duck_demo.ede45573b1cd7ddea2f71b59f54ada463f497f38.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/hm_duck_demo_large.dd82c348fddc3d4adac3d4b723c9398cf4972dda.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -30623,11 +30589,6 @@
 				]
 				,
 				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					},
 					{
 						"name": "counts as assister is some kind of pet this update is going to be awesome",
 						"class": "counts_as_assister",
@@ -35280,7 +35241,7 @@
 				"item_class": "tool",
 				"item_type_name": "Tool",
 				"item_name": "Backpack Expander",
-				"item_description": "Add 100 extra slots to your backpack!\n(1000 spaces maximum)",
+				"item_description": "Add 100 extra slots to your backpack!\n(2000 spaces maximum)",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -36541,6 +36502,46 @@
 					"usage_capabilities": {
 						"decodable": true
 					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "always tradable",
+						"class": "always_tradable",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Account Upgrade To Premium",
+				"defindex": 5082,
+				"item_class": "tool",
+				"item_type_name": "Tool",
+				"item_name": "Upgrade to Premium Gift",
+				"item_description": "Trade away this item to a friend with a free account.  Once they use it, they’ll automatically be converted to a premium account and enjoy perks such as extra backpack slots",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/gift_premium",
+				"min_ilevel": 50,
+				"max_ilevel": 59,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/gift_premium.e7617d3187a13da3bebce25497b8c56c99745bd6.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/gift_premium_large.387ada2990266fb36a714061f26725703c7efbbf.png",
+				"capabilities": {
+					"usable_gc": true,
+					"can_gift_wrap": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "account_upgrade_to_premium"
 				},
 				"used_by_classes": [
 
