@@ -31084,7 +31084,7 @@
 			}
 			"particle_file"		"particles\econ\courier\courier_lockjaw.pcf"
 		}
-		"10007"
+		"10009"
 		{
 			"name"		"Enduring War Dog"
 			"prefab"		"dota_courier"
@@ -34894,7 +34894,6 @@
 		{
 			"name"		"Lost Treasure of the Ivory Isles"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Lost_Treasure_of_the_Ivory_Isles"
 			"tool"
 			{
@@ -34929,7 +34928,6 @@
 		{
 			"name"		"Treasure of the Deep Druids"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Deep_Druids"
 			"tool"
 			{
@@ -34964,7 +34962,6 @@
 		{
 			"name"		"Treasure of the Red Mist"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Red_Mist"
 			"tool"
 			{
@@ -34999,7 +34996,6 @@
 		{
 			"name"		"Treasure Chest - Mythical"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_TreasureChest_Type"
 			"item_name"		"#DOTA_Item_Treasure_Chest__Mythical"
 			"item_rarity"		"mythical"
@@ -35032,7 +35028,6 @@
 		{
 			"name"		"Treasure of the Pangolin Guildmasters"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Pangolin_GuildMasters"
 			"tool"
 			{
@@ -35067,7 +35062,6 @@
 		{
 			"name"		"Treasure of the Ancestor Spirits"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Ancestor_Spirits"
 			"tool"
 			{
@@ -35102,7 +35096,6 @@
 		{
 			"name"		"Treasure of the High Tide"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_High_Tide"
 			"tool"
 			{
@@ -35137,7 +35130,6 @@
 		{
 			"name"		"Sithil's Summer Stash"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Sithils_Stash"
 			"item_rarity"		"mythical"
 			"expiration_date"		"2012-07-31 23:00:00"
@@ -35171,7 +35163,6 @@
 		{
 			"name"		"The Defense 2 Chest"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Defense_2_Chest"
 			"item_rarity"		"mythical"
 			"tool"
@@ -35209,7 +35200,6 @@
 		{
 			"name"		"Treasure of Profound Mysteries"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_Profound_Mysteries"
 			"tool"
 			{
@@ -35244,7 +35234,6 @@
 		{
 			"name"		"Treasure of Champions"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_Champions"
 			"expiration_date"		"2012-09-03 23:00:00"
 			"tool"
@@ -35281,7 +35270,6 @@
 		{
 			"name"		"Treasure of Challengers"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_Challengers"
 			"expiration_date"		"2012-09-03 23:00:00"
 			"tool"
@@ -35318,7 +35306,6 @@
 		{
 			"name"		"Treasure of the Rogue Knight"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Rogue_Knight"
 			"tool"
 			{
@@ -35353,7 +35340,6 @@
 		{
 			"name"		"Timeless Treasure of Claszureme"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Timeless_Treasure_of_Claszureme"
 			"tool"
 			{
@@ -35388,7 +35374,6 @@
 		{
 			"name"		"Treasure of the Wild Claw"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Wild_Claw"
 			"tool"
 			{
@@ -35423,7 +35408,6 @@
 		{
 			"name"		"Ghastly Treasure of Diretide"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Ghastly_Treasure_of_Diretide"
 			"expiration_date"		"2012-11-15 23:00:00"
 			"tool"
@@ -36760,6 +36744,29 @@
 			}
 			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Invoker_TornadoKills"
 			"image_inventory"		"econ/tools/strange_types_gold"
+		}
+		"15067"
+		{
+			"name"		"Pennant Upgrade"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Pennant_Upgrade"
+			"tool"
+			{
+				"type"		"pennant_upgrade"
+				"usage"
+				{
+					"required_tags"
+					{
+						"team_pennant"		"1"
+					}
+				}
+				"usage_capabilities"
+				{
+					"can_increment"		"1"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Pennant_Upgrade"
+			"image_inventory"		"econ/pennant/pennant_upgrade"
 		}
 		"15068"
 		{
