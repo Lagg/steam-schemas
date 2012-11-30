@@ -31084,6 +31084,73 @@
 			}
 			"particle_file"		"particles\econ\courier\courier_lockjaw.pcf"
 		}
+		"10007"
+		{
+			"name"		"Ramnaught of Underwool"
+			"prefab"		"dota_courier"
+			"item_type_name"		"#DOTA_WearableType_Fluffy_Devourer_of_Weeds"
+			"item_name"		"#DOTA_Item_Ramnaught_of_Underwool"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Ramnaught_of_Underwool"
+			"image_inventory"		"econ/courier/defense3_sheep/defense3_sheep"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/defense3_sheep/defense3_sheep.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/defense3_sheep/defense3_sheep.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/defense3_sheep/defense3_sheep_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/defense3_sheep/defense3_sheep_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"272.258331 -347.657684 92.732933"
+				"PortraitLookAt"		"2.817993 127.908325 0.000000"
+				"PortraitFOV"		"32.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+				"PortraitLightLookAt"		"54.790001 171.699997 0.000000"
+				"PortraitLightFOV"		"69.000000"
+				"PortraitLightDistance"		"377.000000"
+				"PortraitLightColor"		"0.900000 0.850000 0.800000"
+				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"79.070000 84.150002 25.320000"
+				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"1.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 		"10009"
 		{
 			"name"		"Enduring War Dog"
@@ -34894,7 +34961,6 @@
 		{
 			"name"		"Lost Treasure of the Ivory Isles"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Lost_Treasure_of_the_Ivory_Isles"
 			"tool"
 			{
@@ -34929,7 +34995,6 @@
 		{
 			"name"		"Treasure of the Deep Druids"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Deep_Druids"
 			"tool"
 			{
@@ -34964,7 +35029,6 @@
 		{
 			"name"		"Treasure of the Red Mist"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Red_Mist"
 			"tool"
 			{
@@ -34999,7 +35063,6 @@
 		{
 			"name"		"Treasure Chest - Mythical"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_type_name"		"#DOTA_TreasureChest_Type"
 			"item_name"		"#DOTA_Item_Treasure_Chest__Mythical"
 			"item_rarity"		"mythical"
@@ -35032,7 +35095,6 @@
 		{
 			"name"		"Treasure of the Pangolin Guildmasters"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Pangolin_GuildMasters"
 			"tool"
 			{
@@ -35067,7 +35129,6 @@
 		{
 			"name"		"Treasure of the Ancestor Spirits"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Ancestor_Spirits"
 			"tool"
 			{
@@ -35102,7 +35163,6 @@
 		{
 			"name"		"Treasure of the High Tide"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_High_Tide"
 			"tool"
 			{
@@ -35137,7 +35197,6 @@
 		{
 			"name"		"Sithil's Summer Stash"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Sithils_Stash"
 			"item_rarity"		"mythical"
 			"expiration_date"		"2012-07-31 23:00:00"
@@ -35171,7 +35230,6 @@
 		{
 			"name"		"The Defense 2 Chest"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Defense_2_Chest"
 			"item_rarity"		"mythical"
 			"tool"
@@ -35209,7 +35267,6 @@
 		{
 			"name"		"Treasure of Profound Mysteries"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_Profound_Mysteries"
 			"tool"
 			{
@@ -35244,7 +35301,6 @@
 		{
 			"name"		"Treasure of Champions"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_Champions"
 			"expiration_date"		"2012-09-03 23:00:00"
 			"tool"
@@ -35281,7 +35337,6 @@
 		{
 			"name"		"Treasure of Challengers"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_Challengers"
 			"expiration_date"		"2012-09-03 23:00:00"
 			"tool"
@@ -35318,7 +35373,6 @@
 		{
 			"name"		"Treasure of the Rogue Knight"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Rogue_Knight"
 			"tool"
 			{
@@ -35353,7 +35407,6 @@
 		{
 			"name"		"Timeless Treasure of Claszureme"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Timeless_Treasure_of_Claszureme"
 			"tool"
 			{
@@ -35388,7 +35441,6 @@
 		{
 			"name"		"Treasure of the Wild Claw"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Treasure_of_the_Wild_Claw"
 			"tool"
 			{
@@ -35423,7 +35475,6 @@
 		{
 			"name"		"Ghastly Treasure of Diretide"
 			"prefab"		"dota_treasure_chest"
-			"item_class"		"supply_crate"
 			"item_name"		"#DOTA_Item_Ghastly_Treasure_of_Diretide"
 			"expiration_date"		"2012-11-15 23:00:00"
 			"tool"
@@ -38252,6 +38303,50 @@
 			"image_inventory"		"econ/leagues/subscriptions_starladder4"
 			"image_banner"		"econ\leagues\subscriptions_starladder4_ingame"
 			"tournament_url"		"http://dota2.starladder.tv"
+		}
+		"15107"
+		{
+			"name"		"The Defense 3"
+			"prefab"		"dota_league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"21"
+					"admin"		"0"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
+			"item_name"		"#DOTA_Item_The_Defense_3"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_The_Defense_3"
+			"image_inventory"		"econ/leagues/subscriptions_the_defense_3"
+			"image_banner"		"econ\leagues\subscriptions_the_defense_3_ingame"
+			"tournament_url"		"http://www.the-defense.com/en/start"
+		}
+		"15108"
+		{
+			"name"		"The Defense 3 ADMIN"
+			"prefab"		"dota_league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"21"
+					"admin"		"1"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
+			"item_name"		"#DOTA_Item_The_Defense_3_ADMIN"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_The_Defense_3_ADMIN"
+			"image_inventory"		"econ/leagues/subscriptions_the_defense_3"
+			"image_banner"		"econ\leagues\subscriptions_the_defense_3_ingame"
+			"tournament_url"		"http://www.the-defense.com/en/start"
 		}
 		"10040"
 		{
@@ -43587,6 +43682,20 @@
 				"Sparrowhawk Hood"		"1"
 				"Sparrowhawk Quiver"		"1"
 				"Sparrowhawk Wings"		"1"
+			}
+		}
+		"20084"
+		{
+			"name"		"The Defense 3 Bundle"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Item_The_Defense_3"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_The_Defense_3"
+			"image_inventory"		"econ/leagues/subscriptions_the_defense_3"
+			"bundle"
+			{
+				"The Defense 3"		"1"
+				"Ramnaught of Underwool"		"1"
 			}
 		}
 	}
