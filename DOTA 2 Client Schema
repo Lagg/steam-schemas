@@ -356,6 +356,10 @@
 			"image_inventory_size_h"		"82"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
 		}
 		"dota_ward"
 		{
@@ -371,6 +375,10 @@
 			"image_inventory_size_h"		"82"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
 		}
 		"dota_announcer"
 		{
@@ -425,6 +433,21 @@
 			"item_slot"		"none"
 			"item_quality"		"unique"
 			"item_rarity"		"common"
+			"min_ilevel"		"1"
+			"max_ilevel"		"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+		}
+		"dota_modifier"
+		{
+			"item_class"		"tool"
+			"item_type_name"		"#DOTA_WearableType_Modifier"
+			"item_name"		"#DOTA_Wearable_Modifier"
+			"item_quality"		"unique"
+			"item_rarity"		"common"
+			"item_slot"		"none"
 			"min_ilevel"		"1"
 			"max_ilevel"		"1"
 			"image_inventory_size_w"		"128"
@@ -517,10 +540,10 @@
 		}
 		"5"
 		{
-			"name"		"Axe's Default Belt"
+			"name"		"Axe's Belt"
 			"prefab"		"dota_default_item"
 			"item_type_name"		"#DOTA_WearableType_Belt"
-			"item_name"		"#DOTA_Wearable_Axe_DefaultBelt"
+			"item_name"		"#DOTA_Item_Axes_Belt"
 			"item_slot"		"belt"
 			"model_player"		"models/heroes/axe/axe_belt.mdl"
 			"used_by_heroes"
@@ -5899,6 +5922,214 @@
 				"npc_dota_hero_batrider"		"1"
 			}
 			"model_player"		"models/heroes/batrider/batrider_mount.mdl"
+		}
+		"381"
+		{
+			"name"		"Medusa's Bow"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Medusas_Bow"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_medusa"		"1"
+			}
+			"model_player"		"models/heroes/medusa/medusa_bow.mdl"
+		}
+		"382"
+		{
+			"name"		"Medusa's Veil"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Medusas_Veil"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Medusas_Bow"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_medusa"		"1"
+			}
+			"model_player"		"models/heroes/medusa/medusa_veil.mdl"
+		}
+		"383"
+		{
+			"name"		"Medusa's Chest Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_armor"
+			"item_name"		"#DOTA_Item_Medusas_Chest_Armor"
+			"item_slot"		"armor"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Medusas_Veil"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_medusa"		"1"
+			}
+			"model_player"		"models/heroes/medusa/medusa_torso.mdl"
+		}
+		"384"
+		{
+			"name"		"Medusa's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Medusas_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Medusas_Chest_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_medusa"		"1"
+			}
+			"model_player"		"models/heroes/medusa/medusa_arms.mdl"
+		}
+		"385"
+		{
+			"name"		"Medusa's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_tail"
+			"item_name"		"#DOTA_Item_Medusas_Tail"
+			"item_slot"		"tail"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Medusas_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_medusa"		"1"
+			}
+			"model_player"		"models/heroes/medusa/medusa_tail.mdl"
+		}
+		"386"
+		{
+			"name"		"Shredder Driver's Hat"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Shredder_Drivers_Hat"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shredder"		"1"
+			}
+			"model_player"		"models/heroes/shredder/shredder_driver_hat.mdl"
+		}
+		"387"
+		{
+			"name"		"Shredder's Claw"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Shredders_Claw"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shredder_Drivers_Hat"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shredder"		"1"
+			}
+			"model_player"		"models/heroes/shredder/shredder_arm_claw.mdl"
+		}
+		"388"
+		{
+			"name"		"Shredder's Chainsaw"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_offhand"
+			"item_name"		"#DOTA_Item_Shredders_Chainsaw"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shredders_Claw"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shredder"		"1"
+			}
+			"model_player"		"models/heroes/shredder/shredder_arm_chainsaw.mdl"
+		}
+		"389"
+		{
+			"name"		"Shredder's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Shredders_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shredders_Chainsaw"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shredder"		"1"
+			}
+			"model_player"		"models/heroes/shredder/shredder_shoulder_armor.mdl"
+		}
+		"390"
+		{
+			"name"		"Shredder's Exhaust Pipe"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Shredders_Exhaust_Pipe"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shredders_Shoulder_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shredder"		"1"
+			}
+			"model_player"		"models/heroes/shredder/shredder_pipe.mdl"
+		}
+		"391"
+		{
+			"name"		"Undying's Bracer"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Undyings_Bracer"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_undying"		"1"
+			}
+			"model_player"		"models/heroes/undying/undying_armlet.mdl"
+		}
+		"392"
+		{
+			"name"		"Undying's Helmet"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Undyings_Helmet"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Undyings_Bracer"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_undying"		"1"
+			}
+			"model_player"		"models/heroes/undying/undying_helmet.mdl"
+		}
+		"393"
+		{
+			"name"		"Undying's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Undyings_Armor"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Undyings_Helmet"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_undying"		"1"
+			}
+			"model_player"		"models/heroes/undying/undying_neck.mdl"
+		}
+		"394"
+		{
+			"name"		"Undying's Shoulder Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Undyings_Shoulder_Armor"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Undyings_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_undying"		"1"
+			}
+			"model_player"		"models/heroes/undying/undying_shoulders.mdl"
 		}
 		"4000"
 		{
@@ -30543,6 +30774,7 @@
 			"item_type_name"		"#DOTA_Item"
 			"item_name"		"#DOTA_Trial_UpgradeItem"
 			"show_in_armory"		"0"
+			"ignore_in_collection_view"		"1"
 		}
 		"10001"
 		{
@@ -30619,6 +30851,7 @@
 			"item_type_name"		"#DOTA_WearableType_Costume"
 			"item_name"		"#DOTA_Item_Roshans_Costume__Frankenstein"
 			"model_player"		"models/creeps/roshan_halloween/roshan_halloween_frankenstein.mdl"
+			"ignore_in_collection_view"		"1"
 		}
 		"10093"
 		{
@@ -30627,6 +30860,7 @@
 			"item_type_name"		"#DOTA_WearableType_Costume"
 			"item_name"		"#DOTA_Item_Roshans_Costume__Dracula"
 			"model_player"		"models/creeps/roshan_halloween/roshan_halloween_dracula.mdl"
+			"ignore_in_collection_view"		"1"
 		}
 		"10094"
 		{
@@ -30635,6 +30869,7 @@
 			"item_type_name"		"#DOTA_WearableType_Costume"
 			"item_name"		"#DOTA_Item_Roshans_Costume__Angel"
 			"model_player"		"models/creeps/roshan_halloween/roshan_halloween_angel.mdl"
+			"ignore_in_collection_view"		"1"
 		}
 		"10003"
 		{
@@ -35766,32 +36001,6 @@
 				}
 			}
 		}
-		"15009"
-		{
-			"name"		"Strange Modifier: Godlikes"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Godlikes"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"12"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Godlikes"
-			"image_inventory"		"econ/tools/strange_types_godlike"
-		}
 		"15012"
 		{
 			"name"		"Wicked Bad Voodoo Pack"
@@ -35836,6 +36045,7 @@
 					"value"		"1"
 				}
 			}
+			"ignore_in_collection_view"		"1"
 		}
 		"15013"
 		{
@@ -35877,136 +36087,6 @@
 				}
 			}
 		}
-		"15019"
-		{
-			"name"		"Strange Modifier: First Blood"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_First_Blood"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"11"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_First_Blood"
-			"image_inventory"		"econ/tools/strange_types_first_blood"
-		}
-		"15020"
-		{
-			"name"		"Strange Modifier: Wards Placed"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Wards_Placed"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"7"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Wards_Placed"
-			"image_inventory"		"econ/tools/strange_types_ward"
-		}
-		"15021"
-		{
-			"name"		"Strange Modifier: Gold Earned"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Gold_Earned"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"13"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Gold_Earned"
-			"image_inventory"		"econ/tools/strange_types_gold"
-		}
-		"15023"
-		{
-			"name"		"Strange Modifier: Gold Spent"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Gold_Spent"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"14"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Gold_Spent"
-			"image_inventory"		"econ/tools/strange_types_gold_spent"
-		}
-		"15024"
-		{
-			"name"		"Strange Modifier: Towers Destroyed"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Towers_Destroyed"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"15"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Towers_Destroyed"
-			"image_inventory"		"econ/tools/strange_types_tower_destroyed"
-		}
 		"15025"
 		{
 			"name"		"Unusual Paint: Red"
@@ -36041,6 +36121,7 @@
 					"value"		"1"
 				}
 			}
+			"ignore_in_collection_view"		"1"
 		}
 		"15026"
 		{
@@ -36076,6 +36157,7 @@
 					"value"		"1"
 				}
 			}
+			"ignore_in_collection_view"		"1"
 		}
 		"15027"
 		{
@@ -36111,6 +36193,7 @@
 					"value"		"1"
 				}
 			}
+			"ignore_in_collection_view"		"1"
 		}
 		"15028"
 		{
@@ -36146,6 +36229,7 @@
 					"value"		"1"
 				}
 			}
+			"ignore_in_collection_view"		"1"
 		}
 		"15029"
 		{
@@ -36181,6 +36265,7 @@
 					"value"		"1"
 				}
 			}
+			"ignore_in_collection_view"		"1"
 		}
 		"15030"
 		{
@@ -36216,6 +36301,7 @@
 					"value"		"1"
 				}
 			}
+			"ignore_in_collection_view"		"1"
 		}
 		"15031"
 		{
@@ -36251,328 +36337,7 @@
 					"value"		"1"
 				}
 			}
-		}
-		"15032"
-		{
-			"name"		"Strange Modifier: Tracked Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Bounty_TrackedKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_bounty_hunter"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"16"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Bounty_TrackedKills"
-			"image_inventory"		"econ/tools/strange_types_bounty_trackedkills"
-		}
-		"15033"
-		{
-			"name"		"Strange Modifier: Tracked Invisible Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Bounty_TrackedInvisKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_bounty_hunter"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"17"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Bounty_TrackedInvisKills"
-			"image_inventory"		"econ/tools/strange_types_bounty_trackedinviskills"
-		}
-		"15034"
-		{
-			"name"		"Strange Modifier: Invisible Jinada Strikes"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Bounty_InvisJinadaHits"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_bounty_hunter"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"18"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Bounty_InvisJinadaHits"
-			"image_inventory"		"econ/tools/strange_types_bounty_invisjinadahits"
-		}
-		"15035"
-		{
-			"name"		"Strange Modifier: Track Bounty Gold"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Bounty_TrackBountyGold"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_bounty_hunter"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"19"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Bounty_TrackBountyGold"
-			"image_inventory"		"econ/tools/strange_types_bounty_trackgold"
-		}
-		"15036"
-		{
-			"name"		"Strange Modifier: Quad Ravages"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Tide_GoodRavages"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_tidehunter"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"20"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Tide_GoodRavages"
-			"image_inventory"		"econ/tools/strange_types_gold"
-		}
-		"15037"
-		{
-			"name"		"Strange Modifier: Double Shackles"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Windrunner_DoubleShackles"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_windrunner"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"21"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Windrunner_DoubleShackles"
-			"image_inventory"		"econ/tools/strange_types_windrunner_doubleshackles"
-		}
-		"15038"
-		{
-			"name"		"Strange Modifier: Multi-Hero Powershots"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Windrunner_GoodPowershots"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_windrunner"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"22"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Windrunner_GoodPowershots"
-			"image_inventory"		"econ/tools/strange_types_windrunner_goodpowershots"
-		}
-		"15039"
-		{
-			"name"		"Strange Modifier: Sunstrike Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Invoker_SunstrikeKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_invoker"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"23"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Invoker_SunstrikeKills"
-			"image_inventory"		"econ/tools/strange_types_invoker_sunstrikekills"
-		}
-		"15040"
-		{
-			"name"		"Strange Modifier: Couriers Purchased"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Couriers_Purchased"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"24"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Couriers_Purchased"
-			"image_inventory"		"econ/tools/strange_types_couriers_purchased"
-		}
-		"15041"
-		{
-			"name"		"Strange Modifier: Wards Purchased"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Wards_Purchased"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"25"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Wards_Purchased"
-			"image_inventory"		"econ/tools/strange_types_wards_purchased"
-		}
-		"15044"
-		{
-			"name"		"Strange Modifier: Enemies Gushed"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Tide_EnemiesGushed"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_tidehunter"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"26"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Tide_EnemiesGushed"
-			"image_inventory"		"econ/tools/strange_types_tide_enemiesgushed"
+			"ignore_in_collection_view"		"1"
 		}
 		"15045"
 		{
@@ -36590,7 +36355,7 @@
 				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Treasure_Key"
-			"image_inventory"		"econ/tools/treasure_chest_key"
+			"image_inventory"		"econ/tools/summer_sale_2012_key"
 			"attributes"
 			{
 				"disallow recycling"
@@ -36632,186 +36397,6 @@
 				}
 			}
 		}
-		"15057"
-		{
-			"name"		"Strange Modifier: Enemies Culled"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_Culls"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_axe"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"27"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_Culls"
-			"image_inventory"		"econ/tools/strange_types_Axe_Culls"
-		}
-		"15058"
-		{
-			"name"		"Strange Modifier: Battle Hunger Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_BattleHungerKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_axe"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"28"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_BattleHungerKills"
-			"image_inventory"		"econ/tools/strange_types_Axe_BattleHungerKills"
-		}
-		"15059"
-		{
-			"name"		"Strange Modifier: Axe Dangerous Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_LowHealthKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_axe"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"29"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_LowHealthKills"
-			"image_inventory"		"econ/tools/strange_types_Axe_LowHealthKills"
-		}
-		"15060"
-		{
-			"name"		"Strange Modifier: Call Damage Done"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_CalledDamageDone"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_axe"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"30"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_CalledDamageDone"
-			"image_inventory"		"econ/tools/strange_types_Axe_CalledDamageDone"
-		}
-		"15061"
-		{
-			"name"		"Strange Modifier: Call Damage Taken"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Axe_CalledDamageTaken"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_axe"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"31"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Axe_CalledDamageTaken"
-			"image_inventory"		"econ/tools/strange_types_Axe_CalledDamageTaken"
-		}
-		"15062"
-		{
-			"name"		"Strange Modifier: Tornado Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Invoker_TornadoKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_invoker"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"32"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Invoker_TornadoKills"
-			"image_inventory"		"econ/tools/strange_types_gold"
-		}
 		"15067"
 		{
 			"name"		"Pennant Upgrade"
@@ -36835,126 +36420,6 @@
 			"item_description"		"#DOTA_Item_Desc_Pennant_Upgrade"
 			"image_inventory"		"econ/pennant/pennant_upgrade"
 		}
-		"15068"
-		{
-			"name"		"Strange Modifier: Multi-Hero Storm Hammers"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_DoubleStuns"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_sven"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"34"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_DoubleStuns"
-			"image_inventory"		"econ/tools/strange_types_sven_mh_stormhammer"
-		}
-		"15069"
-		{
-			"name"		"Strange Modifier: Warcry Assists"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_WarcryAssists"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_sven"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"35"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_WarcryAssists"
-			"image_inventory"		"econ/tools/strange_types_Sven_WarcryAssists"
-		}
-		"15070"
-		{
-			"name"		"Strange Modifier: Multi-Hero Cleave Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_CleaveDoubleKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_sven"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"36"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_CleaveDoubleKills"
-			"image_inventory"		"econ/tools/strange_types_sven_mh_cleavekills"
-		}
-		"15071"
-		{
-			"name"		"Strange Modifier: Storm Hammer Teleport Interrupts"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_TeleportInterrupts"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_sven"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"37"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_TeleportInterrupts"
-			"image_inventory"		"econ/tools/strange_types_Sven_TeleportInterrupts"
-		}
 		"15074"
 		{
 			"name"		"International Treasure Key"
@@ -36971,7 +36436,7 @@
 				}
 			}
 			"item_description"		"#DOTA_Item_Desc_Treasure_Key"
-			"image_inventory"		"econ/tools/treasure_chest_key"
+			"image_inventory"		"econ/tools/international_key"
 			"attributes"
 			{
 				"disallow recycling"
@@ -37026,122 +36491,7 @@
 					"value"		"1"
 				}
 			}
-		}
-		"15087"
-		{
-			"name"		"Strange Modifier: Multi-Hero Chronospheres"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Faceless_MultiChrono"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_faceless_void"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"38"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Faceless_MultiChrono"
-			"image_inventory"		"econ/tools/strange_types_facelessvoid_ft_chronosphere"
-		}
-		"15088"
-		{
-			"name"		"Strange Modifier: Chronosphere Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Faceless_ChronoKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_faceless_void"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"39"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Faceless_ChronoKills"
-			"image_inventory"		"econ/tools/strange_types_facelessvoid_chronosphere_kill"
-		}
-		"15089"
-		{
-			"name"		"Strange Modifier: Multi-Hero Earthshocks"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_Ursa_MultiShocks"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-				"usage"
-				{
-					"required_hero"		"npc_dota_hero_ursa"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"40"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Ursa_MultiShocks"
-			"image_inventory"		"econ/tools/strange_types_ursa_mh_earthshocks"
-		}
-		"15090"
-		{
-			"name"		"Strange Modifier: Roshan Kills"
-			"prefab"		"dota_tool"
-			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
-			"item_name"		"#DOTA_Item_Strange_Modifier_RoshanKills"
-			"item_rarity"		"rare"
-			"tool"
-			{
-				"type"		"strange_part"
-				"usage_capabilities"
-				{
-					"strange_parts"		"1"
-				}
-			}
-			"attributes"
-			{
-				"strange part new counter ID"
-				{
-					"attribute_class"		"strange_part_new_counter_id"
-					"value"		"41"
-				}
-			}
-			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_RoshanKills"
-			"image_inventory"		"econ/tools/strange_types_roshan_kills"
+			"ignore_in_collection_view"		"1"
 		}
 		"15091"
 		{
@@ -39486,6 +38836,690 @@
 					"value"		"33"
 				}
 			}
+		}
+		"15009"
+		{
+			"name"		"Strange Modifier: Godlikes"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Godlikes"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"12"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Godlikes"
+			"image_inventory"		"econ/tools/strange_types_godlike"
+		}
+		"15019"
+		{
+			"name"		"Strange Modifier: First Blood"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_First_Blood"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"11"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_First_Blood"
+			"image_inventory"		"econ/tools/strange_types_first_blood"
+		}
+		"15020"
+		{
+			"name"		"Strange Modifier: Wards Placed"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Wards_Placed"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"7"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Wards_Placed"
+			"image_inventory"		"econ/tools/strange_types_ward"
+		}
+		"15021"
+		{
+			"name"		"Strange Modifier: Gold Earned"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Gold_Earned"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"13"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Gold_Earned"
+			"image_inventory"		"econ/tools/strange_types_gold"
+		}
+		"15023"
+		{
+			"name"		"Strange Modifier: Gold Spent"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Gold_Spent"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"14"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Gold_Spent"
+			"image_inventory"		"econ/tools/strange_types_gold_spent"
+		}
+		"15024"
+		{
+			"name"		"Strange Modifier: Towers Destroyed"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Towers_Destroyed"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"15"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Towers_Destroyed"
+			"image_inventory"		"econ/tools/strange_types_tower_destroyed"
+		}
+		"15032"
+		{
+			"name"		"Strange Modifier: Tracked Kills"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Bounty_TrackedKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_bounty_hunter"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"16"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Bounty_TrackedKills"
+			"image_inventory"		"econ/tools/strange_types_bounty_trackedkills"
+		}
+		"15033"
+		{
+			"name"		"Strange Modifier: Tracked Invisible Kills"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Bounty_TrackedInvisKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_bounty_hunter"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"17"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Bounty_TrackedInvisKills"
+			"image_inventory"		"econ/tools/strange_types_bounty_trackedinviskills"
+		}
+		"15034"
+		{
+			"name"		"Strange Modifier: Invisible Jinada Strikes"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Bounty_InvisJinadaHits"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_bounty_hunter"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"18"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Bounty_InvisJinadaHits"
+			"image_inventory"		"econ/tools/strange_types_bounty_invisjinadahits"
+		}
+		"15035"
+		{
+			"name"		"Strange Modifier: Track Bounty Gold"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Bounty_TrackBountyGold"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_bounty_hunter"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"19"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Bounty_TrackBountyGold"
+			"image_inventory"		"econ/tools/strange_types_bounty_trackgold"
+		}
+		"15036"
+		{
+			"name"		"Strange Modifier: Quad Ravages"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Tide_GoodRavages"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_tidehunter"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"20"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Tide_GoodRavages"
+			"image_inventory"		"econ/tools/strange_types_gold"
+		}
+		"15037"
+		{
+			"name"		"Strange Modifier: Double Shackles"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Windrunner_DoubleShackles"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_windrunner"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"21"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Windrunner_DoubleShackles"
+			"image_inventory"		"econ/tools/strange_types_windrunner_doubleshackles"
+		}
+		"15038"
+		{
+			"name"		"Strange Modifier: Multi-Hero Powershots"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Windrunner_GoodPowershots"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_windrunner"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"22"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Windrunner_GoodPowershots"
+			"image_inventory"		"econ/tools/strange_types_windrunner_goodpowershots"
+		}
+		"15039"
+		{
+			"name"		"Strange Modifier: Sunstrike Kills"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Invoker_SunstrikeKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_invoker"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"23"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Invoker_SunstrikeKills"
+			"image_inventory"		"econ/tools/strange_types_invoker_sunstrikekills"
+		}
+		"15040"
+		{
+			"name"		"Strange Modifier: Couriers Purchased"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Couriers_Purchased"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"24"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Couriers_Purchased"
+			"image_inventory"		"econ/tools/strange_types_couriers_purchased"
+		}
+		"15041"
+		{
+			"name"		"Strange Modifier: Wards Purchased"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Wards_Purchased"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"25"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Wards_Purchased"
+			"image_inventory"		"econ/tools/strange_types_wards_purchased"
+		}
+		"15044"
+		{
+			"name"		"Strange Modifier: Enemies Gushed"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Tide_EnemiesGushed"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_tidehunter"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"26"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Tide_EnemiesGushed"
+			"image_inventory"		"econ/tools/strange_types_tide_enemiesgushed"
+		}
+		"15062"
+		{
+			"name"		"Strange Modifier: Tornado Kills"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Invoker_TornadoKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_invoker"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"32"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Invoker_TornadoKills"
+			"image_inventory"		"econ/tools/strange_types_gold"
+		}
+		"15068"
+		{
+			"name"		"Strange Modifier: Multi-Hero Storm Hammers"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_DoubleStuns"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_sven"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"34"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_DoubleStuns"
+			"image_inventory"		"econ/tools/strange_types_sven_mh_stormhammer"
+		}
+		"15070"
+		{
+			"name"		"Strange Modifier: Multi-Hero Cleave Kills"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Sven_CleaveDoubleKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_sven"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"36"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Sven_CleaveDoubleKills"
+			"image_inventory"		"econ/tools/strange_types_sven_mh_cleavekills"
+		}
+		"15087"
+		{
+			"name"		"Strange Modifier: Multi-Hero Chronospheres"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Faceless_MultiChrono"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_faceless_void"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"38"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Faceless_MultiChrono"
+			"image_inventory"		"econ/tools/strange_types_facelessvoid_ft_chronosphere"
+		}
+		"15088"
+		{
+			"name"		"Strange Modifier: Chronosphere Kills"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Faceless_ChronoKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_faceless_void"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"39"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Faceless_ChronoKills"
+			"image_inventory"		"econ/tools/strange_types_facelessvoid_chronosphere_kill"
+		}
+		"15089"
+		{
+			"name"		"Strange Modifier: Multi-Hero Earthshocks"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_Ursa_MultiShocks"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+				"usage"
+				{
+					"required_hero"		"npc_dota_hero_ursa"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"40"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_Ursa_MultiShocks"
+			"image_inventory"		"econ/tools/strange_types_ursa_mh_earthshocks"
+		}
+		"15090"
+		{
+			"name"		"Strange Modifier: Roshan Kills"
+			"prefab"		"dota_modifier"
+			"item_type_name"		"#DOTA_WearableType_Strange_Modifier"
+			"item_name"		"#DOTA_Item_Strange_Modifier_RoshanKills"
+			"item_rarity"		"rare"
+			"tool"
+			{
+				"type"		"strange_part"
+				"usage_capabilities"
+				{
+					"strange_parts"		"1"
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"		"strange_part_new_counter_id"
+					"value"		"41"
+				}
+			}
+			"item_description"		"#DOTA_Item_Desc_Strange_Modifier_RoshanKills"
+			"image_inventory"		"econ/tools/strange_types_roshan_kills"
 		}
 		"20000"
 		{
