@@ -380,6 +380,21 @@
 				"nameable"		"1"
 			}
 		}
+		"dota_hud_skin"
+		{
+			"item_class"		"dota_item_wearable"
+			"item_type_name"		"#DOTA_WearableType_Hud_Skin"
+			"item_name"		"#DOTA_Wearable_Hud_Skin"
+			"item_slot"		"none"
+			"item_quality"		"unique"
+			"item_rarity"		"common"
+			"min_ilevel"		"1"
+			"max_ilevel"		"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+		}
 		"dota_announcer"
 		{
 			"item_class"		"dota_item_wearable"
@@ -3999,6 +4014,13 @@
 				"npc_dota_hero_shadow_shaman"		"1"
 			}
 			"model_player"		"models/heroes/shadowshaman/weapon.mdl"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"shadowshaman_stick_r"
+				}
+			}
 		}
 		"247"
 		{
@@ -4013,6 +4035,13 @@
 				"npc_dota_hero_shadow_shaman"		"1"
 			}
 			"model_player"		"models/heroes/shadowshaman/weapon_offhand.mdl"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"shadowshaman_stick_l"
+				}
+			}
 		}
 		"248"
 		{
@@ -6024,7 +6053,7 @@
 			{
 				"npc_dota_hero_shredder"		"1"
 			}
-			"model_player"		"models/heroes/shredder/shredder_arm_claw.mdl"
+			"model_player"		"models/heroes/shredder/shredder_hook.mdl"
 		}
 		"388"
 		{
@@ -6039,7 +6068,14 @@
 			{
 				"npc_dota_hero_shredder"		"1"
 			}
-			"model_player"		"models/heroes/shredder/shredder_arm_chainsaw.mdl"
+			"model_player"		"models/heroes/shredder/shredder_chainsaw_blade.mdl"
+			"visuals"
+			{
+				"attached_particlesystem0"
+				{
+					"system"		"shredder_ambient_saw"
+				}
+			}
 		}
 		"389"
 		{
@@ -6130,6 +6166,66 @@
 				"npc_dota_hero_undying"		"1"
 			}
 			"model_player"		"models/heroes/undying/undying_shoulders.mdl"
+		}
+		"396"
+		{
+			"name"		"Shadow Demon's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Shadow_Demons_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_demon"		"1"
+			}
+			"model_player"		"models/heroes/shadow_demon/shadow_demon_cape.mdl"
+		}
+		"397"
+		{
+			"name"		"Shadow Demon's Armor"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_armor"
+			"item_name"		"#DOTA_Item_Shadow_Demons_Armor"
+			"item_slot"		"armor"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shadow_Demons_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_demon"		"1"
+			}
+			"model_player"		"models/heroes/shadow_demon/shadow_demon_chain.mdl"
+		}
+		"398"
+		{
+			"name"		"Shadow Demon's Belt"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_belt"
+			"item_name"		"#DOTA_Item_Shadow_Demons_Belt"
+			"item_slot"		"belt"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shadow_Demons_Armor"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_demon"		"1"
+			}
+			"model_player"		"models/heroes/shadow_demon/shadow_demon_belt.mdl"
+		}
+		"399"
+		{
+			"name"		"Shadow Demon's Tail"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_tail"
+			"item_name"		"#DOTA_Item_Shadow_Demons_Tail"
+			"item_slot"		"tail"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Shadow_Demons_Belt"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shadow_demon"		"1"
+			}
+			"model_player"		"models/heroes/shadow_demon/shadow_demon_tail.mdl"
 		}
 		"4000"
 		{
@@ -10743,6 +10839,14 @@
 			{
 				"npc_dota_hero_bloodseeker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/blood_seeker/war_cape.mdl"
 			"icon_portrait"
 			{
@@ -10835,6 +10939,14 @@
 			{
 				"npc_dota_hero_bloodseeker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/blood_seeker/war_helmet.mdl"
 			"icon_portrait"
 			{
@@ -10925,6 +11037,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_dragon_knight"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/dragon_knight/helmet_timedragon.mdl"
 			"icon_portrait"
@@ -11017,6 +11137,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_dragon_knight"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/dragon_knight/skirt_timedragon.mdl"
 			"icon_portrait"
@@ -12757,6 +12885,14 @@
 			{
 				"npc_dota_hero_dragon_knight"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/dragon_knight/weapon_dragonmaw.mdl"
 			"icon_portrait"
 			{
@@ -13322,6 +13458,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/drow/drow_coldcase_bow.mdl"
 			"icon_portrait"
@@ -14814,6 +14958,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/drow/pincher_bow.mdl"
 			"icon_portrait"
@@ -21301,6 +21453,14 @@
 			{
 				"npc_dota_hero_bloodseeker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/blood_seeker/head_savagebeast.mdl"
 			"icon_portrait"
 			{
@@ -21346,6 +21506,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bloodseeker"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/blood_seeker/weapon_savagebeast.mdl"
 			"icon_portrait"
@@ -21394,6 +21562,14 @@
 			{
 				"npc_dota_hero_bloodseeker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/blood_seeker/offhand_savagebeast.mdl"
 			"icon_portrait"
 			{
@@ -21440,6 +21616,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bloodseeker"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/blood_seeker/back_savagebeast.mdl"
 			"icon_portrait"
@@ -22910,6 +23094,14 @@
 			{
 				"npc_dota_hero_drow_ranger"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/drow/drow_spikehair.mdl"
 			"icon_portrait"
 			{
@@ -23525,6 +23717,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_dragon_knight"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/dragon_knight/sword_01/sword_01.mdl"
 			"item_set"		"dragon_knight_slain_dragon"
@@ -25494,6 +25694,14 @@
 			{
 				"npc_dota_hero_dragon_knight"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/dragon_knight/armor_of_the_drake/armor_of_the_drake.mdl"
 			"icon_portrait"
 			{
@@ -25741,6 +25949,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_dragon_knight"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/dragon_knight/helmet_of_the_drake/helmet_of_the_drake.mdl"
 			"icon_portrait"
@@ -26099,6 +26315,14 @@
 			{
 				"npc_dota_hero_dragon_knight"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/dragon_knight/shield_of_the_drake/shield_of_the_drake.mdl"
 			"icon_portrait"
 			{
@@ -26377,6 +26601,14 @@
 			{
 				"npc_dota_hero_bloodseeker"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/blood_seeker/spinal_offhand/Spinal_offhand.mdl"
 			"icon_portrait"
 			{
@@ -26421,6 +26653,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_bloodseeker"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/blood_seeker/spinal_weapon/Spinal_weapon.mdl"
 			"icon_portrait"
@@ -29725,6 +29965,14 @@
 			{
 				"npc_dota_hero_drow_ranger"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/drow/royalguard_bow/royalguard_bow.mdl"
 			"item_set"		"drow_sylvan_guard"
 			"icon_portrait"
@@ -29786,6 +30034,14 @@
 			{
 				"npc_dota_hero_drow_ranger"		"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
+			}
 			"model_player"		"models/items/drow/royalguard_cape/royalguard_cape.mdl"
 			"item_set"		"drow_sylvan_guard"
 			"icon_portrait"
@@ -29832,6 +30088,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/drow/royalguard_head/royalguard_head.mdl"
 			"item_set"		"drow_sylvan_guard"
@@ -29971,6 +30235,14 @@
 			"used_by_heroes"
 			{
 				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"0"
+				}
 			}
 			"model_player"		"models/items/drow/royalguard_shoulder/royalguard_shoulder.mdl"
 			"item_set"		"drow_sylvan_guard"
@@ -33372,6 +33644,139 @@
 			}
 			"particle_file"		"particles\econ\courier\courier_golden_roshan.pcf"
 		}
+		"10132"
+		{
+			"name"		"Na'Vi's Weaselcrow"
+			"prefab"		"dota_courier"
+			"item_type_name"		"#DOTA_WearableType_courier"
+			"item_name"		"#DOTA_Item_NaVis_Weaselcrow"
+			"item_rarity"		"legendary"
+			"item_description"		"#DOTA_Item_Desc_NaVis_Weaselcrow"
+			"image_inventory"		"econ/courier/navi_courier/navi_courier"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/navi_courier/navi_courier.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/navi_courier/navi_courier.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/navi_courier/navi_courier_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/navi_courier/navi_courier_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"102.341202 -233.405960 139.962189"
+				"PortraitLookAt"		"23.010864 115.054321 0.000000"
+				"PortraitFOV"		"34.000000"
+				"PortraitFar"		"437.000000"
+				"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+				"PortraitLightLookAt"		"54.790001 171.699997 0.000000"
+				"PortraitLightFOV"		"69.000000"
+				"PortraitLightDistance"		"377.000000"
+				"PortraitLightColor"		"0.900000 0.850000 0.800000"
+				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"79.070000 84.150002 25.320000"
+				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"1.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"10133"
+		{
+			"name"		"Prismatic Drake"
+			"prefab"		"dota_courier"
+			"item_name"		"#DOTA_Item_Prismatic_Drake"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Prismatic_Drake"
+			"image_inventory"		"econ/courier/sillydragon/sillydragon"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/sillydragon/sillydragon.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier"
+					"asset"		"models/courier/sillydragon/sillydragon.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/sillydragon/sillydragon_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/courier/sillydragon/sillydragon_flying.mdl"
+					"modifier"		"dire"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"254.207947 -324.560791 153.650558"
+				"PortraitLookAt"		"15.715942 129.473877 0.000000"
+				"PortraitFOV"		"20.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+				"PortraitLightLookAt"		"54.790001 171.699997 0.000000"
+				"PortraitLightFOV"		"69.000000"
+				"PortraitLightDistance"		"377.000000"
+				"PortraitLightColor"		"0.900000 0.850000 0.800000"
+				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"79.070000 84.150002 25.320000"
+				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"1.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 		"10071"
 		{
 			"name"		"Perky Greevil Ears"
@@ -35729,6 +36134,74 @@
 				{
 					"attribute_class"		"supply_crate_series"
 					"value"		"17"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10135"
+		{
+			"name"		"Treasure of the Hunted Dragon"
+			"prefab"		"dota_treasure_chest"
+			"item_name"		"#DOTA_Item_Treasure_of_the_Hunted_Dragon"
+			"tool"
+			{
+				"type"		"supply_crate"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_dragon_knight"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Chest"
+			"image_inventory"		"econ/tools/treasure_chest_dragon_knight"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"19"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"10136"
+		{
+			"name"		"Treasure of the Silent Grove"
+			"prefab"		"dota_treasure_chest"
+			"item_name"		"#DOTA_Item_Treasure_of_the_Silent_Grove"
+			"tool"
+			{
+				"type"		"supply_crate"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_Chest"
+			"image_inventory"		"econ/tools/treasure_chest_drow"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"20"
 					"force_gc_to_generate"		"1"
 				}
 				"disallow recycling"
@@ -44615,6 +45088,20 @@
 			"effect_type"		"positive"
 			"stored_as_integer"		"1"
 		}
+		"324"
+		{
+			"name"		"polycount tag"
+			"attribute_class"		"polycount_tag"
+			"attribute_name"		"polycount tag"
+			"min_value"		"0.950000"
+			"max_value"		"0.850000"
+			"group"		"only_on_unique"
+			"description_string"		"#Attrib_PolycountTag"
+			"description_format"		"value_is_additive"
+			"hidden"		"0"
+			"effect_type"		"positive"
+			"stored_as_integer"		"0"
+		}
 		"342"
 		{
 			"name"		"locks remaining"
@@ -45570,6 +46057,51 @@
 				}
 			}
 		}
+		"54"
+		{
+			"system"		"shredder_ambient_saw"
+			"attach_type"		"absorigin_follow"
+			"attach_entity"		"parent"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_saw"
+				}
+			}
+		}
+		"55"
+		{
+			"system"		"shadowshaman_stick_r"
+			"attach_type"		"customorigin"
+			"attach_entity"		"self"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_attack1"
+				}
+			}
+		}
+		"56"
+		{
+			"system"		"shadowshaman_stick_l"
+			"attach_type"		"customorigin"
+			"attach_entity"		"self"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_attack2"
+				}
+			}
+		}
 	}
 	"upgradeable_base_items"
 	{
@@ -45877,6 +46409,17 @@
 				"Demon Guise of the Vandal"		"1"
 			}
 			"store_bundle"		"Demonic Vandal's Set"
+		}
+		"deadly_nightshade"
+		{
+			"name"		"#DOTA_Set_The_Deadly_Nightshade"
+			"store_bundle"		"The Deadly Nightshade Set"
+			"items"
+			{
+				"Scarf of the Deadly Nightshade"		"1"
+				"Headpiece of the Deadly Nightshade"		"1"
+				"Garb of the Deadly Nightshade"		"1"
+			}
 		}
 		"death_prophet_corpse_maiden"
 		{
@@ -46344,6 +46887,44 @@
 				"Revered Shoulder"		"1"
 			}
 		}
+		"red_talon"
+		{
+			"name"		"#DOTA_Set_Gear_of_the_Red_Talon"
+			"items"
+			{
+				"Red Talon Hood"		"1"
+				"Red Talon Guard"		"1"
+				"Red Talon Axes"		"1"
+				"Red Talon Bracers"		"1"
+				"Red Talon Belt"		"1"
+			}
+		}
+		"riftshadow_roamer"
+		{
+			"name"		"#DOTA_Set_The_Riftshadow_Roamer"
+			"store_bundle"		"The Riftshadow Roamer's Set"
+			"items"
+			{
+				"Riftshadow Roamer's Pluckin' Fiddle"		"1"
+				"Riftshadow Roamer's Wearin' Vest"		"1"
+				"Riftshadow Roamer's Fryin' Pan"		"1"
+				"Riftshadow Roamer's Fine n' Fancy"		"1"
+				"Riftshadow Roamer's Grabbin' Wraps"		"1"
+			}
+		}
+		"stormcrow_spirit"
+		{
+			"name"		"#DOTA_Set_The_Stormcrows_Spirit"
+			"store_bundle"		"The Stormcrow's Spirit Set"
+			"items"
+			{
+				"Egg of the Stormcrow"		"1"
+				"Beak of the Stormcrow"		"1"
+				"Cloak of the Stormcrow"		"1"
+				"Tail of the Stormcrow"		"1"
+				"Sigil of the Stormcrow"		"1"
+			}
+		}
 		"sven_flameguard"
 		{
 			"name"		"#DOTA_Set_Sven_Flameguard"
@@ -46514,6 +47095,19 @@
 				"Zaru'Kina Protector's Hair"		"1"
 			}
 		}
+		"winter_snowdrop"
+		{
+			"name"		"#DOTA_Set_Winter_Snowdrop"
+			"store_bundle"		"Winter Snowdrop Set"
+			"items"
+			{
+				"Snowdrop Hood"		"1"
+				"Snowdrop Mantle"		"1"
+				"Snowdrop Mittens"		"1"
+				"Snowdrop Tassels"		"1"
+				"Snowdrop Staff"		"1"
+			}
+		}
 		"witchdoctor_tale_teller"
 		{
 			"name"		"#DOTA_Set_Witchdoctor_Tale_Teller"
@@ -46599,6 +47193,10 @@
 		{
 			"75 Battle Bonus (6 Days)"		"1"
 		}
+		"crate_bonus_c"
+		{
+			"75 Battle Bonus (6 Days)"		"1"
+		}
 		"strange_modifiers_a"
 		{
 			"Strange Modifier: Godlikes"		"1"
@@ -46653,6 +47251,18 @@
 		{
 			"Strange Modifier: Multi-Hero Earthshocks"		"1"
 			"Strange Modifier: Roshan Kills"		"1"
+		}
+		"announcer_a"
+		{
+			"Announcer: Death Prophet"		"1"
+		}
+		"announcer_b"
+		{
+			"Announcer: Dr. Kleiner"		"1"
+		}
+		"announcer_c"
+		{
+			"Announcer: The Pirate Cap'n"		"1"
 		}
 		"juggernaut_kill_eater_a"
 		{
@@ -46761,6 +47371,37 @@
 			"Quills of the Ravager"		"1"
 			"Skull of the Ravager"		"1"
 			"Helm of a Savage Age"		"1"
+		}
+		"bloodseeker_kill_eater_a"
+		{
+			"Habit of the Seeker"		"1"
+			"Hlotl-Tusk Headdress of the Seeker"		"1"
+			"Bonehunter Slicer"		"1"
+			"Bonehunter Slicer - Off-Hand"		"1"
+			"Bonehunter Spineguard"		"1"
+			"Bonehunter Skullguard"		"1"
+			"Spinal Slicer"		"1"
+			"Spinal Slicer - Off-Hand"		"1"
+		}
+		"dragon_knight_kill_eater_a"
+		{
+			"Wyrm Helm of Uldorak"		"1"
+			"Wyrm Skirt of Uldorak"		"1"
+			"Dragonmaw"		"1"
+			"Shield of the Drake"		"1"
+			"Armor of the Drake"		"1"
+			"Helmet of the Drake"		"1"
+			"Edge of the Slain Dragon"		"1"
+		}
+		"drow_kill_eater_a"
+		{
+			"Pincher Bow"		"1"
+			"Frost Spikes"		"1"
+			"Sylvan Guard's Bow"		"1"
+			"Sylvan Guard's Cape"		"1"
+			"Sylvan Guard's Hair"		"1"
+			"Sylvan Guard's Dress Armor"		"1"
+			"Cold Case Bow"		"1"
 		}
 		"summer_sale_2012"
 		{
@@ -46961,6 +47602,39 @@
 				"loot_list"		"crate_bonus_b"
 			}
 		}
+		"treasure_chest_loot_list_18"
+		{
+			"bloodseeker_kill_eater_a"		"1"
+			"announcer_a"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_c"
+			}
+		}
+		"treasure_chest_loot_list_19"
+		{
+			"dragon_knight_kill_eater_a"		"1"
+			"announcer_b"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_c"
+			}
+		}
+		"treasure_chest_loot_list_20"
+		{
+			"drow_kill_eater_a"		"1"
+			"announcer_c"		"1"
+			"additional_drop"
+			{
+				"chance"		"0.150000"
+				"premium_only"		"0"
+				"loot_list"		"crate_bonus_c"
+			}
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -46981,6 +47655,9 @@
 		"treasure_chest_loot_list_15"		"15"
 		"treasure_chest_loot_list_16"		"16"
 		"diretide_2012_chest"		"17"
+		"treasure_chest_loot_list_18"		"18"
+		"treasure_chest_loot_list_19"		"19"
+		"treasure_chest_loot_list_20"		"20"
 	}
 	"item_levels"
 	{
