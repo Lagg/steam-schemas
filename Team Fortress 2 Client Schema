@@ -43479,6 +43479,91 @@
 			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		
+		"5629" 
+		{
+			"name"	"Naughty Winter Crate 2012"
+			"item_class"	"supply_crate"
+			"craft_class"	"supply_crate"
+			"craft_material_type"	"supply_crate"
+			"expiration_date"	"2013-01-03 23:00:00"
+			"tool"
+			{
+				"type"	""
+				"usage"
+				{
+				}
+				"restriction"	"winter2012_naughty"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"armory_desc" "winter_crate"
+			"show_in_armory" "1"
+			"item_type_name"	"#TF_LockedCrate"
+			"item_name"		"#TF_WinterCrate2012_Naughty"
+			"item_description"	"#TF_WinterCrate2012_Naughty_Desc"
+			"image_inventory"	"backpack/crafting/smissmass_crate_wicked"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"12"
+			"max_ilevel"	"12"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"	"supply_crate_series"
+					"value" "52"
+					"force_gc_to_generate" "1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_crate_pickup.wav"
+			"drop_sound"		"ui/item_crate_drop.wav"
+		}
+		"5630" 
+		{
+			"name"	"Nice Winter Crate 2012"
+			"item_class"	"supply_crate"
+			"craft_class"	"supply_crate"
+			"craft_material_type"	"supply_crate"
+			"expiration_date"	"2013-01-03 23:00:00"
+			"tool"
+			{
+				"type"	""
+				"usage"
+				{
+				}
+				"restriction"	"winter2012_nice"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"armory_desc" "winter_crate"
+			"show_in_armory" "1"
+			"item_type_name"	"#TF_LockedCrate"
+			"item_name"		"#TF_WinterCrate2012_Nice"
+			"item_description"	"#TF_WinterCrate2012_Nice_Desc"
+			"image_inventory"	"backpack/crafting/smissmass_crate"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"12"
+			"max_ilevel"	"12"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"	"supply_crate_series"
+					"value" "53"
+					"force_gc_to_generate" "1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_crate_pickup.wav"
+			"drop_sound"		"ui/item_crate_drop.wav"
+		}
+		
 		"5999"				
 		{
 			"name"	"Strange Part (Armory)"

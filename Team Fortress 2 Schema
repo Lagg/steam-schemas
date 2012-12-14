@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1e55d6d7527271983afacc1e7864ef99c150729d.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.cf40a177509fd2fc54140f34bcad4d9cbe52a41b.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -38325,6 +38325,88 @@
 						"name": "always tradable",
 						"class": "always_tradable",
 						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Naughty Winter Crate 2012",
+				"defindex": 5629,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Naughty Winter Crate 2012",
+				"item_description": "This crate's contents are unknown.\nOnly Naughty Keys fit the lock.\n\nSome, but not all, of the items in this crate are Strange...\nAfter 01\/03\/2013 this crate will disappear.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/smissmass_crate_wicked",
+				"min_ilevel": 12,
+				"max_ilevel": 12,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smissmass_crate_wicked.e24f0368811b0a0ae9f225ff229ea93d79ba4980.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smissmass_crate_wicked_large.993d81a7dcdd17a07064322b7185652fc78f4332.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "winter2012_naughty"
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 52.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Nice Winter Crate 2012",
+				"defindex": 5630,
+				"item_class": "supply_crate",
+				"item_type_name": "TF_LockedCrate",
+				"item_name": "Nice Winter Crate 2012",
+				"item_description": "This crate's contents are unknown.\nOnly Nice Keys fit the lock.\nAfter 01\/03\/2013 this crate will disappear.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/smissmass_crate",
+				"min_ilevel": 12,
+				"max_ilevel": 12,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smissmass_crate.33d9294a16757776e7207f802fdfb30a037449a1.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smissmass_crate_large.c72393fbf28023c8ad16be007c052ef3ee580b50.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "winter2012_nice"
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 53.000000
 					}
 				]
 				
