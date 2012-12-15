@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.28c78b339e0b9577981fa565790a6ba655efd816.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.17d1eee93e2760464d9e343bd880dfc4a3212e3a.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -29649,26 +29649,42 @@
 				}
 			},
 			{
-				"name": "Eye of the Seeker",
+				"name": "Treasure of the Twins",
 				"defindex": 10138,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
-				"item_name": "Eye of the Seeker",
-				"item_description": "This new item has no description.",
+				"item_class": "supply_crate",
+				"item_type_name": "DOTA_WearableType_Treasure",
+				"item_name": "DOTA_Item_Treasure_of_the_Twins",
+				"item_description": "You will need a <font color='#9da1a9'>Treasure Key<\/font> to open this chest. You can pick one up at the DOTA 2 Store. Each chest series comes with a different selection of possible loot.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/tools\/treasure_chest_bloodseeker",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_bloodseeker.8ffaa1993922c491119758932f0a6cbd0ffef346.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_bloodseeker_large.c973c320fcaccf7c317281d046dbe0b6ef2cd21e.png",
 				"capabilities": {
-					"nameable": true,
+					"decodable": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"tool": {
+					"type": "supply_crate"
+				},
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 18.000000
+					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Dragon Knight Ward",
