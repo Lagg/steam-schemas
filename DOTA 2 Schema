@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.b45ed484d38494816c7f8fe5980892aeb5167786.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.330404113939e5c7d49f537410615bc8566d3461.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -30344,7 +30344,8 @@
 					"paintable_unusual": true
 				},
 				"tool": {
-					"type": "supply_crate"
+					"type": "supply_crate",
+					"restriction": "frostivus"
 				},
 				"attributes": [
 					{
@@ -34587,6 +34588,7 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
+					"restriction": "frostivus",
 					"usage_capabilities": {
 						"decodable": true
 					}
