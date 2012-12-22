@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.697f8ac537760253fb08fe1fa15b0521c29ae9c0.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.c5002cc4d160f809650f306748966125b5b42069.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -34698,6 +34698,76 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscription_theasia.2afa04311c6a3f4327e690241073e04a819e3d04.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscription_theasia_large.b8459d1e0a5ff842e862a0b0386ebd4e89087c2f.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "G-League 2012",
+				"defindex": 15119,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "G-League 2012",
+				"item_description": "The famous G-League Tournament makes its Dota 2 debut on Dec. 25. Watch the best 8 asian teams, including IG, LGD and DK, compete for a prize pool of $40,000. Hosted by GameFY",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_gleague",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gleague.7ec51b85f8e8bd2344dd86647514844b8288cf2d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gleague_large.6c06e49b2c655269ef46af0971af0ed05fea9128.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "G-League 2012 ADMIN",
+				"defindex": 15120,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "G-League 2012 ADMIN",
+				"item_description": "The famous G-League Tournament makes its Dota 2 debut on Dec. 25. Watch the best 8 asian teams, including IG, LGD and DK, compete for a prize pool of $40,000. Hosted by GameFY",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_gleague",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gleague.7ec51b85f8e8bd2344dd86647514844b8288cf2d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gleague_large.6c06e49b2c655269ef46af0971af0ed05fea9128.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,

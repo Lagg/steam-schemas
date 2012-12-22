@@ -41928,6 +41928,47 @@
 			"tournament_url"		"http://e-clubmalaysia.com/dota2/?page_id=2701 "
 			"image_banner"		"econ\leagues\subscription_theasia_ingame"
 		}
+		"15119"
+		{
+			"name"		"G-League 2012"
+			"prefab"		"dota_league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"24"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_GLeague_2012"
+			"item_description"		"#DOTA_Item_Desc_GLeague_2012"
+			"image_inventory"		"econ/leagues/subscriptions_gleague"
+			"image_banner"		"econ\leagues\subscriptions_gleague_ingame"
+			"tournament_url"		"http://gleague.gamefy.cn/"
+		}
+		"15120"
+		{
+			"name"		"G-League 2012 ADMIN"
+			"prefab"		"dota_league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"24"
+					"admin"		"1"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_GLeague_2012_ADMIN"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_GLeague_2012"
+			"image_inventory"		"econ/leagues/subscriptions_gleague"
+			"image_banner"		"econ\leagues\subscriptions_gleague_ingame"
+			"tournament_url"		"http://gleague.gamefy.cn/"
+		}
 		"10040"
 		{
 			"name"		"Team Pennant: QQ"
