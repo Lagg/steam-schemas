@@ -6256,6 +6256,140 @@
 			}
 			"model_player"		"models/heroes/shredder/shredder_blade.mdl"
 		}
+		"401"
+		{
+			"name"		"Shredder's Bracer"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Shredders_Bracer"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shredder"		"1"
+			}
+			"model_player"		"models/heroes/shredder/shredder_bracer.mdl"
+		}
+		"402"
+		{
+			"name"		"Shredder's Off Hand Bracer"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_Shredders_Off_Hand_Bracer"
+			"item_slot"		"misc"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_shredder"		"1"
+			}
+			"model_player"		"models/heroes/shredder/shredder_off_hand_bracer.mdl"
+		}
+		"403"
+		{
+			"name"		"Mirana's Bow"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Miranas_Bow"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_mirana"		"1"
+			}
+			"model_player"		"models/heroes/mirana/bow.mdl"
+		}
+		"404"
+		{
+			"name"		"Mirana's Mount"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_mount"
+			"item_name"		"#DOTA_Item_Miranas_Mount"
+			"item_slot"		"mount"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Miranas_Bow"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_mirana"		"1"
+			}
+			"model_player"		"models/heroes/mirana/mount.mdl"
+		}
+		"405"
+		{
+			"name"		"Mirana's Headdress"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Miranas_Headdress"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Miranas_Mount"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_mirana"		"1"
+			}
+			"model_player"		"models/heroes/mirana/head_item.mdl"
+		}
+		"406"
+		{
+			"name"		"Mirana's Cape"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_back"
+			"item_name"		"#DOTA_Item_Miranas_Cape"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Miranas_Headdress"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_mirana"		"1"
+			}
+			"model_player"		"models/heroes/mirana/cape.mdl"
+		}
+		"407"
+		{
+			"name"		"Mirana's Shoulders"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"item_name"		"#DOTA_Item_Miranas_Shoulders"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Miranas_Cape"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_mirana"		"1"
+			}
+			"model_player"		"models/heroes/mirana/shoulders.mdl"
+		}
+		"408"
+		{
+			"name"		"Mirana's Bracers"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Miranas_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Miranas_Shoulders"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_mirana"		"1"
+			}
+			"model_player"		"models/heroes/mirana/bracers.mdl"
+		}
+		"409"
+		{
+			"name"		"Mirana's Quiver"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_misc"
+			"item_name"		"#DOTA_Item_Miranas_Quiver"
+			"item_slot"		"misc"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Miranas_Bracers"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_mirana"		"1"
+			}
+			"model_player"		"models/heroes/mirana/quiver.mdl"
+		}
 		"4000"
 		{
 			"name"		"Horn Mask"
@@ -38619,6 +38753,42 @@
 					"asset"		"npc_dota_hero_announcer_dlc_kleiner"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_kleiner.txt"
 				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Kleiner/announcer_anc_attack_yr_04.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Kleiner_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Kleiner/announcer_fort_dire_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Kleiner_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Kleiner/announcer_rax_fall_yr_top_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Kleiner_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Kleiner/announcer_roshan_fallen_rad_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Kleiner_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Kleiner/announcer_twr_attack_dire_top_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Kleiner_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Kleiner/announcer_victory_rad_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Kleiner_06"
+				}
 			}
 		}
 		"10013"
@@ -38638,6 +38808,42 @@
 					"type"		"announcer"
 					"asset"		"npc_dota_hero_announcer_dlc_juggernaut"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_juggernaut.txt"
+				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut/announcer_anc_attack_yr_04.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut/announcer_cour_kill_dire_04.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut/announcer_fort_dire_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut/announcer_rax_fall_yr_top_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut/announcer_twr_attack_dire_bot_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut/announcer_victory_dire_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_06"
 				}
 			}
 		}
@@ -38659,6 +38865,42 @@
 					"asset"		"npc_dota_hero_announcer_dlc_juggernaut_killing_spree"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_juggernaut_killing_spree.txt"
 				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut_Killing_Spree/announcer_1stblood_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Killing_Spree_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut_Killing_Spree/announcer_kill_double_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Killing_Spree_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut_Killing_Spree/announcer_kill_godlike_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Killing_Spree_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut_Killing_Spree/announcer_kill_rampage_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Killing_Spree_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut_Killing_Spree/announcer_kill_triple_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Killing_Spree_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Juggernaut_Killing_Spree/announcer_kill_unstop_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Juggernaut_Killing_Spree_06"
+				}
 			}
 		}
 		"10015"
@@ -38678,6 +38920,42 @@
 					"type"		"announcer"
 					"asset"		"npc_dota_hero_announcer_dlc_naturesprophet"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_naturesprophet.txt"
+				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet/announcer_fort_dire_05.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet/announcer_rax_fall_dire_bot_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet/announcer_roshan_fallen_rad_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet/announcer_twr_attack_rad_mid_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet/announcer_twr_fall_yr_mid_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet/announcer_victory_dire_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_06"
 				}
 			}
 		}
@@ -38699,6 +38977,42 @@
 					"asset"		"npc_dota_hero_announcer_dlc_naturesprophet_killing_spree"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_naturesprophet_killing_spree.txt"
 				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet_Killing_Spree/announcer_kill_dominate_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_Killing_Spree_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet_Killing_Spree/announcer_kill_mega_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_Killing_Spree_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet_Killing_Spree/announcer_kill_rampage_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_Killing_Spree_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet_Killing_Spree/announcer_kill_spree_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_Killing_Spree_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet_Killing_Spree/announcer_kill_ultra_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_Killing_Spree_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_NaturesProphet_Killing_Spree/announcer_kill_unstop_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_NaturesProphet_Killing_Spree_06"
+				}
 			}
 		}
 		"10029"
@@ -38718,6 +39032,42 @@
 					"type"		"announcer"
 					"asset"		"npc_dota_hero_announcer_dlc_stormspirit"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_stormspirit.txt"
+				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit/announcer_anc_attack_yr_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit/announcer_fort_rad_04.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit/announcer_mega_now_dire_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit/announcer_rax_fall_enm_top_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit/announcer_twr_attack_yr_top_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit/announcer_twr_deny_yr_top_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_06"
 				}
 			}
 		}
@@ -38739,6 +39089,42 @@
 					"asset"		"npc_dota_hero_announcer_dlc_workshop_pirate"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_workshop_pirate.txt"
 				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate/announcer_capn_dire_ancientattack3.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate/announcer_capn_enemy_botbarracksfallen2.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate/announcer_capn_radiant_courier2.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate/announcer_capn_respawn_goodasnew.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate/announcer_capn_roshan_radiant3.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate/announcer_capn_your_bottowerattack2.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_06"
+				}
 			}
 		}
 		"10031"
@@ -38758,6 +39144,42 @@
 					"type"		"announcer"
 					"asset"		"npc_dota_hero_announcer_dlc_workshop_pirate_killing_spree"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_workshop_pirate_killing_spree.txt"
+				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate_Killing_Spree/announcer_capn_killing_dominating.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_Killing_Spree_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate_Killing_Spree/announcer_capn_killing_outstanding.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_Killing_Spree_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate_Killing_Spree/announcer_capn_killing_plundered.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_Killing_Spree_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate_Killing_Spree/announcer_capn_killing_shipwreck.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_Killing_Spree_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate_Killing_Spree/announcer_capn_killing_ultrakill.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_Killing_Spree_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Workshop_Pirate_Killing_Spree/announcer_capn_killing_unstoppable.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Workshop_Pirate_Killing_Spree_06"
 				}
 			}
 		}
@@ -38779,6 +39201,42 @@
 					"asset"		"npc_dota_hero_announcer_dlc_stormspirit_killing_spree"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_stormspirit_killing_spree.txt"
 				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit_Killing_Spree/announcer_kill_1stblood_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_Killing_Spree_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit_Killing_Spree/announcer_kill_godlike_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_Killing_Spree_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit_Killing_Spree/announcer_kill_monster_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_Killing_Spree_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit_Killing_Spree/announcer_kill_rampage_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_Killing_Spree_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit_Killing_Spree/announcer_kill_ultra_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_Killing_Spree_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_StormSpirit_Killing_Spree/announcer_kill_wicked_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_StormSpirit_Killing_Spree_06"
+				}
 			}
 		}
 		"10061"
@@ -38799,6 +39257,42 @@
 					"asset"		"npc_dota_hero_announcer_dlc_axe"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_axe.txt"
 				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe/announcer_ally_pos_05.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe/announcer_anc_attack_rad_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe/announcer_cour_follow_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe/announcer_fort_rad_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe/announcer_idle_to_player_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe/announcer_twr_deny_dire_mid_03.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_06"
+				}
 			}
 		}
 		"10062"
@@ -38818,6 +39312,42 @@
 					"type"		"announcer"
 					"asset"		"npc_dota_hero_announcer_dlc_axe_killing_spree"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_axe_killing_spree.txt"
+				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe_Killing_Spree/announcer_kill_1stblood_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_Killing_Spree_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe_Killing_Spree/announcer_kill_dominate_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_Killing_Spree_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe_Killing_Spree/announcer_kill_godlike_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_Killing_Spree_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe_Killing_Spree/announcer_kill_monster_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_Killing_Spree_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe_Killing_Spree/announcer_kill_ultra_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_Killing_Spree_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Axe_Killing_Spree/announcer_kill_wicked_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Axe_Killing_Spree_06"
 				}
 			}
 		}
@@ -38859,6 +39389,42 @@
 					"asset"		"npc_dota_hero_announcer_dlc_bastion"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_bastion.txt"
 				}
+				"asset_modifier0"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion/announcer_anc_attack_rad_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion/announcer_cour_kill_dire_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion/announcer_pick_tiny_follow.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion/announcer_team_complete_our_nosupport.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion/announcer_twr_fall_dire_mid_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion/announcer_welcome_02.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_06"
+				}
 			}
 		}
 		"10141"
@@ -38878,6 +39444,42 @@
 					"type"		"announcer"
 					"asset"		"npc_dota_hero_announcer_dlc_bastion_killing_spree"
 					"modifier"		"scripts/voscripts/game_sounds_vo_announcer_dlc_bastion_killing_spree.txt"
+				}
+				"asset_modifier1"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion_Killing_Spree/announcer_1stblood_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_Killing_Spree_01"
+				}
+				"asset_modifier2"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion_Killing_Spree/announcer_kill_holy_04.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_Killing_Spree_02"
+				}
+				"asset_modifier3"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion_Killing_Spree/announcer_kill_monster_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_Killing_Spree_03"
+				}
+				"asset_modifier4"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion_Killing_Spree/announcer_kill_rampage_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_Killing_Spree_04"
+				}
+				"asset_modifier5"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion_Killing_Spree/announcer_kill_spree_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_Killing_Spree_05"
+				}
+				"asset_modifier6"
+				{
+					"type"		"announcer_preview"
+					"asset"		"*vo/Announcer_DLC_Bastion_Killing_Spree/announcer_teamwipe_enm_01.mp3"
+					"modifier"		"#DOTA_Announcer_Preview_Bastion_Killing_Spree_06"
 				}
 			}
 		}
@@ -39535,15 +40137,15 @@
 			"name"		"Frosty Treasure of Frostivus"
 			"prefab"		"dota_treasure_chest"
 			"item_name"		"#DOTA_Item_Frosty_Treasure_of_Frostivus"
-			"expiration_date"		"2013-01-03 23:00:00"
+			"expiration_date"		"2013-01-10 23:00:00"
 			"tool"
 			{
 				"type"		"supply_crate"
-				"restriction"		"frostivus"
 			}
 			"capabilities"
 			{
 				"decodable"		"1"
+				"restriction"		"frostivus"
 			}
 			"item_description"		"#DOTA_Item_Desc_Treasure_Chest"
 			"image_inventory"		"econ/tools/frostivus_chest"
@@ -48237,7 +48839,7 @@
 			"item_type_name"		"#DOTA_WearableType_Announcer_Bundle"
 			"item_name"		"#DOTA_Item_Bastion_Announcer_Pack"
 			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_Announcer_Bastion_Pack"
+			"item_description"		"#DOTA_Item_Desc_Bastion_Announcer_Pack"
 			"image_inventory"		"econ/announcer/announcer_bastion"
 			"bundle"
 			{
@@ -48252,7 +48854,7 @@
 			"item_type_name"		"#DOTA_WearableType_Announcer_Bundle"
 			"item_name"		"#DOTA_Item_Axe_Announcer_Pack"
 			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_Announcer_Bastion_Pack"
+			"item_description"		"#DOTA_Item_Desc_Axe_Announcer_Pack"
 			"image_inventory"		"econ/announcer/announcer_axe"
 			"bundle"
 			{
@@ -48267,7 +48869,7 @@
 			"item_type_name"		"#DOTA_WearableType_Announcer_Bundle"
 			"item_name"		"#DOTA_Item_Juggernaut_Announcer_Pack"
 			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_Axe_Announcer_Pack"
+			"item_description"		"#DOTA_Item_Desc_Juggernaut_Announcer_Pack"
 			"image_inventory"		"econ/announcer/announcer_juggernaut"
 			"bundle"
 			{
@@ -48282,7 +48884,7 @@
 			"item_type_name"		"#DOTA_WearableType_Announcer_Bundle"
 			"item_name"		"#DOTA_Item_Natures_Prophet_Announcer_Pack"
 			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_Juggernaut_Announcer_Pack"
+			"item_description"		"#DOTA_Item_Desc_Natures_Prophet_Announcer_Pack"
 			"image_inventory"		"econ/announcer/announcer_furion"
 			"bundle"
 			{
@@ -48297,7 +48899,7 @@
 			"item_type_name"		"#DOTA_WearableType_Announcer_Bundle"
 			"item_name"		"#DOTA_Item_Storm_Spirit_Announcer_Pack"
 			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_Natures_Prophet_Announcer_Pack"
+			"item_description"		"#DOTA_Item_Desc_Storm_Spirit_Announcer_Pack"
 			"image_inventory"		"econ/announcer/announcer_stormspirit"
 			"bundle"
 			{
@@ -48312,7 +48914,7 @@
 			"item_type_name"		"#DOTA_WearableType_Announcer_Bundle"
 			"item_name"		"#DOTA_Item_The_Pirate_Capn_Announcer_Pack"
 			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_Copy_of_Storm_Spirit_Announcer_Pack"
+			"item_description"		"#DOTA_Item_Desc_The_Pirate_Capn_Announcer_Pack"
 			"image_inventory"		"econ/announcer/announcer_workshop_pirate"
 			"bundle"
 			{
