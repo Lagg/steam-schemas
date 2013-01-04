@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.b2558087826c4041b012108a7937266856e5fe63.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.23b9007f1578fcfcf3256908cb563626d18e1ca0.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -40915,16 +40915,16 @@
 				"defindex": 5631,
 				"item_class": "tool",
 				"item_type_name": "Tool",
-				"item_name": "Naughty Winter Crate Key 2012",
-				"item_description": "Used to open Naughty Winter Crate 2012.\nThis key will not open Nice crates.\n\nAfter 1\/3\/2013 this will turn into a normal key.",
+				"item_name": "Mann Co. Supply Crate Key",
+				"item_description": "Used to open locked supply crates.",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
-				"image_inventory": "backpack\/crafting\/smissmass_key_wicked",
+				"image_inventory": "backpack\/player\/items\/crafting\/key",
 				"min_ilevel": 5,
 				"max_ilevel": 5,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smissmass_key_wicked.39250af91f811846b27dba90f67bbf83712ffd28.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smissmass_key_wicked_large.fd2981b2b94e8d5d11c61931c36c1cbba376af59.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key.067945a6cae528464e4fa00126f0ef17ee2dc8b5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key_large.443e254bfd7c6f54de0842a14df3c2aa72e8b6f0.png",
 				"craft_class": "tool",
 				"capabilities": {
 					"can_craft_mark": true,
@@ -40934,7 +40934,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "winter2012_naughty",
 					"usage_capabilities": {
 						"decodable": true
 					}
@@ -40957,16 +40956,16 @@
 				"defindex": 5632,
 				"item_class": "tool",
 				"item_type_name": "Tool",
-				"item_name": "Nice Winter Crate Key 2012",
-				"item_description": "Used to open Nice Winter Crate 2012.\nThis key will not open Naughty crates.\n\nAfter 1\/3\/2013 this will turn into a normal key.",
+				"item_name": "Mann Co. Supply Crate Key",
+				"item_description": "Used to open locked supply crates.",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
-				"image_inventory": "backpack\/crafting\/smissmass_key",
+				"image_inventory": "backpack\/player\/items\/crafting\/key",
 				"min_ilevel": 5,
 				"max_ilevel": 5,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smissmass_key.51231fb59a1c6a4cf00bcd5653ca8c8877f188bc.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/smissmass_key_large.597ded9890d23737127c9382d037a9d663e7ec67.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key.067945a6cae528464e4fa00126f0ef17ee2dc8b5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/key_large.443e254bfd7c6f54de0842a14df3c2aa72e8b6f0.png",
 				"craft_class": "tool",
 				"capabilities": {
 					"can_craft_mark": true,
@@ -40976,7 +40975,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "winter2012_nice",
 					"usage_capabilities": {
 						"decodable": true
 					}
