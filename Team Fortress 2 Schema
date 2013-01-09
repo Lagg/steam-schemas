@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.8f746d83de55531503dede488c0e122c77458704.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.ddc5a7e1888fdd80cb05ea71cb479e8b43c71377.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -37033,6 +37033,36 @@
 					"strange_parts": true,
 					"can_card_upgrade": true
 				}
+			},
+			{
+				"name": "Pet Balloonicorn Plush Promo",
+				"defindex": 2109,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Pet Balloonicorn Promo",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Craft Bar Level 1",
