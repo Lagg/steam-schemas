@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.23b9007f1578fcfcf3256908cb563626d18e1ca0.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.8f746d83de55531503dede488c0e122c77458704.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -32331,6 +32331,7 @@
 				"craft_class": "",
 				"craft_material_type": "hat",
 				"capabilities": {
+					"paintable": true,
 					"nameable": true,
 					"can_craft_if_purchased": true,
 					"can_gift_wrap": true,
@@ -32402,8 +32403,8 @@
 				"image_inventory": "backpack\/player\/items\/scout\/scout_gloves",
 				"min_ilevel": 1,
 				"max_ilevel": 100,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_gloves.2d1527c1cd890e781eab1dfec00b5cb10d0a5e96.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_gloves_large.c988d528345684ad085e38461bc1492973eb5e17.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_gloves.36481a79c75805334e0c7020036c79b61cab7204.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/scout_gloves_large.429e0e319db8bcb710edb984ee6f0d43d8d8c3cc.png",
 				"drop_type": "none",
 				"craft_class": "",
 				"craft_material_type": "hat",
@@ -32586,11 +32587,11 @@
 				"item_slot": "head",
 				"model_player": "models\/player\/items\/engineer\/engineer_barnstormer_s01.mdl",
 				"item_quality": 6,
-				"image_inventory": "backpack\/player\/items\/engineer\/engineer_barnstormer_s02",
+				"image_inventory": "backpack\/player\/items\/engineer\/engineer_barnstormer_s01",
 				"min_ilevel": 1,
 				"max_ilevel": 100,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_barnstormer_s02.5f2276fbcac004892acf386960cb86765ec6c428.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_barnstormer_s02_large.f09670bc22d583f6daef1eb50559ba3ebd909d0b.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_barnstormer_s01.36fa7240418c34865251ed6b252bc6710d08ab2a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/engineer_barnstormer_s01_large.08451c1cc140317a62cf9e573824bc3408e8eeeb.png",
 				"drop_type": "none",
 				"craft_class": "",
 				"craft_material_type": "hat",
@@ -32605,6 +32606,15 @@
 					"strange_parts": true,
 					"can_card_upgrade": true
 				},
+				"styles": [
+					{
+						"name": "TheBarnstormer Style 1"
+					},
+					{
+						"name": "TheBarnstormer Style 2"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Engineer"
 				]
@@ -33071,6 +33081,7 @@
 				"max_ilevel": 42,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_holymackerel_xmas.743493f16f3629fe0abb16bd846ecf10651c7e38.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_holymackerel_xmas_large.dd7f19d5d1a9ca7ecf6394219ed2377d0f0bfef4.png",
+				"item_set": "polycount_scout",
 				"craft_class": "",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -33345,6 +33356,7 @@
 				"max_ilevel": 10,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bow_xmas.dac8533939c23c106c46a67edf96f94f0be1afd2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/c_bow_xmas_large.edfdf8fcea65663b62033cc7b4beaf6dc3915473.png",
+				"item_set": "hidden_applearrow_set",
 				"craft_class": "",
 				"craft_material_type": "weapon",
 				"capabilities": {
@@ -33453,6 +33465,131 @@
 				},
 				"used_by_classes": [
 					"Demoman"
+				]
+				
+			},
+			{
+				"name": "The Prize Plushy",
+				"defindex": 1008,
+				"item_class": "tf_wearable",
+				"item_type_name": "Pocket Buddy",
+				"item_name": "Prize Plushy",
+				"item_description": "No more carnival games for you! Why buy three throws for a dollar and a chance to win a prize plushy for your paramour when you can just get one from the source and carry it around with you wherever you go!",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/cave_bear.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/cave_bear",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cave_bear.1dc9c4593d003be55e93ff9b11b06e9f8645708d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cave_bear_large.b8c092a5cac5b252fd5082bad5ffde691df469d9.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Grizzled Growth",
+				"defindex": 1009,
+				"item_class": "tf_wearable",
+				"item_type_name": "Facial Hair",
+				"item_name": "Grizzled Growth",
+				"item_description": "Whether it's the rugged charm of your chin locks or the fumes from the overripe pomade, the ladies are sure to swoon whenever you're near. Shave it off while they're dazed and pretend you saved them from a bear attack when they awake. Works every time.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/engineer\/cave_beard.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/cave_beard",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cave_beard.6f1d3394be9cb1668c580a32a28134f47fe8621c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cave_beard_large.102d56c33ff635d96c5f81996e4a914ae2bf9bdb.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Last Straw",
+				"defindex": 1010,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Last Straw",
+				"item_description": "Do you love farmin'? Do you hate the sun? Well shade yer noggin, grab yer hoe, and keep yer scattergun handy to scare off any varmints might come a-trespassin'.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/cave_hat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/cave_hat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cave_hat.bbdb4f7a70e1402a313edb3efa26551504fee57f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/cave_hat_large.c1005fb85abfa04394b9db16c991d76b4f6a63d2.png",
+				"drop_type": "drop",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
 				]
 				
 			},

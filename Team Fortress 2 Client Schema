@@ -1701,6 +1701,7 @@
 			"item_quality"	"unique"
 			"item_logname"	"holy_mackerel"
 			"item_iconname"	"holy_mackerel"
+			"item_set"	"polycount_scout"
 			"propername"	"1"
 			"min_ilevel"	"42"
 			"max_ilevel"	"42"
@@ -2045,6 +2046,7 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/c_models/c_bow/c_bow.mdl"
+			"item_set"	"hidden_applearrow_set"
 			"attach_to_hands"	"1"
 			"flip_viewmodel"	"1"
 			"used_by_classes"
@@ -3927,7 +3929,6 @@
 			"name"	"The Huntsman"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"huntsman"
-			"item_set"	"hidden_applearrow_set"
 		}
 		"57"
 		{
@@ -9341,7 +9342,6 @@
 			"name"	"The Holy Mackerel"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"holy_mackerel"
-			"item_set"	"polycount_scout"
 		}
 		"222"
 		{
@@ -27201,18 +27201,12 @@
 				{
 					"0"
 					{
-						"model_player_per_class"	
-						{
-							"medic"		"models/player/items/medic/medic_smokingpipe.mdl"
-						}						
+						"model_player"	"models/player/items/medic/medic_smokingpipe.mdl"
 						"name"	"#TF_MedicSmokingPipe_Style0"
 					}
 					"1"
 					{
-						"model_player_per_class"	
-						{
-							"medic"		"models/player/items/medic/medic_smokingpipe2.mdl"
-						}
+						"model_player"	"models/player/items/medic/medic_smokingpipe2.mdl"
 						"name"	"#TF_MedicSmokingPipe_Style1"
 					}
 				}
@@ -29529,30 +29523,21 @@
 				{
 					"0"
 					{
-						"model_player_per_class"	
-						{
-							"sniper"		"models/player/items/sniper/sniper_applearrow.mdl"
-						}		
+						"model_player"	"models/player/items/sniper/sniper_applearrow.mdl"
 						"skin_red"	"0"
 						"skin_blu"	"1"						
 						"name"	"#TF_SniperAppleArrow_Style0"
 					}
 					"1"
 					{
-						"model_player_per_class"	
-						{
-							"sniper"		"models/player/items/sniper/sniper_appleworm.mdl"
-						}
+						"model_player"	"models/player/items/sniper/sniper_appleworm.mdl"
 						"skin_red"	"0"
 						"skin_blu"	"1"
 						"name"	"#TF_SniperAppleArrow_Style1"
 					}
 					"2"
 					{
-						"model_player_per_class"	
-						{
-							"sniper"		"models/player/items/sniper/sniper_applebite.mdl"
-						}
+						"model_player"	"models/player/items/sniper/sniper_applebite.mdl"
 						"skin_red"	"0"
 						"skin_blu"	"1"
 						"name"	"#TF_SniperAppleArrow_Style2"
@@ -29594,20 +29579,14 @@
 						"skin_red"	"0"
 						"skin_blu"	"1"
 						"name"	"#TF_ScoutHeadband_Style0"
-						"model_player_per_class"	
-						{
-							"scout"		"models/player/items/scout/scout_headband.mdl"
-						}
+						"model_player"	"models/player/items/scout/scout_headband.mdl"
 					}
 					"1"
 					{
 						"skin_red"	"0"
 						"skin_blu"	"1"
 						"name"	"#TF_ScoutHeadband_Style1"
-						"model_player_per_class"	
-						{
-							"scout"		"models/player/items/scout/scout_headband_s01.mdl"
-						}	
+						"model_player"	"models/player/items/scout/scout_headband_s01.mdl"
 					}
 				}
 			}
@@ -29905,34 +29884,22 @@
 				{
 					"0"
 					{
-						"model_player_per_class"	
-						{
-							"demoman"		"models/player/items/demo/demo_chest_back.mdl"
-						}						
+						"model_player"	"models/player/items/demo/demo_chest_back.mdl"
 						"name"	"#TF_DemoTreasureChest_Style0"
 					}
 					"1"
 					{
-						"model_player_per_class"	
-						{
-							"demoman"		"models/player/items/demo/demo_chest_front.mdl"
-						}						
+						"model_player"	"models/player/items/demo/demo_chest_front.mdl"
 						"name"	"#TF_DemoTreasureChest_Style1"
 					}
 					"2"
 					{
-						"model_player_per_class"	
-						{
-							"demoman"		"models/player/items/demo/demo_chest_r.mdl"
-						}						
+						"model_player"	"models/player/items/demo/demo_chest_r.mdl"
 						"name"	"#TF_DemoTreasureChest_Style2"
 					}
 					"3"
 					{
-						"model_player_per_class"	
-						{
-							"demoman"		"models/player/items/demo/demo_chest_l.mdl"
-						}						
+						"model_player"	"models/player/items/demo/demo_chest_l.mdl"
 						"name"	"#TF_DemoTreasureChest_Style3"
 					}
 				}				
@@ -30445,40 +30412,28 @@
 					{
 						"skin_red"	"0"
 						"skin_blu"	"1"
-						"model_player_per_class"	
-						{
-							"pyro"		"models/player/items/pyro/pyro_hazmat_f.mdl"
-						}
+						"model_player"	"models/player/items/pyro/pyro_hazmat_f.mdl"
 						"name"	"#TF_PyroHazmat_Style0"
 					}
 					"1"
 					{
 						"skin_red"	"2"
 						"skin_blu"	"3"
-						"model_player_per_class"	
-						{
-							"pyro"		"models/player/items/pyro/pyro_hazmat_f.mdl"
-						}
+						"model_player"	"models/player/items/pyro/pyro_hazmat_f.mdl"
 						"name"	"#TF_PyroHazmat_Style1"
 					}
 					"2"
 					{
 						"skin_red"	"0"
 						"skin_blu"	"1"
-						"model_player_per_class"	
-						{
-							"pyro"		"models/player/items/pyro/pyro_hazmat.mdl"
-						}
+						"model_player"	"models/player/items/pyro/pyro_hazmat.mdl"
 						"name"	"#TF_PyroHazmat_Style2"
 					}
 					"3"
 					{
 						"skin_red"	"2"
 						"skin_blu"	"3"
-						"model_player_per_class"	
-						{
-							"pyro"		"models/player/items/pyro/pyro_hazmat.mdl"
-						}
+						"model_player"	"models/player/items/pyro/pyro_hazmat.mdl"
 						"name"	"#TF_PyroHazmat_Style3"
 					}
 				}
@@ -31447,18 +31402,12 @@
 				{
 					"0"
 					{
-						"model_player_per_class"	
-						{
-							"sniper"		"models/player/items/sniper/sniper_pocketkoala.mdl"
-						}						
+						"model_player"	"models/player/items/sniper/sniper_pocketkoala.mdl"
 						"name"	"#TF_SniperPocketKoala_Style0"
 					}
 					"1"
 					{
-						"model_player_per_class"	
-						{
-							"sniper"		"models/player/items/sniper/sniper_pocketkoala_s2.mdl"
-						}
+						"model_player"	"models/player/items/sniper/sniper_pocketkoala_s2.mdl"
 						"name"	"#TF_SniperPocketKoala_Style1"
 					}
 				}
@@ -31601,20 +31550,14 @@
 					{
 						"skin_red"	"0"
 						"skin_blu"	"1"	
-						"model_player_per_class"	
-						{
-							"soldier"		"models/player/items/soldier/soldier_warpig.mdl"
-						}						
+						"model_player"	"models/player/items/soldier/soldier_warpig.mdl"
 						"name"	"#TF_SoldierWarPig_Style0"
 					}
 					"1"
 					{
 						"skin_red"	"0"
 						"skin_blu"	"1"	
-						"model_player_per_class"	
-						{
-							"soldier"		"models/player/items/soldier/soldier_warpig_s2.mdl"
-						}
+						"model_player"	"models/player/items/soldier/soldier_warpig_s2.mdl"
 						"name"	"#TF_SoldierWarPig_Style1"
 					}
 				}
@@ -31880,20 +31823,14 @@
 				{
 					"0"
 					{
-						"model_player_per_class"
-						{
-							"soldier"	"models/player/items/mvm_loot/soldier/robot_helmet_bullet.mdl"
-						}
+						"model_player"	"models/player/items/mvm_loot/soldier/robot_helmet_bullet.mdl"
 						"skin_red"	"0"
 						"skin_blu"	"1"	
 						"name"	"#TF_Soldier_Robot_Helmet_Style0"
 					}
 					"1"
 					{
-						"model_player_per_class"
-						{
-							"soldier"	"models/player/items/mvm_loot/soldier/robot_helmet.mdl"
-						}
+						"model_player"	"models/player/items/mvm_loot/soldier/robot_helmet.mdl"
 						"skin_red"	"0"
 						"skin_blu"	"1"	
 						"name"	"#TF_Soldier_Robot_Helmet_Style1"
@@ -34155,18 +34092,12 @@
 				{
 					"0"
 					{
-						"model_player_per_class"	
-						{
-							"pyro"		"models/player/items/pyro/pyro_brainhead.mdl"
-						}
+						"model_player"	"models/player/items/pyro/pyro_brainhead.mdl"
 						"name"	"#TF_Plutonidome_Style0"
 					}
 					"1"
 					{
-						"model_player_per_class"	
-						{
-							"pyro"		"models/player/items/pyro/pyro_brainhead_s1.mdl"
-						}
+						"model_player"	"models/player/items/pyro/pyro_brainhead_s1.mdl"
 						"name"	"#TF_Plutonidome_Style1"
 					}
 				}
@@ -36029,18 +35960,12 @@
 				{
 					"0"
 					{
-						"model_player_per_class"	
-						{
-							"soldier"		"models/player/items/soldier/soldier_skihat.mdl"
-						}						
+						"model_player"	"models/player/items/soldier/soldier_skihat.mdl"
 						"name"	"#TF_SoldiersSlopeScopers_Style0"
 					}
 					"1"
 					{
-						"model_player_per_class"	
-						{
-							"soldier"		"models/player/items/soldier/soldier_skihat_s1.mdl"
-						}
+						"model_player"	"models/player/items/soldier/soldier_skihat_s1.mdl"
 						"name"	"#TF_SoldiersSlopeScopers_Style1"
 					}
 				}
@@ -36056,7 +35981,7 @@
 			"craft_class" ""
 			"capabilities"
 			{
-				"paintable"		"0"
+				"paintable"		"1"
 				"can_craft_count"	"1"
 			}
 			"item_name"	"#TF_TheColdKiller"
@@ -36324,7 +36249,7 @@
 			"craft_class"	""
 			"item_name"	"#TF_TheBarnstormer"
 			"item_description"	"#TF_TheBarnstormer_Desc"
-			"image_inventory"	"backpack/player/items/engineer/engineer_barnstormer_s02"
+			"image_inventory"	"backpack/player/items/engineer/engineer_barnstormer_s01"
 			"model_player"	"models/player/items/engineer/engineer_barnstormer_s01.mdl"
 			"propername"	"1"
 			"drop_type"	"none"
@@ -36337,25 +36262,22 @@
 			{
 				"engineer"	"1"
 			}
-			"styles"
+			"visuals"
+			{
+				"styles"
 				{
 					"0"
 					{
-						"model_player_per_class"	
-						{
-							"engineer"		"models/player/items/engineer/engineer_barnstormer_s01.mdl"
-						}						
+						"model_player"	"models/player/items/engineer/engineer_barnstormer_s01.mdl"
 						"name"	"#TF_TheBarnstormer_Style0"
 					}
 					"1"
 					{
-						"model_player_per_class"	
-						{
-							"engineer"		"models/player/items/engineer/engineer_barnstormer_s02.mdl"
-						}
+						"model_player"	"models/player/items/engineer/engineer_barnstormer_s02.mdl"
 						"name"	"#TF_TheBarnstormer_Style1"
 					}
 				}
+			}
 		}		
 		"989"
 		{
@@ -36883,6 +36805,7 @@
 			"item_name"			"#TF_Weapon_HolyMackerel_Festive2012"
 			"image_inventory"	"backpack/weapons/c_models/c_holymackerel_xmas"
 			"model_player"		"models/weapons/c_models/c_holymackerel_xmas.mdl"
+			"set_item_remap"	"The Holy Mackerel"
 			"visuals_red"
 			{
 				"skin" "0"
@@ -36953,6 +36876,7 @@
 			"item_name"			"#TF_Weapon_Huntsman_Festive2012"
 			"image_inventory"	"backpack/weapons/c_models/c_bow/c_bow_xmas"
 			"model_player"		"models/weapons/c_models/c_bow/c_bow_xmas.mdl"
+			"set_item_remap"	"The Huntsman"
 			"attributes"
 			{
 				"override projectile type"
@@ -36985,6 +36909,70 @@
 			"item_name"			"#TF_Weapon_GrenadeLauncher_Festive2012"
 			"image_inventory"	"backpack/weapons/c_models/c_grenadelauncher/c_grenadelauncher_xmas"
 			"model_player"	"models/weapons/c_models/c_grenadelauncher/c_grenadelauncher_xmas.mdl"
+		}
+		"1008"
+		{
+			"name"	"The Prize Plushy"
+			"first_sale_date"	"2013/01/08"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"paintable"		"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_PocketBuddy"
+			"item_name"	"#TF_PrizePlushy"
+			"item_description"	"#TF_PrizePlushy_Desc"
+			"image_inventory"	"backpack/player/items/engineer/cave_bear"
+			"model_player"	"models/player/items/engineer/cave_bear.mdl"
+			"equip_region"	"engineer_pocket"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+		}
+		"1009"
+		{
+			"name"	"The Grizzled Growth"
+			"first_sale_date"	"2013/01/08"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"paintable"		"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_FacialHair"
+			"item_name"	"#TF_GrizzledGrowth"
+			"item_description"	"#TF_GrizzledGrowth_Desc"
+			"image_inventory"	"backpack/player/items/engineer/cave_beard"
+			"model_player"	"models/player/items/engineer/cave_beard.mdl"
+			"equip_region"	"beard"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+		}
+		"1010"
+		{
+			"name"	"The Last Straw"
+			"first_sale_date"	"2013/01/08"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_LastStraw"
+			"item_description"	"#TF_LastStraw_Desc"
+			"image_inventory"	"backpack/player/items/engineer/cave_hat"
+			"model_player"	"models/player/items/engineer/cave_hat.mdl"
+			"drop_type"	"drop"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
 		}
 
 
