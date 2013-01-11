@@ -225,6 +225,7 @@
 		"3"		"courier"
 		"4"		"fan"
 		"5"		"ward"
+		"6"		"hud_skin"
 	}
 	"prefabs"
 	{
@@ -10531,7 +10532,9 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Sword"
 			"item_name"		"#DOTA_Item_Kantusa_the_Script_Sword"
+			"item_quality"		"genuine"
 			"item_rarity"		"uncommon"
+			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Kantusa_the_Script_Sword"
 			"image_inventory"		"econ/items/juggernaut/generic_wep_broadsword"
 			"tags"
@@ -20334,6 +20337,148 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"4299"
+		{
+			"name"		"Obsidian Blade Bracers"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bracers"
+			"item_name"		"#DOTA_Item_Obsidian_Blade_Bracers"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Bracers"
+			"image_inventory"		"econ/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/items/huskar/obsidian_claw_of_the_jaguar_arms/obsidian_claw_of_the_jaguar_arms.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"157.281021 268.322113 332.039764"
+				"PortraitLookAt"		"36.567993 221.704102 0.000000"
+				"PortraitFOV"		"13.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"113.121681 75.276840 161.589386"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"obisidian_blade"
+		}
+		"4300"
+		{
+			"name"		"Obsidian Blade Warhelm"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Helm"
+			"item_name"		"#DOTA_Item_Obsidian_Blade_Warhelm"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Warhelm"
+			"item_rarity"		"rare"
+			"image_inventory"		"econ/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"244.808548 134.792542 245.313019"
+				"PortraitLookAt"		"27.163696 205.081787 0.000000"
+				"PortraitFOV"		"21.000000"
+				"PortraitFar"		"991.000000"
+				"PortraitLightPosition"		"113.121681 75.276840 161.589386"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"obisidian_blade"
+		}
+		"4301"
+		{
+			"name"		"Obsidian Blade Pauldron"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Pauldron"
+			"item_name"		"#DOTA_Item_Obsidian_Blade_Pauldron"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Pauldron"
+			"image_inventory"		"econ/items/huskar/obsidian_claw_of_the_jaguar_shoulder/obsidian_claw_of_the_jaguar_shoulder"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/items/huskar/obsidian_claw_of_the_jaguar_shoulder/obsidian_claw_of_the_jaguar_shoulder.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"262.648193 59.344131 239.164490"
+				"PortraitLookAt"		"23.098755 196.210327 0.000000"
+				"PortraitFOV"		"23.000000"
+				"PortraitFar"		"991.000000"
+				"PortraitLightPosition"		"113.121681 75.276840 161.589386"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"obisidian_blade"
+		}
 		"4302"
 		{
 			"name"		"Spiked Bracers of the Ravager"
@@ -22461,7 +22606,9 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Axe"
 			"item_name"		"#DOTA_Item_Berserkers_Witchslayer"
+			"item_quality"		"genuine"
 			"item_rarity"		"mythical"
+			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Berserkers_Witchslayer"
 			"image_inventory"		"econ/items/axe/berserkers_weapon"
 			"used_by_heroes"
@@ -23194,7 +23341,9 @@
 			"item_type_name"		"#DOTA_WearableType_Sea_Beast"
 			"item_name"		"#DOTA_Item_Recluse_Reef_Denizen"
 			"item_slot"		"offhand_weapon"
+			"item_quality"		"genuine"
 			"item_rarity"		"mythical"
+			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Recluse_Reef_Denizen"
 			"image_inventory"		"econ/items/tidehunter/hammer_head"
 			"used_by_heroes"
@@ -23240,7 +23389,9 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Axe"
 			"item_name"		"#DOTA_Item_Wyvernguard_Edge"
+			"item_quality"		"genuine"
 			"item_rarity"		"mythical"
+			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Wyvernguard_Edge"
 			"image_inventory"		"econ/items/axe/axe_dragonaxe"
 			"used_by_heroes"
@@ -23299,6 +23450,7 @@
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Bow"
 			"item_name"		"#DOTA_Item_Bow_of_the_Howling_Wind"
+			"item_quality"		"genuine"
 			"item_rarity"		"mythical"
 			"item_description"		"#DOTA_Item_Desc_Howling_Wind_Bow"
 			"image_inventory"		"econ/items/drow/weapon_howling_wind"
@@ -34281,6 +34433,541 @@
 				"PortraitHideHero"		"1"
 			}
 		}
+		"4748"
+		{
+			"name"		"Obsidian Blade Spear"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Spear"
+			"item_name"		"#DOTA_Item_Obsidian_Blade_Spear"
+			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Spear"
+			"image_inventory"		"econ/items/huskar/obsidian_blade_spear/obsidian_blade_spear"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/items/huskar/obsidian_blade_spear/obsidian_blade_spear.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"-0.477541 247.999268 261.002563"
+				"PortraitLookAt"		"45.571289 254.608154 0.000000"
+				"PortraitFOV"		"61.000000"
+				"PortraitFar"		"991.000000"
+				"PortraitLightPosition"		"113.121681 75.276840 161.589386"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"obisidian_blade"
+		}
+		"4749"
+		{
+			"name"		"Obsidian Blade Dagger"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Dagger"
+			"item_name"		"#DOTA_Item_Obsidian_Blade_Dagger"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Dagger"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"model_player"		"models/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"32.222324 33.497776 193.384674"
+				"PortraitLookAt"		"40.929565 252.702026 0.000000"
+				"PortraitFOV"		"49.000000"
+				"PortraitFar"		"991.000000"
+				"PortraitLightPosition"		"113.121681 75.276840 161.589386"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"obisidian_blade"
+		}
+		"4750"
+		{
+			"name"		"Legs of the Brood Queen"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Legs"
+			"item_name"		"#DOTA_Item_Legs_of_the_Brood_Queen"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Legs_of_the_Brood_Queen"
+			"item_rarity"		"rare"
+			"image_inventory"		"econ/items/broodmother/broodqueen_legs_01/broodqueen_legs_01"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_broodmother"		"1"
+			}
+			"model_player"		"models/items/broodmother/broodqueen_legs_01/broodqueen_legs_01.mdl"
+			"item_set"		"brood_queen"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"292.998322 -57.448727 224.042587"
+				"PortraitLookAt"		"31.679077 169.486084 0.000000"
+				"PortraitFOV"		"61.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"35.688210 101.195503 255.772079"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"4751"
+		{
+			"name"		"Crown of the Brood Queen"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Crown"
+			"item_name"		"#DOTA_Item_Crown_of_the_Brood_Queen"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/broodmother/broodqueen_head_01/broodqueen_head_01"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_broodmother"		"1"
+			}
+			"model_player"		"models/items/broodmother/broodqueen_head_01/broodqueen_head_01.mdl"
+			"item_set"		"brood_queen"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"291.833038 -55.736160 227.110016"
+				"PortraitLookAt"		"32.772217 169.216919 0.000000"
+				"PortraitFOV"		"19.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"113.121681 75.276840 161.589386"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"4752"
+		{
+			"name"		"Bladed Abdomen of the Brood Queen"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Abdomen"
+			"item_name"		"#DOTA_Item_Bladed_Abdomen_of_the_Brood_Queen"
+			"item_slot"		"back"
+			"item_description"		"#DOTA_Item_Desc_Bladed_Abdomen_of_the_Brood_Queen"
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/items/broodmother/broodqueen_back_01/broodqueen_back_01"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_broodmother"		"1"
+			}
+			"model_player"		"models/items/broodmother/broodqueen_back_01/broodqueen_back_01.mdl"
+			"item_set"		"brood_queen"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"187.589447 221.676590 302.106018"
+				"PortraitLookAt"		"37.106323 221.731567 0.000000"
+				"PortraitFOV"		"19.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"113.121681 75.276840 161.589386"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"4753"
+		{
+			"name"		"Blessings of the Solar Divine"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hair"
+			"item_name"		"#DOTA_Item_Blessings_of_the_Solar_Divine"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Blessings_of_the_Solar_Divine"
+			"image_inventory"		"econ/items/lina/anuxi_solar_hair/anuxi_solar_hair"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lina"		"1"
+			}
+			"model_player"		"models/items/lina/anuxi_solar_hair/anuxi_solar_hair.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"229.072281 -112.692307 215.669327"
+				"PortraitLookAt"		"5.641479 154.473267 0.000000"
+				"PortraitFOV"		"13.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"76.599998 19.350000 205.639999"
+				"PortraitLightLookAt"		"37.009998 213.539993 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+			"item_set"		"solar_divine"
+		}
+		"4754"
+		{
+			"name"		"Sleeves of the Solar Divine"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sleeves"
+			"item_name"		"#DOTA_Item_Sleeves_of_the_Solar_Divine"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Sleeves_of_the_Solar_Divine"
+			"image_inventory"		"econ/items/lina/anuxi_solar_sleeves/anuxi_solar_sleeves"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lina"		"1"
+			}
+			"model_player"		"models/items/lina/anuxi_solar_sleeves/anuxi_solar_sleeves.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"-67.850769 92.372528 122.450249"
+				"PortraitLookAt"		"343.097534 318.004761 0.000000"
+				"PortraitFOV"		"36.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"-64.631676 17.739120 178.672211"
+				"PortraitLightLookAt"		"34.568481 302.590942 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"solar_divine"
+		}
+		"4755"
+		{
+			"name"		"Flares of the Solar Divine"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Skirt"
+			"item_name"		"#DOTA_Item_Flares_of_the_Solar_Divine"
+			"item_slot"		"belt"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Flares_of_the_Solar_Divine"
+			"image_inventory"		"econ/items/lina/anuxi_solar_belt/anuxi_solar_belt"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lina"		"1"
+			}
+			"model_player"		"models/items/lina/anuxi_solar_belt/anuxi_solar_belt.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"-305.529602 -141.317627 264.209351"
+				"PortraitLookAt"		"33.156738 27.020874 0.000000"
+				"PortraitFOV"		"37.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"-146.776764 56.462265 216.779480"
+				"PortraitLightLookAt"		"34.568481 302.590942 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"solar_divine"
+		}
+		"4756"
+		{
+			"name"		"Arc of the Solar Divine"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Necklace"
+			"item_name"		"#DOTA_Item_Arc_of_the_Solar_Divine"
+			"item_slot"		"neck"
+			"item_description"		"#DOTA_Item_Desc_Arc_of_the_Solar_Divine"
+			"image_inventory"		"econ/items/lina/anuxi_solar_necklace/anuxi_solar_necklace"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lina"		"1"
+			}
+			"model_player"		"models/items/lina/anuxi_solar_necklace/anuxi_solar_necklace.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"229.072281 -112.692307 215.669327"
+				"PortraitLookAt"		"8.860474 155.698242 0.000000"
+				"PortraitFOV"		"15.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"35.688210 101.195503 255.772079"
+				"PortraitLightLookAt"		"39.094849 214.623413 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.231765 0.231765 0.231765"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.500000 0.500000 0.500000"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+			"item_set"		"solar_divine"
+		}
+		"4757"
+		{
+			"name"		"Catalyst Cap"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hat"
+			"item_name"		"#DOTA_Item_Catalyst_Cap"
+			"item_slot"		"head"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Catalyst_Cap"
+			"image_inventory"		"econ/items/lina/catalyst_cap2/catalyst_cap2"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lina"		"1"
+			}
+			"model_player"		"models/items/lina/catalyst_cap2/catalyst_cap2.mdl"
+		}
+		"4758"
+		{
+			"name"		"Molten Genesis"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Bow"
+			"item_name"		"#DOTA_Item_Molten_Genesis"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Molten_Genesis"
+			"image_inventory"		"econ/items/clinkz/molten_genesis/molten_genesis"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_clinkz"		"1"
+			}
+			"model_player"		"models/items/clinkz/molten_genesis/molten_genesis.mdl"
+		}
+		"4759"
+		{
+			"name"		"Flesh Ripper"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Hook"
+			"item_name"		"#DOTA_Item_Flesh_Ripper"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Flesh_Ripper"
+			"image_inventory"		"econ/items/pudge/flesh_ripper/flesh_ripper"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"model_player"		"models/items/pudge/flesh_ripper/flesh_ripper.mdl"
+		}
+		"4760"
+		{
+			"name"		"Heavy Tenderizer"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Club"
+			"item_name"		"#DOTA_Item_Heavy_Tenderizer"
+			"item_slot"		"offhand_weapon"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Heavy_Tenderizer"
+			"image_inventory"		"econ/items/pudge/pudge_offhand_weapon_tender_lod01/pudge_offhand_weapon_tender_lod01"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"model_player"		"models/items/pudge/pudge_offhand_weapon_tender_lod01/pudge_offhand_weapon_tender_lod01.mdl"
+		}
+		"4761"
+		{
+			"name"		"Blade of Cleaving Swiftness"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Blade"
+			"item_name"		"#DOTA_Item_Blade_of_Cleaving_Swiftness"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Blade_of_Cleaving_Swiftness"
+			"image_inventory"		"econ/items/juggernaut/weapon_bladefury512/weapon_bladefury512"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_juggernaut"		"1"
+			}
+			"model_player"		"models/items/juggernaut/weapon_bladefury512/weapon_bladefury512.mdl"
+		}
+		"4762"
+		{
+			"name"		"Claive of Unyielding Stone"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Heavy_Blade"
+			"item_name"		"#DOTA_Item_Claive_of_Unyielding_Stone"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Claive_of_Unyielding_Stone"
+			"image_inventory"		"econ/items/sven/claive_stone/claive_stone"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"model_player"		"models/items/sven/claive_stone/claive_stone.mdl"
+		}
+		"4763"
+		{
+			"name"		"Grull the Grim Walker"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Mount"
+			"item_name"		"#DOTA_Item_Grull_the_Grim_Walker"
+			"item_slot"		"legs"
+			"item_rarity"		"mythical"
+			"item_description"		"#DOTA_Item_Desc_Grull_the_Grim_Walker"
+			"image_inventory"		"econ/items/disruptor/bub"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_disruptor"		"1"
+			}
+			"model_player"		"models/items/disruptor/bub.mdl"
+		}
 		"10000"
 		{
 			"name"		"Free Trial Premium Upgrade"
@@ -34840,7 +35527,9 @@
 			"prefab"		"dota_courier"
 			"item_type_name"		"#DOTA_WearableType_Fluffy_Devourer_of_Weeds"
 			"item_name"		"#DOTA_Item_Ramnaught_of_Underwool"
+			"item_quality"		"genuine"
 			"item_rarity"		"mythical"
+			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Ramnaught_of_Underwool"
 			"image_inventory"		"econ/courier/defense3_sheep/defense3_sheep"
 			"visuals"
@@ -35419,7 +36108,9 @@
 			"prefab"		"dota_courier"
 			"item_type_name"		"#DOTA_WearableType_Custom_Courier"
 			"item_name"		"#DOTA_Item_Dolfrat_and_Roshinante"
+			"item_quality"		"genuine"
 			"item_rarity"		"mythical"
+			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Dolfrat_and_Roshinante"
 			"image_inventory"		"econ/courier/sw_donkey/sw_donkey"
 			"attributes"
@@ -35560,7 +36251,9 @@
 			"prefab"		"dota_courier"
 			"item_type_name"		"#DOTA_WearableType_Custom_Courier"
 			"item_name"		"#DOTA_Item_Braze_the_Zonkey"
+			"item_quality"		"genuine"
 			"item_rarity"		"mythical"
+			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Braze_the_Zonkey"
 			"image_inventory"		"econ/props_gameplay/donkey1"
 			"attributes"
@@ -40164,6 +40857,39 @@
 				}
 			}
 		}
+		"10145"
+		{
+			"name"		"Treasure of Dark Implements"
+			"prefab"		"dota_treasure_chest"
+			"item_name"		"#DOTA_Item_Treasure_of_Dark_Implements"
+			"item_rarity"		"uncommon"
+			"expiration_date"		"2013-01-31 23:00:00"
+			"tool"
+			{
+				"type"		"supply_crate"
+				"restriction"		"community_pack_1"
+			}
+			"capabilities"
+			{
+				"decodable"		"1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Treasure_of_Dark_Implements"
+			"image_inventory"		"econ/tools/communitypack_1"
+			"attributes"
+			{
+				"set supply crate series"
+				{
+					"attribute_class"		"supply_crate_series"
+					"value"		"22"
+					"force_gc_to_generate"		"1"
+				}
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
 		"15000"
 		{
 			"name"		"Name Tag"
@@ -41353,7 +42079,7 @@
 		{
 			"name"		"Frostivus Treasure Key"
 			"prefab"		"dota_tool"
-			"item_name"		"#DOTA_Item_Treasure_Key_Frostivus"
+			"item_name"		"#DOTA_Item_Treasure_Key"
 			"item_rarity"		"mythical"
 			"tool"
 			{
@@ -41363,7 +42089,6 @@
 				{
 					"decodable"		"1"
 				}
-				"restriction"		"frostivus"
 			}
 			"item_description"		"#DOTA_Item_Desc_Frostivus_Treasure_Key"
 			"image_inventory"		"econ/tools/frostivus_key"
@@ -41457,6 +42182,54 @@
 					"value"		"1"
 				}
 			}
+		}
+		"15121"
+		{
+			"name"		"Dark Treasure Key"
+			"prefab"		"dota_tool"
+			"item_name"		"#DOTA_Item_Dark_Treasure_Key"
+			"item_rarity"		"mythical"
+			"tool"
+			{
+				"type"		"decoder_ring"
+				"use_string"		"#UnlockUse"
+				"usage_capabilities"
+				{
+					"decodable"		"1"
+				}
+				"restriction"		"community_pack_1"
+			}
+			"item_description"		"#DOTA_Item_Desc_Dark_Treasure_Key"
+			"image_inventory"		"econ/tools/communitypack1_key"
+			"attributes"
+			{
+				"disallow recycling"
+				{
+					"attribute_class"		"disallow_recycling"
+					"value"		"1"
+				}
+			}
+		}
+		"15014"
+		{
+			"name"		"Killing Spree: North America"
+			"prefab"		"dota_league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"25"
+					"order"		"1"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
+			"item_name"		"#DOTA_Item_Killing_Spree_North_America"
+			"item_description"		"#DOTA_Item_Desc_Killing_Spree_North_America"
+			"image_inventory"		"econ/leagues/subscriptions_killing_spree"
+			"image_banner"		"econ\leagues\subscriptions_killing_spree_ingame"
+			"tournament_url"		"http://neodota.com/?page_id=1389"
 		}
 		"15015"
 		{
@@ -42050,6 +42823,28 @@
 			"image_inventory"		"econ/leagues/subscriptions_starladder3"
 			"image_banner"		"econ/leagues/subscriptions_starladder3_ingame"
 			"tournament_url"		"http://dota2.starladder.tv"
+		}
+		"15079"
+		{
+			"name"		"Killing Spree: North America ADMIN"
+			"prefab"		"dota_league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"25"
+					"order"		"1"
+					"admin"		"1"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_League_Pass"
+			"item_name"		"#DOTA_Item_Killing_Spree_North_America_ADMIN"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Killing_Spree_North_America"
+			"image_inventory"		"econ/leagues/subscriptions_killing_spree"
+			"image_banner"		"econ\leagues\subscriptions_killing_spree_ingame"
+			"tournament_url"		"http://neodota.com/?page_id=1389"
 		}
 		"15081"
 		{
@@ -49366,6 +50161,157 @@
 				"Sharpeye's Momentos"		"1"
 			}
 		}
+		"20104"
+		{
+			"name"		"Light of the Solar Divine Set"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Item_Light_of_the_Solar_Divine_Set"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Light_of_the_Solar_Divine_Set"
+			"image_inventory"		"econ/sets/DOTA_Item_Light_of_the_Solar_Divine_Set"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lina"		"1"
+			}
+			"bundle"
+			{
+				"Blessings of the Solar Divine"		"1"
+				"Sleeves of the Solar Divine"		"1"
+				"Flares of the Solar Divine"		"1"
+				"Arc of the Solar Divine"		"1"
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"209.374481 -167.750305 293.978851"
+				"PortraitLookAt"		"31.931763 143.239746 0.000000"
+				"PortraitFOV"		"46.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"76.599998 19.350000 205.639999"
+				"PortraitLightLookAt"		"37.009998 213.539993 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"102.000000"
+				"PortraitLightColor"		"0.220000 0.220000 0.220000"
+				"PortraitShadowColor"		"0.120000 0.020000 0.050000"
+				"PortraitShadowScale"		"0.225000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"50.840000 60.009998 32.950001"
+				"PortraitAmbientColor"		"0.356863 0.356863 0.356863"
+				"PortraitAmbientScale"		"0.365000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+				"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+				"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"portrait_lina"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"20105"
+		{
+			"name"		"The Brood Queen Set"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Item_The_Brood_Queen_Set"
+			"item_description"		"#DOTA_Item_Desc_The_Brood_Queen_Set"
+			"image_inventory"		"econ/sets/DOTA_Item_The_Brood_Queen_Set"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_broodmother"		"1"
+			}
+			"bundle"
+			{
+				"Bladed Abdomen of the Brood Queen"		"1"
+				"Crown of the Brood Queen"		"1"
+				"Legs of the Brood Queen"		"1"
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"282.728058 147.496933 277.561981"
+				"PortraitLookAt"		"38.144531 205.900269 0.000000"
+				"PortraitFOV"		"53.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"216.928787 207.482986 288.877747"
+				"PortraitLightLookAt"		"55.404053 240.314941 331.847534"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"170.000000"
+				"PortraitLightColor"		"0.390000 0.300000 0.190000"
+				"PortraitShadowColor"		"0.000000 0.000000 0.000000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-53.360001 10.600000 29.570000"
+				"PortraitAmbientColor"		"0.130000 0.130000 0.130000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.000000 0.000000 0.000000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor2"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor3"		"0.200000 0.000000 0.100000"
+				"PortraitBackgroundColor4"		"0.200000 0.000000 0.100000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"broodmother_portrait"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
+		"20106"
+		{
+			"name"		"The Obsidian Blade Set"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Item_The_Obsidian_Blade_Set"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_The_Obsidian_Blade_Set"
+			"image_inventory"		"econ/sets/DOTA_Item_The_Obsidian_Blade_Set"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_huskar"		"1"
+			}
+			"bundle"
+			{
+				"Obsidian Blade Bracers"		"1"
+				"Obsidian Blade Dagger"		"1"
+				"Obsidian Blade Pauldron"		"1"
+				"Obsidian Blade Spear"		"1"
+				"Obsidian Blade Warhelm"		"1"
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"267.071808 -78.930687 215.613266"
+				"PortraitLookAt"		"24.422607 158.378906 0.000000"
+				"PortraitFOV"		"49.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"57.317295 -74.115150 250.994446"
+				"PortraitLightLookAt"		"77.327271 145.420532 0.000000"
+				"PortraitLightFOV"		"90.000000"
+				"PortraitLightDistance"		"192.000000"
+				"PortraitLightColor"		"0.295098 0.256909 0.222191"
+				"PortraitShadowColor"		"0.030000 0.030000 0.050000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-1.940000 10.690000 -3.300000"
+				"PortraitAmbientColor"		"0.190000 0.170000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.000000 0.000000 0.000000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor2"		"0.000000 0.000000 0.000000"
+				"PortraitBackgroundColor3"		"1.000000 0.500000 0.100000"
+				"PortraitBackgroundColor4"		"1.000000 0.500000 0.100000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.244000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 	}
 	"attributes"
 	{
@@ -51606,6 +52552,17 @@
 				"Qaldin Assassin's Glaive"		"1"
 			}
 		}
+		"brood_queen"
+		{
+			"name"		"#DOTA_Set_The_Brood_Queen"
+			"store_bundle"		"The Brood Queen Set"
+			"items"
+			{
+				"Legs of the Brood Queen"		"1"
+				"Crown of the Brood Queen"		"1"
+				"Bladed Abdomen of the Brood Queen"		"1"
+			}
+		}
 		"clinkz_vandal"
 		{
 			"name"		"#DOTA_Set_Clinkz_Vandal"
@@ -52012,6 +52969,19 @@
 				"Radiant Crystal Pauldrons"		"1"
 			}
 		}
+		"obisidian_blade"
+		{
+			"name"		"#DOTA_Set_The_Obsidian_Blade"
+			"store_bundle"		"The Obsidian Blade Set"
+			"items"
+			{
+				"Obsidian Blade Bracers"		"1"
+				"Obsidian Blade Warhelm"		"1"
+				"Obsidian Blade Pauldron"		"1"
+				"Obsidian Blade Spear"		"1"
+				"Obsidian Blade Dagger"		"1"
+			}
+		}
 		"omniknight_crusader"
 		{
 			"name"		"#DOTA_Set_Omniknight_Crusader"
@@ -52146,6 +53116,18 @@
 				"Blade of the Slithereen Exile - Off-Hand"		"1"
 				"Helm of the Slithereen Exile"		"1"
 				"Armor of the Slithereen Exile"		"1"
+			}
+		}
+		"solar_divine"
+		{
+			"name"		"#DOTA_Set_Light_of_the_Solar_Divine"
+			"store_bundle"		"Light of the Solar Divine Set"
+			"items"
+			{
+				"Blessings of the Solar Divine"		"1"
+				"Sleeves of the Solar Divine"		"1"
+				"Flares of the Solar Divine"		"1"
+				"Arc of the Solar Divine"		"1"
 			}
 		}
 		"stormcrow_spirit"
@@ -52666,6 +53648,16 @@
 			"Sylvan Guard's Dress Armor"		"1"
 			"Cold Case Bow"		"1"
 		}
+		"community_items_1"
+		{
+			"Catalyst Cap"		"1"
+			"Molten Genesis"		"1"
+			"Flesh Ripper"		"1"
+			"Blade of Cleaving Swiftness"		"1"
+			"Claive of Unyielding Stone"		"1"
+			"Heavy Tenderizer"		"1"
+			"Grull the Grim Walker"		"1"
+		}
 		"summer_sale_2012"
 		{
 			"Ice Crystal Bow"		"1"
@@ -52927,6 +53919,10 @@
 				"loot_list"		"essence_drops_chest"
 			}
 		}
+		"treasure_chest_loot_list_22"
+		{
+			"community_items_1"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -52951,6 +53947,7 @@
 		"treasure_chest_loot_list_19"		"19"
 		"treasure_chest_loot_list_20"		"20"
 		"frostivus_2012_chest"		"21"
+		"treasure_chest_loot_list_22"		"22"
 	}
 	"item_levels"
 	{
