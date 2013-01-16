@@ -36813,10 +36813,14 @@
 			"visuals_red"
 			{
 				"skin" "0"
+				"sound_melee_hit"	"Weapon_HolyMackerel.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_HolyMackerel.HitWorld"
 			}
 			"visuals_blu"
 			{
 				"skin" "1"
+				"sound_melee_hit"	"Weapon_HolyMackerel.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_HolyMackerel.HitWorld"
 			}
 		}
 		"1000"
@@ -36934,6 +36938,14 @@
 			"used_by_classes"
 			{
 				"engineer"	"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
 			}
 		}
 		"1009"
@@ -64227,10 +64239,12 @@
 		"50"
 		{
 			"type_name"	"KillEaterEventType_FoodEaten"
+			"allow_bot_victims"	"1"
 		}
 		"51"
 		{
 			"type_name"	"KillEaterEventType_BannersDeployed"
+			"allow_bot_victims"	"1"
 		}
 
 
