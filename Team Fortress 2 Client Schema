@@ -26958,11 +26958,7 @@
 			"item_name"	"#TF_Scout_Elf_Boots"
 			"item_description"	"#TF_Scout_Elf_Boots_Desc"
 			"item_slot"	"misc"
-			"equip_regions"
-			{
-				"arms"			"1"
-				"feet"			"1"
-			}
+			"equip_region"	"feet"
 			"item_quality"	"unique"
 			"propername" "1"
 			"image_inventory"	"backpack/player/items/scout/xms_scout_elf_sneakers"
@@ -32591,6 +32587,7 @@
 			"prefab"	"cosmetic"
 			"capabilities"
 			{
+				"paintable"		"1"
 				"can_craft_count"	"1"
 			}
 			"item_slot"	"misc"
