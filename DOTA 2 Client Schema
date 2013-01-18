@@ -341,6 +341,17 @@
 			"image_inventory_size_h"		"82"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 			"mouse_pressed_sound"		"ui/item_metal_weapon_pickup.wav"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"usable_gc"		"1"
+				"usable_out_of_game"		"1"
+			}
+			"tool"
+			{
+				"type"		"item_pack"
+				"use_string"		"#OpenBundle"
+			}
 		}
 		"dota_courier"
 		{
@@ -3017,33 +3028,18 @@
 		}
 		"181"
 		{
-			"name"		"Chaos Knights horse head"
+			"name"		"Chaos Knights horse"
 			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Chaos_Knights_horse_head"
-			"item_slot"		"body_head"
+			"item_type_name"		"#DOTA_WearableType_mount"
+			"item_name"		"#DOTA_Item_Chaos_Knights_horse"
+			"item_slot"		"mount"
 			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
 			"image_inventory"		"econ/testitem_slot_empty"
 			"used_by_heroes"
 			{
 				"npc_dota_hero_chaos_knight"		"1"
 			}
-			"model_player"		"models/heroes/chaos_knight/chaos_knight_horse_head.mdl"
-		}
-		"182"
-		{
-			"name"		"Chaos Knight horse amor"
-			"prefab"		"dota_default_item"
-			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
-			"item_name"		"#DOTA_Item_Chaos_Knight_horse_amor"
-			"item_slot"		"armor"
-			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
-			"image_inventory"		"econ/testitem_slot_empty"
-			"used_by_heroes"
-			{
-				"npc_dota_hero_chaos_knight"		"1"
-			}
-			"model_player"		"models/heroes/chaos_knight/chaos_knight_horse_amour.mdl"
+			"model_player"		"models/heroes/chaos_knight/chaos_knight_mount.mdl"
 		}
 		"183"
 		{
@@ -10533,7 +10529,7 @@
 			"item_type_name"		"#DOTA_WearableType_Sword"
 			"item_name"		"#DOTA_Item_Kantusa_the_Script_Sword"
 			"item_quality"		"genuine"
-			"item_rarity"		"uncommon"
+			"item_rarity"		"mythical"
 			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Kantusa_the_Script_Sword"
 			"image_inventory"		"econ/items/juggernaut/generic_wep_broadsword"
@@ -17038,6 +17034,7 @@
 			}
 			"item_type_name"		"#DOTA_WearableType_Hair"
 			"item_name"		"#DOTA_Item_Frost_Spikes_FIXUP_BUNDLE"
+			"item_slot"		"head"
 			"item_description"		"#DOTA_Item_Desc_Frost_Spikes_FIXUP_BUNDLE"
 			"image_inventory"		"econ/items/drow/drow_spikehair"
 			"tool"
@@ -20391,8 +20388,8 @@
 			"item_type_name"		"#DOTA_WearableType_Helm"
 			"item_name"		"#DOTA_Item_Obsidian_Blade_Warhelm"
 			"item_slot"		"head"
-			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Warhelm"
 			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Warhelm"
 			"image_inventory"		"econ/items/huskar/obsidian_claw_of_the_jaguar_helmet/obsidian_claw_of_the_jaguar_helmet"
 			"used_by_heroes"
 			{
@@ -23452,6 +23449,7 @@
 			"item_name"		"#DOTA_Item_Bow_of_the_Howling_Wind"
 			"item_quality"		"genuine"
 			"item_rarity"		"mythical"
+			"forced_item_quality"		"genuine"
 			"item_description"		"#DOTA_Item_Desc_Howling_Wind_Bow"
 			"image_inventory"		"econ/items/drow/weapon_howling_wind"
 			"used_by_heroes"
@@ -34486,8 +34484,8 @@
 			"item_type_name"		"#DOTA_WearableType_Dagger"
 			"item_name"		"#DOTA_Item_Obsidian_Blade_Dagger"
 			"item_slot"		"offhand_weapon"
-			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Dagger"
 			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Obsidian_Blade_Dagger"
 			"image_inventory"		"econ/items/huskar/obsidian_claw_of_the_jaguar_dagger/obsidian_claw_of_the_jaguar_dagger"
 			"used_by_heroes"
 			{
@@ -34534,8 +34532,8 @@
 			"item_type_name"		"#DOTA_WearableType_Legs"
 			"item_name"		"#DOTA_Item_Legs_of_the_Brood_Queen"
 			"item_slot"		"legs"
-			"item_description"		"#DOTA_Item_Desc_Legs_of_the_Brood_Queen"
 			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Legs_of_the_Brood_Queen"
 			"image_inventory"		"econ/items/broodmother/broodqueen_legs_01/broodqueen_legs_01"
 			"used_by_heroes"
 			{
@@ -34582,7 +34580,7 @@
 			"item_type_name"		"#DOTA_WearableType_Crown"
 			"item_name"		"#DOTA_Item_Crown_of_the_Brood_Queen"
 			"item_slot"		"head"
-			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"item_description"		"#DOTA_Item_Desc_Crown_of_the_Brood_Queen"
 			"image_inventory"		"econ/items/broodmother/broodqueen_head_01/broodqueen_head_01"
 			"used_by_heroes"
 			{
@@ -34629,8 +34627,8 @@
 			"item_type_name"		"#DOTA_WearableType_Abdomen"
 			"item_name"		"#DOTA_Item_Bladed_Abdomen_of_the_Brood_Queen"
 			"item_slot"		"back"
-			"item_description"		"#DOTA_Item_Desc_Bladed_Abdomen_of_the_Brood_Queen"
 			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Bladed_Abdomen_of_the_Brood_Queen"
 			"image_inventory"		"econ/items/broodmother/broodqueen_back_01/broodqueen_back_01"
 			"used_by_heroes"
 			{

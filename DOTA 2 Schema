@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.6d098ace19faf66c53e319add9a00224b3004ab1.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.e3a2f3d5d29e6301f5b1f59c4be9894a212ee109.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -3885,32 +3885,11 @@
 				}
 			},
 			{
-				"name": "Chaos Knights horse head",
+				"name": "Chaos Knights horse",
 				"defindex": 181,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Chaos Knights horse head",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 0,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
-				"name": "Chaos Knight horse amor",
-				"defindex": 182,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Chaos Knight horse amor",
+				"item_type_name": "Mount",
+				"item_name": "Chaos Knights horse",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
@@ -26745,7 +26724,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Legs",
 				"item_name": "Legs of the Brood Queen",
-				"item_description": "",
+				"item_description": "Eight legs of armor, each hammered from the breastplate of a fallen knight.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/broodmother\/broodqueen_legs_01\/broodqueen_legs_01",
@@ -26768,7 +26747,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Crown",
 				"item_name": "Crown of the Brood Queen",
-				"item_description": "This new item has no description.",
+				"item_description": "With shaking hands, the doomed blacksmith laid a crown upon the spider's head, saying, \"A crown fit for a queen.\"",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/broodmother\/broodqueen_head_01\/broodqueen_head_01",
@@ -26791,7 +26770,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Abdomen",
 				"item_name": "Bladed Abdomen of the Brood Queen",
-				"item_description": "",
+				"item_description": "Strong though her natural chitinous armor may be, there is something about the caress of steel against her carapice that privides a special sense of security for the Brood Queen.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/broodmother\/broodqueen_back_01\/broodqueen_back_01",
@@ -31661,7 +31640,7 @@
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_killing_spree.2fc444c0dd5dfd40d1ac69cb0e90864f15a93fcc.png",
-				"image_url_large": "",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_killing_spree_large.8937272f3e915971f8fd88f9b59240cc877acf9b.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,
@@ -34004,7 +33983,7 @@
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_killing_spree.2fc444c0dd5dfd40d1ac69cb0e90864f15a93fcc.png",
-				"image_url_large": "",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_killing_spree_large.8937272f3e915971f8fd88f9b59240cc877acf9b.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,
@@ -34294,7 +34273,7 @@
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/strange_types_facelessvoid_ft_chronosphere.e9cb80a0a8cc15c8ee63e82732a1c28e5a5c7d86.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/strange_types_facelessvoid_ft_chronosphere_large.3b1bd82a2bb286257a955b2940e00967e3e11e86.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/strange_types_facelessvoid_ft_chronosphere_large.93162349fc8af8fd1a4c597f61feda1f250bfc9e.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -35564,10 +35543,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_ivory_ebony.bbf1b3454907ab4329a53e8881c6fff712844a7f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_ivory_ebony_large.11daeb658cfd5a3d8f5a683d4e29c0dd54453657.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35585,10 +35571,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_witch_doctor_wicked_bad_voodoo.78af15a2dd0976783184714f4cd2b9cbe189e426.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_witch_doctor_wicked_bad_voodoo_large.9a836df9f04198c56b7e597967fa6b03085edcb0.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35606,10 +35599,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_demon_blood.b9a422d9812856e6a0333c15e8190d7851600723.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_demon_blood_large.89d2425aa8383e6cf12f283061a611019ce49dec.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35627,10 +35627,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_defiant.9bba02f59868319fd46bccee81ea21b083333a16.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_defiant_large.ee270a8bd3d47c7e50a8721a46d1fd5d826de85d.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35648,10 +35655,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_forest_lord.1f51297848cb6e4bceaf070ea69b642d32540cf1.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_forest_lord_large.40b2b11bb775149b1cc0145576f8bc918859b03d.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35669,10 +35683,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_boar_god.89ef7142584fcad6d2c7ccd918125208e3f65840.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_boar_god_large.dda4918e43d11de9c556bd4c337e4c2cbd5d2dc1.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35690,10 +35711,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_beasts_man.18f57bc994e907301006dce436f3bf401cd95fc9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_beasts_man_large.5d58c371fbcb74ab8be3dc0cfba8a56c5d15df26.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35711,10 +35739,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_high_plains.0e297a425cda562615ccaa9501d8f80b2084a3c8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_high_plains_large.d51e3e0061ae9c27b3f64e78a5c79a8f69c26c30.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35732,10 +35767,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_scion_savage.449c66451a836ff2df2b66670f9ae143303bd020.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_scion_savage_large.330e0edcb3eb6e22dcf2969d911fca13f7a3e0aa.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35753,10 +35795,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_heartwood_vanguard.d4b4703bfa5bf4e8c30e60194dc226c4c5299dec.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_heartwood_vanguard_large.820f8810ed2e39f6ad74c116d5ca629a388b1234.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35774,10 +35823,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_peace_bringer.ad1277bab52cb80834e8d2b402ce9d57d6856802.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_peace_bringer_large.2ee21adc91b01a9c66b509f27f1b544a409f7ef2.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35795,10 +35851,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_beast_bole.678664c8ddded2225b9216593dafb37b9f02cf70.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_natures_prophet_beast_bole_large.1a8905c9506cc3f62859083ceeca13262aa3d354.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35816,10 +35879,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_berserker.bb910198ed117a6654b27f93bf20bfe4bcb5c998.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_berserker_large.5748fc69b7028f591d4326fb1206236425d4f50d.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35837,10 +35907,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_forgemaster.1bc75574783bf1d5a2e6a90a5ff2bdc43d21e945.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_forgemaster_large.76b382d2243f2b55804c6ff9e8edd23e6a94662f.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35858,10 +35935,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_axecutioner.4b0ec95bfa3878d661ebdf651e6c5fb04a032373.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_axecutioner_large.9e738d585ab149b5890871748e5d5bd0473553b5.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35879,10 +35963,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_sven_swordmaster.78aae1708a1e79ff349421b1b997824c457e0ad2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_sven_swordmaster_large.8bfecfddb2cfab1f79cbb4bebb907dd7f0d7856f.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35900,10 +35991,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_sven_freelancer.240ca59f8f1ac923ad6f2deb463c6effbec480f7.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_sven_freelancer_large.53826037d67dd3a0a9734e08627c09571c117d0f.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35921,10 +36019,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_sven_mono_militis.4e6243a23d110b52a55c1c9ed5989450d4d8b8ed.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_sven_mono_militis_large.d613f5846a389b851ffffa351698f40ebf33f700.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35942,10 +36047,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_sven_flameguard.c5bafe446686c4126ee0fec5486506bf0f5e9d4f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_sven_flameguard_large.6521766719c37cf7014438a1d0716ef1f8bd55b5.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35963,10 +36075,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_faceless_void_chronite.180518499dc18631a33ed9424ea5b03c3124526b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_faceless_void_chronite_large.f9fc1024b4fd82e6a6a6e56e1a9dba68c9f8ffdc.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -35984,10 +36103,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_direstone_bindings_set.3285fb826341469bd1c53f733a539acac24683a7.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_direstone_bindings_set_large.6c8897088df5b96eef804ab4ee42baaa572a7c37.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36005,10 +36131,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_blood_seeker_hlotl.107ba72e96ea8ab080bb44c19a6780371558357b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_blood_seeker_hlotl_large.a15fa9fc26260eb832fd9aa04cba9c271136fde7.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36026,10 +36159,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_tidehunter_pirate_slayer.e7521ab930d907bd22b29ef15dbfae4b2910c1b3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_tidehunter_pirate_slayer_large.98ed2961295728e326b549fa95e0286dc755bfa5.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36047,10 +36187,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_tidehunter_punisher.cbe841afd2020b68a5ae9d994c4ad760a1b6150d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_tidehunter_punisher_large.7cfdd459c76cea8f78607b74cdfd2b4f67e6d2b0.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36068,10 +36215,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_kunkka_admirable_admiral.b5dfecaf6cb44e27b64ac89b9e01d93a104c1dcb.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_kunkka_admirable_admiral_large.1e88db68f74845f9860869962aa796d0577dbe7a.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36089,10 +36243,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_dragon_knight_uldorak.677d24dc4836773ce4d502204e9f233d3f9a7e49.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_dragon_knight_uldorak_large.7c3836c745a906ff52ef378ede4f9a1512a14e43.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36110,10 +36271,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_omniknight_crusader.8bdf69ce1aeebb6d3a5bb9cef0fa4d74a1008625.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_omniknight_crusader_large.a0ca873eaac386b8167adb167d830e1eb07c62b9.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36131,10 +36299,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_invoker_exort.7f199e6e29c645ae907b5f00e2df8a934757d363.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_invoker_exort_large.979df48660832809dcb1370b13cf22a37ce56343.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36152,10 +36327,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_dota2_access.6217e2c7202300422dea01009b5fe3887f50c922.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_dota2_access_large.d5189d199a3b60847d308ca30108b7ba38e7ed22.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				},
 				"attributes": [
 					{
@@ -36181,10 +36363,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_drow_ranger_spikes_frost.afd9cdedad88d22a025c21d75df9e06ed218e4c9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_drow_ranger_spikes_frost_large.cc8551347fd65c30dddd54cb287a863be74d5bc7.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36202,10 +36391,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_bounty_hunter_pangolin.5f18f15d7edee4f022d4fd64238c9d86c5e9cfde.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_bounty_hunter_pangolin_large.98ea5a59a9b5b9f5b303755c52dd96921e32f0a8.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36223,10 +36419,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/courier_bundle01.da7c7561ce0978d2670afb6799cf9ab11f98ed9d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/courier_bundle01_large.387d35a8fe740a74b2f634bc82f4da07832b9c2a.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36244,10 +36447,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/speech_bundle01.8c361aea2f1f54ecbfa452f06c293dda8c2494d2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/speech_bundle01_large.79ad9050e54f3f412c081d6f19f15d9288cdf49a.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36265,10 +36475,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_dauntless.e446933266cf9ef8268ef3966f353427c1725eaf.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_juggernaut_dauntless_large.f71bceb2cbc12cb6ef3cb28c7349420e0caa3733.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36286,10 +36503,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_blood_mist.3eebd66b2b7d7e74a2cee65dded0dc992929d0ec.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_axe_blood_mist_large.3116638d4445bb8dd73841af6c225af5da0ecf98.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36307,10 +36531,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_dragon_knight_davion.d207b013999389d8806100795d47dc3237917f04.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_dragon_knight_davion_large.5c47d7e665172d88211f872a4d132999e7536f4f.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36328,10 +36559,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_omniknight_purist_champion.00288799926d1a9b870cbb0048924e787b6e76f5.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_omniknight_purist_champion_large.786f8f103a09122550047d965964214c14dffbf4.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36349,10 +36587,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_witch_doctor_tale_teller.8c0126d9a09cd5ede2cb8eee00853eb4d5534f30.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_witch_doctor_tale_teller_large.5f12a23adeeeed11fc51d30be1f233a863580042.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36370,10 +36615,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_bounty_hunter_hardened.905fd4df8225f91857b0791bc992ecab67545e02.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_bounty_hunter_hardened_large.141041c40f6b407c3b2c76a05d1196848c795b97.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36391,10 +36643,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_morphling_radiant_crystal.03e115b1a19f4aca1fac92f2124ad384b22c1c03.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_morphling_radiant_crystal_large.b5a95458d8153755a40972c5e935e53b81b95994.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36412,10 +36671,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_invoker_magnus.73d50edf7f6e2d44e7f41692f8f4eac3f02703c1.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_invoker_magnus_large.cb304ac07e1b00ac96b307dae89a4b8b7ca88ac2.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36433,10 +36699,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/summer_bundle.4bcfd1ac7f6caba39bf181e7ba3de6b67f167f3b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/summer_bundle_large.c51ba16e71a12f492ce6d53cc5e2d908ed1f06e0.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36454,10 +36727,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_ursa_iron_bear.060aa5ac3d4a3429963525038683c95c95119e3e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_ursa_iron_bear_large.e67ef3d41d22860d3907a30391a64391a2996308.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36475,10 +36755,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_ursa_ravager.76c128af2a351107cf68a0cacee26a577eaef320.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_ursa_ravager_large.61113364142cbabb79d8ee889ce4a7e0c448ad0d.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36496,10 +36783,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_ursa_savage_age.2330c4ac3f98b23036355942342569c1eed5c50d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_ursa_savage_age_large.e2e90106ae57d57152648f99e80d3d3cda06d75a.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36517,10 +36811,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_bounty_hunter_master_assassin.97d77cda99186d5c7a2ff1944ef0d16de935dda1.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_bounty_hunter_master_assassin_large.0af79c121fe77218ef116f3c4c190b4e287f5b99.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36538,10 +36839,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_hierophants_protection_set.4e7da8cba91819e934deb97b73461ebf51149efe.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_hierophants_protection_set_large.2b23614a6c90d8c82f29d934e7a70da64a437d05.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36559,10 +36867,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_bloodseeker_bonehunter.b680c30da71beb6b80562592bdf12d60f61a5e06.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_bloodseeker_bonehunter_large.c2b7c8ac4124cac6f1045e8f0743280a6d7e9f6b.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36580,10 +36895,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_ursa_alpine_stalker.f4cc39a29ae1ea5d82db9c505f4c325d57e3121c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_ursa_alpine_stalker_large.c8e841de43da57daac8b7cceb9619ddbca4d3a0c.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36601,10 +36923,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/bountyhunter_bundle.ea47821784b8c50abcd3e299a96d3837072a2017.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/bountyhunter_bundle_large.5b9ac52198c672ef069c80b7426b1d20fc66382a.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36622,10 +36951,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/ursa_bundle.0b4bc3c3610c049c6cf63f73d9cf8c0a8786a661.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/ursa_bundle_large.a291c4be72d8aaa5902e313ed5f7d7ce656345ab.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36643,10 +36979,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_armor_of_the_oryx_set.c988bf9315b74746f6b9fac117b8252f39f8cf87.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_armor_of_the_oryx_set_large.053877427c3a41d878a68fe9597d6240895efd01.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36664,10 +37007,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_heavy_steel_armor_set.4585b0201a325f660f195afe219e914030297b4f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_heavy_steel_armor_set_large.87e092d9fad2bfff08550880c2de09de10afa14f.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36685,10 +37035,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_demonic_vandals_set.41e2057323cd2dc2ccbd9a8d85577743e9bdf815.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_demonic_vandals_set_large.eb5a7a7449e3c78fbb2e35f68b09fadbd51b592e.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36706,10 +37063,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_faceless_void_clas.b022f9a722b4715d29ea108fd81a59d051e7df2d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_faceless_void_clas_large.55cca4cd2add50b0a1c082c119c2a24df9ce6a50.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36727,10 +37091,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_talk_like_a_pirate_day.a6ea856e00a553610695a21532afb71cc0771a9a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_bundle_talk_like_a_pirate_day_large.a6ea856e00a553610695a21532afb71cc0771a9a.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36748,10 +37119,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_shards_of_shifting_forms_set.ed6fe3285a4666602cbafd31eef477a81946f463.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_shards_of_shifting_forms_set_large.234feaf00940f3d595677f64a0045246439f9277.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36769,10 +37147,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_bindings_of_frost_set.e2042ea716cbfdd9be2fa08e3ea91f1bfcb40593.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_bindings_of_frost_set_large.1b86cf417f360c0dc046903f7ba37e2b1ba4cee8.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36790,10 +37175,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_birots_bindings_set.695ea4302f0efd316622b6d26913bab35396185b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_birots_bindings_set_large.c222a16182fd2a1914b2edd33f342926cf607c7f.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36811,10 +37203,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_shards_of_the_falling_comet_set.0cfb1358763830c884136075fa709fcd11fba72b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_shards_of_the_falling_comet_set_large.2befc54c498d98001c4e9d58b526e356dd12f597.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36832,10 +37231,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_crimson_cutthroat_set.4c3b454c0b43f668998db9d121469e8493c655e8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_crimson_cutthroat_set_large.6c034d7c07c5d9de1566ba1837c8451f7cca1759.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36853,10 +37259,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_bones_of_the_slain_dragon_set.5d4fe126618da646c461306b709dfb0471a385a4.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_bones_of_the_slain_dragon_set_large.50744ffeb35e6022e4f7616358e79cfbef571557.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36874,10 +37287,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_fireblessed_mail_of_the_drake.841d2df9d8e395482cd273df212897ed31373f6b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_fireblessed_mail_of_the_drake_large.7d91875c1947f262b777a3dcbe8812892924a1be.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36895,10 +37315,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_enchanted_plate_of_the_crimson_wyvern_set.f2ad554b4e6577d90ad44d2a832a0eaf66d1e41b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_enchanted_plate_of_the_crimson_wyvern_set_large.6e1bab225f306fd1b68ad9e9149c80971970ab49.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36916,10 +37343,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_sunlit_arms.4731c1c21976eb955e9ae835b907d2b4040fb71d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_sunlit_arms_large.8d49a6c250a07ed28d5d1e7e5590164a8b94985c.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36937,10 +37371,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_kinship_arms.e66fd2077752555c11772c07c3719caf023332c8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_kinship_arms_large.462e1a48c3dbd1bb672143966d1ab4c957bb3590.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36958,10 +37399,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_armor_of_renewed_faith_set.4c9bcbd5255dfc667263531d4a10b4e2cc5fa19d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_armor_of_renewed_faith_set_large.e8f223744c47af64a369d3e0a6fb1027ce8a136b.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -36979,10 +37427,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_thunderwraths_calling_set.a4fabaf688e00aa577bc10da7af1ff47f80b4425.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_thunderwraths_calling_set_large.1c6b58d8ba2adfc884658ed212977481b8e74375.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37000,10 +37455,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_wings_of_the_paladin.454e48041c6e602c4a64296ffc8f125904f509b9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_wings_of_the_paladin_large.b4b439da3bc4dcaca1fb987294959a0623f281f1.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37021,10 +37483,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_falconers_design_set.18ef86e6acfe8fc75b9591fe78c379c9f8f8be2f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_falconers_design_set_large.028934f73ce886bb3eb25311058ae403ab46b58a.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37042,10 +37511,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_zarukina_protectors_garb_set.6f375bb9acfe7917c2dd1851e2cff82da542fa97.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_zarukina_protectors_garb_set_large.2202f244a4ff31191cb8865b39ecd279d1d3df6d.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37063,10 +37539,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_flight_of_the_sparrowhawk_set.97bfd40511d881abb1b608f29caa7041a41f49ac.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_flight_of_the_sparrowhawk_set_large.ef33bbf3cb90a6911a86e0534762a2cd22423388.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37084,10 +37567,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_royal_guards_finery_set.5010ceff2fe0e6796f001690e1a1b7722bda76a9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_royal_guards_finery_set_large.de60fa1419e73fb6f55b776578f1e1334357a1a3.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37105,10 +37595,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/furyblade_model\/furyblade_model.f85ec0fc1aea9b5d4d691af44c052e0014c889d3.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/furyblade_model\/furyblade_model_large.263d572221a5997e89409ca2fc1752a02a8ec2fa.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37126,10 +37623,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/spinal_weapon\/spinal_weapon.4e1af85af78bf440e4811b66336d1f1a4754c155.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/spinal_weapon\/spinal_weapon_large.a9345207d10eb3208dbc86c6c1ab960029f34d4d.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37147,10 +37651,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/war_blade_right.b364a49e70586417bb4658522030ba5314bebcc7.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/war_blade_right_large.a1266540f61c1b1b8a90b443b280fea27afae3e9.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37168,10 +37679,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/backhook_right.720e13592a39ba7e0481162f2b9cc171f0a4eaff.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/backhook_right_large.fcb5b1efd9057d93f5045b7fe3f0654c0fb8b35c.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37189,10 +37707,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/weapon_bloodletter.8d330427445814716e9704d9dcaea1e163002a24.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/weapon_bloodletter_large.cfd7f9dddd87816dc485358950c332355e3414ca.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37210,10 +37735,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/weapon_savagebeast.4c1cda11815311ef9dd71c48d93d5bdff746bbf7.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/blood_seeker\/weapon_savagebeast_large.631d8c43c88b900154a560a3e0bb7dd4aabc4a4c.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37231,10 +37763,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_corpse_maidens_set.bdd9fa352a750d27c687096f6f2ee5b9c84e581d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_corpse_maidens_set_large.bb396ce0984eca3a6e2e0c15ce2aec86468bc120.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37252,10 +37791,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_mage_slayers_set.150244698ca9c2287c168aec716db8c525235494.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_mage_slayers_set_large.091b3c2f165933cacd5cf83a69c11350d79d90d1.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37273,10 +37819,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/antimage_slasher_weapon.00cc61be8af91c28df7c4d104eb87bc9120d57aa.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/antimage_slasher_weapon_large.d4d44b7f03ea941cae4e41d4f367989bd160e2ca.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37294,10 +37847,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_cabalist_of_dark_magic_set.2d32219cffc284d30bf12ef3ca304d20dc63863c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_cabalist_of_dark_magic_set_large.d2ad9637ef4a52a35924e1681c1640fc05c5f40b.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37315,10 +37875,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/windrunner_bundle.717521ec623523e3304904e5b26f2e853453a0f2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/windrunner_bundle_large.0cfb579b33e3eba3c90ef74e351311cdf0713acc.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37336,10 +37903,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_the_defense_3.0549968c040739a08a630d49edd77a914aeca4f7.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_the_defense_3_large.e70359df6ef88c1878d569b1e6f904c5e3bd0e9b.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37357,10 +37931,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_deadly_nightshade_set.d0affc20f5907e7201588a71bc88f38ec95bbde2.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_deadly_nightshade_set_large.45e6c70c6be00348c37b8ba612fde80e9376fdc1.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				},
 				"attributes": [
 					{
@@ -37386,10 +37967,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_riftshadow_roamers_set.ec65770e4bf8319ccacd36076f6614b5210df40f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_riftshadow_roamers_set_large.a830a081459c2eec680a8c0829d36f9813809a16.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				},
 				"attributes": [
 					{
@@ -37415,10 +38003,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_stormcrows_spirit_set.192c3a14beaf50029bcaff8413eae2f478a69b7e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_stormcrows_spirit_set_large.85129c26da3e9ab7784da181320aa121347672e0.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				},
 				"attributes": [
 					{
@@ -37444,10 +38039,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_winter_snowdrop_set.195ba8cb43ccb18263d9be0649743e58614206d6.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_winter_snowdrop_set_large.1d4ecbec1012d3a0f0234ac6828c856806031e61.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37465,10 +38067,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_bastion.2699acc0a124d15dc5468ca35dd3a1958ae720b8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_bastion_large.508bf2805a9fe6ee8f4e294dc8a4c6949f93e6ed.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37486,10 +38095,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_axe.89c3e389b6726e1884ca14c767e97caa7c861db5.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_axe_large.75e85412e9eb9510581609003d3dee6052f170e2.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37507,10 +38123,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_juggernaut.754936afe83e91b42868ef1ff282b483b31574f5.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_juggernaut_large.a4652fa750914e619b0940e070e7e1b33f230a21.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37528,10 +38151,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_furion.6a44eaf87b7f2cd700d3d3c1925eddf5a78a450a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_furion_large.a13a4a60b60a4f21f618a9c04b48727cce9920f1.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37549,10 +38179,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_stormspirit.f4bf9f3309d5bf920c38f2fa9b98f4f3fd803f91.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_stormspirit_large.326df8923084ce1d8e20aca42f442585a846f8ff.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37570,10 +38207,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_workshop_pirate.4cde9eb8eedffb6a25bd11246d8ef82b47213032.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/announcer\/announcer_workshop_pirate_large.d5325a044d1c25e1f63ce798318246d61f622478.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37591,10 +38235,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/siren\/exile_blade\/exile_blade.d67780f328bb3096f59f3b0f64e0a03184c635f1.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/siren\/exile_blade\/exile_blade_large.5aebb5397c36b8185dc00549eaa72c4bc7af9bfc.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37612,10 +38263,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_slithereen_exile_set.ef9390c071bb470c6863280b49b8848402d1a6db.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_slithereen_exile_set_large.1e205f4f6ebd4acd30f20dfa2bc9673710486859.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37633,10 +38291,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_hunter_of_the_red_talon_set.2a493ab7c20a0ede5c6eb17d90b0fd1beddeb849.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_hunter_of_the_red_talon_set_large.a56909ed3d2dd14d8442218c3ab5125cbea238da.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37654,10 +38319,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_ancestral_trappings_set.b7bb3ee9135162946ae2ceeaa11e0af22209d707.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_ancestral_trappings_set_large.a7f8889e5739168466f1583f0cb91de3df27d00e.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37675,10 +38347,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_burden_of_eleven_curses_set.f197d9d396c1e1146ee404efd7c4dabe085ba22c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_burden_of_eleven_curses_set_large.f64fd94d800b96707db51e20ed15fca17dc033b8.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37696,10 +38375,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_mysterious_vagabond_set.cd2734ff9b422d4edef82fef5f28daa285c784bd.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_mysterious_vagabond_set_large.84f36af8305b1c35183121a7f6b3e1ef32bc679e.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37717,10 +38403,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_gear_of_the_tallyho_hunter_set.0c7624346dd735e9ce9c37bfb5d036abeabc3afe.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_gear_of_the_tallyho_hunter_set_large.76233abe22b651780bbe9e21dea253bca5b32ea3.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37738,10 +38431,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_rider_of_the_storm_set.79f56c0989233025b42eb16ff5a0a969cf69bc06.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_rider_of_the_storm_set_large.2751483cb3945e833084ef6f99b2c42ffcca141c.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37759,10 +38459,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/polycount_megabundle.4e1b7b051ff908b5075d84069d2991b4680a899b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/bundles\/polycount_megabundle_large.3aee6f596c7ec79d2b2d7359bad2b91acfec2faf.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37780,10 +38487,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_light_of_the_solar_divine_set.f41a24289fb5bf0714e2c005083ce1f30b4c76c8.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_light_of_the_solar_divine_set_large.60030e008a5efd7f44c3f7f6a53d68f7ef94a331.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37792,7 +38506,7 @@
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
 				"item_name": "The Brood Queen Set",
-				"item_description": "Contains all of the items in the 'Brood Queen' set for Broodmother:",
+				"item_description": "Many are the knights and noble youths who have intruded on the hunting grounds of the Broodmother, disturbing her peace with the clatter of armor, their boots setting atwitch her silken web. The intruders are like succulent shelled insects upon whose innards she's gorged, all the while growing curious of the adornments that drape their bodies, until that day when a blacksmith found his way into her web.  Armor he promised her, the finest in the land, if only she would set him free. And so a deal was struck, and the blacksmith measured, and toiled, taking as his materials the finest steel to be found among the husked corpses of silk-wrapped knights.  When the new armor was finished, the spider kept her promise and set the blacksmith free.  Then she watched her brood devour him. Contains all of the items in the 'Brood Queen' set for Broodmother:",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/sets\/DOTA_Item_The_Brood_Queen_Set",
@@ -37801,10 +38515,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_brood_queen_set.ff041828f5bcfbb8d3663a3b24cefcbb93ccc140.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_brood_queen_set_large.781968298d6432f332f2f3dae639746c134c55ad.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			},
 			{
@@ -37822,10 +38543,17 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_obsidian_blade_set.cf438317d2a62e501c24d998b72eb3150fdf6719.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_obsidian_blade_set_large.1dbeaf05f841edb450fefd7248cfedcd15da8d29.png",
 				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
 				}
 			}
 		]
