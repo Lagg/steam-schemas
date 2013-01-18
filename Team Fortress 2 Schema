@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.7be7bed858e73009aa736aa0cfcbd3dd61f923be.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.55b8d183a83fea3ec62067a89ad3a6bf3914bf0c.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -37070,6 +37070,28 @@
 					}
 				]
 				
+			},
+			{
+				"name": "Sandvich v2 Promo",
+				"defindex": 2110,
+				"item_class": "bundle",
+				"item_type_name": "Item Bundle",
+				"item_name": "Sandvich Promo",
+				"item_description": "",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/mysterious_promo",
+				"min_ilevel": 50,
+				"max_ilevel": 50,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				}
 			},
 			{
 				"name": "Craft Bar Level 1",
