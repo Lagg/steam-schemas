@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.55b8d183a83fea3ec62067a89ad3a6bf3914bf0c.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1e97247d68ad56a8a579f535f7e62636c71d5998.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -36396,11 +36396,11 @@
 				}
 			},
 			{
-				"name": "Mysterious Promo 3",
+				"name": "Red Pyro Action Figure Promo",
 				"defindex": 2084,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "Mysterious Promo 3",
+				"item_name": "Red Pyro Action Figure Promo",
 				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
@@ -36415,14 +36415,18 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true
-				}
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				
 			},
 			{
-				"name": "Mysterious Promo 4",
+				"name": "Red Demoman Action Figure Promo",
 				"defindex": 2085,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "Mysterious Promo 4",
+				"item_name": "Red Demoman Action Figure Promo",
 				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
@@ -36437,7 +36441,11 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true
-				}
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				
 			},
 			{
 				"name": "Mysterious Promo 5",
