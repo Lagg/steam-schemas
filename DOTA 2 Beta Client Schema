@@ -4018,6 +4018,7 @@
 					"system"		"shadowshaman_stick_r"
 				}
 			}
+			"particle_file"		"particles\units\heroes\hero_shadowshaman.pcf"
 		}
 		"247"
 		{
@@ -4039,6 +4040,7 @@
 					"system"		"shadowshaman_stick_l"
 				}
 			}
+			"particle_file"		"particles\units\heroes\hero_shadowshaman.pcf"
 		}
 		"248"
 		{
@@ -5889,6 +5891,43 @@
 			}
 			"model_player"		"models/heroes/puck/puck_horns.mdl"
 		}
+		"373"
+		{
+			"name"		"Troll Warlord's Default Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Troll_Warlords_Default_Weapon"
+			"item_description"		"#DOTA_Item_Desc_Troll_Warlords_Default_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_troll_warlord"		"1"
+			}
+			"model_player"		"models/heroes/troll_warlord/troll_warlord_axe_ranged_r.mdl"
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
+		}
+		"374"
+		{
+			"name"		"Troll Warlord's Default Off-Hand Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_offhand_weapon"
+			"item_name"		"#DOTA_Item_Troll_Warlords_Default_OffHand_Weapon"
+			"item_slot"		"offhand_weapon"
+			"item_description"		"#DOTA_Item_Desc_Troll_Warlords_Default_OffHand_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_troll_warlord"		"1"
+			}
+			"model_player"		"models/heroes/troll_warlord/troll_warlord_axe_ranged_l.mdl"
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
+		}
 		"375"
 		{
 			"name"		"Batrider's Head"
@@ -5948,6 +5987,44 @@
 				"npc_dota_hero_batrider"		"1"
 			}
 			"model_player"		"models/heroes/batrider/batrider_mount.mdl"
+		}
+		"379"
+		{
+			"name"		"Troll Warlord's Default Melee Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_weapon"
+			"item_name"		"#DOTA_Item_Troll_Warlords_Default_Melee_Weapon"
+			"item_slot"		"weapon2"
+			"item_description"		"#DOTA_Item_Desc_Troll_Warlords_Default_Melee_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_troll_warlord"		"1"
+			}
+			"model_player"		"models/heroes/troll_warlord/troll_warlord_axe_melee_r.mdl"
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
+		}
+		"380"
+		{
+			"name"		"Troll Warlord's Default Melee Off-Hand Weapon"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_offhand_weapon"
+			"item_name"		"#DOTA_Item_Troll_Warlords_Default_Melee_OffHand_Weapon"
+			"item_slot"		"offhand_weapon2"
+			"item_description"		"#DOTA_Item_Desc_Troll_Warlords_Default_Melee_OffHand_Weapon"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_troll_warlord"		"1"
+			}
+			"model_player"		"models/heroes/troll_warlord/troll_warlord_axe_melee_l.mdl"
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
 		}
 		"381"
 		{
@@ -6387,6 +6464,63 @@
 			}
 			"model_player"		"models/heroes/mirana/quiver.mdl"
 		}
+		"410"
+		{
+			"name"		"Troll Warlord's Default Shoulders"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_shoulders"
+			"item_name"		"#DOTA_Item_Troll_Warlords_Default_Shoulders"
+			"item_slot"		"shoulder"
+			"item_description"		"#DOTA_Item_Desc_Troll_Warlords_Default_Shoulders"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_troll_warlord"		"1"
+			}
+			"model_player"		"models/heroes/troll_warlord/troll_warlord_shoulders.mdl"
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
+		}
+		"411"
+		{
+			"name"		"Troll Warlord's Default Head"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_head"
+			"item_name"		"#DOTA_Item_Troll_Warlords_Default_Head"
+			"item_slot"		"head"
+			"item_description"		"#DOTA_Item_Desc_Troll_Warlords_Default_Head"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_troll_warlord"		"1"
+			}
+			"model_player"		"models/heroes/troll_warlord/troll_warlord_head.mdl"
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
+		}
+		"412"
+		{
+			"name"		"Troll Warlord's Default Arms"
+			"prefab"		"dota_default_item"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"item_name"		"#DOTA_Item_Troll_Warlords_Default_Arms"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Troll_Warlords_Default_Arms"
+			"image_inventory"		"econ/testitem_slot_empty"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_troll_warlord"		"1"
+			}
+			"model_player"		"models/heroes/troll_warlord/troll_warlord_bracer.mdl"
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
+		}
 		"4000"
 		{
 			"name"		"Horn Mask"
@@ -6803,12 +6937,6 @@
 			}
 			"visuals"
 			{
-				"asset_modifier0"
-				{
-					"type"		"particle"
-					"asset"		"pudge_meathook"
-					"modifier"		"pudge_meathook_skeleton"
-				}
 				"skip_model_combine"		"1"
 			}
 			"icon_portrait"
@@ -7289,7 +7417,7 @@
 		{
 			"name"		"Pride of the Crew"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Head"
+			"item_type_name"		"#DOTA_WearableType_Hat"
 			"item_name"		"#DOTA_Wearable_Kunkka_Bandana"
 			"item_slot"		"head"
 			"image_inventory"		"econ/items/kunkka/kunkka_bandana"
@@ -7424,7 +7552,7 @@
 		{
 			"name"		"Wavecrester"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Back"
+			"item_type_name"		"#DOTA_WearableType_Harpoon"
 			"item_name"		"#DOTA_Wearable_Kunkka_Wavecrester"
 			"item_slot"		"back"
 			"image_inventory"		"econ/items/kunkka/kunkka_harpoon"
@@ -8009,6 +8137,7 @@
 		{
 			"name"		"Runestaff of Verodicia"
 			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Staff"
 			"item_name"		"#DOTA_Item_Runestaff_of_Verodicia"
 			"item_rarity"		"uncommon"
 			"image_inventory"		"econ/items/furion/staff_regal_1"
@@ -8435,6 +8564,7 @@
 		{
 			"name"		"Meranth Executioner's Blade"
 			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
 			"item_name"		"#DOTA_Item_Meranth_Executioners_Blade"
 			"image_inventory"		"econ/items/sven/sven_sword"
 			"model_player"		"models/items/sven/sven_sword.mdl"
@@ -8597,6 +8727,7 @@
 		{
 			"name"		"Wuldastron the Twin-Blade of Giants"
 			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
 			"item_name"		"#DOTA_Item_Wuldastron_the_TwinBlade_of_Giants"
 			"item_rarity"		"rare"
 			"image_inventory"		"econ/items/sven/sven_sword_b"
@@ -9147,6 +9278,7 @@
 		{
 			"name"		"Curled Root-Staff"
 			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Staff"
 			"item_name"		"#DOTA_Item_Curled_RootStaff"
 			"image_inventory"		"econ/items/furion/staff_leafy_1"
 			"model_player"		"models/items/furion/staff_leafy_1.mdl"
@@ -11004,6 +11136,7 @@
 		{
 			"name"		"Blade of the Dark Ancients"
 			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Sword"
 			"item_name"		"#DOTA_Item_Blade_of_the_Dark_Ancients"
 			"item_rarity"		"uncommon"
 			"image_inventory"		"econ/items/sven/sword_stone"
@@ -11304,10 +11437,10 @@
 		}
 		"4115"
 		{
-			"name"		"Wyrm Bracer of Uldorak"
+			"name"		"Wyrm Bracers of Uldorak"
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Bracer"
-			"item_name"		"#DOTA_Item_Wyrm_Bracer_of_Uldorak"
+			"item_name"		"#DOTA_Item_Wyrm_Bracers_of_Uldorak"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Wyrm_Bracer_of_Uldorak"
 			"image_inventory"		"econ/items/dragon_knight/bracers_timedragon"
@@ -11404,10 +11537,10 @@
 		}
 		"4117"
 		{
-			"name"		"Wyrm Pauldron of Uldorak"
+			"name"		"Wyrm Pauldrons of Uldorak"
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Pauldron"
-			"item_name"		"#DOTA_Item_Wyrm_Pauldron_of_Uldorak"
+			"item_name"		"#DOTA_Item_Wyrm_Pauldrons_of_Uldorak"
 			"item_slot"		"shoulder"
 			"item_description"		"#DOTA_Item_Desc_Wyrm_Pauldron_of_Uldorak"
 			"image_inventory"		"econ/items/dragon_knight/pauldrons_timedragon"
@@ -11772,10 +11905,10 @@
 		}
 		"4126"
 		{
-			"name"		"Pauldron of Sir Davion"
+			"name"		"Pauldrons of Sir Davion"
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Pauldron"
-			"item_name"		"#DOTA_Item_Pauldron_of_Sir_Davion"
+			"item_name"		"#DOTA_Item_Pauldrons_of_Sir_Davion"
 			"item_slot"		"shoulder"
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Pauldron_of_Sir_Davion"
@@ -11819,10 +11952,10 @@
 		}
 		"4127"
 		{
-			"name"		"Bracer of Sir Davion"
+			"name"		"Bracers of Sir Davion"
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Bracer"
-			"item_name"		"#DOTA_Item_Bracer_of_Sir_Davion"
+			"item_name"		"#DOTA_Item_Bracers_of_Sir_Davion"
 			"item_slot"		"arms"
 			"item_rarity"		"uncommon"
 			"item_description"		"#DOTA_Item_Desc_Bracer_of_Sir_Davion"
@@ -17159,10 +17292,10 @@
 		}
 		"4234"
 		{
-			"name"		"Bracer of the Burning Cabal"
+			"name"		"Bracers of the Burning Cabal"
 			"prefab"		"dota_item"
 			"item_type_name"		"#DOTA_WearableType_Exort_Bracer"
-			"item_name"		"#DOTA_Item_Bracer_of_the_Burning_Cabal"
+			"item_name"		"#DOTA_Item_Bracers_of_the_Burning_Cabal"
 			"item_slot"		"arms"
 			"item_description"		"#DOTA_Item_Desc_Bracer_of_the_Burning_Cabal"
 			"image_inventory"		"econ/items/invoker/exort_bracer"
@@ -27005,7 +27138,7 @@
 		{
 			"name"		"Armor of the Drake"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Pauldrons"
+			"item_type_name"		"#DOTA_WearableType_Pauldron"
 			"item_name"		"#DOTA_Item_Armor_of_the_Drake"
 			"item_slot"		"shoulder"
 			"item_rarity"		"uncommon"
@@ -29665,7 +29798,7 @@
 		{
 			"name"		"Crimson Wyvern Shoulders"
 			"prefab"		"dota_item"
-			"item_type_name"		"#DOTA_WearableType_Pauldrons"
+			"item_type_name"		"#DOTA_WearableType_Crested_Guard"
 			"item_name"		"#DOTA_Item_Crimson_Wyvern_Shoulders"
 			"item_slot"		"shoulder"
 			"item_rarity"		"uncommon"
@@ -38866,9 +38999,7 @@
 			"name"		"Toxic Gaze"
 			"prefab"		"dota_ward"
 			"item_name"		"#DOTA_Item_Toxic_Gaze"
-			"item_slot"		"ward"
 			"item_description"		"#DOTA_Item_Desc_Toxic_Gaze"
-			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/venomancer_ward/venomancer_ward_npc_dota_observer_wards"
 			"visuals"
 			{
@@ -38934,9 +39065,7 @@
 			"name"		"Slayer's Glare"
 			"prefab"		"dota_ward"
 			"item_name"		"#DOTA_Item_Slayers_Glare"
-			"item_slot"		"ward"
 			"item_description"		"#DOTA_Item_Desc_Slayers_Glare"
-			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/lina_ward/lina_ward_npc_dota_observer_wards"
 			"visuals"
 			{
@@ -39007,9 +39136,7 @@
 			"name"		"Nightmare Beacon"
 			"prefab"		"dota_ward"
 			"item_name"		"#DOTA_Item_Nightmare_Beacon"
-			"item_slot"		"ward"
 			"item_description"		"#DOTA_Item_Desc_Nightmare_Beacon"
-			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/bane_ward/bane_ward_npc_dota_observer_wards"
 			"visuals"
 			{
@@ -39080,9 +39207,7 @@
 			"name"		"Eyeball Fetish"
 			"prefab"		"dota_ward"
 			"item_name"		"#DOTA_Item_Eyeball_Fetish"
-			"item_slot"		"ward"
 			"item_description"		"#DOTA_Item_Desc_Eyeball_Fetish"
-			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/witchdoctor_ward/witchdoctor_ward_npc_dota_observer_wards"
 			"visuals"
 			{
@@ -39148,9 +39273,7 @@
 			"name"		"Staff of Faith"
 			"prefab"		"dota_ward"
 			"item_name"		"#DOTA_Item_Staff_of_Faith"
-			"item_slot"		"ward"
 			"item_description"		"#DOTA_Item_Desc_Staff_of_Faith"
-			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/chen_ward/chen_ward_npc_dota_observer_wards"
 			"visuals"
 			{
@@ -39216,9 +39339,7 @@
 			"name"		"Eye of the Ozkavosh"
 			"prefab"		"dota_ward"
 			"item_name"		"#DOTA_Item_Eye_of_the_Ozkavosh"
-			"item_slot"		"ward"
 			"item_description"		"#DOTA_Item_Desc_Eye_of_the_Ozkavosh"
-			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/shadow_demon_ward/shadowdemon_ward_npc_dota_observer_wards"
 			"visuals"
 			{
@@ -39289,9 +39410,7 @@
 			"name"		"Blueheart Spotter"
 			"prefab"		"dota_ward"
 			"item_name"		"#DOTA_Item_Blueheart_Spotter"
-			"item_slot"		"ward"
 			"item_description"		"#DOTA_Item_Desc_Blueheart_Spotter"
-			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/crystal_maiden_ward/crystal_maiden_ward_npc_dota_observer_wards"
 			"visuals"
 			{
@@ -39362,10 +39481,8 @@
 			"name"		"2012 Polycount Ward"
 			"prefab"		"dota_ward"
 			"item_name"		"#DOTA_Item_2012_Polycount_Ward"
-			"item_slot"		"ward"
 			"item_rarity"		"legendary"
 			"item_description"		"#DOTA_Item_Desc_2012_Polycount_Ward"
-			"player_loadout"		"1"
 			"image_inventory"		"econ/items/wards/polycount_ward/polycount_ward_npc_dota_observer_wards"
 			"visuals"
 			{
@@ -42246,7 +42363,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_WildCardsWest"
 			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_WildCardsWest"
+			"item_description"		"#DOTA_Item_Desc_Wild_Cards_West"
 			"image_inventory"		"econ/tools/gift_multiple"
 			"image_banner"		"econ/leagues/subscription_logo_the_wildcards"
 			"tournament_url"		"http://www.dota2.com/tournaments/international/"
@@ -42268,7 +42385,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_WildCardsEast"
 			"item_rarity"		"mythical"
-			"item_description"		"#DOTA_Item_Desc_WildCardsEast"
+			"item_description"		"#DOTA_Item_Desc_Wild_Cards_East"
 			"image_inventory"		"econ/tools/gift_multiple"
 			"image_banner"		"econ/leagues/subscription_logo_the_wildcards"
 			"tournament_url"		"http://www.dota2.com/tournaments/international/"
@@ -42353,7 +42470,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_ItsGosuMontlyMadnessAsia"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_Desc_League_ItsGosuMontlyMadnessAsia"
+			"item_description"		"#DOTA_Item_Desc_Its_Gosu_Monthly_Madness_Asia"
 			"image_inventory"		"econ/leagues/subscriptions_mmasia"
 			"image_banner"		"econ/leagues/subscriptions_mmasia_ingame"
 			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-announces-monthly-madness-asia-edition_563"
@@ -42375,7 +42492,7 @@
 			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
 			"item_name"		"#DOTA_Item_Its_Gosu_Monthly_Madness_Asia__Admin"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_Desc_League_ItsGosuMontlyMadnessAsia"
+			"item_description"		"#DOTA_Item_Desc_Its_Gosu_Monthly_Madness_Asia__Admin"
 			"image_inventory"		"econ/leagues/subscriptions_mmasia"
 			"image_banner"		"econ/leagues/subscriptions_mmasia_ingame"
 			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-announces-monthly-madness-asia-edition_563"
@@ -42949,7 +43066,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_GosuLeague"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_GosuLeague_Desc"
+			"item_description"		"#DOTA_Item_Desc_GosuLeague"
 			"image_inventory"		"econ/leagues/subscriptions_gosuleague"
 			"image_banner"		"econ/leagues/subscriptions_gosuleague_ingame"
 			"tournament_url"		"http://play.gosugamers.net/events/48:gosuleague-season-4"
@@ -42971,7 +43088,7 @@
 			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
 			"item_name"		"#DOTA_Item_GosuLeague__Admin"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_GosuLeague_Desc"
+			"item_description"		"#DOTA_Item_Desc_GosuLeague__Admin"
 			"image_inventory"		"econ/leagues/subscriptions_gosuleague"
 			"image_banner"		"econ/leagues/subscriptions_gosuleague_ingame"
 			"tournament_url"		"http://play.gosugamers.net/events/48:gosuleague-season-4"
@@ -42993,7 +43110,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_G1Championship"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_G1Championship_Desc"
+			"item_description"		"#DOTA_Item_Desc_G1_Championship_League"
 			"image_inventory"		"econ/leagues/subscriptions_g1"
 			"image_banner"		"econ/leagues/subscriptions_g1_ingame"
 			"tournament_url"		"http://media.17173.com/dota/g1/"
@@ -43015,7 +43132,7 @@
 			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
 			"item_name"		"#DOTA_Item_G1_Championship_League__Admin"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_G1Championship_Desc"
+			"item_description"		"#DOTA_Item_Desc_G1_Championship_League__Admin"
 			"image_inventory"		"econ/leagues/subscriptions_g1_admin"
 			"image_banner"		"econ/leagues/subscriptions_g1_ingame"
 			"tournament_url"		"http://media.17173.com/dota/g1/"
@@ -43037,7 +43154,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_atoD2"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_atoD2_Desc"
+			"item_description"		"#DOTA_Item_Desc_atoD_2"
 			"image_inventory"		"econ/leagues/subscriptions_atod2"
 			"image_banner"		"econ/leagues/subscriptions_atod2_ingame"
 		}
@@ -43058,7 +43175,7 @@
 			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
 			"item_name"		"#DOTA_Item_atoD_2__Admin"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_atoD2_Desc"
+			"item_description"		"#DOTA_Item_Desc_atoD_2__Admin"
 			"image_inventory"		"econ/leagues/subscriptions_atod2"
 			"image_banner"		"econ/leagues/subscriptions_atod2_ingame"
 		}
@@ -43079,7 +43196,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_GosuAsiaMadness"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_GosuAsiaMadness_Desc"
+			"item_description"		"#DOTA_Item_Desc_Its_Gosu_Asia_Madness"
 			"image_inventory"		"econ/leagues/subscriptions_gosuasiamadness"
 			"image_banner"		"econ/leagues/subscriptions_gosuasiamadness_ingame"
 			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-asia-madness-for-love-completes-the-line-up_802"
@@ -43101,7 +43218,7 @@
 			"item_type_name"		"#DOTA_WearableType_Admin_Pass"
 			"item_name"		"#DOTA_Item_Its_Gosu_Asia_Madness_3__Admin"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_GosuAsiaMadness_Desc"
+			"item_description"		"#DOTA_Item_Desc_Its_Gosu_Asia_Madness_3__Admin"
 			"image_inventory"		"econ/leagues/subscriptions_gosuasiamadness"
 			"image_banner"		"econ/leagues/subscriptions_gosuasiamadness_ingame"
 			"tournament_url"		"http://www.itsgosu.com/game/dota2/articles/it-s-gosu-asia-madness-for-love-completes-the-line-up_802"
@@ -43123,7 +43240,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_DreamHackWinter2012"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_DreamHackWinter2012_Desc"
+			"item_description"		"#DOTA_Item_Desc_DreamHack_Dota_2_Corsair_Vengeance_Cup"
 			"image_inventory"		"econ/leagues/subscriptions_dreamhack_winter2012"
 			"image_banner"		"econ/leagues/subscriptions_dreamhack_winter2012_ingame"
 			"tournament_url"		"www.dreamhack.se"
@@ -43145,7 +43262,7 @@
 			"item_type_name"		"#DOTA_WearableType_League_Pass"
 			"item_name"		"#DOTA_Item_League_DreamHackWinter2012_Admin"
 			"item_rarity"		"uncommon"
-			"item_description"		"#DOTA_Item_League_DreamHackWinter2012_Desc"
+			"item_description"		"#DOTA_Item_Desc_DreamHack_Dota_2_Corsair_Vengeance_Cup_ADMIN"
 			"image_inventory"		"econ/leagues/subscriptions_dreamhack_winter2012"
 			"image_banner"		"econ/leagues/subscriptions_dreamhack_winter2012_ingame"
 			"tournament_url"		"www.dreamhack.se"
@@ -46473,11 +46590,11 @@
 			"bundle"
 			{
 				"Wyrm Helm of Uldorak"		"1"
-				"Wyrm Bracer of Uldorak"		"1"
 				"Wyrm Skirt of Uldorak"		"1"
-				"Wyrm Pauldron of Uldorak"		"1"
 				"Wyrm Shield of Uldorak"		"1"
 				"Dragonmaw"		"1"
+				"Wyrm Pauldrons of Uldorak"		"1"
+				"Wyrm Bracers of Uldorak"		"1"
 			}
 			"item_description"		"#DOTA_Bundle_Desc_Dragon_Knight_Uldorak"
 			"image_inventory"		"econ/sets/DOTA_Bundle_Dragon_Knight_Uldorak"
@@ -46577,9 +46694,9 @@
 			"bundle"
 			{
 				"Cape of the Burning Cabal"		"1"
-				"Bracer of the Burning Cabal"		"1"
 				"Crest of the Burning Cabal"		"1"
 				"Stylish Wizard's Topnot"		"1"
+				"Bracers of the Burning Cabal"		"1"
 			}
 			"item_description"		"#DOTA_Bundle_Desc_Invoker_Exort"
 			"image_inventory"		"econ/sets/DOTA_Bundle_Invoker_Exort"
@@ -46929,11 +47046,11 @@
 			"bundle"
 			{
 				"Light Cape of Sir Davion"		"1"
-				"Bracer of Sir Davion"		"1"
-				"Pauldron of Sir Davion"		"1"
 				"Slayer-Sword of Sir Davion"		"1"
 				"Enameled Shield of Sir Davion"		"1"
 				"Dragonbone Helm of Sir Davion"		"1"
+				"Pauldrons of Sir Davion"		"1"
+				"Bracers of Sir Davion"		"1"
 			}
 			"item_description"		"#DOTA_Bundle_Desc_Dragon_Knight_Davion"
 			"image_inventory"		"econ/sets/DOTA_Bundle_Dragon_Knight_Davion"
@@ -47260,8 +47377,6 @@
 				"Armor of the Purist Champion"		"1"
 				"Hammer of the Purist Champion"		"1"
 				"Light Cape of Sir Davion"		"1"
-				"Bracer of Sir Davion"		"1"
-				"Pauldron of Sir Davion"		"1"
 				"Slayer-Sword of Sir Davion"		"1"
 				"Enameled Shield of Sir Davion"		"1"
 				"Dragonbone Helm of Sir Davion"		"1"
@@ -47277,6 +47392,8 @@
 				"Bracers of Profound Perfection"		"1"
 				"Cape of Arcane Artistry"		"1"
 				"Hood of Endless Intellect"		"1"
+				"Pauldrons of Sir Davion"		"1"
+				"Bracers of Sir Davion"		"1"
 			}
 			"item_description"		"#DOTA_Bundle_Desc_Summer_2012"
 			"image_inventory"		"econ/sets/summer_bundle"
@@ -52614,11 +52731,11 @@
 			"items"
 			{
 				"Light Cape of Sir Davion"		"1"
-				"Bracer of Sir Davion"		"1"
-				"Pauldron of Sir Davion"		"1"
 				"Slayer-Sword of Sir Davion"		"1"
 				"Enameled Shield of Sir Davion"		"1"
 				"Dragonbone Helm of Sir Davion"		"1"
+				"Pauldrons of Sir Davion"		"1"
+				"Bracers of Sir Davion"		"1"
 			}
 			"store_bundle"		"Armor of Sir Davion Set"
 		}
@@ -52654,10 +52771,10 @@
 			{
 				"Wyrm Shield of Uldorak"		"1"
 				"Wyrm Helm of Uldorak"		"1"
-				"Wyrm Bracer of Uldorak"		"1"
 				"Wyrm Skirt of Uldorak"		"1"
-				"Wyrm Pauldron of Uldorak"		"1"
 				"Dragonmaw"		"1"
+				"Wyrm Pauldrons of Uldorak"		"1"
+				"Wyrm Bracers of Uldorak"		"1"
 			}
 		}
 		"drow_ranger_frost_spikes"
@@ -52808,8 +52925,8 @@
 			"items"
 			{
 				"Cape of the Burning Cabal"		"1"
-				"Bracer of the Burning Cabal"		"1"
 				"Crest of the Burning Cabal"		"1"
+				"Bracers of the Burning Cabal"		"1"
 			}
 			"store_bundle"		"The Fires of Exort Set"
 		}
