@@ -246,6 +246,8 @@
 		"cosmetic"
 		{
 			"public_prefab"			"1"
+			"triangle_budget"		"1400"
+			"qc_template"			"scripts/itemtest_qc_template.txt"
 			"loadondemand"			"1"
 			"capabilities"
 			{
@@ -269,6 +271,7 @@
 		{
 			"public_prefab"			"1"
 			"prefab"				"cosmetic"
+			"qc_template"			"scripts/itemtest_qc_template_hat.txt"
 			"item_type_name"		"#TF_Wearable_Hat"
 			"item_slot"				"head"
 			"equip_region"			"hat"
@@ -35794,9 +35797,8 @@
 		"976"
 		{
 			"name"	"The Winter Wonderland Wrap"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"cosmetic"
-			"craft_class" ""
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -35841,9 +35843,8 @@
 		"977"
 		{
 			"name"	"The Cut-Throat Concierge"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"cosmetic"
-			"craft_class" ""
 			"equip_region"	"shirt"
 			"item_type_name"	"#TF_Wearable_Shirt"
 			"item_name"	"#TF_TheCutThroatConcierge"
@@ -35865,9 +35866,8 @@
 		"978"
 		{
 			"name"	"Der Wintermantel"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"cosmetic"
-			"craft_class" ""
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -35908,9 +35908,8 @@
 		"979"
 		{
 			"name"	"The Cool Breeze"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"cosmetic"
-			"craft_class" ""			
 			"equip_region"	"demoman_pants"
 			"item_type_name"	"#TF_Wearable_Kilt"
 			"item_name"	"#TF_TheCoolBreeze"
@@ -35931,9 +35930,8 @@
 		"980"
 		{
 			"name"	"Soldier's Slope Scopers"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"hat"
-			"craft_class" ""
 			"capabilities"
 			{
 				"paintable"			"1"
@@ -35973,9 +35971,8 @@
 		"981"
 		{
 			"name"	"The Cold Killer"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"hat"
-			"craft_class" ""
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -35995,9 +35992,8 @@
 		"982"
 		{
 			"name"	"Doc's Holiday"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"cosmetic"
-			"craft_class" ""
 			"capabilities"
 			{
 				"paintable"		"0"
@@ -36037,9 +36033,8 @@
 		"983"
 		{
 			"name"	"The Digit Divulger"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"cosmetic"
-			"craft_class" ""
 			"capabilities"
 			{
 				"paintable" "1"
@@ -36065,13 +36060,29 @@
 					{
 						"skin_red"	"0"
 						"skin_blu"	"0"	
+						"model_player"	"models/player/items/scout/scout_gloves.mdl"
 						"name"	"#TF_TheDigitDivulger_Style0"
 					}
 					"1"
 					{
 						"skin_red"	"1"
 						"skin_blu"	"1"	
+						"model_player"	"models/player/items/scout/scout_gloves.mdl"
 						"name"	"#TF_TheDigitDivulger_Style1"
+					}
+					"2"
+					{
+						"skin_red"	"0"
+						"skin_blu"	"0"	
+						"model_player"	"models/player/items/scout/scout_gloves_s2.mdl"
+						"name"	"#TF_TheDigitDivulger_Style2"
+					}
+					"3"
+					{
+						"skin_red"	"1"
+						"skin_blu"	"1"	
+						"model_player"	"models/player/items/scout/scout_gloves_s2.mdl"
+						"name"	"#TF_TheDigitDivulger_Style3"
 					}
 				}
 			}
@@ -36079,9 +36090,8 @@
 		"984"
 		{
 			"name"	"Tough Stuff Muffs"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"hat"
-			"craft_class" ""
 			"drop_type"	"none"
 			"item_name"	"#TF_ToughStuffMuffs"
 			"item_description"	"#TF_ToughStuffMuffs_Desc"
@@ -36142,9 +36152,8 @@
 		"985" 
 		{
 			"name"	"Heavy's Hockey Hair"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"cosmetic"
-			"craft_class" ""
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -36166,9 +36175,8 @@
 		"986"
 		{
 			"name"	"The Mutton Mann"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"beard"
-			"craft_class" ""
 			"capabilities"
 			{
 				"paintable"		"0"
@@ -36198,9 +36206,8 @@
 		"987"
 		{
 			"name"	"The Merc's Muffler"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"cosmetic"
-			"craft_class" ""
 			"propername" "1"
 			"drop_type"	"none"
 			"equip_region"	"necklace"
@@ -36241,9 +36248,8 @@
 		"988"
 		{
 			"name"	"The Barnstormer"
-			"first_sale_date"	"2012/12/19"
+			"first_sale_date"	"2013/01/24"
 			"prefab"	"hat"
-			"craft_class"	""
 			"item_name"	"#TF_TheBarnstormer"
 			"item_description"	"#TF_TheBarnstormer_Desc"
 			"image_inventory"	"backpack/player/items/engineer/engineer_barnstormer_s01"
@@ -36635,6 +36641,7 @@
 			"first_sale_date"	"2012/12/19"
 			"item_class"	"tf_weapon_shotgun_building_rescue"
 			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -36918,8 +36925,8 @@
 		"1008"
 		{
 			"name"	"The Prize Plushy"
-			"first_sale_date"	"2013/01/08"
-			"prefab"	"promo cosmetic"
+			"first_sale_date"	"2013/01/23"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -36948,8 +36955,8 @@
 		"1009"
 		{
 			"name"	"The Grizzled Growth"
-			"first_sale_date"	"2013/01/08"
-			"prefab"	"promo cosmetic"
+			"first_sale_date"	"2013/01/23"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -36970,8 +36977,8 @@
 		"1010"
 		{
 			"name"	"The Last Straw"
-			"first_sale_date"	"2013/01/08"
-			"prefab"	"promo hat"
+			"first_sale_date"	"2013/01/23"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -55604,6 +55611,7 @@
 			"all_same_class"	"1"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -55663,6 +55671,7 @@
 			"do_B"	"#CI_Bar_B"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -55709,6 +55718,7 @@
 			"do_B"	"#CI_Bar_C"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -55755,6 +55765,7 @@
 			"do_B"	"#RI_H"
 			"always_known"	"1"
 			"premium_only"	"1"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -55803,6 +55814,7 @@
 			"add_class_usage_to_output"	"1"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -55877,6 +55889,7 @@
 			"add_slot_usage_to_output"	"1"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -55949,6 +55962,7 @@
 			"do_B"	"#RI_H"
 			"always_known"	"1"
 			"premium_only"	"1"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56011,6 +56025,7 @@
 			"add_class_usage_to_output"	"1"
 			"always_known"	"1"
 			"premium_only"	"1"
+			"disabled"	"0"
 			"input_items"
 			{
 				"4"
@@ -56081,6 +56096,7 @@
 			"add_slot_usage_to_output"	"2"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56210,6 +56226,7 @@
 			"add_class_usage_to_output"	"0"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56271,6 +56288,7 @@
 			"add_slot_usage_to_output"	"0"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56330,6 +56348,7 @@
 			"do_B"	"#CI_Bar_B"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56403,6 +56422,7 @@
 			"do_B"	"#TF_Scout_Bonk_Helmet"
 			"always_known"	"1"
 			"premium_only"	"1"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56475,6 +56495,7 @@
 			"do_B"	"#TF_Unique_EnergyDrink_CritCola"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56534,6 +56555,7 @@
 			"do_B"	"#TF_Unique_Makeshiftclub"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56593,6 +56615,7 @@
 			"do_B"	"#TF_Unique_Blast_Boots"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56652,6 +56675,7 @@
 			"do_B"	"#TF_Unique_Lunchbox_Chocolate"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56711,6 +56735,7 @@
 			"do_B"	"#TF_Unique_Sledgehammer"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56770,6 +56795,7 @@
 			"do_B"	"#CI_Bar_A"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56842,6 +56868,7 @@
 			"do_B"	"#CI_Bar_B"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56914,6 +56941,7 @@
 			"do_B"	"#TF_Unique_BattleAxe"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -56973,6 +57001,7 @@
 			"do_B"	"#TF_Unique_TribalmanKukri"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57032,6 +57061,7 @@
 			"do_B"	"#TF_Unique_Combat_Wrench"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57091,6 +57121,7 @@
 			"do_B"	"#TF_ThePowerjack"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57150,6 +57181,7 @@
 			"do_B"	"#TF_TheDegreaser"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57209,6 +57241,7 @@
 			"do_B"	"#TF_TheShortstop"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57268,6 +57301,7 @@
 			"do_B"	"#TF_TheHolyMackerel"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57327,6 +57361,7 @@
 			"do_B"	"#TF_MadMilk"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57386,6 +57421,7 @@
 			"do_B"	"#TF_LEtranger"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57445,6 +57481,7 @@
 			"do_B"	"#TF_EternalReward"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57504,6 +57541,7 @@
 			"do_B"	"#TF_TheBattalionsBackup"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57563,6 +57601,7 @@
 			"do_B"	"#TF_TheBlackBox"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57622,6 +57661,7 @@
 			"do_B"	"#TF_SydneySleeper"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57681,6 +57721,7 @@
 			"do_B"	"#TF_DarwinsDangerShield"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57740,6 +57781,7 @@
 			"do_B"	"#TF_TheBushwacka"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -57800,6 +57842,7 @@
 			"do_B"	"#TF_Unique_Gloves_of_Running_Urgently"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -57860,6 +57903,7 @@
 			"do_B"	"#TF_Unique_BattleSaw"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -57920,6 +57964,7 @@
 			"do_B"	"#RO_SH"
 			"always_known"	"1"
 			"premium_only"	"1"
+			"disabled"	"0"
 			"input_items"
 			{
 				"4"
@@ -57989,6 +58034,7 @@
 			"desc_outputs"	"#RO_Mask"
 			"always_known"	"1"
 			"premium_only"	"1"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58140,6 +58186,7 @@
 			"do_B"	"#TF_HalloweenBoss_Axe"
 			"always_known"	"1"
 			"premium_only"	"1"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -58213,6 +58260,7 @@
 			"do_B"	"#RI_HHg"
 			"always_known"	"1"
 			"premium_only"	"1"
+			"disabled"	"0"
 			"input_items"
 			{
 				"4"
@@ -58272,6 +58320,7 @@
 			"do_B"	"#TF_Amputator"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58332,6 +58381,7 @@
 			"do_B"	"#TF_CrusadersCrossbow"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -58392,6 +58442,7 @@
 			"do_B"	"#TF_UllapoolCaber"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -58451,6 +58502,7 @@
 			"do_B"	"#TF_LochNLoad"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58510,6 +58562,7 @@
 			"do_B"	"#TF_WarriorsSpirit"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58569,6 +58622,7 @@
 			"do_B"	"#TF_BuffaloSteak"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58628,6 +58682,7 @@
 			"do_B"	"#TF_GatlingGun"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58687,6 +58742,7 @@
 			"do_B"	"#TF_CandyCane"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58746,6 +58802,7 @@
 			"do_B"	"#TF_Claidheamohmor"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58805,6 +58862,7 @@
 			"do_B"	"#TF_BackScratcher"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58864,6 +58922,7 @@
 			"do_B"	"#TF_BostonBasher"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58923,6 +58982,7 @@
 			"do_B"	"#TF_FistsOfSteel"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -58982,6 +59042,7 @@
 			"do_B"	"#TF_Jag"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59042,6 +59103,7 @@
 			"do_B"	"#TF_Unique_RiftFireAxe"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -59102,6 +59164,7 @@
 			"do_B"	"#TF_Unique_RiftFireMace"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -59162,6 +59225,7 @@
 			"do_B"	"#TF_SoldierKatana"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -59221,6 +59285,7 @@
 			"do_B"	"#TF_SoldierSashimono"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59280,6 +59345,7 @@
 			"do_B"	"#TF_Kunai"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59339,6 +59405,7 @@
 			"do_B"	"#TF_Gunbai"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59399,6 +59466,7 @@
 			"do_B"	"#TF_SpaceChem_Fishcake"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -59459,6 +59527,7 @@
 			"do_B"	"#TF_SpaceChem_Pin"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -59519,6 +59588,7 @@
 			"do_B"	"#TF_SodaPopper"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59591,6 +59661,7 @@
 			"do_B"	"#TF_Winger"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59651,6 +59722,7 @@
 			"do_B"	"#TF_Atomizer"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59724,6 +59796,7 @@
 			"do_B"	"#TF_RussianRiot"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59797,6 +59870,7 @@
 			"do_B"	"#TF_Tomislav"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -59857,6 +59931,7 @@
 			"do_B"	"#TF_EvictionNotice"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -59917,6 +59992,7 @@
 			"do_B"	"#TF_Enforcer"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -59990,6 +60066,7 @@
 			"do_B"	"#TF_BigEarner"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -60063,6 +60140,7 @@
 			"do_B"	"#TF_BazaarBargain"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -60136,6 +60214,7 @@
 			"do_B"	"#TF_Shahanshah"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -60209,6 +60288,7 @@
 			"do_B"	"#TF_PersianPersuader"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -60269,6 +60349,7 @@
 			"do_B"	"#TF_SplendidScreen"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -60328,6 +60409,7 @@
 			"do_B"	"#TF_Ali_Babas_Wee_Booties"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -60388,6 +60470,7 @@
 			"do_B"	"#TF_LibertyLauncher"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -60448,6 +60531,7 @@
 			"do_B"	"#TF_ReserveShooter"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -60508,6 +60592,7 @@
 			"do_B"	"#TF_MarketGardener"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -60580,6 +60665,7 @@
 			"do_B"	"#TF_Mantreads"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -60640,6 +60726,7 @@
 			"do_B"	"#TF_DisciplinaryAction"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -60700,6 +60787,7 @@
 			"do_B"	"#TF_Weapon_Flaregun_Detonator"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -60760,6 +60848,7 @@
 			"do_B"	"#TF_Overdose"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -60833,6 +60922,7 @@
 			"do_B"	"#TF_SolemnVow"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"8"
@@ -60893,6 +60983,7 @@
 			"do_B"	"#TF_Unique_MediGun_QuickFix"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -60965,6 +61056,7 @@
 			"do_B"	"#TF_CowMangler"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61024,6 +61116,7 @@
 			"do_B"	"#TF_RighteousBison"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61084,6 +61177,7 @@
 			"do_B"	"#TF_DEX_Revolver"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61157,6 +61251,7 @@
 			"do_B"	"#TF_DEX_Rifle"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61230,6 +61325,7 @@
 			"do_B"	"#TF_DEX_Shotgun"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -61290,6 +61386,7 @@
 			"do_B"	"#TF_DEX_Pistol"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61363,6 +61460,7 @@
 			"do_B"	"#TF_TheOriginal"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -61422,6 +61520,7 @@
 			"do_B"	"#TF_SpyCicle"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61482,6 +61581,7 @@
 			"do_B"	"#TF_MasculineMittens"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61555,6 +61655,7 @@
 			"do_B"	"#TF_BallBuster"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61615,6 +61716,7 @@
 			"do_B"	"#TF_Phlogistinator"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61687,6 +61789,7 @@
 			"do_B"	"#TF_Manmelter"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61747,6 +61850,7 @@
 			"do_B"	"#TF_ThirdDegree"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61820,6 +61924,7 @@
 			"do_B"	"#TF_Pomson"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -61893,6 +61998,7 @@
 			"do_B"	"#TF_Wrenchmotron"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -61953,6 +62059,7 @@
 			"do_B"	"#TF_CozyCamper"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -62025,6 +62132,7 @@
 			"do_B"	"#TF_Unique_Pickaxe_EscapePlan"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -62084,6 +62192,7 @@
 			"do_B"	"#TF_PileOfAsh"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -62170,6 +62279,7 @@
 			"do_B"	"#TF_DS_DumpsterDevice"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -62230,6 +62340,7 @@
 			"do_B"	"#TF_Pro_SniperRifle"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -62303,6 +62414,7 @@
 			"do_B"	"#TF_Pro_SMG"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -62363,6 +62475,7 @@
 			"do_B"	"#TF_Weapon_PEP_Scattergun"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -62423,6 +62536,7 @@
 			"do_B"	"#TF_Weapon_PEP_Pistol"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -62496,6 +62610,7 @@
 			"do_B"	"#TF_ScorchShot"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"1"
@@ -62569,6 +62684,7 @@
 			"do_B"	"#TF_SD_Sign"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"2"
@@ -62629,6 +62745,7 @@
 			"do_B"	"#TF_SD_Cleaver"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -62689,6 +62806,7 @@
 			"do_B"	"#TF_SD_Minigun"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -62749,6 +62867,7 @@
 			"do_B"	"#TF_SD_Sapper"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -62808,6 +62927,7 @@
 			"do_B"	"#TF_Usable_PowerupBottle"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"4"
@@ -62971,7 +63091,7 @@
 		{
 			"name"	"#RT_F_A"
 			"n_A"	"#TF_Weapon_Shotgun_Building_Rescue"
-			"desc_inputs"	"#RDI_AB"
+			"desc_inputs"	"#RDI_ABC1"
 			"desc_outputs"	"#RDO_AB"
 			"di_A"	"3"
 			"di_B"	"#TF_Wrenchmotron"
@@ -62980,6 +63100,7 @@
 			"do_B"	"#TF_Weapon_Shotgun_Building_Rescue"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -63031,7 +63152,7 @@
 		{
 			"name"	"#RT_F_A"
 			"n_A"	"#TF_Weapon_Cannon"
-			"desc_inputs"	"#RDI_AB"
+			"desc_inputs"	"#RDI_ABC1"
 			"desc_outputs"	"#RDO_AB"
 			"di_A"	"3"
 			"di_B"	"#TF_LochNLoad"
@@ -63040,6 +63161,7 @@
 			"do_B"	"#TF_Weapon_Cannon"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
@@ -63091,7 +63213,7 @@
 		{
 			"name"	"#RT_F_A"
 			"n_A"	"#TF_Unique_MediGun_Resist"
-			"desc_inputs"	"#RDI_AB"
+			"desc_inputs"	"#RDI_ABC1"
 			"desc_outputs"	"#RDO_AB"
 			"di_A"	"3"
 			"di_B"	"#TF_Unique_MediGun_QuickFix"
@@ -63100,6 +63222,7 @@
 			"do_B"	"#TF_Unique_MediGun_Resist"
 			"always_known"	"1"
 			"premium_only"	"0"
+			"disabled"	"0"
 			"input_items"
 			{
 				"3"
