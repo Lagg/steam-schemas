@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.69cf179172bf1702eeefea603ec206085c8918fd.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.382cbd36075f110ef8b37a9cb50e6edbe8dea327.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -36401,6 +36401,14 @@
 				"used_by_classes": [
 					"Pyro"
 				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
+				]
 				
 			},
 			{
@@ -36426,6 +36434,14 @@
 				},
 				"used_by_classes": [
 					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "elevate quality",
+						"class": "set_elevated_quality",
+						"value": 1.000000
+					}
 				]
 				
 			},
@@ -51794,6 +51810,54 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "move speed set bonus",
+				"defindex": 489,
+				"attribute_class": "mult_player_movespeed",
+				"min_value": 1.050000,
+				"max_value": 1.100000,
+				"description_string": "+%s1% faster move speed on wearer",
+				"description_format": "value_is_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "health regen set bonus",
+				"defindex": 490,
+				"attribute_class": "add_health_regen",
+				"min_value": 0.300000,
+				"max_value": 0.500000,
+				"description_string": "+%s1 health regenerated per second on wearer",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "dmg taken from crit reduced set bonus",
+				"defindex": 491,
+				"attribute_class": "mult_dmgtaken_from_crit",
+				"min_value": 0.900000,
+				"max_value": 0.750000,
+				"description_string": "+%s1% critical hit damage resistance on wearer",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "dmg taken from fire reduced set bonus",
+				"defindex": 492,
+				"attribute_class": "mult_dmgtaken_from_fire",
+				"min_value": 0.950000,
+				"max_value": 0.900000,
+				"description_string": "+%s1% fire damage resistance on wearer",
+				"description_format": "value_is_inverted_percentage",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "CARD: damage bonus",
 				"defindex": 1000,
 				"attribute_class": "mult_dmg__mvm",
@@ -52043,7 +52107,7 @@
 				,
 				"attributes": [
 					{
-						"name": "dmg taken from fire reduced",
+						"name": "dmg taken from fire reduced set bonus",
 						"class": "mult_dmgtaken_from_fire",
 						"value": 0.900000
 					}
@@ -52104,7 +52168,7 @@
 				,
 				"attributes": [
 					{
-						"name": "dmg taken from crit reduced",
+						"name": "dmg taken from crit reduced set bonus",
 						"class": "mult_dmgtaken_from_crit",
 						"value": 0.950000
 					}
@@ -52166,7 +52230,7 @@
 				,
 				"attributes": [
 					{
-						"name": "health regen",
+						"name": "health regen set bonus",
 						"class": "add_health_regen",
 						"value": 1.000000
 					}
@@ -52185,7 +52249,7 @@
 				,
 				"attributes": [
 					{
-						"name": "move speed bonus",
+						"name": "move speed set bonus",
 						"class": "mult_player_movespeed",
 						"value": 1.100000
 					},

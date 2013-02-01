@@ -416,6 +416,8 @@
 			"item_type_name"	"#TF_T"
 			"item_description"	"#TF_Tool_PaintCan_TeamColor_Desc"
 			"image_inventory"	"backpack/player/items/crafting/teampaint"
+			"image_inventory_overlay"	"backpack/player/items/crafting/teampaint_blu_mask"
+			"image_inventory_overlay2"	"backpack/player/items/crafting/teampaint_red_mask"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"96"
 			"item_quality"		"unique"
@@ -42382,6 +42384,14 @@
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
 		}
 		"2085"
 		{
@@ -42406,6 +42416,14 @@
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
+			"attributes"
+			{
+				"elevate quality"
+				{
+					"attribute_class"	"set_elevated_quality"
+					"value"	"1"
+				}
+			}
 		}
 		"2086"
 		{
@@ -54071,6 +54089,66 @@
 			"effect_type"	"negative"
 			"stored_as_integer"	"0"
 		}
+		"489"
+		{
+			"name"	"move speed set bonus"
+			"attribute_class"	"mult_player_movespeed"
+			"attribute_name"	"Minor move speed bonus"
+			"min_value"	"1.05"
+			"max_value"	"1.1"
+			"group"	"passive"
+			"description_string"	"#Attrib_MoveSpeed_Bonus"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"490"
+		{
+			"name"	"health regen set bonus"
+			"attribute_class"	"add_health_regen"
+			"attribute_name"	"Minor health regeneration"
+			"min_value"	"0.3"
+			"max_value"	"0.5"
+			"group"	"passive"
+			"description_string"	"#Attrib_HealthRegen"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"491"
+		{
+			"name"	"dmg taken from crit reduced set bonus"
+			"attribute_class"	"mult_dmgtaken_from_crit"
+			"attribute_name"	"Minor crit damage reduction"
+			"min_value"	"0.9"
+			"max_value"	"0.75"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_DmgTaken_From_Crit_Reduced"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"492"
+		{
+			"name"	"dmg taken from fire reduced set bonus"
+			"attribute_class"	"mult_dmgtaken_from_fire"
+			"attribute_name"	"Minor fire damage reduction"
+			"min_value"	"0.95"
+			"max_value"	"0.9"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_DmgTaken_From_Fire_Reduced"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
 		
 		"1000"
 		{
@@ -54209,7 +54287,7 @@
 			}
 			"attributes"
 			{
-				"move speed bonus"
+				"move speed set bonus"
 				{
 					"attribute_class"	"mult_player_movespeed"
 					"value"	"1.1"
@@ -54315,7 +54393,7 @@
 			}
 			"attributes"
 			{
-				"health regen"
+				"health regen set bonus"
 				{
 					"attribute_class"	"add_health_regen"
 					"value" "1"
@@ -54334,7 +54412,7 @@
 			}
 			"attributes"
 			{
-				"dmg taken from crit reduced"
+				"dmg taken from crit reduced set bonus"
 				{
 					"attribute_class"	"mult_dmgtaken_from_crit"
 					"value"			"0.95"
@@ -54352,7 +54430,7 @@
 			}
 			"attributes"
 			{
-				"dmg taken from fire reduced"
+				"dmg taken from fire reduced set bonus"
 				{
 					"attribute_class"	"mult_dmgtaken_from_fire"
 					"value"			"0.9"
@@ -64696,6 +64774,7 @@
 				"strangeprefixtoken"	"#TF_Gullywash_StrangePrefix"
 				"maptoken"				"Map Token Gullywash"
 				"authors"				"#cp_gullywash_final1_authors"
+				"quickplay_type"		"disabled"
 			}
 		}
 		"ctf"
@@ -64809,6 +64888,14 @@
 			{
 				"name"					"cp_foundry"
 				"localizedname"			"#TF_Map_cp_foundry"
+			}
+			"9"
+			{
+				"name"					"cp_gullywash_final1"
+				"localizedname"			"#TF_Gullywash"
+				"strangeprefixtoken"	"#TF_Gullywash_StrangePrefix"
+				"maptoken"				"Map Token Gullywash"
+				"authors"				"#cp_gullywash_final1_authors"
 			}
 		}
 		"koth"
@@ -65107,6 +65194,26 @@
 			"13595446"	"#TF_HalloweenSpell_Footprints_13595446_Attr"
 			"8208497"	"#TF_HalloweenSpell_Footprints_8208497_Attr"
 			"2"			"#TF_HalloweenSpell_Footprints_2_Attr"
+		}
+	}
+	"community_market_item_remaps"
+	{
+		"Supply Crate"
+		{
+			"Supply Crate 2"			"1"
+			"Supply Crate 3"			"1"
+		}
+		"Decoder Ring"
+		{
+			"Winter Key"				"1"
+			"Summer Key"				"1"
+			"Naughty Winter Key 2011"	"1"
+			"Nice Winter Key 2011"		"1"
+			"Scorched Key"				"1"
+			"Fall Key 2012"				"1"
+			"Eerie Key"					"1"
+			"Naughty Winter Key 2012"	"1"
+			"Nice Winter Key 2012"		"1"
 		}
 	}
 }
