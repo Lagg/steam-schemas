@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.3bdc55ad1222b08bdc7f6e57c976380d0a81ed0f.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.e07112ae70a6697feded0a5e4e3073e00e14a503.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -3890,6 +3890,27 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Mount",
 				"item_name": "Chaos Knights horse",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 0,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Warlock's Golem",
+				"defindex": 182,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Golem",
+				"item_name": "Warlock's Golem",
 				"item_description": "This new item has no description.",
 				"proper_name": false,
 				"item_quality": 0,
@@ -9196,7 +9217,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Royal Admiral's Bicorne",
@@ -9218,7 +9247,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Tricorne of the Drowned",
@@ -11488,7 +11525,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Ability Modifier",
 				"item_name": "Call of the Dendrochron",
-				"item_description": "This item changes the appearance of the treant warrors summoned by Nature's Call. Even the dreaded axe cannot hold their kind in check.",
+				"item_description": "This item changes the appearance of the treant warriors summoned by Nature's Call. Even the dreaded axe cannot hold their kind in check.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/furion\/treant_stump_npc_dota_furion_treant",
@@ -11924,7 +11961,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Grand Curls of the Admirable Admiral",
@@ -11947,7 +11992,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Seafarer's Shoes",
@@ -12348,7 +12401,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Armor of the Radiant Crusader",
@@ -12507,7 +12568,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Cerebral Support",
@@ -12883,7 +12952,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Executioner's Axe",
@@ -15033,7 +15110,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Death Mask of the Brave",
@@ -15261,7 +15346,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Deathwielder",
@@ -15305,7 +15398,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Ancient Mask of Intimidation",
@@ -16208,7 +16309,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Ruling Sword",
@@ -17466,7 +17575,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "The Spiritual Spirits",
@@ -18409,7 +18526,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Edge of the Slain Dragon",
@@ -18507,7 +18632,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "edge_tail",
@@ -18730,7 +18863,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Saberhorn's Pauldron",
@@ -18955,7 +19096,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Runed Helm of Valor",
@@ -19458,7 +19607,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Lantern of Death's Last Light",
@@ -20622,7 +20779,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Shuriken of the Crimson Cut-throat",
@@ -20885,7 +21050,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Armlet of Renewed Faith",
@@ -21131,7 +21304,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Helm of Thunderwrath's Calling",
@@ -21737,7 +21918,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Broodmother_Torso_neph",
@@ -21782,7 +21971,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Crown of the Falling Comet",
@@ -22121,19 +22318,20 @@
 				}
 			},
 			{
-				"name": "wingsweapon2",
+				"name": "Gilded Falcon Bow",
 				"defindex": 4552,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "wingsweapon2",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Bow",
+				"item_name": "Gilded Falcon Bow",
+				"item_description": "An ancient bow of oak and iron, gilded with the golden feathers of a sacred falcon.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/windrunner\/wingsweapon2\/wingsweapon2",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/wingsweapon2\/wingsweapon2.407d6753206954488c99b8b1da021143067555f0.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/wingsweapon2\/wingsweapon2_large.796b1e7561532da2e266c448d821c0fc5deb66c4.png",
+				"item_set": "gilded_falcon",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -22143,19 +22341,20 @@
 				}
 			},
 			{
-				"name": "featherquiver21",
+				"name": "Gilded Falcon Quiver",
 				"defindex": 4553,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "featherquiver21",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Quiver",
+				"item_name": "Gilded Falcon Quiver",
+				"item_description": "As the diving bird of prey has talons, so the archer has arrows.  And many are the arrows that can be held in the quiver of the gilded falcon.  ",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/windrunner\/featherquiver21\/featherquiver21",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/featherquiver21\/featherquiver21.9b3c27196f810db6b50a6de7b6233fdefdb52eb8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/featherquiver21\/featherquiver21_large.8373405fbe7f01989b370a322a9dda552f270209.png",
+				"item_set": "gilded_falcon",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -22165,19 +22364,20 @@
 				}
 			},
 			{
-				"name": "falconcloak",
+				"name": "Gilded Falcon Cloak",
 				"defindex": 4554,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "falconcloak",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Cloak",
+				"item_name": "Gilded Falcon Cloak",
+				"item_description": "This beautiful emrald cloak is embroidered with the ancient sidgel of the gilded falcon.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/windrunner\/falconcloak\/falconcloak",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/falconcloak\/falconcloak.118c0d5d1ccae3e677cac8c312c6ab17322f7e8c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/falconcloak\/falconcloak_large.3e3856e5804cdc2967aea397af2aeceb58de3081.png",
+				"item_set": "gilded_falcon",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -22275,19 +22475,20 @@
 				}
 			},
 			{
-				"name": "falconhelm1",
+				"name": "Gilded Falcon Helm",
 				"defindex": 4559,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "falconhelm1",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Helm",
+				"item_name": "Gilded Falcon Helm",
+				"item_description": "A helm of great strength and beauty, this armor of the gilden falcon offers a special kind of security, protecting both the wearer's head and identity.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/windrunner\/falconhelm1\/falconhelm1",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/falconhelm1\/falconhelm1.c467ce31b3f511bc357a493f65e2c62ab969320e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/falconhelm1\/falconhelm1_large.394407e833fb8dbc5cd66be501aeece23a306d61.png",
+				"item_set": "gilded_falcon",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -22343,19 +22544,20 @@
 				}
 			},
 			{
-				"name": "wingsshoulders2",
+				"name": "Gilded Falcon Wings",
 				"defindex": 4562,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "wingsshoulders2",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Wings",
+				"item_name": "Gilded Falcon Wings",
+				"item_description": "Like the angvols of old legends, these golden falcon wings speed Windrunner's flight into battle.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/windrunner\/wingsshoulders2\/wingsshoulders2",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/wingsshoulders2\/wingsshoulders2.bc55747268da4a3b5e8b311caa0989a1ac2343bd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/windrunner\/wingsshoulders2\/wingsshoulders2_large.5ca0211a45d5ed913e4b59cf8c3fbb2b2d2ea8cd.png",
+				"item_set": "gilded_falcon",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -23568,7 +23770,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "doom_apoc_sword",
@@ -23754,7 +23964,15 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 0.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Sword of the Eleven Curses",
@@ -24180,7 +24398,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Demon",
 				"item_name": "Ishul-Shog the Watcher",
-				"item_description": "This new item has no description.",
+				"item_description": "Demnok studied for years to construct the true name of the Watcher, hoping to bind a creature powerful enough to know and reveal the Ozkavosh tongue.  Unfortunately, the Watcher lacks a tongue.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/warlock\/archivist_golem\/archivist_golem_npc_dota_warlock_golem_1",
@@ -25045,19 +25263,20 @@
 				}
 			},
 			{
-				"name": "Anuxi_wildkin_arm",
+				"name": "Bangles of the Wildwing's Blessing",
 				"defindex": 4676,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Anuxi_wildkin_arm",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Bangles",
+				"item_name": "Bangles of the Wildwing's Blessing",
+				"item_description": "The Wildwings treasure their lost feathers, saving them to line the nests where they raise their young. It speaks of their deep respect for Enchantress that they gifted her these feathers for her bangles.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/enchantress\/anuxi_wildkin_arm\/anuxi_wildkin_arm",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wildkin_arm\/anuxi_wildkin_arm.69c988367f0537186ef5c4f0aca4b5adf84c1b30.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wildkin_arm\/anuxi_wildkin_arm_large.e8143b15f36bb094cd928c61dcac619966980350.png",
+				"item_set": "wildkin_blessing",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -25067,85 +25286,20 @@
 				}
 			},
 			{
-				"name": "Anuxi_wildkin_hair",
-				"defindex": 4677,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Anuxi_wildkin_hair",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
-				"name": "Anuxi_wildkin_neck",
+				"name": "Necklace of the Wildwing's Blessing",
 				"defindex": 4678,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Anuxi_wildkin_neck",
-				"item_description": "This new item has no description.",
+				"item_type_name": "Necklace",
+				"item_name": "Necklace of the Wildwing's Blessing",
+				"item_description": "The Wildwing are fierce and territorial, but they more than tolerate Enchantress in their realms: They welcome her.",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
+				"image_inventory": "econ\/items\/enchantress\/anuxi_wildkin_neck\/anuxi_wildkin_neck",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
-				"name": "Anuxi_wldkin_dress",
-				"defindex": 4679,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Anuxi_wldkin_dress",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
-				"name": "Anuxi_wildkin_weapon",
-				"defindex": 4680,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "Anuxi_wildkin_weapon",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wildkin_neck\/anuxi_wildkin_neck.bd75498d76341c4fccda45eeef1c24fa643a0fde.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wildkin_neck\/anuxi_wildkin_neck_large.a2f59e6499f6916a804967d096db5aa915f8a3c6.png",
+				"item_set": "wildkin_blessing",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -25228,7 +25382,7 @@
 				"defindex": 4684,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Dress",
-				"item_name": "",
+				"item_name": "Ancestral Dress",
 				"item_description": "Bound with rope and made of simple fabrics, this dress burns with Nothl strength.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -26455,50 +26609,6 @@
 				}
 			},
 			{
-				"name": "armor_wander_vest512",
-				"defindex": 4737,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "armor_wander_vest512",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
-				"name": "arms_wande",
-				"defindex": 4738,
-				"item_class": "dota_item_wearable",
-				"item_type_name": "New Item",
-				"item_name": "arms_wande",
-				"item_description": "This new item has no description.",
-				"proper_name": false,
-				"item_quality": 4,
-				"image_inventory": "econ\/testitem_slot_empty",
-				"min_ilevel": 1,
-				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
-				"capabilities": {
-					"nameable": true,
-					"can_craft_mark": true,
-					"can_be_restored": true,
-					"strange_parts": true,
-					"paintable_unusual": true
-				}
-			},
-			{
 				"name": "armor_sandba",
 				"defindex": 4739,
 				"item_class": "dota_item_wearable",
@@ -27168,6 +27278,373 @@
 				}
 			},
 			{
+				"name": "Fashion of Yoskreth",
+				"defindex": 4769,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Mask",
+				"item_name": "Fashion of Yoskreth",
+				"item_description": "The fashions of Yoskreth are not common in much of the rest of the world.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/antimage\/wh_mask\/wh_mask",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_mask\/wh_mask.209cd6f42f4c8452436a3359debe55e063a7df16.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_mask\/wh_mask_large.8b6a5fc4cd3187c32e88d54ae54627093db0fc17.png",
+				"item_set": "witch_hunter",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Spellbreaker of Yoskreth",
+				"defindex": 4770,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Guard",
+				"item_name": "Spellbreaker of Yoskreth",
+				"item_description": "The soverign of Yoskreth insisted that their champion be given the finest guard they could forge.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/antimage\/wh_shoulder\/wh_shoulder",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_shoulder\/wh_shoulder.8e4a165c871f30c4e5fd02f9dca5af0d5249f04f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_shoulder\/wh_shoulder_large.66ab772e07dfd6f133ecc248b4ec6830a4987baa.png",
+				"item_set": "witch_hunter",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "deserts_deathly_embrace_head",
+				"defindex": 4771,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "New Item",
+				"item_name": "deserts_deathly_embrace_head",
+				"item_description": "This new item has no description.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/testitem_slot_empty",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty.57f48103eed57e2cfa3d041f979f96a6869c1d22.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/testitem_slot_empty_large.b6957dfef6cc64f6d6553435c0d17895117c5222.png",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Armguards of the Penitent Nomad",
+				"defindex": 4772,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Armguard",
+				"item_name": "Armguards of the Penitent Nomad",
+				"item_description": "In penance for his transgressions Chen was made to don the arms of his new faith, and wander his former desert home seeking conversions.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/chen\/arms_nomad\/arms_nomad",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/arms_nomad\/arms_nomad.db48e6d9a1f4c9488f2d6fe6e2b78884a53b05a8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/arms_nomad\/arms_nomad_large.c87c0c120e3ed00eb3a0f81344d718c8e171fc76.png",
+				"item_set": "desert_nomad",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Shoulderguards of the Penitent Nomad",
+				"defindex": 4773,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Shoulderguard",
+				"item_name": "Shoulderguards of the Penitent Nomad",
+				"item_description": "The shoulderguards reflect the heavenly light above as a beacon of salvation visible from leagues away.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/chen\/shoulders_nomad\/shoulders_nomad",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/shoulders_nomad\/shoulders_nomad.80ff9363b998e270f50ae2c5cc692e0e75bf34ed.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/shoulders_nomad\/shoulders_nomad_large.bf88f5f84735d5cb529d58bcf74c3c2e32c76756.png",
+				"item_set": "desert_nomad",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Turban of the Penitent Nomad",
+				"defindex": 4774,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Turban",
+				"item_name": "Turban of the Penitent Nomad",
+				"item_description": "Those of the Hazhadal Barrens know the dangers of wearing improper headgear in the desert wastes.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/chen\/head_nomad\/head_nomad",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/head_nomad\/head_nomad.177c9ca1684a116349c4b15224e19bda1b890240.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/head_nomad\/head_nomad_large.d113fadff78bed22ef1eca5806f0c513dfdd6c7f.png",
+				"item_set": "desert_nomad",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Locuthi Barding of the Penitent Nomad",
+				"defindex": 4776,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Barding",
+				"item_name": "Locuthi Barding of the Penitent Nomad",
+				"item_description": "The barding is lighter both in weight and in coloring, both necessary elements for survival in the dry wastes.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/chen\/armor_nomad\/armor_nomad",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/armor_nomad\/armor_nomad.9c87f2053fbd8d83dd8c2193f3ed8fe39cfac639.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/armor_nomad\/armor_nomad_large.433283604de076e203a03d49cbe05bf7af8dbbe5.png",
+				"item_set": "desert_nomad",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Commanding Rod of the Penitent Nomad",
+				"defindex": 4777,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Staff",
+				"item_name": "Commanding Rod of the Penitent Nomad",
+				"item_description": "Though it does not have the heft of the traditional rod, it lacks none of its potency.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/chen\/weapon_nomad\/weapon_nomad",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/weapon_nomad\/weapon_nomad.2239586c5808ff350ca785eb97e53ac7cb52cce6.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/chen\/weapon_nomad\/weapon_nomad_large.ee2b5e1a78cb16411759dfd8b562d3ba2a864b43.png",
+				"item_set": "desert_nomad",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Sash of Yoskreth",
+				"defindex": 4778,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Armor",
+				"item_name": "Sash of Yoskreth",
+				"item_description": "In his gratitude, the soverign of Yoskreth bid that fine robes be made for the warrior who had bested Sahsk's vile enchantments.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/antimage\/wh_armor\/wh_armor",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_armor\/wh_armor.f3982d8c5585479dba0fbbdb8351508ba6d8b906.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_armor\/wh_armor_large.bb376d6a3c4f22688b5f5b2f5b48343890ac02fd.png",
+				"item_set": "witch_hunter",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Etched Crescent of Yoskreth - Off-Hand",
+				"defindex": 4779,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Blade",
+				"item_name": "Etched Crescent of Yoskreth - Off-Hand",
+				"item_description": "With the defeat of Sahsk, the soverign of Yoskreth granted the Anti-Mage tools befitting one of such power and skill.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/antimage\/wh_offhand_weapon\/wh_offhand_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_offhand_weapon\/wh_offhand_weapon.340eb9361e396693ac77b0617b9651a3101ee759.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_offhand_weapon\/wh_offhand_weapon_large.867bd4b199bcae217f0bb17f1c7e275c99a8e5e2.png",
+				"item_set": "witch_hunter",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Etched Crescent of Yoskreth",
+				"defindex": 4781,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Blade",
+				"item_name": "Etched Crescent of Yoskreth",
+				"item_description": "With the defeat of Sahsk, the soverign of Yoskreth granted the Anti-Mage tools befitting one of such power and skill.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/antimage\/wh_weapon\/wh_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_weapon\/wh_weapon.847b808f99658a1e5b3c5c937848ea595b9c6d6c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_weapon\/wh_weapon_large.34281e067850b0f06939cc2c7c1712a35f00f025.png",
+				"item_set": "witch_hunter",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Belt of Yoskreth",
+				"defindex": 4782,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Belt",
+				"item_name": "Belt of Yoskreth",
+				"item_description": "Fine cloth is combined with the silvered metals that make up the royal patterns of Yoskreth.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/antimage\/wh_belt\/wh_belt",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_belt\/wh_belt.5ca4f12f6a55532e375f4231226cd402495b7910.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_belt\/wh_belt_large.249b81d7aa4cfa07d36138907e662d833e71d5c5.png",
+				"item_set": "witch_hunter",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Bracers of Yoskreth",
+				"defindex": 4784,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Bracer",
+				"item_name": "Bracers of Yoskreth",
+				"item_description": "Fine cloth is combined with the silvered metals that make up the royal patterns of Yoskreth.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/antimage\/wh_arms\/wh_arms",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_arms\/wh_arms.4ad13fd9436da7dd54ee4f55fd64b48e74325387.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_arms\/wh_arms_large.3af0214a2fbf678216f2822f110bfd75bc6ed012.png",
+				"item_set": "witch_hunter",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Spear of the Wildwing's Blessing",
+				"defindex": 4785,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Spear",
+				"item_name": "Spear of the Wildwing's Blessing",
+				"item_description": "It is unfortunate that a few rogue Wildkin must spoil the proud race's reputation, but when it is time to hunt those few rascals down, Enchantress bears a spear granted her by the wisest of the Wildwing race.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/enchantress\/anuxi_wldkin_weapon2\/anuxi_wldkin_weapon2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wldkin_weapon2\/anuxi_wldkin_weapon2.77fb5ed8a9fb1201f6f2fd4d833d74118edc852e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wldkin_weapon2\/anuxi_wldkin_weapon2_large.6d238b88f952293cfcccd0bf3250efb8f7051b9e.png",
+				"item_set": "wildkin_blessing",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Headdress of the Wildwing's Blessing",
+				"defindex": 4786,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Hair",
+				"item_name": "Headdress of the Wildwing's Blessing",
+				"item_description": "Enchantress passes unchallenged through Wildwing territories when she wears this headdress.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/enchantress\/anuxi_wldkin_hair2\/anuxi_wldkin_hair2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wldkin_hair2\/anuxi_wldkin_hair2.08b6061de0641f51b98d5345e68e409edfad5645.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wldkin_hair2\/anuxi_wldkin_hair2_large.12fbe357d3ed2116a0eabcc5b05f4fb4f0024c2b.png",
+				"item_set": "wildkin_blessing",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Wingbelt of the Wildwing's Blessing",
+				"defindex": 4787,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Belt",
+				"item_name": "Wingbelt of the Wildwing's Blessing",
+				"item_description": "Fear not, this belt was crafted by Wildwing artisans from thousands of feathers plucked painlessly from living individuals; and not, as some have suggested, hacked from a dead Wildwing.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/enchantress\/anuxi_wldkin_dress2\/anuxi_wldkin_dress2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wldkin_dress2\/anuxi_wldkin_dress2.7d21b45a4ffb76df6a58ff56a0439fdce335ddea.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/enchantress\/anuxi_wldkin_dress2\/anuxi_wldkin_dress2_large.fe5ea313329f51ab3cf0aab037de074161522ad2.png",
+				"item_set": "wildkin_blessing",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
 				"name": "Free Trial Premium Upgrade",
 				"defindex": 10000,
 				"item_class": "upgrade",
@@ -27217,7 +27694,7 @@
 				"name": "Toxic Gaze",
 				"defindex": 10002,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "Toxic Gaze",
 				"item_description": "May cause blindness.",
 				"proper_name": false,
@@ -27344,7 +27821,7 @@
 				"name": "Slayer's Glare",
 				"defindex": 10006,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "Slayer's Glare",
 				"item_description": "Why light a fire if you can't watch it burn?",
 				"proper_name": false,
@@ -27382,7 +27859,25 @@
 					"can_be_restored": true,
 					"strange_parts": true,
 					"paintable_unusual": true
-				}
+				},
+				"attributes": [
+					{
+						"name": "league id",
+						"class": "",
+						"value": 21.000000
+					},
+					{
+						"name": "kill eater",
+						"class": "kill_eater",
+						"value": 0.000000
+					},
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 33.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Announcer: Dr. Kleiner",
@@ -27431,7 +27926,7 @@
 				"name": "Nightmare Beacon",
 				"defindex": 10010,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "Nightmare Beacon",
 				"item_description": "The terrors of battle hold many dark secrets.",
 				"proper_name": false,
@@ -29510,7 +30005,7 @@
 				"name": "Eyeball Fetish",
 				"defindex": 10067,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "Eyeball Fetish",
 				"item_description": "\"I like to watch.\"",
 				"proper_name": false,
@@ -29532,7 +30027,7 @@
 				"name": "Staff of Faith",
 				"defindex": 10068,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "Staff of Faith",
 				"item_description": "Seeing is believing.",
 				"proper_name": false,
@@ -29554,7 +30049,7 @@
 				"name": "Lightning Rod",
 				"defindex": 10069,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "Lightning Rod",
 				"item_description": "Far sees the eye when lightning illuminates the darkness.",
 				"proper_name": false,
@@ -30150,7 +30645,7 @@
 				"name": "Eye of the Ozkavosh",
 				"defindex": 10097,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "Eye of the Ozkavosh",
 				"item_description": "Until its fall, none could escape the spying gaze of the First Dominion.",
 				"proper_name": false,
@@ -30172,7 +30667,7 @@
 				"name": "Blueheart Spotter",
 				"defindex": 10098,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "Blueheart Spotter",
 				"item_description": "Here's eyes in your ice!",
 				"proper_name": false,
@@ -30993,15 +31488,15 @@
 				
 			},
 			{
-				"name": "Diretide",
+				"name": "Diretide HUD Skin",
 				"defindex": 10137,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "HUD Skin",
-				"item_name": "Diretide",
-				"item_description": "Skin included with Diretide 2012",
+				"item_name": "Diretide HUD Skin",
+				"item_description": "description of Diretide HUD",
 				"proper_name": false,
 				"item_quality": 4,
-				"image_inventory": "econ\/hud_skins\/diretide",
+				"image_inventory": "econ\/huds\/hud_diretide",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "",
@@ -31136,7 +31631,7 @@
 				"name": "2012 Polycount Ward",
 				"defindex": 10142,
 				"item_class": "dota_item_wearable",
-				"item_type_name": "Ward",
+				"item_type_name": "ward",
 				"item_name": "2012 Polycount Ward",
 				"item_description": "Ward presented to winners of the 2012 Winter Polycount Contest",
 				"proper_name": false,
@@ -31238,6 +31733,28 @@
 				
 			},
 			{
+				"name": "Lich's Black Pool Watcher",
+				"defindex": 10146,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "ward",
+				"item_name": "Lich's Black Pool Watcher",
+				"item_description": "Silently surveying and plotting the theft of your mana.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/wards\/lich_black_pool_watcher\/lich_black_pool_watcher_npc_dota_observer_wards",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
 				"name": "Cluckles the Brave",
 				"defindex": 10147,
 				"item_class": "dota_item_wearable",
@@ -31258,6 +31775,244 @@
 					"strange_parts": true,
 					"paintable_unusual": true
 				}
+			},
+			{
+				"name": "Warlock Ward",
+				"defindex": 10148,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "ward",
+				"item_name": "Warlock Ward",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/wards\/warlock_hells_sight\/warlock_hells_sight_npc_dota_observer_wards_large",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Radiant HUD Skin",
+				"defindex": 10149,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "HUD Skin",
+				"item_name": "Radiant HUD Skin",
+				"item_description": "Blesses your HUD with the benevolent magic of the Radiant.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/huds\/hud_radiant",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/huds\/hud_radiant.8a926f8d7925edb141df99592979b95051902aab.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Dire HUD Skin",
+				"defindex": 10150,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "HUD Skin",
+				"item_name": "Dire HUD Skin",
+				"item_description": "Imbues your HUD with the inimical magic of the Dire.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/huds\/hud_dire",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/huds\/hud_dire.61e03f9e7c9a03640349a0e35c39b82409200ba1.png",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Frostivus HUD Skin",
+				"defindex": 10151,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "HUD Skin",
+				"item_name": "Frostivus HUD Skin",
+				"item_description": "description of Frostivus HUD",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/huds\/hud_frostivus",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "",
+				"image_url_large": "",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Treasure of the Omniscient",
+				"defindex": 10152,
+				"item_class": "supply_crate",
+				"item_type_name": "Treasure",
+				"item_name": "Treasure of the Omniscient",
+				"item_description": "You will need a <font color='#9da1a9'>Treasure Key<\/font> to open this chest. You can pick one up at the DOTA 2 Store. Each chest series comes with a different selection of possible loot.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/treasure_chest_omniknight",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_omniknight.d3fa18181b0703def977a63583d34429ca9fdf79.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_omniknight_large.e8675af8ae3f4507a6a8c31c4be8a2a4ac64d362.png",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "supply_crate"
+				},
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 23.000000
+					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Treasure of the Restless Seas",
+				"defindex": 10153,
+				"item_class": "supply_crate",
+				"item_type_name": "Treasure",
+				"item_name": "Treasure of the Restless Seas",
+				"item_description": "You will need a <font color='#9da1a9'>Treasure Key<\/font> to open this chest. You can pick one up at the DOTA 2 Store. Each chest series comes with a different selection of possible loot.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/treasure_chest_kunkka",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_kunkka.0b68bc1d05fe5fc30f20f8ca32a46d23e5a1a441.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_kunkka_large.f3c847ab32380c519d580c95a852717e68144065.png",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "supply_crate"
+				},
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 24.000000
+					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Treasure of Tidal Power",
+				"defindex": 10154,
+				"item_class": "supply_crate",
+				"item_type_name": "Treasure",
+				"item_name": "Treasure of Tidal Power",
+				"item_description": "You will need a <font color='#9da1a9'>Treasure Key<\/font> to open this chest. You can pick one up at the DOTA 2 Store. Each chest series comes with a different selection of possible loot.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/treasure_chest_morphling",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_morphling.9922e8c65a32adf2d8bd01e8f3c6487a21d30aae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_morphling_large.54ed7c0dc923dd3b7e793836c6aca1e0c9dc060a.png",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "supply_crate"
+				},
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 25.000000
+					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Treasure of the Forbidden Lotus",
+				"defindex": 10155,
+				"item_class": "supply_crate",
+				"item_type_name": "Treasure",
+				"item_name": "Treasure of the Forbidden Lotus",
+				"item_description": "A strange and fragrant chest. The lock is of an unknown design and the contents are currently a mystery.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/tools\/treasure_chest_lotus",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_lotus.fcda44c5bb616a3def9304cd68ce6b2c9a1a3e2e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/treasure_chest_lotus_large.9b7d9ec44821d2f9bef7efc96dc355be6f53d0f9.png",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "supply_crate",
+					"restriction": "community_2"
+				},
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 26.000000
+					},
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
 			},
 			{
 				"name": "Name Tag",
@@ -32995,7 +33750,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "defense2",
 					"usage_capabilities": {
 						"decodable": true
 					}
@@ -34429,7 +35183,7 @@
 				"min_ilevel": 1,
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/strange_types_facelessvoid_ft_chronosphere.e9cb80a0a8cc15c8ee63e82732a1c28e5a5c7d86.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/strange_types_facelessvoid_ft_chronosphere_large.93162349fc8af8fd1a4c597f61feda1f250bfc9e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/tools\/strange_types_facelessvoid_ft_chronosphere_large.3b1bd82a2bb286257a955b2940e00967e3e11e86.png",
 				"capabilities": {
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -35654,7 +36408,7 @@
 				"item_class": "tool",
 				"item_type_name": "Tool",
 				"item_name": "Dark Treasure Key",
-				"item_description": "A key ensorcelled with dark magic. It can only be used to open a Treasure of Dark Implements.",
+				"item_description": "Used to open locked <font color='#9da1a9'>Treasure Chests<\/font>.\r\nDouble click or right-click the key in your backpack and select the chest you want to open.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/tools\/communitypack1_key",
@@ -35670,7 +36424,6 @@
 				},
 				"tool": {
 					"type": "decoder_ring",
-					"restriction": "community_pack_1",
 					"usage_capabilities": {
 						"decodable": true
 					}
@@ -38822,8 +39575,8 @@
 				"image_inventory": "econ\/sets\/DOTA_Item_Tools_of_the_Haruspex_Set",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_tools_of_the_haruspex_set.7702b82e7697ef53c4fea9eef0cc3f0acb6952fe.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_tools_of_the_haruspex_set_large.5496a12cd05e0f272376ea0b2a54a89601deaeca.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_tools_of_the_haruspex_set.23fe9b123ca1ed82eaae9b65f3c4333afc4c0a37.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_tools_of_the_haruspex_set_large.86d5ed1a15ade2d0075cce5850656a2eb74fa99d.png",
 				"capabilities": {
 					"nameable": true,
 					"usable_gc": true,
@@ -38850,8 +39603,148 @@
 				"image_inventory": "econ\/sets\/DOTA_Item_The_Demonic_Archivist_Set",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_demonic_archivist_set.2d92aed2aef2f1fe9066972f9542aa911efb4ced.png",
-				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_demonic_archivist_set_large.9037a3911754c82dfb463533a762ca41aaa0ae98.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_demonic_archivist_set.11b7f556005f6888a1e2279cd7bb5d232fbf6580.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_demonic_archivist_set_large.54de80dc67d9c44aa13f79d64df10384756fa50a.png",
+				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
+				}
+			},
+			{
+				"name": "Arms of the Penitent Nomad Set",
+				"defindex": 20110,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "Arms of the Penitent Nomad Set",
+				"item_description": "This bundle contains all of the items in the 'Arms of the Penitent Nomad Set' set for Chen:",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/sets\/DOTA_Item_Splendor_of_the_Desert_Nomad_Set",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_splendor_of_the_desert_nomad_set.f3a4bdb5e1a860ef00e3dc21b7ceed5201db205d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_splendor_of_the_desert_nomad_set_large.5f4f5f7ab0e9d9e187f80f51ad50d598a7853f1b.png",
+				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
+				}
+			},
+			{
+				"name": "Etched Crescents of Yoskreth Pack",
+				"defindex": 20111,
+				"item_class": "bundle",
+				"item_type_name": "Paired Weapons",
+				"item_name": "Etched Crescents of Yoskreth Pack",
+				"item_description": "This bundle contains both the main and off-hand Etched Crescent of Yoskreth.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/antimage\/wh_offhand_weapon\/wh_offhand_weapon",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_offhand_weapon\/wh_offhand_weapon.340eb9361e396693ac77b0617b9651a3101ee759.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/items\/antimage\/wh_offhand_weapon\/wh_offhand_weapon_large.867bd4b199bcae217f0bb17f1c7e275c99a8e5e2.png",
+				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
+				}
+			},
+			{
+				"name": "The Gifts of Yoskreth Set",
+				"defindex": 20112,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "The Gifts of Yoskreth Set",
+				"item_description": "This bundle contains all of the items in the 'Gifts of Yoskreth' set for Anti-Mage:",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/sets\/DOTA_Item_The_Hunter_of_Witches_Set",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_hunter_of_witches_set.3e4f8a3017ccac047f1d7e840b54cf95aa8ffd20.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_the_hunter_of_witches_set_large.c05196de4e140850a9083a3264ccfd6345224a81.png",
+				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
+				}
+			},
+			{
+				"name": "Wings of the Gilded Falcon Set",
+				"defindex": 20113,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "Wings of the Gilded Falcon Set",
+				"item_description": "This bundle contains all of the items in the 'Wings of the Gilded Falcon' set for Windrunner:  Quick as wings, light as feathers, golden as the sun; the wings of the guilded Falcon set is a tribute to a rare and deadly predator.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/sets\/DOTA_Item_Wings_of_the_Gilded_Falcon_Set",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_wings_of_the_gilded_falcon_set.8028321307c371bb2459e157d88808cfd63ff602.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_wings_of_the_gilded_falcon_set_large.769a1cd594b7d8d4931c8369ace2ea6c8f98b2eb.png",
+				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
+				}
+			},
+			{
+				"name": "Blessings of the Wildwing Set",
+				"defindex": 20114,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "Blessings of the Wildwing Set",
+				"item_description": "Contains all of the items in the 'Blessings of the Wildwing' set for Enchantress:",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/sets\/DOTA_Item_Blessings_of_the_Wildkin_Set",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_blessings_of_the_wildkin_set.3b542b3282c3a0cec91b44785d61fccb7ef7cc34.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/sets\/dota_item_blessings_of_the_wildkin_set_large.0b65633fc261f5ce8cc4be0001dd0bef597be849.png",
 				"capabilities": {
 					"nameable": true,
 					"usable_gc": true,
@@ -39718,6 +40611,18 @@
 				"effect_type": "negative",
 				"hidden": true,
 				"stored_as_integer": true
+			},
+			{
+				"name": "league id",
+				"defindex": 389,
+				"attribute_class": "league_id",
+				"min_value": 0.950000,
+				"max_value": 0.850000,
+				"description_string": "Attrib_LeagueID",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": true
 			}
 		]
 		,
@@ -40006,6 +40911,19 @@
 				
 			},
 			{
+				"item_set": "desert_nomad",
+				"name": "Arms of the Penitent Nomad",
+				"store_bundle": "Arms of the Penitent Nomad Set",
+				"items": [
+					"Armguards of the Penitent Nomad",
+					"Shoulderguards of the Penitent Nomad",
+					"Turban of the Penitent Nomad",
+					"Locuthi Barding of the Penitent Nomad",
+					"Commanding Rod of the Penitent Nomad"
+				]
+				
+			},
+			{
 				"item_set": "dragon_knight_crimson_wyvern",
 				"name": "Enchanted Plate of the Crimson Wyvern",
 				"items": [
@@ -40197,6 +41115,19 @@
 					"Doubly Braided Beard",
 					"Pauldron of Al-Fusha",
 					"Tusked Bracers"
+				]
+				
+			},
+			{
+				"item_set": "gilded_falcon",
+				"name": "Wings of the Gilded Falcon",
+				"store_bundle": "Wings of the Gilded Falcon Set",
+				"items": [
+					"Gilded Falcon Bow",
+					"Gilded Falcon Quiver",
+					"Gilded Falcon Cloak",
+					"Gilded Falcon Helm",
+					"Gilded Falcon Wings"
 				]
 				
 			},
@@ -40698,7 +41629,8 @@
 			},
 			{
 				"item_set": "warlock_archivist",
-				"name": "warlock_archivist",
+				"name": "The Demonic Archivist",
+				"store_bundle": "The Demonic Archivist Set",
 				"items": [
 					"Ishul-Shog the Watcher",
 					"Staff of the Archivist",
@@ -40708,6 +41640,18 @@
 					"Robe of the Archivist",
 					"Bracers of the Archivist",
 					"Grand Mantle of the Archivist"
+				]
+				
+			},
+			{
+				"item_set": "wildkin_blessing",
+				"name": "Blessings of the Wildkin",
+				"items": [
+					"Bangles of the Wildwing's Blessing",
+					"Necklace of the Wildwing's Blessing",
+					"Spear of the Wildwing's Blessing",
+					"Headdress of the Wildwing's Blessing",
+					"Wingbelt of the Wildwing's Blessing"
 				]
 				
 			},
@@ -40771,6 +41715,21 @@
 					"Snowdrop Mittens",
 					"Snowdrop Tassels",
 					"Snowdrop Staff"
+				]
+				
+			},
+			{
+				"item_set": "witch_hunter",
+				"name": "The Gifts of Yoskreth",
+				"store_bundle": "The Gifts of Yoskreth Set",
+				"items": [
+					"Spellbreaker of Yoskreth",
+					"Sash of Yoskreth",
+					"Etched Crescent of Yoskreth - Off-Hand",
+					"Etched Crescent of Yoskreth",
+					"Belt of Yoskreth",
+					"Bracers of Yoskreth",
+					"Fashion of Yoskreth"
 				]
 				
 			},
@@ -41142,6 +42101,24 @@
 				"id": 57,
 				"attach_to_rootbone": false,
 				"name": "Frostivus Frost"
+			},
+			{
+				"system": "courier_cluckles_ambient_flying",
+				"id": 58,
+				"attach_to_rootbone": false,
+				"name": "Attrib_Particle58"
+			},
+			{
+				"system": "warlock_ambient_ward",
+				"id": 59,
+				"attach_to_rootbone": false,
+				"name": "Attrib_Particle59"
+			},
+			{
+				"system": "courier_cluckles_ambient",
+				"id": 60,
+				"attach_to_rootbone": false,
+				"name": "Attrib_Particle60"
 			}
 		]
 		,
