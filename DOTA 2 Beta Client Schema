@@ -24431,6 +24431,101 @@
 				"PortraitHideHero"		"1"
 			}
 		}
+		"4381"
+		{
+			"name"		"Ceremonial Thorax of Qaldin"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Armor"
+			"item_name"		"#DOTA_Item_Ceremonial_Thorax_of_Qaldin"
+			"item_slot"		"shoulder"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/sand_king/deserts_deathly_embrace_shoulder/deserts_deathly_embrace_shoulder"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/items/sand_king/deserts_deathly_embrace_shoulder/deserts_deathly_embrace_shoulder.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"184.815491 -145.837875 197.577789"
+				"PortraitLookAt"		"23.400879 138.136597 0.000000"
+				"PortraitFOV"		"30.000000"
+				"PortraitFar"		"996.000000"
+				"PortraitLightPosition"		"249.133636 86.668297 241.482239"
+				"PortraitLightLookAt"		"137.345581 18.231812 0.000000"
+				"PortraitLightFOV"		"68.000000"
+				"PortraitLightDistance"		"216.000000"
+				"PortraitLightColor"		"0.360784 0.360784 0.360784"
+				"PortraitShadowColor"		"0.050000 0.050000 0.050000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"1.700000 -4.370000 8.860000"
+				"PortraitAmbientColor"		"0.361569 0.320737 0.292896"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"sandking_portrait"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+			"item_set"		"ceremonial_carapace"
+		}
+		"4382"
+		{
+			"name"		"Ceremonial Crawlers of Qaldin"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Legs"
+			"item_name"		"#DOTA_Item_Ceremonial_Crawlers_of_Qaldin"
+			"item_slot"		"legs"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/sand_king/deserts_deathly_embrace_legs/deserts_deathly_embrace_legs"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/items/sand_king/deserts_deathly_embrace_legs/deserts_deathly_embrace_legs.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"68.710037 -200.487411 133.357132"
+				"PortraitLookAt"		"32.217407 120.745239 0.000000"
+				"PortraitFOV"		"34.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"249.133636 86.668297 241.482239"
+				"PortraitLightLookAt"		"137.345581 18.231812 0.000000"
+				"PortraitLightFOV"		"68.000000"
+				"PortraitLightDistance"		"216.000000"
+				"PortraitLightColor"		"0.360784 0.360784 0.360784"
+				"PortraitShadowColor"		"0.050000 0.050000 0.050000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"1.700000 -4.370000 8.860000"
+				"PortraitAmbientColor"		"0.361569 0.320737 0.292896"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"sandking_portrait"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+			"item_set"		"ceremonial_carapace"
+		}
 		"4384"
 		{
 			"name"		"Mask of the Crimson Cut-throat"
@@ -35969,6 +36064,101 @@
 			}
 			"item_set"		"stormcrow_spirit"
 		}
+		"4712"
+		{
+			"name"		"Ceremonial Claws of Qaldin"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Claws"
+			"item_name"		"#DOTA_Item_Ceremonial_Claws_of_Qaldin"
+			"item_slot"		"arms"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/sand_king/deserts_deathly_embrace_arms/deserts_deathly_embrace_arms"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/items/sand_king/deserts_deathly_embrace_arms/deserts_deathly_embrace_arms.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"23.727316 -23.765480 184.279663"
+				"PortraitLookAt"		"47.614746 80.238647 0.000000"
+				"PortraitFOV"		"42.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"94.562416 -22.946045 321.203003"
+				"PortraitLightLookAt"		"83.292847 84.973755 0.000000"
+				"PortraitLightFOV"		"68.000000"
+				"PortraitLightDistance"		"216.000000"
+				"PortraitLightColor"		"0.360784 0.360784 0.360784"
+				"PortraitShadowColor"		"0.050000 0.050000 0.050000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"1.700000 -4.370000 8.860000"
+				"PortraitAmbientColor"		"0.361569 0.320737 0.292896"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"sandking_portrait"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"ceremonial_carapace"
+		}
+		"4713"
+		{
+			"name"		"Ceremonial Stinger of Qaldin"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Tail"
+			"item_name"		"#DOTA_Item_Ceremonial_Stinger_of_Qaldin"
+			"item_slot"		"back"
+			"item_rarity"		"uncommon"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/sand_king/deserts_deathly_embrace_tail/deserts_deathly_embrace_tail"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/items/sand_king/deserts_deathly_embrace_tail/deserts_deathly_embrace_tail.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"-75.448021 -79.618706 429.922058"
+				"PortraitLookAt"		"83.496094 114.329224 0.000000"
+				"PortraitFOV"		"28.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"249.133636 86.668297 241.482239"
+				"PortraitLightLookAt"		"137.345581 18.231812 0.000000"
+				"PortraitLightFOV"		"68.000000"
+				"PortraitLightDistance"		"216.000000"
+				"PortraitLightColor"		"0.360784 0.360784 0.360784"
+				"PortraitShadowColor"		"0.050000 0.050000 0.050000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"1.700000 -4.370000 8.860000"
+				"PortraitAmbientColor"		"0.361569 0.320737 0.292896"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"sandking_portrait"
+				"PortraitAnimationActivity"		"2"
+				"PortraitAnimationCycle"		"0.356000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"1"
+			}
+			"item_set"		"ceremonial_carapace"
+		}
 		"4717"
 		{
 			"name"		"Belt of the Bramble Lord"
@@ -37654,6 +37844,54 @@
 				"PortraitHideHero"		"0"
 			}
 			"item_set"		"witch_hunter"
+		}
+		"4771"
+		{
+			"name"		"Ceremonial Pshent of Qaldin"
+			"prefab"		"dota_item"
+			"item_type_name"		"#DOTA_WearableType_Helm"
+			"item_name"		"#DOTA_Item_Ceremonial_Pshent_of_Qaldin"
+			"item_slot"		"body_head"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Unnamed_New_Item"
+			"image_inventory"		"econ/items/sand_king/deserts_deathly_embrace_head/deserts_deathly_embrace_head"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"model_player"		"models/items/sand_king/deserts_deathly_embrace_head/deserts_deathly_embrace_head.mdl"
+			"icon_portrait"
+			{
+				"PortraitPosition"		"231.678772 189.555145 76.366905"
+				"PortraitLookAt"		"352.391968 225.159302 0.000000"
+				"PortraitFOV"		"23.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"249.133636 86.668297 241.482239"
+				"PortraitLightLookAt"		"137.345581 18.231812 0.000000"
+				"PortraitLightFOV"		"68.000000"
+				"PortraitLightDistance"		"216.000000"
+				"PortraitLightColor"		"0.360784 0.360784 0.360784"
+				"PortraitShadowColor"		"0.050000 0.050000 0.050000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"1.700000 -4.370000 8.860000"
+				"PortraitAmbientColor"		"0.361569 0.320737 0.292896"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"sandking_portrait"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+			"item_set"		"ceremonial_carapace"
 		}
 		"4772"
 		{
@@ -41455,6 +41693,98 @@
 				"PortraitHideHero"		"0"
 			}
 			"particle_file"		"particles\econ\courier\courier_cluckles.pcf"
+		}
+		"10158"
+		{
+			"name"		"The Premier League Wyrmeleon"
+			"prefab"		"dota_courier"
+			"item_type_name"		"#DOTA_WearableType_courier"
+			"item_name"		"#DOTA_Item_The_Premier_League_Wyrmeleon"
+			"item_quality"		"genuine"
+			"item_rarity"		"mythical"
+			"forced_item_quality"		"genuine"
+			"item_description"		"#DOTA_Item_Desc_The_Premier_League_Wyrmeleon"
+			"image_inventory"		"econ/items/courier/premier_league_wyrmeleon/premier_league_wyrmeleon"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"courier"
+					"asset"		"models/items/courier/premier_league_wyrmeleon/premier_league_wyrmeleon.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier1"
+				{
+					"type"		"courier"
+					"asset"		"models/items/courier/premier_league_wyrmeleon/premier_league_wyrmeleon.mdl"
+					"modifier"		"dire"
+				}
+				"asset_modifier2"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/items/courier/premier_league_wyrmeleon/premier_league_wyrmeleon_flying.mdl"
+					"modifier"		"radiant"
+				}
+				"asset_modifier3"
+				{
+					"type"		"courier_flying"
+					"asset"		"models/items/courier/premier_league_wyrmeleon/premier_league_wyrmeleon_flying.mdl"
+					"modifier"		"dire"
+				}
+				"attached_particlesystem0"
+				{
+					"system"		"courier_wrymeleon_ambient"
+				}
+			}
+			"attributes"
+			{
+				"league id"
+				{
+					"value"		"27"
+				}
+				"kill eater"
+				{
+					"attribute_class"		"kill_eater"
+					"value"		"0"
+					"force_gc_to_generate"		"1"
+				}
+				"kill eater score type"
+				{
+					"attribute_class"		"kill_eater_score_type"
+					"value"		"33"
+				}
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"101.215530 -173.014465 58.172081"
+				"PortraitLookAt"		"8.096924 116.867065 0.000000"
+				"PortraitFOV"		"44.000000"
+				"PortraitFar"		"336.000000"
+				"PortraitLightPosition"		"87.860443 -135.148422 283.027985"
+				"PortraitLightLookAt"		"58.881226 120.102539 0.000000"
+				"PortraitLightFOV"		"28.000000"
+				"PortraitLightDistance"		"344.000000"
+				"PortraitLightColor"		"0.429063 0.383186 0.450980"
+				"PortraitShadowColor"		"0.070000 0.070000 0.070000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"-17.460934 -67.882111 56.752674"
+				"PortraitAmbientColor"		"0.080000 0.150000 0.150000"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitAnimationActivity"		"1"
+				"PortraitAnimationCycle"		"0.224000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+			"particle_file"		"particles\econ\courier\courier_wyrmeleon.pcf"
 		}
 		"10071"
 		{
@@ -46114,33 +46444,6 @@
 				}
 			}
 		}
-		"15124"
-		{
-			"name"		"Treasure Key of the Forbidden Lotus"
-			"prefab"		"dota_tool"
-			"item_name"		"#DOTA_Item_Treasure_Key_of_the_Forbidden_Lotus"
-			"item_rarity"		"mythical"
-			"tool"
-			{
-				"type"		"decoder_ring"
-				"use_string"		"#UnlockUse"
-				"usage_capabilities"
-				{
-					"decodable"		"1"
-				}
-				"restriction"		"community_2"
-			}
-			"item_description"		"#DOTA_Item_Desc_Treasure_Key_of_the_Forbidden_Lotus"
-			"image_inventory"		"econ/tools/treasure_lotus_chest_key"
-			"attributes"
-			{
-				"disallow recycling"
-				{
-					"attribute_class"		"disallow_recycling"
-					"value"		"1"
-				}
-			}
-		}
 		"15014"
 		{
 			"name"		"Killing Spree: North America"
@@ -47339,6 +47642,49 @@
 			"image_inventory"		"econ/leagues/subscriptions_sealeague"
 			"image_banner"		"econ\leagues\subscriptions_sealeague_ingame"
 			"tournament_url"		"http://sealeague.wordpress.com/"
+		}
+		"15124"
+		{
+			"name"		"The Premier League Season 4"
+			"prefab"		"dota_league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"27"
+					"order"		"3"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_New_Item"
+			"item_name"		"#DOTA_Item_The_Premier_League_Season_4"
+			"item_description"		"#DOTA_Item_Desc_The_Premier_League_Season_4"
+			"image_inventory"		"econ/leagues/subscriptions_premierleague4"
+			"image_banner"		"econ\leagues\subscriptions_premierleague4_ingame"
+			"tournament_url"		"http://www.thepremierleague.eu"
+		}
+		"15125"
+		{
+			"name"		"The Premier League Season 4 ADMIN"
+			"prefab"		"dota_league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"27"
+					"order"		"3"
+					"admin"		"1"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_The_Premier_League_Season_4_ADMIN"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_The_Premier_League_Season_4"
+			"image_inventory"		"econ/leagues/subscriptions_premierleague4"
+			"image_banner"		"econ\leagues\subscriptions_premierleague4_ingame"
+			"tournament_url"		"http://www.thepremierleague.eu"
 		}
 		"10040"
 		{
@@ -54871,6 +55217,58 @@
 				"PortraitHideHero"		"0"
 			}
 		}
+		"20119"
+		{
+			"name"		"Ceremonial Carapace of Qaldin Set"
+			"prefab"		"dota_bundle"
+			"item_name"		"#DOTA_Item_Ceremonial_Carapace_of_Qaldin_Set"
+			"item_rarity"		"rare"
+			"item_description"		"#DOTA_Item_Desc_Ceremonial_Carapace_of_Qaldin_Set"
+			"image_inventory"		"econ/sets/DOTA_Item_Ceremonial_Carapace_of_Qaldin_Set"
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sand_king"		"1"
+			}
+			"bundle"
+			{
+				"Ceremonial Claws of Qaldin"		"1"
+				"Ceremonial Crawlers of Qaldin"		"1"
+				"Ceremonial Pshent of Qaldin"		"1"
+				"Ceremonial Stinger of Qaldin"		"1"
+				"Ceremonial Thorax of Qaldin"		"1"
+			}
+			"icon_portrait"
+			{
+				"PortraitPosition"		"232.901825 189.317596 75.821320"
+				"PortraitLookAt"		"358.736572 216.886597 0.000000"
+				"PortraitFOV"		"54.000000"
+				"PortraitFar"		"1000.000000"
+				"PortraitLightPosition"		"249.133636 86.668297 241.482239"
+				"PortraitLightLookAt"		"137.345581 18.231812 0.000000"
+				"PortraitLightFOV"		"68.000000"
+				"PortraitLightDistance"		"216.000000"
+				"PortraitLightColor"		"0.360784 0.360784 0.360784"
+				"PortraitShadowColor"		"0.050000 0.050000 0.050000"
+				"PortraitShadowScale"		"1.000000"
+				"PortraitGroundShadowScale"		"0.300000"
+				"PortraitAmbientOrigin"		"1.700000 -4.370000 8.860000"
+				"PortraitAmbientColor"		"0.361569 0.320737 0.292896"
+				"PortraitAmbientScale"		"1.000000"
+				"PortraitSpecularColor"		"0.970000 0.070000 0.090000"
+				"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+				"PortraitSpecularPower"		"16.000000"
+				"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+				"PortraitBackgroundTexture"		"vgui/econ/item_icon_bg"
+				"PortraitParticle"		"sandking_portrait"
+				"PortraitAnimationActivity"		"0"
+				"PortraitAnimationCycle"		"0.000000"
+				"PortraitAnimationRate"		"0.000000"
+				"PortraitHideHero"		"0"
+			}
+		}
 		"10149"
 		{
 			"name"		"Radiant HUD Skin"
@@ -56942,6 +57340,50 @@
 				}
 			}
 		}
+		"63"
+		{
+			"system"		"courier_wrymeleon_ambient"
+			"attach_type"		"renderorigin_follow"
+			"attach_entity"		"self"
+			"control_points"
+			{
+				"0"
+				{
+					"control_point_index"		"0"
+					"attach_type"		"renderorigin_follow"
+				}
+				"1"
+				{
+					"control_point_index"		"1"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_wing_l"
+				}
+				"2"
+				{
+					"control_point_index"		"2"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_wing_r"
+				}
+				"3"
+				{
+					"control_point_index"		"3"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_r"
+				}
+				"4"
+				{
+					"control_point_index"		"4"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_eye_l"
+				}
+				"5"
+				{
+					"control_point_index"		"5"
+					"attach_type"		"point_follow"
+					"attachment"		"attach_lantern"
+				}
+			}
+		}
 	}
 	"upgradeable_base_items"
 	{
@@ -57298,6 +57740,19 @@
 				"Legs of the Brood Queen"		"1"
 				"Crown of the Brood Queen"		"1"
 				"Bladed Abdomen of the Brood Queen"		"1"
+			}
+		}
+		"ceremonial_carapace"
+		{
+			"name"		"#DOTA_Set_Ceremonial_Carapace_of_Qaldin"
+			"store_bundle"		"Ceremonial Carapace of Qaldin Set"
+			"items"
+			{
+				"Ceremonial Thorax of Qaldin"		"1"
+				"Ceremonial Crawlers of Qaldin"		"1"
+				"Ceremonial Claws of Qaldin"		"1"
+				"Ceremonial Stinger of Qaldin"		"1"
+				"Ceremonial Pshent of Qaldin"		"1"
 			}
 		}
 		"chained_slayers"
