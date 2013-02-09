@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.8f176146cce7181b97565627d9a8e93dff1fbc9a.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.41638de8e7e91457cccc3c6914aa876ef07677d7.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -36155,6 +36155,76 @@
 					"usage_capabilities": {
 						"decodable": true
 					}
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "RaidCall EMS One Spring 2013",
+				"defindex": 15127,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "RaidCall EMS One Spring 2013",
+				"item_description": "The RaidCall EMS One Spring 2013 is the new premier Dota2 competition. Over the course of several weeks, established teams will face up-and-coming challengers in the fight for a spot in the playoffs and eventually at the live event finals, competing for $39,000 in prize money.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_rcemsone",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_rcemsone.587df08ccecbd1070d6d0e974212424bfb877cfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_rcemsone_large.52995361b4a2f4a7cb235757593f32bf99692b21.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "RaidCall EMS One Spring 2013 ADMIN",
+				"defindex": 15128,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "RaidCall EMS One Spring 2013 ADMIN",
+				"item_description": "The RaidCall EMS One Spring 2013 is the new premier Dota2 competition. Over the course of several weeks, established teams will face up-and-coming challengers in the fight for a spot in the playoffs and eventually at the live event finals, competing for $39,000 in prize money.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_rcemsone",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_rcemsone.587df08ccecbd1070d6d0e974212424bfb877cfb.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_rcemsone_large.52995361b4a2f4a7cb235757593f32bf99692b21.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
 				},
 				"attributes": [
 					{
