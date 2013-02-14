@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/205790\/scripts\/items\/items_game.ecbbd7d8e80239ddc005676343273a191bd045b3.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/205790\/scripts\/items\/items_game.068c190d1cfc78828e57e7491367b66bc6b2e48d.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -18518,7 +18518,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Staff",
 				"item_name": "Staff of the Crystalline Queen",
-				"item_description": "This new item has no description.",
+				"item_description": "Locked frozen in a glacier for a thousand years, this great staff was carved long ago in honor of the twin northern stars. ",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/crystal_maiden\/northstar_staff\/northstar_staff",
@@ -18587,7 +18587,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Cape",
 				"item_name": "Cape of the Crystalline Queen",
-				"item_description": "This new item has no description.",
+				"item_description": "Nights are cold in the contested lands, but for some, not cold enough.  This frost-charmed cape keeps cold what the sun would warm.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/crystal_maiden\/polarisbelle_cape\/polarisbelle_cape",
@@ -18605,12 +18605,35 @@
 				}
 			},
 			{
+				"name": "Stryff the Owlion",
+				"defindex": 4387,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Mount",
+				"item_name": "Stryff the Owlion",
+				"item_description": "Nothing moves more quietly, nothing strikes harder, than this feathered prowler of the Nightsilver Woods!",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/mirana\/mirana_nightsilver_owlion\/mirana_nightsilver_owlion_large",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/mirana\/mirana_nightsilver_owlion\/mirana_nightsilver_owlion_large.7a1009d1bc5a56c1d6c0f8324fdaf93330d38130.png",
+				"image_url_large": "",
+				"item_set": "nightsilver_mirana",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
 				"name": "Snowdrop Hood",
 				"defindex": 4388,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Hood",
 				"item_name": "Snowdrop Hood",
-				"item_description": "A fluffy hood is not a typical sign of magical mastery, but Crystal Maiden doesn't take these things too seriously.",
+				"item_description": "Able to withstand the toughest onslaughts with nary a hair out of place, the Maiden of the North gives truth to the old adage that looks can kill.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/crystal_maiden\/anuxi_snowdrop_hood\/anuxi_snowdrop_hood",
@@ -19367,7 +19390,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Bracer",
 				"item_name": "Bracers of the Crystalline Queen",
-				"item_description": "This new item has no description.",
+				"item_description": "Hard as ice, but strong as steel, these bracers bring a chill to the heart of those who would oppose the maiden of the north. ",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/crystal_maiden\/belle_arms_bracers\/belle_arms_bracers",
@@ -19813,7 +19836,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Mantle",
 				"item_name": "Snowdrop Mantle",
-				"item_description": "Snow falls gently on Crystal Maiden's shoulders--and dare not melt unless she wills it!",
+				"item_description": "For those times when giving someone the cold shoulder is only the beginning.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/crystal_maiden\/anuxi_snowdrop_shoulders\/anuxi_snowdrop_shoulders",
@@ -22292,7 +22315,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Eye",
 				"item_name": "Gazing Eye of the Demon Witch",
-				"item_description": "This new item has no description.",
+				"item_description": "To look past reality and view the vile powers beyond requires vision and clarity surpassing most mortal means.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/lion\/hellssight_02\/hellssight_02",
@@ -22315,7 +22338,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Scepter",
 				"item_name": "Scepter of the Sable Void",
-				"item_description": "This new item has no description.",
+				"item_description": "To harness the powers of the burning nether requires a symbol feared for its malice.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/lion\/hells_sceptre\/hells_sceptre",
@@ -22338,7 +22361,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Demon Arm",
 				"item_name": "Ruby Ring of Rak-noth Rak-nul",
-				"item_description": "This new item has no description.",
+				"item_description": "The ring would scorch the very soul of the wearer were it not placed on a finger already beyond hope.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/lion\/hells_grasp\/hells_grasp",
@@ -23147,12 +23170,12 @@
 				}
 			},
 			{
-				"name": "Flayed Imp Skin Pads",
+				"name": "Skins of the Incubus",
 				"defindex": 4582,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Shoulderpads",
-				"item_name": "Flayed Imp Skin Pads",
-				"item_description": "This new item has no description.",
+				"item_name": "Skins of the Incubus",
+				"item_description": "Few facets of the utter foul wander the land unbidden. To claim such a skin is to declare primacy over the inferno.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/lion\/hellsarray_02\/hellsarray_02",
@@ -23220,7 +23243,7 @@
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Cloak",
 				"item_name": "Shroud of the Shattered Sect",
-				"item_description": "This new item has no description.",
+				"item_description": "To possess the power of a Demon Witch is to stand in defiance of powers seen and unseen.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/lion\/hellsreach_cape\/hellsreach_cape",
@@ -23238,12 +23261,12 @@
 				}
 			},
 			{
-				"name": "Heart of Distal Oblia",
+				"name": "Heart of the Inauspicious Abyss",
 				"defindex": 4586,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Armor",
-				"item_name": "Heart of Distal Oblia",
-				"item_description": "This new item has no description.",
+				"item_name": "Heart of the Inauspicious Abyss",
+				"item_description": "Those who patrol the edge of the void must gird themselves in armor impregnable to evil's piercing rays.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/obsidian_destroyer\/armor_bacon\/armor_bacon",
@@ -23251,7 +23274,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/obsidian_destroyer\/armor_bacon\/armor_bacon.bd5961758406f7cbe02239581ebab234f1565896.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/obsidian_destroyer\/armor_bacon\/armor_bacon_large.a0132e6ec3c62c5e6ebd8357be4ecd10b1041c91.png",
-				"item_set": "distal_oblia",
+				"item_set": "inauspicious_abyss",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -23261,12 +23284,12 @@
 				}
 			},
 			{
-				"name": "Wings of Distal Oblia",
+				"name": "Wings of the Inauspicious Abyss",
 				"defindex": 4587,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Wings",
-				"item_name": "Wings of Distal Oblia",
-				"item_description": "This new item has no description.",
+				"item_name": "Wings of the Inauspicious Abyss",
+				"item_description": "As the threat from the outer dark mounts, the Harbinger intimidates these implacable forces with wings of strange power.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/obsidian_destroyer\/back_baconator_d\/back_baconator_d",
@@ -23274,7 +23297,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/obsidian_destroyer\/back_baconator_d\/back_baconator_d.fbcc2149d296ec930fb340c3ceaf6ad8b926ed2f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/obsidian_destroyer\/back_baconator_d\/back_baconator_d_large.a04ea41b88b641696722a9e16aa1b756c12a9deb.png",
-				"item_set": "distal_oblia",
+				"item_set": "inauspicious_abyss",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -24576,12 +24599,12 @@
 				}
 			},
 			{
-				"name": "Auspex of Distal Oblia",
+				"name": "Auspex of the Inauspicious Abyss",
 				"defindex": 4641,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Head",
-				"item_name": "Auspex of Distal Oblia",
-				"item_description": "This new item has no description.",
+				"item_name": "Auspex of the Inauspicious Abyss",
+				"item_description": "A helm whose very symmetry foreshadows the dark power that Harbinger may summon to protect the inmost shells of creation from cold destructive forces beyond knowing.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/obsidian_destroyer\/head_arcanef\/head_arcanef",
@@ -24589,7 +24612,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/obsidian_destroyer\/head_arcanef\/head_arcanef.5994910b471b936dd91f1de299b19bcaf8bbcb4f.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/obsidian_destroyer\/head_arcanef\/head_arcanef_large.c4a895323c2bba191740a112e5dd949475df8720.png",
-				"item_set": "distal_oblia",
+				"item_set": "inauspicious_abyss",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -24599,12 +24622,12 @@
 				}
 			},
 			{
-				"name": "Calyx of Distal Oblia",
+				"name": "Thyrsus of the Inauspicious Abyss",
 				"defindex": 4642,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Staff",
-				"item_name": "Calyx of Distal Oblia",
-				"item_description": "This new item has no description.",
+				"item_name": "Thyrsus of the Inauspicious Abyss",
+				"item_description": "On the world at the rim grow a species of crystalline tree in whose branches visions of the future are tangled. From such a tree, Outworld Devourer fashioned this staff.",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/items\/obsidian_destroyer\/weapon_arcane_obliva\/weapon_arcane_obliva",
@@ -24612,7 +24635,7 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/obsidian_destroyer\/weapon_arcane_obliva\/weapon_arcane_obliva.6fd83862d1ec76221ede93ffd8d051d28cf7de95.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/obsidian_destroyer\/weapon_arcane_obliva\/weapon_arcane_obliva_large.ce97eb6ecfb2d149619a99e6683e2bc7388d9716.png",
-				"item_set": "distal_oblia",
+				"item_set": "inauspicious_abyss",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -24673,6 +24696,29 @@
 					}
 				]
 				
+			},
+			{
+				"name": "Nightsilver Bracers",
+				"defindex": 4645,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Bracers",
+				"item_name": "Nightsilver Bracers",
+				"item_description": "The moon's lustre fills these bracers, and fills Mirana with midnight power.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/mirana\/mirana_nightsilver_arms\/mirana_nightsilver_arms_large",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/mirana\/mirana_nightsilver_arms\/mirana_nightsilver_arms_large.d1181be826b61eee54ef1e2715922f4db81cd770.png",
+				"image_url_large": "",
+				"item_set": "nightsilver_mirana",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
 			},
 			{
 				"name": "Lone Druid's Hood",
@@ -25724,6 +25770,121 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/necrolyte\/death_protest_beard\/death_protest_beard.292e94abfed06f7a3b5dd4a40c6de18c5ffbc79a.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/necrolyte\/death_protest_beard\/death_protest_beard_large.ef107319e9b73dc112ab0bc3459f4b208f8ec0ae.png",
 				"item_set": "death_protest",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Nightsilver Quiver",
+				"defindex": 4690,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Misc",
+				"item_name": "Nightsilver Quiver",
+				"item_description": "Even in the dark of a moonless night, Mirana shall not fumble for an arrow when she carries the Nightsilver Quiver.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/mirana\/mirana_nightsilver_quiver\/mirana_nightsilver_quiver_large",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/mirana\/mirana_nightsilver_quiver\/mirana_nightsilver_quiver_large.a54e7e15da639e682c79cec93a326e1cc0f0e59f.png",
+				"image_url_large": "",
+				"item_set": "nightsilver_mirana",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Nightsilver Raiments",
+				"defindex": 4691,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Back",
+				"item_name": "Nightsilver Raiments",
+				"item_description": "Draped in the dark magic of a fabric as sheer as the new moon's faintest rays, Mirana glides silently through the dark.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/mirana\/mirana_nightsilver_cape\/mirana_nightsilver_cape_large",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/mirana\/mirana_nightsilver_cape\/mirana_nightsilver_cape_large.27375e0618969f5ae418b6737ae40aed03b8acc3.png",
+				"image_url_large": "",
+				"item_set": "nightsilver_mirana",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Nightsilver Regalia",
+				"defindex": 4692,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Shoulders",
+				"item_name": "Nightsilver Regalia",
+				"item_description": "Bearing a gem that reflects the brightness of the Demon Star between the moon's horns, Mirana knows no fear.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/mirana\/mirana_nightsilver_shoulders\/mirana_nightsilver_shoulders_large",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/mirana\/mirana_nightsilver_shoulders\/mirana_nightsilver_shoulders_large.44894d2077ce0752d65954aac071e560d2770cb5.png",
+				"image_url_large": "",
+				"item_set": "nightsilver_mirana",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Nightsilver Locks",
+				"defindex": 4693,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Head",
+				"item_name": "Nightsilver Locks",
+				"item_description": "Just as the moon appears to greatest advantage in the darkest skies, Mirana's tresses shine most softly in the Nightsilver Woods.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/mirana\/mirana_nightsilver_hair\/mirana_nightsilver_hair_large",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/mirana\/mirana_nightsilver_hair\/mirana_nightsilver_hair_large.dc415d63deb018b83554b39ff4b799e122179454.png",
+				"image_url_large": "",
+				"item_set": "nightsilver_mirana",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				}
+			},
+			{
+				"name": "Nightsilver Bow",
+				"defindex": 4694,
+				"item_class": "dota_item_wearable",
+				"item_type_name": "Head",
+				"item_name": "Nightsilver Bow",
+				"item_description": "The defense of the Nightsilver Woods relies not only on the most skilled archer, but on the blessed bow she carries.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/items\/mirana\/mirana_nightsilver_weapon\/mirana_nightsilver_weapon_large",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/items\/mirana\/mirana_nightsilver_weapon\/mirana_nightsilver_weapon_large.6f15022e9067289efc5d44b9d0684e613c8e000a.png",
+				"image_url_large": "",
+				"item_set": "nightsilver_mirana",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_mark": true,
@@ -31889,7 +32050,7 @@
 					{
 						"name": "league id",
 						"class": "",
-						"value": 28.000000
+						"value": 29.000000
 					},
 					{
 						"name": "kill eater",
@@ -36574,6 +36735,76 @@
 				
 			},
 			{
+				"name": "Star Series Season V",
+				"defindex": 15129,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "Star Series Season V",
+				"item_description": "StarLadder's StarSeries Season 5 is back! Broadcast in 4 different languages with v1lat and TobiWan as headliners and a grand prize of $15,000 this should be the best StarSeries yet! The keystone of StarSeries is its LAN finals, held in Kiev Cybersport Arena. Includes an exclusive in-game Courier.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_starladder5",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_starladder5.55bc487f3161acd4d2289688d4d0da26d1b54b1f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_starladder5_large.a495ddd319fec5a71a716ca317c0315230049cc7.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Star Series Season V ADMIN",
+				"defindex": 15130,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "Star Series Season V ADMIN",
+				"item_description": "StarLadder's StarSeries Season 5 is back! Broadcast in 4 different languages with v1lat and TobiWan as headliners and a grand prize of $15,000 this should be the best StarSeries yet! The keystone of StarSeries is its LAN finals, held in Kiev Cybersport Arena. Includes an exclusive in-game Courier.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_starladder5",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_starladder5.55bc487f3161acd4d2289688d4d0da26d1b54b1f.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_starladder5_large.a495ddd319fec5a71a716ca317c0315230049cc7.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Of Ebony and Ivory Set",
 				"defindex": 20000,
 				"item_class": "bundle",
@@ -38934,6 +39165,34 @@
 				}
 			},
 			{
+				"name": "OLD - The Defense 3",
+				"defindex": 20084,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "OLD - The Defense 3",
+				"item_description": "The Defense is back with new sponsors ROCCAT and own3D.tv. Watch 24 invited professional teams and 8 teams from an open qualifier battle for a prize pool of $20,000. This ticket will entitle you to over 100 broadcasted matches by Toby \"Tobi Wan Kenobi\" Dawson as well as one exclusive courier.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_the_defense_3",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_the_defense_3.0549968c040739a08a630d49edd77a914aeca4f7.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_the_defense_3_large.e70359df6ef88c1878d569b1e6f904c5e3bd0e9b.png",
+				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
+				}
+			},
+			{
 				"name": "The Deadly Nightshade Set",
 				"defindex": 20085,
 				"item_class": "bundle",
@@ -39966,12 +40225,40 @@
 				}
 			},
 			{
-				"name": "The Harbinger of Distal Oblia Set",
+				"name": "OLD - The Premier League Season 4",
 				"defindex": 20121,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "OLD - The Premier League Season 4",
+				"item_description": "Watch 10 of the best teams from Europe and America contend for a prize of $10,000. This ticket will entitle you to over 100 matches commentated by Blaze & Rainmaker and Russian commentary by Versuta. Also included is the exclusive courier 'Wynchell the Wyrmeleon'.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_premierleague4",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_premierleague4.bb35da408d420b41715fe4877a5e4e11c8665602.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_premierleague4_large.ac115055e9c04342cf6f74c854dcd361cc32376a.png",
+				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
+				}
+			},
+			{
+				"name": "Harbinger of the Inauspicious Abyss Set",
+				"defindex": 20122,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "Bundle",
-				"item_name": "The Harbinger of Distal Oblia Set",
-				"item_description": "Contains all of the items in the 'Harbinger of Distal Oblia' set for Outworld Devourer:",
+				"item_name": "Harbinger of the Inauspicious Abyss Set",
+				"item_description": "Contains all of the items in the 'Harbinger of the Inauspicious Abyss' set for Outworld Devourer:",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/sets\/DOTA_Item_The_Harbinger_of_Distal_Oblia_Set",
@@ -39995,7 +40282,7 @@
 			},
 			{
 				"name": "Regalia of the Crystalline Queen Set",
-				"defindex": 20122,
+				"defindex": 20123,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
 				"item_name": "Regalia of the Crystalline Queen Set",
@@ -40022,12 +40309,12 @@
 				}
 			},
 			{
-				"name": "Return of the Demon Witch Set",
-				"defindex": 20123,
+				"name": "Tools of the Demon Witch Set",
+				"defindex": 20124,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Return of the Demon Witch Set",
-				"item_description": "This bundle contains all of the items in the 'Gifts of Hell' set for Lion:",
+				"item_name": "Tools of the Demon Witch Set",
+				"item_description": "This bundle contains all of the items in the 'Tools of the Demon Witch' set for Lion:",
 				"proper_name": false,
 				"item_quality": 4,
 				"image_inventory": "econ\/sets\/DOTA_Item_Return_of_the_Demon_Witch_Set",
@@ -40035,6 +40322,34 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/sets\/dota_item_return_of_the_demon_witch_set.32dce0f38a8a9b098473e6253b0d01287f564554.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/sets\/dota_item_return_of_the_demon_witch_set_large.d9f5b9637cca3502b0cd6b90a8399908b7ad4500.png",
+				"capabilities": {
+					"nameable": true,
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "item_pack",
+					"use_string": "Open Bundle"
+				}
+			},
+			{
+				"name": "Garments of the Nightsilver Sentinel Set",
+				"defindex": 20125,
+				"item_class": "bundle",
+				"item_type_name": "Bundle",
+				"item_name": "Garments of the Nightsilver Sentinel Set",
+				"item_description": "Contains all of the items in the 'Garments of the Nightsilver Sentinel' set for Mirana:",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/sets\/DOTA_Item_Garments_of_the_Nightsilver_Sentinel",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/sets\/dota_item_garments_of_the_nightsilver_sentinel.7703fc11b70e9c883d55283fabd13c3456ffede4.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/sets\/dota_item_garments_of_the_nightsilver_sentinel_large.64e549c32bc833b51663632ab42fb6863d445650.png",
 				"capabilities": {
 					"nameable": true,
 					"usable_gc": true,
@@ -40925,6 +41240,18 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "starladder league tag",
+				"defindex": 391,
+				"attribute_class": "starladder league tag",
+				"min_value": 0.950000,
+				"max_value": 0.850000,
+				"description_string": "Star Series Season %s1",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
 			}
 		]
 		,
@@ -41300,17 +41627,6 @@
 				
 			},
 			{
-				"item_set": "distal_oblia",
-				"name": "The Harbinger of Distal Oblia",
-				"items": [
-					"Heart of Distal Oblia",
-					"Wings of Distal Oblia",
-					"Auspex of Distal Oblia",
-					"Calyx of Distal Oblia"
-				]
-				
-			},
-			{
 				"item_set": "dragon_knight_crimson_wyvern",
 				"name": "Enchanted Plate of the Crimson Wyvern",
 				"items": [
@@ -41530,6 +41846,18 @@
 				
 			},
 			{
+				"item_set": "inauspicious_abyss",
+				"name": "Harbinger of the Inauspicious Abyss",
+				"store_bundle": "Harbinger of the Inauspicious Abyss Set",
+				"items": [
+					"Heart of the Inauspicious Abyss",
+					"Wings of the Inauspicious Abyss",
+					"Auspex of the Inauspicious Abyss",
+					"Thyrsus of the Inauspicious Abyss"
+				]
+				
+			},
+			{
 				"item_set": "invoker_dark_magic",
 				"name": "The Cabalist of Dark Magic",
 				"store_bundle": "Cabalist of Dark Magic Set",
@@ -41639,14 +41967,14 @@
 			},
 			{
 				"item_set": "lion_hells_reach",
-				"name": "Return of the Demon Witch",
-				"store_bundle": "Return of the Demon Witch Set",
+				"name": "Tools of the Demon Witch",
+				"store_bundle": "Tools of the Demon Witch Set",
 				"items": [
 					"Ruby Ring of Rak-noth Rak-nul",
-					"Flayed Imp Skin Pads",
 					"Shroud of the Shattered Sect",
 					"Scepter of the Sable Void",
-					"Gazing Eye of the Demon Witch"
+					"Gazing Eye of the Demon Witch",
+					"Skins of the Incubus"
 				]
 				
 			},
@@ -41716,6 +42044,21 @@
 					"Radiant Crystal Crests",
 					"Radiant Crystal Crown",
 					"Radiant Crystal Pauldrons"
+				]
+				
+			},
+			{
+				"item_set": "nightsilver_mirana",
+				"name": "Garments of the Nightsilver Sentinel",
+				"store_bundle": "Garments of the Nightsilver Sentinel Set",
+				"items": [
+					"Stryff the Owlion",
+					"Nightsilver Bracers",
+					"Nightsilver Quiver",
+					"Nightsilver Raiments",
+					"Nightsilver Regalia",
+					"Nightsilver Locks",
+					"Nightsilver Bow"
 				]
 				
 			},
