@@ -577,10 +577,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/w_models/w_stickybomb_launcher.mdl"
 			"attach_to_hands"	"0"
- 			"visuals"
- 			{
- 				"skin"	"0"
- 			}
 			"used_by_classes"
 			{
 				"demoman"	"1"
@@ -869,15 +865,16 @@
 			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
 			"drop_sound"		"ui/item_paper_pickup.wav"
 		}
-		"award_medal"
+		"tournament_medal"
 		{
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_Medal"
+			"show_in_armory"	"0"
+			"armory_remap"		"Tournament Medal (Armory)"
+			"item_type_name"	"#TF_Wearable_TournamentMedal"
 			"item_slot"	"misc"
 			"equip_region"	"medal"
 			"item_quality"	"unique"
@@ -2177,6 +2174,65 @@
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+		}
+		"etf2l_participation_styles"
+		{
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style1"
+					}
+					"2"
+					{
+						"skin"	"2"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style2"
+					}
+					"3"
+					{
+						"skin"	"3"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style3"
+					}
+					"4"
+					{
+						"skin"	"4"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style4"
+					}
+					"5"
+					{
+						"skin"	"5"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style5"
+					}
+					"6"
+					{
+						"skin"	"6"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style6"
+					}
+					"7"
+					{
+						"skin"	"7"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style7"
+					}
+					"8"
+					{
+						"skin"	"8"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style8"
+					}
+					"9"
+					{
+						"skin"	"9"
+						"name"	"#TF_TournamentMedal_ETF2L_Participation_Style9"
+					}
+				}
+			}
 		}
 
 
@@ -27343,6 +27399,21 @@
 						"model"	"models/player/items/demo/xms_stickybomb_launcher_v.mdl"
 					}
 				}
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#TF_Weapon_StickybombLauncher_Festive2011_Style0"
+						"skin_red"	"0"
+						"skin_blu"	"1"
+					}
+					"1"
+					{
+						"name"		"#TF_Weapon_StickybombLauncher_Festive2011_Style1"
+						"skin_red"	"2"
+						"skin_blu"	"3"
+					}
+				}
 			}
 		}
 		"662"
@@ -36448,15 +36519,15 @@
 			"image_inventory_size_h"		"82"
 			"model_player_per_class"	
 			{
-				"scout"		"models/player/items/scout/scout_cap.mdl"
-				"sniper"	"models/player/items/sniper/sniper_cap.mdl"
-				"soldier"	"models/player/items/soldier/soldier_cap.mdl"
-				"demoman"	"models/player/items/demo/demo_cap.mdl"
-				"medic"		"models/player/items/medic/medic_cap.mdl"
-				"heavy"		"models/player/items/heavy/heavy_cap.mdl"
-				"spy"		"models/player/items/spy/spy_cap.mdl"
-				"engineer"	"models/player/items/engineer/engineer_cap.mdl"
-				"pyro"		"models/player/items/pyro/pyro_cap.mdl"
+				"scout"		"models/player/items/scout/scout_cap_online.mdl"
+				"sniper"	"models/player/items/sniper/sniper_cap_online.mdl"
+				"soldier"	"models/player/items/soldier/soldier_cap_online.mdl"
+				"demoman"	"models/player/items/demo/demo_cap_online.mdl"
+				"medic"		"models/player/items/medic/medic_cap_online.mdl"
+				"heavy"		"models/player/items/heavy/heavy_cap_online.mdl"
+				"spy"		"models/player/items/spy/spy_cap_online.mdl"
+				"engineer"	"models/player/items/engineer/engineer_cap_online.mdl"
+				"pyro"		"models/player/items/pyro/pyro_cap_online.mdl"
 			}
 			"drop_type"	"drop"
 			"used_by_classes"
@@ -36486,7 +36557,6 @@
 					"hat"			"1"
 					"headphones"	"1"
 				}
-				"skin"	"1"
 			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
@@ -37000,6 +37070,74 @@
 				"engineer"	"1"
 			}
 		}
+		"1011"
+		{
+			"name"	"Tux"
+			"first_sale_date"	"2013/01/14"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"0"	
+			}
+			"loadondemand"	"1"
+			"craft_class"	""		
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Mascot"
+			"item_name"	"#TF_LinuxItem"
+			"item_description"	"#TF_LinuxItem_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/all_class/all_penguin"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/all_penguin.mdl"	
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/player/items/all_class/all_penguin.mdl"
+						"name"	"#TF_LinuxItem_Style0"
+					}
+					"1"
+					{
+						"model_player"	"models/player/items/all_class/all_penguin_demo.mdl"
+						"name"	"#TF_LinuxItem_Style1"
+					}
+					"2"
+					{
+						"model_player"	"models/player/items/all_class/all_penguin_pyro.mdl"
+						"name"	"#TF_LinuxItem_Style2"
+					}
+				}
+			}
+			"attributes"
+			{
+				"cannot trade"		
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_default_pickup.wav"
+			"drop_sound" 		"ui/item_default_drop.wav"
+		}
 
 
 
@@ -37007,839 +37145,244 @@
 		"496"
 		{
 			"name"	"TournamentMedal - GWJ Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_GWJ_1st"
 			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
 			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_medal"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"0"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"497"
 		{
 			"name"	"TournamentMedal - GWJ Runnerups"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_GWJ_2nd"
 			"item_description"	"#TF_TournamentMedal_Runnerups_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_run"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"1"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"498"
 		{
 			"name"	"TournamentMedal - GWJ Participants"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_GWJ_3rd"
 			"item_description"	"#TF_TournamentMedal_Participants_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
 			"image_inventory"	"backpack/player/items/all_class/weiner_bomb_part"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/weiner_bomb_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"2"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"499"
 		{
 			"name"	"TournamentMedal - ETF2LHL Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_ETF2LHL_1st"
 			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
 			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"0"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"500"
 		{
 			"name"	"TournamentMedal - ETF2LHL 2nd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_ETF2LHL_2nd"
 			"item_description"	"#TF_TournamentMedal_2nd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal_1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"1"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"501"
 		{
 			"name"	"TournamentMedal - ETF2LHL 3rd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_ETF2LHL_3rd"
 			"item_description"	"#TF_TournamentMedal_3rd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_medal_2"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/etf2l_highlander_medal.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"2"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"502"
 		{
 			"name"	"TournamentMedal - ETF2LHL Participants"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_ETF2LHL_4th"
 			"item_description"	"#TF_TournamentMedal_Participants_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
 			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/etf2l_highlander_participant.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"503"
 		{
 			"name"	"TournamentMedal - UGCHL Participants"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHL_Participant"
 			"item_description"	"#TF_TournamentMedal_Participants_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_participant"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_participant.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"504"
 		{
 			"name"	"TournamentMedal - UGCHLDiv1 Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_1st"
 			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"0"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"505"
 		{
 			"name"	"TournamentMedal - UGCHLDiv1 2nd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_2nd"
 			"item_description"	"#TF_TournamentMedal_2nd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum_1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"1"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"506"
 		{
 			"name"	"TournamentMedal - UGCHLDiv1 3rd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv1_3rd"
 			"item_description"	"#TF_TournamentMedal_3rd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_platinum_2"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_platinum.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"2"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"507"
 		{
 			"name"	"TournamentMedal - UGCHLDiv2 Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_1st"
 			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"0"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"508"
 		{
 			"name"	"TournamentMedal - UGCHLDiv2 2nd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_2nd"
 			"item_description"	"#TF_TournamentMedal_2nd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver_1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"1"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"509"
 		{
 			"name"	"TournamentMedal - UGCHLDiv2 3rd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv2_3rd"
 			"item_description"	"#TF_TournamentMedal_3rd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_silver_2"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_silver.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"2"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"510"
 		{
 			"name"	"TournamentMedal - UGCHLDiv3 Winners"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_1st"
 			"item_description"	"#TF_TournamentMedal_Winners_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
-			"min_ilevel"	"25"
-			"max_ilevel"	"25"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"0"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"511"
 		{
 			"name"	"TournamentMedal - UGCHLDiv3 2nd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_2nd"
 			"item_description"	"#TF_TournamentMedal_2nd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron_1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"1"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"512"
 		{
 			"name"	"TournamentMedal - UGCHLDiv3 3rd"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"	"#TF_TournamentMedal_UGCHLDiv3_3rd"
 			"item_description"	"#TF_TournamentMedal_3rd_Desc"
-			"item_slot"	"misc"
-			"equip_region"	"medal"
-			"item_quality"	"unique"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"image_inventory"	"backpack/player/items/all_class/ugc_highlander_iron_2"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/all_class/ugc_highlander_iron.mdl"
-			"drop_type"	"none"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"skin"	"2"
 			}
-			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
-			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}		
 		"680"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Platinum 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_1st"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -37852,8 +37395,7 @@
 		"681"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Platinum 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_2nd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -37866,8 +37408,7 @@
 		"682"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Platinum 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_3rd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -37880,8 +37421,7 @@
 		"683"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Platinum Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv1_Participant"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -37894,8 +37434,7 @@
 		"684"
 		{		
 			"name"				"UGC Tournament Autumn 2011 - Euro Platinum"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_EuroPlatinum"
 			"item_description"	"#TF_TournamentMedal_Autumn2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_platinum"
@@ -37908,8 +37447,7 @@
 		"685"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Silver 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_1st"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -37922,8 +37460,7 @@
 		"686"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Silver 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_2nd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -37936,8 +37473,7 @@
 		"687"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Silver 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_3rd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -37950,8 +37486,7 @@
 		"688"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Silver Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv2_Participant"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -37964,8 +37499,7 @@
 		"689"
 		{		
 			"name"				"UGC Tournament Autumn 2011 - Euro Silver"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_EuroSilver"
 			"item_description"	"#TF_TournamentMedal_Autumn2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_silver"
@@ -37978,8 +37512,7 @@
 		"690"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Iron 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_2nd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -37992,8 +37525,7 @@
 		"691"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Iron 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_1st"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -38006,8 +37538,7 @@
 		"692"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Iron 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv3_3rd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -38020,8 +37551,7 @@
 		"693"
 		{		
 			"name"				"UGC Tournament Autumn 2011 - Euro Iron"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_EuroIron"
 			"item_description"	"#TF_TournamentMedal_Autumn2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -38034,8 +37564,7 @@
 		"694"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Tin 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_1st"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -38048,8 +37577,7 @@
 		"695"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Tin 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_2nd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -38062,8 +37590,7 @@
 		"696"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Tin 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHLDiv4_3rd"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -38076,8 +37603,7 @@
 		"697"
 		{		
 			"name"				"UGC Tournament Fall 2011 - Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_Participant"
 			"item_description"	"#TF_TournamentMedal_Fall2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -38090,8 +37616,7 @@
 		"698"
 		{		
 			"name"				"UGC Tournament Autumn 2011 - Euro Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGCHL_EuroParticipant"
 			"item_description"	"#TF_TournamentMedal_Autumn2011"
 			"image_inventory"	"backpack/player/items/all_class/ugc_trophy_medal_participant"
@@ -38104,8 +37629,11 @@
 		"717"
 		{		
 			"name"				"The Map Maker's Medallion"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_MapperMedal"
+			"prefab"			"tournament_medal"
+			"capabilities"
+			{
+				"paintable"		"1"
+			}
 			"item_name"			"#TF_MapperMedal"
 			"item_description"	"#TF_MapperMedal_Desc"
 			"image_inventory"	"backpack/player/items/all_class/mapper_medal"
@@ -38115,8 +37643,7 @@
 		"8000"
 		{		
 			"name"				"UGC Highlander 1st Place North American Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_1st_NA_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6firstplatinum"
@@ -38129,8 +37656,7 @@
 		"8001"
 		{		
 			"name"				"UGC Highlander 2nd Place North American Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_2nd_NA_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6secondplatinum"
@@ -38143,8 +37669,7 @@
 		"8002"
 		{		
 			"name"				"UGC Highlander 3rd Place North American Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_3rd_NA_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6thirdplatinum"
@@ -38157,8 +37682,7 @@
 		"8003"
 		{		
 			"name"				"UGC Highlander 1st Place European Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_1st_Europe_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6firstplatinum"
@@ -38171,8 +37695,7 @@
 		"8004"
 		{		
 			"name"				"UGC Highlander 2nd Place European Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_2nd_Europe_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6secondplatinum"
@@ -38185,8 +37708,7 @@
 		"8005"
 		{		
 			"name"				"UGC Highlander 3rd Place European Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_3rd_Europe_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6thirdplatinum"
@@ -38199,8 +37721,7 @@
 		"8006"
 		{		
 			"name"				"UGC Highlander 1st Place South American Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_1st_SA_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6firstplatinum"
@@ -38213,8 +37734,7 @@
 		"8007"
 		{		
 			"name"				"UGC Highlander 2nd Place South American Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_2nd_SA_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6secondplatinum"
@@ -38227,8 +37747,7 @@
 		"8008"
 		{		
 			"name"				"UGC Highlander 3rd Place South American Platinum Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_3rd_SA_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6thirdplatinum"
@@ -38241,8 +37760,7 @@
 		"8009"
 		{		
 			"name"				"UGC Highlander 1st Place North American Silver Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_1st_NA_Silver"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6firstsilver"
@@ -38255,8 +37773,7 @@
 		"8010"
 		{		
 			"name"				"UGC Highlander 2nd Place North American Silver Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_2nd_NA_Silver"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6secondsilver"
@@ -38269,8 +37786,7 @@
 		"8011"
 		{		
 			"name"				"UGC Highlander 3rd Place North American Silver Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_3rd_NA_Silver"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsilver"
@@ -38283,8 +37799,7 @@
 		"8012"
 		{		
 			"name"				"UGC Highlander 1st Place European Silver Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_1st_Europe_Silver"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6firstsilver"
@@ -38297,8 +37812,7 @@
 		"8013"
 		{		
 			"name"				"UGC Highlander 2nd Place European Silver Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_2nd_Europe_Silver"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6secondsilver"
@@ -38311,8 +37825,7 @@
 		"8014"
 		{		
 			"name"				"UGC Highlander 3rd Place European Silver Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_3rd_Europe_Silver"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsilver"
@@ -38325,8 +37838,7 @@
 		"8015"
 		{		
 			"name"				"UGC Highlander 1st Place North American Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_1st_NA_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6firststeel"
@@ -38339,8 +37851,7 @@
 		"8016"
 		{		
 			"name"				"UGC Highlander 2nd Place North American Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_2nd_NA_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6secondsteel"
@@ -38353,8 +37864,7 @@
 		"8017"
 		{		
 			"name"				"UGC Highlander 3rd Place North American Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_3rd_NA_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsteel"
@@ -38367,8 +37877,7 @@
 		"8018"
 		{		
 			"name"				"UGC Highlander 1st Place European Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_1st_Europe_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6firststeel"
@@ -38381,8 +37890,7 @@
 		"8019"
 		{		
 			"name"				"UGC Highlander 2nd Place European Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_2nd_Europe_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6secondsteel"
@@ -38395,8 +37903,7 @@
 		"8020"
 		{		
 			"name"				"UGC Highlander 3rd Place European Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_3rd_Europe_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsteel"
@@ -38409,8 +37916,7 @@
 		"8021"
 		{		
 			"name"				"UGC Highlander 1st Place South American Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_1st_SA_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6firststeel"
@@ -38423,8 +37929,7 @@
 		"8022"
 		{		
 			"name"				"UGC Highlander 2nd Place South American Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_2nd_SA_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6secondsteel"
@@ -38437,8 +37942,7 @@
 		"8023"
 		{		
 			"name"				"UGC Highlander 3rd Place South American Steel Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_3rd_SA_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6thirdsteel"
@@ -38451,8 +37955,7 @@
  		"8024"
 		{		
 			"name"				"UGC Highlander Platinum Participant Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_Highlander_Platinum"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6participantplatinum"
@@ -38465,8 +37968,7 @@
 		"8025"
 		{		
 			"name"				"UGC Highlander Silver Participant Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_Highlander_Silver"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6participantsilver"
@@ -38479,8 +37981,7 @@
 		"8026"
 		{		
 			"name"				"UGC Highlander Steel Participant Season 6"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_UGC_Highlander_Steel"
 			"item_description"	"#TF_TournamentMedal_UGC_Highlander_Season6"
 			"image_inventory"	"backpack/player/items/all_class/ugc6participantsteel"
@@ -38493,8 +37994,7 @@
 		"8027"
 		{		
 			"name"				"ESL Season VI Premier Division 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Premier_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Premier"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38507,8 +38007,7 @@
 		"8028"
 		{		
 			"name"				"ESL Season VI Premier Division 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Premier_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Premier"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38521,8 +38020,7 @@
 		"8029"
 		{		
 			"name"				"ESL Season VI Premier Division 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Premier_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Premier"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -38535,8 +38033,7 @@
 		"8030"
 		{		
 			"name"				"ESL Season VI Premier Division Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Premier_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Premier"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38549,8 +38046,7 @@
 		"8031"
 		{		
 			"name"				"ESL Season VI Division 1 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div1_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38563,8 +38059,7 @@
 		"8032"
 		{		
 			"name"				"ESL Season VI Division 1 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div1_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38577,8 +38072,7 @@
 		"8033"
 		{		
 			"name"				"ESL Season VI Division 1 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div1_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -38591,8 +38085,7 @@
 		"8034"
 		{		
 			"name"				"ESL Season VI Division 1 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div1_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38605,8 +38098,7 @@
 		"8035"
 		{		
 			"name"				"ESL Season VI Division 2 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div2_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div2"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38619,8 +38111,7 @@
 		"8036"
 		{		
 			"name"				"ESL Season VI Division 2 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div2_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div2"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38633,8 +38124,7 @@
 		"8037"
 		{		
 			"name"				"ESL Season VI Division 2 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div2_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div2"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -38647,8 +38137,7 @@
 		"8038"
 		{		
 			"name"				"ESL Season VI Division 2 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div2_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div2"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38661,8 +38150,7 @@
  		"8039"
 		{		
 			"name"				"ESL Season VI Division 3 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div3_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div3"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38675,8 +38163,7 @@
 		"8040"
 		{		
 			"name"				"ESL Season VI Division 3 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div3_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div3"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38689,8 +38176,7 @@
 		"8041"
 		{		
 			"name"				"ESL Season VI Division 3 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div3_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div3"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -38703,8 +38189,7 @@
 		"8042"
 		{		
 			"name"				"ESL Season VI Division 3 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div3_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div3"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38717,8 +38202,7 @@
 		"8043"
 		{		
 			"name"				"ESL Season VI Division 4 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div4_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div4"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38731,8 +38215,7 @@
 		"8044"
 		{		
 			"name"				"ESL Season VI Division 4 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div4_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div4"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38745,8 +38228,7 @@
 		"8045"
 		{		
 			"name"				"ESL Season VI Division 4 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div4_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div4"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -38759,8 +38241,7 @@
 		"8046"
 		{		
 			"name"				"ESL Season VI Division 4 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div4_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div4"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38773,8 +38254,7 @@
  		"8047"
 		{		
 			"name"				"ESL Season VI Division 5 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div5_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div5"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38787,8 +38267,7 @@
 		"8048"
 		{		
 			"name"				"ESL Season VI Division 5 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div5_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div5"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38801,8 +38280,7 @@
 		"8049"
 		{		
 			"name"				"ESL Season VI Division 5 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div5_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div5"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -38815,8 +38293,7 @@
 		"8050"
 		{		
 			"name"				"ESL Season VI Division 5 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVI_Div5_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVI_Div5"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38829,8 +38306,7 @@
 		"8051"
 		{		
 			"name"				"ESL Season VII Premiership Division 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Premiership_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Premiership"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38843,8 +38319,7 @@
 		"8052"
 		{		
 			"name"				"ESL Season VII Premiership Division 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Premiership_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Premiership"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38857,8 +38332,7 @@
 		"8053"
 		{		
 			"name"				"ESL Season VII Premiership Division 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Premiership_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Premiership"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -38871,8 +38345,7 @@
 		"8054"
 		{		
 			"name"				"ESL Season VII Premiership Division Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Premiership_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Premiership"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38885,8 +38358,7 @@
 		"8055"
 		{		
 			"name"				"ESL Season VII Division 1 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div1_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38899,8 +38371,7 @@
 		"8056"
 		{		
 			"name"				"ESL Season VII Division 1 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div1_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38913,8 +38384,7 @@
 		"8057"
 		{		
 			"name"				"ESL Season VII Division 1 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div1_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -38927,8 +38397,7 @@
 		"8058"
 		{		
 			"name"				"ESL Season VII Division 2 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div2_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div2"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38941,8 +38410,7 @@
 		"8059"
 		{		
 			"name"				"ESL Season VII Division 2 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div2_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div2"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -38955,8 +38423,7 @@
 		"8060"
 		{		
 			"name"				"ESL Season VII Division 2 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div2_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div2"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38969,8 +38436,7 @@
 		"8061"
 		{		
 			"name"				"ESL Season VII Division 3 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div3_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div3"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -38983,8 +38449,7 @@
 		"8062"
 		{		
 			"name"				"ESL Season VII Division 4 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div4_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div4"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -38997,8 +38462,7 @@
 		"8063"
 		{		
 			"name"				"ESL Season VII Division 4 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div4_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div4"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -39011,8 +38475,7 @@
 		"8064"
 		{		
 			"name"				"ESL Season VII Division 4 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div4_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div4"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -39025,8 +38488,7 @@
 		"8065"
 		{		
 			"name"				"ESL Season VII Division 4 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div4_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div4"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -39039,8 +38501,7 @@
  		"8066"
 		{		
 			"name"				"ESL Season VII Division 5 1st Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div5_1st"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div5"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_gold"
@@ -39053,8 +38514,7 @@
 		"8067"
 		{		
 			"name"				"ESL Season VII Division 5 2nd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div5_2nd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div5"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_silver"
@@ -39067,8 +38527,7 @@
 		"8068"
 		{		
 			"name"				"ESL Season VII Division 5 3rd Place"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div5_3rd"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div5"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl_bronze"
@@ -39081,8 +38540,7 @@
 		"8069"
 		{		
 			"name"				"ESL Season VII Division 5 Participant"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_ESL_SeasonVII_Div5_Participant"
 			"item_description"	"#TF_TournamentMedal_ESL_SeasonVII_Div5"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_esl"
@@ -39095,8 +38553,7 @@
 		"8070"
 		{		
 			"name"				"Ready Steady Pan Participant Season 1"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Ready_Steady_Pan_Participant"
 			"item_description"	"#TF_TournamentMedal_Ready_Steady_Pan_Participant_Season1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_pan"
@@ -39105,13 +38562,1771 @@
 		"8071"
 		{		
 			"name"				"Ready Steady Pan Helper Season 1"
-			"prefab"			"award_medal"
-			"item_type_name"	"#TF_Wearable_TournamentMedal"
+			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_Ready_Steady_Pan_Participant"
 			"item_description"	"#TF_TournamentMedal_Ready_Steady_Pan_Helper_Season1"
 			"image_inventory"	"backpack/player/items/all_class/all_class_badge_pan"
 			"model_player"	"models/player/items/all_class/all_class_badge_pan.mdl"
 		}
+		"8072"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Gold Medal Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8073"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Silver Medal Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8074"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Bronze Medal Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+ 		"8075"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Gold Medal Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8076"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Silver Medal Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8077"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Bronze Medal Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8078"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Gold Medal Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8079"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Silver Medal Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8080"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Bronze Medal Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8081"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Gold Medal Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8082"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Silver Medal Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8083"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Bronze Medal Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8084"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Gold Medal Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8085"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Silver Medal Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8086"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Bronze Medal Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8087"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Gold Medal Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8088"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Silver Medal Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8089"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Bronze Medal Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8090"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Group Winner Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8091"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Group Winner Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8092"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Group Winner Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8093"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Group Winner Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8094"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Group Winner Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8095"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Group Winner Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8096"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Group Winner Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8097"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Group Winner Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8098"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Group Winner Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8099"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Group Winner Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8100"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Group Winner Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8101"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Group Winner Season 9"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8102"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Group Winner Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8103"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Group Winner Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8104"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Group Winner Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8105"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Group Winner Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8106"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Group Winner Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8107"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Group Winner Season 10"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8108"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Group Winner Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8109"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Group Winner Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8110"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Group Winner Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8111"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Group Winner Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8112"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Group Winner Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8113"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Group Winner Season 11"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8114"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Group Winner Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8115"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Group Winner Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8116"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Group Winner Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8117"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Group Winner Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8118"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Group Winner Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8119"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Group Winner Season 12"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8120"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Group Winner Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8121"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Group Winner Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8122"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Group Winner Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8123"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Group Winner Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8124"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Group Winner Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8125"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Group Winner Season 13"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_winner_2012.mdl"
+		}
+		"8126"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Participation Medal Season 8"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8127"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Participation Medal Season 8"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8128"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Participation Medal Season 8"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8129"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Participation Medal Season 8"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8130"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Participation Medal Season 8"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8131"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Participation Medal Season 8"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8132"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Participation Medal Season 8"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season8"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+  		"8133"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Participation Medal Season 9"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8134"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Participation Medal Season 9"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8135"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Participation Medal Season 9"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8136"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Participation Medal Season 9"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8137"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Participation Medal Season 9"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8138"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Participation Medal Season 9"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8139"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Participation Medal Season 9"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season9"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+ 		"8140"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Participation Medal Season 10"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8141"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Participation Medal Season 10"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8142"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Participation Medal Season 10"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8143"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Participation Medal Season 10"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8144"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Participation Medal Season 10"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8145"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Participation Medal Season 10"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8146"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Participation Medal Season 10"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season10"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8147"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Participation Medal Season 11"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8148"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Participation Medal Season 11"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8149"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Participation Medal Season 11"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8150"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Participation Medal Season 11"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8151"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Participation Medal Season 11"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8152"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Participation Medal Season 11"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8153"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Participation Medal Season 11"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season11"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+ 		"8154"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Participation Medal Season 12"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8155"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Participation Medal Season 12"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8156"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Participation Medal Season 12"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8157"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Participation Medal Season 12"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8158"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Participation Medal Season 12"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8159"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Participation Medal Season 12"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8160"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Participation Medal Season 12"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season12"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8161"
+		{		
+			"name"				"ETF2L 6v6 Premier Division Participation Medal Season 13"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Premier_Division_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8162"
+		{		
+			"name"				"ETF2L 6v6 Division 1 Participation Medal Season 13"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8163"
+		{		
+			"name"				"ETF2L 6v6 Division 2 Participation Medal Season 13"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8164"
+		{		
+			"name"				"ETF2L 6v6 Division 3 Participation Medal Season 13"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8165"
+		{		
+			"name"				"ETF2L 6v6 Division 4 Participation Medal Season 13"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8166"
+		{		
+			"name"				"ETF2L 6v6 Division 5 Participation Medal Season 13"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8167"
+		{		
+			"name"				"ETF2L 6v6 Division 6 Participation Medal Season 13"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_6v6_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season13"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_sixs_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_sixs_participant_2012.mdl"
+		}
+		"8168"
+		{		
+			"name"				"ETF2L Highlander Division 1 Gold Medal Season 1"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8169"
+		{		
+			"name"				"ETF2L Highlander Division 1 Silver Medal Season 1"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8170"
+		{		
+			"name"				"ETF2L Highlander Division 1 Bronze Medal Season 1"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8171"
+		{		
+			"name"				"ETF2L Highlander Division 1 Gold Medal Season 2"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8172"
+		{		
+			"name"				"ETF2L Highlander Division 1 Silver Medal Season 2"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8173"
+		{		
+			"name"				"ETF2L Highlander Division 1 Bronze Medal Season 2"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8174"
+		{		
+			"name"				"ETF2L Highlander Premier Division Gold Medal Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Premier_Division_Gold"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012_gold"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8175"
+		{		
+			"name"				"ETF2L Highlander Premier Division Silver Medal Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Premier_Division_Silver"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012_silver"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8176"
+		{		
+			"name"				"ETF2L Highlander Premier Division Bronze Medal Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Premier_Division_Bronze"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_placement_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_placement_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8177"
+		{		
+			"name"				"ETF2L Highlander Division 2 Group Winner Season 1"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8178"
+		{		
+			"name"				"ETF2L Highlander Division 3 Group Winner Season 1"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8179"
+		{		
+			"name"				"ETF2L Highlander Division 4 Group Winner Season 1"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8180"
+		{		
+			"name"				"ETF2L Highlander Division 5 Group Winner Season 1"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8181"
+		{		
+			"name"				"ETF2L Highlander Division 6 Group Winner Season 1"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8182"
+		{		
+			"name"				"ETF2L Highlander Division 2 Group Winner Season 2"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8183"
+		{		
+			"name"				"ETF2L Highlander Division 3 Group Winner Season 2"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8184"
+		{		
+			"name"				"ETF2L Highlander Division 4 Group Winner Season 2"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8185"
+		{		
+			"name"				"ETF2L Highlander Division 5 Group Winner Season 2"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8186"
+		{		
+			"name"				"ETF2L Highlander Division 6 Group Winner Season 2"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+  		"8187"
+		{		
+			"name"				"ETF2L Highlander Division 1 Group Winner Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8188"
+		{		
+			"name"				"ETF2L Highlander Division 2 Group Winner Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division2_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8189"
+		{		
+			"name"				"ETF2L Highlander Division 3 Group Winner Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division3_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8190"
+		{		
+			"name"				"ETF2L Highlander Division 4 Group Winner Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division4_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8191"
+		{		
+			"name"				"ETF2L Highlander Division 5 Group Winner Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division5_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8192"
+		{		
+			"name"				"ETF2L Highlander Division 6 Group Winner Season 3"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division6_Group_Winner"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_winner_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_winner_2012.mdl"
+		}
+		"8193"
+		{		
+			"name"				"ETF2L Highlander Division 1 Participation Medal Season 1"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8194"
+		{		
+			"name"				"ETF2L Highlander Division 2 Participation Medal Season 1"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8195"
+		{		
+			"name"				"ETF2L Highlander Division 3 Participation Medal Season 1"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8196"
+		{		
+			"name"				"ETF2L Highlander Division 4 Participation Medal Season 1"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8197"
+		{		
+			"name"				"ETF2L Highlander Division 5 Participation Medal Season 1"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8198"
+		{		
+			"name"				"ETF2L Highlander Division 6 Participation Medal Season 1"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season1"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8199"
+		{		
+			"name"				"ETF2L Highlander Division 1 Participation Medal Season 2"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8200"
+		{		
+			"name"				"ETF2L Highlander Division 2 Participation Medal Season 2"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8201"
+		{		
+			"name"				"ETF2L Highlander Division 3 Participation Medal Season 2"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8202"
+		{		
+			"name"				"ETF2L Highlander Division 4 Participation Medal Season 2"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8203"
+		{		
+			"name"				"ETF2L Highlander Division 5 Participation Medal Season 2"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8204"
+		{		
+			"name"				"ETF2L Highlander Division 6 Participation Medal Season 2"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season2"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8205"
+		{		
+			"name"				"ETF2L Highlander Premier Division Participation Medal Season 3"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Premier_Division_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8206"
+		{		
+			"name"				"ETF2L Highlander Division 1 Participation Medal Season 3"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division1_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8207"
+		{		
+			"name"				"ETF2L Highlander Division 2 Participation Medal Season 3"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division2_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8208"
+		{		
+			"name"				"ETF2L Highlander Division 3 Participation Medal Season 3"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division3_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8209"
+		{		
+			"name"				"ETF2L Highlander Division 4 Participation Medal Season 3"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division4_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8210"
+		{		
+			"name"				"ETF2L Highlander Division 5 Participation Medal Season 3"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division5_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8211"
+		{		
+			"name"				"ETF2L Highlander Division 6 Participation Medal Season 3"
+			"prefab"			"etf2l_participation_styles tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Highlander_Division6_Participation"
+			"item_description"	"#TF_TournamentMedal_ETF2L_Season3"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_highlander_participant_2012"
+			"model_player"		"models/player/items/all_class/etf2l_highlander_participant_2012.mdl"
+		}
+		"8212"
+		{		
+			"name"				"ETF2L Ultiduo 1 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Ultiduo1_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8213"
+		{		
+			"name"				"ETF2L Ultiduo 2 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Ultiduo2_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8214"
+		{		
+			"name"				"ETF2L Ultiduo 3 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Ultiduo3_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8215"
+		{		
+			"name"				"ETF2L Ultiduo 4 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ETF2L_Ultiduo4_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/etf2l_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8216"
+		{		
+			"name"				"ESH Ultiduo 1 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ESH_Ultiduo1_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/esh_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8217"
+		{		
+			"name"				"ESH Ultiduo 2 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ESH_Ultiduo2_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/esh_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8218"
+		{		
+			"name"				"ESH Ultiduo 3 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ESH_Ultiduo3_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/esh_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8219"
+		{		
+			"name"				"ESH Ultiduo 4 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ESH_Ultiduo4_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/esh_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8220"
+		{		
+			"name"				"ESH Ultiduo 5 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ESH_Ultiduo5_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/esh_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8221"
+		{		
+			"name"				"ESH Ultiduo 6 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ESH_Ultiduo6_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/esh_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8222"
+		{		
+			"name"				"ESH Ultiduo 7 Gold Medal"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_ESH_Ultiduo7_Gold_Medal"
+			"image_inventory"	"backpack/player/items/all_class/esh_ultiduo_2012"
+			"model_player"		"models/player/items/all_class/etf2l_ultiduo_2012.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8223"				
+		{
+			"name"	"Tournament Medal (Armory)"
+			"prefab"	"tournament_medal"
+			"armory_desc"		"tournamentmedal"
+			"show_in_armory"	"1"
+			"image_inventory"	"backpack/player/items/soldier/medal"
+			"item_name"	"#TF_TournamentMedal_Empty"
+			"item_description"	"#TF_TournamentMedal_Empty_Desc"
+		}
+		"8224"
+		{		
+			"name"				"UGC Highlander 1st Place Platinum Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_1st"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_first_plat"
+			"model_player"		"models/player/items/all_class/ugc8_medal_first.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"8225"
+		{		
+			"name"				"UGC Highlander 2nd Place Platinum Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_2nd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_second_plat"
+			"model_player"		"models/player/items/all_class/ugc8_medal_second.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"8226"
+		{		
+			"name"				"UGC Highlander 3rd Place Platinum Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_3rd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_third_plat"
+			"model_player"		"models/player/items/all_class/ugc8_medal_third.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"8227"
+		{		
+			"name"				"UGC Highlander 1st Place Silver Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_1st"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_first_silver"
+			"model_player"		"models/player/items/all_class/ugc8_medal_first.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8228"
+		{		
+			"name"				"UGC Highlander 2nd Place Silver Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_2nd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_second_silver"
+			"model_player"		"models/player/items/all_class/ugc8_medal_second.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8229"
+		{		
+			"name"				"UGC Highlander 3rd Place Silver Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_3rd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_third_silver"
+			"model_player"		"models/player/items/all_class/ugc8_medal_third.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8230"
+		{		
+			"name"				"UGC Highlander 1st Place Steel Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Steel_1st"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_first_steel"
+			"model_player"		"models/player/items/all_class/ugc8_medal_first.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8231"
+		{		
+			"name"				"UGC Highlander 2nd Place Steel Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Steel_2nd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_second_steel"
+			"model_player"		"models/player/items/all_class/ugc8_medal_second.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8232"
+		{		
+			"name"				"UGC Highlander 3rd Place Steel Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Steel_3rd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_third_steel"
+			"model_player"		"models/player/items/all_class/ugc8_medal_third.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8233"
+		{		
+			"name"				"UGC Highlander 1st Place Iron Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Iron_1st"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_first_iron"
+			"model_player"		"models/player/items/all_class/ugc8_medal_first.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8234"
+		{		
+			"name"				"UGC Highlander 2nd Place Iron Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Iron_2nd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_second_iron"
+			"model_player"		"models/player/items/all_class/ugc8_medal_second.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8235"
+		{		
+			"name"				"UGC Highlander 3rd Place Iron Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Iron_3rd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_third_iron"
+			"model_player"		"models/player/items/all_class/ugc8_medal_third.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"8236"
+		{		
+			"name"				"UGC Highlander 1st Place Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_1st"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_first_plat"
+			"model_player"		"models/player/items/all_class/ugc8_medal_first.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"8237"
+		{		
+			"name"				"UGC Highlander 2nd Place Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_2nd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_second_plat"
+			"model_player"		"models/player/items/all_class/ugc8_medal_second.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"8238"
+		{		
+			"name"				"UGC Highlander 3rd Place Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_3rd"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_third_plat"
+			"model_player"		"models/player/items/all_class/ugc8_medal_third.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"8239"
+		{		
+			"name"				"UGC Highlander Platinum Participant Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_Participant"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_participant_plat"
+			"model_player"		"models/player/items/all_class/ugc8_medal_participant.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"8240"
+		{		
+			"name"				"UGC Highlander Silver Participant Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_Participant"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_participant_silver"
+			"model_player"		"models/player/items/all_class/ugc8_medal_participant.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"8241"
+		{		
+			"name"				"UGC Highlander Steel Participant Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Steel_Participant"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_participant_steel"
+			"model_player"		"models/player/items/all_class/ugc8_medal_participant.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"8242"
+		{		
+			"name"				"UGC Highlander Participant Season 8"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Participant"
+			"item_description"	"#TF_TournamentMedal_UGCHL_Season8"
+			"image_inventory"	"backpack/player/items/all_class/ugc8_medal_participant_iron"
+			"model_player"		"models/player/items/all_class/ugc8_medal_participant.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+
+
 
 
 
