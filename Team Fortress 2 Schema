@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.f2c088cc4a871acb22579e63aafe1c308d02eb42.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.18c6a304a32d66f04c99bad3951616c5b7aefa57.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -31366,25 +31366,18 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_fs_badge.711e6afe10a3257de8794b598cf10be1c003c764.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_fs_badge_large.740640bca853692f50062fe541cf0784f319e3e9.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "Silver Botkiller Sniper Rifle Mk.II",
@@ -33627,6 +33620,49 @@
 					{
 						"name": "Pyro"
 					}
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Buck Turner All-Stars",
+				"defindex": 1016,
+				"item_class": "tf_wearable",
+				"item_type_name": "Shoes",
+				"item_name": "Buck Turner All-Stars",
+				"item_description": "Named after the famous Badlands sprinter who set a land speed record for sleeping with other men's wives. Turner designed the shoes to escape angry mobs of husbands, but sadly could not outrun diabetes. Both his feet were later amputated.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/bit_trippers_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/bit_trippers_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bit_trippers_demo.e2ae04868734b560018eaa4413f0bdb906e2744c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bit_trippers_demo_large.fe3bf44d214f830f1e60548ef3f11efb81db3670.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Demoman"
 				]
 				,
 				"attributes": [

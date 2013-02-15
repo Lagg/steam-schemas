@@ -28471,7 +28471,7 @@
 					"1"
 					{
 						"skin_red"	"2"
-						"skin_blu"	"2"
+						"skin_blu"	"3"
 						"name"	"#TF_BlackRose_Style_Black"
 					}
 				}
@@ -35333,7 +35333,7 @@
 		{
 			"name"	"Faerie Solitaire Pin"
 			"first_sale_date"	"2012/11/30"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"can_craft_count"	"1"
@@ -37138,6 +37138,41 @@
 			"mouse_pressed_sound" 	"ui/item_default_pickup.wav"
 			"drop_sound" 		"ui/item_default_drop.wav"
 		}
+		"1016"
+		{
+			"name"	"Buck Turner All-Stars"
+			"first_sale_date"	"2013/02/15"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"paintable"		"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Shoes"
+			"item_name"	"#TF_TurnerAllStars"
+			"item_description"	"#TF_TurnerAllStars_Desc"
+			"equip_region"	"feet"
+			"image_inventory"	"backpack/player/items/demo/bit_trippers_demo"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/scout/bit_trippers_scout.mdl"
+				"demoman"	"models/player/items/demo/bit_trippers_demo.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"demoman"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"shoes_socks"			"1"
+					"shoes"					"1"
+				}
+			}
+		}
+
 
 
 
