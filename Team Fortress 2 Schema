@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.18c6a304a32d66f04c99bad3951616c5b7aefa57.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1fd0b7b708a5bf92b3c0bf254affb18cfb4c1ad3.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -33622,6 +33622,79 @@
 					}
 				]
 				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Brutal Bouffant",
+				"defindex": 1014,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hair",
+				"item_name": "Brütal Bouffant",
+				"item_description": "This brutally heavy all-class sideburns and mullet combo was hand-sheared from the manes of Icelandic headbangers, woven with sigil-encrusted knitting needles of occult significance, and air-mailed straight out of hell.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/brutal_hair_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/brutal_hair_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/brutal_hair_demo.046a0c29a67fa49e1d128b5b61ea56bc4617055e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/brutal_hair_demo_large.9a4d8f6295678ae332e3eaf719d27e01ecaf343d.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Shred Alert",
+				"defindex": 1015,
+				"item_class": "tf_wearable",
+				"item_type_name": "Special Taunt",
+				"item_name": "Shred Alert",
+				"item_description": "Harness the unholy power of the Dark One (Yngwie Malmsteen) and crush your opponents with blistering riffs, lava-hot licks and emotionally crippling power ballads!",
+				"proper_name": true,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/all_brutal_taunt",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_brutal_taunt.9271b13302c1f164e2723c3f1c34bbe0f44a4959.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_brutal_taunt_large.500019211e5ed0fc8d0b1c15ea3c5018e59166d1.png",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"usable": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
 				"attributes": [
 					{
 						"name": "cannot trade",

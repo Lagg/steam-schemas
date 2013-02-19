@@ -37138,6 +37138,104 @@
 			"mouse_pressed_sound" 	"ui/item_default_pickup.wav"
 			"drop_sound" 		"ui/item_default_drop.wav"
 		}
+		"1014"
+		{
+			"name"	"The Brutal Bouffant"
+			"first_sale_date"	"2013/02/13"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Hair"
+			"item_name"	"#TF_BrutalBouffant"
+			"item_description"	"#TF_BrutalBouffant_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/all_class/brutal_hair_demo"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/brutal_hair_scout.mdl"
+				"sniper"	"models/player/items/all_class/brutal_hair_sniper.mdl"
+				"soldier"	"models/player/items/all_class/brutal_hair_soldier.mdl"
+				"demoman"	"models/player/items/all_class/brutal_hair_demo.mdl"
+				"medic"		"models/player/items/all_class/brutal_hair_medic.mdl"
+				"heavy"		"models/player/items/all_class/brutal_hair_heavy.mdl"
+				"spy"		"models/player/items/all_class/brutal_hair_spy.mdl"
+				"engineer"	"models/player/items/all_class/brutal_hair_engineer.mdl"
+				"pyro"		"models/player/items/all_class/brutal_hair_pyro.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+		}
+		"1015"
+		{
+			"name"	"The Shred Alert"
+			"first_sale_date"	"2013/02/13"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"0"		
+				"usable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"armory_desc"		"action tauntenabler"
+			"item_type_name"	"#TF_TauntEnabler"
+			"item_name"		"#TF_ShredAlert"
+			"item_description"	"#TF_ShredAlert_Desc"
+			"propername"	"1"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/player/items/all_class/all_brutal_taunt"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"										  
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"		
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"animation_replacement"
+				{
+					"taunt_concept"	"TLK_TAUNT_GUITAR_RIFF"
+				}
+				"animation_scene"
+				{
+					"taunt_concept"	"taunt_brutalLegend.vcd"
+				}
+			}
+		}
 		"1016"
 		{
 			"name"	"Buck Turner All-Stars"
