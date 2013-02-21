@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/205790\/scripts\/items\/items_game.4e56172f7842f13e2e1c004f755e3beb3390d517.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/205790\/scripts\/items\/items_game.36abf80df2ad77f69ef04cdaa5741253fc93ab27.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -37567,6 +37567,76 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_starladder5.51fd061ff75a2397005676a9dbbed473d2ecb72b.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_starladder5_large.1c7d7a142567862df43cfa5cbc3f411e2ec0409d.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "4Players League",
+				"defindex": 15131,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "4Players League",
+				"item_description": "The 4PL is an European online gaming league that provides, besides many other events, the exciting and well known Play4Dota2 tournaments with teams participating from all over the world. Form your team, win money or hardware prizes and meet or encounter some of the best Dota 2 players.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_4pl_dota2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_4pl_dota2.5ffa5f14af79dc0c7f3fa2cf7c61c32081cb6371.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_4pl_dota2_large.9f4a2abbfc8148fa6198eba657fc34e6c5b23e79.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "4Players League - ADMIN",
+				"defindex": 15132,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "4Players League - ADMIN",
+				"item_description": "The 4PL is an European online gaming league and provides, besides many other events, the exciting and well known Play4Dota2 tournaments with teams participating from all over the world. Form your team, win money or hardware prizes and meet or encounter some of the best Dota 2 players.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_4pl_dota2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_4pl_dota2.5ffa5f14af79dc0c7f3fa2cf7c61c32081cb6371.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/205790\/icons\/econ\/leagues\/subscriptions_4pl_dota2_large.9f4a2abbfc8148fa6198eba657fc34e6c5b23e79.png",
 				"capabilities": {
 					"usable_gc": true,
 					"usable_out_of_game": true,
