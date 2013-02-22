@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.1fd0b7b708a5bf92b3c0bf254affb18cfb4c1ad3.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.382108020a63604d0daededf92a648b8a3622d1e.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -33627,6 +33627,11 @@
 						"name": "cannot trade",
 						"class": "cannot_trade",
 						"value": 1.000000
+					},
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
+						"value": 1.000000
 					}
 				]
 				
@@ -33742,6 +33747,309 @@
 					{
 						"name": "cannot trade",
 						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Vox Diabolus",
+				"defindex": 1017,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Vox Diabolus",
+				"item_description": "With this Vox Populi anarchist mask, you can terrify your enemies into thinking you're the Devil Himself, or worse, a protestor. Either way, they're probably going to avoid you at the entrance to the supermarket when you try to get them to sign something.",
+				"proper_name": false,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/engineer\/bio_voxhood.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/engineer\/bio_voxhood",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_voxhood.9b4a222aa4f8cfc8eaea9aa9389f0569980e682d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_voxhood_large.d44431ec4ab0a0d95b5e52f92a0d3931c05b1fdf.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Pounding Father",
+				"defindex": 1018,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Pounding Father",
+				"item_description": "Heavy cannot tell lie. Heavy is first President of United States. Of crushing little baby men.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/heavy\/bio_heavy_wig.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/bio_heavy_wig",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_heavy_wig.58e1c6eef8d64a23732d40dca5459bc2d53010ed.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_heavy_wig_large.4480fe3466e8831475f1520ac0565b9b15433720.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Blind Justice",
+				"defindex": 1019,
+				"item_class": "tf_wearable",
+				"item_type_name": "",
+				"item_name": "Blind Justice",
+				"item_description": "Want to command respect from people standing at an indeterminate distance from your immediate right? Bolt on a platinum Pinkerton badge and experience the thrill for yourself!",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/demo\/bio_demo_patch.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/demo\/bio_demo_patch",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_demo_patch.712dda3b18dce2cdcd3295664aaea408abf73f18.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_demo_patch_large.e612a8d7058822fa1560537b39f6e242f064a83d.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Demoman"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Person in the Iron Mask",
+				"defindex": 1020,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Person in the Iron Mask",
+				"item_description": "Turkey? Chicken? Game hens? Your head? This cast iron poultry furnace will smoke anything placed inside it.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/bio_fireman.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/bio_fireman",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_fireman.b48f2d17555721b381d9f865001dc056bbebdbdd.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_fireman_large.8d306af340e0a2381e06540ec1d6e0e2aecab4ed.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Doe-Boy",
+				"defindex": 1021,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Doe-Boy",
+				"item_description": "Protect the important thoughts in your head -- ones like \"liberty\" and \"freedom\" and \"democracy\" -- with good, honest, hat-shaped American steel. This helmet won't run (until heated to 2500°F)!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/soldier\/bio_soldier_founders_cover.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/soldier\/bio_soldier_founders",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_soldier_founders.32aeec2d224ed72aa2c1bf00e1c53da500ad4393.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_soldier_founders_large.5d8a42a3c689bc11a5e49552ea6aa995c005f787.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"styles": [
+					{
+						"name": "Peek-a-boo..."
+					},
+					{
+						"name": "I see you!"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Sydney Straw Boat",
+				"defindex": 1022,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Sydney Straw Boat",
+				"item_description": "Throw this hat on the ground to express rage, or in the air to express joy! Take a hat-based trip through time to learn how your great grandparents displayed emotions in the days before emoticons!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/bio_sniper_boater.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/bio_sniper_boater",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_sniper_boater.668d584edd098259c240cdb0d2e885760c0c1f34.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_sniper_boater_large.0cc06e6b6c1578b0e1aefd1e7efda76b2da8bc0b.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Steel Songbird",
+				"defindex": 1023,
+				"item_class": "tf_wearable",
+				"item_type_name": "TF_Wearable_Animal",
+				"item_name": "Steel Songbird",
+				"item_description": "It gets pretty quiet in that sniper's nest. Why not treat yourself to the haunting rhythmic symphony of bolts being constantly pooped by this mute, easily terrified incontinent bird?",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/sniper\/bio_sniper_songbird.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/sniper\/bio_sniper_songbird",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_sniper_songbird.67509c844f080361d417c002e06eeab3005ffb59.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bio_sniper_songbird_large.bd725e336dbd3416514e91f3847b1d67b3c15a4c.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Sniper"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					},
+					{
+						"name": "counts as assister is some kind of pet this update is going to be awesome",
+						"class": "counts_as_assister",
 						"value": 1.000000
 					}
 				]

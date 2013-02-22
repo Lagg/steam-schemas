@@ -37134,6 +37134,11 @@
 					"attribute_class"	"cannot_trade"
 					"value"				"1"
 				}
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
 			}
 			"mouse_pressed_sound" 	"ui/item_default_pickup.wav"
 			"drop_sound" 		"ui/item_default_drop.wav"
@@ -37270,6 +37275,168 @@
 				}
 			}
 		}
+		"1017"
+		{
+			"name"	"Vox Diabolus"
+			"first_sale_date"	"2013/02/21"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_VoxDiabolus"
+			"item_description"	"#TF_VoxDiabolus_Desc"
+			"image_inventory"	"backpack/player/items/engineer/bio_voxhood"
+			"model_player"	"models/player/items/engineer/bio_voxhood.mdl"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+		}
+		"1018"
+		{
+			"name"	"The Pounding Father"
+			"first_sale_date"	"2013/02/21"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_PoundingFather"
+			"item_description"	"#TF_PoundingFather_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/heavy/bio_heavy_wig"
+			"model_player"	"models/player/items/heavy/bio_heavy_wig.mdl"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+		}
+		"1019"
+		{
+			"name"	"Blind Justice"
+			"first_sale_date"	"2013/02/21"
+			"prefab"	"promo cosmetic"
+			"equip_region"	"face"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_BlindJustice"
+			"item_description"	"#TF_BlindJustice_Desc"
+			"image_inventory"	"backpack/player/items/demo/bio_demo_patch"
+			"model_player"	"models/player/items/demo/bio_demo_patch.mdl"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+		}
+		"1020"
+		{
+			"name"	"The Person in the Iron Mask"
+			"first_sale_date"	"2013/02/21"
+			"prefab"	"promo hat"
+			"equip_region"	"pyro_head_replacement"
+			"capabilities"
+			{
+				"paintable"	"1"
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_IronMask"
+			"item_description"	"#TF_IronMask_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/pyro/bio_fireman"
+			"model_player"	"models/player/items/pyro/bio_fireman.mdl"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+		}
+		"1021"
+		{
+			"name"	"The Doe-Boy"
+			"first_sale_date"	"2013/02/21"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_DoeBoy"
+			"item_description"	"#TF_DoeBoy_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/soldier/bio_soldier_founders"
+			"model_player"	"models/player/items/soldier/bio_soldier_founders_cover.mdl"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/player/items/soldier/bio_soldier_founders_cover.mdl"
+						"name"	"#TF_DoeBoy_Style0"
+					}
+					"1"
+					{
+						"model_player"	"models/player/items/soldier/bio_soldier_founders.mdl"
+						"name"	"#TF_DoeBoy_Style1"
+					}
+				}
+			}
+		}
+		"1022"
+		{
+			"name"	"The Sydney Straw Boat"
+			"first_sale_date"	"2013/02/21"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"paintable"	"1"
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_StrawBoat"
+			"item_description"	"#TF_StrawBoat_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/sniper/bio_sniper_boater"
+			"model_player"	"models/player/items/sniper/bio_sniper_boater.mdl"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+		}
+		"1023"
+		{
+			"name"	"The Steel Songbird"
+			"first_sale_date"	"2013/02/21"
+			"prefab"	"promo cosmetic"
+			"equip_region"	"left_shoulder"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Animal"
+			"item_name"	"#TF_SteelSongbird"
+			"item_description"	"#TF_SteelSongbird_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/sniper/bio_sniper_songbird"
+			"model_player"	"models/player/items/sniper/bio_sniper_songbird.mdl"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"attributes"
+			{
+				"counts as assister is some kind of pet this update is going to be awesome"
+				{
+					"attribute_class"	"counts_as_assister"
+					"value"				"1"
+				}
+			}
+		}
+
 
 
 
