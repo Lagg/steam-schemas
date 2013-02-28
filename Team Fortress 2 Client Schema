@@ -37147,7 +37147,7 @@
 		{
 			"name"	"The Brutal Bouffant"
 			"first_sale_date"	"2013/02/13"
-			"prefab"	"promo hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -37191,7 +37191,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_gift_wrap" 	"0"		
+				"can_gift_wrap" 	"1"
 				"usable"		"1"
 				"can_craft_count"	"1"
 				"can_craft_if_purchased"	"1"
@@ -37221,14 +37221,6 @@
 				"engineer" 	"1"										  
 				"pyro" 		"1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"		
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"animation_replacement"
@@ -37245,7 +37237,7 @@
 		{
 			"name"	"Buck Turner All-Stars"
 			"first_sale_date"	"2013/02/15"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"paintable"		"1"

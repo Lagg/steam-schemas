@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.382108020a63604d0daededf92a648b8a3622d1e.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.50549368e72271598046a4227c757ee9e9b6e9cd.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -33653,26 +33653,19 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/brutal_hair_demo.046a0c29a67fa49e1d128b5b61ea56bc4617055e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/brutal_hair_demo_large.9a4d8f6295678ae332e3eaf719d27e01ecaf343d.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
 					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The Shred Alert",
@@ -33694,20 +33687,13 @@
 					"nameable": true,
 					"can_craft_if_purchased": true,
 					"usable": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "Buck Turner All-Stars",
@@ -33726,12 +33712,13 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bit_trippers_demo.e2ae04868734b560018eaa4413f0bdb906e2744c.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/bit_trippers_demo_large.fe3bf44d214f830f1e60548ef3f11efb81db3670.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
 					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -33741,14 +33728,6 @@
 				"used_by_classes": [
 					"Scout",
 					"Demoman"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
