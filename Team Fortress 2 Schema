@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.50549368e72271598046a4227c757ee9e9b6e9cd.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e202af0a7b34ce72f1a47334193c970c7afb771c.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -34029,6 +34029,122 @@
 					{
 						"name": "counts as assister is some kind of pet this update is going to be awesome",
 						"class": "counts_as_assister",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Croft's Crest",
+				"defindex": 1024,
+				"item_class": "tf_wearable",
+				"item_type_name": "Badge",
+				"item_name": "Croft's Crest",
+				"item_description": "This badge lets your enemies know you're as brave as a shivering, weeping, blood-stained 17-year-old British girl.",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/tomb_badge.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/tomb_badge",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_badge.4a2c3b27a3c750a0415d7552a123be060ab83e48.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_badge_large.20faa7b4ae1eea08fa59b251772b78b854f816fd.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Fortune Hunter",
+				"defindex": 1025,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cosmetic Axe",
+				"item_name": "Fortune Hunter",
+				"item_description": "Whether it's lying at the bottom of a dusty tomb or hiding in plain sight in the cavity behind someone's eyeballs, any treasure is just one swing away with this trusty adventure axe.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/tomb_pick_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/tomb_pick_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_pick_demo.6e23732304343c4457ac5b30b9dda820235c587e.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_pick_demo_large.d015184ae1070f701f07ef15eeb2c4b7981bd825.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Tomb Wrapper",
+				"defindex": 1026,
+				"item_class": "tf_wearable",
+				"item_type_name": "Bandages",
+				"item_name": "Tomb Wrapper",
+				"item_description": "These coarsely woven bandages were stolen from a mummy being prepped for surgery in an ancient Egyptian pyramid hospital. They're filthy! But priceless.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/tomb_tourniquet.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/tomb_tourniquet",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_tourniquet.88e0eb2281c32bc087731e144d9ba8c464af8467.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_tourniquet_large.f786b3e6f8964a074d330932cadde49e88107eb8.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
 						"value": 1.000000
 					}
 				]
