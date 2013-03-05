@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.2b9ef354f1004f792d439f32b35352a82969b9c3.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.bca354136e4395dd11a0397b6d19f416f2837029.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -38386,6 +38386,76 @@
 					"usage_capabilities": {
 						"decodable": true
 					}
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "GEST Dota 2 - 2013",
+				"defindex": 15134,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "GEST Dota 2 - 2013",
+				"item_description": "The Gigabyte E-Sports Tournament is sponsored by Gigabyte and hosted by DotaTalk. The winners of 8 GMPGL qualifiers from South-East Asia will compete against one another for another cash prize of $1500. The winners will compete against the Top Chinese Teams for another $1500.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_gest2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gest2.2eb7b1d1f40b940c8ad270dbf82a597139589eae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gest2_large.c3b4be3f635eec8b420b283ef5512dc3fbc5d704.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "GEST Dota 2 - 2013 ADMIN",
+				"defindex": 15135,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "GEST Dota 2 - 2013 ADMIN",
+				"item_description": "The Gigabyte E-Sports Tournament is sponsored by Gigabyte and hosted by DotaTalk. The winners of 8 GMPGL qualifiers from South-East Asia will compete against one another for another cash prize of $1500. The winners will have the privilege to compete against the Top Chinese Teams for another $1500.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_gest2",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gest2.2eb7b1d1f40b940c8ad270dbf82a597139589eae.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_gest2_large.c3b4be3f635eec8b420b283ef5512dc3fbc5d704.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
 				},
 				"attributes": [
 					{
