@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.e202af0a7b34ce72f1a47334193c970c7afb771c.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.4deaaa5c13fafe8b8bd48f3f49822765d9d4dd8d.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -30825,12 +30825,13 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_scrib_m_demo.bd12c91422aa42f4bd000f897fa45efd61fb14b9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/all_scrib_m_demo_large.b40fa38691dcf48dcce5474779c64c440832e765.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
 					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -30843,14 +30844,6 @@
 					},
 					{
 						"name": "Lilly"
-					}
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
 					}
 				]
 				
