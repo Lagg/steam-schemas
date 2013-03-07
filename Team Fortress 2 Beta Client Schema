@@ -141,31 +141,34 @@
 		"head_skin"			"1"			
 		
 		"earbuds_special"	"1"
-		"sniper_pocket"		"1"			
-		"engineer_pocket"	"1"			
-		"engineer_pants"	"1"			
 	
-		"medigun_backpack"	"1"
 		"medic_hip"			"1"			
-		"medic_pipe"		"1"
 		
 		"left_shoulder"		"1"			
 
-		"disconnected_floating_item"	"1"
+		"cosmetic_axe"	"1"				
 
+		"disconnected_floating_item"	"1"
 		"zombie_body"		"1"
 
-		"pyro_spikes"		"1"
+		"shared"
+		{
+			"pyro_spikes"		"1"
+			"scout_bandages"	"1"			
+			"engineer_pocket"	"1"			
+			"medigun_backpack"	"1"
+		}
 
 		"shared"
 		{
 			"scout_backpack"	"1"
 			"heavy_pocket"		"1"
-			"engineer_belt"		"1"		
+			"engineer_belt"		"1"			
 			"medic_pocket"		"1"
 			"soldier_pocket"	"1"
 			"pyro_tank"			"1"
 			"demo_belt"			"1"
+			"sniper_pocket"		"1"			
 		}
 		"shared"
 		{
@@ -176,6 +179,7 @@
 			"heavy_hip"			"1"
 			"scout_hands"		"1"			
 			"demoman_pants"		"1"			
+			"engineer_pants"	"1"			
 		}
 		"shared"
 		{
@@ -192,6 +196,7 @@
 			"pyro_head_replacement"	"1"
 			"scout_wings"		"1"
 			"heavy_mullet"		"1"			
+			"medic_pipe"		"1"
 		}
 	}
 	"equip_conflicts"
@@ -3038,8 +3043,8 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
-			"model_player"	"models/weapons/v_models/v_sapper_spy.mdl"
-			"model_world"	"models/weapons/w_models/w_sapper.mdl"
+			"model_player"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
+			"model_world"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
 			"used_by_classes"
 			{
 				"spy"	"1"
@@ -3068,8 +3073,8 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
-			"model_player"	"models/weapons/v_models/v_sapper_spy.mdl"
-			"model_world"	"models/weapons/w_models/w_sapper.mdl"
+			"model_player"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
+			"model_world"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
 			"used_by_classes"
 			{
 				"spy"	"1"
@@ -37200,7 +37205,7 @@
 		{
 			"name"	"The Brutal Bouffant"
 			"first_sale_date"	"2013/02/13"
-			"prefab"	"promo hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -37244,7 +37249,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_gift_wrap" 	"0"		
+				"can_gift_wrap" 	"1"
 				"usable"		"1"
 				"can_craft_count"	"1"
 				"can_craft_if_purchased"	"1"
@@ -37274,14 +37279,6 @@
 				"engineer" 	"1"										  
 				"pyro" 		"1"
 			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"		
-					"value"				"1"
-				}
-			}
 			"visuals"
 			{
 				"animation_replacement"
@@ -37298,7 +37295,7 @@
 		{
 			"name"	"Buck Turner All-Stars"
 			"first_sale_date"	"2013/02/15"
-			"prefab"	"promo cosmetic"
+			"prefab"	"cosmetic"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -37487,6 +37484,96 @@
 					"attribute_class"	"counts_as_assister"
 					"value"				"1"
 				}
+			}
+		}
+		"1024"
+		{
+			"name"	"Croft's Crest"
+			"first_sale_date"	"2013/03/04"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_CroftsCrest"
+			"item_description"	"#TF_CroftsCrest_Desc"
+			"equip_region"	"medal"
+			"image_inventory"	"backpack/player/items/all_class/tomb_badge"
+			"model_player"	"models/player/items/all_class/tomb_badge.mdl"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+		}
+		"1025"
+		{
+			"name"	"The Fortune Hunter"
+			"first_sale_date"	"2013/03/04"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"paintable"	"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Axe"
+			"item_name"	"#TF_FortuneHunter"
+			"item_description"	"#TF_FortuneHunter_Desc"
+			"propername"	"1"
+			"equip_region"	"cosmetic_axe"
+			"image_inventory"	"backpack/player/items/all_class/tomb_pick_demo"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/tomb_pick_scout.mdl"
+				"sniper"	"models/player/items/all_class/tomb_pick_sniper.mdl"
+				"soldier"	"models/player/items/all_class/tomb_pick_soldier.mdl"
+				"demoman"	"models/player/items/all_class/tomb_pick_demo.mdl"
+				"medic"		"models/player/items/all_class/tomb_pick_medic.mdl"
+				"heavy"		"models/player/items/all_class/tomb_pick_heavy.mdl"
+				"spy"		"models/player/items/all_class/tomb_pick_spy.mdl"
+				"engineer"	"models/player/items/all_class/tomb_pick_engineer.mdl"
+				"pyro"		"models/player/items/all_class/tomb_pick_pyro.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+		}
+		"1026"
+		{
+			"name"	"The Tomb Wrapper"
+			"first_sale_date"	"2013/03/04"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Bandages"
+			"item_name"	"#TF_TombWrapper"
+			"item_description"	"#TF_TombWrapper_Desc"
+			"propername"	"1"
+			"equip_region"	"scout_bandages"
+			"image_inventory"	"backpack/player/items/scout/tomb_tourniquet"
+			"model_player"	"models/player/items/scout/tomb_tourniquet.mdl"
+			"used_by_classes"
+			{
+				"scout"	"1"
 			}
 		}
 
@@ -56115,6 +56202,24 @@
 			"armory_desc"	"on_wearer"
 			"stored_as_integer"	"0"
 		}
+		"500"
+		{
+			"name" "custom name attr"
+			"attribute_class"	"custom_name_attr"
+			"attribute_type"	"string"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+		}
+		"501"
+		{
+			"name" "custom desc attr"
+			"attribute_class"	"custom_desc_attr"
+			"attribute_type"	"string"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+		}
 		
 		"1000"
 		{
@@ -65310,6 +65415,128 @@
 							"field"	"name"
 							"operator"	"string=="
 							"value"	"The Vaccinator"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"121"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Weapon_StickyBomb_Jump"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#TF_UllapoolCaber"
+			"di_C"	"#CI_Bar_B"
+			"do_A"	"1"
+			"do_B"	"#TF_Weapon_StickyBomb_Jump"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"disabled"	"0"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Ullapool Caber"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Stickybomb Jumper"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"category"	"commonitem"
+		}
+		"122"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Weapon_RocketLauncher_Jump"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#TF_Mantreads"
+			"di_C"	"#CI_Bar_B"
+			"do_A"	"1"
+			"do_B"	"#TF_Weapon_RocketLauncher_Jump"
+			"always_known"	"1"
+			"premium_only"	"0"
+			"disabled"	"0"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Mantreads"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Rocket Jumper"
 							"required"	"1"
 						}
 					}
