@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.2ed230a68f93cb3056f5d182afc6a26e666b648a.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.727b227a32b706724b790798144b5713ffdfa80d.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -31695,12 +31695,13 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_scrib_m_demo.bd12c91422aa42f4bd000f897fa45efd61fb14b9.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/all_scrib_m_demo_large.b40fa38691dcf48dcce5474779c64c440832e765.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
 					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -31714,14 +31715,6 @@
 					},
 					{
 						"name": "Lilly"
-					}
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
 					}
 				]
 				
@@ -38118,11 +38111,12 @@
 				}
 			},
 			{
-				"name": "Blue Pyro Action Figure Promo",
+				"name": "Mysterious Promo 7",
 				"defindex": 2088,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "TF_BluePyro_ActionFigure_Promo",
+				"item_name": "Mysterious Promo 7",
+				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -38137,18 +38131,15 @@
 					"strange_parts": true,
 					"can_card_upgrade": true,
 					"can_strangify": true
-				},
-				"used_by_classes": [
-					"Pyro"
-				]
-				
+				}
 			},
 			{
-				"name": "Blue Demoman Action Figure Promo",
+				"name": "Mysterious Promo 8",
 				"defindex": 2089,
 				"item_class": "bundle",
 				"item_type_name": "Item Bundle",
-				"item_name": "TF_BlueDemo_ActionFigure_Promo",
+				"item_name": "Mysterious Promo 8",
+				"item_description": "",
 				"proper_name": false,
 				"model_player": null,
 				"item_quality": 6,
@@ -38163,11 +38154,7 @@
 					"strange_parts": true,
 					"can_card_upgrade": true,
 					"can_strangify": true
-				},
-				"used_by_classes": [
-					"Demoman"
-				]
-				
+				}
 			},
 			{
 				"name": "Mysterious Promo 9",
@@ -60812,6 +60799,22 @@
 				"effect_type": "positive",
 				"hidden": false,
 				"stored_as_integer": false
+			},
+			{
+				"name": "strange restriction type 3",
+				"defindex": 496,
+				"attribute_class": "strange_restriction_type_3",
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "strange restriction value 3",
+				"defindex": 497,
+				"attribute_class": "strange_restriction_value_3",
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
 			},
 			{
 				"name": "custom name attr",

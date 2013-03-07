@@ -3044,7 +3044,6 @@
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
 			"model_player"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
-			"model_world"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
 			"used_by_classes"
 			{
 				"spy"	"1"
@@ -3074,7 +3073,6 @@
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
 			"model_player"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
-			"model_world"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
 			"used_by_classes"
 			{
 				"spy"	"1"
@@ -34817,7 +34815,7 @@
 		"942"
 		{
 			"name"	"The Cockfighter"
-			"prefab"	"promo hat"
+			"prefab"	"hat"
 			"capabilities"
 			{
 				"paintable"			"1"
@@ -44146,15 +44144,15 @@
 		}
 		"2088"
 		{
-			"name" "Blue Pyro Action Figure Promo" 
+			"name" "Mysterious Promo 7" 
 			"item_class"	"bundle"
 			"bundle"
 			{
-				"Respectless Rubber Glove"		"1"
+				"The Flare Gun"		"1"
 			}
 			"item_type_name"	"#TF_StoreBundle"
-			"item_name"		"#TF_BluePyro_ActionFigure_Promo"
-			"item_description"	"#TF_BluePyro_ActionFigure_Promo_Desc"
+			"item_name"		"#TF_Mysterious_Promo7"
+			"item_description"	"#TF_Mysterious_Promo7_Desc"
 			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
@@ -44163,6 +44161,14 @@
 			"max_ilevel"	"50"
 			"used_by_classes"
 			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
 				"pyro" 		"1"
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
@@ -44170,15 +44176,15 @@
 		}
 		"2089"
 		{
-			"name" "Blue Demoman Action Figure Promo" 
+			"name" "Mysterious Promo 8" 
 			"item_class"	"bundle"
 			"bundle"
 			{
-				"Scotsman's Stove Pipe"		"1"
+				"The Flare Gun"		"1"
 			}
 			"item_type_name"	"#TF_StoreBundle"
-			"item_name"		"#TF_BlueDemo_ActionFigure_Promo"
-			"item_description"	"#TF_BlueDemo_ActionFigure_Promo_Desc"
+			"item_name"		"#TF_Mysterious_Promo8"
+			"item_description"	"#TF_Mysterious_Promo8_Desc"
 			"image_inventory"	"backpack/player/items/crafting/mysterious_promo"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
@@ -44187,7 +44193,15 @@
 			"max_ilevel"	"50"
 			"used_by_classes"
 			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
 				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
 			}
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
@@ -56201,6 +56215,24 @@
 			"effect_type"	"positive"
 			"armory_desc"	"on_wearer"
 			"stored_as_integer"	"0"
+		}
+		"496"
+		{
+			"name"	"strange restriction type 3"
+			"attribute_class"	"strange_restriction_type_3"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"497"
+		{
+			"name"	"strange restriction value 3"
+			"attribute_class"	"strange_restriction_value_3"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
 		}
 		"500"
 		{
