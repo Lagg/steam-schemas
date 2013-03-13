@@ -157,6 +157,7 @@
 			"scout_bandages"	"1"			
 			"engineer_pocket"	"1"			
 			"medigun_backpack"	"1"
+			"heavy_belt_back"	"1"			
 		}
 
 		"shared"
@@ -482,6 +483,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_class"	"tf_weapon_minigun"
 			"craft_class"	"weapon"
@@ -525,6 +527,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_class"	"tf_weapon_rocketlauncher"
 			"craft_class"	"weapon"
@@ -565,6 +568,7 @@
 				"can_deal_damage"		"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_class"	"tf_weapon_pipebomblauncher"
 			"craft_class"	"weapon"
@@ -756,6 +760,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_class"	"tf_weapon_scattergun"
 			"craft_class"	"weapon"
@@ -789,6 +794,7 @@
 				"can_deal_damage"			"1"
 				"can_headshot"				"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_class"	"tf_weapon_sniperrifle"
 			"craft_class"	"weapon"
@@ -1142,6 +1148,28 @@
 			"image_inventory"	"backpack/player/items/crafting/flask_tub"
 			"image_inventory_overlay"	"backpack/player/items/crafting/flask_tub_paintcolor"
 		}
+		"strangifier_base"
+		{
+			"item_class"	"tool"
+			"tool"
+			{
+				"type"	"strangifier"
+				"usage_capabilities"
+				{
+					"can_strangify" "1"
+				}
+			}
+			"show_in_armory"	"0"
+			"item_type_name"	"#TF_StrangifierTool"
+			"image_inventory"	"backpack/crafting/strange_bacon_grease"
+			"image_inventory_size_w" "128"
+			"image_inventory_size_h" "96"
+			"item_quality"		"unique"
+			"min_ilevel"		"5"
+			"max_ilevel"		"5"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
 		"recorder"
 		{
 			"first_sale_date"	"2012/08/02"
@@ -1214,6 +1242,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -1273,6 +1302,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_posthumous_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Cleaver"
@@ -1981,6 +2011,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Shotgun"
@@ -2038,6 +2069,7 @@
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_CompoundBow"
@@ -2099,6 +2131,7 @@
 				"can_headshot"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -2156,6 +2189,7 @@
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
 				"can_deal_posthumous_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_class"	"tf_weapon_grenadelauncher"
 			"craft_class"	"weapon"
@@ -2497,6 +2531,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_shotgun"
@@ -2533,6 +2568,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"hidden"	"1"
 			"first_sale_date"	"2010/09/29"
@@ -2570,6 +2606,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"hidden"	"1"
 			"first_sale_date"	"2010/09/29"
@@ -2607,6 +2644,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"hidden"	"1"
 			"first_sale_date"	"2010/09/29"
@@ -2662,6 +2700,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_smg"
@@ -2697,6 +2736,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_syringegun_medic"
@@ -2755,6 +2795,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_pistol"
@@ -2791,6 +2832,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"hidden"	"1"
 			"first_sale_date"	"2010/09/29"
@@ -2828,6 +2870,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"first_sale_date"	"2010/09/29"
 			"item_class"	"tf_weapon_revolver"
@@ -2878,6 +2921,24 @@
 			"used_by_classes"
 			{
 				"engineer"	"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"3" 
+				}
+				"kill eater score type 2"
+				{
+					"attribute_class"	"kill_eater_score_type_2"
+					"value" 	"59" 
+				}
+				"kill eater score type 3"
+				{
+					"attribute_class"	"kill_eater_score_type_3"
+					"value" 	"60" 
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -3017,6 +3078,14 @@
 			{
 				"spy"	"1"
 			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"58" 
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_watch_pickup.wav"
 			"drop_sound"		"ui/item_watch_drop.wav"
 		}
@@ -3043,8 +3112,7 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
-			"model_player"	"models/weapons/v_models/v_sapper_spy.mdl"
-			"model_world"	"models/weapons/w_models/w_sapper.mdl"
+			"model_player"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
 			"used_by_classes"
 			{
 				"spy"	"1"
@@ -3073,8 +3141,7 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
-			"model_player"	"models/weapons/v_models/v_sapper_spy.mdl"
-			"model_world"	"models/weapons/w_models/w_sapper.mdl"
+			"model_player"	"models/weapons/c_models/c_sapper/c_sapper.mdl"
 			"used_by_classes"
 			{
 				"spy"	"1"
@@ -3116,6 +3183,24 @@
 			"used_by_classes"
 			{
 				"engineer"	"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"3" 
+				}
+				"kill eater score type 2"
+				{
+					"attribute_class"	"kill_eater_score_type_2"
+					"value" 	"59" 
+				}
+				"kill eater score type 3"
+				{
+					"attribute_class"	"kill_eater_score_type_3"
+					"value" 	"60" 
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
@@ -3233,6 +3318,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"blutsauger"
 			"item_iconname"	"blutsauger"
@@ -3298,6 +3384,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Flaregun"
@@ -3419,6 +3506,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -3575,6 +3663,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_posthumous_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -3628,6 +3717,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Scattergun"
@@ -4285,8 +4375,8 @@
 		}
 		"96"
 		{
-			"prefab"	"hat"
 			"name"	"Officer's Ushanka"
+			"prefab"	"hat"
 			"first_sale_date"	"2010/09/29"
 			"capabilities"
 			{
@@ -5475,6 +5565,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -5606,6 +5697,7 @@
 				"can_deal_gib_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_PipebombLauncher"
@@ -6592,7 +6684,7 @@
 				}
 			}
 			"mouse_pressed_sound" 	"ui/item_helmet_pickup.wav"
-			"drop_sound" 		"ui/item_helmet_drop.wav"		
+			"drop_sound" 		"ui/item_helmet_drop.wav"
 		}
 		"150"
 		{
@@ -7030,6 +7122,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Pistol"
@@ -7070,6 +7163,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -8574,6 +8668,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8615,6 +8710,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8651,6 +8747,7 @@
 				"can_deal_damage"			"1"
 				"can_headshot"				"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8687,6 +8784,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8723,6 +8821,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8760,6 +8859,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8798,6 +8898,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8836,6 +8937,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8875,6 +8977,7 @@
 				"can_deal_gib_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8955,6 +9058,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -8994,6 +9098,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -9085,6 +9190,14 @@
 			"used_by_classes"
 			{
 				"spy"	"1"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"58" 
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_watch_pickup.wav"
 			"drop_sound"		"ui/item_watch_drop.wav"
@@ -9349,6 +9462,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Peppergun"
@@ -9521,6 +9635,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -9762,6 +9877,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"blackbox"
 			"item_iconname"	"blackbox"
@@ -9881,6 +9997,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"sydney_sleeper"
 			"item_iconname"	"sydney_sleeper"
@@ -12947,6 +13064,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"0"
 			"item_type_name"	"#TF_Weapon_Pistol"
@@ -13095,6 +13213,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -13337,6 +13456,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Crossbow"
 			"item_name"	"#TF_CrusadersCrossbow"
@@ -13485,6 +13605,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_logname"	"loch_n_load"
@@ -13705,6 +13826,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -15394,6 +15516,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Flaregun"
@@ -17097,6 +17220,7 @@
 				"can_deal_damage"			"1"
 				"can_headshot"				"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"bazaar_bargain"
 			"item_iconname"	"bazaar_bargain"
@@ -17718,6 +17842,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"proto_syringe"
 			"item_iconname"	"proto_syringe"
@@ -17847,6 +17972,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -17908,6 +18034,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_name"	"#TF_ReserveShooter"
@@ -18258,6 +18385,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
@@ -18327,6 +18455,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_logname" "family_business"
@@ -18938,6 +19067,7 @@
 				"can_deal_gib_damage"	"1"
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"cow_mangler"
 			"item_iconname"	"cow_mangler"
@@ -19027,6 +19157,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_IndivisibleParticleSmasher"
@@ -19361,6 +19492,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Scattergun"
@@ -19456,6 +19588,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Pistol"
 			"item_logname" "the_winger"
@@ -19884,6 +20017,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -19948,6 +20082,7 @@
 			{
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Knife"
@@ -21301,6 +21436,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"quake_rl"
 			"item_iconname"	"quake_rl"
@@ -21919,6 +22055,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Revolver"
@@ -21984,6 +22121,7 @@
 				"can_deal_damage"		"1"
 				"can_headshot"			"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_SniperRifle"
 			"item_name"	"#TF_DEX_Rifle"
@@ -22059,6 +22197,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_logname" "widowmaker"
@@ -24391,6 +24530,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_type_name"	"#TF_Weapon_IndivisibleParticleSmasher"
 			"item_name"	"#TF_Pomson"
@@ -24823,6 +24963,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"manmelter"
 			"item_iconname"	"manmelter"
@@ -26757,6 +26898,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
@@ -27858,6 +28000,8 @@
 			"mouse_pressed_sound" 	"xmas.jingle_noisemaker"
 			"drop_sound"		"ui/item_metal_scrap_drop.wav"
 		}
+		
+
 		"675"
 		{
 			"name"	"The Ebenezer"
@@ -28356,6 +28500,8 @@
 				"scout"	"1"
 			}
 		}
+
+
 		"725"
 		{
 			"name"	"Tour of Duty Ticket"
@@ -28572,6 +28718,7 @@
 				"can_be_equipped_by_soldier_or_demo"	"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
@@ -28942,6 +29089,7 @@
 				"can_deal_damage"				"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"		"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"scorchshot"
 			"item_iconname"	"scorchshot"
@@ -29225,6 +29373,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"pro_smg"
 			"item_iconname"	"pro_smg"
@@ -29293,6 +29442,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_headshot"				"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"item_logname"	"pro_rifle"
 			"item_iconname"	"pro_rifle"
@@ -30003,6 +30153,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Scattergun"
@@ -30065,6 +30216,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"first_sale_date" "2012/06/27"
 			"item_class"	"tf_weapon_handgun_scout_secondary"
@@ -30345,8 +30497,8 @@
 		}
 		"778"
 		{
-			"prefab"	"hat"
 			"name"	"The Gentleman's Ushanka"
+			"prefab"	"hat"
 			"first_sale_date"	"2012/07/10"
 			"item_name"	"#TF_MedicUshanka"
 			"item_description"	"#TF_MedicUshanka_Desc"
@@ -34317,9 +34469,25 @@
 		"928"
 		{
 			"name"	"Portal 2 Soundtrack Promo Package"
-			"item_class"	"craft_item"
-			"craft_material_type"	""
+			"item_class"	"tf_wearable"
+			"tool"
+			{
+				"type"	"gift"
+				"usage"
+				{
+					"loot_list"		"portal2_promo_package_loot_list"
+					"num_items"		"1"
+					"max_recipients"	"1"
+					"target_rule"	"only_self"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"				"1"
+				"usable_out_of_game"	"1"
+			}
 			"show_in_armory"	"0"
+			"item_slot"	"action"
 			"image_inventory"	"backpack/crafting/gift_mystery"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -34330,6 +34498,18 @@
 			"item_type_name"	"#TF_Package_Type"
 			"item_name"	"#TF_Portal2_Soundtrack_Promo_Package"
 			"item_description"	"#TF_Portal2_Soundtrack_Promo_Package_Desc"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
 			"mouse_pressed_sound" 	"ui/item_paper_pickup.wav"
 			"drop_sound" 		"ui/item_paper_pickup.wav"
 		}				
@@ -34432,6 +34612,46 @@
 				"heavy"	"1"
 			}
 			"item_set"	"heavy_fairy"
+		}
+		"933"
+		{
+			"name"	"The Ap-Sap"
+			"item_class"	"tf_weapon_sapper"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Spy_Sapper"
+			"item_name"	"#TF_Weapon_Ap_Sap"
+			"item_description"	"#TF_Weapon_Ap_Sap_desc"
+			"item_slot"	"building"
+			"item_quality"	"unique"
+			"item_logname"	"psapper"
+			"item_iconname"	"psapper"
+			"image_inventory"	"backpack/weapons/c_models/c_p2rec/c_p2rec"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"anim_slot"	"building"
+			"attach_to_hands"	"1"
+			"propername"	"1"
+			"model_player"	"models/weapons/c_models/c_p2rec/c_p2rec.mdl"
+			"model_world"	"models/weapons/c_models/c_p2rec/c_p2rec.mdl"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"attributes"
+			{
+				"sapper voice pak"
+				{
+					"attribute_class"	"sapper_voice_pak"
+					"value" "1.0"
+				}
+				"sapper voice pak idle wait"
+				{
+					"attribute_class"	"sapper_voice_pak_idle_wait"
+					"value" "3.0"
+				}
+			}
 		}
 		"934"
 		{
@@ -36653,6 +36873,7 @@
 				"can_deal_damage"		"1"
 				"can_deal_gib_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_logname"	"loose_cannon"
@@ -36732,6 +36953,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_posthumous_damage"	"1"
 				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
 			}
 			"show_in_armory"	"1"
 			"item_logname"	"the_rescue_ranger"
@@ -37148,6 +37370,99 @@
 			"mouse_pressed_sound" 	"ui/item_default_pickup.wav"
 			"drop_sound" 		"ui/item_default_drop.wav"
 		}
+		"1012"
+		{
+			"name"	"The Wilson Weave"
+			"first_sale_date"	"2013/02/06"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"paintable"		"1"
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Hair"
+			"item_name"	"#TF_WilsonWeave"
+			"item_description"	"#TF_WilsonWeave_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/all_class/starve_demo"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/all_class/starve_scout.mdl"
+				"demoman"	"models/player/items/all_class/starve_demo.mdl"
+				"medic"		"models/player/items/all_class/starve_medic.mdl"
+				"heavy"		"models/player/items/all_class/starve_heavy.mdl"
+				"engineer"	"models/player/items/all_class/starve_engineer.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"engineer" "1"
+			}
+		}
+		"1013"
+		{
+			"name"	"The Ham Shank"
+			"item_class"	"saxxy"
+			"craft_material_type"	"weapon"
+			"craft_class"		""		
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"0"		
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_logname"	"ham_shank"
+			"item_iconname"	"ham_shank"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Pork_Product"
+			"item_name"	"#TF_HamShank"
+			"item_description"	"#TF_HamShank_Desc"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_ham/c_ham"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_ham/c_ham.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"anim_slot" "MELEE_ALLCLASS"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"		
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"sound_melee_hit"	"Weapon_HolyMackerel.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_HolyMackerel.HitWorld"
+			}			
+			"mouse_pressed_sound"	"ui/item_gooey_pickup.wav"
+			"drop_sound"		"ui/item_gooey_pickup.wav"
+		}
 		"1014"
 		{
 			"name"	"The Brutal Bouffant"
@@ -37319,6 +37634,7 @@
 			{
 				"can_craft_count"	"1"
 			}
+			"item_type_name"	"#TF_Wearable_FacialHair"
 			"item_name"	"#TF_BlindJustice"
 			"item_description"	"#TF_BlindJustice_Desc"
 			"image_inventory"	"backpack/player/items/demo/bio_demo_patch"
@@ -37523,7 +37839,181 @@
 				"scout"	"1"
 			}
 		}
-
+		"1027"
+		{
+			"name"	"Random Droppable Paints Package"
+			"item_class"	"tf_wearable"
+			"tool"
+			{
+				"type"	"gift"
+				"usage"
+				{
+					"loot_list"		"paint_cans__multiple_drops"
+					"num_items"		"1"
+					"max_recipients"	"1"
+					"target_rule"	"only_self"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"				"1"
+				"usable_out_of_game"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Package_Type"
+			"item_name"	"#TF_RandomDroppablePaintPackage"
+			"item_description"	"#TF_RandomDroppablePaintPackage_Desc"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/player/items/crafting/random_paint"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_cardboard_pickup.wav"
+			"drop_sound"		"ui/item_cardboard_drop.wav"
+		}
+		"1028"
+		{
+			"name"	"The Samson Skewer"
+			"first_sale_date"	"2013/03/11"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Knife"
+			"item_name"	"#TF_SamsonSkewer"
+			"item_description"	"#TF_SamsonSkewer_Desc"
+			"propername"	"1"
+			"equip_region"	"heavy_belt_back"
+			"image_inventory"	"backpack/player/items/heavy/pn2_knife_lunchbox"
+			"model_player"	"models/player/items/heavy/pn2_knife_lunchbox.mdl"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/player/items/heavy/pn2_knife_lunchbox.mdl"
+						"name"	"#TF_SamsonSkewer_Style0"
+					}
+					"1"
+					{
+						"model_player"	"models/player/items/heavy/pn2_knife_canteen.mdl"
+						"name"	"#TF_SamsonSkewer_Style1"
+					}
+				}
+			}
+		}
+		"1029"
+		{
+			"name"	"The Bloodhound"
+			"first_sale_date"	"2013/03/11"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_Bloodhound"
+			"item_description"	"#TF_Bloodhound_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/spy/pn2_samhat_spy"
+			"model_player_per_class"	
+			{
+				"sniper"	"models/player/items/sniper/pn2_samhat_sniper.mdl"
+				"spy"		"models/player/items/spy/pn2_samhat_spy.mdl"
+			}
+			"used_by_classes"
+			{
+				"sniper"	"1"
+				"spy" "1"
+			}
+		}
+		"1030"
+		{
+			"name"	"The Dapper Disguise"
+			"first_sale_date"	"2013/03/11"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Mask"
+			"item_name"	"#TF_DapperDisguise"
+			"item_description"	"#TF_DapperDisguise_Desc"
+			"propername"	"1"
+			"equip_region"	"face"
+			"image_inventory"	"backpack/player/items/spy/pn2_mask"
+			"model_player"	"models/player/items/spy/pn2_mask.mdl"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+		}
+		"1031"
+		{
+			"name"	"The Necronomicrown"
+			"first_sale_date"	"2013/03/11"
+			"prefab"	"promo hat"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_name"	"#TF_Necronomicrown"
+			"item_description"	"#TF_Necronomicrown_Desc"
+			"propername"	"1"
+			"image_inventory"	"backpack/player/items/pyro/pn2_evilash"
+			"model_player"	"models/player/items/pyro/pn2_evilash.mdl"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+		}
+		"1032"
+		{
+			"name"	"The Long Fall Loafers"
+			"first_sale_date"	"2013/03/11"
+			"prefab"	"promo cosmetic"
+			"capabilities"
+			{
+				"can_craft_count"	"1"
+			}
+			"item_type_name"	"#TF_Wearable_Boots"
+			"item_name"	"#TF_LongFallLoafers"
+			"item_description"	"#TF_LongFallLoafers_Desc"
+			"propername"	"1"
+			"equip_region"	"feet"
+			"image_inventory"	"backpack/player/items/scout/pn2_longfall"
+			"model_player"	"models/player/items/scout/pn2_longfall.mdl"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"shoes_socks"			"1"
+				}
+			}
+		}
 
 
 
@@ -41565,7 +42055,7 @@
 		}
 		"2012"
 		{
-			"name" "Fancy Hat Bundle"
+			"name" "Fancy Hat Bundle"	
 			"first_sale_date"	"2010/12/23"
 			"item_class"	"bundle"
 			"bundle"
@@ -45284,7 +45774,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "54"
+					"value" "57"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -45611,7 +46101,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "49"
+					"value" "56"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -46269,7 +46759,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "40"
+					"value" "50"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -47424,6 +47914,25 @@
 			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		
+		"5633"
+		{
+			"name"	"Strange Bacon Grease"
+			"prefab" "strangifier_base"
+			"tool"
+			{
+				"usage"
+				{
+					"itemdef_restrictions"
+					{
+						"264" "1"	
+					}
+				}
+			}			
+			"item_name"			"#TF_FryingPanStrangifier"
+			"item_description"	"#TF_FryingPanStrangifier_Desc"
+			"image_inventory"	"backpack/crafting/strange_bacon_grease"
+		}
+		
 		"5999"				
 		{
 			"name"	"Strange Part (Armory)"
@@ -47616,6 +48125,32 @@
 			"image_inventory"	"backpack/crafting/strange_part_pyros_killed"
 			"item_name"	"#TF_StrangePart_PyrosKilled"
 			"item_description"	"#TF_StrangePart_PyrosKilled_Desc"
+		}
+		"6007"
+		{
+			"name"	"Strange Part: Medics Killed"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"18"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_medics_killed"
+			"item_name"	"#TF_StrangePart_MedicsKilled"
+			"item_description"	"#TF_StrangePart_MedicsKilled_Desc"
 		}
 		
 		
@@ -48165,6 +48700,58 @@
 			"image_inventory"	"backpack/crafting/strange_part_kill_while_uber"
 			"item_name"	"#TF_StrangePart_KillsWhileUbercharged"
 			"item_description"	"#TF_StrangePart_KillsWhileUbercharged_Desc"
+		}
+		"6038"
+		{
+			"name"	"Strange Part: Tanks Destroyed"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"61"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_tank_destroyed"
+			"item_name"	"#TF_StrangePart_TanksDestroyed"
+			"item_description"	"#TF_StrangePart_TanksDestroyed_Desc"
+		}
+		"6039"
+		{
+			"name"	"Strange Part: Long-Distance Kills"
+			"prefab"	"strange_part"
+			"tool"
+			{
+				"usage"
+				{
+					"required_tags"
+					{
+						"can_deal_long_distance_damage"		"1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"strange part new counter ID"
+				{
+					"attribute_class"	"strange_part_new_counter_id"
+					"value"				"62"
+				}
+			}
+			"image_inventory"	"backpack/crafting/strange_part_long_distance_kills"
+			"item_name"	"#TF_StrangePart_LongDistanceKills"
+			"item_description"	"#TF_StrangePart_LongDistanceKills_Desc"
 		}
 
 
@@ -55357,6 +55944,28 @@
 			"effect_type"	"neutral"
 			"stored_as_integer"	"0"
 		}
+		"451"
+		{
+			"name"	"sapper voice pak"
+			"attribute_class"	"sapper_voice_pak"
+			"attribute_name"	"sapper voice pak"
+			"description_string"	"#Attrib_Sapper_Voice_Pak"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"452"
+		{
+			"name"	"sapper voice pak idle wait"
+			"attribute_class"	"sapper_voice_pak_idle_wait"
+			"attribute_name"	"sapper voice pak idle wait"
+			"description_string"	"#Attrib_Sapper_Voice_Pak_Idle_Wait"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
 		"453"
 		{
 			"name"	"merasmus hat level display ONLY"
@@ -55750,6 +56359,42 @@
 			"effect_type"	"positive"
 			"armory_desc"	"on_wearer"
 			"stored_as_integer"	"0"
+		}
+		"494"
+		{
+			"name"	"kill eater 3"
+			"attribute_class"	"kill_eater_3"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"495"
+		{
+			"name"	"kill eater score type 3"
+			"attribute_class"	"kill_eater_score_type_3"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"496"
+		{
+			"name"	"strange restriction type 3"
+			"attribute_class"	"strange_restriction_type_3"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"497"
+		{
+			"name"	"strange restriction value 3"
+			"attribute_class"	"strange_restriction_value_3"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
 		}
 		
 		"1000"
@@ -56610,6 +57255,29 @@
 			"The Pain Train"		"1"
 			"kill_eater_set_medic_a__medigun"		"1"
 		}
+		"kill_eater_set_rare_mixed_c__secondary_stats"
+		{
+			"Upgradeable TF_WEAPON_PDA_ENGINEER_BUILD"		"1"
+		}
+		"kill_eater_set_rare_mixed_c"
+		{
+			"kill_eater_set_rare_mixed_c__secondary_stats"		"1"
+			"The Original"		"1"
+			"Upgradeable TF_WEAPON_INVIS"		"1"
+			"The Splendid Screen"		"1"
+		}
+		"kill_eater_set_mixed_r"
+		{
+			"Upgradeable TF_WEAPON_FIREAXE"		"1"
+			"The Flying Guillotine"		"1"
+			"The Beggar's Bazooka"		"1"
+		}
+		"kill_eater_set_mixed_s"
+		{
+			"Fists of Steel"		"1"
+			"The Neon Annihilator"		"1"
+			"Jarate"		"1"
+		}
 		"supply_crate_loot_list_1"
 		{
 			"The Vita-Saw"		"1"
@@ -57022,6 +57690,30 @@
 			"The Counterfeit Billycock"		"1"
 			"Desert Marauder"		"1"
 		}
+		"supply_crate_loot_list_50"
+		{
+			"loot_list_header_desc"		"#Econ_Revolving_Loot_List_Strange_Weapons"
+			"kill_eater_set_rare_mixed_c"		"1"
+			"Strange Bacon Grease"		"1"
+		}
+		"supply_crate_loot_list_56"
+		{
+			"loot_list_header_desc"		"#Econ_Revolving_Loot_List_Strange_Weapons"
+			"kill_eater_set_mixed_r"		"1"
+			"Strange Part: Medics Killed"		"1"
+			"Strange Part: Tanks Destroyed"		"1"
+			"Strange Part: Long-Distance Kills"		"1"
+			"Western Wear"		"1"
+			"Modest Pile of Hat"		"1"
+		}
+		"supply_crate_loot_list_57"
+		{
+			"loot_list_header_desc"		"#Econ_Revolving_Loot_List_Strange_Weapons"
+			"kill_eater_set_mixed_s"		"1"
+			"Random Droppable Paints Package"		"1"
+			"Tam O'Shanter"		"1"
+			"Detective Noir"		"1"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -57079,6 +57771,9 @@
 		"winter_crate_loot_list_2012_nice"	"53"	
 		"supply_crate_loot_list_54"	"54"	
 		"supply_crate_loot_list_55"	"55"	
+		"supply_crate_loot_list_50"	"50" 
+		"supply_crate_loot_list_56"	"56"	
+		"supply_crate_loot_list_57"	"57"	
 		
 		
 		"kill_eater_set_demo_a"						"-1"
@@ -57115,6 +57810,8 @@
 		"kill_eater_set_mixed_l"						"-29"
 		"kill_eater_set_mixed_m"						"-30"
 		"kill_eater_set_mixed_n"						"-31"
+		"kill_eater_set_rare_mixed_b__secondary_stats"	"-32"
+		"kill_eater_set_rare_mixed_b"					"-33"
 	}
 	"recipes"
 	{
@@ -65474,6 +66171,7 @@
 			"charity"					"#TF_Armory_Item_Charity"
 			"can_customize_texture"		"#TF_Armory_Item_CanCustomizeTexture"
 			"strangepart"				"#TF_Armory_Item_StrangePart"
+			"tournamentmedal"			"#TF_Armory_Item_TournamentMedal"
 		}
 	}
 	"item_levels"
@@ -65997,6 +66695,180 @@
 				"score"		"100000"
 			}
 		}
+		"KillEater_TimeCloakedRank"
+		{
+			"0"
+			{
+				"score"		"200"
+			}
+			"1"
+			{
+				"score"		"500"
+			}
+			"2"
+			{
+				"score"		"900"
+			}
+			"3"
+			{
+				"score"		"1337"
+			}
+			"4"
+			{
+				"score"		"2000"
+			}
+			"5"
+			{
+				"score"		"2700"
+			}
+			"6"
+			{
+				"score"		"3500"
+			}
+			"7"
+			{
+				"score"		"4500"
+			}
+			"8"
+			{
+				"score"		"5500"
+			}
+			"9"
+			{
+				"score"		"7000"
+			}
+			"10"
+			{
+				"score"		"9000"
+			}
+			"11"
+			{
+				"score"		"12000"
+			}
+			"12"
+			{
+				"score"		"16000"
+			}
+			"13"
+			{
+				"score"		"21337"
+			}
+			"14"
+			{
+				"score"		"35000"
+			}
+			"15"
+			{
+				"score"		"58007"
+			}
+			"16"
+			{
+				"score"		"90000"
+			}
+			"17"
+			{
+				"score"		"120000"
+			}
+			"18"
+			{
+				"score"		"140000"
+			}
+			"19"
+			{
+				"score"		"160000"
+			}
+			"20"
+			{
+				"score"		"200000"
+			}
+		}
+		"KillEater_HealthGivenRank"
+		{
+			"0"
+			{
+				"score"		"2000"
+			}
+			"1"
+			{
+				"score"		"5000"
+			}
+			"2"
+			{
+				"score"		"9000"
+			}
+			"3"
+			{
+				"score"		"13370"
+			}
+			"4"
+			{
+				"score"		"20000"
+			}
+			"5"
+			{
+				"score"		"27000"
+			}
+			"6"
+			{
+				"score"		"35000"
+			}
+			"7"
+			{
+				"score"		"45000"
+			}
+			"8"
+			{
+				"score"		"55000"
+			}
+			"9"
+			{
+				"score"		"70000"
+			}
+			"10"
+			{
+				"score"		"90000"
+			}
+			"11"
+			{
+				"score"		"120000"
+			}
+			"12"
+			{
+				"score"		"160000"
+			}
+			"13"
+			{
+				"score"		"213370"
+			}
+			"14"
+			{
+				"score"		"350000"
+			}
+			"15"
+			{
+				"score"		"518008"
+			}
+			"16"
+			{
+				"score"		"900000"
+			}
+			"17"
+			{
+				"score"		"1200000"
+			}
+			"18"
+			{
+				"score"		"1400000"
+			}
+			"19"
+			{
+				"score"		"1600000"
+			}
+			"20"
+			{
+				"score"		"2000000"
+			}
+		}
 
 
 	}
@@ -66074,7 +66946,10 @@
 		{
 			"type_name"	"KillEaterEventType_EngineersKilled"
 		}
-		
+		"18"
+		{
+			"type_name"	"KillEaterEventType_MedicsKilled"
+		}
 		"19"
 		{
 			"type_name"	"KillEaterEventType_BuildingsDestroyed"
@@ -66182,12 +67057,36 @@
 		"50"
 		{
 			"type_name"	"KillEaterEventType_FoodEaten"
-			"allow_bot_victims"	"1"
+			"allow_bot_victims"	"1"		
 		}
 		"51"
 		{
 			"type_name"	"KillEaterEventType_BannersDeployed"
-			"allow_bot_victims"	"1"
+			"allow_bot_victims"	"1"		
+		}
+		"58"
+		{
+			"type_name"	"KillEaterEvent_TimeCloaked"
+			"level_data"	"KillEater_TimeCloakedRank"
+			"allow_bot_victims"	"1"		
+		}
+		"59"
+		{
+			"type_name"	"KillEaterEvent_HealthGiven"
+			"level_data"	"KillEater_HealthGivenRank"
+		}
+		"60"
+		{
+			"type_name"	"KillEaterEvent_TeleportsGiven"
+		}
+		"61"
+		{
+			"type_name"			"KillEaterEvent_TanksDestroyed"
+			"allow_bot_victims"	"1"		
+		}
+		"62"
+		{
+			"type_name"			"KillEaterEvent_LongDistanceKills"
 		}
 
 
