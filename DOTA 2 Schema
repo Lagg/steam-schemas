@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.b9fe53615b1526a2739f7871d1ac98805924917c.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/570\/scripts\/items\/items_game.8e5d54964f81955c626eff025d5e751061f483bb.txt",
 		"qualities": {
 			"normal": 0,
 			"genuine": 1,
@@ -30028,7 +30028,7 @@
 				"defindex": 4863,
 				"item_class": "dota_item_wearable",
 				"item_type_name": "head",
-				"item_name": "Sanguine Moon Head",
+				"item_name": "DOTA_Item_Sanguine_Moon_Head",
 				"item_description": "That's not an eye-patch.  That's armor for his vision.",
 				"proper_name": false,
 				"item_quality": 4,
@@ -39755,6 +39755,76 @@
 				
 			},
 			{
+				"name": "G-1 Champions League Season 5",
+				"defindex": 15142,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "G-1 Champions League Season 5",
+				"item_description": "The 5th G-1 Championship will feature an online qualifier to select the top Western team for a paid flight to the LAN finals in China to face teams like iG, LGD, DK and Orange. The Asia qualifiers will also use a prelim system to compete for spots at the LAN finals. The prize pool exceeds $53,000.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_g-1_season5",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_g-1_season5.c50da8e14081d5ceb654394fdb2fbd0a028443fc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_g-1_season5_large.99fa096d5c18676619211c056aa17b507b4d4bd5.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "G-1 Champions League Season 5 ADMIN",
+				"defindex": 15143,
+				"item_class": "tool",
+				"item_type_name": "New Item",
+				"item_name": "G-1 Champions League Season 5 ADMIN",
+				"item_description": "The Fifth Season of the G-1 Championship league will feature an online qualifier to select the top Western team for a paid flight to the LAN finals in China to face teams like iG, LGD, DK and Orange. The Asia qualifiers will also use a prelim system to compete for spots at the LAN finals. The prize pool will exceed last seasonÃÂ¢ÃÂÃÂs $53,000.",
+				"proper_name": false,
+				"item_quality": 4,
+				"image_inventory": "econ\/leagues\/subscriptions_g-1_season5",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_g-1_season5.c50da8e14081d5ceb654394fdb2fbd0a028443fc.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/570\/icons\/econ\/leagues\/subscriptions_g-1_season5_large.99fa096d5c18676619211c056aa17b507b4d4bd5.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_view_pass",
+					"use_string": "Use"
+				},
+				"attributes": [
+					{
+						"name": "disallow recycling",
+						"class": "disallow_recycling",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "Of Ebony and Ivory Set",
 				"defindex": 20000,
 				"item_class": "bundle",
@@ -43851,7 +43921,7 @@
 				"defindex": 20145,
 				"item_class": "bundle",
 				"item_type_name": "Bundle",
-				"item_name": "Sanguine Moon Set",
+				"item_name": "DOTA_Item_Sanguine_Moon_Set",
 				"item_description": "Includes all of the items in the 'Sanguine Moon' set for Lycanthrope:",
 				"proper_name": false,
 				"item_quality": 4,
@@ -44945,7 +45015,7 @@
 			},
 			{
 				"item_set": "axe_berserker",
-				"name": "DOTA_Set_Axe_Berserker",
+				"name": "The Berserker's Blood",
 				"store_bundle": "The Berserker's Blood Set",
 				"items": [
 					"Berserker's Pauldron",
@@ -44956,7 +45026,7 @@
 			},
 			{
 				"item_set": "axe_blood_mist",
-				"name": "DOTA_Set_Axe_Blood_Mist",
+				"name": "Bloodmist Armor",
 				"store_bundle": "Bloodmist Armor Set",
 				"items": [
 					"Bloodmist Helm",
@@ -44968,7 +45038,7 @@
 			},
 			{
 				"item_set": "axe_defiant",
-				"name": "DOTA_Set_Axe_Defiant",
+				"name": "The Defiant Axe",
 				"store_bundle": "The Defiant Axe Set",
 				"items": [
 					"Pillar of Strength",
@@ -44980,7 +45050,7 @@
 			},
 			{
 				"item_set": "axe_demon_blood",
-				"name": "DOTA_Set_Axe_Demon_Blood",
+				"name": "Forged in Demons' Blood",
 				"store_bundle": "Forged in Demons' Blood Set",
 				"items": [
 					"Demon Blood Helm",
@@ -44992,7 +45062,7 @@
 			},
 			{
 				"item_set": "axe_executioner",
-				"name": "DOTA_Set_Axe_Executioner",
+				"name": "The Axecutioner",
 				"store_bundle": "The Axecutioner Set",
 				"items": [
 					"Executioner's Axe",
@@ -45004,7 +45074,7 @@
 			},
 			{
 				"item_set": "axe_forgemaster",
-				"name": "DOTA_Set_Axe_Forgemaster",
+				"name": "The Forgemaster's Tools",
 				"store_bundle": "The Forgemaster's Tools Set",
 				"items": [
 					"Forgemaster's Apron",
@@ -45016,7 +45086,7 @@
 			},
 			{
 				"item_set": "axe_heavy_steel",
-				"name": "DOTA_Set_Axe_Heavy_Steel",
+				"name": "Heavy Steel Armor",
 				"store_bundle": "Heavy Steel Armor Set",
 				"items": [
 					"Heavy Steel Shoulder",
@@ -45040,7 +45110,7 @@
 			},
 			{
 				"item_set": "blood_seeker_hlotl",
-				"name": "DOTA_Set_Bloodseeker_Hlotl",
+				"name": "Ritual Garb of the Seeker",
 				"store_bundle": "Ritual Garb of the Seeker Set",
 				"items": [
 					"Habit of the Seeker",
@@ -45054,7 +45124,7 @@
 			},
 			{
 				"item_set": "bloodseeker_bonehunter",
-				"name": "DOTA_Set_Bloodseeker_Bonehunter",
+				"name": "The Bonehunter",
 				"store_bundle": "The Bonehunter Set",
 				"items": [
 					"Bonehunter Bracers",
@@ -45105,7 +45175,7 @@
 			},
 			{
 				"item_set": "bounty_hunter_hardened",
-				"name": "DOTA_Set_Bounty_Hunter_Hardened",
+				"name": "The Hardened Hunter",
 				"store_bundle": "Hardened Hunter's Gear Set",
 				"items": [
 					"Hardened Hunter's Armor",
@@ -45118,7 +45188,7 @@
 			},
 			{
 				"item_set": "bounty_hunter_master_assassin",
-				"name": "DOTA_Set_Bounty_Hunter_Master_Assassin",
+				"name": "The Master Assassin",
 				"store_bundle": "The Master Assassin Set",
 				"items": [
 					"Master Assassin's Shuriken",
@@ -45132,7 +45202,7 @@
 			},
 			{
 				"item_set": "bounty_hunter_pangolin",
-				"name": "DOTA_Set_Bounty_Hunter_Pangolin",
+				"name": "Trappings of the Pangolin Guild",
 				"store_bundle": "Trappings of the Pangolin Guild Set",
 				"items": [
 					"Shuriken of the Hidden Hunter",
@@ -45189,7 +45259,7 @@
 			},
 			{
 				"item_set": "clinkz_vandal",
-				"name": "DOTA_Set_Clinkz_Vandal",
+				"name": "The Demonic Vandal",
 				"store_bundle": "Demonic Vandal's Set",
 				"items": [
 					"Shredder of the Vandal",
@@ -45287,7 +45357,7 @@
 			},
 			{
 				"item_set": "dragon_knight_davion",
-				"name": "DOTA_Set_Dragon_Knight_Davion",
+				"name": "Armor of Sir Davion",
 				"store_bundle": "Armor of Sir Davion Set",
 				"items": [
 					"Light Cape of Sir Davion",
@@ -45339,7 +45409,7 @@
 			},
 			{
 				"item_set": "drow_ranger_frost_spikes",
-				"name": "DOTA_Set_Drow_Ranger_Frost_Spikes",
+				"name": "Spikes of Frost",
 				"store_bundle": "Spikes of Frost Set",
 				"items": [
 					"Ice Burst Bow",
@@ -45417,7 +45487,7 @@
 			},
 			{
 				"item_set": "faceless_clas",
-				"name": "DOTA_Set_Faceless_Clas",
+				"name": "The Dials of Claszureme",
 				"store_bundle": "Dials of Claszureme Set",
 				"items": [
 					"Helm of Claszureme",
@@ -45455,7 +45525,7 @@
 			},
 			{
 				"item_set": "furion_beast_bole",
-				"name": "DOTA_Set_Furion_Beast_Bole",
+				"name": "Master of Beast and Bole",
 				"store_bundle": "Master of Beast and Bole Set",
 				"items": [
 					"Staff of the Eagle",
@@ -45466,7 +45536,7 @@
 			},
 			{
 				"item_set": "furion_forest_lord",
-				"name": "DOTA_Set_Furion_Forest_Lord",
+				"name": "The Regal Forest Lord",
 				"store_bundle": "The Regal Forest Lord Set",
 				"items": [
 					"Runestaff of Verodicia",
@@ -45480,7 +45550,7 @@
 			},
 			{
 				"item_set": "furion_heartwood",
-				"name": "DOTA_Set_Furion_Heartwood_Vanguard",
+				"name": "Heartwood Vanguard",
 				"store_bundle": "Heartwood Vanguard Set",
 				"items": [
 					"Sinorian Sphere Staff",
@@ -45493,7 +45563,7 @@
 			},
 			{
 				"item_set": "furion_peace_bringer",
-				"name": "DOTA_Set_Furion_Peace_Bringer",
+				"name": "Garments of the Peace-Bringer",
 				"store_bundle": "Garments of the Peace-Bringer Set",
 				"items": [
 					"Flower Staff of the Peace-Bringer",
@@ -45506,7 +45576,7 @@
 			},
 			{
 				"item_set": "furion_scion_savage",
-				"name": "DOTA_Set_Furion_Scion_Savage",
+				"name": "Scion of the Savage",
 				"store_bundle": "Scion of the Savage Set",
 				"items": [
 					"Staff of the Tusk-Bereft",
@@ -45605,7 +45675,7 @@
 			},
 			{
 				"item_set": "invoker_magnus",
-				"name": "DOTA_Set_Invoker_Magus_Magnus",
+				"name": "The Magus Magnus",
 				"store_bundle": "The Magus Magnus Set",
 				"items": [
 					"Crest of the Magus Magnus",
@@ -45617,7 +45687,7 @@
 			},
 			{
 				"item_set": "juggernaut_beasts_men",
-				"name": "DOTA_Set_Juggernaut_Beasts_Men",
+				"name": "Aspects of Beast and Man",
 				"store_bundle": "Aspects of Beast and Man Set",
 				"items": [
 					"100-Proof Jug",
@@ -45629,7 +45699,7 @@
 			},
 			{
 				"item_set": "juggernaut_boar_god",
-				"name": "DOTA_Set_Juggernaut_Boar_God",
+				"name": "The Boar God's Honor",
 				"store_bundle": "The Boar God's Honor Set",
 				"items": [
 					"Three-Fold Mien of the Boar God",
@@ -45641,7 +45711,7 @@
 			},
 			{
 				"item_set": "juggernaut_brave",
-				"name": "DOTA_Set_Juggernaut_Brave",
+				"name": "The Dauntless",
 				"store_bundle": "The Dauntless Set",
 				"items": [
 					"Bone Bracer of the Brave",
@@ -45653,7 +45723,7 @@
 			},
 			{
 				"item_set": "juggernaut_high_plains",
-				"name": "DOTA_Set_Juggernaut_High_Plains",
+				"name": "Traveler on the High Plains",
 				"store_bundle": "Traveler on the High Plains Set",
 				"items": [
 					"Stoic Mask of the High Plains",
@@ -45677,7 +45747,7 @@
 			},
 			{
 				"item_set": "kunkka_admirable_admiral",
-				"name": "DOTA_Set_Kunkka_Admirable_Admiral",
+				"name": "The Admirable Admiral",
 				"store_bundle": "The Admirable Admiral Set",
 				"items": [
 					"Gloves of the Admirable Admiral",
@@ -45815,7 +45885,7 @@
 			},
 			{
 				"item_set": "omniknight_crusader",
-				"name": "DOTA_Set_Omniknight_Crusader",
+				"name": "The Radiance of the Crusade",
 				"store_bundle": "The Radiance of the Crusade Set",
 				"items": [
 					"Helm of the Radiant Crusader",
@@ -45842,7 +45912,7 @@
 			},
 			{
 				"item_set": "omniknight_purist_champion",
-				"name": "DOTA_Set_Omniknight_Purist_Champion",
+				"name": "Armor of the Purist Champion",
 				"store_bundle": "Armor of the Purist Champion Set",
 				"items": [
 					"Circlet of the Purist Champion",
@@ -46080,7 +46150,7 @@
 			},
 			{
 				"item_set": "sven_flameguard",
-				"name": "DOTA_Set_Sven_Flameguard",
+				"name": "The Flameguard's Armor",
 				"store_bundle": "Flameguard Set",
 				"items": [
 					"Helm of the Flameguard",
@@ -46093,7 +46163,7 @@
 			},
 			{
 				"item_set": "sven_freelancer",
-				"name": "DOTA_Set_Sven_Freelancer",
+				"name": "The Freelancer's Finery",
 				"store_bundle": "The Freelancer's Finery Set",
 				"items": [
 					"Mask of the Freelancer",
@@ -46105,7 +46175,7 @@
 			},
 			{
 				"item_set": "sven_mono_militis",
-				"name": "DOTA_Set_Sven_Mono_Militis",
+				"name": "Sect Armor of the Mono Militis",
 				"store_bundle": "Mono Militis Set",
 				"items": [
 					"Dressed Pauldron of the Mono Militis",
@@ -46116,7 +46186,7 @@
 			},
 			{
 				"item_set": "sven_swordmaster",
-				"name": "DOTA_Set_Sven_Swordmaster",
+				"name": "Swordmaster of the Vigil",
 				"store_bundle": "Swordmaster of the Vigil Set",
 				"items": [
 					"Tayrnhelm of the Swordmaster",
@@ -46166,7 +46236,7 @@
 			},
 			{
 				"item_set": "tidehunter_pirate_slayer",
-				"name": "DOTA_Set_Tidehunter_Pirate_Slayer",
+				"name": "The Pirate's Booty",
 				"store_bundle": "The Pirate's Booty Set",
 				"items": [
 					"Pirate Slayer's Bracer",
@@ -46178,7 +46248,7 @@
 			},
 			{
 				"item_set": "tidehunter_punisher",
-				"name": "DOTA_Set_Tidehunter_Punisher",
+				"name": "The Paleogeneous Punisher",
 				"store_bundle": "The Paleogeneous Punisher Set",
 				"items": [
 					"Cerebral Support",
@@ -46202,7 +46272,7 @@
 			},
 			{
 				"item_set": "ursa_alpine_stalker",
-				"name": "DOTA_Set_Ursa_Alpine_Stalker",
+				"name": "The Alpine Stalker",
 				"store_bundle": "The Alpine Stalker's Set",
 				"items": [
 					"Lucky Alpine Stalker's Hat",
@@ -46214,7 +46284,7 @@
 			},
 			{
 				"item_set": "ursa_iron_bear",
-				"name": "DOTA_Set_Ursa_Iron_Bear",
+				"name": "The Iron Bear",
 				"store_bundle": "The Iron Bear's Set",
 				"items": [
 					"Iron Bear's Belt",
@@ -46226,7 +46296,7 @@
 			},
 			{
 				"item_set": "ursa_ravager",
-				"name": "DOTA_Set_Ursa_Ravager",
+				"name": "The Ursine Ravager",
 				"store_bundle": "The Ursine Ravager Set",
 				"items": [
 					"Spiked Bracers of the Ravager",
@@ -46238,7 +46308,7 @@
 			},
 			{
 				"item_set": "ursa_savage_age",
-				"name": "DOTA_Set_Ursa_Savage_Age",
+				"name": "The Savage Age",
 				"store_bundle": "The Savage Age Set",
 				"items": [
 					"Helm of a Savage Age",
@@ -46368,7 +46438,7 @@
 			},
 			{
 				"item_set": "witchdoctor_tale_teller",
-				"name": "DOTA_Set_Witchdoctor_Tale_Teller",
+				"name": "The Traveling Tale-Teller",
 				"store_bundle": "Traveling Tale-Teller's Set",
 				"items": [
 					"Veil of Fables",

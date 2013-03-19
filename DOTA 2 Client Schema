@@ -57235,6 +57235,49 @@
 			"tournament_url"		"http://www.dreamhack.se/dhs13/2013/03/02/the-dreamhack-dota2-invitational/"
 			"image_banner"		"econ"
 		}
+		"15142"
+		{
+			"name"		"G-1 Champions League Season 5"
+			"prefab"		"league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"34"
+					"order"		"12"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_G1_Champions_League_Season_5"
+			"item_description"		"#DOTA_Item_Desc_G1_Champions_League_Season_5"
+			"image_inventory"		"econ/leagues/subscriptions_g-1_season5"
+			"image_banner"		"econ/leagues/subscriptions_g-1_season5_ingame"
+			"tournament_url"		"http://g1.2p.com/dota2/"
+		}
+		"15143"
+		{
+			"name"		"G-1 Champions League Season 5 ADMIN"
+			"prefab"		"league"
+			"tool"
+			{
+				"type"		"league_view_pass"
+				"use_string"		"#ConsumeItem"
+				"usage"
+				{
+					"league_id"		"34"
+					"order"		"12"
+					"admin"		"1"
+				}
+			}
+			"item_type_name"		"#DOTA_WearableType_Unnamed_New_Item"
+			"item_name"		"#DOTA_Item_G1_Champions_League_Season_5_ADMIN"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_G1_Champions_League_Season_5"
+			"image_inventory"		"econ/leagues/subscriptions_g-1_season5"
+			"image_banner"		"econ/leagues/subscriptions_g-1_season5_ingame"
+			"tournament_url"		"http://g1.2p.com/dota2/"
+		}
 		"20000"
 		{
 			"name"		"Of Ebony and Ivory Set"
