@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.727b227a32b706724b790798144b5713ffdfa80d.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/520\/scripts\/items\/items_game.b6097bd778c1cf6f4824a9b1ba15538a9eadd59e.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -918,6 +918,24 @@
 				"used_by_classes": [
 					"Engineer"
 				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 59.000000
+					},
+					{
+						"name": "kill eater score type 3",
+						"class": "kill_eater_score_type_3",
+						"value": 60.000000
+					}
+				]
 				
 			},
 			{
@@ -1077,6 +1095,14 @@
 				},
 				"used_by_classes": [
 					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 58.000000
+					}
 				]
 				
 			},
@@ -6194,6 +6220,14 @@
 				},
 				"used_by_classes": [
 					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 58.000000
+					}
 				]
 				
 			},
@@ -23904,6 +23938,24 @@
 				"used_by_classes": [
 					"Engineer"
 				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 3.000000
+					},
+					{
+						"name": "kill eater score type 2",
+						"class": "kill_eater_score_type_2",
+						"value": 59.000000
+					},
+					{
+						"name": "kill eater score type 3",
+						"class": "kill_eater_score_type_3",
+						"value": 60.000000
+					}
+				]
 				
 			},
 			{
@@ -31215,11 +31267,12 @@
 			{
 				"name": "Portal 2 Soundtrack Promo Package",
 				"defindex": 928,
-				"item_class": "craft_item",
+				"item_class": "tf_wearable",
 				"item_type_name": "Package",
 				"item_name": "What's in the Portal 2 Soundtrack Box?",
-				"item_description": "This sealed Portal 2 Soundtrack Box will open to reveal its contents at a later date.",
+				"item_description": "Open the Portal 2 Soundtrack Box to reveal its contents.",
 				"proper_name": false,
+				"item_slot": "action",
 				"model_player": null,
 				"item_quality": 6,
 				"image_inventory": "backpack\/crafting\/gift_mystery",
@@ -31227,18 +31280,18 @@
 				"max_ilevel": 1,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_mystery.e0cf7028a586c4ce6c21935928035d928a888498.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/gift_mystery_large.e42c714768c89d1407552798d5b5e76cf0bff99a.png",
-				"craft_material_type": "",
 				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true,
 					"can_strangify": true
 				},
-				"used_by_classes": [
-
-				]
-				
+				"tool": {
+					"type": "gift"
+				}
 			},
 			{
 				"name": "The Unknown Monkeynaut",
@@ -31387,6 +31440,49 @@
 				},
 				"used_by_classes": [
 					"Heavy"
+				]
+				
+			},
+			{
+				"name": "The Ap-Sap",
+				"defindex": 933,
+				"item_class": "tf_weapon_sapper",
+				"item_type_name": "Sapper",
+				"item_name": "Ap-Sap",
+				"item_description": "Mann Co. got a great deal from a nice lady in an abandoned science facility on a warehouse full of slightly used, possibly mildly defective sappers. Unlike our other sappers, the Ap-Sap is sentient, and will provide hours of lively, one-sided conversation while you're trying to work. ",
+				"proper_name": true,
+				"item_slot": "building",
+				"model_player": "models\/weapons\/c_models\/c_p2rec\/c_p2rec.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_p2rec\/c_p2rec",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_p2rec.080faad55be425fc6c623c77e714782d48d335a5.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_p2rec_large.58e3c8f0ab008e87267b0873a58e3634e297c08b.png",
+				"craft_class": "weapon",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "sapper voice pak",
+						"class": "sapper_voice_pak",
+						"value": 1.000000
+					},
+					{
+						"name": "sapper voice pak idle wait",
+						"class": "sapper_voice_pak_idle_wait",
+						"value": 3.000000
+					}
 				]
 				
 			},
@@ -34570,6 +34666,100 @@
 				
 			},
 			{
+				"name": "The Wilson Weave",
+				"defindex": 1012,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hair",
+				"item_name": "Wilson Weave",
+				"item_description": "Hear ye, hear ye! Re-enact famous moments in barber history with this tricorn hat of hair!",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/all_class\/starve_scout.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/starve_demo",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/starve_demo.d93cf98d39d25b6931963e09b6f1e158f7fa01e8.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/starve_demo_large.76bbe629c76b98fb1cf38bb24ade11fbb992f6fd.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Engineer"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Ham Shank",
+				"defindex": 1013,
+				"item_class": "saxxy",
+				"item_type_name": "Pork Product",
+				"item_name": "Ham Shank",
+				"item_description": "This makeshift classic is a prison staple. Simply take any common, everyday prison item, like a toothbrush or ham, whittle it to a point, and use it to shiv snitches waiting in line at the commissary for a second helping of ham and toothbrushes.",
+				"proper_name": true,
+				"item_slot": "melee",
+				"model_player": "models\/weapons\/c_models\/c_ham\/c_ham.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/weapons\/c_models\/c_ham\/c_ham",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_ham.5bbd140fa8bd6d2f1918a92712750779232ec874.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/c_ham_large.d2768e3728805cd2f1be0636ded907682e8f7cdc.png",
+				"craft_class": "",
+				"craft_material_type": "weapon",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"used_by_classes": [
+					"Scout",
+					"Sniper",
+					"Soldier",
+					"Demoman",
+					"Medic",
+					"Heavy",
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
 				"name": "The Brutal Bouffant",
 				"defindex": 1014,
 				"item_class": "tf_wearable",
@@ -34755,7 +34945,7 @@
 				"name": "Blind Justice",
 				"defindex": 1019,
 				"item_class": "tf_wearable",
-				"item_type_name": "",
+				"item_type_name": "Facial Hair",
 				"item_name": "Blind Justice",
 				"item_description": "Want to command respect from people standing at an indeterminate distance from your immediate right? Bolt on a platinum Pinkerton badge and experience the thrill for yourself!",
 				"proper_name": false,
@@ -35070,6 +35260,255 @@
 				"max_ilevel": 100,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/tomb_tourniquet.88e0eb2281c32bc087731e144d9ba8c464af8467.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/tomb_tourniquet_large.f786b3e6f8964a074d330932cadde49e88107eb8.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"used_by_classes": [
+					"Scout"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Random Droppable Paints Package",
+				"defindex": 1027,
+				"item_class": "tf_wearable",
+				"item_type_name": "Package",
+				"item_name": "Mann Co. Painting Set",
+				"item_description": "This Do-It-Yourself Mann Co. painting set comes with samples of a few different colors that are, legally-speaking, absolutely, definitely not giving off toxic fumes.",
+				"proper_name": false,
+				"item_slot": "action",
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/crafting\/random_paint",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/random_paint.4c643674ffdda61c0b9c2a858ecd771ebe5d4eed.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/random_paint_large.de37054237352c0e34fa822b84fc7a3f641da517.png",
+				"capabilities": {
+					"usable_gc": true,
+					"usable_out_of_game": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"tool": {
+					"type": "gift"
+				}
+			},
+			{
+				"name": "The Samson Skewer",
+				"defindex": 1028,
+				"item_class": "tf_wearable",
+				"item_type_name": "Cosmetic Knife",
+				"item_name": "Samson Skewer",
+				"item_description": "The handle of this hand-forged survival knife is crammed with all of the things you'll need to survive in the wilderness, i.e. a pack of matches and three raisins.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/heavy\/pn2_knife_lunchbox.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/heavy\/pn2_knife_lunchbox",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_knife_lunchbox.5baebc4f6036aa4b61021de7d0bd5e4b1a4fac92.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_knife_lunchbox_large.6be06c0112df75dfb8c7f264ce908ec957245c54.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"styles": [
+					{
+						"name": "Menacing"
+					},
+					{
+						"name": "Threatening"
+					}
+				]
+				,
+				"used_by_classes": [
+					"Heavy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Bloodhound",
+				"defindex": 1029,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Bloodhound",
+				"item_description": "Experience the vicarious thrill of the tough-talking, dame-seducing gumshoe by reading the collected works of Raymond Chandler. Then take a break from all that and try on this novelty-sized cartoon dog hat.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/sniper\/pn2_samhat_sniper.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/pn2_samhat_spy",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_samhat_spy.613e0f42619a09a729443fcc4e25e9f24d2cd55c.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_samhat_spy_large.7662fecfcd90ebf6d6fc18f74b7455d67484ef37.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"used_by_classes": [
+					"Sniper",
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Dapper Disguise",
+				"defindex": 1030,
+				"item_class": "tf_wearable",
+				"item_type_name": "Mask",
+				"item_name": "Dapper Disguise",
+				"item_description": "Go incognito as a handsome man and enjoy the secret benefits of the exceptionally attractive. High-paying jobs! Erotic encounters! Free bread sticks at the Olive Garden! Eat as many as you can, though, because eventually the mask will rot off, leaving you uglier than before.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/spy\/pn2_mask.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/spy\/pn2_mask",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_mask.46a37af074b6b7e26b3e455a0a965861155e543d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_mask_large.4c403b6a97338f5034a528f830ce10993f3dcbca.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"used_by_classes": [
+					"Spy"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Necronomicrown",
+				"defindex": 1031,
+				"item_class": "tf_wearable",
+				"item_type_name": "Hat",
+				"item_name": "Necronomicrown",
+				"item_description": "Like all identical twins, you were born from a cyst in your sibling's neck, grew into an evil head, and eventually sloughed off your twin in your own exact duplicate body. Now you can't tell each other apart! Take out the guesswork with this identifying demonic skullcap.",
+				"proper_name": true,
+				"item_slot": "head",
+				"model_player": "models\/player\/items\/pyro\/pn2_evilash.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/pyro\/pn2_evilash",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_evilash.68183416be257c2dd010e62b49d1d3a04945fe44.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_evilash_large.366f560cfbff2fab674527a721306e94b4e4d7c8.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"used_by_classes": [
+					"Pyro"
+				]
+				,
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "The Long Fall Loafers",
+				"defindex": 1032,
+				"item_class": "tf_wearable",
+				"item_type_name": "Boots",
+				"item_name": "Long Fall Loafers",
+				"item_description": "These curved titanium shock-absorbers connect to the base of your spine and run down the inside of both legs. Now when you fall from a great height, the agony of impact will be absorbed, then conveniently redistributed to your whole pain-wracked body.",
+				"proper_name": true,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/scout\/pn2_longfall.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/scout\/pn2_longfall",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_longfall.6c1f1d28dd0e666c002b2881090ac6f9bbd8c685.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/pn2_longfall_large.89454e19fa4ad8e9f2696590f7c8050ea84c4f30.png",
 				"drop_type": "none",
 				"craft_class": "",
 				"craft_material_type": "hat",
@@ -39314,7 +39753,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 54.000000
+						"value": 57.000000
 					}
 				]
 				
@@ -40111,7 +40550,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 49.000000
+						"value": 56.000000
 					}
 				]
 				
@@ -41220,7 +41659,7 @@
 					{
 						"name": "set supply crate series",
 						"class": "supply_crate_series",
-						"value": 40.000000
+						"value": 50.000000
 					}
 				]
 				
@@ -41952,7 +42391,7 @@
 				"image_inventory": "backpack\/crafting\/diary_book",
 				"min_ilevel": 1,
 				"max_ilevel": 1,
-				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/diary_book.51869484f35477a588ddf7083f6f317dc9d75c31.png",
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/diary_book.830b6fd9c687cfd3515655cf10a9a9c4b8b225bd.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/diary_book_large.8560274c9e1194f4dacd5fcb538033c5176259be.png",
 				"craft_material_type": "",
 				"capabilities": {
@@ -42946,6 +43385,39 @@
 				
 			},
 			{
+				"name": "Strange Bacon Grease",
+				"defindex": 5633,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangifierTool",
+				"item_name": "Strange Bacon Grease",
+				"item_description": "Use this on a Frying Pan to make it track the number of enemies you kill with it.  Normal Frying Pans will be upgraded to Strange quality.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_bacon_grease",
+				"min_ilevel": 5,
+				"max_ilevel": 5,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_bacon_grease.e5185b96d3795303a4e26dabe942eb0845b61052.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_bacon_grease_large.7bb2a5fe6c58a59a83f09304004f14194c95d012.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"tool": {
+					"type": "strangifier",
+					"usage_capabilities": {
+						"can_strangify": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				
+			},
+			{
 				"name": "Strange Part (Armory)",
 				"defindex": 5999,
 				"item_class": "tool",
@@ -43261,6 +43733,47 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 15.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Medics Killed",
+				"defindex": 6007,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Medics Killed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon will enable it to track the number of Medics you kill with that weapon.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_medics_killed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_medics_killed.84ddb0e57fddb6dc16d78371afe4bdb3bf1e1c20.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_medics_killed_large.cd579ce27a876359a0f5b12989babcf19add1347.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 18.000000
 					}
 				]
 				
@@ -44122,6 +44635,88 @@
 						"name": "strange part new counter ID",
 						"class": "strange_part_new_counter_id",
 						"value": 49.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Tanks Destroyed",
+				"defindex": 6038,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Tanks Destroyed",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon of your choice will enable it to track the number of invading Tanks you destroy with it in Mann-vs-Machine games.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_tank_destroyed",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_tank_destroyed.c425fc564cc10d805d0b22660a0155566a23af06.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_tank_destroyed_large.ece8a0d560e5a61bd210a88f66f5ebfddeed1b5e.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 61.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Strange Part: Long-Distance Kills",
+				"defindex": 6039,
+				"item_class": "tool",
+				"item_type_name": "TF_StrangePart",
+				"item_name": "Strange Part: Long-Distance Kills",
+				"item_description": "Adding this Strange Part to a Strange-quality weapon will enable it to track the number of enemies you kill with that weapon from far away.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack\/crafting\/strange_part_long_distance_kills",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_long_distance_kills.4c1a30ec9a2b2209ba3cf11770fad762549fbe9d.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/520\/icons\/strange_part_long_distance_kills_large.2aa0573ca650aec3a141b27c6806960de93088cc.png",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"tool": {
+					"type": "strange_part",
+					"usage_capabilities": {
+						"strange_parts": true
+					}
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "strange part new counter ID",
+						"class": "strange_part_new_counter_id",
+						"value": 62.000000
 					}
 				]
 				
@@ -60519,6 +61114,26 @@
 				"stored_as_integer": false
 			},
 			{
+				"name": "sapper voice pak",
+				"defindex": 451,
+				"attribute_class": "sapper_voice_pak",
+				"description_string": "Attrib_Sapper_Voice_Pak",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "sapper voice pak idle wait",
+				"defindex": 452,
+				"attribute_class": "sapper_voice_pak_idle_wait",
+				"description_string": "Attrib_Sapper_Voice_Pak_Idle_Wait",
+				"description_format": "value_is_additive",
+				"effect_type": "positive",
+				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
 				"name": "merasmus hat level display ONLY",
 				"defindex": 453,
 				"attribute_class": "merasmus_hat_level_display_ONLY",
@@ -60798,6 +61413,22 @@
 				"description_format": "value_is_inverted_percentage",
 				"effect_type": "positive",
 				"hidden": false,
+				"stored_as_integer": false
+			},
+			{
+				"name": "kill eater 3",
+				"defindex": 494,
+				"attribute_class": "kill_eater_3",
+				"effect_type": "positive",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "kill eater score type 3",
+				"defindex": 495,
+				"attribute_class": "kill_eater_score_type_3",
+				"effect_type": "positive",
+				"hidden": true,
 				"stored_as_integer": false
 			},
 			{
@@ -62290,6 +62921,228 @@
 					}
 				]
 				
+			},
+			{
+				"name": "KillEater_TimeCloakedRank",
+				"levels": [
+					{
+						"level": 0,
+						"required_score": 200,
+						"name": "Strange"
+					},
+					{
+						"level": 1,
+						"required_score": 500,
+						"name": "Unremarkable"
+					},
+					{
+						"level": 2,
+						"required_score": 900,
+						"name": "Scarcely Shocking"
+					},
+					{
+						"level": 3,
+						"required_score": 1337,
+						"name": "Mildly Magnetizing"
+					},
+					{
+						"level": 4,
+						"required_score": 2000,
+						"name": "Somewhat Inducting"
+					},
+					{
+						"level": 5,
+						"required_score": 2700,
+						"name": "Unfortunate"
+					},
+					{
+						"level": 6,
+						"required_score": 3500,
+						"name": "Notably Deleterious"
+					},
+					{
+						"level": 7,
+						"required_score": 4500,
+						"name": "Sufficiently Ruinous"
+					},
+					{
+						"level": 8,
+						"required_score": 5500,
+						"name": "Truly Conducting"
+					},
+					{
+						"level": 9,
+						"required_score": 7000,
+						"name": "Spectacularly Pseudoful"
+					},
+					{
+						"level": 10,
+						"required_score": 9000,
+						"name": "Ion-Spattered"
+					},
+					{
+						"level": 11,
+						"required_score": 12000,
+						"name": "Wickedly Dynamizing"
+					},
+					{
+						"level": 12,
+						"required_score": 16000,
+						"name": "Positively Plasmatic"
+					},
+					{
+						"level": 13,
+						"required_score": 21337,
+						"name": "Totally Ordinary"
+					},
+					{
+						"level": 14,
+						"required_score": 35000,
+						"name": "Circuit-Melting"
+					},
+					{
+						"level": 15,
+						"required_score": 58007,
+						"name": "Nullity-Inducing"
+					},
+					{
+						"level": 16,
+						"required_score": 90000,
+						"name": "Server-Clearing"
+					},
+					{
+						"level": 17,
+						"required_score": 120000,
+						"name": "Epic"
+					},
+					{
+						"level": 18,
+						"required_score": 140000,
+						"name": "Legendary"
+					},
+					{
+						"level": 19,
+						"required_score": 160000,
+						"name": "Australian"
+					},
+					{
+						"level": 20,
+						"required_score": 200000,
+						"name": "Mann Co. Select"
+					}
+				]
+				
+			},
+			{
+				"name": "KillEater_HealthGivenRank",
+				"levels": [
+					{
+						"level": 0,
+						"required_score": 2000,
+						"name": "Strange"
+					},
+					{
+						"level": 1,
+						"required_score": 5000,
+						"name": "Unremarkable"
+					},
+					{
+						"level": 2,
+						"required_score": 9000,
+						"name": "Scarcely Shocking"
+					},
+					{
+						"level": 3,
+						"required_score": 13370,
+						"name": "Mildly Magnetizing"
+					},
+					{
+						"level": 4,
+						"required_score": 20000,
+						"name": "Somewhat Inducting"
+					},
+					{
+						"level": 5,
+						"required_score": 27000,
+						"name": "Unfortunate"
+					},
+					{
+						"level": 6,
+						"required_score": 35000,
+						"name": "Notably Deleterious"
+					},
+					{
+						"level": 7,
+						"required_score": 45000,
+						"name": "Sufficiently Ruinous"
+					},
+					{
+						"level": 8,
+						"required_score": 55000,
+						"name": "Truly Conducting"
+					},
+					{
+						"level": 9,
+						"required_score": 70000,
+						"name": "Spectacularly Pseudoful"
+					},
+					{
+						"level": 10,
+						"required_score": 90000,
+						"name": "Ion-Spattered"
+					},
+					{
+						"level": 11,
+						"required_score": 120000,
+						"name": "Wickedly Dynamizing"
+					},
+					{
+						"level": 12,
+						"required_score": 160000,
+						"name": "Positively Plasmatic"
+					},
+					{
+						"level": 13,
+						"required_score": 213370,
+						"name": "Totally Ordinary"
+					},
+					{
+						"level": 14,
+						"required_score": 350000,
+						"name": "Circuit-Melting"
+					},
+					{
+						"level": 15,
+						"required_score": 518008,
+						"name": "Nullity-Inducing"
+					},
+					{
+						"level": 16,
+						"required_score": 900000,
+						"name": "Server-Clearing"
+					},
+					{
+						"level": 17,
+						"required_score": 1200000,
+						"name": "Epic"
+					},
+					{
+						"level": 18,
+						"required_score": 1400000,
+						"name": "Legendary"
+					},
+					{
+						"level": 19,
+						"required_score": 1600000,
+						"name": "Australian"
+					},
+					{
+						"level": 20,
+						"required_score": 2000000,
+						"name": "Mann Co. Select"
+					}
+				]
+				
 			}
 		]
 		,
@@ -62488,6 +63341,11 @@
 				"level_data": "KillEaterRank"
 			},
 			{
+				"type": 18,
+				"type_name": "Medics Killed",
+				"level_data": "KillEaterRank"
+			},
+			{
 				"type": 19,
 				"type_name": "Buildings Destroyed",
 				"level_data": "KillEaterRank"
@@ -62615,6 +63473,31 @@
 			{
 				"type": 51,
 				"type_name": "Banners Deployed",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 58,
+				"type_name": "Seconds Cloaked",
+				"level_data": "KillEater_TimeCloakedRank"
+			},
+			{
+				"type": 59,
+				"type_name": "Health Dispensed to Allies",
+				"level_data": "KillEater_HealthGivenRank"
+			},
+			{
+				"type": 60,
+				"type_name": "Allies Teleported",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 61,
+				"type_name": "Tanks Destroyed",
+				"level_data": "KillEaterRank"
+			},
+			{
+				"type": 62,
+				"type_name": "Long-Distance Kills",
 				"level_data": "KillEaterRank"
 			}
 		]
