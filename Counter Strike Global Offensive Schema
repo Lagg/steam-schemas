@@ -1,0 +1,438 @@
+{
+	"result": {
+		"status": 1,
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/730\/scripts\/items\/items_game.f299480c3b46ce1d8e1950129c8d730876d73fb5.txt",
+		"qualities": {
+			"normal": 0,
+			"genuine": 1,
+			"vintage": 2,
+			"unusual": 3,
+			"unique": 4,
+			"community": 5,
+			"developer": 6,
+			"selfmade": 7,
+			"customized": 8,
+			"strange": 9,
+			"completed": 10,
+			"haunted": 11,
+			"tournament": 12
+		},
+		"qualityNames": {
+			"normal": "normal",
+			"genuine": "genuine",
+			"vintage": "vintage",
+			"unusual": "unusual",
+			"unique": "unique",
+			"community": "community",
+			"developer": "developer",
+			"selfmade": "selfmade",
+			"customized": "customized",
+			"strange": "strange",
+			"completed": "completed",
+			"haunted": "haunted",
+			"tournament": "tournament"
+		},
+		"originNames": [
+			{
+				"origin": 0,
+				"name": "Timed Drop"
+			},
+			{
+				"origin": 1,
+				"name": "Achievement"
+			},
+			{
+				"origin": 2,
+				"name": "Purchased"
+			},
+			{
+				"origin": 3,
+				"name": "Traded"
+			},
+			{
+				"origin": 4,
+				"name": "Crafted"
+			},
+			{
+				"origin": 5,
+				"name": "Store Promotion"
+			},
+			{
+				"origin": 6,
+				"name": "Gifted"
+			},
+			{
+				"origin": 7,
+				"name": "Support Granted"
+			},
+			{
+				"origin": 8,
+				"name": "Found in Crate"
+			},
+			{
+				"origin": 9,
+				"name": "Earned"
+			},
+			{
+				"origin": 10,
+				"name": "Third-Party Promotion"
+			},
+			{
+				"origin": 11,
+				"name": "Wrapped Gift"
+			},
+			{
+				"origin": 12,
+				"name": "Halloween Drop"
+			},
+			{
+				"origin": 13,
+				"name": "Steam Purchase"
+			},
+			{
+				"origin": 14,
+				"name": "Foreign Item"
+			},
+			{
+				"origin": 15,
+				"name": "CD Key"
+			},
+			{
+				"origin": 16,
+				"name": "Collection Reward"
+			},
+			{
+				"origin": 17,
+				"name": "Preview Item"
+			},
+			{
+				"origin": 18,
+				"name": "Steam Workshop Contribution"
+			},
+			{
+				"origin": 19,
+				"name": "Periodic Score Reward"
+			},
+			{
+				"origin": 20,
+				"name": "Recycling"
+			},
+			{
+				"origin": 21,
+				"name": "Tournament Drop"
+			}
+		]
+		,
+		"items": [
+			{
+				"name": "Community Season One Spring 2013",
+				"defindex": 1000,
+				"item_class": "craft_item",
+				"item_type_name": "CSGO_Type_Ticket",
+				"item_name": "CSGO_Ticket_CommunitySeasonOneSpring2013",
+				"item_description": "",
+				"proper_name": false,
+				"item_quality": 255,
+				"image_inventory": "backpack\/crafting\/community_support_pass",
+				"min_ilevel": 1,
+				"max_ilevel": 1,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/730\/icons\/community_support_pass.daebdb6a6aa394adb3e87e6a4038d8114176a490.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/730\/icons\/community_support_pass_large.3bc2d963e3c144b2035cf029ec8ff661ad4b0147.png",
+				"capabilities": {
+					"can_gift_wrap": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"paintable_unusual": true
+				},
+				"tool": {
+					"type": "league_play_pass",
+					"use_string": "ConsumeItem"
+				}
+			}
+		]
+		,
+		"attributes": [
+			{
+				"name": "tradable after date",
+				"defindex": 0,
+				"attribute_class": "tradable_after_date",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "always tradable",
+				"defindex": 1,
+				"attribute_class": "always_tradable",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "cannot trade",
+				"defindex": 2,
+				"attribute_class": "cannot_trade",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": false
+			},
+			{
+				"name": "referenced item id low",
+				"defindex": 3,
+				"attribute_class": "referenced_item_id_low",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "referenced item id high",
+				"defindex": 4,
+				"attribute_class": "referenced_item_id_high",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "referenced item def",
+				"defindex": 5,
+				"attribute_class": "referenced_item_def",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"effect_type": "negative",
+				"hidden": true,
+				"stored_as_integer": true
+			},
+			{
+				"name": "attach particle effect",
+				"defindex": 11,
+				"attribute_class": "set_attached_particle",
+				"min_value": 0.000000,
+				"max_value": 0.000000,
+				"description_string": "Attrib_AttachedParticle",
+				"description_format": "value_is_particle_index",
+				"effect_type": "neutral",
+				"hidden": false,
+				"stored_as_integer": false
+			}
+		]
+		,
+		"item_sets": [
+
+		]
+		,
+		"attribute_controlled_attached_particles": [
+
+		]
+		,
+		"item_levels": [
+			{
+				"name": "KillEaterRank",
+				"levels": [
+					{
+						"level": 0,
+						"required_score": 10,
+						"name": "KillEaterRank0"
+					},
+					{
+						"level": 1,
+						"required_score": 25,
+						"name": "KillEaterRank1"
+					},
+					{
+						"level": 2,
+						"required_score": 50,
+						"name": "KillEaterRank2"
+					},
+					{
+						"level": 3,
+						"required_score": 75,
+						"name": "KillEaterRank3"
+					},
+					{
+						"level": 4,
+						"required_score": 100,
+						"name": "KillEaterRank4"
+					},
+					{
+						"level": 5,
+						"required_score": 150,
+						"name": "KillEaterRank5"
+					},
+					{
+						"level": 6,
+						"required_score": 200,
+						"name": "KillEaterRank6"
+					},
+					{
+						"level": 7,
+						"required_score": 250,
+						"name": "KillEaterRank7"
+					},
+					{
+						"level": 8,
+						"required_score": 300,
+						"name": "KillEaterRank8"
+					},
+					{
+						"level": 9,
+						"required_score": 350,
+						"name": "KillEaterRank9"
+					},
+					{
+						"level": 10,
+						"required_score": 400,
+						"name": "KillEaterRank10"
+					},
+					{
+						"level": 11,
+						"required_score": 450,
+						"name": "KillEaterRank11"
+					},
+					{
+						"level": 12,
+						"required_score": 500,
+						"name": "KillEaterRank12"
+					},
+					{
+						"level": 13,
+						"required_score": 600,
+						"name": "KillEaterRank13"
+					},
+					{
+						"level": 14,
+						"required_score": 700,
+						"name": "KillEaterRank14"
+					},
+					{
+						"level": 15,
+						"required_score": 800,
+						"name": "KillEaterRank15"
+					},
+					{
+						"level": 16,
+						"required_score": 900,
+						"name": "KillEaterRank16"
+					},
+					{
+						"level": 17,
+						"required_score": 1000,
+						"name": "KillEaterRank17"
+					}
+				]
+				
+			}
+		]
+		,
+		"kill_eater_ranks": [
+			{
+				"level": 0,
+				"required_score": 10,
+				"name": "KillEaterRank0"
+			},
+			{
+				"level": 1,
+				"required_score": 25,
+				"name": "KillEaterRank1"
+			},
+			{
+				"level": 2,
+				"required_score": 50,
+				"name": "KillEaterRank2"
+			},
+			{
+				"level": 3,
+				"required_score": 75,
+				"name": "KillEaterRank3"
+			},
+			{
+				"level": 4,
+				"required_score": 100,
+				"name": "KillEaterRank4"
+			},
+			{
+				"level": 5,
+				"required_score": 150,
+				"name": "KillEaterRank5"
+			},
+			{
+				"level": 6,
+				"required_score": 200,
+				"name": "KillEaterRank6"
+			},
+			{
+				"level": 7,
+				"required_score": 250,
+				"name": "KillEaterRank7"
+			},
+			{
+				"level": 8,
+				"required_score": 300,
+				"name": "KillEaterRank8"
+			},
+			{
+				"level": 9,
+				"required_score": 350,
+				"name": "KillEaterRank9"
+			},
+			{
+				"level": 10,
+				"required_score": 400,
+				"name": "KillEaterRank10"
+			},
+			{
+				"level": 11,
+				"required_score": 450,
+				"name": "KillEaterRank11"
+			},
+			{
+				"level": 12,
+				"required_score": 500,
+				"name": "KillEaterRank12"
+			},
+			{
+				"level": 13,
+				"required_score": 600,
+				"name": "KillEaterRank13"
+			},
+			{
+				"level": 14,
+				"required_score": 700,
+				"name": "KillEaterRank14"
+			},
+			{
+				"level": 15,
+				"required_score": 800,
+				"name": "KillEaterRank15"
+			},
+			{
+				"level": 16,
+				"required_score": 900,
+				"name": "KillEaterRank16"
+			},
+			{
+				"level": 17,
+				"required_score": 1000,
+				"name": "KillEaterRank17"
+			}
+		]
+		,
+		"kill_eater_score_types": [
+			{
+				"type": 0,
+				"type_name": "KillEaterEventType_Kills"
+			}
+		]
+		
+	}
+}
