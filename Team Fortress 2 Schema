@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.ca162e2a7cd3f9cdb7efede8e9cd6e1e1cd3c151.txt",
+		"items_game_url": "http:\/\/media.steampowered.com\/apps\/440\/scripts\/items\/items_game.bb550ae8698bd269ef7684b3e363d2f4c365e694.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -35128,26 +35128,19 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_badge.4a2c3b27a3c750a0415d7552a123be060ab83e48.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_badge_large.20faa7b4ae1eea08fa59b251772b78b854f816fd.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true,
 					"can_strangify": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The Fortune Hunter",
@@ -35166,27 +35159,20 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_pick_demo.6e23732304343c4457ac5b30b9dda820235c587e.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_pick_demo_large.d015184ae1070f701f07ef15eeb2c4b7981bd825.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"paintable": true,
 					"nameable": true,
 					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
 					"strange_parts": true,
 					"can_card_upgrade": true,
 					"can_strangify": true
-				},
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
-				]
-				
+				}
 			},
 			{
 				"name": "The Tomb Wrapper",
@@ -35205,11 +35191,12 @@
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_tourniquet.88e0eb2281c32bc087731e144d9ba8c464af8467.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/tomb_tourniquet_large.f786b3e6f8964a074d330932cadde49e88107eb8.png",
 				"drop_type": "none",
-				"craft_class": "",
+				"craft_class": "hat",
 				"craft_material_type": "hat",
 				"capabilities": {
 					"nameable": true,
 					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
 					"can_craft_count": true,
 					"can_craft_mark": true,
 					"can_be_restored": true,
@@ -35219,14 +35206,6 @@
 				},
 				"used_by_classes": [
 					"Scout"
-				]
-				,
-				"attributes": [
-					{
-						"name": "cannot trade",
-						"class": "cannot_trade",
-						"value": 1.000000
-					}
 				]
 				
 			},
@@ -55362,6 +55341,171 @@
 				"max_ilevel": 25,
 				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc8_medal_participant_iron.75480f07a4e96af716239c749de5be6ba508f65d.png",
 				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/ugc8_medal_participant_iron_large.cc11e51558c76fdd61e715589f72b8218b9d1623.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan First Place Season 2",
+				"defindex": 8243,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan First Place",
+				"item_description": "Season 2",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/rsp_s02.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/rsp_s02",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02.a0acace6419c6012751d2d5725f121d80fe04c5a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02_large.0981f63084001ba47caf9448bf61e77791b30ac3.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan Second Place Season 2",
+				"defindex": 8244,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan Second Place",
+				"item_description": "Season 2",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/rsp_s02.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/rsp_s02",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02.a0acace6419c6012751d2d5725f121d80fe04c5a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02_large.0981f63084001ba47caf9448bf61e77791b30ac3.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan Third Place Season 2",
+				"defindex": 8245,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan Third Place",
+				"item_description": "Season 2",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/rsp_s02.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/rsp_s02",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02.a0acace6419c6012751d2d5725f121d80fe04c5a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02_large.0981f63084001ba47caf9448bf61e77791b30ac3.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan Participant Season 2",
+				"defindex": 8246,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan Participant",
+				"item_description": "Season 2",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/rsp_s02.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/rsp_s02",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02.a0acace6419c6012751d2d5725f121d80fe04c5a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02_large.0981f63084001ba47caf9448bf61e77791b30ac3.png",
+				"drop_type": "none",
+				"capabilities": {
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true
+				},
+				"attributes": [
+					{
+						"name": "cannot trade",
+						"class": "cannot_trade",
+						"value": 1.000000
+					}
+				]
+				
+			},
+			{
+				"name": "Ready Steady Pan Helper Season 2",
+				"defindex": 8247,
+				"item_class": "tf_wearable",
+				"item_type_name": "Tournament Medal",
+				"item_name": "Ready Steady Pan Tournament Helper",
+				"item_description": "Season 2\nThanks for Helping!",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models\/player\/items\/all_class\/rsp_s02.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack\/player\/items\/all_class\/rsp_s02",
+				"min_ilevel": 25,
+				"max_ilevel": 25,
+				"image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02.a0acace6419c6012751d2d5725f121d80fe04c5a.png",
+				"image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/rsp_s02_large.0981f63084001ba47caf9448bf61e77791b30ac3.png",
 				"drop_type": "none",
 				"capabilities": {
 					"can_craft_mark": true,
