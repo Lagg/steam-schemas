@@ -34684,6 +34684,7 @@
 		{
 			"name"	"The Ap-Sap"
 			"first_sale_date"	"2013/04/23"
+			"prefab"	"valve"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -39089,13 +39090,6 @@
 			"item_description"		"#TF_robo_soldier_fullmetaldrillhat_Desc"
 			"equip_region"		"hat"
 			"item_type_name" 	"#TF_Wearable_Hat"
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"grenades"		"1"
-				}
-			}
 			"image_inventory"		"backpack/workshop/player/items/soldier/robo_soldier_fullmetaldrillhat/robo_soldier_fullmetaldrillhat"
 			"capabilities"
 			{
@@ -39260,13 +39254,6 @@
 			"item_description"		"#TF_robo_soldier_sparkplug_Desc"
 			"equip_region"		"soldier_cigar"
 			"item_type_name"	"#TF_Wearable_Cigar"
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"grenades"		"1"
-				}
-			}
 			"image_inventory"		"backpack/workshop/player/items/soldier/robo_soldier_sparkplug/robo_soldier_sparkplug"
 			"model_player"		"models/workshop/player/items/soldier/robo_soldier_sparkplug/robo_soldier_sparkplug.mdl"
 			"used_by_classes"
@@ -39520,7 +39507,7 @@
 			"prefab"		"no_craft cosmetic"
 			"item_name"		"#TF_robo_medic_physician_mask"
 			"item_description"		"#TF_robo_medic_physician_mask_Desc"
-			"equip_region"		"face"
+			"equip_region"		"beard"
 			"item_type_name"	"#TF_Wearable_GenPractitioner"
 			"image_inventory"		"backpack/workshop/player/items/medic/robo_medic_physician_mask/robo_medic_physician_mask"
 			"capabilities"
@@ -45489,6 +45476,7 @@
 		"2050"
 		{
 			"name" "Football Manager 2012 Promo Bundle"
+			"prefab"	"default_bundle_payment"
 			"first_sale_date"	"2011/10/25"
 			"item_class"	"bundle"
 			"bundle"
