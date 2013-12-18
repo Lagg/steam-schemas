@@ -40505,6 +40505,146 @@
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
+		"1072"
+		{
+			"name"	"The Portable Smissmas Spirit Dispenser"
+			"first_sale_date"	"2013/12/18"
+			"prefab"	"no_craft misc"
+			"equip_region"	"back"
+			"item_type_name"	"#TF_Wearable_Snowglobe"
+			"item_name"	"#TF_Winter2013_SpiritDispenser"
+			"item_description"	"#TF_Winter2013_SpiritDispenser_Desc"
+			"image_inventory"	"backpack/player/items/pyro/xms_backpack_snowglobe"
+			"model_player"		"models/player/items/pyro/xms_backpack_snowglobe.mdl"
+			"propername" "1"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"backpack"		"1"
+				}
+			}
+		}
+		"1073"
+		{
+			"name"	"The War on Smissmas Battle Hood"
+			"first_sale_date"	"2013/12/18"
+			"prefab"	"no_craft hat"
+			"item_name"	"#TF_Winter2013_BattleHood"
+			"item_description"	"#TF_Winter2013_BattleHood_Desc"
+			"image_inventory"	"backpack/player/items/soldier/soldier_hood"
+			"model_player"		"models/player/items/soldier/soldier_hood.mdl"
+			"propername" "1"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"0"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/player/items/soldier/soldier_hood.mdl"
+						"name"	"#TF_Winter2013_BattleHood_Style0"
+						"skin_red" "0"
+						"skin_blu" "1"
+						"additional_hidden_bodygroups"
+						{
+							"hat"			"1"
+						}
+					}
+					"1"
+					{
+						"model_player"	"models/player/items/soldier/soldier_hood_helmet.mdl"
+						"name"	"#TF_Winter2013_BattleHood_Style1"
+						"skin_red" "0"
+						"skin_blu" "1"
+					}
+				}
+			}
+		}
+		"1074"
+		{
+			"name"	"The War on Smissmas Battle Socks"
+			"first_sale_date"	"2013/12/18"
+			"prefab"	"no_craft grenades"
+			"item_name"	"#TF_Winter2013_BattleSocks"
+			"item_description"	"#TF_Winter2013_BattleSocks_Desc"
+			"image_inventory"	"backpack/player/items/soldier/xms_nade_socks"
+			"model_player"		"models/player/items/soldier/xms_nade_socks.mdl"
+			"propername" "1"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+		}
+		"1075"
+		{
+			"name"	"The Sack Fulla Smissmas"
+			"first_sale_date"	"2013/12/18"
+			"prefab"	"no_craft misc"
+			"equip_region"	"scout_backpack"
+			"item_type_name"	"#TF_Wearable_Backpack"
+			"item_name"	"#TF_Winter2013_SmissmasSack"
+			"item_description"	"#TF_Winter2013_SmissmasSack_Desc"
+			"image_inventory"	"backpack/player/items/scout/xms_santa_sack"
+			"model_player"		"models/player/items/scout/xms_santa_sack.mdl"
+			"propername" "1"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"1076"
+		{
+			"name"	"The Smissmass Caribou"
+			"first_sale_date"	"2013/12/18"
+			"prefab"	"no_craft hat"
+			"item_name"	"#TF_Winter2013_Caribou"
+			"item_description"	"#TF_Winter2013_Caribou_Desc"
+			"image_inventory"	"backpack/player/items/sniper/xms_braindeer"
+			"model_player"		"models/player/items/sniper/xms_braindeer.mdl"
+			"propername" "1"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"visuals"
+			{
+				"skin"		"0"
+			}
+		}
+		"1077"
+		{
+			"name"	"Randolph the Blood-Nosed Caribou"
+			"first_sale_date"	"2013/12/18"
+			"prefab"	"no_craft hat"
+			"item_name"	"#TF_Winter2013_Randolph"
+			"item_description"	"#TF_Winter2013_Randolph_Desc"
+			"image_inventory"	"backpack/player/items/sniper/xms_braindeer_rare"
+			"model_player"		"models/player/items/sniper/xms_braindeer.mdl"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"visuals_red"
+			{
+				"skin"		"1"
+			}
+			"visuals_blu"
+			{
+				"skin"		"2"
+			}
+		}
 
 
 
